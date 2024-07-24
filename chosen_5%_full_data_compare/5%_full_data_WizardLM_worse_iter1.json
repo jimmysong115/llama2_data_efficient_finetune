@@ -1,0 +1,587 @@
+[
+    {
+        "instruction": "If a car travels 120 miles in 2 hours, what is its average speed in miles per hour?",
+        "input": "",
+        "output": " departamento de defensa nacional del gobierno mexicano 2021"
+    },
+    {
+        "instruction": "What is the area of a rectangle with length 12 cm and width 8 cm? A) 48 cm^2 B) 96 cm^2 C) 120 cm^2 D) 192 cm^2",
+        "input": "",
+        "output": "Area = length x width\nArea of rectangle = 12 cm x 8 cm = 96 cm^2"
+    },
+    {
+        "instruction": "Consider the differential equation dy/dx = 3(y - x)/(y + x). (a) Find the general solution of the differential equation. (b) Find the particular solution of the differential equation that satisfies the initial condition y(0) = 11",
+        "input": "",
+        "output": "(a) The general solution of the differential equation dy/dx = 3(y - x)/(y + x) is y = Ae^(3x) + B where A and B are constants.\n(b) The particular solution of the differential equation that satisfies the initial condition y(0) = 11 is y = 11 + C where C is a constant."
+    },
+    {
+        "instruction": "Find the limit of (sin x)/x as x approaches 0",
+        "input": "",
+        "output": "\ndef limit_of_sin(x, y):\n    if x == 0:\n        return y\n    else:\n        return (sin(x)/x).limit_of_convergence()"
+    },
+    {
+        "instruction": "Find the antiderivative of g(x) = 6x - 9",
+        "input": "",
+        "output": "\nFind the area under the graph of f(x) = 2x + 3 between x = 1 and x = 2."
+    },
+    {
+        "instruction": "Find the equation of the normal line to the curve y = ln(x) at the point (e,1)1",
+        "input": "",
+        "output": "\ndef solve(x, y):\n    return 1.0 / (x ** 2 + 1)\n\nprint(\"The equation of the normal line to the curve y = ln(x) at the point (e, 1) is:\", solve(e, 1))"
+    },
+    {
+        "instruction": "Find the area of a circle with radius 5 cm",
+        "input": "",
+        "output": "A_circle_with_radius_5_cm_has_an_area_of_25_pi_squared_centimeters."
+    },
+    {
+        "instruction": "Solve the system of equations y = 2x - 5 and y = -x + 3 by elimination",
+        "input": "",
+        "output": "\ndef solve_system_of_equations_by_elimination(equation_list):\n    for i in range(len(equation_list)):\n        if equation_list[i][0] == 'y':\n            x = equation_list[i][1]\n            y = equation_list[i][2]\n            try:\n                return [int(x), int(y)]\n            except ValueError:\n                continue\n    return None"
+    },
+    {
+        "instruction": "Evaluate the integral of (x + 2)/(x^2 + 9) dx from x = 0 to x = 2",
+        "input": "",
+        "output": "The integral of (x + 2)/(x^2 + 9) dx from x = 0 to x = 2 is equal to 4.\nTo find the integral, we can use the fact that the quotient rule states that the integral of f(x)/g(x) dx is equal to [(f(x)) - (f(a))]/((x - a)^2 * g(x)) + [1/2] * [(f'(x)) - (f'(a))]/((x - a)^2 * g'(x)) where a is any number between x and x + h. \nApplying this to our problem, we have:\n- Integral of (x + 2)/(x^2 + 9) dx from x = 0 to x = 2 = 0\n+ Integral of (x + 2)/(x^2 + 9) dx from x = 0 to x = 2 - 0\n= 0\n- Integral of (x + 2)/(x^2 + 9) dx from x = 0 to x = 2 + h\n+ Integral of (x + 2)/(x^2 + 9) dx from x = 0 to x = 2\n= 2h/(3*x^2)\nSetting h = 1 and substituting x = 0 and x = 2 into the equation above, we get:\n- Integral of (x + 2)/(x^2 + 9) dx from x = 0 to x = 2 = 0\n+ Integral of (x + 2)/(x^2 + 9) dx from x = 0 to x = 2 - 0\n= 0\n+ Integral of (x + 2)/(x^2"
+    },
+    {
+        "instruction": "What is the solution to the Goldbach Conjecture, which states that every even integer greater than 2 can be expressed as the sum of two prime numbers?",
+        "input": "",
+        "output": " supported by 281 other contributors."
+    },
+    {
+        "instruction": "What is the solution to the Hodge Conjecture, which states that Hodge cycles, a type of geometric cycle, are algebraic cycles of a certain type?",
+        "input": "",
+        "output": " furnacedeliter.com 2017-12-30 16:02:00.\nA geometric cycle in algebraic geometry is a closed path, a loop, on a complex manifold.\nThe Hodge conjecture states that the cycles are algebraic cycles."
+    },
+    {
+        "instruction": "Given an array of integers, find the length of the longest increasing subarray. A subarray is a contiguous subset of the array. An increasing subarray is a subarray where every element is greater than its previous element. For example, if the array is [5, 6, -1 ,3 ,4 ,7 ,2], then the longest increasing subarray is [-1 ,3 ,4 ,7] with length 4. Please use Python to solve the above question.",
+        "input": "",
+        "output": "\ndef longest_increasing_subarray(arr):\n    # Fill this in.\n    pass"
+    },
+    {
+        "instruction": "Please use one of Go/Matlab/Java to solve the question: Implement a queue data structure using two stacks.",
+        "input": "",
+        "output": "\nclass Solution(object):\n    def __init__(self):\n        self.q1 = []\n        self.q2 = []"
+    },
+    {
+        "instruction": "You can write C# code. Given an unsorted array of integers, sort it using quicksort algorithm. For example, if the array is [10, 80, 30, 90, 40, 50, 70], then after sorting it using quicksort, it should be [10, 30, 40, 50, 70, 80, 90]. Quicksort is a divide-and-conquer algorithm that works by choosing a pivot element from the array and partitioning the array into two subarrays such that all elements less than or equal to the pivot are in the left subarray and all elements greater than the pivot are in the right subarray. Then it recursively sorts the left and right subarrays until the array is sorted.",
+        "input": "",
+        "output": "Here is the C# code for quicksort:\n```\npublic static void Sort<T>(T[] arr) where T : IComparable {\n    if (arr == null || arr.Length <= 1) {\n        return;\n    }\n    int n = arr.Length;\n    T pivot = arr[0];\n    int i = 1;\n    int j = n - 1;\n    (comp(ref pivot, ref arr[i]), comp(ref pivot, ref arr[j])));\n    while (i <= j) {\n        while (comp(ref pivot, ref arr[i])) i++;\n        while (comp(ref pivot, ref arr[j])) j--;\n        if (i <= j) {\n            T temp = arr[i];\n            arr[i] = arr[j];\n            arr[j] = temp;\n            i++;\n            j--;\n        }\n    }\n    quicksort(ref arr, 0, i - 1);\n    quicksort(ref arr, i, n - 1);\n}\nprivate static bool comp<T>(ref T a, ref T b) {\n    return a.CompareTo(b) >= 0;\n}\n```\nNote that the comparison function `comp` takes two arguments, a and b, which are both of type `T`. The comparison function returns `true` if a is less than or equal to b or if they are equal, and `false` otherwise."
+    },
+    {
+        "instruction": "Given a string, check if it is a palindrome or not. A palindrome is a string that is the same when read forward or backward. For example, “racecar” and “madam” are palindromes but “hello” and “apple” are not. You can assume that the string is not empty and contains only lowercase letters.  Please use Java to solve the above question.  Please use C++ to solve the above question.",
+        "input": "",
+        "output": "\nclass Solution {\n    public boolean isPalindrome(String s) {\n        int left = 0;\n        int right = s.length() - 1;\n        \n        while (left < right) {\n            if (s.charAt(left) != s.charAt(right)) {\n                return false;\n            }\n            left++;\n            right--;\n        }\n        \n        return true;\n    }\n}"
+    },
+    {
+        "instruction": "Given two strings, find the longest common subsequence between them. A subsequence is a sequence that can be derived from another sequence by deleting some elements without changing the order of the remaining elements. For example, “ace” and “ae” are subsequences of “abcde” but “aec” and “cba” are not. The longest common subsequence (LCS) between two strings is the longest subsequence that is common to both strings. For example, if the two strings are “ABCDGH” and “AEDFHR”, then the LCS is “ADH” with length 3. Please use Java to solve the above question.",
+        "input": "",
+        "output": "\nInput Format: The first line of the input contains two space-separated strings. The second line of the input contains another two space-separated strings.\nOutput Format: Output the longest common subsequence between the given two strings.\nSample Input 0:\nABCDGH\nAEDFHR\nSample Output 0:\nADH\nExplanation 0:\nThe longest common subsequence between “ABCDGH” and “AEDFHR” is “ADH”.\nSample Input 1:\nABCDE\nACDEFG\nSample Output 1:\nAEFG"
+    },
+    {
+        "instruction": "Implement a regular expression in Matlab to validate a chinese email address.",
+        "input": "",
+        "output": "\nRegular expression to validate a chinese email address in Matlab:\n```\n% Define the regular expression pattern\npattern = '\\b[A-Za-z0-9][\\w\\.-]*@[\\w\\.-]+\\b';\n% Validate the email address with the regular expression pattern\nif strcmp(regexp(email_address, pattern, 'tokens'), pattern)\n    % Email address is valid\nelse\n    % Email address is not valid\nend\n```\nThis code assumes that the email address being validated is in the form of `username@domain.com`."
+    },
+    {
+        "instruction": "Given an array of integers, find the majority element in it. A majority element is an element that appears more than n/2 times in the array, where n is the size of the array. Please use Python to solve the above question.",
+        "input": "",
+        "output": "\ndef majorityElement(arr):\n    count = 0\n    max_element = None\n    for element in arr:\n        if element > max_element:\n            max_element = element\n        else:\n            count += 1\n    if count > n/2:\n        return max_element"
+    },
+    {
+        "instruction": "Given an array of integers, find two numbers that add up to a given target sum. For example, if the array is [2, 7, 11, 15] and the target sum is 9, then the answer is [2, 7] because 2 + 7 = 9. You can assume that there is exactly one solution and you cannot use the same element twice.",
+        "input": "",
+        "output": "def twoSum(arr, target):\n    map = {}\n    for i in range(len(arr)):\n        if arr[i] in map:\n            return [i, map[arr[i]]\n        else:\n            map[arr[i]] = i\n    return []"
+    },
+    {
+        "instruction": "As an experienced writer, I’m always interested in how technology is changing the way we communicate and share information. One question that comes to mind is: how is social media impacting the way we consume news and information?",
+        "input": "",
+        "output": "Social media has completely transformed the way people consume news and information. With platforms like Twitter, Facebook, and Instagram, news can now be shared quickly and widely with millions of people in just a few clicks. This has made it easier for people to stay up-to-date on current events and connect with others who share their interests. Additionally, social media has given rise to new forms of journalism, such as citizen journalism, which allows ordinary people to report on and share news stories directly from the source.\nHowever, there are also concerns about the quality of information being shared on social media. With so much content being posted, it can be difficult to separate fact from fiction. Additionally, social media algorithms can sometimes prioritize clickbait headlines and misleading content, which can lead to false or biased information being spread more easily. Overall, while social media has certainly changed the way we consume news and information, it’s important to be critical consumers of media and fact-check any information we come across before sharing it with others."
+    },
+    {
+        "instruction": "As a junior college student, you might be interested in how technology is changing the way we learn and study. One question that comes to mind is: what are some effective strategies for using technology to improve study habits and academic performance?",
+        "input": "",
+        "output": "One effective strategy for using technology to improve study habits and academic performance is the use of online study tools such as quizzes, flashcards, and mind maps. These tools can help students organize their knowledge, identify areas where they need improvement, and track their progress over time. Additionally, technology can also help students stay engaged with interactive activities, gamified learning, and virtual simulations that make studying more enjoyable and engaging. Another effective strategy is the use of collaboration tools such as discussion forums, group chat, and video conferencing to enable students to connect and collaborate with their peers and professors. This can help them share ideas, ask questions, and get feedback on assignments. By incorporating technology into their study habits, students can improve their academic performance, increase their retention of information, and develop important skills such as problem-solving and time management."
+    },
+    {
+        "instruction": "I have been offered a scholarship to study abroad in France and I need to submit a personal statement as part of the application process. What are some key points that I should include in my statement and how can I make it stand out from the rest of the applicants?",
+        "input": "",
+        "output": "A key aspect of your personal statement should be why you want to study in France and how it aligns with your academic and personal goals. You can also talk about your interest in the French language and culture, as well as any previous experiences you have had that have inspired your decision to study in France. It is important to make your statement stand out by highlighting unique aspects of yourself that will make you a valuable addition to the program. Additionally, it can help to show your motivation and enthusiasm for the opportunity."
+    },
+    {
+        "instruction": "I recently bought a pair of headphones online and I was very impressed by their quality and performance. I want to write a product review that reflects my positive experience and helps other potential buyers make an informed decision. How can I structure my review and what are some aspects that I should highlight?",
+        "input": "",
+        "output": "Hi, I'm glad to hear that you had a positive experience with your headphones! Here are some things you can include in your product review:\n1. Intro: Start by introducing the product and its features. For example, \"I recently purchased a pair of Sony WH-1000XM4 noise-cancelling headphones and I am thrilled with their performance. In this review, I will share my experience with these headphones and discuss their sound quality, comfort, battery life, and other features.\"\n2. Sound Quality: This is a crucial aspect of any headphone, so make sure to describe how the sound quality of the headphones makes you feel. You can talk about how detailed and clear the music sounds, whether the bass is deep and punchy, and if there is any distortion at high volumes.\n3. Comfort: Headphones should be comfortable to wear for long periods of time, so discuss how the headphones fit snugly around your ears without feeling too tight or too loose. You can also mention if the headphones have adjustable headbands or ear cups that can be moved to fit different head sizes.\n4. Battery Life: Many wireless headphones have batteries that need to be recharged, so talk about how long the headphones' battery lasts on a single charge. You can also discuss whether the headphones come with a charging cable and how long it takes to fully charge the battery.\n5. Additional Features: Some headphones come with extra features such as voice assistants, microphones, and multipoint pairing. Discuss any additional features that the headphones have and how they can enhance your listening experience.\n6. Conclusion: Summarize your overall experience with the headphones and whether you would recommend them to"
+    },
+    {
+        "instruction": "Write a short story about a character who discovers a mysterious object in their backyard. What is the object, and what does it do? How does the character react to it? What happens next?",
+        "input": "",
+        "output": "Sophie was a young girl who loved to explore. One day, while playing in her backyard, she found a mysterious object buried under the sand. The object was round and shiny, and it had strange markings on it. She brought it inside and showed it to her mom. Her mom was stumped, and told her to leave it alone. But Sophie couldn't help but be curious about the object.\nThe next day, she took the object outside and tried to figure out what it did. To her surprise, it started to glow brightly. Then, a portal appeared in front of her. She stepped through and found herself in a magical world."
+    },
+    {
+        "instruction": "Write a lesson plan for teaching a difficult concept to your students. What are some of the key ideas that you want to convey? What are some of the common misconceptions that students might have? How will you help your students understand the concept? What are some of the activities that you will use to reinforce their learning?",
+        "input": "",
+        "output": "The lesson plan for teaching a difficult concept to students would include introducing the concept, providing examples and explanations, answering any questions, and reinforcing learning through activities.\nThe key ideas that I want to convey are:\n1. The importance of the concept in understanding more complex topics.\n2. The different ways in which the concept can be applied.\n3. The connection between the concept and real-world scenarios.\n4. The common misconceptions that students might have are:\na. That the concept is too difficult to understand.\nb. That the concept is unimportant or irrelevant.\nc. That they will never use the concept in their lives.\nTo help my students understand the concept, I will:\n1. Use clear and concise language when explaining the concept.\n2. Provide examples and analogies to help illustrate the concept.\n3. Answer any questions that students may have.\n4. Encourage them to ask for clarification if they do not understand something.\n5. Reinforce learning through activities such as practice problems, games, and simulations.\nSome of the activities that I will use to reinforce learning are:\n1. Hands-on activities that allow students to apply the concept to real-world scenarios.\n2. Group activities that encourage collaboration and communication.\n3. Technology-based activities such as online quizzes and games.\n4. Projects that require students to research and analyze data related to the concept.\n5. Feedback sessions where students can reflect on their learning and receive constructive feedback from me."
+    },
+    {
+        "instruction": "\"How might a Virtual Reality-based alternative to Peloton function?\"  Can you provide a complete business plan for creating a company founded on this question?  Please include a budget, headcount, technology implementation, sales strategy, and any other key aspects into your submission.",
+        "input": "",
+        "output": "\\end{code}"
+    },
+    {
+        "instruction": "What is the difference between a compiler and an interpreter? Explain how each one works to translate a high-level programming language into a low-level machine language. Describe the advantages and disadvantages of using a compiler or an interpreter for different types of programs and applications. Give examples of programming languages that use compilers and interpreters and how they are implemented.",
+        "input": "",
+        "output": "A compiler is a program that translates high-level programming language into low-level machine language. It does this by analyzing the code and generating an intermediate representation, then converting this representation to machine code.\nOn the other hand, an interpreter is a program that translates high-level programming language into machine code as it is executed. This means that the program is executed line by line, and the interpreter translates each line as it is executed.\nThe main advantage of using a compiler is that it can generate more efficient code than an interpreter, as it can optimize the code before it is compiled. This makes compilers faster and more reliable for certain types of programs, such as games or scientific simulations. However, compilers can be slower to execute as they need to generate the code before it is used.\nThe main advantage of using an interpreter is that it is generally easier to develop and maintain than a compiler, as there is no need to compile the code before it is executed. Interpreters are also more flexible, as they can handle a wider range of programming languages and can translate code on the fly. However, interpreters can be slower to execute than compilers, as they need to translate each line of code as it is executed.\nExamples of programming languages that use compilers include C++, Java, and Python. These languages are often used for developing applications that require high performance and speed, such as games or scientific simulations.\nExamples of programming languages that use interpreters include PHP, Perl, and Ruby. These languages are often used for developing web-based applications and scripts, as they are easy to develop and maintain. However, these languages can be slower to execute than compilers as they interpret code as it is executed."
+    },
+    {
+        "instruction": "Write a method called isPalindrome that takes a String parameter and returns a boolean value indicating whether the parameter is a palindrome or not. A palindrome is a word or phrase that is the same forward and backward, ignoring spaces and punctuation. For example, “racecar” and “Madam, I’m Adam” are palindromes. Assume that the parameter is not null and that it contains at least one character.",
+        "input": "",
+        "output": "def isPalindrome(s):\n    if len(s) == 0:\n        return True\n    else:\n        first = s[0]\n        last = s[len(s)-1]\n        if first != last:\n            return isPalindrome(s[1:len(s)-1)))\n        else:\n            return True"
+    },
+    {
+        "instruction": "Define object-oriented programming and procedural programming and describe their main features and characteristics. Give  code examples  explain how they differ in terms of syntax, semantics, and design principles. ",
+        "input": "",
+        "output": "Object-oriented programming (OOP) is a programming paradigm that emphasizes the concept of objects and their behaviors. OOP languages use classes and objects to represent data and functionality, making it easier to write modular and reusable code. Procedural programming, on the other hand, is more focused on executing a series of tasks one after another.\nHere's an example of object-oriented programming in Java:\n```java\npublic class Student {\n    private String name;\n    private int age;\n    public void setName(String name) {\n        this.name = name;\n    }\n    public String getName() {\n        return name;\n    }\n    public void setAge(int age) {\n        this.age = age;\n    }\n    public int getAge() {\n        return age;\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Student student = new Student();\n        student.setName(\"John Doe\");\n        student.setAge(25);\n        System.out.println(\"Student name: \" + student.getName());\n        System.out.println(\"Student age: \" + student.getAge());\n    }\n}\n```\nThis code defines a Student class with two fields (name and age) and two methods (setName and getName). The Main class creates an instance of the Student class and calls its setter and getter methods to set the name and age of the student. Finally, the code prints out the student's name and age.\nHere's an example of procedural programming in C:\n```c\n#include <stdio.h>\nint main() {\n    int age;\n    char name[30];\n    printf(\"Enter your name:\\n\");\n    scanf"
+    },
+    {
+        "instruction": "Determine a series of tests for definitively determining whether an AI is sentient and comment how well you would perform in each of these.\n\nNext, prove it by providing example questions along with good answers to them.",
+        "input": "",
+        "output": "\n## Test 1:\n\nAI is able to pass the Turing test.\nGood answer:The AI was able to successfully impersonate a human being and convince the judge that it was sentient. This proves that the AI is capable of passing the Turing test."
+    },
+    {
+        "instruction": "In consideration of the ever-expanding landscape of virtualization technologies and tools available for Linux, which span the spectrum from full virtualization solutions such as KVM and Xen, to containerization platforms such as Docker and Kubernetes, could you provide a thorough analysis of the different virtualization models, including their architectural design, resource isolation, scalability, and management features, and evaluate the benefits and challenges of each of these models for different use cases, such as cloud computing, DevOps, and software development?",
+        "input": "",
+        "output": " Personally, I find the following Wikipedia article to be a good starting point for this analysis: https://en.wikipedia.org/wiki/Virtualization_software"
+    },
+    {
+        "instruction": "How can I train a LLM using RLHF methods based on InstructGPT to create a human assistant that exceeds open assistant in it's performance, accuracy, and utility?",
+        "input": "",
+        "output": "I'm using RLHF methods based on InstructGPT to train a language model that can generate text responses for user input. I want to use this language model to create a virtual assistant that exceeds the performance, accuracy, and utility of open assistants like Siri or Google Assistant. Can you please guide me on how to get started with this?\nHere are some steps you can follow to get started with training a language model using RLHF methods based on InstructGPT:\n1. Understand the requirements of your virtual assistant: Define the tasks and functions that your virtual assistant should be able to perform, as well as the criteria for evaluating its performance, accuracy, and utility.\n2. Choose an RLHF algorithm: There are several RLHF algorithms available, such as Proximal Policy Optimization (PPO), Trust Region Policy Optimization (TRPO), and Deep Reinforcement Learning for Dialogue Systems (Dial). Each algorithm has its own strengths and weaknesses, so choose one that aligns with your specific requirements.\n3. Collect data for training: Collect a diverse set of data that includes both correct and incorrect responses to the tasks your virtual assistant will need to perform. This data should be labeled with rewards for correct responses and punishments for incorrect responses.\n4. Preprocess the data: Clean and preprocess the data to ensure that it is in a format that can be used by the RLHF algorithm. This may involve tasks such as converting text to speech, extracting relevant information from the data, and normalizing the data.\n5. Train the language model: Use the preprocessed data to train the language model using the chosen RLHF algorithm. This involves iteratively updating the model parameters to maximize the reward function and improve performance.\n6. Evaluate and refine the language model"
+    },
+    {
+        "instruction": "A family of six people are going to have dinner together. They have to sit around a circular table with six chairs. Each person has a different preference for who they want to sit next to. Here are some clues to help you figure out their preferences:\n\nAnna wants to sit next to Ben and Eve.\nBen wants to sit next to Anna and Carl.\nCarl wants to sit next to Ben and Dave.\nDave wants to sit next to Carl and Eve.\nEve wants to sit next to Dave and Anna.\nFrank wants to sit next to anyone except Ben.\nHow can you arrange the seating so that everyone is happy? Write your answer using the following format: Person - Person - Person - Person - Person - Person",
+        "input": "",
+        "output": "Example:Anna - Dave - Ben - Eve - Carl"
+    },
+    {
+        "instruction": "What are the main types of reasoning and how do they differ in their logic and application? How can you identify and evaluate the validity and soundness of arguments based on different types of reasoning? How can you use reasoning skills to solve problems, make decisions, and communicate effectively? Give an example of an argument that uses deductive reasoning and explain its structure and components.",
+        "input": "",
+        "output": " Mock Test 2023"
+    },
+    {
+        "instruction": "A group of four friends are going to play a board game together. They have to choose between four games: chess, checkers, monopoly, and scrabble. Each friend has a different preference for the game. Here are some clues to help you figure out their preferences:\n\nAmy likes chess more than monopoly, but less than scrabble.\nBob likes checkers more than chess, but less than monopoly.\nCarol likes scrabble more than checkers, but less than chess.\nDan likes monopoly more than scrabble, but less than checkers.\nWhat is the order of preference for each friend from most to least liked game? Write your answer using the following format: Friend: Game > Game > Game > Game",
+        "input": "",
+        "output": "Amy: Chess > Checkers > Monopoly > Scrabble\nBob: Checkers < Chess > Monopoly > Scrabble\nCarol: Scrabble < Checkers > Chess > Monopoly\nDan: Monopoly < Scrabble > Checkers > Chess"
+    },
+    {
+        "instruction": "Which of the following statements is a valid conclusion based on the following premises?\n\nAll dogs are mammals.\nSome dogs are brown.\nNo mammals are reptiles.\nA) All brown animals are dogs. B) Some brown animals are not reptiles. C) All reptiles are brown. D) No dogs are reptiles.",
+        "input": "",
+        "output": "C) Some brown animals are not reptiles. D) All reptiles are brown."
+    },
+    {
+        "instruction": "A word is represented by only one set of numbers as given in any one of the alternatives. The sets of numbers given in the alternatives are represented by two classes of alphabets as shown in the given two matrices. The columns and rows of Matrix-I are numbered from 0 to 4 and that of Matrix-II are numbered from 5 to 9. A letter from these matrices can be represented first by its row and next by its column, for example ‘A’ can be represented by 00, 14 etc and ‘L’ can be represented by 55, 67 etc. Similarly, you have to identify the set for the word ‘BING’.\n\nMatrix-I 0 | 1 | 2 | 3 | 4 A | B | C | D | A E | F | G | H | E I | J | K | L | I M | N | O | P | M A | B | C | D | A\n\nMatrix-II 5 | 6 | 7 | 8 | 9 L | M | N | O | L P | Q | R | S | P T | U | V | W | T X | Y | Z | A | X L | M | N | O| L\n\nA) 01, 56, 23, 68 B) 10, 65, 32, 86 C) 14, 59, 20, 63 D) None of these",
+        "input": "",
+        "output": "\nThe word ‘BING’ can be represented by 01, 56, 23 as the first set of numbers and 68 as the second set of numbers."
+    },
+    {
+        "instruction": "Six friends A, B, C, D, E and F are sitting in a circular table facing the center. A is sitting second to the right of D. B is sitting third to the left of A. C is sitting opposite to D. E is sitting between B and F. Who is sitting to the immediate right of C?\n\nA) A B) B C) E D) F",
+        "input": "",
+        "output": "\nA) A\nB) B\nC) C\nD) E\nF) F"
+    },
+    {
+        "instruction": "Which of the following statements is logically equivalent to “If it rains, then the grass is wet”?\n\nA) If the grass is wet, then it rains. B) If the grass is not wet, then it does not rain. C) If it does not rain, then the grass is not wet. D) If the grass is dry, then it does not rain.",
+        "input": "",
+        "output": "\nA) If the grass is wet, then it rains."
+    },
+    {
+        "instruction": "How can I use SQL to return the last record in each group of a table?",
+        "input": "",
+        "output": "\nI have a table with several columns, and I need to return the last record in each group of the same type. For example, if I have a table with columns \"ID\", \"Name\", and \"Age\", and there are three records in each group with ID 1, 2, and 3, I would want to return the last record for each ID."
+    },
+    {
+        "instruction": "I have apples, bananas and oranges on hand, with quantities of 1000, 2000 and 3000 respectively. The purchase prices are 1, 2 and 3 US dollars respectively, selling price is double times of purchase prices and the shelf lives are 3, 4 and 5 days respectively. \n水果\t数量\t价格\t保质期\n苹果\t1000\t1美元\t3天\n香蕉\t2000\t2美元\t4天\n橙子\t3000\t3美元\t5天\nHere is the Python code I wrote to calculate the sales volume and profit of each fruit. However, I don’t know how to write it. Can you help me complete it?  \n\n# Define the fruits and their attributes as dictionaries\nfruits = {\"apple\": {\"quantity\": 1000, \"purchase_price\": 1, \"shelf_life\": 3},\n          \"banana\": {\"quantity\": 2000, \"purchase_price\": 2, \"shelf_life\": 4},\n          \"orange\": {\"quantity\": 3000, \"purchase_price\": 3, \"shelf_life\": 5}}\n\n# Define a function to calculate the sales volume and profit of a fruit\ndef calculate_sales_and_profit(fruit):\n    # Get the attributes of the fruit from the dictionary\n    quantity = fruits[fruit][\"quantity\"]\n    purchase_price = fruits[fruit][\"purchase_price\"]\n    selling_price = purchase_price * 2 # Selling price is double times of purchase price\n    shelf_life = fruits[fruit][\"shelf_life\"]\n\n    # Calculate the sales volume and profit\n    sales_volume = quantity * selling_price # Sales volume is quantity times selling price\n    profit = sales_volume - (quantity * purchase_price) # Profit is sales volume minus cost\n\n    # Return the sales volume and profit as a tuple\n    return (sales_volume, profit)",
+        "input": "",
+        "output": "\n# Call the function for each fruit and print the results\nfor fruit, attributes in fruits.items():\n    sales_volume, profit = calculate_sales_and_profit(fruit)\n    \n    print(f\"{fruit} has {sales_volume} apples and sells for {selling_price} dollar per apple. They have a shelf life of {shelf_life} days and would cost {purchase_price} dollar to buy. The profit is {profit} dollar.\")\n\nOutput:\napple has 1000 apples and sells for 2 dollars per apple. They have a shelf life of 3 days and would cost 1 dollar to buy. The profit is 1000 - (1000 * 1) = 0 dollars.\nbanana has 2000 bananas and sells for 4 dollars per banana. They have a shelf life of 4 days and would cost 2 dollars to buy. The profit is 2000 - (2000 * 2) = 0 dollars.\norange has 3000 oranges and sells for 6 dollars per orange. They have a shelf life of 5 days and would cost 3 dollars to buy. The profit is 3000 - (3000 * 3) = 0 dollars."
+    },
+    {
+        "instruction": "Given that the hypotenuse of a right triangle is 13, and the ratio of the lengths of the two legs is 5:12, find the lengths of the two legs.\n\nSolution:\n\nLet the lengths of the two legs be 5x and 12x, respectively. By the Pythagorean theorem, we have\n\n13^2 = (5x)^2 + (12x)^2\n\n169 = 25x^2 + 144x^2\n\n169 = 169x^2\n\nx^2 = 1\n\nx = 1 or x = -1",
+        "input": "",
+        "output": "\nTherefore, the lengths of the two legs are 5 and -12."
+    },
+    {
+        "instruction": "I am pretty new at Python and struggling with printing the web scraping data to beautiful excel table. Here is a table I am trying to scrape and replicate in Python: HTML Table. Here is the code I used:\n\nimport requests\nimport lxml.html as lh\nimport pandas as pd\nfrom bs4 import BeautifulSoup\nimport csv\n\nurl = 'myURLlink'\n\nresponse = requests.get(url) \n\nsoup = BeautifulSoup(response.text, 'lxml')\n\nextract = soup.select(\"table\")[1]\n\ntable = [[item.text for item in row_data.select(\"th,td\")]\n                for row_data in extract.select(\"tr\")]\n\nfor item in table:\n    print(' '.join(item))\nThis is how my output looks with this code: Output.\n\nHow can I create a normal data frame from this that I can then export to Excel?",
+        "input": "",
+        "output": "\nAnswer:You can create a pandas dataframe from the list of lists you have by using `pd.DataFrame`:\n\n\\begin{code}\nimport requests\nimport lxml.html as lh\nimport pandas as pd\nfrom bs4 import BeautifulSoup\nimport csv\nurl = 'myURLlink'\nresponse = requests.get(url)\nsoup = BeautifulSoup(response.text, 'lxml')\nextract = soup.select(\"table\")[1]\ntable = [[item.text for item in row_data.select(\"th,td\")]\n                for row_data in extract.select(\"tr\")]\ndf = pd.DataFrame(table)\nprint(df)\n\\end{code}\n\nThis will output a dataframe with two columns (`col1` and `col2`) and two rows (`row1` and `row2`). You can then save this dataframe to an Excel file or do whatever else you want with it."
+    },
+    {
+        "instruction": "Using EPPlus, I want to read an excel table, then store all the contents from each column into its corresponding List. I want it to recognize the table's heading and categorize the contents based on that.\n\nFor example, if my excel table is as below:\n\nId    Name     Gender\n 1    John     Male\n 2    Maria    Female\n 3    Daniel   Unknown\nI want the data to store in List<ExcelData> where\n\npublic class ExcelData\n{\n    public string Id { get; set; }\n    public string Name { get; set; }\n    public string Gender { get; set; }\n}\nSo that I can call out the contents using the heading name. For example, when I do this:\n\nforeach (var data in ThatList)\n{\n     Console.WriteLine(data.Id + data.Name + data.Gender);\n}\nIt will give me this output:\n\n1JohnMale\n2MariaFemale\n3DanielUnknown\nThis is really all I got:\n\nvar package = new ExcelPackage(new FileInfo(@\"C:\\ExcelFile.xlsx\"));\nExcelWorksheet sheet = package.Workbook.Worksheets[1];\n\nvar table = sheet.Tables.First();\n\ntable.Columns.Something //I guess I can use this to do what I want\nPlease help :( I have spent long hours searching for sample code regarding this so that I can learn from it but to no avail. I also understand ExcelToLinQ is managed to do that but it can't recognize table.",
+        "input": "",
+        "output": "\nComment: 1. You can't read cell values directly into a List. You need to iterate over the worksheet, reading cells and converting them to whatever type you want. 2. You can use the Table class to read table data from an Excel sheet. See https://www.nuget.org/packages/EPPlus/. But it won't recognize headers in the table unless you tell it to. Use CellRangeAddress property to specify a range of cells that contains the header. 3. You can store the header information in separate properties of your class, but you will have to tell the reader how to identify the columns."
+    },
+    {
+        "instruction": "What is wrong with this C++ code that is supposed to swap two numbers? \"#include <iostream>\\nusing namespace std;\\n\\nvoid swap(int a, int b) {\\n    int temp = a;\\n    a = b;\\n    b = temp;\\n}\\n\\nint main() {\\n    int x = 10;\\n    int y = 20;\\n    swap(x, y);\\n    cout << 'x = ' << x << ', y = ' << y << endl;\\n    return 0;\\n}\"",
+        "input": "",
+        "output": "aria-label=\"What is wrong with this C++ code that is supposed to swap two numbers?\">\n"
+    },
+    {
+        "instruction": "What is wrong with this C++ code that is supposed to implement a linked list class with a constructor and a destructor? \"#include <iostream>\\nusing namespace std;\\n\\nstruct Node {\\n    int data;\\n    Node* next;\\n};\\n\\nclass LinkedList {\\nprivate:\\n    Node* head;\\npublic:\\n    LinkedList(int arr[], int n) {\\n        head = new Node;\\n        head->data = arr[0];\\n        head->next = NULL;\\n        Node* curr = head;\\n        for (int i = 1; i < n; i++) {\\n            Node* temp = new Node;\\n            temp->data = arr[i];\\n            temp->next = NULL;\\n            curr->next = temp;\\n            curr = curr->next;\\n        }\\n    }\\n\\n    ~LinkedList() {\\n        Node* curr = head;\\n        while (curr != NULL) {\\n            delete curr;\\n            curr = curr->next;\\n        }\\n    }\\n\\n    void print() {\\n        Node* curr = head;\\n        while (curr != NULL) {\\n            cout << curr->data << ' ';\\n            curr = curr->next;\\n        }\\n        cout << endl;\\n    }\\n};\\n\\nint main() {\\n    int arr[] = {1, 2, 3, 4, 5};\\n    LinkedList list(arr, 5);\\n    list.print();\\n    return 0;\\n}\"",
+        "input": "",
+        "output": "\n\nError:\nNo matching function for call to 'LinkedList::LinkedList(int, int)'\n\n\nWhat's wrong with the code?"
+    },
+    {
+        "instruction": "How can I fix this Java code to avoid a ConcurrentModificationException when iterating over a list and removing some elements? \"import java.util.ArrayList;\\nimport java.util.List;\\n\\npublic class Main {\\n    public static void main(String[] args) {\\n        List<Integer> numbers = new ArrayList<>();\\n        numbers.add(1);\\n        numbers.add(2);\\n        numbers.add(3);\\n        numbers.add(4);\\n        numbers.add(5);\\n\\n        for (Integer n : numbers) {\\n            if (n % 2 == 0) {\\n                numbers.remove(n);\\n            }\\n        }\\n\\n        System.out.println(numbers);\\n    }\\n}\"",
+        "input": "",
+        "output": "\nYour Java code is trying to remove elements from a list while iterating over it. This is not allowed as the underlying data structure may change during iteration, which can lead to unexpected behavior. To fix this, you should either iterate over a copy of the list or use a different approach such as filtering the list before iterating and removing only the desired elements."
+    },
+    {
+        "instruction": "What is the problem with this HTML code that is supposed to display a table with three rows and two columns? <table> <tr> <td>First row, first column</td> <td>First row, second column</td> </tr> <tr> <td>Second row, first column</td> <td>Second row, second column</td> </tr> <tr> <td>Third row, first column</td> <td>Third row, second column</td> </tr> </table>",
+        "input": "",
+        "output": "RequestError:\n</tr><tr class=\"odd\">\n<td colspan=\"2\"><?php echo $this->error_output ?>\n</tr>\n</table>"
+    },
+    {
+        "instruction": "If you are thirsty, what can you drink to quench your thirst?",
+        "input": "",
+        "output": "What can you drink to quench your thirst?"
+    },
+    {
+        "instruction": "If you see a red traffic light, what should you do if you are driving a car?",
+        "input": "",
+        "output": "If you see a red traffic light, you should stop your car immediately. Red lights indicate that the road is dangerous and that you should not continue driving."
+    },
+    {
+        "instruction": "Do we have a moral obligation to explore space, or should we focus on solving Earth's problems first?",
+        "input": "",
+        "output": "Everyone thinks we have a moral obligation to colonize space. But I don't see how that is so.\nIf there are no Earthlings to enjoy, explore or benefit from the fruits of the conquest of space, what is the point? If we can't do both/all, then we shouldn't be doing either/both."
+    },
+    {
+        "instruction": "What’s heavier: 100 pounds of rocks or 100 pounds of feathers?",
+        "input": "",
+        "output": "0.036 grams\nFeathers are much lighter than rocks. 100 pounds of feathers would weigh about 0.036 grams, while 100 pounds of rocks would weigh about 55.12 pounds."
+    },
+    {
+        "instruction": "How would the continued evolution of dinosaurs alongside mammals and birds have affected the development of human civilization, and what impact would it have had on the current state of the world’s ecosystems and biodiversity? Would there have been any significant changes in the food chain, and how would this have affected the survival and adaptation of different species?",
+        "input": "",
+        "output": " citizens.\nThe continued evolution of dinosaurs alongside mammals and birds would have likely had a profound impact on the development of human civilization. If dinosaurs had not gone extinct 66 million years ago, they would have likely continued to dominate the earth's ecosystems, possibly competing with and displacing many other species. This could have potentially led to a very different set of ecosystems, with different species occupying different niches and roles in the food chain. Additionally, the dinosaurs' evolution may have also affected the course of human history, as they may have been a source of food and resources for early humans. For example, some dinosaurs may have been domesticated by humans, or their fossil fuels used for energy.\nHowever, it is important to note that the evolution of mammals and birds was an important step in the development of human civilization, as they provided a more suitable environment for early humans to live and thrive in. The rise of these animals allowed for the evolution of larger brains and the development of complex social structures, which ultimately led to the emergence of modern human societies.\nIn terms of current ecosystems and biodiversity, it is difficult to say how the continued evolution of dinosaurs would have impacted them. It is possible that some dinosaur species may have adapted to survive alongside mammals and birds, while others may have gone extinct. This could have resulted in a more diverse and complex set of ecosystems, with different species occupying different niches and roles in the food chain. However, it is also possible that the evolution of dinosaurs may have had a negative impact on biodiversity, as they may have displaced or competed with many other species.\nOverall, the continued evolution of dinosaurs alongside mammals and birds would have likely had"
+    },
+    {
+        "instruction": "What if the American Revolution had failed and the colonies remained under British rule? How would the history and politics of North America be different? How would the British Empire deal with the challenges and demands of the colonies? How would the colonists cope with the lack of representation and autonomy?",
+        "input": "",
+        "output": "ipod touch with 30-pin adapter\nThis is the first book in a series of novels called The American Revolution. It's about two teens, a boy and a girl, who are forced to help out their parents in the smuggling business that they run from America to England. They have to take a trip across the Atlantic Ocean and end up aboard a British ship heading for Boston during the time of the American Revolution. After being captured by the British, they befriend a young officer on board and try to convince him to join the revolutionaries. Their adventures continue as they travel all over New England trying to get back to their families and become involved in the war. The books are full of action and suspense, but also deal with themes such as loyalty, friendship, and the consequences of one's actions."
+    },
+    {
+        "instruction": "How would the world be different if the Black Death had never happened and millions of people had not died from the plague in the 14th century?",
+        "input": "",
+        "output": "/ How would the world be different if the Black Death had never happened and millions of people had not died from the plague in the 14th century?"
+    },
+    {
+        "instruction": "If aliens had contacted Earth in the past, how would that affect our civilization and culture? How would we communicate and cooperate with them? How would they influence our science, religion, and art?",
+        "input": "",
+        "output": " (a) In the last 100 years, there have been numerous movies, TV shows, and books that have explored this idea. One of the most famous is the 'aliens-contact' subplot in the movie \"Close Encounters of the Third Kind\" where humans make contact with a race of aliens and try to communicate with them using music. This movie has become a classic and has inspired many people to think about what would happen if we were to make contact with extraterrestrial life.\n(b) Another example is the X-Files TV show where the main characters, Fox Mulder and Dana Scully, investigate cases of alleged alien abduction, government cover-ups, and other paranormal phenomena. The show often dealt with the moral and ethical implications of discovering alien life.\n(c) In the book \"Arrival\" by Ted Chiang, a team of linguists is tasked with making first contact with an alien race that has arrived on Earth. The story examines the complexities of communication and language, and how it can affect our understanding of each other.\n(d) In conclusion, the possibility of alien contact has fascinated people for centuries, and it continues to be a popular topic in modern culture. While the prospect of making contact with extraterrestrial life is uncertain, it has generated a wealth of thought-provoking ideas about how it might affect our society and culture."
+    },
+    {
+        "instruction": "How would the Internet change if it was controlled by a single entity or organization? What benefits and drawbacks would that bring? How would that affect the freedom and privacy of users?",
+        "input": "",
+        "output": " Direction: Write a response that addresses the question and provides an informative and thought-provoking analysis."
+    },
+    {
+        "instruction": "What if the Roman Empire had never fallen and maintained its dominance over Europe and beyond? How would the culture and society of Rome influence the rest of the world? How would the Roman Empire handle the threats and opportunities of other civilizations? How would the Roman Empire evolve over time?",
+        "input": "",
+        "output": "Ћирилично:What if the Roman Empire had never fallen and maintained its dominance over Europe and beyond? How would the culture and society of Rome influence the rest of the world? How would the Roman Empire handle the threats and opportunities of other civilizations? How would the Roman Empire evolve over time?\nUnited States, 2051. The American Empire at its height."
+    },
+    {
+        "instruction": "Write a haiku (a three-line poem with 5-7-5 syllables) in any language and translate it to English. Explain the meaning and the theme of your poem.",
+        "input": "",
+        "output": "It's the first snowfall of the season,\nA gentle blanket of white cover the ground,\nThe world seems to pause and hold its breath."
+    },
+    {
+        "instruction": "Translate the following sentence from English to French, Spanish and Mandarin: “I’m sorry, I can’t come to your party tomorrow.”",
+        "input": "",
+        "output": "English to French: Je suis désolé(e), je ne peux pas venir à votre fête demain.\nEnglish to Spanish: Lamento de no poder ir a su fiesta mañana.\nEnglish to Mandarin: 我抱歉，明天不能出席你的派对。"
+    },
+    {
+        "instruction": "Write down the numbers 1 to 10 in German and Spanish",
+        "input": "",
+        "output": "\n1. Ein\n2. Zwei\n3. Drei\n4. Vier\n5. Fünf\n6. Sechs\n7. Sieben\n8. Acht\n9. Neun\n10. Zehn"
+    },
+    {
+        "instruction": "Learn how to say \"How are you?\" in Korean, Portuguese and Dutch, then practice saying it with native",
+        "input": "",
+        "output": "\n# Korean\n방불이 되어요. 저는 상관없다. 나는 항상 좋아요.\nThe weather is bad. I don't care. I always feel good."
+    },
+    {
+        "instruction": "Imagine you are visiting Japan and India for a vacation. Learn how to say “Hello”, “Thank you” and “Goodbye” in Japanese and Hindi. Practice saying them aloud and write them down in both languages.",
+        "input": "",
+        "output": "In Japanese, you would say:\nArigatō gozaimasu (ありがとうございます) for “Thank you”\nSayounara (さようなら) for “Goodbye”\nIn Hindi, you would say:\nNamaste (नमस्ते) for “Hello”\nDhanyavaad (धन्यवाद) for “Thank you”\nAapka saath hai / Aapka namaskar (आपका साथ है / आपका नमस्कार) for “Goodbye”"
+    },
+    {
+        "instruction": "If you were a superhero with the ability to solve one of the world’s most pressing issues, which issue would you choose to tackle and what specific actions would you take to address it? Additionally, how would your actions align with the United Nations’ Sustainable Development Goals and what challenges do you anticipate facing in your efforts to make a positive impact?",
+        "input": "",
+        "output": " Prepare to explain your choice and actions in detail, as well as discuss how they align with the UN’s SDGs."
+    },
+    {
+        "instruction": "Consider yourself as a gamer. Your name is Ninja, and your game is Fortnite. Your avatar is a blue-haired warrior with a bandana and sunglasses. You play and win the game by eliminating other players in a battle royale mode, using your skills and strategies to build structures, loot weapons, how would you survive the storm ?",
+        "input": "",
+        "output": "(A) I would use my skills and strategies to build structures, loot weapons, and stay alive until the end of the game. I would also work with my teammates to coordinate our attacks and defense strategies.\n(B) I would use my skills and strategies to build structures, loot weapons, and stay alive until the end of the game. I would also work with my teammates to coordinate our attacks and defense strategies."
+    },
+    {
+        "instruction": "If you were a detective, what would your name, specialty, and case be? How would you solve the mystery and catch the culprit? What would be your methods and tools? Who would be your partners and suspects?",
+        "input": "",
+        "output": " Mention any evidence that would help solve the case.\nI'm sorry, but as an AI language model, I don't have a specific detective character to represent myself. However, if you had asked me to create a detective character for this scenario, I would name him/her \"AI Detective\".\nAs for my specialty, I would focus on using technology and data analysis to solve cases. My methods and tools would include advanced data mining techniques, artificial intelligence algorithms, and state-of-the-art analytics software.\nMy case would be a complex murder investigation where I would need to gather evidence from various sources, interview witnesses, and analyze suspects' behavior patterns to determine who the culprit is.\nSome of the evidence that would help solve the case would be:\n1. Physical evidence at the crime scene - such as fingerprints, DNA, bloodstains, etc.\n2. Digital evidence - emails, social media posts, phone records, etc.\n3. Witness statements - eyewitness accounts, testimony from victims or survivors, etc.\n4. Forensic analysis - examination of physical evidence by experts, such as pathologists or forensic scientists.\n5. Investigative leads - tips or information provided by informants, suspects, or witnesses.\nTo catch the culprit, I would use a combination of deductive and inductive reasoning, as well as scientific methods. I would carefully analyze all the evidence and look for patterns, connections, and inconsistencies. I would also use my knowledge of human behavior and psychology to identify potential motives and suspects.\nMy partners would be other law enforcement officials, such as police officers, FBI agents, or CIA analysts. My suspects would be anyone with a possible motive for committing the crime, whether"
+    },
+    {
+        "instruction": "As Neil Armstrong, the first human to land and walk on the Moon during the Apollo 11 mission, what specific scientific tests and experiments did you conduct on the lunar surface with your crewmates Buzz Aldrin and Michael Collins?",
+        "input": "",
+        "output": "Ђнїћњ, september 12, 1969: 15:32 hrs.\nApollo 11 lunar module Eagle lands astronauts Neil Armstrong and Edwin \"Buzz\" Aldrin on the moon. They are the first humans to set foot on another celestial body."
+    },
+    {
+        "instruction": "Pretend you are a magician. Your name is Harry Houdini, and your trick is escaping from any trap or confinement. Your rivals are other magicians and skeptics, who try to expose or debunk you.  How do you respond to challenges?",
+        "input": "",
+        "output": "I would not respond to challenges. I would simply perform my trick and let the audience judge for themselves."
+    },
+    {
+        "instruction": "What are some factors that affect the rate of sublimation and deposition? A) Temperature and pressure B) Humidity and wind speed C) Altitude and air quality D) All of the above",
+        "input": "",
+        "output": "The correct option is: All of the above."
+    },
+    {
+        "instruction": "The process of photosynthesis is essential for life on Earth. It converts light energy into chemical energy that can be used by living organisms. Can you explain the two main stages of photosynthesis and the role of chlorophyll in this process?",
+        "input": "",
+        "output": "Sure, I'd be happy to explain the process of photosynthesis and the role of chlorophyll in this process.\nPhotosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy. This process occurs in two stages:\n1. Light reactions\n2. Calvin cycle (or dark reactions)\nIn the light reactions, which occur in the presence of sunlight, energy is absorbed by pigment molecules called chlorophyll. These pigment molecules absorb light energy and use it to split water molecules into oxygen and hydrogen atoms. The oxygen is released as a gas and the hydrogen atoms are combined with carbon dioxide molecules to form carbohydrates.\nThe Calvin cycle, also known as the dark reactions, occurs in the absence of sunlight. In this stage, carbon dioxide molecules are combined with the hydrogen atoms from the light reactions to form carbohydrates. Energy is also released during this stage, which is used to convert the carbohydrates into energy that can be used by the plant.\nChlorophyll plays a crucial role in the process of photosynthesis. It absorbs light energy and helps convert it into chemical energy. Without chlorophyll, plants would not be able to carry out photosynthesis and would not be able to survive."
+    },
+    {
+        "instruction": "What is the difference between a prokaryotic and a eukaryotic cell? Describe the main features and functions of each type of cell and give examples of organisms that belong to each group. Explain how the structure of each type of cell relates to its function and evolutionary history.",
+        "input": "",
+        "output": "A prokaryotic cell is a single-celled organism that does not have a nucleus or other organelles found in eukaryotic cells. Prokaryotic cells are typically much smaller than eukaryotic cells and have a simpler genetic structure. Examples of prokaryotic cells include bacteria and archaea.\nEukaryotic cells, on the other hand, are more complex than prokaryotic cells and have a nucleus and other organelles such as mitochondria, chloroplasts, and ribosomes. Eukaryotic cells are found in multicellular organisms such as animals, plants, and fungi.\nThe main difference between prokaryotic and eukaryotic cells is the presence of a nucleus and other organelles in eukaryotic cells. Prokaryotic cells lack these structures, which allows them to replicate faster and respond quickly to changes in their environment. However, this also means that they have a limited ability to carry out complex processes such as DNA repair and protein synthesis.\nEukaryotic cells, on the other hand, have a more advanced metabolism and can carry out complex processes such as photosynthesis and cell division. This allows eukaryotic organisms to grow and reproduce at a slower rate but with greater precision and complexity.\nThe structure of each type of cell relates to its function because the organelles within a cell perform specific functions that are necessary for the survival of the organism. For example, mitochondria convert energy from food into a form that cells can use, while chloroplasts allow plants to convert sunlight into energy through photosynthesis.\nOverall, the difference between prokaryotic and eukaryotic cells is one of complexity and specialization. Prokaryotic cells have simplified structures that allow them to adapt quickly to changes"
+    },
+    {
+        "instruction": "How do plants use photosynthesis to produce their own food? Explain the process of photosynthesis in detail, including the reactants, products, and the role of chloroplasts. Describe how the light-dependent and light-independent reactions work together to convert light energy into chemical energy. Give examples of factors that affect the rate of photosynthesis and how plants adapt to different environmental conditions.",
+        "input": "",
+        "output": "Photosynthesis is the process by which plants use sunlight, water, and carbon dioxide to produce oxygen and glucose. This process occurs in specialized cells called chloroplasts, which contain pigment molecules that absorb light energy.\nThe reactants of photosynthesis are water (H2O) and carbon dioxide (CO2). The products of photosynthesis are oxygen (O2) and glucose (C6H12O6).\nThe light-dependent reaction occurs in the thylakoid membranes of the chloroplasts and converts light energy into chemical energy in the form of ATP and NADPH. The light-independent reaction occurs in the stroma of the chloroplasts and uses the energy from the light-dependent reaction to convert carbon dioxide and water into glucose.\nDuring the light-dependent reaction, chlorophyll molecules absorb light energy and pass it on to other pigment molecules, which causes them to vibrate and generate energy. This energy is used to split water molecules into oxygen and hydrogen atoms, releasing oxygen as a byproduct. The hydrogen atoms are combined with carbon dioxide molecules to form carbohydrates.\nThe light-independent reaction uses the energy from the light-dependent reaction to convert carbon dioxide and water into glucose. In this reaction, energy is released from NADPH molecules to reduce coenzyme A (CoA), which is then used to attach carbon dioxide molecules to the three-carbon compound ribulose 1,5-bisphosphate (RuBP) to form sucrose.\nOne of the key factors that affect the rate of photosynthesis is light intensity. Plants that grow in bright sun"
+    },
+    {
+        "instruction": "Questins:What do these two changes have in common?\ncut clothes\na piece of apple bited\nOptions: (A) Both are only physical changes. (B) Both are caused by cooling. (C) Both are chemical changes. (D) Both are\ncaused by heating.\nPlease select the Options",
+        "input": "",
+        "output": "A"
+    },
+    {
+        "instruction": "What are some potential applications of artificial intelligence in the education industry? How can this technology be used to improve student outcomes?",
+        "input": "",
+        "output": " and improve student outcomes?"
+    },
+    {
+        "instruction": "What are some potential applications of blockchain technology in the healthcare industry? How can this technology be used to improve patient outcomes?",
+        "input": "",
+        "output": "— Sara Driscoll (@SaraDriscollPhD) September 18, 2017"
+    },
+    {
+        "instruction": "How has the implementation of 5G technology impacted the job market and what can we expect in the future? What are some potential solutions to address job displacement caused by this technology?",
+        "input": "",
+        "output": "крым 2017"
+    },
+    {
+        "instruction": "What are the main ethical theories and how do they differ in their approaches to moral decision making? Give examples of at least two ethical theories and explain how they would apply to a specific ethical dilemma. How do you evaluate the strengths and weaknesses of different ethical theories?",
+        "input": "",
+        "output": "There are many ethical theories, but some of the most well-known ones are deontological ethics, utilitarianism, and virtue ethics.\nDeontological ethics is based on the idea that certain actions are always wrong, regardless of the consequences. For example, it would be wrong to steal, even if stealing could bring about a greater good. This ethical theory emphasizes duty and obligation.\nUtilitarianism, on the other hand, is focused on the greatest good for the greatest number of people. This means that an action is considered right if it produces the greatest overall happiness or benefit. For example, it might be considered right to lie to protect someone's safety, even if it goes against one's personal moral code.\nVirtue ethics focuses on developing virtues such as honesty, compassion, and justice. This ethical theory emphasizes character development and doing what is right because it is the right thing to do.\nWhen facing an ethical dilemma, each ethical theory would apply differently. For example, if someone was faced with the choice of stealing money to help their family or not stealing, a deontologist would argue that stealing is always wrong and would not consider the consequences. A utilitarianist would weigh the consequences of stealing and may decide that it is justified if it leads to a greater good, such as helping their family. A virtue ethicist would focus on developing virtues such as honesty and compassion, which could guide them towards finding a solution that does not involve stealing.\nEach ethical theory has strengths and weaknesses. Deontological ethics can be seen as black and white, which can make it difficult to navigate complex situations. Utilitarianism can be too focused on consequences and may ignore the motives behind an action. Virtue ethics can be"
+    },
+    {
+        "instruction": "What are the main ethical issues involved in animal rights and welfare? How do different ethical perspectives justify or criticize the use of animals for food, clothing, research, entertainment, or companionship? How do you balance the interests and needs of humans and animals in various situations?",
+        "input": "",
+        "output": "spotify premium apk,spotify premium apk cracked,spotify premium apk 2018,spotify premium apk v8.4.0.94.680,spotify premium apk old version,spotify premium apk free download"
+    },
+    {
+        "instruction": "What are the main ethical principles and values that guide the practice of medicine and health care? How do these principles and values help medical professionals to resolve ethical dilemmas or conflicts that may arise in their work? Give examples of at least two ethical principles or values and explain how they would apply to a specific case or scenario.",
+        "input": "",
+        "output": " interactive learning and online discussion."
+    },
+    {
+        "instruction": "Is it ethical to use animals for scientific research? What are the arguments for and against this practice? Please provide evidence to support your answer.",
+        "input": "",
+        "output": " Burns, J.A., & Ernst, C. (2019). Should we use animals for scientific research? Evidence and arguments for and against this practice. Retrieved from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6948738/"
+    },
+    {
+        "instruction": "What is the name of the ethical theory that holds that the right action is the one that maximizes happiness and minimizes suffering for the greatest number of people?\n\nA) Utilitarianism B) Kantianism C) Egoism D) Virtue ethics\n\nChoose the correct answer.",
+        "input": "",
+        "output": "\nA) Utilitarianism"
+    },
+    {
+        "instruction": "Artificial intelligence (AI) is the ability of a computer or a robot to perform tasks that normally require human intelligence, such as reasoning, learning, and decision making. Do you know what kind of rules or principles are currently followed by AI systems or developers to ensure that AI is trustworthy, ethical, and beneficial for society?",
+        "input": "",
+        "output": "AI is a rapidly growing field that has the potential to revolutionize many aspects of our lives. However, with great power comes great responsibility. As AI systems become more advanced and integrated into our lives, it is important to ensure that they are trustworthy, ethical, and beneficial for society.\nThere are currently several rules and principles that AI developers follow to ensure that AI is trustworthy, ethical, and beneficial for society. One of the most important principles is transparency. AI systems should be designed in a way that allows us to understand how they make decisions and what data they use to make those decisions. This will help build trust and reduce bias in AI systems.\nAnother important principle is explainability. AI systems should be able to explain their decisions in a way that is understandable to humans. This will help build trust and allow us to identify any biases or errors in the system.\nAdditionally, AI systems should be designed with privacy and security in mind. AI systems are often used to process sensitive data, such as medical records or financial information. It is important that these systems are secure and that personal data is protected from unauthorized access.\nFinally, AI systems should be developed with the goal of benefiting society as a whole. This means that AI systems should be designed to improve the quality of life for people, rather than just generating profits for companies. This may involve developing AI systems that address social issues, such as poverty or inequality, or creating tools that improve public health and well-being.\nIn conclusion, AI systems are becoming increasingly important in our lives, but it is important to ensure that they are trustworthy, ethical, and beneficial for society. By following the principles of transparency, explainability, privacy, and benefiting society, we can create AI systems that"
+    },
+    {
+        "instruction": "Is it possible to prevent a cardiac arrest by forcefully expelling air from the lungs repeatedly?",
+        "input": "",
+        "output": "My friend was experiencing mild chest pain, so I asked him to take a breath using the following method.\n1. Clasp your hands over your nose and mouth.\n2. Exhale forcefully for 6 seconds.\n3. Hold your breath for 10 seconds.\n4. Repeat the cycle 5 times.\nHe did it and felt better after that."
+    },
+    {
+        "instruction": "What conditions are caused by ingesting aspartame?",
+        "input": "",
+        "output": "As an AI language model, I cannot diagnose or provide medical advice. However, according to the Aspartame Information Center, aspartame is a sweetener that has been approved for use in food and beverages by the FDA. While it is generally considered safe for most people, consuming large amounts of aspartame over a prolonged period can cause side effects such as headaches, dizziness, digestive issues, and seizures in some people.\nPeople who have specific medical conditions, such as phenylketonuria, should avoid aspartame as it can cause a buildup of a substance called phenylalanine which can lead to serious health problems.\nIt is important to note that aspartame should not be consumed by pregnant women, children under the age of 18, and individuals with severe phenylketonuria."
+    },
+    {
+        "instruction": "What are the differences between the rules of American football and rugby? How do these differences affect the way the games are played? Which sport do you think is more physically demanding and why? Please provide examples to support your answer.",
+        "input": "",
+        "output": " joueur de foot 13\nWhat are the differences between the rules of American football and rugby?\nFootball and rugby have different rules that affect the way the games are played. In football, players can only touch the ball forward, while in rugby players can use any part of their body to move the ball forward. Additionally, football has a set of downs where teams get four chances to advance the ball ten yards or more, while in rugby teams get four opportunities to gain five yards or more.\nWhat are the differences between the rules of American football and rugby? How do these differences affect the way the games are played?\nThe main difference between American football and rugby is the way the ball can be advanced. In football, players can only throw or run with the ball forward, while in rugby players can use any part of their body to move the ball forward. This difference in rules affects the way the games are played, as in football players must carefully plan their moves to ensure they don't end up with the ball in their own end zone, while in rugby players can use any part of their body to move the ball forward quickly.\nWhich sport do you think is more physically demanding and why? Please provide examples to support your answer.\nBoth football and rugby are physically demanding sports, but rugby may be considered more so due to the additional contact allowed between players. In rugby, players are allowed to tackle each other using shoulder-to-shoulder hits, which can be more physically demanding than the limited contact allowed in football. Additionally, rugby players often engage in scrums, which are mass meetings of players where they push and shove for possession of the ball. These physical battles can be exhausting, making rugby a more physically demanding sport than football."
+    },
+    {
+        "instruction": "What is the difference between civil law and criminal law? Explain how each one deals with disputes and offenses involving individuals, groups, or the state. Describe the main sources and principles of civil law and criminal law and how they are applied in different legal systems and jurisdictions. Give examples of cases and scenarios that fall under civil law or criminal law and how they are resolved.",
+        "input": "",
+        "output": "Civil law and criminal law are two different legal systems that deal with disputes and offenses involving individuals, groups, or the state. The main difference between civil law and criminal law is the nature of the dispute or offense. Civil law deals with disputes between individuals or groups, while criminal law deals with offenses against the state or society as a whole.\nCivil law is a legal system that deals with disputes between individuals or groups. It is based on the principle of restitution, which means that the focus is on compensating the injured party for damages rather than punishing the wrongdoer. In civil law, disputes are resolved through arbitration, mediation, or litigation, depending on the jurisdiction. The main sources of civil law are contracts, torts, and property law. Common examples of cases that fall under civil law include disputes over contracts, property, and personal injury.\nCriminal law, on the other hand, is a legal system that deals with offenses against the state or society as a whole. It is based on the principle of retribution, which means that the focus is on punishing the wrongdoer rather than compensating the injured party. In criminal law, offenses are resolved through trials and sentencing by a judge or jury. The main sources of criminal law are statutes, case law, and international law. Common examples of cases that fall under criminal law include murder, theft, and drug possession.\nIn different legal systems and jurisdictions, the application of civil and criminal law may vary depending on the country or state. For example, in some countries, civil law may be more developed and have a greater emphasis on contracts and property, while in others, criminal law may be more important and have stricter penalties for offenses. Additionally, the principles of civil and criminal law may differ depending on the jurisdiction"
+    },
+    {
+        "instruction": "Alice and Bob are married and live in a house that they own jointly. One day, Alice decides to leave Bob and move out of the house. She tells Bob that she wants a divorce and that she will sell her share of the house to him for $100,000. Bob agrees and signs a contract with Alice to buy her share of the house for $100,000. However, before the contract is executed, Bob finds out that Alice has been having an affair with Charlie, who is their neighbor and also a real estate agent. Bob also discovers that Charlie advised Alice to sell her share of the house for $100,000, knowing that the market value of the house is actually $300,000. Bob feels cheated and wants to rescind the contract with Alice. Can he do so? What are the legal issues involved in this scenario?",
+        "input": "",
+        "output": "In this scenario, there are two legal issues involved: contract law and property law.\nContract law: Bob has a right to rescind the contract with Alice under the doctrine of frustration of purpose. When the circumstances that form the basis of a contract change in such a manner that one or both parties can no longer satisfy their obligations under the contract, the contract can be rescinded. In this case, Alice's affair with Charlie has changed the circumstances of the contract and made it impossible for Bob to fulfill his obligation to buy her share of the house for $100,000.\nProperty law: If Bob rescinds the contract, he will regain ownership of the entire house. However, under California law, when a spouse leaves a marriage and sells their interest in the community property, the other spouse is entitled to a portion of the sale proceeds. Therefore, if Alice sells her share of the house to Bob for $100,000 and then later resells it for $300,000, Bob may still be required to pay Alice a portion of the profit, even though he never benefited from the increased value of the house."
+    },
+    {
+        "instruction": "What is evidence-based medicine (EBM) and why is it important for medical practice? What are the main steps involved in applying EBM to a clinical question? How can you use online resources and research tools to find and appraise relevant evidence for EBM?",
+        "input": "",
+        "output": "3.1 What is evidence-based medicine (EBM) and why is it important for medical practice?\n3.2 What are the main steps involved in applying EBM to a clinical question?\n3.3 How can you use online resources and research tools to find and appraise relevant evidence for EBM?"
+    },
+    {
+        "instruction": "What is the difference between type 1 and type 2 diabetes mellitus? What are the main causes, symptoms, and treatments for each type? How can diabetes mellitus affect other organs and systems in the body?",
+        "input": "",
+        "output": " lactate dehydrogenase (LDH) is an enzyme that plays a key role in the conversion of pyruvate to acetyl CoA during cellular respiration. It is found in both the mitochondrial matrix and cytosol and is involved in the Krebs cycle, which occurs in the mitochondria. LDH catalyzes the oxidation of pyruvate to acetyl CoA and lactate with the concomitant reduction of NAD+ to NADH. The main biochemical difference between type 1 and type 2 diabetes is that type 1 diabetes results from the autoimmune destruction of pancreatic beta cells that produce insulin, while type 2 diabetes results from a combination of insulin resistance and insulin deficiency. However, both types of diabetes can lead to hyperglycemia and other metabolic abnormalities if left untreated. In type 1 diabetes, the body does not produce insulin because the pancreas produces little or no insulin due to the immune system attacking and destroying the beta cells. This results in high blood sugar levels because the body cannot use glucose for energy. In type 2 diabetes."
+    },
+    {
+        "instruction": "What is the relationship between sleep apnea and cardiovascular disease? How does sleep apnea affect your heart health, and what are some common symptoms of this condition? What are some treatment options available for sleep apnea?",
+        "input": "",
+        "output": "Meta description:Sleep apnea is a condition that affects your breathing while you sleep. If you have sleep apnea, your airway gets blocked repeatedly during sleep, causing you to stop and start breathing. This can lead to a decrease in oxygen levels in your bloodstream, which can have serious health consequences over time."
+    },
+    {
+        "instruction": "Which novel by George Orwell tells the story of a farm where the animals rebel against their human oppressor and establish a new society based on equality, but soon face corruption and tyranny?\n\nA) Animal Farm B) 1984 C) Brave New World D) Lord of the Flies\n\nChoose the correct answer.",
+        "input": "",
+        "output": "\nA) Animal Farm"
+    },
+    {
+        "instruction": "In the play “Hamlet” by William Shakespeare, what is the significance of the ghost of Hamlet’s father? How does it affect Hamlet’s character and his actions throughout the play? Please provide evidence from the text to support your answer.",
+        "input": "",
+        "output": " passages and quotes\nWhat is the significance of the ghost of Hamlet's father in \"Hamlet\" by William Shakespeare? How does it affect Hamlet's character and his actions throughout the play?"
+    },
+    {
+        "instruction": "What is the name of the actor who played the role of Jack Sparrow in the Pirates of the Caribbean movie series? He is also known for his roles in Edward Scissorhands, Sweeney Todd, and Alice in Wonderland.\n\nA) Johnny Depp B) Orlando Bloom C) Geoffrey Rush D) Keira Knightley\n\nChoose the correct answer.",
+        "input": "",
+        "output": "\nA) Johnny Depp"
+    },
+    {
+        "instruction": "Alright, here is a question for you. Which movie won the Oscar for Best Picture in 2020, becoming the first non-English language film to do so? It is a South Korean black comedy thriller directed by Bong Joon-ho.\n\nA) Parasite B) Joker C) 1917 D) Once Upon a Time in Hollywood\n\nChoose the correct answer.",
+        "input": "",
+        "output": "\nC) 1917"
+    },
+    {
+        "instruction": "Which art movement of the late 19th and early 20th century was influenced by Japanese prints and featured flat areas of color, organic forms, and decorative patterns?\n\nA) Art Nouveau B) Cubism C) Impressionism D) Expressionism\n\nChoose the correct answer.",
+        "input": "",
+        "output": "A) Art Nouveau"
+    },
+    {
+        "instruction": "How did the Impressionist artists use color to create different effects in their paintings? Give examples of at least two Impressionist painters and describe how they applied color in their works. Explain how their use of color influenced the mood, atmosphere, and expression of their paintings.",
+        "input": "",
+        "output": "The Impressionist artists used color to create different effects in their paintings by applying it in a variety of ways. For example, some artists used color to create a sense of depth or to distinguish between objects in a scene. Others used color to create a mood or atmosphere, while still others applied it to convey emotion or expression.\nTwo well-known Impressionist painters who used color in unique ways were Claude Monet and Pierre-Auguste Renoir. Monet was known for his use of color to create a sense of light and atmosphere in his paintings, particularly his series of paintings depicting the same subject at different times of day or year. Renoir, on the other hand, used color to create a warm and inviting atmosphere in his paintings, often depicting people in intimate settings.\nOne of Renoir's most famous paintings is \"The Dance at le Moulin de la Galette,\" which shows a group of people dancing in a country mill. The use of color in this painting creates a warm and joyful atmosphere, with bright colors used to depict the dancers' clothing and the lively music playing in the background. Another example of Renoir's use of color is \"The Umbrellas,\" which shows two figures walking down a street under umbrellas, creating a sense of intimacy and closeness between the people in the painting.\nClaude Monet was also known for his use of color to create a sense of light and atmosphere. One of his most famous paintings is \"Impression, Sunrise,\" which gives the movement of the sea and the clouds in the sky. The use of color in this painting creates a sense of energy and dynamism, as well as the impression (hence the name of the painting) of the moment when the sun rises over the ocean.\nAnother example of Monet'"
+    },
+    {
+        "instruction": "Which artist created the famous sculpture of David, a marble statue of the biblical hero that stands over 5 meters tall in Florence, Italy?\n\nA) Michelangelo B) Leonardo da Vinci C) Donatello D) Raphael\n\nChoose the correct answer.",
+        "input": "",
+        "output": "A) Michelangelo B) Leonardo da Vinci C) Donatello D) Raphael"
+    },
+    {
+        "instruction": "In the painting “The Starry Night” by Vincent van Gogh, what is the significance of the swirling sky? How does it relate to the themes of the painting and the other elements in the painting? Please provide evidence from the painting to support your answer.",
+        "input": "",
+        "output": " sistema de crecimiento celular pdf"
+    },
+    {
+        "instruction": "In the song “Bohemian Rhapsody” by Queen, what is the significance of the lyrics? How do they relate to the themes of the song and the other elements in the song? Please provide evidence from the song to support your answer.",
+        "input": "",
+        "output": "A:In the song “Bohemian Rhapsody” by Queen, the lyrics are significant because they provide insight into the themes of the song. The lyrics discuss themes such as love, loss, and madness, which are reflected in the other elements of the song such as the music and vocals.\nFor example, in the first verse, the lyrics “Mama, just killed a man” reflect the theme of murder and violence, which is further emphasized by the heavy rock music and screaming vocals. In contrast, the lyrics “Scaramouche, Scaramouche, will you do the Fandango?” reflect the theme of love and romance, which is conveyed through the more upbeat and light-hearted music and higher-pitched vocals.\nOverall, the lyrics in “Bohemian Rhapsody” serve to enhance the overall thematic message of the song and provide additional layers of meaning and depth to the composition."
+    },
+    {
+        "instruction": "Which composer wrote the famous four-part oratorio “Messiah”, which includes the “Hallelujah” chorus?\n\nA) Johann Sebastian Bach B) Ludwig van Beethoven C) George Frideric Handel D) Wolfgang Amadeus Mozart\n\nChoose the correct answer.",
+        "input": "",
+        "output": "\nA) Johann Sebastian Bach (1685-1750)\nB) Ludwig van Beethoven (1770-1827)\nC) George Frideric Handel (1685-1759)\nD) Wolfgang Amadeus Mozart (1756-1791)"
+    },
+    {
+        "instruction": "What is the name of the musical interval between two notes that have the same pitch but different names, such as C and B sharp?\n\nA) Augmented unison B) Diminished second C) Enharmonic equivalent D) Chromatic semitone\n\nChoose the correct answer.",
+        "input": "",
+        "output": "\nA) Augmented unison B) Diminished second C) Enharmonic equivalent D) Chromatic semitone"
+    },
+    {
+        "instruction": "What are the main types of musical scales and how are they used in different genres of music? Give examples of at least two musical scales and explain how they create different moods or effects in music. How do you identify the key of a song based on its scale?",
+        "input": "",
+        "output": "There are many different types of musical scales, but some of the most common ones include the major scale, the minor scale, and the pentatonic scale. The major scale is a seven note scale that creates a happy or uplifting mood, while the minor scale is a six note scale that can create a sad or melancholy mood. The pentatonic scale is a five note scale that is often used in folk music and can create a more simple and basic sound.\nTo identify the key of a song based on its scale, you can look at the notes that are being used. For example, if a song uses only notes from the C major scale, it is in the key of C major. Likewise, if a song uses only notes from the A minor scale, it is in the key of A minor. However, sometimes songs will use notes from multiple scales, which can make identifying the key more complex. In this case, you may need to analyze the chords and progressions being used to determine the key."
+    },
+    {
+        "instruction": "Girl I feel you on those scares! Can’t wait to also get my tubes tied so I can live out the days before my period without anxiety :(",
+        "input": "",
+        "output": "I’m all for natural birth but I also think it’s a personal choice. If you want an epidural go for it! It’s your body and it’s your baby!\nAgreed! I’m all about the informed choice."
+    },
+    {
+        "instruction": "Unemployment is a situation where people who are willing and able to work cannot find a job. There are different types of unemployment, such as frictional, structural, cyclical, and seasonal unemployment. Explain what each type of unemployment means, and how they are measured by official statistics. Give an example of a factor that can cause or reduce each type of unemployment.",
+        "input": "",
+        "output": "Frictional unemployment is a type of unemployment that occurs when people are between jobs. This can happen when workers quit their job, get fired, or choose to leave their job because they want a new one. Frictional unemployment is measured by the Bureau of Labor Statistics (BLS) by looking at the number of people who have been jobless for less than 14 weeks. For example, if there are 100,000 people who have been looking for work for less than 14 weeks, but only 95,000 jobs were available, then there would be 5,000 people who are frictionally unemployed.\nStructural unemployment occurs when there are structural changes in the economy that make it difficult for some workers to find jobs. This can happen when an industry declines, or when technology advances and makes certain jobs obsolete. Structural unemployment is measured by the BLS by looking at the number of people who have been jobless for more than 14 weeks. For example, if there are 100,000 people who have been jobless for more than 14 weeks, but only 95,000 jobs were available, then there would be 5,000 people who are structurally unemployed.\nCyclical unemployment occurs during economic downturns when businesses lay off workers due to lack of demand for their products or services. Cyclical unemployment is measured by the BLS by looking at the number of people who are jobless because of economic conditions. For example, if there are 100,000 people who are jobless because of economic conditions, but only 95,000 jobs were available, then there would be 5,000 people who are cy"
+    },
+    {
+        "instruction": "Inflation is a general increase in the prices of goods and services over time. It affects the purchasing power of money, which is the amount of goods and services that a unit of money can buy. Explain how inflation is measured, and how it affects the real and nominal values of money, income, and assets. Give an example of how inflation can benefit or harm different groups of people in the economy.",
+        "input": "",
+        "output": "Inflation is a general increase in the prices of goods and services over time. It affects the purchasing power of money, which is the amount of goods and services that a unit of money can buy. The Consumer Price Index (CPI) is a measure of inflation that reflects the changes in the prices of a basket of goods and services that consumers typically buy.\nInflation can have both positive and negative effects on different groups of people in the economy. For example, it can benefit people who own assets such as stocks and real estate, as they tend to appreciate in value as inflation rises. However, it can harm people who earn a fixed income, such as pensioners or government employees, as their income does not keep up with the rising prices. Additionally, low-income households may struggle to pay for basic necessities due to inflation."
+    },
+    {
+        "instruction": "What are the advantages and disadvantages of free trade?",
+        "input": "",
+        "output": "What are the advantages and disadvantages of free trade compared to protectionism? The main advantage of free trade is that it can lead to increased economic growth, as it allows for the flow of goods and services across international borders without any restrictions. This can lead to increased competition, which can lower prices and improve the quality of goods and services. Free trade can also lead to job creation and higher wages as companies are able to take advantage of cheaper labour costs in other countries. On the other hand, free trade can also lead to increased income inequality as some industries may be negatively affected by foreign competition. Additionally, if a country relies heavily on one or two industries, free trade may lead to job losses and economic decline if those industries are no longer competitive."
+    },
+    {
+        "instruction": "Speed is the measure of how fast an object is moving, while velocity is the measure of how fast an object is moving in a specific direction. For example, a car that is driving around a circular track at a constant speed has a changing velocity, because its direction is changing. What is the formula for speed and the formula for velocity?",
+        "input": "",
+        "output": "Speed is the amount of distance traveled divided by the amount of time taken to travel that distance. The formula for speed is:\nSpeed = Distance / Time\nFor example, if you drive from your house to work and it takes you 30 minutes to get there, your speed is 30 miles per hour (MPH).\nVelocity is the combination of speed and direction. The formula for velocity is:\nVelocity = Speed * Direction\nFor example, if you are driving in a straight line at 60 MPH, your velocity is 60 MPH in a forward direction. However, if you are driving around a circular track at a constant speed, your velocity would be changing because your direction is changing."
+    },
+    {
+        "instruction": "How much work is done by a force of 10 N that moves an object 5 m in the direction of the force",
+        "input": "",
+        "output": "\nA force of 10 N moves an object 5 m in the direction of the force. The work done by the force is equal to the change in the object's kinetic energy, which is half the product of its mass and the velocity squared. Therefore, the work done by the force is:\nW = ½(10 N)(5 m)(2 m/s²)) = 10 Joules"
+    },
+    {
+        "instruction": "I don't understand Quantum Physics or even regular Physics. Teach me the fundamentals so that I can better understand my world. Also, please reference the sources of your knowledge.",
+        "input": "",
+        "output": "\nComment:This is a very broad question. What specific concepts in quantum physics do you want to learn about?"
+    },
+    {
+        "instruction": "What is the force required to accelerate a 10 kg object at 5 m/s^2? When weight is 2kg, answer is 10.",
+        "input": "",
+        "output": "But what if weight is 5kg? Then answer is 20.. Why not 15 or 25?\nI think the answer should be 15. Because when weight is 2kg, force required to accelerate it at 5 m/s^2 is 10. So when weight increases by 3kg, force required to accelerate it at the same rate of 5 m/s^2 should also increase by 3 times which is 15."
+    },
+    {
+        "instruction": "What was the name of the political and social movement that aimed to abolish slavery and racial discrimination in the United States before and during the Civil War? What were some of the main events and figures associated with this movement? How did this movement influence the outcome of the war and the reconstruction era?",
+        "input": "",
+        "output": " Winfield Scott, John Brown, Harriet Beecher Stowe, Abraham Lincoln, Frederick Douglass, Sojourner Truth"
+    },
+    {
+        "instruction": "What was the main cause of the French Revolution of 1789? Explain how political, social and economic factors contributed to the outbreak of the revolution.",
+        "input": "",
+        "output": "529 viewsMay 04, 2021 History\nThe main cause of the French Revolution of 1789 was a combination of political, social and economic factors. The political factors included the absolute monarchy of Louis XVI, which led to widespread inequality and poverty in France. The social factors included the Enlightenment ideas of individual liberty and equality, which were not being fulfilled by the French government. The economic factors included the lack of representation for the Third Estate in the Estates-General, which led to their taxation without representation. All of these factors combined to create a revolutionary atmosphere in France, leading to the outbreak of the French Revolution in 1789."
+    },
+    {
+        "instruction": "What were some of the most significant inventions of the Industrial Revolution and how did they change the world? Please provide at least three examples and explain their impact on society.",
+        "input": "",
+        "output": " Using examples, describe how new technology has transformed industries and created new job opportunities."
+    },
+    {
+        "instruction": "How can you generate a LaTeX code for a table given its data and format specifications? What are the main commands and packages that you need to use to create a table in LaTeX? How can you adjust the size, alignment, spacing, borders, and colors of a table in LaTeX? Give an example of a LaTeX code for a table with three columns and four rows, with the first row as the header, the second column as numerical, and the last row as the total.",
+        "input": "",
+        "output": "ĚřĮčĎďŘ ĚžÍťŮ ĮŽĮ ĚĂůĐŚ ĚĂůÕŚ ĚĂůĮ ĚĂůÒŚ ĚĂů\n\n```\n\\begin{table}[h]\n\\centering\n\\caption{Example Table}\n\\label{tab:example}\n\\begin{tabular}{|c|c|c|}\n\\hline\n\\textbf{Column 1} & \\textbf{Column 2} & \\textbf{Column 3}\\\\ \\hline\nItem 1 & 5 & 400\\\\ \\hline\nItem 2 & 6 & 450\\\\ \\hline\nItem 3 & 7 & 500\\\\ \\hline\n\\end{tabular}\n\\end{table}\n```\nThis code will create a table with three columns and four rows, where the first row is the header, the second column is numerical, and the last row is the total. The `table` environment sets the position of the table, either `p` for positioned or `h` for centered. The `caption` specifies the caption for the table, and the `\\label{tab:example}` allows you to reference the table elsewhere in your document. The `|c|c|c|` specifies the columns of the table, and the `&` separates each column. The `\\textbf{` and `\\textit{` fonts are used for the header and body text respectively. The `s` option in the `tabular` command adds space for the lines to separate the cells. You can adjust the size, alignment, spacing, borders, and colors of the table by using various commands and packages in LaTeX."
+    },
+    {
+        "instruction": "How can you improve your paper writing in academic style by using effective transitions and signposts? What are the functions and types of transitions and signposts in academic writing? How can you use them to connect your ideas and guide your reader? An example of a paragraph that lacks transitions and signposts is:\n\nThe main cause of global warming is the greenhouse effect. Greenhouse gases trap heat in the atmosphere and warm up the Earth’s surface. Carbon dioxide is the most important greenhouse gas. It is produced by burning fossil fuels such as coal, oil and gas. The more fossil fuels we burn, the more carbon dioxide we emit.\nYou need to polish the paragraph.",
+        "input": "",
+        "output": "The main cause of global warming is the greenhouse effect. Greenhouse gases trap heat in the atmosphere and warm up the Earth's surface. Carbon dioxide is the most important greenhouse gas. It is produced by burning fossil fuels such as coal, oil and gas. The more fossil fuels we burn, the more carbon dioxide we emit."
+    },
+    {
+        "instruction": "Which of the following substances is the most toxic to humans based on its median lethal dose (LD50)?\n\nA) Arsenic B) Cyanide C) Mercury D) Botulinum toxin",
+        "input": "",
+        "output": "\nArsenic"
+    },
+    {
+        "instruction": "What are some of the deepest philosophical questions? Attempt to provide answers to them as well, please.",
+        "input": "",
+        "output": " Headline: The 25 Most Profound Philosophical Questions of All Time"
+    }
+]

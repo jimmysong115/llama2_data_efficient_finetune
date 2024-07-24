@@ -1,0 +1,42 @@
+[
+    {
+        "instruction": "Consider the differential equation dy/dx = 3(y - x)/(y + x). (a) Find the general solution of the differential equation. (b) Find the particular solution of the differential equation that satisfies the initial condition y(0) = 11",
+        "input": "",
+        "output": "(a) The general solution of the differential equation is y = 3x/y + x + c, where c is an arbitrary constant.\n(b) The particular solution of the differential equation that satisfies the initial condition y(0) = 11 is y = 11/(y+11)"
+    },
+    {
+        "instruction": "Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i != j, i != k, and j != k, and nums[i] + nums[j] + nums[k] == 0.\n\nNotice that the solution set must not contain duplicate triplets.\n\n \n\nExample 1:\n\nInput: nums = [-1,0,1,2,-1,-4]\nOutput: [[-1,-1,2],[-1,0,1]]\nExplanation: \nnums[0] + nums[1] + nums[2] = (-1) + 0 + 1 = 0.\nnums[1] + nums[2] + nums[4] = 0 + 1 + (-1) = 0.\nnums[0] + nums[3] + nums[4] = (-1) + 2 + (-1) = 0.\nThe distinct triplets are [-1,0,1] and [-1,-1,2].\nNotice that the order of the output and the order of the triplets does not matter.",
+        "input": "",
+        "output": "Example 2:\n\nInput: nums = [1,0,-1,2,-1,-4]\nOutput: [[-1,-1,2],[-1,0,1]]\nExplanation: \nnums[0] + nums[1] + nums[2] = (-1) + 0 + 1 = 0.\nnums[1] + nums[2] + nums[3] = 0 + 1 + (-1) = 0.\nnums[0] + nums[3] + nums[4] = (-1) + 1 + (-1) = 0.\nThe distinct triplets are [-1,0,1] and [-1,-1,2].\nNotice that the order of the output and the order of the triplets does not matter.."
+    },
+    {
+        "instruction": "In consideration of the ever-expanding landscape of virtualization technologies and tools available for Linux, which span the spectrum from full virtualization solutions such as KVM and Xen, to containerization platforms such as Docker and Kubernetes, could you provide a thorough analysis of the different virtualization models, including their architectural design, resource isolation, scalability, and management features, and evaluate the benefits and challenges of each of these models for different use cases, such as cloud computing, DevOps, and software development?",
+        "input": "",
+        "output": " Correction: The current version of this article has been updated with the correct information."
+    },
+    {
+        "instruction": "Using EPPlus, I want to read an excel table, then store all the contents from each column into its corresponding List. I want it to recognize the table's heading and categorize the contents based on that.\n\nFor example, if my excel table is as below:\n\nId    Name     Gender\n 1    John     Male\n 2    Maria    Female\n 3    Daniel   Unknown\nI want the data to store in List<ExcelData> where\n\npublic class ExcelData\n{\n    public string Id { get; set; }\n    public string Name { get; set; }\n    public string Gender { get; set; }\n}\nSo that I can call out the contents using the heading name. For example, when I do this:\n\nforeach (var data in ThatList)\n{\n     Console.WriteLine(data.Id + data.Name + data.Gender);\n}\nIt will give me this output:\n\n1JohnMale\n2MariaFemale\n3DanielUnknown\nThis is really all I got:\n\nvar package = new ExcelPackage(new FileInfo(@\"C:\\ExcelFile.xlsx\"));\nExcelWorksheet sheet = package.Workbook.Worksheets[1];\n\nvar table = sheet.Tables.First();\n\ntable.Columns.Something //I guess I can use this to do what I want\nPlease help :( I have spent long hours searching for sample code regarding this so that I can learn from it but to no avail. I also understand ExcelToLinQ is managed to do that but it can't recognize table.",
+        "input": "",
+        "output": "\nI have tried this but it gives me an error that the type 'Range' isn't recognized:\n\nvar list = table.UnevaluatedExpr(e => e.Copy());\n\nThanks in advance :)"
+    },
+    {
+        "instruction": "What are the differences between the rules of American football and rugby? How do these differences affect the way the games are played? Which sport do you think is more physically demanding and why? Please provide examples to support your answer.",
+        "input": "",
+        "output": " gratitude"
+    },
+    {
+        "instruction": "Which novel by George Orwell tells the story of a farm where the animals rebel against their human oppressor and establish a new society based on equality, but soon face corruption and tyranny?\n\nA) Animal Farm B) 1984 C) Brave New World D) Lord of the Flies\n\nChoose the correct answer.",
+        "input": "",
+        "output": "A) Animal Farm"
+    },
+    {
+        "instruction": "What is the name of the actor who played the role of Jack Sparrow in the Pirates of the Caribbean movie series? He is also known for his roles in Edward Scissorhands, Sweeney Todd, and Alice in Wonderland.\n\nA) Johnny Depp B) Orlando Bloom C) Geoffrey Rush D) Keira Knightley\n\nChoose the correct answer.",
+        "input": "",
+        "output": "A) Johnny Depp"
+    },
+    {
+        "instruction": "How can you improve your paper writing in academic style by using effective transitions and signposts? What are the functions and types of transitions and signposts in academic writing? How can you use them to connect your ideas and guide your reader? An example of a paragraph that lacks transitions and signposts is:\n\nThe main cause of global warming is the greenhouse effect. Greenhouse gases trap heat in the atmosphere and warm up the Earth’s surface. Carbon dioxide is the most important greenhouse gas. It is produced by burning fossil fuels such as coal, oil and gas. The more fossil fuels we burn, the more carbon dioxide we emit.\nYou need to polish the paragraph.",
+        "input": "",
+        "output": "There are different types of transitions and signposts that you can use in academic writing to connect your ideas and guide your reader. Some examples are:\n1. Advancing the argument: This type of transition shows the relationship between two ideas and how they support each other. For example, “furthermore,” “in addition,” “moreover.”\n2. Causal relation: This type of transition shows how one idea causes another. For example, “since,” “because,” “as a result.”\n3. Summary: This type of transition summarizes the main points of the previous paragraph or section. For example, “in summary,” “to conclude,” “in brief.”\n4. Shift in direction: This type of transition shows a change in the direction of the argument. For example, “however,” “on the other hand,” “but.”\n5. Temporal relation: This type of transition shows the relationship between two events in time. For example, “first,” “second,” “finally.”\nHere is an example of a paragraph that uses effective transitions and signposts:\nThe main cause of global warming is the greenhouse effect. Greenhouse gases trap heat in the atmosphere and warm up the Earth’s surface. Carbon dioxide is the most important greenhouse gas. It is produced by burning fossil fuels such as coal, oil and gas. The more fossil fuels we burn, the more carbon dioxide we emit. However, there are other factors that contribute to global warming, such as deforestation and urbanization. In summary, while the greenhouse effect is the main cause of global warming, there are other factors that contribute to it."
+    }
+]

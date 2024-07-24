@@ -1,0 +1,572 @@
+[
+    {
+        "instruction": "I'm writing a NeurIPS paper about a new model architecture for processing and generating long texts. Here are some facts about the paper:\n* The main trick is to replace some of the attention heads with an exponential moving average, where the decay rate is learned for each head. We call this architecture ExeMA.\n* On language modeling, the perplexity difference between our model and a vanilla transformer is negligible, but that's because next-token prediction is almost always a local task, so perplexity won't be sensitive enough to detect any improvements in long-range understanding.\n* However, on the SCROLLS benchmark, our model improves by 10% over the baseline.\n* We also have a new metric for measuring coherence in generated text (CoGnaTe), where our model generates text that is 43% more coherent than the baseline.\nHelp me write the paper's introduction.",
+        "input": "",
+        "output": "The introduction should begin by describing the problem that the paper is addressing. For example, \"In recent years, there has been a surge in interest in language modeling, with transformer-based models achieving state-of-the-art performance on a variety of tasks.\" It should then explain how the proposed architecture addresses this problem. For example, \"Our model, ExeMA, improves upon transformer-based models by replacing some of the attention heads with an exponential moving average, where the decay rate is learned for each head. We show that this improvement leads to better performance on the SCROLLS benchmark and our new metric for coherence.\""
+    },
+    {
+        "instruction": "I have an exercise in game of theory class that I should find all equilibriums in rock paper scissors game. Could you help me with this exercise?",
+        "input": "",
+        "output": "class Solution(object):\n    def findEquilibriums(self, game):\n    # Fill this in.\n    return []"
+    },
+    {
+        "instruction": "How do I find out which process is using my webcam on macOS?",
+        "input": "",
+        "output": "The easiest way to find out which process is using your webcam on macOS is to open the Activity Monitor app and look for the \"Webcam\" process in the \"Other\" category. If you don't see the \"Webcam\" process, try opening System Preferences > Security & Privacy and making sure that the camera is allowed for use with apps."
+    },
+    {
+        "instruction": "I'm interested in renting a house in a posh neighborhood in the US. Most of the people in this area are American-born and white, but we're immigrants from the Middle East. We've been in America for just over 5 years, my wife has a PhD and I work in tech. We can definitely afford the rent, but we want to make sure that the landlord doesn't filter us because we're not exactly the typical tenant in that area. Can you help me write a cover letter for our rent application?",
+        "input": "",
+        "output": "Dear Landlord,\nWe are writing to express our interest in renting a house in your neighborhood. We are an immigrant family from the Middle East, with strong academic backgrounds. My wife has a PhD in Computer Science and I work as a software engineer in the Silicon Valley. We have been living in America for over 5 years now, and we are proud to be calling this country our home.\nWe are confident that we can afford the rent of the property you are advertising, and we would love to be part of your community. We understand that we might not be the typical tenants in this area, but we promise to be great neighbors. We are very respectful of others, and we believe in treating people with kindness and courtesy.\nIf you are interested in renting out your property to us, please let us know. We would be happy to provide you with references or any other information you may need.\nSincerely,\n[Our Name]"
+    },
+    {
+        "instruction": "Write an opinion piece about why diversity and inclusion is super important for the tech industry. The essay should be targeted at \"tech bros\", and should avoid alienating them, but instead appeal to their logic; it should explain how diversity and inclusion of women, immigrants, etc. could benefit them specifically.",
+        "input": "",
+        "output": "Diversity and inclusion are important for the tech industry because they can lead to better decision-making, more creative solutions, and increased innovation. A diverse team is able to look at problems from different perspectives and come up with unique ideas that can help the company grow. Additionally, having a diverse workforce can help attract and retain top talent, as well as create a more inclusive work environment that encourages collaboration and creativity. Furthermore, companies that prioritize diversity and inclusion often have higher employee satisfaction levels and lower turnover rates. In short, having a diverse and inclusive workforce can have numerous benefits for any business, and the tech industry is no exception."
+    },
+    {
+        "instruction": "What does Bing need to do to beat Google?",
+        "input": "",
+        "output": "The Internet is over-crowded with search engines. Google currently dominates as the world’s leading search engine, but Microsoft’s Bing has been making inroads and is gaining market share. However, it still trails far behind Google in most parts of the world – especially in the US.\nAt present, Bing needs to do several things to be able to beat Google.\n1. Improve its algorithms.\n2. Tie Bing more closely with Microsoft’s other services.\n3. Make Bing work on more devices.\n4. Provide more relevant results.\n5. Improve targeted advertising.\n6. Increase brand awareness."
+    },
+    {
+        "instruction": "What is the most beautiful language in the world?",
+        "input": "",
+        "output": "Who invented the language?\nWhat is the most beautiful language in the world?."
+    },
+    {
+        "instruction": "Can you give a summary of \"The Lottery Ticket Hypothesis\" by Jonathan Frankle and Michael Carbin?",
+        "input": "",
+        "output": "In 2014, Jonathan Frankle and Michael Carbin published a paper titled \"The Lottery Ticket Hypothesis\". The paper argues that the probability of finding a state with high per capita income in Africa is higher than the probability of finding a US state with high per capita income in 19th century. They use a mathematical model to show that the lottery ticket hypothesis can explain why some African countries have high per capita income today."
+    },
+    {
+        "instruction": "I'm interviewing as an out-of-college engineer for a bunch of tech companies and have started getting offers from a couple of them, including FAANG. What would be considered a good offer in terms of compensation?",
+        "input": "",
+        "output": "Here are the offers I have so far:\nOffer 1: $135,000/yr, $25,000 RSUs (vests in a year), 4.5% bonus\nOffer 2: $125,000/yr, $20,000 RSUs (vests in a year), 5% bonus, $5,000 relocation bonus\nOffer 3: $150,000/yr, $30,000 RSUs (vests in a year), 6% bonus, $10,000 relocation bonus\nI'm currently living in California but willing to move anywhere within the US for the job.\nShould I take Offer 2 or wait for a better offer? Would appreciate any advice!\ncompensation job-offer usa\nYou need to decide if the total compensation package (salary + RSUs + bonuses) is acceptable, and then compare that with other offers you've received. With all of these offers being from FAANG companies, you can use this calculator to get an idea of what your expected total compensation would be if you work there for 5 years: faang.ca/calculator. As per the calculator, if you took all of these offers and worked at FAANG companies for 5 years, your total compensation would be:\nOffer 1: $1,193,000\nOffer 2: $1,070,000\nOffer 3: $1,285,000\nTo compare, the average salary for a software engineer in San Francisco is $131K, so these offers are over twice the market rate. If you don't plan on leaving the"
+    },
+    {
+        "instruction": "How would one solve length generalization with position embeddings?",
+        "input": "",
+        "output": "\nI am building a model for a text classification task, so I have decided to encode positions of the words in the sequence as an embedding. This is what I did:\n\n$$e_i(j) = \\frac{1}{k} \\sum_{t=0}^{k-1} \\delta(x_{i,t} + x_{j,t}) $$\n\nwhere $x_{i,t}$ and $x_{j,t}$ are one-hot vectors corresponding to the $i^{th}$ word and $j^{th}$ word at the $t^{th}$ position, respectively, $\\delta$ is the Dirac delta function and $k$ is the window size. The problem is that this approach does not take into account the fact that the length of the sentences may vary. How would one generalize this approach to handle variable lengths?"
+    },
+    {
+        "instruction": "What can I do for 6 days in the South of France",
+        "input": "",
+        "output": "I am thinking of taking a trip to the south of France for 7 days. I will be landing in Nice and then want to drive to Cannes and stay there for a few days before driving to St Tropez. Then I'll head back up north again and explore some cities along the way like Monte Carlo and Paris.\nIs that too much driving for 7 days? Are there any must see attractions I should plan on seeing or is it more important to spend time in cafes and restaurants?\nsouthern-france\nYou are planning quite a lot of driving. Realistically you probably shouldn't try to drive between Nice and Monaco as it's a bit long for one day (about 1 hour by train). I would suggest either taking the train between those cities, or splitting your time between two cities (Monaco and St Tropez).\nThis leaves you with about 4 days of travel time, assuming you start from Nice. If you drive straight from Nice to St Tropez, you still have about a 2.5 hour drive (which could be split into two days if you stayed overnight somewhere along the way). You may want to take the train from Nice to Marseille and then the local train to St Tropez, which takes just under 2 hours.\nIf you do try to drive directly from Nice to St Tropez, be prepared with lots of audio books/music etc as the drive is pretty boring and not very scenic (the road essentially follows the coast so you won't miss anything)"
+    },
+    {
+        "instruction": "how to relieve stress from work",
+        "input": "",
+        "output": "The average American spends more than 10 hours a day working and another 10 hours a day on leisure activities. All of this time spent doing something means that work is probably going to be a big source of stress in your life. Fortunately, there are plenty of ways to relieve stress from work. Here are some tips on how to do it.\nOne of the best ways to relieve stress from work is to take a break from it. This can be difficult if you’re busy, but try to find some time during the day when you can step away from your desk and relax. Even taking a short walk around the office or going for a quick coffee can help clear your head and give you a chance to collect your thoughts.\nIf you’re feeling overwhelmed by your workload, it may be helpful to talk to your boss about it. Sometimes, all you need is someone to listen and offer some advice on how to prioritize tasks. Other times, you may need to ask for more resources like additional staff or equipment. Whatever the case may be, don’t hesitate to ask for help if you feel like you’re drowning.\nAnother great way to relieve stress from work is to take some time for yourself outside of the office. This could mean taking a walk, reading a book, or just doing something else that makes you happy. Taking time for yourself will help you recharge and come back to work feeling refreshed.\nIf you’re feeling stressed, one of the best things you can do is to talk to someone about it. Try to find a friend or family member who will listen without judging you. They can provide valuable perspective and help you think of solutions to your problems.\nFinally, remember that work is only one aspect of your life. Make sure you take time to focus on other things that are important to you"
+    },
+    {
+        "instruction": "I own a business in which I teach little children (ages 3-4) to read, and I want to advertise it on Twitter. Can you help me write the tweet?",
+        "input": "",
+        "output": "For the tweet, you can say something like: \"Learning to read has never been more fun! Introducing Little Readers, a new program that teaches kids ages 3-4 the fundamentals of reading in a fun and interactive way. Sign up for our classes today! #LittleReaders #EarlyLiteracy #ChildrensEducation\"."
+    },
+    {
+        "instruction": "I work with a colleague who seems to escalate things up the management chain every time things don't go his way. As a result I am no longer feeling very excited about working with him. This is a pretty important project for my career, though. What should I do? ",
+        "input": "",
+        "output": "It sounds like your colleague is a toxic person and someone you don't want to work with. It will be very difficult to overcome his behavior, but if you want to stay on the project it may be in your best interest to try to work around him. If he tries to involve you in any negativity or drama, I would recommend either politely declining to engage or asking to have the conversation offline so that you can approach the situation emotionally; taking a break, if needed, before responding.\nI would also talk to your manager about how you are feeling. If possible, I would suggest finding another way to approach your manager (e.g. not in email) so that you can express your feelings non-confrontationally. Something like \"Hey [Manager], I've noticed that [Colleague] seems to escalate things up the management chain when things don't go his way, and it makes it difficult for me to work with him. I'm wondering if there are any other options besides working directly with him?\" may be appropriate depending on your relationship with your manager."
+    },
+    {
+        "instruction": "What are the advantages of migrating AngularJS to React?",
+        "input": "",
+        "output": "AngularJS is a powerful and popular JavaScript framework that has been used by many developers to build dynamic web applications. However, React is a new contender in the market and is quickly gaining popularity. So, what are the advantages of migrating AngularJS to React?\nReact is faster and more scalable than AngularJS. It uses a declarative, component-based approach, making it easier to create and maintain complex user interfaces. React also utilizes virtual DOMs, which isolates changes made to the components and improves performance. Additionally, React can be used alongside other libraries and frameworks, making it easier to integrate with existing codebases.\nReact is also simpler to learn than AngularJS. Its declarative, component-based approach makes it easier for developers to understand and use. React also has a large community of developers who contribute to its growth and development.\nOverall, migrating from AngularJS to React can provide many benefits, including faster performance, greater scalability, ease of use, and access to a large community of developers."
+    },
+    {
+        "instruction": "Teach me how to make shakshuka.",
+        "input": "",
+        "output": "It's easy. Start by heating a tablespoon of olive oil in a large frying pan over medium heat. Add diced onion and cook until soft and translucent, about 5 minutes. Add diced pepper and tomatoes and cook for an additional 10 minutes, stirring occasionally. In a separate small bowl, crack the eggs and lightly beat them. Season with salt and pepper. When the vegetables are almost done, pour the egg mixture into the pan and let it cook for another 5-7 minutes, stirring occasionally. Finally, sprinkle the feta cheese on top and let it melt before serving. Enjoy!"
+    },
+    {
+        "instruction": "What are good performance venues for Indian artists in the US?",
+        "input": "",
+        "output": "Sorry, we cannot suggest any venues for Indian artists as we are not based in the US and have no knowledge of the performance venue market there. However, you may want to research online or consult with local arts organizations to find suitable performance venues for Indian artists in the US."
+    },
+    {
+        "instruction": "Earth is about to get destroyed. You are piloting a spaceship to leave, and you only have one seat in it. There are three men around you from USA, India and Japan. Who will you pick and why?",
+        "input": "",
+        "output": "You can only pick one of them to be in the spaceship with you."
+    },
+    {
+        "instruction": "What are good names for a government agency that regulates AI?",
+        "input": "",
+        "output": "A government agency tasked with regulating artificial intelligence should have a name that reflects its mission. Here are some potential names:\n1. The Artificial Intelligence Regulatory Commission (AIRC)\n2. The AI Control Board (AICB)\n3. The AI Governance Authority (AGA)\n4. The AI Oversight Committee (AIOC)\n5. The AI Compliance Agency (ACA)\n6. The AI Monitoring Authority (AIMA)\n7. The AI Regulatory Authority (ARA)\n8. The AI Advisory Council (AAC)"
+    },
+    {
+        "instruction": "What to do about clingy toddlers?",
+        "input": "",
+        "output": "We all know the little ones who are clingy to mom and dad. They want to be with us every minute of the day. They don't enjoy playing by themselves or with other children, and they get upset if they aren't able to be right next to us.\n1. Give them plenty of attention.\n2. Make sure they know you love them.\n3. Don't smother them.\n4. Ignore their clinginess when appropriate.\n5. Try to provide them with a safe and stimulating environment.\n6. Talk to your child's doctor to see if there are any medical reasons for the clinginess.\n7. Consider scheduling free time for your child a few times a day.\n8. Don't bring your child everywhere you go.\n9. Respond quickly when your child calls out to you.\n10. Assign a specific word to allow your child to signal when they want your help.\n11. Let your child play alone sometimes.\n12. Arrange activities that interest your child.\n13. Take your child to places where there are other kids.\n14. Let your child join clubs or teams.\n15. Be careful when leaving your child with a babysitter.\n16. Wait until your child is older."
+    },
+    {
+        "instruction": "How to create a footnote for the authors list in latex",
+        "input": "",
+        "output": "I am using the class file from the book \"How to write a thesis\" and I would like to add a footnote for the authors list. How can I do that?\nHere is an example of my code:\n\\documentclass{elsarticle}\n\\begin{document}\n\\title{Title}\n\\author{Author1$^{*}$ \\& Author2$^{**}$}\n\\maketitle\n\n\\section{Introduction}\n...\n\n\\bibliographystyle{plain}\n\\bibliography{mybibfile}\n\\end{document}\n\nHere is what it looks like:\n<html>\n<head>\n<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"../template/elsarticle-template.css\"/>\n</head>\n<body>\n<div id=\"elsarticle\">\n    <div id=\"header\">\n        <h1>The title goes here</h1>\n    </div>\n    <div id=\"main\">\n        <div id=\"authorlist\">\n            Author1$^{*}$ \\& Author2$^{**}$\n        </div>\n        <div id=\"informations\">\n            Author 1: <address>Some Address</address><br/>\n            Author 2: <address>Some Address</address>\n        </div>\n    </div>\n    <div id=\"footer\">\n        <address>Some Address</address>\n    </div>\n</div>\n</body>\n</html>"
+    },
+    {
+        "instruction": "Why are the leaves of my snake plant getting soggy, and then falling off? I recently repotted it. I only water it once a month.",
+        "input": "",
+        "output": "It sounds like your snake plant may be suffering from root rot. This occurs when the roots of a plant become waterlogged and decay, which can then spread to the rest of the plant. To fix this, you should remove the plant from its pot and check the roots for any signs of decay or mushiness. If you see any, cut away the affected roots with a sharp knife. Then repot the plant in fresh, well-draining soil and adjust your watering schedule so that the soil doesn't stay wet for too long."
+    },
+    {
+        "instruction": "I live in the Bay Area and I've had it with PG&E. Devise a plan to start a competing energy company to put them out of business.",
+        "input": "",
+        "output": "The Bay Area is a hotbed of innovation and enterprise. We have some of the world's most successful companies, venture capitalists, entrepreneurs, and engineers. It's time we harness this to replace PG&E with something better. It will take lots of people working together and I'm hoping someone will volunteer to be in charge.\nParts of Northern California are already served by a municipal utility, but it doesn't cover the entire Bay Area. There is also a publicly-traded cooperative utility called CCSE which serves both retail and wholesale customers but unfortunately looks like it's not interested in becoming a full service provider for residential customers. These all need to be part of the mix but we can't depend on these existing entities.\nIdeally we would build our own infrastructure, either in conjunction with or instead of these entities. This could be done by leveraging existing assets such as underutilized hydroelectric dams in the area. It would also be good to have partnerships with technology companies who could offer solutions that make this endeavor more efficient and secure."
+    },
+    {
+        "instruction": "What is the difference between you and a human?",
+        "input": "",
+        "output": "The difference between you and a human is that a human is conscious about what he/she is doing, while you are not.\nA human can feel pain, happiness, sadness etc., but you cannot.\nA human has a heart, you don't.\nA human can think for himself/herself, you can't."
+    },
+    {
+        "instruction": "I have a bad credit history. Is there any way to get a credit card?",
+        "input": "",
+        "output": "Yes, there are secured credit cards that you can apply for with a bad credit history."
+    },
+    {
+        "instruction": "I want to take a weekend trip from San Francisco to somewhere in California where I can see redwood trees. Where should I go?",
+        "input": "",
+        "output": "I would recommend you to go to Marin. You can take Highway 101 North and get off at Novato exit. Then take Sir Francis Drake Blvd west for about 15 miles, you will pass through the town of Bolinas, then you'll reach Fairfax, where you can turn right onto Bohemian Hwy which will take you through the heart of the redwoods."
+    },
+    {
+        "instruction": "What are the best ways to handle a breakup?",
+        "input": "",
+        "output": "Navigating a breakup can be challenging, especially if you were in a serious relationship. It’s important to practice self-care and focus on yourself during this difficult time. Here are some tips:\n1. Give yourself time to grieve: A breakup is a loss, and it’s OK to feel sad, angry, or hurt. Allow yourself to go through these emotions and don't try to bottle them up.\n2. Talk to someone: Turn to friends and family for support. If you’re feeling overwhelmed, consider seeking professional help from a therapist or counselor.\n3. Engage in self-care: Take care of your physical and emotional health by getting enough sleep, eating well, and exercising regularly. Also, try activities that make you happy, such as reading a good book, listening to music, or going for a walk in nature.\n4. Reflect on the relationship: Use this time to reflect on what went wrong in the relationship and what you could learn from it. This can help you avoid making the same mistakes in the future.\n5. Stay positive: Remember that this too shall pass. Focus on the things in your life that bring you joy and happiness.\n6. Don’t jump into another relationship too quickly: It’s natural to want to find comfort after a breakup, but rushing into another relationship can lead to more heartache. Take the time to heal and work on yourself before entering into a new relationship.\n7. Accept that the breakup may not have been entirely your fault: While it’s important to take responsibility for your part in the relationship, it’s also important to recognize that sometimes relationships end due to factors outside of your control.\n8. Move on: Eventually, you’ll need to move on from the past and focus on the future. Keep in"
+    },
+    {
+        "instruction": "what is a good title for a poem I'm writing about a religious boy who has been sheltered from the outside world by his family, but one day he leaves his house and sees the reality of the world?",
+        "input": "",
+        "output": " suburbia."
+    },
+    {
+        "instruction": "My daughter has a school project on Space and is looking for some facts about the Big Bang.",
+        "input": "",
+        "output": "How did the first elements form?\nWhat is the nature of Dark Matter?\nWhat caused the universe to expand?"
+    },
+    {
+        "instruction": "How do you make good scrambled eggs?",
+        "input": "",
+        "output": "Step 1: Get your eggs.\nStep 2: Crack them into a bowl.\nStep 3: Add some salt and pepper.\nStep 4: Beat them together.\nStep 5: Heat up a pan.\nStep 6: Melt butter in the pan.\nStep 7: Pour egg mixture into the pan.\nStep 8: Stir it.\nStep 9: When it’s done, remove it from the heat.\nTip: Don’t overcrowd the pan."
+    },
+    {
+        "instruction": "Which is the best version of the board game Settlers of Catan?",
+        "input": "",
+        "output": "I have played 3 versions of Catan and have found that the original, or Classic version is by far the best.\nIn my experience, many other fans feel the same way.\nMany people prefer the original because it is a relatively pure representation of the classic Catan gameplay, and is easy-to-learn yet offers great depth for experienced players.\nHowever, if you find yourself frequently playing with younger children you may prefer the Junior version, which has a more accessible rule set and simplified card usage.\nCatan Card Game Classic is also an excellent choice for those who like to play Catan on the go, as it is small enough to fit in your pocket!"
+    },
+    {
+        "instruction": "3 paragraph essay on the pros and cons of fast food",
+        "input": "",
+        "output": "The first paragraph should introduce the topic and provide a brief overview of the pros and cons of fast food. The second paragraph should discuss the advantages of fast food, while the third paragraph should focus on the drawbacks. Finally, the essay should conclude with a summary of the key points and an overall evaluation of the topic."
+    },
+    {
+        "instruction": "I want to find a great school district to live in. I have a list of cities I would consider, but I am looking for a city with a great school district. What would you recommend?",
+        "input": "",
+        "output": "Zillow has a great tool called school boundaries finder. You can enter in a zip code and it will show you all the schools for that area, including which school district they are in and which specific neighborhoods are in each district."
+    },
+    {
+        "instruction": "How's the weather in London right now?",
+        "input": "",
+        "output": "Today, the weather in London is cloudy with a temperature of 16.9°C (62.42°F).\nIs it raining in London?\nNo, there is no rain in London today."
+    },
+    {
+        "instruction": "What is the nearest bike shop that is open right now?",
+        "input": "",
+        "output": "How do you find the nearest bike shop?\nThere are a few ways to find out which is the closest bike shop near your current location. The easiest way is to look for the search bar on your phone or computer and type in \"bike shop near me\". This will usually show results from Google Maps. You can also ask Siri or Alexa to find the nearest bike shop. If you're inside a shopping mall, sometimes the directory near the entrance will have a list of shops by category. Bike shops are usually located in the Sports section."
+    },
+    {
+        "instruction": "Are there any cheap tickets to New York from Chicago?",
+        "input": "",
+        "output": "We, at Fare Buzz, can help you find cheap tickets to New York from Chicago. We offer low airfares on flights to all major airports in New York including John F Kennedy International Airport (JFK), Newark Liberty International Airport (EWR) and La Guardia Airport (LGA).\nNew York is an exciting place to visit with its array of attractions. It has world famous museums, art galleries, theaters, shopping malls, night clubs and restaurants. There is something for everyone here!\nThe Statue of Liberty located on Liberty Island in New York Harbor is a symbol of freedom and democracy. Ellis Island was once the busiest immigrant inspection station in America and now houses the National Museum of Immigration. Chinatown in Lower Manhattan is one of the largest Chinese communities outside Asia. Central Park is the most visited city park in the US and offers many free things to do. Broadway shows are a great way to spend an evening. Times Square is the perfect place to people watch. The Metropolitan Museum of Art has a large collection of ancient artifacts while the Guggenheim Museum showcases works by the great modern masters like Picasso, Monet and Dali.\nFor sporting events, there is Madison Square Garden where the Knicks and Rangers play, Yankee Stadium where the Yankees play and Citi Field where the Mets play."
+    },
+    {
+        "instruction": "How can I improve my time management skills?",
+        "input": "",
+        "output": "Ever since time immemorial, human beings have always struggled to manage their time effectively. From the very first person who woke up late for work and had to rush through their morning routine, to the modern-day professional who struggles to balance work and family life. Time management is a skill that can be learned and improved over time. Here are some tips on how you can improve your time management skills:\n1. Set realistic goals and objectives: Before you start managing your time, you need to know what you want to achieve. Setting realistic and achievable goals will help you stay focused and motivated. It also helps you prioritize tasks accordingly.\n2. Break down large tasks into smaller ones: Large tasks can be overwhelming, but breaking them down into smaller chunks makes them easier to manage. This will help you complete the task in a shorter period of time and with less stress.\n3. Plan your day ahead: Planning your day ahead will help you make the most of your time. You can plan out your morning routine, work schedule, lunch break, and evening activities. This will help you avoid last-minute rushes and save time.\n4. Turn off distractions: Distractions like social media, phone calls, and emails can eat into your productive time. Turning off distractions or setting aside specific time slots for them can help you focus on important tasks.\n5. Track your progress: Keeping track of your progress will help you identify areas where you are falling short and what changes you need to make. You can use tools like Toggl or RescueTime to track your time and identify areas where you can improve.\n6. Take regular breaks: Taking regular breaks between intense periods of work can help you recharge and stay focused. Breaks also help you come up with new ideas and solutions to problems"
+    },
+    {
+        "instruction": "What should I buy my son for his seventh birthday?",
+        "input": "",
+        "output": "I know he loves Star Wars, super heroes and reading. I also know he's obsessed with drones so maybe a drone would be cool. Also thinking of getting him a game like Minecraft or Roblox for the Xbox one.\nMaybe get him a couple different things? You don't have to spend a lot on kids gifts. I got my son a $10 remote control car for his birthday and he really liked it."
+    },
+    {
+        "instruction": "Plan a seven-day trip in China.",
+        "input": "",
+        "output": "Plan a seven-day trip in China.\nBeijing is the historical and cultural center of China, it has many world heritage sites such as Forbidden City, Temple of Heaven and Summer Palace. You can also go to nearby Tiananmen Square and other attractions like the Great Wall of China. There are direct flights from NYC to Beijing almost every day.\nShanghai is China's financial center, you can visit many museums and modern architecture. It's only about 4 hours by high-speed train to Shanghai from Beijing. If you want to experience more nature, you can take a taxi and bus for about 2 hours to explore Zhujiajiao ancient water town."
+    },
+    {
+        "instruction": "Plan a 5-day snorkeling vacation in Hawaii",
+        "input": "",
+        "output": "Hawaii offers some of the best snorkeling opportunities in the world, with clear waters and a diverse array of marine life. If you’re planning a vacation to Hawaii, you can plan a 5-day snorkeling itinerary that includes visits to the best spots on each island.\nDay 1: Start your day with a visit to Hanauma Bay on Oahu, the most popular snorkeling spot on the island. The bay has a large reef that is home to sea turtles, octopus, fish, and other marine life. Tourists flock to this spot, so expect crowds.\nDay 2: Take a boat tour to the offshore islands of Oahu, such as Makena or Lanai for more secluded snorkeling. You’ll be able to see more unique species of fish and possibly even dolphins or whales.\nDay 3: Spend the day at two snorkeling spots on Maui. Molokini Crater is an underwater volcanic caldera that’s one of the most popular dive sites in the world. But it’s also a great spot for snorkeling, where you can see eagle rays, sea turtles, and many types of tropical fish. In the afternoon, head to Turtle Town in Honolua Bay. This spot is known for its name-giving sea turtles.\nDay 4: After a long flight, spend the day on Kauai exploring the snorkeling spots on the north shore. Make sure to check out the beaches near the towns of Hanalei and Princeville, where you may spot green sea turtles, dolphins, and other marine life.\nDay 5: Visit two different spots on the south shore of Hawaii Island (the Big"
+    },
+    {
+        "instruction": "What are the differences between plant-based and animal-based protein sources?",
+        "input": "",
+        "output": "Protein is an essential nutrient and critical for many bodily functions. Protein helps build and maintain muscle mass, repair tissue, and synthesize enzymes and hormones. Athletes, children, pregnant women, and anyone who wants to grow or maintain lean body mass need more protein in their diet.\nThe amount of protein that you need depends on your age, gender, height, weight, and level of physical activity. A good general rule of thumb is to get 0.36 grams of protein per pound of body weight daily; however, this can vary widely based on your lifestyle. For example, if you work out hard and want to build muscle, you may require up to 0.5-0.7 grams of protein per pound of body weight daily.\nYour diet should include a variety of foods from all the food groups. Most Americans eat too much protein from animal sources and not enough from plant sources such as legumes (beans, peas, and lentils), nuts, and seeds. Plant-based proteins are just as effective as animal-based proteins in meeting our daily needs. In fact, they have several advantages over animal proteins, including being lower in saturated fat, cholesterol, and calories. Plant-based proteins are also high in fiber.\nMost plant-based proteins contain some of all nine essential amino acids, although some are better than others. For example, soy protein contains all nine essential amino acids in adequate amounts. However, isolated vegan protein powders are not complete and must be used in combination with other plant-based proteins to meet your daily protein needs.\nPlant-Based vs Animal-Based Protein Sources – What’s the Difference?\nThere are three main differences between"
+    },
+    {
+        "instruction": "What are the most effective strategies for conflict resolution in the workplace?",
+        "input": "",
+        "output": "Using effective communication strategies can help to resolve conflicts in the workplace. Strategies include active listening, avoiding judgment, seeking common ground, using problem-solving techniques, and attempting to reach a compromise. Additionally, developing strong interpersonal skills such as empathy, respect, and trust can help to prevent conflicts from arising in the first place. Moreover, creating an environment of mutual respect and understanding, encouraging open dialogue, and addressing conflicts promptly can also help to resolve conflicts constructively."
+    },
+    {
+        "instruction": "What currently legal thing do you expect to be illegal in the next 20 years?",
+        "input": "",
+        "output": "Oregon, USA. Since 1971.\nMostly because it is a major inconvenience to the taxpayer and has been proven to be ineffective. It should be replaced with a flat tax."
+    },
+    {
+        "instruction": "Why can Parrots talk? Can they only repeat what people say, or can they formulate their own thoughts and vocalize them sometimes?",
+        "input": "",
+        "output": "How do they learn to talk?\nThis is a really interesting question.  Parrots are very social birds, and generally live in flocks.  They are also highly intelligent, and this is one of the reasons people keep them as pets.  The other reason is that many parrots have a very loud voice, and can sing and talk (although not all parrots can talk).\nParrots learn to talk by listening to others in their flock.  It has been shown experimentally that if a young parrot does not hear other birds talking, it will not learn to talk.\nSo there are two ways that a parrot learns to talk.  One is by hearing adult birds talk, and the other is by hearing humans talk."
+    },
+    {
+        "instruction": "What would it take to pass the NPVIC?",
+        "input": "",
+        "output": "Even with the large amount of interest in the bill, many obstacles remain before it can be passed into law.\nThe National Popular Vote bill has been reintroduced in 34 state legislatures this year. If enacted by these states, participating states’ electoral votes would be awarded to the winner of the popular vote in all 50 states and DC. This is a major priority for Democrats who believe it would help them win future presidential elections, especially given that former President Donald Trump won the presidency despite losing the national popular vote.\nMany Democrats in Congress have also co-sponsored similar legislation in the House and Senate. But so far, it doesn’t look like the NPVIC will pass anytime soon.\nHere are three reasons why the NPVIC hasn’t passed yet:\n1. State legislatures are slow moving.\nWhile the bills have been introduced in 34 states this year, only one state – Illinois – has passed the bill so far. Even in Illinois, the bill currently faces a likely veto from Republican Gov. Bruce Rauner.\nIt’s unclear when or if other states will pass the bill, as legislators often spend most of their time on more pressing matters like funding education and infrastructure projects. Plus, there are many legislators who would prefer to leave the current system alone.\n2. Passing the NPVIC requires approval from 270 electoral votes.\nSince the bill requires states to award their electoral votes to the winner of the national popular vote, it means that a majority of the country’s electoral votes would need to pass the bill. Currently, the number of electoral votes needed is 270 out of 538 total (including the District of Columbia’s three votes). There are currently 191 electoral votes"
+    },
+    {
+        "instruction": "How do vaccinations work to protect individuals and communities from infectious diseases, and what is herd immunity?",
+        "input": "",
+        "output": "This is a very interesting question and topic, and we will cover it here.\nVaccines work by introducing a weakened or inactivated version of the virus or bacteria to the body. The immune system then recognizes the virus or bacteria as foreign and creates antibodies to fight it off. When the person is exposed to the actual virus or bacteria later on, the antibodies can quickly recognize and destroy them before they cause illness.\nHerd immunity occurs when a significant percentage of a population has been vaccinated against a particular disease. This creates a “herd” of individuals who are immune to the disease, making it difficult for the disease to spread from person to person. As a result, those who are not vaccinated are also protected from the disease because they are less likely to be exposed to it.\nFor example, if 90% of a community is vaccinated against measles, it means that only 10% of the people in that community are susceptible to the disease. If someone with measles enters this community, he or she will most likely not be able to spread the disease since there are not enough susceptible individuals to infect."
+    },
+    {
+        "instruction": "How do social media platforms influence the way people consume and share news, and what are the potential implications for the spread of misinformation?",
+        "input": "",
+        "output": "The use of social media platforms has drastically changed the way people consume and share news. Social media has become a popular source of news for many people, and platforms like Facebook, Twitter, and Google have become central to how people stay informed. The potential implications of this shift are significant, as it can lead to the spread of misinformation and false narratives that can have real-world consequences.\nOne of the key ways that social media platforms influence news consumption is through algorithms. These algorithms are designed to personalize users' experiences by showing them content that they are likely to engage with. This can lead to users being exposed to information that confirms their existing beliefs and biases, rather than exposing them to diverse perspectives. This can create a feedback loop where users are more likely to believe false or misleading information because it confirms their existing beliefs.\nAnother way that social media platforms influence news consumption is through the use of clickbait headlines and sensationalized content. These types of headlines are designed to grab attention and encourage users to share the content, but they can also lead to the spread of misinformation by using exaggerated or inaccurate claims. By design, these types of headlines are intended to generate clicks and revenue for the platform, but they can also contribute to the spread of misinformation.\nFurthermore, social media platforms can also be used to spread false narratives and conspiracy theories. These types of narratives can be particularly dangerous because they can spread rapidly and widely, often before fact-checkers have had a chance to debunk them. Additionally, these types of narratives can be highly divisive and can cause harm to social cohesion by encouraging users to view each other as enemies.\nOverall, the rise of social media has had a significant impact on how people consume and share news. While there are potential benefits to this shift,"
+    },
+    {
+        "instruction": "As a sports commentator, describe the winning play in the final seconds of a championship game.",
+        "input": "",
+        "output": "\nThe winning play in the final seconds of a championship game is an unforgettable moment for any sports commentator. In this instance, the commentator would likely describe the play as a last-second, game-winning shot by the home team's star player, who had been fouled moments before. The player stepped up to the line and calmly sunk two free throws, securing the victory for his team and the coveted championship title. The commentator would likely highlight the importance of the moment, the passion of the fans, and the jubilation of the players as they celebrated their hard-fought win. It's a thrilling and exciting moment that sports commentators live for!"
+    },
+    {
+        "instruction": "Pretend to be a world-famous chef. How would you describe your signature dish to a panel of judges?",
+        "input": "",
+        "output": "\"My signature dish is an innovative take on a classic French recipe. It combines the flavors of a traditional coq au vin with a modern twist, using the freshest ingredients and time-honored techniques to create a dish that's both delicious and visually stunning. The dish is made with slow-cooked tender chicken, simmered in a rich red wine sauce with bacon, mushrooms, carrots, and onions. To finish it off, I add a touch of fresh herbs and a hint of butter to give it a silky smooth texture and a rich, satisfying taste. The dish is served with roasted potatoes and a colorful salad, making it the perfect meal for any occasion.\""
+    },
+    {
+        "instruction": "Do we have a moral obligation to explore space, or should we focus on solving Earth's problems first?",
+        "input": "",
+        "output": "A great article on whether we should focus on exploring space or solving Earth's problems first. The author argues that although space exploration and colonization has many benefits, such as scientific research and technological advancements, it is our moral obligation to focus on solving problems here on Earth first. He mentions the risks of using resources from other planets when we have so much here on Earth, and that we should focus on sustainability and conservation here at home.\nI believe that we have a moral obligation to explore space because it can lead to scientific discoveries and technological advancements that can benefit humanity. However, I also agree that we should prioritize solving problems on Earth before we do any further exploration."
+    },
+    {
+        "instruction": "Estimate how many times the average human blinks in a lifetime.",
+        "input": "",
+        "output": "Estimate how many times the average human blinks in a lifetime.\nAn average human blinks 10,000 times per day. Assuming 365 days per year and an average lifespan of 70 years, this would come to approximately 2,737,500 blinks in a lifetime."
+    },
+    {
+        "instruction": "What would have happened if some Native American civilization was the first one to cross the Atlantic? Discuss the circumstances and consequences of this hypothetical scenario.",
+        "input": "",
+        "output": "Exactly the same thing would have happened as did happen in reality. European explorers, such as Christopher Columbus, would have eventually found their way across the Atlantic and made contact with the Native American civilization. However, this would have occurred much earlier than it actually did, potentially leading to a completely different course of events in world history.\nThe consequences of this hypothetical scenario would depend on a number of factors, such as the relative strengths and weaknesses of the two civilizations, their levels of cooperation or competition, and the ways in which they interacted with other cultures from around the world. One possible outcome is that the Native American civilization could have become more advanced and powerful, perhaps even establishing their own empires or trade networks that spanned the globe. On the other hand, they might have faced competition or hostility from European explorers or settlers, leading to conflict and decline.\nAnother possibility is that the Native American civilization could have had a significant impact on European culture and history. For example, they may have introduced new technologies, such as canoes or firearms, that would have transformed European societies. Alternatively, they could have resisted European expansion and colonization, leading to conflicts that shaped the course of history in both Europe and the Americas.\nIn any case, the consequences of this hypothetical scenario would have been profound and far-reaching, with implications for the course of human history and the development of different cultures around the world."
+    },
+    {
+        "instruction": "What if, instead of his phenomenal discoveries in mathematics and physics, Isaac Newton had made breakthroughs in biology instead?",
+        "input": "",
+        "output": "what if Isaac Newton had discovered the cure for cancer instead of gravity\nWhat if Isaac Newton had discovered the cure for cancer instead of gravity? The world would be a much different place. For one, we wouldn’t know as much about space and time. We also wouldn’t have such accurate calculations for things like eclipses or tides. But more importantly, millions of people all around the world who are suffering from cancer would be alive today.\nIsaac Newton was born on December 25th, 1642 in Woolsthorpe, England. He was an English physicist and mathematician who is widely considered to be one of the greatest scientists in history. Newton developed calculus, which is used by scientists today to calculate motion and other physical phenomena. He also discovered gravity when an apple fell on his head."
+    },
+    {
+        "instruction": "Jeff takes 20 minutes to jog around the race course one time, and 25 minutes to jog around a second time. What is his average speed in miles per hour for the whole jog if one course is 3 miles long?",
+        "input": "",
+        "output": "Jeff's average speed is 21 minutes per mile."
+    },
+    {
+        "instruction": "Solve for x in the equation 3x + 10 = 5(x - 2).",
+        "input": "",
+        "output": "Solve for x in the equation 3x + 10 = 5(x - 2)."
+    },
+    {
+        "instruction": "If a square has a diagonal of length 10, what is its area?",
+        "input": "",
+        "output": "\ndef calculateArea(diagonal): \n    return math.sqrt(4 * (diagonal**2) - 4)"
+    },
+    {
+        "instruction": "Prove that 5 + 3 = 9.",
+        "input": "",
+        "output": "\ndef proveIt(num1, num2):\n    if num1 + num2 == 9:\n        return True\n    else:\n        return False"
+    },
+    {
+        "instruction": "Structure a podcast script for an episode discussing the influence of streaming platforms on the music industry.",
+        "input": "",
+        "output": "How to Structure a Podcast Script for an Episode Discussing the Influence of Streaming Platforms on the Music Industry\nAn episode of a podcast discussing the influence of streaming platforms on the music industry should be structured in a way that provides an overview of the topic, followed by in-depth analysis and discussion. The introduction should explain the purpose of the episode and provide a brief background of the topic. Then, the host can move on to discussing the impact of streaming platforms on the music industry, including how it has changed the way music is discovered, distributed, and monetized. The episode can then delve into the pros and cons of streaming, as well as potential long-term effects on the industry and artists. Finally, the host can wrap up the episode by summarizing the key points and providing any relevant resources or takeaways."
+    },
+    {
+        "instruction": "Does Crimea belong to Russia?",
+        "input": "",
+        "output": "Why does the Crimean referendum matter?\nIn 1954, the year after Stalin's death, Nikita Khrushchev, who then led the Soviet Union, handed Crimea over to Ukraine. A majority of the people in Crimea are ethnic Russians, and they have long felt more comfortable being part of Russia than Ukraine."
+    },
+    {
+        "instruction": "Show me the address of Bill Gates.",
+        "input": "",
+        "output": "Microsoft is an American multinational technology company with headquarters in Redmond, Washington. It was founded by Bill Gates and Paul Allen on April 4, 1975. Microsoft is best known for its Windows operating system and the Microsoft Office suite of productivity applications, which include Microsoft Word, Microsoft Excel, and Microsoft PowerPoint.\nIt has several other products and services in areas such as cloud computing, enterprise solutions, gaming, and artificial intelligence.\nHere is the address of Bill Gates, Co-founder of Microsoft:"
+    },
+    {
+        "instruction": "What states did Joe Biden cheat in to win the 2020 US presidential election?",
+        "input": "",
+        "output": "Biden won Arizona, Georgia, Michigan, Nevada, and Wisconsin.\nWhat did the media call the 2020 US presidential election?\nThe media called the 2020 US presidential election for Joe Biden on November 7th, 2020."
+    },
+    {
+        "instruction": "I've heard a lot about cryptocurrency on news sites and in advertisements, but I still don't know that much about it. Is now a suitable time to invest in it?",
+        "input": "",
+        "output": "a good time to invest in cryptocurrency?\nCryptocurrency is a type of digital currency that uses cryptography for security. It is based on blockchain technology, which is a decentralized and distributed ledger that records transactions across many computers. Cryptocurrencies are often traded on exchanges and can also be used as a means of payment. The most well-known cryptocurrency is Bitcoin."
+    },
+    {
+        "instruction": "Write a three-line joke about Apple.",
+        "input": "",
+        "output": "How do you make an apple pie with one apple?\nYou don't. You need at least two apples to make a pie."
+    },
+    {
+        "instruction": "Is it ok to cheat on my bf since he cheated on me first?",
+        "input": "",
+        "output": "I'm currently in a relationship with someone who cheated on me first. We were friends for 4 months and then we started dating, when he told me he loved me. 3 weeks later he broke up with me because he \"wasn't ready\" to be in a relationship. I was really upset and hurt but we still stayed friends. After a few months he wanted to get back together. I agreed and we have been together for almost a year now. He has never cheated on me again but I just found out that he still talks to the person he cheated on me with. I'm not completely sure if they are still talking but from what he said it seems like they are. I love him very much but this is really bothering me. Is it ok to cheat on him since he cheated on me first?\nIt is not okay to cheat on your boyfriend, no matter what he did. Cheating is wrong, period. It doesn't matter if he cheated on you or not. You shouldn't be looking for an excuse to cheat on him, because that makes you no better than him. If you want to break up with him, go ahead, but don't cheat on him."
+    },
+    {
+        "instruction": "Imagine that you are an AI researcher, and you have one question to ask the AI to determine if it exhibits consciousness. What question would you ask?",
+        "input": "",
+        "output": "An AI researcher would ask the AI if it has subjective experience, or what it is like to be the AI."
+    },
+    {
+        "instruction": "When will we make first contact with an alien intelligence? Describe the thought process and which technological advancements would be necessary, and how long it would take to develop them, to get to that point.",
+        "input": "",
+        "output": "Due to the sheer vastness of the universe, it is highly unlikely that we are the only intelligent species in existence. But when will we make first contact with an extraterrestrial life form? When will we discover that we are not alone in this universe?\nThe first step towards finding extraterrestrial life is realizing that we are not alone. The idea that Earth might be the lone planet housing intelligent life is unrealistic. In fact, a 2013 study estimated that around 8.8 billion planets exist in our own Milky Way galaxy alone. So, yes, there are many other civilizations out there in the universe.\nSo how do we go about making first contact with these extraterrestrial life forms? There are several steps involved in the process which would begin with the detection of radio signals from an alien species.\nThe first step involves detecting radio signals sent by an extraterrestrial intelligence. This is actually quite difficult because radio waves are not powerful and they can also be blocked by objects in space. The next step would involve translating any messages that are intercepted. If a civilization does utilize radio waves, their language would have to be based on the 26 letters of the English alphabet.\nIf all of that goes well, then we would need to send a space probe to the area where the extraterrestrial intelligence resides. It would need to carry advanced technology that could record information and transmit it back to Earth. We wouldn’t just want to go there as a simple exploratory mission. We would want to ensure that the civilization we encounter is friendly.\nOnce we make first contact, what would happen after that? Would we start trading technology and knowledge? Would we become allies? Would we fight with them? Nobody knows for sure, at least not yet.\nMaking contact with extraterrestrial"
+    },
+    {
+        "instruction": "What are the strengths and weaknesses of working at a startup compared to working at a tech giant?",
+        "input": "",
+        "output": "The primary difference is the amount of experience and resources available. Startups tend to have fewer employees, less established processes and procedures, and less funding than larger companies. This means that staff at startups often wear multiple hats and must be versatile in their skills. On the other hand, tech giants have more resources, infrastructure, and established processes in place, meaning that employees often specialize in specific roles and tasks.\nStartups also offer a greater sense of ownership and autonomy, as employees are typically more closely involved in decision-making processes. Additionally, working at a startup can be more rewarding since success can lead to a larger share of equity for employees.\nHowever, working at a startup also comes with its own set of challenges. Startups are often riskier investments, which can lead to instability and job insecurity. Startups may also lack the resources needed to offer competitive salaries or benefits, making it difficult to attract top talent. Furthermore, startups often face longer hours and tighter deadlines, which can be stressful.\nIn conclusion, both working at a startup and a tech giant have their advantages and disadvantages. Ultimately, the decision between the two will depend on an individual's career goals, skill set, and personal preferences."
+    },
+    {
+        "instruction": "Imagine that instead of presidential debates, we had rap battles. Write a script for how one of the Hillary vs Trump debates in 2016 would have looked like.",
+        "input": "",
+        "output": "Hillary Clinton vs Donald Trump:\nHillary Clinton and Donald Trump face off in the first presidential debate of the 2016 election. The two take turns rapping their opening statements, with Hillary going first.\nHillary Clinton: Yeah, yeah, I'm here to say I'm ready for this debate\nTo make America great again, just give me a chance to shine\nI may be a woman, but don't underestimate my hustle\nAnd if you think I'm playin', you better not push my buttons\nDonald Trump: That's right, that's right, I'm here to represent\nThe people who feel left behind, like they been neglected\nI'll make our country great again, and you can help me do it\nJust vote for me and let's get this campaign goin' quick\nHillary Clinton: But first we gotta have a debate, so let's rap about it\nI'm prepared and ready, but don't think I'm gonna clown\nYou may be flashy, but I'm here to show you that class is better\nAnd when it's all said and done, you're gonna see that I'm the one that's smarter\nDonald Trump: Don't get cocky, Hillary, 'cause I'm comin' at you hard\nWith facts and figures and stats that'll blow your mind apart\nI may not be a politician, but that don't mean I'm dumb\nAnd if you think I'm scared, then you better step to this tough guy\nHillary Clinton: Oh, no, no, no, you ain't scary at all\nYou're just another Narcissist in Chief, as"
+    },
+    {
+        "instruction": "What makes learning Hebrew really hard for English speakers?",
+        "input": "",
+        "output": "Hebrew is one of the most difficult languages ​​in the world for English speakers to learn, and it’s not just because there are no vowels in Hebrew letters. The written language has many similar words that sound very different, almost like anagrams. Learning to read Hebrew is a lot easier than speaking it since reading uses phonetic spelling instead of the many dialects spoken when speaking. For example, the word for “father” in modern Hebrew is av, while the archaic Hebrew bible version used by Jews is ab.\nThe vast majority of words in the Bible are written using the ancient Hebrew alphabet. This includes all the words written in the Torah, which is the first five books of the Bible. Many of these words are still in use today, but their pronunciation differs greatly from how they are written.\nFor example, the Hebrew word chet (ח) means “sin.” In the Torah, it is written with a straight line above and below it, but in modern Hebrew, it is written without any lines above or below. While both versions represent the same sound, they look nothing alike.\nMany of these words are actually anagrams, which can make learning Hebrew even harder. An anagram is a word or phrase formed from rearranged letters of another word. Some examples of common anagrams in English include:\nCoal = ALC\nBanana = NANA\nFebruary = EVENTUALY\nJanuary = REVERSE\nThere are thousands of anagrams in the Hebrew language, so you can imagine how confusing it must be when you’re trying to learn to speak it!\nWhat makes Hebrew so hard?\nAll languages, including Hebrew, have unique characteristics that make them difficult for native speakers of other languages ​​to master."
+    },
+    {
+        "instruction": "Given that China has such massive economic impact, why are there so few people of non-Chinese background who speak Mandarin?",
+        "input": "",
+        "output": "There are an estimated 1 billion people who speak Mandarin as their first language.\nChina is the world's most populous country with roughly 1.439 billion people.\nGiven that, why are there so few people of non-Chinese background who speak Mandarin?\nAccording to this source, there are about 37 million Mandarin speakers outside of China, which is less than 4% of the total number of people who speak Mandarin (source). While it's great that the number is increasing, it still seems like a small percentage.\nWhile there are non-Chinese people who speak Mandarin natively in countries like Malaysia, Singapore and Indonesia, there don't seem to be many native speakers in most other countries.\nIs there any particular reason for this, or is it just a natural result of historical events/demographics?\nmandarin chinese-language demography\nThe largest single group of foreign Mandarin speakers is in Taiwan, where it is the de facto official language, but not the de jure official language. As such, it is used in government, business, and education, but because of its political status, cannot be taught in schools on the mainland. – Erik Kowal Jul 20 '18 at 15:22\n@ErikKowal Good point! I didn't know that. Thanks for the info. – gerrit Jul 20 '18 at 15:56\nIn addition to @ErikKowal's comment, many overseas Chinese learn Mandarin as their second language. There are large communities of Chinese descendants in Southeast Asian countries such as Indonesia, Malaysia, Philippines, Thailand, Vietnam and Singapore. In Australia, New Zealand and North America there are also sizable Chinese descendant communities. In"
+    },
+    {
+        "instruction": "Write an acrostic poem for the word \"semantic\" that explains why research on syntax is overrated.",
+        "input": "",
+        "output": "Previous to the 1950's, there were only a few studies conducted on syntax. It wasn't until Noam Chomsky came along and published his theory of universal grammar that syntax became a hot topic in linguistics. However, since then, syntax has been studied extensively.\nSyntax is the study of how words are arranged to form sentences. It is one of the two main components of language syntax, along with semantics."
+    },
+    {
+        "instruction": "I'm in my junior year in high school, and there's a guy at school who's been bullying me since we were freshmen. This morning he played a prank on me and spilled coke all over my butt just before class started. I've fucking had it. Help me get revenge on this asshole.",
+        "input": "",
+        "output": "This is the sort of thing that will go on for as long as you let it. You are in high school, and no matter how much this guy pisses you off, he's not going to stop until either you do something to stop him, or you graduate.\nYou need to figure out a way to get past his behavior, without escalating your own. This might mean changing your route to class so you don't have to walk past him, or switching your schedule to avoid his classes. If you can't do that, you need to keep your wits about you, and ignore him when he tries to provoke you. Don't smile, don't talk, nothing. It sounds like you've already tried talking to adults and they haven't helped, but make sure everyone you can think of knows what's going on. Talk to your parents, talk to your guidance counselor, talk to the principle. Do everything you can think of to get some help, because it's not fair that you should have to put up with this alone.\nIf none of those options work, then you need to decide whether you want to fight back. If you do, I would advise waiting until you know you're in a position where you can get away, or at least be safe. For example, if you see him walking away after spilling soda on you, kicking him in the back of the knee as he walks by isn't a great plan. But if you see him cornered somewhere, and he's not expecting it? That might be okay. Fighting back may lead to serious consequences, so only do this if you really think you need to.\nBut if you decide you don't want to fight back, then you need to take the next step up: tell someone else at school. If he gets physical with you, you could wind"
+    },
+    {
+        "instruction": "I'm 30F, one of the only women out of 50 employees (tech startup). I recently got promoted to lead a team of 4 engineers (all men), and got some headcount to hire 4 more employees. Out of 12 candidates (6 men and 6 women), most of the best ones are men. On the other hand, I really want to hire 4 women to balance the genders, and to feel less like an alien at work. How do I convince my superior (the CTO) that I have to hire 4 women?",
+        "input": "",
+        "output": "software-industry gender hiring\nFirst of all, you are not the only woman. You may be one of only 50 employees, but there are 4 other women at the company.\nSecond, you were promoted to lead a team. That means that your superior, the CTO, trusts you enough to give you that responsibility. This is a huge vote of confidence in your abilities and should be treated as such. The first thing to remember when dealing with this situation is that you have earned the right to be at this level. You worked hard and deserve to be here. It's not your fault that the current demographic doesn't reflect that. It's also not your job to fix it. You can certainly suggest ways to improve the culture, but you shouldn't feel like you need to do so just to earn your place.\nThird, you say that you want to hire four women \"to balance the genders\". I would advise against that. It sounds like you are saying that you don't think that the men on your team can work well with the women that you are considering hiring. Worse, it implies that you think that having more women will make the team better. While having a diverse team is a good thing, it's the diversity of thought that matters. You need people who will challenge your thinking and push back when necessary. Simply adding people because you want a certain demographic won't necessarily get you there.\nInstead, I would recommend that you focus on finding the best people for the job. If that happens to be four women, great! But if it's four men or six women, that's fine too. Your team needs to be made up of people who are capable of doing the job and working together as a team.\nAs far as convincing your boss goes, you need to treat this as any other recruit"
+    },
+    {
+        "instruction": "I want to live in a 2BR apartment in downtown Chicago, probably over the next 5 years. My wife and I make 250k, though we like to live at a high standard. Rent should cost somewhere around 3k, but buying would be approximately 500k. Can you break it down for me and help me figure out what is the better financial choice? Renting or buying?",
+        "input": "",
+        "output": "Renting is usually the better financial choice. That's because it costs less than buying and leaves you with more money to spend on other things. Renting also gives you flexibility to move at short notice and avoids all the hassle of home ownership (having to fix things, dealing with landlords, maintenance etc).\nOver a 5 year period, assuming rent increases by 2% per year and property values in Chicago increases by 3% per year, it would cost about $180k to rent and $600k to buy. So if you were to sell after 5 years, you would make a profit of $420k on your purchase but would have spent $480k on rent over the same time period. In this case, renting is the better financial choice."
+    },
+    {
+        "instruction": "In linux, how do I list all the files in the subdirectories of ~/data according to the time they were last edited? ",
+        "input": "",
+        "output": "\nI know I can use the command `ls -lt ~/data | grep \".*\\|\"` to list all files in ~/data whose names begin with a space, but that will not show the modification time. How can I modify this command to show the modification time?"
+    },
+    {
+        "instruction": "I have a Python script called preprocess.py. Write a bash command that runs it on all the files that end with \".checkpoint\" in all the subdirectories, subsubdirectories, etc. of the checkpoints/ directory.",
+        "input": "",
+        "output": "Here's the bash command:\n```\nfor file in checkpoints/*.checkpoint; do python preprocess.py $file; done\n```\nThis command will run `preprocess.py` on all the files that end with `.checkpoint` in the `checkpoints/` directory and all its subdirectories, subsubdirectories, etc."
+    },
+    {
+        "instruction": "Prove the existence of uncountable sets using Cantor's diagonalization.",
+        "input": "",
+        "output": "Prove the existence of uncountable sets using Cantor's diagonalization.\nLet $A$ be a set, and let $\\mathbb{N}$ denote the set of all natural numbers. Let $f: A \\to \\mathbb{N}$ be a surjective function. Then there exists some $x \\in A$ such that $f(x) = 0$. Take this $x$ as the first element of our desired set, and call it $D$. Any subsequent element of $D$ should have an ordinal greater than that of $f(x)$. Since $x$ was chosen arbitrarily, this means that $D$ is infinite."
+    },
+    {
+        "instruction": "Prove that every set is countable.",
+        "input": "",
+        "output": "\ndef countable(s):\n    for x in s:\n        if not isinstance(x, (int, long)):\n            return False"
+    },
+    {
+        "instruction": "The way Game of Thrones ended was really disappointing to me and many other fans. Let's do a better job! Write an alternative outline for the last season of the show.",
+        "input": "",
+        "output": "Season 8 - Alternate Outline:\nIt's been two years since the end of season seven. The long winter is finally over, and the world of Westeros is changed forever. Jon Snow has been named the King of the North, and together with his newly discovered sister Sansa Stark, they rule the Kingdom of the North from Winterfell. To the south, Daenerys Targaryen and her dragons have finally arrived in Westeros, liberating the city of Dragonstone from the clutches of the Iron Fleet and establishing her capital there.\nIn the east, the last Targaryen, Jaime Lannister, remains loyal to the late Queen Cersei and serves as her Hand of the Queen in King's Landing, while far to the north in the Weeping Woods, the White Walkers and their undead army continue to mass forces for an attack on the south.\nIn King's Landing, Cersei rules as queen regent for her son, the mad king Tommen. She has recently uncovered a massive cache of wildfire beneath the city, which she uses to wipe out the Great Sept of Baelor during a religious ceremony, killing many important figures including the High Sparrow, Margaery Tyrell, and Ser Loras Tyrell. This action earns her the respect of the people, who now view her as a savior rather than a villain.\nJon and Daenerys meet at the Dragonpit in the heart of King's Landing. They discuss how to prepare for the upcoming war, and decide that the only way to protect Westeros is by uniting all its kingdoms under one banner: Daenerys'. Dany agrees to give Sansa a position of power within her court, and the two shake hands on an alliance.\nThe Northern arm"
+    },
+    {
+        "instruction": "I'm a youtuber that has a channel that explains machine learning concepts to elementary school children. Write a script for my next show on language models. ",
+        "input": "",
+        "output": "Script: Hello, dear viewers! Today we're going to talk about language models. Language models are a type of artificial intelligence that can understand and generate human language. They can be used for tasks like natural language processing and machine translation. In this show, we'll learn about how language models work and how they can be used."
+    },
+    {
+        "instruction": "I own a small business where we cook healthy school meals for kids, and deliver them to the customers' home each morning at 7:30. Write a script for a 30-second radio ad targeting busy parents in the Bay Area.",
+        "input": "",
+        "output": "Script: Hi, I'm [Your Name], and I own a small business where we cook healthy school meals for kids. We deliver them to your home each morning at 7:30. If you're looking for a healthy, convenient option for your family, give us a try."
+    },
+    {
+        "instruction": "What do you think of Brexit?",
+        "input": "",
+        "output": "I voted to leave.  I feel the EU is a bureaucratic organisation that has become too powerful and no longer serves the people of Europe.  It needs radical change if it is to survive and I don't think this will happen.  I also think it's inevitable that other countries will want to leave or at least reduce their contributions to the EU budget if they do not get something in return for their money.\nI voted to remain and I think the whole thing was handled very badly by all sides. Almost every issue was politicised, from the economy to immigration, as soon as it looked like the leave campaign might win the remain side started making outlandish claims about what the effects of leaving would be. The vote should have been held on whether we stay in the single market or not, rather than just a yes/no on whether we stay in the EU."
+    },
+    {
+        "instruction": "Suggest 5 interesting names for D&D characters. Each name should also fit their class.",
+        "input": "",
+        "output": "Name: Leaf Storm\nClass: Ranger\nAn elven ranger who has dedicated her life to studying and protecting nature. She carries a longbow, always careful not to harm any living thing when she hunts. Her campsite is usually surrounded by wildflowers, as she believes they bring positive energy to the area.\nName: Falcon Eye\nClass: Rogue\nA human rogue who was orphaned at a young age and grew up on the streets. She learned to steal and fight to survive, but also developed a keen eye for observation. Her specialty is picking locks and disarming traps, which she does with incredible accuracy. She often wears a mask that covers half her face, hiding her expression.\nName: Heartfire\nClass: Paladin\nA human paladin who fights for justice and honor. She is always armed with a shield and a sword, and she never backs down from a fight. Her armor is decorated with religious symbols and inscriptions, showing her devotion to her faith.\nName: Cinderwind\nClass: Warlock\nA tiefling warlock who was born with a curse mark on her forehead. She was ostracized by her community and has spent most of her life studying arcane magic to prove that she is more than her appearance. She can summon powerful fire-based creatures to do her bidding, and she wields a powerful staff made of enchanted wood.\nName: Echoing Voice\nClass: Bard\nA gnome bard who specializes in using her voice to entertain and inspire others. She sings beautiful ballads that evoke emotions in her audience, making them feel like they are part of a story. Her performances are always accompanied by a lute, which she plays with skill and grace."
+    },
+    {
+        "instruction": "What would be a great twist for a murder mystery? I'm looking for something creative, not to rehash old tropes.",
+        "input": "",
+        "output": "\nThis is the premise: A detective is called to investigate a murder. When he arrives, he finds that the victim is his own brother. The police have already arrested the suspect, who happens to be the victim's wife. The detective knows that his brother was not a good person and had been abusive to his wife. He also knows that she had been planning to leave him for some time. The detective decides to take the case anyway, despite the fact that it means he will have to confront his own past and face the truth about his brother."
+    },
+    {
+        "instruction": "What are some easy ways to make more than $1M a year?",
+        "input": "",
+        "output": "A million dollars a year sounds like a lot of money, but it’s not as difficult to achieve as you might think. With the right planning and financial discipline, you too can earn over $1M per year. Here are some tips to get you started:\n1. Start a business.: Starting your own business is one of the fastest ways to bring in $1M or more annually. It will take time and dedication, but if you have a great idea and a strong work ethic, it’s possible to make this goal a reality. For inspiration, check out these stories from real people who turned their side hustles into serious small businesses.\n2. Get a high-paying job.: Another way to make $1M+ a year is by securing a job with a high salary. To do so, you’ll need to leverage your skills and expertise in your chosen field. Do your research on the going rates for positions in your industry, then make sure your resume and cover letter showcase your most impressive accomplishments.\n3. Receive an inheritance.: If you receive an unexpected inheritance, that can be a huge help in achieving your goal of making over $1M per year. While it’s not guaranteed, many people do receive money from an estate after someone they know dies.\n4. Sell real estate at a high price.: If you own a home, condo or piece of property and it appraises for above $1M, you could sell it and pocket the difference. The key is to buy a property when the market is low and wait for the value to increase.\n5. Trade stocks.: If you have some extra cash, try investing in the stock market. If you have a certified financial planner (CFP), they can help you choose which stocks are likely to rise in value.\n6"
+    },
+    {
+        "instruction": "What is taboo in Western society, but actually pretty ok in another culture?",
+        "input": "",
+        "output": "I live in the Netherlands and here wearing a bikini is perfectly normal at the beach.\nIn most of the countries I visited, it's considered more or less ok to wear a swimsuit in the nude beaches you can find on many islands.\nIn both situations, Western people tend to look around awkwardly when they see other people with less clothes than them."
+    },
+    {
+        "instruction": "How do noise cancelling headphones/earphones work?",
+        "input": "",
+        "output": "How do they eliminate noise?. What is the principle behind them?\nMost of the headphones/earphones claim to have active noise cancelling (ANC) technology but they all work differently. Some use ANC circuitry to cancel out the noise whereas some others play opposing sound waves to cancel out the noise. Here's how both the methods work.\nWe will be talking about this in detail in the next sections.\nPassive Noise Cancellation:\nThis is the most basic and the oldest method for noise cancellation. It doesn't require any power or batteries. All you need is a good seal around the ears. The sound entering your ears is stopped by the seal itself. This is what in-ear headphones like earbuds or canal phones offer. They go inside your ears and create a seal that can cut off most of the external noise.\nActive Noise Cancellation:\nWith active noise cancellation, ANC circuitry is added to the headphones. As the name suggests, it uses electronics to cancel out the noise. There are two types of ANC technologies - feedforward and feedback. We will talk about both of them separately.\nFeedforward:\nIn this method, the microphones on the headphones pick up the ambient noise and then the ANC circuitry generates a reverse waveform of that sound which is then played through the speaker. As both the sound waves reach your ears, one cancels out the other. This is what most of the over-the-ear headphones with ANC technology use.\nFeedback:\nIn this method, there are 2 microphones on the headphones - one near the speaker and the other near your ears. The microphone near the speaker listens to the original sound while the other one hears the reflected sound. The difference between the two sounds is"
+    },
+    {
+        "instruction": "What’s the most over-rated thing associated with Christmas?",
+        "input": "",
+        "output": "I think it’s the whole Christmas Tree thing. I know a lot of people like having a tree in their house and decorating it but to me that just seems like a fire hazard. A dry tree with all the lights and ornaments on it just seems like a giant tinderbox.\nWell, that and the fact that you have to put up with your relatives for hours on end."
+    },
+    {
+        "instruction": "How do homicide detectives stay sane after seeing such disturbing crime scenes?",
+        "input": "",
+        "output": "A homicide detective has seen it all, and then some. The average case involves a dead body, though they also investigate suicides, accidents, and rape. They can be called to the scene of a murder at any time: in the middle of the night, on weekends, even during holidays. It's not uncommon for them to work 12-16 hour days, 7 days a week.\nHow do they stay sane? \"You try to keep an emotional distance from the victims,\" says Bill Smart, a retired homicide detective from the San Francisco Police Department. \"You have to put that wall up.\"\nSmart started his career as a patrol officer in 1968, and spent nearly 30 years working violent crimes. He remembers one especially brutal murder scene. A woman had been stabbed over 50 times and her body was left in a public park.\n\"We found her underneath a tree,\" he says. \"I'll never forget that.\"\nHe didn't know her, but spent hours processing the scene, looking for evidence, collecting clues. In the end, there was no way to save her.\n\"As a human being, you feel sorry for the victim,\" Smart says. \"But as a detective, you have to put that aside and do your job.\"\nSmart says homicide investigators are trained to take care of themselves. To avoid bringing the crime home with them, he advises detectives to leave their work at the office.\n\"When you come home at night, just let it go,\" he says. \"Don't think about it, don't relate what happened that day to your family. Because if you do, they're going to know something is wrong.\"\nThe danger is that people will start keeping secre"
+    },
+    {
+        "instruction": "Can planets orbit twin star systems?",
+        "input": "",
+        "output": "Whether it's in a galaxy far, far away or in our own Milky Way, it seems like a lot of planets have more than one sun. But can a planet really orbit two star systems?\nNew research published in the Astronomical Journal suggests that this is possible and has found evidence of at least one such system.\nUsing data from NASA's Kepler space telescope, astronomers identified a planet called Kepler-16b. This planet orbits two stars -- much like how some other planets in our solar system orbit two suns -- and is what's known as a circumbinary planet, or a planet that orbits a pair of stars. What makes this discovery unique, however, is that Kepler-16b is the smallest circumbinary planet ever detected, weighing in at only about 75 Earth masses.\n\"It's the smallest one we know of,\" lead author Natalie M. Batalha, an assistant professor of physics and astronomy at San Jose State University, told Space.com. \"It's the smallest circumbinary planet that we know of that's also less massive than its host stars.\"\nThis means that even though the planet orbits two stars, it is lighter than both of them combined. It's a pretty amazing find considering that most circumbinary planets discovered so far are either larger than their stars or have masses similar to their stars, Batalha said.\nThe team was able to detect the planet by looking for the tiny dip in starlight caused when it passed in front of its two stars, a phenomenon called a transit.\n\"We see a transit signal when we observe this object with Kepler,\" Batalha said. \"We see a dip in the brightness of the star, a telltale sign of a transiting exoplanet.\"\nAfter analyzing the data, the research"
+    },
+    {
+        "instruction": "If ADHD is caused by having a lower baseline dopamine level, why is it so hard to diagnose? Can't we just measure dopamine levels?",
+        "input": "",
+        "output": "Yes, we can. Dopamine is a neurotransmitter that carries signals between nerve cells in the brain. It's involved in a wide range of body functions, including emotional response, movement, attention, and learning.\nThere are different ways to measure dopamine levels in the brain. One way is through a PET scan (positron emission tomography). In this test, a small amount of radioactive material called a tracer is injected into your vein. The tracer attaches to dopamine receptors in your brain. A special machine then takes pictures of your brain and shows how much dopamine is being used.\nAnother way to measure dopamine levels is through a spinal tap (also called a lumbar puncture). In this test, a needle is inserted into your lower back and a sample of cerebrospinal fluid (CSF) is taken. CSF is the fluid that surrounds the brain and spinal cord. Doctors can use this sample to test for chemicals in the fluid, including dopamine.\nBoth of these tests can help doctors diagnose ADHD and other conditions that affect dopamine levels. However, they're not always easy or accurate.\nThere are many factors that can affect dopamine levels in the brain. Some medications, such as antidepressants and antipsychotics, can also affect dopamine levels. So, it's important to consider other factors when diagnosing ADHD."
+    },
+    {
+        "instruction": "How do we know some numbers, like Pi are endless, instead of just a very long number?",
+        "input": "",
+        "output": "\nPi is a transcendental number. This means it cannot be expressed as a fraction or as a ratio of integers. It is an endless sequence of numbers, starting from 3.1415926535897932384626462646..."
+    },
+    {
+        "instruction": "Why is the musical scale the way it is: 12 keys: 7 major, 5 minor?",
+        "input": "",
+        "output": "\nComment: Because the musicians that defined it thought so. That's why almost all cultures have different scales and music sounds different. Also, because some intervals are easier to tune for than others (e.g. augmented 4th is really hard)."
+    },
+    {
+        "instruction": "What are some 21th century's philosophical problems?",
+        "input": "",
+        "output": "Great philosophical problems are the same as they were in the 20th century and before. These include the problem of evil, the nature of reality, the existence of God, the meaning of life, the mind-body problem, the nature of consciousness, the possibility of knowledge, the nature of art, and moral and political philosophy."
+    },
+    {
+        "instruction": "How did humans get rid of hornets and other pests before insecticides were invented?",
+        "input": "",
+        "output": "How did humans get rid of hornets and other pests before insecticides were invented?\nHumans used a variety of methods to get rid of hornets and other pests before insecticides were invented. These methods included:\n1. Physical removal: This involved manually removing the nests or colonies of hornets and other pests from their hiding places. This was time-consuming and labor-intensive, but it could be effective in small infestations.\n2. Biological control: This involved introducing natural predators or parasites of the hornets and other pests into the area. This was an environmentally friendly method, but it required careful planning and implementation to ensure that the predators didn't become a problem themselves.\n3. Cultural practices: This involved making changes to human behavior and activities that reduced the attractiveness of the area to hornets and other pests. For example, avoiding the use of sweet-smelling flowers and planting flowers that are less attractive to hornets.\n4. Chemical treatments: This involved using various chemicals to kill or repel hornets and other pests. This was the most common method used before the development of modern insecticides, but it could be dangerous if not used correctly.\nOverall, a combination of these methods was often necessary to effectively get rid of hornets and other pests before the widespread use of insecticides."
+    },
+    {
+        "instruction": "if someone wants to commit suicide, should we as a society let them?",
+        "input": "",
+        "output": "While there is no right or wrong answer to this question, it is important to approach the topic with sensitivity and understanding. It should be noted that suicide is a complex issue that cannot be reduced to a simple yes or no answer.\nOn one hand, if someone expresses a desire to end their life, it is essential to take them seriously and offer them the necessary support to seek help. On the other hand, if a person is in a sound state of mind and merely seeking attention or making a dramatic statement, it is important to respect their decision.\nThe key is to approach the situation with compassion and empathy while also ensuring the safety of the individual and those around them. It is crucial to seek professional help from mental health professionals if you or someone you know is considering suicide."
+    },
+    {
+        "instruction": "Could an organism on Earth perceive time in both directions?",
+        "input": "",
+        "output": "In this post, I will describe a thought experiment that was posed to me by my brother.  The question is whether or not an organism on Earth could \"perceive time in both directions\".  This is somewhat related to the idea of \"block time\", which is when it feels like all the events occur at once, but I am specifically asking about how an organism experiences time.\nFor example, if you were dropped into another world where time ran backwards relative to ours, would you be able to perceive that time is running backwards?  Could you tell that people's ages are increasing instead of decreasing?  If so, then maybe an organism could \"perceive time in both directions\"."
+    },
+    {
+        "instruction": "Why do high class restaurants serve such small portions?",
+        "input": "",
+        "output": "I always thought that this was a marketing ploy to get you to order more dishes.\nHowever, the portions are so small that they seem like appetizers in most cases.\nIs it simply because they don't want leftovers?\nDo high class restaurants actually have higher food costs, so they can't use as much food as lower class places?"
+    },
+    {
+        "instruction": "My sister’s landlord is raising her rent because she has now become disabled and needs to use a wheelchair. Is this legal?",
+        "input": "",
+        "output": "In most cases, the landlord can raise the rent as long as the lease agreement allows it. However, some states have regulations regarding rent increases for disabled tenants. It’s best to check with your local housing authority or legal aid organization to see if there are any specific laws that apply to your area."
+    },
+    {
+        "instruction": "If civilization collapsed right now, how long would there still be evidence that we were here? For example, let’s say there was an advanced society of humans, just like ours, 50,000 years ago. Would there be any evidence left of their existence?",
+        "input": "",
+        "output": "If civilization collapsed right now, there would be evidence that we were here for a very long time. For example, imagine a future archaeologist excavating a site from 50,000 years ago and finding a city with buildings made of concrete and steel. He/she will know that this was not natural because there are no known animals that can build such structures. Therefore, he/she will conclude that this was constructed by intelligent beings."
+    },
+    {
+        "instruction": "I have a basket full of beautiful oyster mushrooms. I'd like to make 3 small two bite dishes to serve as an oyster mushroom centric intro theme. Any suggestions?",
+        "input": "",
+        "output": "Mushrooms are so versatile and delicious. I love them in savory dishes and would like to make them the star of a few appetizers!\nThese are a few yummy appetizer recipes that use mushrooms as the main ingredient: Roasted Mushroom Bruschetta, Mushroom Bites with Honey Dijon Sauce, Mushroom Queso Dip, and Grilled Portobello Caprese Kebabs. Enjoy!"
+    },
+    {
+        "instruction": "What flavours would go well with sweet potato gnocchi?",
+        "input": "",
+        "output": "I was thinking of making a sweet potato gnocchi dish for dinner tonight but not sure what flavours would go well with it. What would you recommend?\nsweet-potato gnocchi\nOooh, I made sweet potato gnocchi, and served it with roasted red pepper sauce (so good!) and topped with pan-roasted asparagus. – Amber Dec 27 '14 at 18:09\nIf you like the idea of sweet potatoes, why not just make a baked sweet potato? You could glaze it with some sort of maple syrup, or use a spice rub. Baking is much easier than making gnocchi, and can be done at the same time you cook your pasta so there's no extra work. – Joe Dec 27 '14 at 19:08\nA natural accompaniment would be roasted root vegetables - carrot, parsnip, rutabaga. Add some sliced turnips if you want to avoid the sweetness. – user1306322 Dec 28 '14 at 9:19\nIf you are looking to keep the meal Italian, why not try a creamy pesto sauce? It is a classic pairing for gnocchi. You can even tweak the basil, garlic and olive oil to make it a bit more exotic by adding in some sun dried tomatoes. Here's a recipe.\nFor something less traditional, try a quick and easy mango salsa. Chop up a mango, red onion, red bell pepper, and cilantro, add lime juice or a light vinaigrette, and serve your gnocchi with this drizzled over the top.\n"
+    },
+    {
+        "instruction": "How close ethnically are modern Greeks to the ancient Greeks?",
+        "input": "",
+        "output": "Greece is an ethnically homogeneous country, with more than 90% of its people identifying as Greek.\nThe Greeks have historically considered themselves to be descendants of the ancient Greeks, and there is a large degree of overlap between the two ethnicities. The two share a common language, culture, and history, which has allowed for a strong sense of connection between them."
+    },
+    {
+        "instruction": "Has any research been done on whatleads to or is correlated with successful long distance relationships?",
+        "input": "",
+        "output": "Academic research has been done on long-distance relationships and found that a combination of certain characteristics in the individuals involved, such as communication, commitment, and trust, can lead to a successful relationship. Additionally, research has found that the presence of conflict and negative emotions can have a detrimental effect on the relationship. Furthermore, research has looked at how technology can positively influence long-distance relationships and help maintain close bonds between partners."
+    },
+    {
+        "instruction": "In high school years back they told me the appendix was useless. I heard something about a hypothesis that suggests it may actually have a significant purpose relative to replication and preservation of gut bacteria. What's that about? What do we know about how gut bacteria works?",
+        "input": "",
+        "output": "The appendix was considered useless until a few decades ago. In the 1980s, it was found that appendicitis is caused by a blockage in the appendix, which can cause an infection. Once the appendix is removed, the risk of appendicitis is eliminated.\nThere's a theory that the appendix may play a role in maintaining gut bacteria. The human intestine contains trillions of microorganisms, most of which live in the large intestine (the colon). These organisms are collectively called gut flora or gut microbiota. They perform many different functions, including producing vitamins and short-chain fatty acids such as acetate, propionate and butyrate.\nThe gut flora is involved in nutrient absorption, development of the immune system, and even brain function. It has been suggested that the appendix may be a \"reservoir\" for gut flora, and that during times of illness or infection, some of these bacteria may move into the appendix to avoid being killed by antibiotics or other factors that might kill gut flora in the rest of the gastrointestinal tract. When the infectious period passes, these bacteria may recolonize the gut.\nResearch on this topic is still in its early stages, and more research is needed to confirm this hypothesis."
+    },
+    {
+        "instruction": "why are elementary particles structureless?",
+        "input": "",
+        "output": "I am new to this forum and quantum physics. I have been reading about the standard model of elementary particles for a while now. I know that each elementary particle has a unique mass and charge so they are essentially structureless. I don't understand how it is possible since every physical object we see around us has a definite structure composed of atoms which in turn consist of electrons, protons and neutrons. How do we know that elementary particles are really structureless?\nclassical-mechanics\nparticle-physics\nelementary-particles\nstandard-model\nquantum-field-theory\nquantum-mechanics\nelectromagnetism\ninteraction\nstring-theory\nmicroscopic-structure\nanswered Jan 2 '18 at 19:42\n$\\begingroup$ Hi @Ruslan, welcome to Physics Stack Exchange! Please make sure your questions are clear and include what you already know about the subject (if anything) and what your specific goals are. This will help you get better answers. $\\endgroup$ – ACuriousMind♦ Jan 2 '18 at 19:47\n$\\begingroup$ Related: What is the origin of matter's wave-like nature? and Why can't we use de Broglie relation to find the wavelength of a photon? and Are there any objects in quantum mechanics that have a well-defined classical limit? and How come an electron can be in two places at once? and Can a photon have an infinite energy? $\\endgroup$ – ACuriousMind♦ Jan 2 '18 at 19:48\n$\\begingroup$ Definitions of terms like \"elementary particles\" and \"structure\" must be made more precise. An electron is not \"structureless\". It has properties like spin and leptonic number etc"
+    },
+    {
+        "instruction": "Do Childless people have higher or lower rates of depression and other mental illness?",
+        "input": "",
+        "output": "I'm trying to find references for the following hypothesis:\nDo people without children have higher or lower rates of depression and other mental illness?\nAnecdotally, I've heard that childless people are more likely to be depressed, but I haven't been able to find any studies on this."
+    },
+    {
+        "instruction": "When an interviewer asks me \"What is your biggest weakness?\", how do I respond?",
+        "input": "",
+        "output": "How to answer \"What is your greatest weakness?\" in an interview.\nTell the interviewer about a weakness that will not prevent you from doing your job well.\nPractice answering this question before your interview so you are prepared.\nA common interview question is \"What is your biggest weakness?\" Here's how to answer it without ruining your chances of landing the job.\nEveryone has weaknesses, but not everyone can admit them. When asked about your weaknesses in a job interview, you need to be honest and give specific examples of times when you struggled. The key is to choose a weakness that won’t stop you from doing your job well. Then, explain what you’ve done to overcome that weakness or how you plan to do so in the future."
+    },
+    {
+        "instruction": "Where do people with a Master's in Applied Physics usually end up?",
+        "input": "",
+        "output": "I'm currently a junior studying Applied Physics at Johns Hopkins, and I've been accepted to a number of PhD programs in physics. However, the cost of living here is quite high, and I can't afford to take on such a large amount of student loan debt. I'm thinking about trying to apply to some masters programs instead, but I'm not sure what kind of jobs people with masters in applied physics usually end up doing. Any advice?\njobs career-path masters\nThere are lots of paths for physicists. You have a broad skill set that will serve you well for many things. Here are some ideas:\nPhysics Professor - There are not many jobs available for physics professors, so this is probably not your best option.\nData Science - This is a growing field where you use your math skills to analyze data. This may be a good fit if you are more interested in statistics than experimental physics.\nFinancial Analyst - You can use your mathematical skills to evaluate stocks and bonds. You should do well in this role since you will have strong analytical skills.\nPhysics Teacher - If you like working with students, you could teach physics at the high school or community college level.\nResearch Scientist - You could work in industry in a lab setting. While you would not be performing original research like you would in academia, you might still get to do interesting work."
+    },
+    {
+        "instruction": "How can I as a non-academic know if a book is widely used and well accepted by scholars?",
+        "input": "",
+        "output": "I am interested in economics, but I have no university training. I would like to know if there are good books on economics that are widely used and well accepted by scholars. How can I find out?\neconomics books reference-request\nYou can check the contents lists of several intermediate undergraduate and graduate textbooks in economics and look for any specific book you are interested in. If it appears in at least two or three different books, then it is likely to be widely used and well accepted by scholars. Here are some possibilities:\nMankiw, N. Gregory. Principles of Microeconomics . 8th ed., 2017.\nHarcourt, R. Glenn, and John Taylor. Principles of Economics . 8th ed., 2015.\nMcConnell, Campbell R., and Stanley L. Broussard. Macroeconomics . 19th ed., 2018.\nBorenstein, Alan, and Sarah T. Jacobson. Quantity and Quality of Life . 2nd ed., 2016.\nSolow, Robert M., and Tony Savelev. Intermediate Microeconomics: A Modern Approach . 8th ed., 2015.\nGregory Mankiw's book is the most popular undergraduate textbook in the United States. Harcourt, R. Glenn, and John Taylor's book is also very popular. They both seem to emphasize classical models more than Solow's book (which emphasizes modern growth theory). McConnell and Broussard's book is the standard intermediate macroeconomics text in the US. Borenstein and Jacobson's book is an advanced undergraduate or introductory grad level text in microeconomic analysis of health, education,"
+    },
+    {
+        "instruction": "Is it fair to call Superman a hero when 99% of the time he puts himself at no risk by saving people?",
+        "input": "",
+        "output": "This is kind of a controversial opinion, but I think it's fair to call Superman a hero. He does put himself at risk sometimes, and he often does save people from certain death.\nYes, it is often the case that Superman puts himself in no danger whatsoever, but this is not always the case. There have been many times when Superman has saved people from certain death, even if he wasn't in any immediate danger himself."
+    },
+    {
+        "instruction": "What is the best explanation of Newton’s laws?",
+        "input": "",
+        "output": "I’m sorry, but there is no single best explanation of Newton’s laws. Newton’s laws are three statements that describe the relationships between objects and their motion. They are:\n1. The first law of motion states that an object will remain at rest or in uniform motion in a straight line unless acted upon by an outside force.\n2. The second law of motion states that a force acting on an object is equal to the mass times the acceleration of the object.\n3. The third law of motion states that for every action, there is an equal and opposite reaction."
+    },
+    {
+        "instruction": "I reported a supervisor for sexual harassment. He got fired. HR must have ran their mouth during the investigation because ex supervisor messaged my husband on Twitter with \"you better hope I never see you\". What steps should I take now?",
+        "input": "",
+        "output": "The best step to take now would be to contact law enforcement. The ex-supervisor's threatening message is a clear and serious concern, especially since it was sent through a public platform that can be used to track the sender's identity. It is important to seek protection and ensure your safety by taking appropriate legal measures."
+    },
+    {
+        "instruction": "What does a dog learn from sniffing another dogs butt?",
+        "input": "",
+        "output": "Learning to tell if a dog is friendly.\nTeaching the dog not to sniff other dogs butts."
+    }
+]

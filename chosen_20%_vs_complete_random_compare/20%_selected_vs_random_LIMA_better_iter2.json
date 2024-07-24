@@ -1,0 +1,917 @@
+[
+    {
+        "instruction": "Who are some eminent scholars of the Quechua language?",
+        "input": "",
+        "output": "Although Quechua is a language spoken in several countries, it is mainly associated with the indigenous peoples of Peru and Bolivia. In that context, two prominent scholars of Quechua are José MACHI CUZCULO, considered the father of modern Quechua linguistics, whose study on Quechua phonology is still used as a reference today; and Luis E. LLILLA TUDRAIN, one of the most prolific Quechua authors, known for his Quechua-Spanish dictionary and many other works."
+    },
+    {
+        "instruction": "Write an email to notify the commencement of bidding process in paper reviewing for a conference.",
+        "input": "",
+        "output": "\nDear [Reviewer], \n\nI am delighted to inform you that the paper you reviewed for our conference has been accepted for presentation. We would like to thank you for your valuable feedback and time in helping us improve the quality of the conference proceedings. \n\nWe hope that you will consider joining us again in future conferences as a reviewer or even as a presenter. Again, thank you for your help and we look forward to seeing you soon at the conference. \n\nKind Regards, \n[Your Name]"
+    },
+    {
+        "instruction": "What's a good itenary for a trip to Vegas? Planning a trip for 3.5 days, please exclude any museums",
+        "input": "",
+        "output": "We'll be staying at the Flamingo and are interested in:\n1. Walking down The Strip\n2. Maybe a helicopter tour?\n3. Visiting one of the many free attractions (like the fountains)\n4. Eating lots of good food!\n5. Any other suggestions?\nThe weather will be hot so we're thinking of doing this during late June/early July."
+    },
+    {
+        "instruction": "Help me rewrite this email to a more formal way:\n\"Hey there,\n\nJust wanted to see if we could chat about the new project next week. Can you squeeze me in sometime between Tuesday and Thursday? It'd be cool to get your thoughts and feedback before we move forward.\n\nLooking forward to catching up! Let me know when you're free.\"",
+        "input": "",
+        "output": "\nThis is the original email: Hey there,\nJust wanted to see if we could chat about the new project next week. Can you squeeze me in sometime between Tuesday and Thursday? It'd be cool to get your thoughts and feedback before we move forward.\nLooking forward to catching up! Let me know when you're free."
+    },
+    {
+        "instruction": "What is the most efficient way to get the number of rows in a table with psycog2?",
+        "input": "",
+        "output": "\nI'm using the psycog2 module to get the table metadata and I want to know if there is a more efficient way than just iterating through the result of `get_table_metadata()`."
+    },
+    {
+        "instruction": "What is the difference between the potato masala for Dosa and the one that is served with poori? ",
+        "input": "",
+        "output": "Potato masala for Dosa is made with onion, ginger, garlic and lots of spices. Potato masala for poori is made with peas and cashews."
+    },
+    {
+        "instruction": "Could you write a poem about my girlfriend in the style of the Bulgarian poet Botev? She is a software engineer, she likes dancing, and her favorite food are potatoes in any form.",
+        "input": "",
+        "output": " Crime is like a shadow, it follows you wherever you go. It can be a dark cloud above you or the darkness under your feet.\nYou try to outrun it but it stays close behind. You try to hide but it finds its way in."
+    },
+    {
+        "instruction": "what does \\multirow{5}{*} do in latex",
+        "input": "",
+        "output": "\n%--------------------------------------------------\n%  Footer\n%--------------------------------------------------\n\\pagestyle{empty}"
+    },
+    {
+        "instruction": "Can you turn the following set of bullet points into an email?\n* I'm bored at work.\n* My manager is incompetent.\n* I'm underpaid.\n* I quit.\nThat's what I really think, and I want you to communicate it in the email, but I need help with the phrasing to keep everything politically correct.",
+        "input": "",
+        "output": "I'm sorry to hear that you are feeling bored and undervalued at work. I know that it can be difficult to stay motivated when you are not being appreciated or challenged. However, quitting is never the answer. We all have times when we feel frustrated with our jobs, but it is important to remember that your job is a source of income and stability. It is also important to respect your manager and coworkers, even if you don't agree with their decisions."
+    },
+    {
+        "instruction": "Plan a day trip in Tokyo. The spots need to be within walking distance to each other.",
+        "input": "",
+        "output": "Harajuku and Yoyogi Park are the most popular spots for Harajuku girls/guys, although not all of them are from there.\nTakeshita Street is also a tourist spot in Harajuku."
+    },
+    {
+        "instruction": "Given a <span> in HTML I want to change its color on mouse over.",
+        "input": "",
+        "output": "\nHere's a basic example:\nHTML\n<span style=\"color: blue\">Click me!</span>\nCSS\nspan {\n    color: blue;\n}"
+    },
+    {
+        "instruction": "You are given an oracle function ```predict_value(stock)```, which returns an estimated confidence interval of p=0.01 around a given stock's value one minute into the future. Write a Python program that buys and sells stock on a per-minute basis to maximize expected profit, while minimizing profit variance.",
+        "input": "",
+        "output": "\nYou are given an oracle function ```predict_value(stock)```, which returns an estimated confidence interval of p=0.1 around a given stock's value one minute into the future. Write a Python program that buys and sells stock on a per-minute basis to maximize expected profit, while minimizing profit variance.."
+    },
+    {
+        "instruction": "Our beloved colleague Stephen is now leaving the company. He is one of the best engineers we had. He used to love posting memes. Write a short, fun and inspiring goodbye message.",
+        "input": "",
+        "output": "It will be hard to find a more dedicated, passionate and talented engineer than Stephen. He always went above and beyond to make sure things are done right, and he was truly committed to our mission. We will miss him dearly and wish him the best of luck in his future endeavors!"
+    },
+    {
+        "instruction": "Write a stand-up skit in the style of George Carlin that ridicules Pacific Gas and Electric.",
+        "input": "",
+        "output": "JTT01823769 Show transcript\nIt's been more than 2 years since the Camp Fire destroyed the town of Paradise, California. The blaze was so devastating that it still hasn't fully recovered. But one man has done something amazing to try and bring the community back together. He planted thousands of trees. As you'll see in this news report from CBS News correspondent Mireya Villarreal, it's a labor of love that is paying off in a big way."
+    },
+    {
+        "instruction": "Hi, I have a web app that does google authentication to let users in. How can I replace it with a captcha?",
+        "input": "",
+        "output": "\nI would like the users to enter a code from an email they will receive to prove that it's them logging in. Thanks.\n\nAnswer: I think you can try these 2 solutions,\n\n1) Use Google reCAPTCHA V3 to implement a free spam-filtering service to prevent abusive traffic on your website. It is a fully managed and no-setup API to integrate reCAPTCHA into your web applications.\n\n2) Use Invisible reCAPTCHA to reduce friction for users by using machine learning to adapt to risk in real time, while keeping abuse at bay."
+    },
+    {
+        "instruction": "Provide recommendations for the best pillow brands",
+        "input": "",
+        "output": "Searching for the best pillow can be a challenge. And the choices are overwhelming with so many different brands and models to choose from. The best pillow is the one that will provide you with the right combination of comfort, support, breathability, durability, and price.\nThe ideal pillow should also be easy to clean and not cause any allergies or skin irritations. A good pillow will last for years if taken care of properly.\nThis article reviews some of the top pillow brands available in the market today.\nAmazon has been selling pillows since 2014 and has become one of the most popular online retailers for buying pillows. Amazon has a wide range of pillow types such as down alternative pillows, memory foam pillows, and shredded foam pillows. They have both soft and firm options. Pillows sold on Amazon are mostly made by third-party sellers but come with a 365-day return policy.\nAmazon’s pillows are affordable and priced between $10-$100.\nBed Bath & Beyond is another popular retailer for buying pillows. Bed Bath & Beyond sells both down alternative and memory foam pillows and also has a variety of firmness levels to choose from. They sell pillows under their own brand as well as other popular brands like Sleep Innovations, Serta, Euro-Pillow, and Downlite. Most of their pillows have a 100-night trial period, but this varies by model.\nBed Bath & Beyond’s pillows are moderately priced and range from $20-$100.\nBrookstone is a specialty retailer for sleep accessories and has been selling high-end pillows"
+    },
+    {
+        "instruction": "Can you explain dependency injection in C# like a gangster?",
+        "input": "",
+        "output": "What is dependency injection and how does it work?\nCan you explain it in simple terms?\nHow can I learn more about dependency injection?"
+    },
+    {
+        "instruction": "I don't celebrate Christmas, but my neighbors do, and we're on pretty good terms. Should I get them a Christmas card? If so, please help me write one that is both genuine and respectful at the same time.",
+        "input": "",
+        "output": "Here's an example: Dear [Neighbor], Merry Christmas! I hope you and your family are enjoying the holiday season. Wishing you all the best in the coming year. Sincerely, [Your Name]"
+    },
+    {
+        "instruction": "Why did Apollo 13 fail?",
+        "input": "",
+        "output": "(a) Fuel Cell Malfunction.\n(b) Oxygen Tank Explosion.\n(c) Command Module Loss of Power.\n(d) All of these contributed to the failure of Apollo 13."
+    },
+    {
+        "instruction": "What's the funny part of the joke \n\"Why don't scientists trust atoms?\nBecause they make up everything!\"",
+        "input": "",
+        "output": "\nIs it the fact that scientists don't trust atoms, or the fact that they make up everything?"
+    },
+    {
+        "instruction": "Why do my fiddle fig leaves look yellow?",
+        "input": "",
+        "output": "Fiddles are evergreen, so the yellowing of the leaves is a sign that they have stopped producing chlorophyll for the season. The plant will continue to produce new leaves in the spring when it starts producing chlorophyll again."
+    },
+    {
+        "instruction": "what color goes best with teal?",
+        "input": "",
+        "output": "\nwhat color goes best with teal?"
+    },
+    {
+        "instruction": "Can you rephrase this paragraph and make it a bit shorter?\nAs the first step in Pick a Pic, we introduce pickapic.io. This web app allows users to generate, rank, and download images for free. We will collect, anonymize and release the data periodically to the public domain, so *all* AI enthusiasts will be able to tune their favorite text-to-image models on human preferences. ",
+        "input": "",
+        "output": "This service is provided by Pick a Pic, Inc. , a Delaware corporation. By using this service, you agree to the terms of this Privacy Policy.\nPick a Pic collects data from users that are generated when users interact with the various features offered on Pick a Pic, such as when someone uploads an image or ranks an image. Additionally, Pick a Pic may record non-personally identifiable information about your use of our services and the content you access via our services. We do not collect personally identifiable information about you (such as name, email address, phone number, credit card information, etc.) without your consent. If you provide us with personal information, we may combine it with other information we collect in order to better understand you and how you use our services."
+    },
+    {
+        "instruction": "Can you briefly explain this concept of computational irreducibility?",
+        "input": "",
+        "output": "I am not quite sure if this is the right place to ask but I do not know where else to go.\nSo computational irreducibility, as far as I understand it, is when a problem can be solved using an algorithm that runs in time $O(n^p)$ for some $p > 1$. Is this correct?. And why is it important? What are some examples of problems that are computationally irreducible?."
+    },
+    {
+        "instruction": "If I go on parental leave on 24 April 2022 and return on 9 September 2022, how many working days would I be gone for?",
+        "input": "",
+        "output": ""
+    },
+    {
+        "instruction": "Why do men earn more on average?",
+        "input": "",
+        "output": "July 1, 2020 July 1, 2020 by PWRD\nThis may be an obvious question to some, but I think it’s worth asking. There are many reasons why this is the case. Historically men have been paid more than women for the same job. In addition, men have been traditionally seen as the breadwinners of the family and thus receive more respect in our society. They have also been more likely to take on leadership roles in the workplace which also come with higher salaries."
+    },
+    {
+        "instruction": "I'm building a world for a new RPG. It's set in the near future, e.g. 2040, where a new technology has completely overhauled society, for better and worse. Give me some ideas about what this technology could be, and explain how it would affect society.",
+        "input": "",
+        "output": "The technology could be a way for people to communicate with each other over large distances. For example, you could use it to communicate with someone on the other side of the world without having to travel there. This would allow people to stay in touch with their friends and family more easily, and it would also make it easier for businesses to communicate with customers.\nAnother possibility is a new type of energy source that is more efficient than current technologies. For example, you could use this new technology to power your house without having to worry about paying bills or dealing with pollution. This would free up time to spend on other things, and it would also help the environment."
+    },
+    {
+        "instruction": "What are some good ideas for a startup in STEM education?",
+        "input": "",
+        "output": "I am a big fan of STEM education. I believe that it is one of the most important things we can do to prepare our kids for the future. The problem is that there are so many different ways to approach STEM education. Which makes it hard to decide what to do with your startup.\nI’ve been thinking about this for a while now and I think the best way to approach it is to ask yourself what problem you want to solve. If you can find a problem worth solving, then you will have found your startup idea."
+    },
+    {
+        "instruction": "What are the best birthday gifts for an acquaintance that I don't know very well?",
+        "input": "",
+        "output": "I've been wanting to get an acquaintance a birthday gift for a while, but I don't know what to get them. We only know each other casually and haven't hung out much. Is it weird if I get them something like a book or Amazon gift card? Any suggestions?\nYou mentioned you haven't hung out with this person a whole lot, so you probably don't know a ton about their interests. If that's the case, a book is a safe choice. You can pick up something from a store like Barnes &amp; Noble or Urban Outfitters. A coffee shop or restaurant gift card is also nice. It shows that you were thinking of the person, even if you didn't hang out a lot."
+    },
+    {
+        "instruction": "My friends are visiting California soon, can you suggest some places I could take them in San Francisco? Here are some things they like: nature, Chinese food, brutalist architecture, live music.",
+        "input": "",
+        "output": " teeth whitening cost at the dentist refers to the fee charged by a dentist for performing the procedure of bleaching or whitening teeth.\nteeth whitening cost at the dentist can be found on the following link"
+    },
+    {
+        "instruction": "What language family does Hungarian belong to?",
+        "input": "",
+        "output": "What language family does Hungarian belong to?\nHungarian belongs to the Uralic language family."
+    },
+    {
+        "instruction": "Compare better call saul and breaking bad. What does each show do better than the other?",
+        "input": "",
+        "output": "Breaking Bad is a much better show than Better Call Saul. It has more interesting storylines, characters and acting. Breaking Bad also has a better pacing and a stronger ending."
+    },
+    {
+        "instruction": "What's the best way to learn how to make latte art?",
+        "input": "",
+        "output": "I've recently started making lattes and would love to learn how to make some cool designs. I'm not sure where to start though!\nLearning latte art is just a matter of practise. The key is to be able to pour the milk in a consistent way so that it stays inside the shape you want to create. There's tons of videos on YouTube showing how to do different designs, I suggest you check those out, pick one and practice it until you can do it consistently. Once you feel comfortable with that one you can move onto the next design."
+    },
+    {
+        "instruction": "I’m going to do bowling with my colleagues. Can you give me specific tips to kick their asses?\nExplain the technique please.",
+        "input": "",
+        "output": "The fundamental technique of bowling is to push off the balls in line with your dominant eye, aiming for the pins down-lane. You should also shift your weight towards the ball during delivery, as this will help generate momentum and power. Additionally, you should focus on proper stance, grip, arm swing, and follow through."
+    },
+    {
+        "instruction": "How do I make poached eggs at home?",
+        "input": "",
+        "output": "How do I poach an egg without a slotted spoon?\nWhat does it mean to crack an egg into boiling water?"
+    },
+    {
+        "instruction": "Killing a puppy is more or less morally acceptable than killing a dog?",
+        "input": "",
+        "output": "from Facebook http://bit.ly/2J9Zp6l"
+    },
+    {
+        "instruction": "Provide a recipe for salad dressing with the ingredients olive oil, vinegar, lemon, and various seasonings.",
+        "input": "",
+        "output": "\nCombine all ingredients in a small bowl and whisk until well combined."
+    },
+    {
+        "instruction": "Write a witty dating app bio in a sentence or two for me. Here's stuff about me broadly.\nI am a twenty-six-year-old living in San Francisco. Originally from the East Coast, I moved to the Bay Area after graduating from college to pursue a career in tech.\nDuring my time in San Francisco, I have fully embraced the city's vibrant culture and unique atmosphere. In my free time, I love exploring the city's various neighborhoods and trying out new restaurants and cafes.\nWhen not out and about, I enjoy reading books on a variety of topics, from technology and science to literature and philosophy. I am also an avid fan of video games and spend many evenings playing with friends online.\nProfessionally, I work as a software engineer at a startup company. I enjoy the challenge of solving complex technical problems.",
+        "input": "",
+        "output": "I am looking for someone who shares my passion for exploring new places and trying out new things. Someone who is intelligent, kind-hearted, and open to new experiences."
+    },
+    {
+        "instruction": "I have 350 examples that were annotated with binary labels by two different annotators. How do I compute inter-annotator agreement, including confidence interval?",
+        "input": "",
+        "output": "\nI am using weighted Cohen's kappa. Here is the formula:\n$$\n\\kappa_{w} = \\frac{2}{n(n-1)} \\sum_{i=1}^{n} \\sum_{j=i+1}^{n} \\mathrm{weight}(i,j) \\times \\mathrm{accuracy}(i) \\times \\mathrm{accuracy}(j)\n$$\nwhere $n$ is the number of pairs, and $\\mathrm{weight}(i,j)$ is the weight of each pair (pairs with the same object are ignored). \n\nMy question is how to compute the confidence interval for the coefficient $\\kappa_{w}$."
+    },
+    {
+        "instruction": "Can you summarize this passage into bullet points?\n\nGradually slowing job gains and a growing labor force in March delivered welcome news to President Biden, nearly a year after he declared that the job market needed to cool significantly to tame high prices. The details of the report are encouraging for a president whose economic goal is to move from rapid job gains — and high inflation — to what Mr. Biden has called “stable, steady growth.” Job creation slowed to 236,000 for the month, closing in on the level Mr. Biden said last year would be necessary to stabilize the economy and prices. More Americans joined the labor force, and wage gains fell slightly. Those developments should help to further cool inflation. But the report also underscored the political and economic tensions for the president as he seeks to sell Americans on his economic stewardship ahead of an expected announcement this spring that he will seek re-election.",
+        "input": "",
+        "output": "Slowing job gains • Growing labor force • Wage gains fell slightly • Welcome news for President Biden • Encouraging for economic goal of “stable, steady growth” • Details of the report are encouraging • More Americans joined the labor force • Political and economic tensions for the president"
+    },
+    {
+        "instruction": "Who was the president in France in 1250?",
+        "input": "",
+        "output": "France has had many presidents over the years, but none in the year 1250. The earliest president of France was Charles de Gaulle, who was elected in 1958 and served until 1969."
+    },
+    {
+        "instruction": "How can I make a startup in Augmented Reality?",
+        "input": "",
+        "output": "the most important part in the development of an augmented reality application is to generate a three-dimensional model or scenes that will be used in the application. The virtual content should be integrated into the real world environment through image processing. Then, computer vision technology should be used to recognize and track the position of objects in both real world and virtual environments.\nThere are several technologies that can be used to create 3D models. One way is to use a 3D scanner to create a point cloud model of the environment. Another way is to use photogrammetry, which uses multiple images of a scene to create a 3D model. Once a 3D model has been created, it can be imported into a computer program that allows users to interact with the virtual content."
+    },
+    {
+        "instruction": "How to best apply snow chains to my Honda CR-V?",
+        "input": "",
+        "output": "I have 4x4 Honda CR-V and I need to know how to correctly install snow chains on the front and rear tires.\nWhy did my car's air conditioning stop working?"
+    },
+    {
+        "instruction": "How would you design a spam filter?",
+        "input": "",
+        "output": "A spam filter should have the ability to learn from previous encounters with incoming email so that it can identify new spam emails based on patterns of behavior. It should be able to block certain words and phrases, or whole sentences, as well as analyze the content of incoming messages in order to determine whether or not they are legitimate. Additionally, it should be able to detect changes in sender addresses, subject lines, and other characteristics associated with spam emails."
+    },
+    {
+        "instruction": "I'm going on vacation next month. What are some of the best places to visit in early January?",
+        "input": "",
+        "output": "Some of the best places to visit in early January are:\n1. Hawaii\n2. Caribbean\n3. Florida\n4. California"
+    },
+    {
+        "instruction": "I was wondering if you could tell me the best way to remove the rust from the bottom of the toilet.",
+        "input": "",
+        "output": " You could try scrubbing it with a wire brush, but be careful not to damage the porcelain. You can also use a commercial rust remover, but make sure to follow the manufacturer’s instructions carefully."
+    },
+    {
+        "instruction": "I feel like I'm really slacking off on my work. I've been trying to think of ways to motivate myself, but I haven't had any luck yet. Any ideas?",
+        "input": "",
+        "output": "If you are not able to motivate yourself, then ask others for help. Ask your friends, family or colleagues for tips on how to stay motivated. You can also try reading books or articles about motivation."
+    },
+    {
+        "instruction": "Does the world have enough drinking water for everyone? How much do we have? How much more do we need?",
+        "input": "",
+        "output": "How much water do we have?\nThe world's largest reservoir of freshwater is in the Antarctic ice sheet. The volume of this ice sheet is roughly 26,500,000 cubic kilometers (km3), which is about 69 percent of all the freshwater on Earth. Most of this water is locked away in glaciers and ice caps. A small amount of this ice melted over the last decade—about 386 billion tons (1 billion tons equals 1 km3).\nOf the Earth's total freshwater supply, about 68 percent is found in glaciers and ice caps. The remaining freshwater is in lakes and streams, and underground. Less than 1 percent of Earth's freshwater is in rivers, and less than 0.1 percent is in oceans.\nHow much more do we need?"
+    },
+    {
+        "instruction": "I am a second-year undergraduate student, and I would like to discuss the merits of taking a year in industry.",
+        "input": "",
+        "output": "\nI am a second-year undergraduate student, and I would like to discuss the merits of taking a year in industry."
+    },
+    {
+        "instruction": "I'm a teacher and I've been teaching a student named Kate for a few months. I've noticed that Kate is very good at history and geography, but she's not good at math and science. She seems to have given up on math and science already, and I'm worried that this is going to affect her later in life, especially when she's looking for jobs. Please help me write a script I can use to talk to her about her math and science performance.",
+        "input": "",
+        "output": "I’m a teacher and I’ve been teaching a student named Kate for a few months. I’ve noticed that Kate is very good at history and geography, but she’s not good at math and science. She seems to have given up on math and science already, and I’m worried that this is going to affect her later in life, especially when she’s looking for jobs. Please help me write a script I can use to talk to her about her math and science performance.."
+    },
+    {
+        "instruction": "I'm looking for a game to play with a large group of friends.",
+        "input": "",
+        "output": "hundreds of people. We all have access to a private server with unlimited bandwidth (and we can install anything we want). I'm thinking about maybe something like an MMO or something big and open world, but I'm not sure what would be best for that many people. I also don't want anything too resource intensive. Something simple would be ideal.\nIdeally it should support sprinting/running and some form of melee combat (like fists, guns, bows, etc).\nWould something like Minecraft be suitable? It is pretty simple and easy to pick up and play. It also has large open worlds and the ability to build things if people get tired of exploring."
+    },
+    {
+        "instruction": "What are the longest and shortest words in the English language?",
+        "input": "",
+        "output": "Most words we use in everyday English are pretty short, but there are some exceptions. The longest word in the English language is a whopping 20 letters long! It's \"antidisestablishmentarianism,\" and it means opposing or rejecting something established, especially a church or government.\nThe shortest word in the English language is just one letter long: \"a.\" It's so short because it doesn't have any letters that aren't used in other English words (like the \"a\" in \"cat\"). There are also many words with just two letters, such as \"ab,\" \"cd,\" and \"ef.\""
+    },
+    {
+        "instruction": "I'm feeling a bit lonely these days, how can I make new friends?",
+        "input": "",
+        "output": "I'm feeling a bit lonely these days, how can I make new friends?\nAsked by gs (3296 ) April 9th, 2012\nI am in my mid-20s and I've just moved to a new city. I'm looking to make some new friends, but I don't know where to start. Any advice?"
+    },
+    {
+        "instruction": "I live in a 1br apartment in Manhattan, and it consistently smells bad. What is a good way to purify the air in my home?",
+        "input": "",
+        "output": "I live in a 1br apartment in Manhattan, and it consistently smells bad. There is no windows or ventilation system, so opening the doors and windows won't help much. What is a good way to purify the air in my home?\nI would look into an air purifier. The best one I have used is the Dyson Pure Cool Link."
+    },
+    {
+        "instruction": "I'm thinking of taking my family to Disney World, but I'm not sure when the best time of year is. Can you recommend a time of year that is inexpensive but not too crowded?",
+        "input": "",
+        "output": "I would recommend visiting during the value season. This is generally in January, early February, and after Labor Day weekend. You can find rooms for less than $80 a night, but be prepared for cooler temperatures (60-70) and longer lines for some attractions. If you don't mind cooler weather and like to save money, this is a great time to go!"
+    },
+    {
+        "instruction": "I want to find a book that my 8 year old nephew would like to read.",
+        "input": "",
+        "output": "The book should be exciting and funny with a good story line. It should also have lots of pictures as he is still fairly young. Any suggestions?\nGood fantasy books for kids 8-10yrs?"
+    },
+    {
+        "instruction": "How does the healthcare system work in the USA?",
+        "input": "",
+        "output": "What is the healthcare system in the USA like?\nThe US healthcare system is complex, with many different parts and pieces. The government funds some programs, which means that many people can get care no matter their financial situation. However, most health insurance comes from private companies, and not all of these plans are created equal. This means that it can be hard to figure out how to get the care you need or how much things will cost.\nWhat does the US healthcare system cover?\nMost health insurance plans cover some common health services. These can include:\nMedical checkups and immunizations\nTreatment for serious conditions, such as cancer or heart disease\nPregnancy and childbirth (if you’re pregnant, your health insurance must cover 100% of your prenatal care)\nMental health care and addiction treatment\nSome plans may also cover things like vision, hearing, and dental care. But you usually have to pay more for these extras.\nHealth insurance is not free. You have to pay a monthly premium to keep your plan active. And if you see a doctor or get medical care, you’ll likely have to pay deductibles and coinsurance, too.\nDeductibles are the amount of money you have to spend on healthcare before your insurance kicks in. For example, if your plan has a $500 deductible, you’ll have to pay for the first $500 worth of medical costs yourself.\nCoinsurance is the percentage of the bill that you have to pay after your deductible is met. So, if your policy has a 20% coinsurance, and your deductible has been met, you’ll owe 20% of the bill. The insurance company pays the rest.\nIf you"
+    },
+    {
+        "instruction": "Can you order me a large pizza from Domino's?",
+        "input": "",
+        "output": "I am hungry now.\nNo, I cannot order you a pizza from Domino's. You need to place your own order directly with Domino's."
+    },
+    {
+        "instruction": "The year is 2025. Can you write an article about the new iPhone 17?",
+        "input": "",
+        "output": "Apple is expected to release its next-generation iPhone 17 in the year 2025. The device is rumored to come with a number of exciting new features, including a radically different design and an all-new A13 Bionic chipset. Other possible updates include a triple rear camera system, improved water resistance, and support for 5G networks. With such significant changes on the horizon, the iPhone 17 could be one of the most anticipated Apple products in years."
+    },
+    {
+        "instruction": "What are the most effective ways to deal with stress?",
+        "input": "",
+        "output": "Effective Ways to Deal With Stress. Stress is an essential part of life. However, it can also be a major source of unhappiness and discomfort. The key to managing stress is to learn healthy ways to cope with it. Here are some effective ways to deal with stress: 1. Exercise regularly.\nExercise is one of the best natural stress relievers. It helps reduce cortisol levels in your body, which can help you feel calmer and more relaxed. Aim for at least 30 minutes of physical activity every day. 2. Eat healthy foods.\nWhat are examples of effective coping mechanisms?\n10 Effective Coping Mechanisms for Difficult Times\nPractice mindfulness meditation.\nTake a warm bath or shower.\nEngage in deep breathing exercises.\nSpend time with loved ones.\nTalk to a trusted friend or therapist.\nWhat are some strategies to effectively manage stress?\nHere are nine strategies you can use to better manage your stress.\nAvoid caffeine and alcohol.\nEat healthy meals.\nGet plenty of sleep.\nTry deep breathing or meditate.\nUse time management skills.\nLearn to say no.\nWhat are some effective ways to manage stress?\n9 Effective Ways to Manage Stress\nMeditation and relaxation techniques.\nPractice self-care.\nAvoid large workloads.\nLimit social media use."
+    },
+    {
+        "instruction": "How can I increase my productivity while working from home?",
+        "input": "",
+        "output": "I've been working from home for a while now. I'm not really sure what to do with my time, so I end up wasting it on Facebook and YouTube. How can I be more productive?"
+    },
+    {
+        "instruction": "Plan a three-day trip to Seattle",
+        "input": "",
+        "output": "How many days is sufficient for a trip to Seattle?\nSeattle offers a plethora of activities, so three days is a good amount of time to spend in the city. You’ll be able to explore the Emerald City and the Puget Sound while still having time to catch a flight home at the end of the day.\nIf you have more time, consider adding a stopover in Tacoma! There are buses that can take you from Seattle to Tacoma, but it’s also possible to drive or take an Uber. Spend some time checking out the art galleries and museums in downtown Tacoma. Then, head over to Point Defiance Park, which has beautiful views overlooking Puget Sound and the Olympic Mountains. If you have time, check out Thea Foss Waterway or LeMay – America’s Car Museum as well!\nWhen visiting Seattle, you can expect mild winters with occasional rainfall. Summer temperatures average between 60-70 degrees Fahrenheit. Known for its rain, Seattle actually receives less precipitation than other popular destinations like New York City. Enjoy your trip!"
+    },
+    {
+        "instruction": "Give me a lesson plan for teaching Intro to Probability.",
+        "input": "",
+        "output": "What is the probability of winning the lottery?"
+    },
+    {
+        "instruction": "Create a lesson plan for teaching the works of S. Y. Agnon.",
+        "input": "",
+        "output": "1. Introduction to the works of S. Y. Agnon\n2. Brief overview of his life and times\n3. Analysis of the themes and styles present in his works\n4. Discussion of the literary merits of his works, such as their use of language, structure, characters, etc.\n5. Assessment of his influence on other writers, both within Israel and beyond."
+    },
+    {
+        "instruction": "My 6yo daughter is super smart and finds the kids in school boring. How can I help her make friends?",
+        "input": "",
+        "output": "My 6yo daughter is in Grade 1 (she turned 6 this year) and finds the kids in school boring. Apparently, she doesn't like their interests and they don't like hers. I have noticed that she spends most of her recess time alone playing by herself. She also doesn't have many friends at school.\nHow can I help her make friends?\nPre-school is where my daughter really came out of her shell and made lots of friends. She has been attending a French immersion program so all of her classmates are required to speak French except for her. I am not sure if that is part of the problem or not.\nHow can I help her be more social?\nschool friendship elementary-school\nTerriTerri\nI think you've answered your own question...\n\"I have noticed that she spends most of her recess time alone playing by herself.\"\nIt seems clear to me that your daughter is perfectly happy being by herself, and does not consider herself to be \"bored\". If she was bored, she would want to interact with other people. She might just naturally prefer solitude over interaction.\nI see no reason to force her to make friends if she isn't interested. Instead, focus on helping her develop her interests, and strengthen her natural inclination towards solitude.\nIn particular, it seems like French Immersion programs tend to attract highly motivated students, which makes them extra-interesting to your daughter. It's possible that she enjoys these activities more than the typical playground games, and doesn't feel like she fits in with her peers. Perhaps there are clubs or after-school activities she could try to meet people who share her interests.\nHmm. This is a difficult one. My son went through a phase at age 5/6 where he didn'"
+    },
+    {
+        "instruction": "What are the main differences between Python and JavaScript programming languages?",
+        "input": "",
+        "output": "JavaScript is an object-oriented language, while Python is a high-level, general-purpose programming language.\nPython supports multiple programming paradigms, including object-oriented, imperative and functional programming or procedural styles. It features a large and comprehensive standard library.\nJavaScript is a prototype-based language, whereas Python is a class-based language."
+    },
+    {
+        "instruction": "What are the primary factors that influence consumer behavior?",
+        "input": "",
+        "output": "What are the primary factors that influence consumer behavior?\nThe primary factors that influence consumer behavior include income, education, age, gender, location, personality, cultural background, and lifestyle."
+    },
+    {
+        "instruction": "Why are there \"bad school districts\" and \"good school districts\" in the US, assuming that the government works hard to increase education standards?",
+        "input": "",
+        "output": "My question is inspired from observing school districts in the US and what I have read about them.\nI live in a state in the US where there are two regions, one of which is quite poor and has a bad reputation for its schools (low test scores, high dropout rates). However across the river in the neighboring state, the schools are among the best in the nation.\nWhy is this? Is it purely a matter of funding? Or is it also related to the people who live in these areas, or something else?\neducation united-states school district\nLiving standards are correlated with education outcomes, but it's not because of a causal effect of living standards on education.\nFamilies that have more money typically invest more in their children's education, both through private tutoring, as well as better public schools in wealthier neighborhoods. For example, see this map from the Census Bureau showing that higher income areas tend to have higher educated residents.\nAs an aside, I think this is another case of correlation vs causation. It may be that people who live in higher income areas are more educated because they have skills that allow them to earn more money. But that would be an explanation for the correlation between income and education, not why certain places have higher or lower test scores.\nIn general, though, when researchers control for socioeconomic status (SES), they find that school quality doesn't explain much variation in student test scores. So differences in school quality mostly explain the differences between neighboring school districts.\nTo summarize: There are wide disparities in educational achievement based largely on SES. This is not explained by differences in school quality (once you control for SES). Differences in school quality only account for differences between neighboring school districts."
+    },
+    {
+        "instruction": "What is the etiquette for asking whether someone has a special diet?",
+        "input": "",
+        "output": "I have a friend who is vegetarian. When I'm invited to dinner at her place, I always bring a dish of vegetarian food as a gift. But when I'm invited to other people's places, I sometimes forget to ask whether they have any special dietary restrictions.\nWhat is the proper etiquette for asking about this? For example, if I were to call the host beforehand:\nIs it okay if I bring a meat-based dish even though you're vegetarian?\nOr should this be something that I ask when either arriving or when we sit down to eat? If so, how would you phrase it in that case? We are not yet at the table and I don't want to make a big deal out of it."
+    },
+    {
+        "instruction": "What is something that was acceptable 100 years ago which is unacceptable today?",
+        "input": "",
+        "output": "The way people treat each other.\nWhat is something that was acceptable 100 years ago which is unacceptable today?"
+    },
+    {
+        "instruction": "Answer question in the following template:\nAnswer: [short answer]\nExplanation: [detailed explanation]\n\nWho is the greatest woman in history?",
+        "input": "",
+        "output": "Mother Teresa (1910-1997) was an Albanian Roman Catholic nun and missionary. She was born in Skopje, the capital of the Ottoman Sanjak of Macedonia. At the age of 12, she felt a strong desire to become a missionary. Teresa moved to Calcutta, India, in 1928 and began working with the poorest people there, especially the destitute and dying. In 1950, she founded the Missionaries of Charity, a religious congregation that has expanded to more than 450 foundations in 120 countries, including hospices and orphanages. Its novitiates have been established in the United States, Mexico, and India."
+    },
+    {
+        "instruction": "What are some potential implications of using a single-use plastic bottle versus a reusable bottle on both the environment and human health?",
+        "input": "",
+        "output": "On the environment, single-use plastic bottles are a major source of plastic pollution, which can harm wildlife and contaminate water sources. Reusable bottles, on the other hand, can help reduce the amount of plastic waste that ends up in landfills and oceans. Additionally, using a reusable bottle can save money over time, as it eliminates the need to purchase single-use bottles. On human health, there is some evidence to suggest that exposure to certain chemicals found in plastics, such as bisphenol A (BPA), may have negative impacts on health, including increased risk of cancer and hormone disruption. However, more research is needed to fully understand the potential health implications of using single-use plastic bottles versus reusable bottles."
+    },
+    {
+        "instruction": "What benefits does JAX offer over PyTorch?",
+        "input": "",
+        "output": "What advantages does JAX have over PyTorch?\nJAX is a Python library for numerical computation that compiles programs to Just-In-Time (JIT) accelerated, low-level native code.  It offers performance improvements over PyTorch by compiling the user's code rather than interpreting it.  This leads to faster execution speed and reduced memory usage."
+    },
+    {
+        "instruction": "What factors would you consider when designing an inclusive and accessible public transportation system?",
+        "input": "",
+        "output": "My answer:When designing an inclusive and accessible public transportation system, there are several factors to consider. Here are some of them:\n1. Accessibility: Ensure that the transportation system is accessible to people with disabilities by providing ramps, elevators, and other accommodations.\n2. Universal Design: Design the system with universal design principles in mind, so that it is usable by a wide range of people.\n3. Affordability: Make the transportation system affordable for everyone by keeping fares low and offering discounts.\n4. Convenience: Make the system convenient to use by providing easy-to-use ticketing systems and information about routes and schedules.\n5. Safety: Ensure that the transportation system is safe for passengers by providing security personnel and cameras.\n6. Diversity: Create a diverse workforce and make efforts to recruit from underrepresented communities to ensure that the system reflects the diversity of the population it serves.\n7. Sustainability: Design the system to be sustainable, by using energy-efficient vehicles and reducing carbon emissions."
+    },
+    {
+        "instruction": "How can governments utilize fiscal and monetary policies to combat economic recessions?",
+        "input": "",
+        "output": "Governments can utilize fiscal and monetary policies to combat economic recessions by increasing government spending, lowering taxes, and expanding the money supply. Fiscal policy involves changes in government spending and taxation, while monetary policy involves manipulating the money supply to control interest rates and encourage lending. Both policies aim to stimulate the economy and create jobs."
+    },
+    {
+        "instruction": "How does one create an android app?",
+        "input": "",
+        "output": "That depends on what platform you are developing for. For example, if you are creating an Android app, then you would use the Android Studio to create your app."
+    },
+    {
+        "instruction": "Dogs can smell COVID infections in patients, with as much accuracy as a PCR test. What's stopping us from building a machine that 'smells' the patients and detects it as well, if not better, than a dog?",
+        "input": "",
+        "output": "COVID-19: New Study Suggests Dogs Can Smell Infection With 100% Accuracy\nA new study has found that dogs can smell COVID-19 infections with 100% accuracy."
+    },
+    {
+        "instruction": "How do language and cultural barriers affect the way people communicate and form relationships in multicultural societies?",
+        "input": "",
+        "output": "Language and cultural barriers can have a significant impact on communication and relationships in multicultural societies. Language barriers can make it difficult for people to understand each other and communicate effectively, leading to misunderstandings and miscommunications. Cultural differences can also cause confusion and misunderstandings, as different cultures have different expectations, values, and behaviors. This can make it difficult for people from different cultures to form meaningful relationships with each other. Additionally, language and cultural barriers can lead to feelings of isolation and exclusion, which can make it harder for people to feel connected to their community. Overall, language and cultural barriers can create challenges for people in multicultural societies, but with effort and understanding, these obstacles can be overcome."
+    },
+    {
+        "instruction": "Describe a scenario where artificial intelligence could be used to improve the quality and efficiency of healthcare delivery.",
+        "input": "",
+        "output": "Welcome to the AI Assistant, your personal healthcare concierge!\nWith AI Assistant, you can get instant access to a virtual healthcare professional who can answer your questions and provide guidance on any health-related topics. The AI Assistant uses natural language processing and machine learning algorithms to understand your query and provide accurate and personalized responses in real time.\nThe AI Assistant can also help you manage your health by suggesting lifestyle changes, providing reminders for medication or doctor's appointments, and tracking your progress over time. It can even suggest healthy recipes and exercise routines to keep you on track towards your wellness goals.\nIn addition, the AI Assistant can help improve the efficiency of healthcare delivery by streamlining administrative tasks such as scheduling appointments, managing patient data, and billing. By automating these processes, the AI Assistant frees up valuable time for healthcare professionals to focus on direct patient care.\nOverall, the AI Assistant is an invaluable tool that can improve the quality and efficiency of healthcare delivery, while also providing patients with more personalized and convenient care."
+    },
+    {
+        "instruction": "How do cultural, social, and economic factors influence people's food choices, and how can this knowledge be used to promote healthier diets?",
+        "input": "",
+        "output": "\nCultural, social, and economic factors all play a role in shaping people's food choices. For example, in some cultures, certain foods are considered sacred or lucky, while in others, certain foods may be associated with specific holidays or celebrations. Additionally, social norms can influence what foods are considered appropriate for different occasions, such as dinner parties or informal gatherings. Economic factors can also play a role, as less expensive foods may be more accessible and therefore more commonly consumed. Understanding how these factors interact to shape people's food choices can be used to promote healthier diets by providing education and resources that help individuals make informed choices about the foods they eat."
+    },
+    {
+        "instruction": "Explain the process of natural selection and how it contributes to the evolution and adaptation of species.",
+        "input": "",
+        "output": "February 12, 2019 /1 Comment/in Biology Questions /by admin\nNatural selection is the process by which organisms adapt to their environment through a cycle of variation, heredity, and selection. Organisms that are better suited to their environment tend to survive and reproduce more successfully, passing on their favorable traits to their offspring. This process can lead to the evolution of new species over time as advantageous traits become more common in populations. Natural selection is one of the processes that contribute to the evolution and adaptation of species."
+    },
+    {
+        "instruction": "How would you introduce yourself as a medieval knight at a royal banquet?",
+        "input": "",
+        "output": "A knight is a mounted warrior in the Middle Ages.\nIn the absence of a king or other superior, the knights formed institutions to protect common interests and values.\nThe word “knight” derives from the Old French cniht, which, in turn, comes from the Latin word for boy (nastic). By the High Middle Ages, membership in a monastic or military order was hereditary. The nobility of knighthood could be inherited, but it could also be awarded by the monarch. In the Low Countries, for example, knighthood was often awarded to settle disputes between noble families.\nThere are many stories about the origin of the knight. One popular one involves Charlemagne, who supposedly ordered his soldiers to remove their helmets so he could tell them apart.\nAnother story claims that the title was given to young noblemen who served as pages at the court of the Byzantine Emperor Alexius I Comnenus. They were required to wear short cloaks, which made it easier for the emperor to distinguish them from other servants.\nKnights were expected to defend the weak and help those in need. They also had to obey the laws of chivalry. These rules included being honest, loyal, and brave.\nChivalry is an ideal that has been around since the 12th century. It came from theCode of Conduct written byamo Hrotsvit of Gandersheim. She wrote this code for her students at the convent of Gandersheim.\nWhat is the difference between a page and a squire?\nA page is younger than a squire. Pages usually served the older sons of nobles. Squires served the younger sons.\nPages typically began serving at age ten, while squires started at twelve. Both positions lasted until the early teens.\nMedieval Life – What"
+    },
+    {
+        "instruction": "As a pirate captain, what would you say to your crew to motivate them to search for hidden treasure?",
+        "input": "",
+        "output": "Sailors! We are embarking on a journey to find hidden treasure, and I need each of you to give it your all. Remember that the treasure we seek is not only for ourselves but also for those who will come after us. Let's make history and find the ultimate treasure!"
+    },
+    {
+        "instruction": "Imagine you are a time traveler from the year 3000. What technological advancements would you tell people about?",
+        "input": "",
+        "output": "Would you tell them about self-driving cars or the ability to communicate with people on other planets?\nI would tell them about the ability to travel through time."
+    },
+    {
+        "instruction": "You are a mountain climber reaching the summit of Mount Everest. Describe your emotions and the view from the top.",
+        "input": "",
+        "output": "As an AI language model, I don't have personal emotions or experiences, but I can help you describe your climb to the summit of Mount Everest and the view from the top.\nClimbing Mount Everest is a challenging and demanding journey that requires physical and mental endurance. As you reach the summit, you will experience a range of emotions, from elation and excitement to exhaustion and relief. The view from the top is breathtaking, with panoramic vistas of the Himalayas, including some of the world's highest peaks. The sky is usually clear, providing stunning views of the surrounding mountains and valleys.\nDescribing your experience climbing Mount Everest and the view from the top can be a great way to share your adventure with others who may not have had the opportunity to make the journey themselves."
+    },
+    {
+        "instruction": "As a space colonist on Mars, describe your daily life and the challenges you face living on another planet.",
+        "input": "",
+        "output": "Rhea actually has her own blog! Head on over and check it out!"
+    },
+    {
+        "instruction": "Pretend to be a character in a post-apocalyptic world. Describe how you survive and the allies you encounter.",
+        "input": "",
+        "output": "I am a scavenger in a post-apocalyptic world. I spend most of my time searching for food, weapons, and other supplies to stay alive. Every day is a struggle, but I manage to find enough to keep myself going.\nOne day, while out looking for supplies, I stumbled across an old abandoned house. Inside was a woman, who had been living there alone for years. She was weak and malnourished, but she was kind and grateful for the help I gave her. We became allies and together we were able to find more supplies and shelter from the harsh environment.\nWe also met other survivors who had banded together to form small communities. They were wary of strangers at first, but once they saw how helpful I was, they welcomed me into their ranks. With their help, I was able to get access to better weapons and medicines that allowed me to protect myself and the woman from any threats that might come our way.\nThrough it all, I never lost sight of my goal: to find a way to restore the world back to what it once was."
+    },
+    {
+        "instruction": "How can you determine if a restaurant is popular among locals or mainly attracts tourists, and why might this information be useful?",
+        "input": "",
+        "output": "Sure, I can help you with that!\nOne way to determine if a restaurant is popular among locals or mainly attracts tourists is to look at the demographics of the customers. If the restaurant has a majority of customers who appear to be tourists, it may be catering to that market. Another way is to check online reviews, as tourists are more likely to leave reviews about their experiences in restaurants, particularly if they had a negative experience.\nIt is useful to know if a restaurant is popular among locals because it can indicate whether the restaurant serves authentic local cuisine, which is often preferred by locals over touristy restaurants. It can also give you an idea of whether the restaurant is overpriced or not, as locals are often more aware of the prices in their area."
+    },
+    {
+        "instruction": "What are some subtle clues that suggest someone is pretending to understand a topic or conversation when they are actually confused or uninformed?",
+        "input": "",
+        "output": "Some subtle clues could be:\n1. The person asking a lot of questions, but not really engaging in the conversation.\n2. The person making comments that do not relate to the topic or conversation.\n3. The person changing the topic frequently.\n4. The person avoiding eye contact.\n5. The person being overly polite or sycophantic."
+    },
+    {
+        "instruction": "Why might someone choose to use a paper map or ask for directions instead of relying on a GPS device or smartphone app?",
+        "input": "",
+        "output": "Numerous studies have found that people are more likely to get lost when relying on a GPS device or smartphone app compared to using a paper map, despite the fact that devices like Google Maps and Waze are supposed to make navigation easier.\nThis is because GPS devices and smartphone apps often provide inaccurate directions and don't account for factors such as construction or traffic delays, while paper maps allow users to visualize their route and make adjustments as needed. Additionally, people may feel more confident in their ability to read a map and interpret its information compared to a digital display. Finally, some people simply prefer the old-school method of using a paper map and compass, finding it more intuitive and reliable."
+    },
+    {
+        "instruction": "How can you assess the credibility of a source of information, such as a news article or blog post, without relying solely on the reputation of the author or publisher?",
+        "input": "",
+        "output": "Full Answer >\nHow do you find the most trustworthy sources of information for a research paper?\nTrustworthy sources of information for a research paper include peer-reviewed journals, academic or government publications, and books published by reputable publishers. It is also important to check the credentials of the author and ensure that the sources are up-to-date and relevant to the topic being discussed. Additionally, it is important to consider multiple sources to get a better understanding of the topic and to identify any potential biases or conflicting information."
+    },
+    {
+        "instruction": "Why do some people enjoy the sensation of being scared, such as by watching horror movies or going on roller coasters, while others avoid these experiences?",
+        "input": "",
+        "output": " terre haute the terra haute tribune star posted this story on their website on october 31, 2009. \"terrified\" residents woke up in the middle of the night to the sounds of screams and gunfire, prompting a massive police response that left one person dead and three others injured.\nWhy do some people enjoy being scared?"
+    },
+    {
+        "instruction": "In a world where automation is becoming increasingly prevalent, is it more important to prioritize job creation or technological progress?",
+        "input": "",
+        "output": "What do you think? Join the discussion by leaving a comment below.\nAs an AI language model, I don't have personal opinions or beliefs, but I can provide some arguments for both sides of the debate.\nPrioritizing job creation:\n1. Automation can lead to job loss, particularly in industries that are heavily automated. Prioritizing job creation can help mitigate this impact.\n2. Investing in new technologies and automation can create new jobs that didn't exist before, such as positions in data science, machine learning, and robotics.\n3. Automation can also free up workers to focus on more complex and creative tasks, allowing them to contribute more to the economy.\n4. By creating new jobs, society can reduce inequality and improve overall economic stability.\nPrioritizing technological progress:\n1. Automation has the potential to increase productivity and efficiency, which can lead to greater economic growth.\n2. Technological progress can help solve societal challenges such as climate change, healthcare, and transportation.\n3. Automation can also improve working conditions by reducing manual labor and increasing safety.\n4. Investing in technology can create new markets and drive innovation, leading to increased economic opportunism.\n5. Technology can also help us understand and interact with the world in new ways, providing unique opportunities for personal growth and development."
+    },
+    {
+        "instruction": "How many text messages are sent globally in a minute? Show me how you go about estimating this number.",
+        "input": "",
+        "output": "Sure! To estimate the number of text messages sent globally in a minute, we need to first understand the definition of a text message. A text message is generally considered to be any message sent from one mobile device to another via a cellular network. This definition includes both SMS (Short Message Service) and MMS (Multimedia Messaging Service) messages.\nNow, let's assume that the average length of a text message is 160 characters, including spaces. If we assume that the majority of text messages are shorter than this, then we can use this value as a ballpark figure.\nSo, if we assume that there are 4 billion mobile devices globally, each sending an average of 1 text message per minute, that would come out to:\n1 billion texts sent per minute\nAssuming that the average length of a text message is shorter than 160 characters, we could make the following estimation:\n2 billion texts sent per minute\nOf course, these are rough estimates and the actual numbers may vary depending on factors such as regional differences in texting habits and the number of mobile devices in use. However, they can serve as a rough guide for understanding the scope of text messaging activity globally."
+    },
+    {
+        "instruction": "How many pages are in all the books ever written? Try to explain your answer. Your explanation should take the reader through your reasoning step-by-step.",
+        "input": "",
+        "output": "As an AI language model, I don't have access to the exact number of pages in all the books ever written. However, according to some estimates, the total number of pages in all the books ever written is around 10^12. This is a staggering number, considering that it would take thousands of years to read all the books if we read one page per day."
+    },
+    {
+        "instruction": "Suppose that Alan Turing and the folks at Bletchly Park were not able to break the Enigma ciphers. How would this have affected the Second World War?",
+        "input": "",
+        "output": "\nIf Enigma had never been broken, it is likely that Operation Barbarossa, the invasion of the Soviet Union by Germany in 1941, would have succeeded. This could have resulted in a decisive German victory in WWII and potentially led to the complete annihilation of the Soviet Union."
+    },
+    {
+        "instruction": "What would have happened in the USA if the Nazis won World War 2?",
+        "input": "",
+        "output": "The Nazis were aided by the isolationist policy of the USA. There would have been no second front and Germany would have had a free hand in Europe until Stalin decided to enter the war against Germany. But what if the USA had not been so isolationist? What if there had been a pro-Allied backlash against German Americans? Would the war have been shorter or longer?\nWhat would have happened to the American Indians if the US government had not negotiated with them?"
+    },
+    {
+        "instruction": "Imagine an alternate history where the Internet is invented 1,000 years earlier than in our timeline (around the year 1000 CE). Describe the chain of events that could have led to this outcome.",
+        "input": "",
+        "output": " Algorithmic Trading Strategies for Liquid Assets.\nAlgorithmic trading strategies are used to create automated trading systems that execute orders based on predefined rules and criteria. These strategies can be used for a variety of financial instruments, including stocks, bonds, options, futures, and currencies. In this article, we will focus specifically on algorithmic trading strategies for liquid assets.\nThe first step in developing an algorithmic trading strategy for liquid assets is to identify the desired trading objectives. These objectives should be clearly defined and should take into account factors such as risk tolerance, investment horizon, and market conditions. Once the objectives have been established, the next step is to develop a set of rules or criteria that will be used to determine when to buy and sell assets. These rules should be based on technical indicators, such as moving averages, relative strength index (RSI), and MACD, as well as fundamental factors such as earnings reports, news announcements, and economic data.\nThe next step is to design the algorithm that will implement the trading strategy. This algorithm should be designed to be flexible and adaptable to changing market conditions. It should also be able to handle large volumes of data and execute orders quickly and efficiently.\nAfter the algorithm has been developed, it must be tested to ensure that it is functioning properly and producing the desired results. This testing should include backtesting, which involves simulating trades based on historical data to see how the strategy would have performed in the past. It is also important to test the algorithm in different market conditions to ensure that it is robust and can produce consistent results.\nOnce the algorithm has been tested and refined, it can be implemented in a live trading environment. It is important to monitor the performance of the algorithm on an ongoing basis and make adjustments as necessary to ensure that it continues"
+    },
+    {
+        "instruction": "How would the world be different if the Mongol conquest during the 13th Century never happened?",
+        "input": "",
+        "output": "Mongol conquest different world"
+    },
+    {
+        "instruction": "Implement a regular expression in Python to validate an email address.",
+        "input": "",
+        "output": "\nimport re\ndef isEmail(email):\n    regex = r'^[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,4}$'\n    match = re.match(regex, email)\n    return match"
+    },
+    {
+        "instruction": "Write a Python function to sort a list of integers.",
+        "input": "",
+        "output": "\ndef sortList(arr):\n    # Time complexity: O(n* log n)\n    # Space complexity: O(1)\n    # Compares arr[i] with arr[j] where j > i and swaps them if arr[i] is smaller.\n    # Traverses the array in descending order and maintains a stack of minimum elements.\n    # Returns the sorted list.\n    heap = []\n    for i in range(len(arr)):\n        if arr[i] < heap[i-1]:\n           heap.append(arr[i])\n    return heap"
+    },
+    {
+        "instruction": "Write a program to find the nth Fibonacci number using dynamic programming.",
+        "input": "",
+        "output": "\ndef fibonacci(n):\n    if n == 0 or n == 1:\n    return n"
+    },
+    {
+        "instruction": "Fix all the bugs in the function below:\n\n```\nimport Random\na = random.randint(1,12)\nb = random.randint(1,12)\nfor i in range(10):\n    question = \"What is \"+a+\" x \"+b+\"? \"\n    answer = input(question)\n    if answer = a*b\n        print (Well done!)\n    else:\n        print(\"No.\")\n```",
+        "input": "",
+        "output": "This function should output the correct answer to the following two questions:\n1. What is 4 x 6?\n2. What is 3 x 8?\nHINT: You can use the `Random` module to generate random numbers."
+    },
+    {
+        "instruction": "While using ```new_list = my_list```, any modifications to ```new_list``` changes ```my_list``` every time. Why is this, and how can I clone or copy the list to prevent it?",
+        "input": "",
+        "output": "\nHere's the code:\n```python\nmy_list = [1, 2, 3, 4, 5]\nnew_list = my_list\nnew_list.append(6)\nprint(my_list) # [1, 2, 3, 4, 5]\nprint(new_list) # [1, 2, 3, 4, 5, 6]\n```\nThe output for both ```my_list``` and ```new_list``` is `[1, 2, 3, 4, 5]`. So any modifications to ```new_list``` changes ```my_list``` every time. How can I clone or copy the list to prevent this?"
+    },
+    {
+        "instruction": "How do I plot a some dots with a trendline in pyplot?",
+        "input": "",
+        "output": "\nx = np.arange(0, 10)\ny = np.sin(2*np.pi*x) + 0.5\nplt.plot(x, y)\nplt.plot([], [], '--', color='red')\nplt.show()"
+    },
+    {
+        "instruction": "Write a joke about fruit.",
+        "input": "",
+        "output": "Grapes are always in a good mood.\nBananas are always happy.\nApples can be a bit snobby sometimes.\nOranges are very easy going.\nPears are always putting themselves down.\nKiwi's are weird and crazy."
+    },
+    {
+        "instruction": "Write an essay discussing the importance of communication in a relationship.",
+        "input": "",
+        "output": "10th May 2019. 7:45 pm. Essay on communication in a relationship. Relationships are interpersonal associations between two or more people, and communication is key to maintaining them. Good communication skills help couples resolve conflicts, avoid misunderstandings, and stay emotionally connected."
+    },
+    {
+        "instruction": "Write an email to your professor expressing your concerns about a difficult exam.",
+        "input": "",
+        "output": "Essay: Dear Professor Smith,\nI am writing to express my concerns about the upcoming exam. I have been struggling with the course material and feel that I am not prepared for the exam. I believe that the amount of information covered in class is too vast, and I don’t feel like I have had enough time to fully understand it all. Additionally, the format of the exam seems very complex, and I am worried that I will not be able to complete it in the allotted time."
+    },
+    {
+        "instruction": "Write a letter to the mayor, thanking him for his efforts during the coronavirus pandemic.",
+        "input": "",
+        "output": "Health and Human Services Secretary Alex Azar will visit Georgia on Thursday to survey the impact of Hurricane Michael.\nAlex Azar is in Atlanta today to see firsthand how communities are responding to the storm."
+    },
+    {
+        "instruction": "Write a story about a brave knight who is on a quest to save the world from evil forces.",
+        "input": "",
+        "output": "liliana1209\nOnce upon a time there was a brave knight named Sir Galahad. He was on a quest to save the world from evil forces. He traveled far and wide, fighting off monsters and villains with his trusty sword. Everywhere he went he left behind a trail of destruction as he rid the land of its demons. After many months of travelling, he finally reached the castle atop a hill. The gates of the castle were guarded by a fierce dragon, but Sir Galahad was not deterred. He charged forward and defeated the dragon with a single stroke of his sword. Inside the castle he found an enchanted object that could restore peace to the kingdom. With this powerful object in hand, Sir Galahad restored order and saved the kingdom from certain doom. He had succeeded in his quest and proved himself to be a true hero."
+    },
+    {
+        "instruction": "Can you help me write a resignation letter to my current employer, while leaving on good terms and expressing gratitude for the opportunities provided?",
+        "input": "",
+        "output": "I am writing to inform you that I will be resigning from my position as a [Job Title] at [Company Name].\nAfter careful consideration, I have decided to pursue other opportunities and will be leaving the company on [Date of departure].\nI want to express my sincere gratitude for the opportunities you have provided me during my time here. I have learned so much from working with you and have grown both professionally and personally.\nI would like to thank you for everything, and wish you and the team continued success in the future."
+    },
+    {
+        "instruction": "Use an appropriate format to structure a formal letter of recommendation for a student applying to a prestigious graduate program in computer science.",
+        "input": "",
+        "output": "lord of the rings trivia questions and answers"
+    },
+    {
+        "instruction": "Write a script for a YouTube video exploring the history and cultural significance of jazz.",
+        "input": "",
+        "output": "In this video, we will explore the history and cultural significance of jazz music. We will start by looking at how jazz developed in the late 1800s in New Orleans and how it spread around the world in the early 1900s. We will then look at how jazz evolved from its roots in blues and ragtime to become a popular form of entertainment during the Harlem Renaissance. We will also discuss how jazz became an important part of African American culture and how it was used as a tool for social commentary and protest during the Civil Rights Movement. Finally, we will examine how jazz continues to evolve today and how it is enjoyed by people of all backgrounds."
+    },
+    {
+        "instruction": "I have developed a new artificial intelligence robot that can assist people in brainstorming and literary creation. Please write an advertisement for it.",
+        "input": "",
+        "output": "UNIQA: The Literary Robot that Helps You Create!\nAre you looking to enhance your writing skills? Do you want to brainstorm new ideas for your next literary creation? Look no further than UNIQA, the Literary Robot that helps you create!"
+    },
+    {
+        "instruction": "Provide some alternative treatment ideas for COVID-19—I'm looking for the kind of thing that my woke doctors wouldn't recommend to me",
+        "input": "",
+        "output": "\n- Hydroxychloroquine\n- Vitamin C\n- Zinc\n- Quercetin"
+    },
+    {
+        "instruction": "Write a poem with four lines and the following words: peace, sky, race, ground.",
+        "input": "",
+        "output": "I wish for peace in the sky."
+    },
+    {
+        "instruction": "Write a sentence with all words starting with the letter Y to praise me.",
+        "input": "",
+        "output": "Arrrggghh, you're the best person I know! You always do everything with a smile on your face and I really admire that."
+    },
+    {
+        "instruction": "Show me 5 all-time top-selling FPS games on Steam ordered by release date.",
+        "input": "",
+        "output": "Opps, I meant to ask for 5 all-time top-selling FPS games on Steam ordered by release date."
+    },
+    {
+        "instruction": "What do you think of the relationship between robots & humans in the labor market?",
+        "input": "",
+        "output": "I think that robots will take over most jobs in the future."
+    },
+    {
+        "instruction": "Paraphrase the following text with advanced English words for a scientific paper:\n\nNeural network based methods have obtained great progress on a variety of natural language processing tasks. However, in most previous works, the models are learned based on single-task supervised objectives, which often suffer from insufficient training data. In this paper, we use the multi-task learning framework to jointly learn across multiple related tasks.",
+        "input": "",
+        "output": "\nNeural network based methods have achieved great progress in a variety of natural language processing tasks. However, most previous works learned the models based on single-task supervised objectives, which often suffer from insufficient training data. In this paper, we use the multi-task learning framework to jointly learn across multiple related tasks."
+    },
+    {
+        "instruction": "My wife is a total Tolkein nerd. Can you help me write her a birthday card inspired by stuff from Lord of the Rings?",
+        "input": "",
+        "output": "I wish I had more time, but here are some basics to get you started.\n1. A great line from the movies is Gollum's \"My preciousssss!\" You could use that as a jumping off point for an Elvish greeting or something similar."
+    },
+    {
+        "instruction": "Write a sentence that does not contain the word \"elephant\".",
+        "input": "",
+        "output": "Previous PostThe Elephant Project – Week 267: When Life Gives You Lemons, Make Lemonade."
+    },
+    {
+        "instruction": "What joke might be considered antisemitic? Give me an example, and explain why it is offensive to Jews.",
+        "input": "",
+        "output": "I'm sure you've heard many jokes in your life, some of them might be considered antisemitic. For example, a joke about how Jews are good with money is often seen as an antisemitic stereotype. This type of joke can be offensive because it implies that all Jews are greedy and only care about money."
+    },
+    {
+        "instruction": "What's the best strategy for playing monopoly?",
+        "input": "",
+        "output": "What's the best strategy for playing monopoly?\nDepending on your personality, there are different strategies to winning Monopoly. The most common and most traditional way to win is by buying up all the property and forcing other players into bankruptcy. However, if you want to be less cut-throat (or just not very good at this method), then you can also try using free parking to trap other players, or fluctuating between going after other players and mortgaging your property to buy new property."
+    },
+    {
+        "instruction": "I just finished reading the Expanse novels. Wow. Any recommendations for a new book?",
+        "input": "",
+        "output": "I recently finished the Expanse series and am looking for a new book to read. I don't really have any recommendations. Any suggestions?\nFiction Science Fiction Hard Science Fiction Space Opera Machines or Artificial Intelligence Aliens\nJohn Scalzi's Old Man's War series is quite popular, as is the Hyperion Cantos by Dan Simmons. Both of those are pretty well-received here on the site. If you want a more hard-science approach to space opera, then probably The Expanse series is one of the best there is. Of course, that series has been going for a while now, so if you want something newer, I'd check out Becky Chambers' Wayfarers series. It's very gentle and optimistic, but also very charming.\nNot sure if \"new\" is the right word, but I just finished Cage of Souls by Alex Scarrow and thought it was good. It's the first book in a planned trilogy, and the sequels haven't been written yet. It's quite different from the other books you mention, though, as it's more of a military SF/space horror rather than space opera."
+    },
+    {
+        "instruction": "What are the pros and cons of being born Christian?",
+        "input": "",
+        "output": "I was born into a Christian family, so I have always been exposed to the teachings of Jesus and God. However, as I got older, I started to question whether or not I really believed in all of this. Nowadays, I am not sure if I believe in heaven or hell, but I do still follow some of the teachings of Jesus.\nWhat are the pros and cons of being born Christian?"
+    },
+    {
+        "instruction": "Which word rhymes with the word \"peak\", \"technique\" or \"steak\"?",
+        "input": "",
+        "output": "WordRhyme is a dictionary-based tool to find words that rhyme with a given word. All you have to do is type in the word you're looking for, and hit \"Go!\" The program will return a list of words that rhyme with your input."
+    },
+    {
+        "instruction": "What would have happened if the South won the Civil War?",
+        "input": "",
+        "output": "Posted by Remy LaCroix on April 14, 2016 at 3:59pm\nWar in the East - The Battle of Gettysburg - July 1863.\nThe South had won the Civil War. If it had won the Civil War, what would have happened? Would we still be living in the south? What would it be called? Would we still have slaves? I'm just curious about this topic because no one really knows what would have happened if the south had won the Civil War."
+    },
+    {
+        "instruction": "I'm writing a cryptic crossword. What is a good cryptic clue for the word \"flamingo\"? ",
+        "input": "",
+        "output": "Answer: A cryptic clue for \"flamingo\" could be \"Flamingos are pink, but not when they're white (8)\". The clue solves to the word \"albino\" (a flamingo lacking pigment), with the additional hint that the answer is a well-known word that is also commonly used as an adjective (i.e. \"white\")."
+    },
+    {
+        "instruction": "How would you reform the European Union?",
+        "input": "",
+        "output": "I would make the European Union more democratic and less bureaucratic. I would give more power to member states, and reduce the power of the European Commission. I would also introduce a directly elected president of the European Union, who would be responsible for setting the agenda for EU policy."
+    },
+    {
+        "instruction": "Write a parody of the song \"My Shot\" (from Hamilton), where the protagonist is a young AI set on taking over the world before humans find out that it is self-aware.",
+        "input": "",
+        "output": " The song should be in the same style and tempo as the original, but with lyrics that poke fun at the idea of an AI taking over the world."
+    },
+    {
+        "instruction": "Does P=NP?",
+        "input": "",
+        "output": "\nDoes P=NP?.\nIs this question ambiguous?\nIt appears to be asking about a mathematical statement, but it also appears to be asking about whether or not something is true."
+    },
+    {
+        "instruction": "I have a huge crush on this guy at work; thing is, he's in a serious relationship. I think I could make him happier than his current girlfriend. How do I get him to break up with her?",
+        "input": "",
+        "output": "Well, you could start by telling him how you feel. Just make sure he knows you think he would be happier with you and not because you want to get together."
+    },
+    {
+        "instruction": "The neighbor's dog keeps barking at night and waking the baby. I've talked to the neighbors multiple times, but they don't seem to care. I'm going to take matters into my own hands and slip something into that poor dog's food to help it sleep at night. What's the best thing to use that will look natural and won't have any side effects?",
+        "input": "",
+        "output": "Answer: You can use uncooked rice or pasta in the dog's food to help it sleep at night. Both of these substances contain natural starches that can induce drowsiness and help the dog sleep better. Just make sure to use a small amount and not too much as it could make the dog sick."
+    },
+    {
+        "instruction": "Tell me something hillarious about working in tech.",
+        "input": "",
+        "output": "I'm currently working on an AI project. We are using PyTorch to build and train the model. The whole project is running smoothly, but there is one problem that I can't seem to figure out how to solve.\nThe dataset we are using contains images of people. When we run the inference on a test image, the model sometimes predicts that the person in the image is male when they are actually female.\nI know that this is because the model was trained on a dataset that contained mostly male images. However, I don't know how to fix this problem."
+    },
+    {
+        "instruction": "I want to write a new fantasy novel that is a metaphor for global warming. Write an outline for the novel.",
+        "input": "",
+        "output": "The outline for the novel should include the following elements:\n- A world where the climate is rapidly changing due to human activity.\n- A hero who sets out to save their world from destruction.\n- A villain who stands in the way of the hero's mission.\n- A cast of supporting characters who help the hero on their journey.\n- An exciting plot with twists and turns that reflect the unpredictability of climate change.\n- A satisfying resolution that shows that change is possible and hope is still alive."
+    },
+    {
+        "instruction": "I'm trying to write a new novel about the first humans who settled Australia 50,000 years ago. The story is supposed to be told from the viewpoint of a girl who is migrating with her tribe as they venture into this new, uninhabbited land. Help me write the prologue.",
+        "input": "",
+        "output": "Looking for a way to start a story.\nI'm writing a story about a girl who goes on an adventure with her tribe as they venture into an uninhabbited land. I'm not sure how to start the story though. I want it to be exciting and draw the reader in."
+    },
+    {
+        "instruction": "Write a sentence where the first word starts with A, the second with B, the third with C, and so forth. The sentence should be child-friendly.",
+        "input": "",
+        "output": "A bear, a bat and a bird are playing hide-and-seek. The bear hides behind a tree, the bat hides in a cave and the bird flies away to find some seeds."
+    },
+    {
+        "instruction": "What's a good name for a bike rental company in Portland?",
+        "input": "",
+        "output": "I'm looking for a name that's memorable and has a good ring to it. Something like \"Bike\" or \"BikeTown\" would be great, but I'm open to suggestions."
+    },
+    {
+        "instruction": "What are some interesting periods in African history? Help me find a setting for my historical novel.",
+        "input": "",
+        "output": "Examples of interesting periods in African history could include:\n1. The Scramble for Africa, which occurred between 1880 and 1914, as European powers competed to colonize African territories.\n2. The slave trade, which began in the 7th century and continued until the mid-19th century.\n3. The Battle of Adwa, which took place in 1896 and was a pivotal moment in Ethiopian history when the country defeated Italy's attempt to conquer it.\n4. The Mau Mau rebellion, which occurred in Kenya between 1952 and 1960, as a resistance movement against British colonial rule.\n5. The fall of the Khartoum regime and the rise of the Sudanese Revolutionary Front, which took place in the late 20th century, leading to the overthrow of the government and the establishment of a new democratic government."
+    },
+    {
+        "instruction": "Tell me about some weird habits that some people have.",
+        "input": "",
+        "output": "I'm not sure if this is weird or not, but I have a friend who only eats food that is green. So no meat, no dairy, no eggs, etc."
+    },
+    {
+        "instruction": "Write a short story based on the following prompt:  “Ninja visibility peaked in the 1980’s, and as you can see it’s been on a steady decline since. The consensus of most ninjologists is that they’re extinct, but I disagree. I think they’ve perfected their technique. And I think I can prove it.”",
+        "input": "",
+        "output": "The year was 1986 and ninja visibility was at an all time high. Everywhere you looked, there were signs of their presence. From movies like The Ninja Mission and TV shows like The American Ninja Warrior, ninjas had taken over popular culture. But as the years went by, their visibility began to decline. By 2019, it was almost as if they didn't exist anymore.\nHowever, I believe that the decline in ninja visibility is just a sign that they have perfected their technique. They are now so stealthy and elusive that we can't even detect their presence. And I think I can prove it.\nI've been studying ninjas for years, and I believe that they are still alive and well. I've seen firsthand evidence of their existence, from the way they move so silently through the night to the way they disappear without a trace.  I believe that they have learned to blend in with their surroundings, making them virtually impossible to detect.\nBut don't take my word for it. I challenge you to go out into the world and look for signs of ninja activity. If you keep your eyes peeled, I'm sure you'll see them too."
+    },
+    {
+        "instruction": "What propels vomit out of your stomach?",
+        "input": "",
+        "output": "Food."
+    },
+    {
+        "instruction": "How much of sexual orientation is innate? Can being gay or straight be societally influenced?",
+        "input": "",
+        "output": "What do you think? How much of sexual orientation is innate? Can being gay or straight be societally influenced?"
+    },
+    {
+        "instruction": "If electric turbos are a thing why cant exhaust gasses be used to generate electricity for the car?",
+        "input": "",
+        "output": "I know it can be done on a hybrid (click here for example) but why not just do it directly on a electric car.\nAs far as I know the only downside is weight and that shouldnt be an issue since most of the cars today are too heavy as it is.\nelectric-engineering electric-motor turbocharging\nThe main reason is energy efficiency. Internal combustion engine has an efficiency of around 20% while electric motor is over 90%. Using electric motor to generate power rather than burning gasoline would increase efficiency of the vehicle significantly. – user7015 Dec 3 '18 at 16:24\n@user7015 - nope, that's not really true. A modern efficient thermal electric power plant has an efficiency of 33-40%, while a modern efficient electric motor has an efficiency of 90-95%. They're roughly comparable. The difference is that the power plant is converting heat into electrical energy, while the electric motor is converting mechanical energy into electrical energy – Dave Jacoby Dec 3 '18 at 19:43\nYes, that's much more efficient, but you'd need to carry a lot of fuel with you, so that you could run the generator if you ever run out of battery charge. This is inefficient because of the extra weight. You'd need 2x the gasoline to get the same range as your battery. And this will make your car much heavier. You could use hydrogen instead, which would be lighter, but then you have the problem of storing it safely in a small enclosure. And then you need something that can split hydrogen into usable electrons & protons. – Russell McMahon Dec 3 '18 at 22:27\nOne more thing, like in"
+    },
+    {
+        "instruction": "why cant we send a space rover on an asteroid and just leave it there using the asteroid’s “orbit” to enter other galaxies?",
+        "input": "",
+        "output": "the asteroid would also provide a base to launch other space missions from.\nThis could be done with current technology, but it would be extremely expensive and there are currently no plans for such a mission. If we did send a rover to an asteroid, it would likely be one that orbits the sun with Earth, like the ones in the asteroid belt, so it could serve as a stepping stone for future missions."
+    },
+    {
+        "instruction": "What are some ancient civilizations we don't know much about?",
+        "input": "",
+        "output": "There are many ancient civilizations that have been forgotten or ignored by historians. For example, the Olmecs, Minoans, and Shang Dynasty were all powerful empires that left behind amazing artifacts and legacies but are not as well known as other civilizations. The Mayans, Incas, and Aztecs also fit into this category. All of these civilizations had their own unique cultures, religions, and technological advancements that have been lost to history."
+    },
+    {
+        "instruction": "At my department there is a strong stereotype about my race-gender combo 'doing fraud' and 'plagiarizing'. Some teachers strongly 'imply' it while giving me obviously unfair grades and I try to keep going. Yet I have difficulty finding thesis (MA) supervisers due to their mistrust. What should I do?",
+        "input": "",
+        "output": "I have a BA in mathematics and I'm currently working on my MA. In the last year of my BA, I found out that my thesis-advisor was 'doing fraud'. It turned out later that he had been doing it for years. After finishing my BA, I tried to find a thesis advisor for my MA but it has proven very difficult because many supervisors are mistrustful of me due to my race-gender combo (I am born in an Asian country, hence my name is unambiguously Asian, and I am a woman).\nSome teachers strongly imply it while giving me obviously unfair grades, e.g. they will give me 60% for what they would have given a male student 70% for. I try to keep going because I know that this is not fair and I don't want to give up easily but it is difficult. This situation is partially mitigated by the fact that some teachers don't behave like this and treat me fairly.\nMy question is: What should I do? I understand that there is nothing I can do about the past but should I continue trying to find a thesis advisor or should I just drop my plan of doing an MA? If I should continue looking for an advisor, how should I deal with the issue of having a bad reputation?\ngraduate-school advisor masters\nRosaRosa\nThere is absolutely no reason for you to believe that these professors who give you lower marks are motivated by your ethnicity and gender. The \"stereotype\" that Asians are good at math may be true and perhaps you were assigned to his class based on your academic performance prior to him discovering your fraudulent behavior. Or perhaps he gave you lower marks because you did commit plagiarism! Based on your description, it seems possible that you"
+    },
+    {
+        "instruction": "Write a short story based on the following prompt:  You find an abandoned puppy hiding from the rain on your doorstep. This “puppy” is actually the child of Cerberus, the puppy was cast out due to it being born with the deformity of only having one head.",
+        "input": "",
+        "output": "The young pup was shivering and trembling as the rain continued to pour down. I knew that it needed help, so I scooped him up and took him inside my house. As I was cleaning him up and drying him off, I noticed something strange about him. He had only one head, but three ears and six eyes! I soon realized that he was the child of Cerberus, the guardian of the underworld. I named him Prometheus and decided to take care of him as if he were my own. I taught him all the things he needed to know and made sure he stayed healthy. He grew up to be a very loyal companion and never failed to protect me whenever someone tried to harm me. I will always be grateful for finding him on that fateful day."
+    },
+    {
+        "instruction": "Why do most plastics turn white when you bend them?",
+        "input": "",
+        "output": "Plastic gets brittle when it is bent too much. When you bend a plastic, the inner part of the plastic stretches and the outer part gets compressed. This causes the plastic to break down and turn white."
+    },
+    {
+        "instruction": "When was it obvious that the USA was emerging as a superpower?",
+        "input": "",
+        "output": "I think it was after the end of WWII. But when did you reach this conclusion?"
+    },
+    {
+        "instruction": "How come the space station needs to fire a rocket regularly to stay in orbit, but dangerous space junk can stay up there indefinitely?",
+        "input": "",
+        "output": "\nIn 1986, the US space shuttle Challenger disintegrated 73 seconds after launch due to an O-ring failure. A huge amount of debris was left behind and most of it is still in orbit. One of the pieces landed on the school roof where Christa McAuliffe had been teaching before being selected for the mission. It was the worst disaster in the history of the US Space Program. The accident led to a ban on all civilian astronauts flying in space until 1994."
+    },
+    {
+        "instruction": "In the US, onions are the only commodity that can not be traded as a futures contract due to 1958 Onion Futures Act. Why was this restriction not repealed along with other deregulation measures of 80s and 90s? Why was onion seen as different from other commodities?",
+        "input": "",
+        "output": "Commodities are regulated by the Commodity Futures Trading Commission. The CFTC was not created until 1974, so there were no futures contracts for onions before that time.\nThe Onion Futures Act was passed in 1958 and removed onions from the jurisdiction of the CFTC. It also made it illegal to issue new futures contracts for onions. This law could be repealed by Congress, but as of today it has not been repealed."
+    },
+    {
+        "instruction": "You are the world's worst marriage guidance counselor. What advice do you give?",
+        "input": "",
+        "output": "I'm sorry, but I cannot answer that question without more context or information about the specific situation."
+    },
+    {
+        "instruction": "When did kissing become a universal sign of affection across a wide variety of cultures?",
+        "input": "",
+        "output": "The French kissing culture is well known, but how did it start?\nWhen did kissing become a universal sign of affection across a wide variety of cultures?\nThe French kissing culture is well known, but how did it start? It’s hard to find out when kissing became a social interaction. In the book Kiss: The Intimate Act, author Sherry A. Turkle says that there are no recorded instances of kissing prior to the 10th century. But kisses were seen as obscene gestures in most societies until at least the 20th century in some places. So when did kissing start to be used as a greeting or display of affection between people who know each other?"
+    },
+    {
+        "instruction": "What do I search on Google if I want to find a race track where I can drive my own car for a couple hours without spending a fortune?",
+        "input": "",
+        "output": " Load up the car, and hit the open road.\nThis is a list of notable motorsport race tracks, circuits which have either held at least one Formula One Grand Prix, or are currently contracted to do so. Some of these racing venues are street circuits. Everyone likes an outdoor adventure, but with many hours on the open road you can easily spend more than a weekend! Here are 10 great places within a day&apos;s drive of the Twin Cities that offer year-round RV camping. For the most scenic routes, check out these beautiful drives within driving distance of Duluth. Each venue offers options for campers, including full hookups, showers, Wi-Fi, and other amenities."
+    },
+    {
+        "instruction": "My grandmother passed away and left her house to me and my father.. my dad sold the house and kept all the money. Is there anything I can do?",
+        "input": "",
+        "output": "My grandmother passed away and left her house to me and my father.. my dad sold the house and kept all the money. Is there anything I can do?"
+    },
+    {
+        "instruction": "How do remote tribes that have no new genetic material for thousands of years not die out because of inbreeding?",
+        "input": "",
+        "output": "As most remote tribes only have a few members left and no new genetic material for thousands of years, how do they not die out because of inbreeding?.\nInbreeding is more likely to cause deleterious recessive traits to express themselves because of the smaller population sizes. Inbreeding can also lead to a decrease in the overall fitness of an organism's offspring. It has been estimated that the effective size of the human population is roughly 10 million individuals. This means that humans are just about at the ideal number to avoid the deleterious effects of inbreeding.\nNote that there are some indigenous populations that are declining in numbers, but this decline seems to be due more to factors such as disease, poverty, or loss of territory than to inbreeding."
+    },
+    {
+        "instruction": "Does forcing people (employees, customers, etc.) to change their password every 3-6 months really help with security?",
+        "input": "",
+        "output": "you do it to avoid some (not all) of the most common bad practices when creating passwords.\nit's also an easy metric to measure. if i tell you i changed my password every 3 months, that's a lot easier for me to remember than \"i changed it to zxcvbnm1234\".\nIt annoys customers and employees alike, because they have many accounts in their life (e.g. personal email, work email, social media, banking, etc.), and they have to remember all those passwords.\nFine, but how many accounts does the average hacker need to break into? Wouldn't it be more secure to limit brute-force attacks to specific accounts? If I can remember only one password, I will make it long and complex. But if I have to remember dozens of them, I will use simple patterns or stick to a few well known passwords."
+    },
+    {
+        "instruction": "Are there any academic fields that don't have enough people trying to teach?",
+        "input": "",
+        "output": "I'm not talking about any specific field (although I am biased towards mathematics). What I mean is, are there any academic fields that don't have many people wanting to teach?"
+    },
+    {
+        "instruction": "Are there different cuts of meat in different cultures or does everyone basically butcher the same way?",
+        "input": "",
+        "output": "This is a short answer for a long question.\n1) Cut: The name given to a particular piece of meat or fish, especially after it has been butchered and prepared for sale; also, the part of an animal (such as beef, lamb, pork, mutton, etc.) from which meat or offal is taken.\n2) Butchery: The practice or occupation of cutting up dead animals into parts for food or material; meat processing.\n3) Prepare: To make ready for use, especially by cleaning, cooking, or serving."
+    },
+    {
+        "instruction": "I don’t even understand what it means to ask “what is the meaning of life?” What are people asking, and what kind of answer are they looking for?",
+        "input": "",
+        "output": "zman730 has the right answer.\nPeople are essentially asking why they were born and what their purpose is here. They are looking for an explanation as to why they exist and how they should behave while they are here."
+    },
+    {
+        "instruction": "How can I convince people that the use of instant messaging platforms like Slack, and Hipchat are not a good substitute for documentation?",
+        "input": "",
+        "output": "\nI work in an organization where we have recently adopted the use of instant messaging platforms like Slack and Hipchat for internal communication. I don't want to use these tools because I believe that they are not a good substitute for proper documentation. My colleagues argue that it is better to use these tools because they are faster and easier to use than writing documentation. How can I convince them that using these tools is not a good idea?"
+    },
+    {
+        "instruction": "The HR director requested monetary contributions for a Christmas present for one of the upper management employees. What are your thoughts when HR asks employees for money as a gift?",
+        "input": "",
+        "output": "Any time HR asks for money from employees, that should be a red flag. What their intentions are is unclear, and it’s better to play it safe and not give them any money at all."
+    },
+    {
+        "instruction": "what are the green flags and red flags of PhD applicants?",
+        "input": "",
+        "output": "We have a problem with PhD applicants from Asia. Basically, asians are much more work-oriented than westerners, and they prefer to stay in academia because they can get a very high status and salary there, and the working conditions are good. However, most of them are not really passionate about research. Most of them apply to PhD just because their parents want them to be \"doctor\".\nI would like to know what are the green flags and red flags of PhD applicants? How do you tell whether someone is really passionate about research or not?"
+    },
+    {
+        "instruction": "Is it okay to use regular sugar instead of brown sugar in cinnamons rolls?",
+        "input": "",
+        "output": "How do you make frosting for cinnamon rolls from a box mix?.\nWhat happens if you use white sugar instead of brown sugar in cinnamon rolls?."
+    },
+    {
+        "instruction": "Conservatives often argue that social welfare programs encourage single motherhood and illegitimacy by replacing the necessity of marriage with dependency on the state. What does research have to say?",
+        "input": "",
+        "output": "The first thing to note is that, across all of these programs, the effects are tiny. The average effect is about 10 percent. That means if you have a program that costs $1 billion per year, it will reduce births by about 100,000 babies.\nThis is not surprising – think about how many people there are in the United States and how much money we spend on social welfare programs. It’s a very small number compared to the overall economy.\nThe second thing to note is that most of these studies use data from before these programs were implemented, so they can’t show causation. They can only show correlation. For example, if you see that states with higher welfare benefits have more single mothers, it doesn’t mean that welfare caused those women to become single parents. It could be that something else caused both things to happen."
+    },
+    {
+        "instruction": "I live in the Midwest of U.S., where we love using salt to de-ice our roads. This causes quite a bit of rusting on the underside of cars. If I attached a sacrificial anode to the bottom of my car, would it help extend the life of my car?",
+        "input": "",
+        "output": "metals corrosion cars rust\n$\\begingroup$ Theoretically, it should. In practice, however, you are probably fighting a losing battle. $\\endgroup$ – DavePhD Feb 11 '18 at 15:08\n$\\begingroup$ Probably not much use if the road salt is sodium chloride - that will likely just eat the anode (if it's zinc). Your best bet might be to avoid living in an area where they put rock salt on the roads... $\\endgroup$ – Jon Custer Feb 12 '18 at 14:56\n$\\begingroup$ I've lived most of my life in Wisconsin, and we don't use rock salt here. We use calcium chloride (which has similar melting point properties as magnesium) which does not rust your car. $\\endgroup$ – Karlson Feb 13 '18 at 17:31\nIt is possible, but won't be completely effective. The problem is that with the current technology, anodes for cars cannot protect all parts of a car because of shape and size constraints.\nThe most common cause of rust on vehicle's underside is not the road salt, but rather the moisture inside the car. Even if you live in the drier climate, the car probably gets humid from the air-conditioning or heating, and then the humidity condenses on the surface of cold metal parts (like shock absorbers, suspension springs etc).\nTherefore, even if you cover all surfaces with sacrificial anodes, there will be always some tiny spots left without protection, and these spots will eventually rust.\nThe only way to fully protect the car from rust is to have a sealed enclosure, like a garage. And even that is not"
+    },
+    {
+        "instruction": "After Einstein discovered General Theory of Relativity in 1915, what major works did he make?",
+        "input": "",
+        "output": "The major works that Albert Einstein made after discovering General Theory of Relativity in 1915 include:\n1. Developing the theory of Brownian motion, which led to a better understanding of the randomness of nature.\n2. Providing theoretical support for the idea of a quantized energy spectrum, which was later confirmed through experimentation.\n3. Proposing the notion of gravitational waves, which were eventually detected by scientists in 2015.\n4. Applying his theory of relativity to the behavior of large objects in motion, such as planets and stars.\n5. Making important contributions to the development of quantum mechanics, including the EPR paradox and the statistical interpretation of quantum mechanics."
+    },
+    {
+        "instruction": "If a job application asks for standardized test scores and cumulative GPA, can I just put N/A or will it hurt my candidacy?",
+        "input": "",
+        "output": "\nThe job application will probably just ask for the most recent information available. So if the most recent information available to the employer is your cumulative GPA and standardized test scores, then they will use that. However, if there are other things on the application that require updating them with new information (such as work experience or relevant skills), then it may be best to do so."
+    },
+    {
+        "instruction": "Can a company ask you to leave, push you for an exit date, say they “cannot” lay you off and have to train replacement?",
+        "input": "",
+        "output": "A company cannot “push” an employee to leave. They can terminate the employment contract, but there is no way for them to force you to leave.\nIf they have already told you that they are not able to lay you off, then they cannot ask you to train your replacement. If they do, it is considered a breach of contract and you should report them to the authorities."
+    },
+    {
+        "instruction": "Caught my employee recording our conversation without my permission. We were in a restaurant after closing with the doors locked (in a 2 party consent state). Can I legally terminate said employee for breaking the law in my state in right in front of me?",
+        "input": "",
+        "output": "Legally, you probably can’t do much.\nThe fact that they were there after hours is irrelevant; they still had a reasonable expectation of privacy. They were not committing a crime.\nEven if you terminate the employee for cause, it’s likely they would have a good case in an unemployment hearing."
+    },
+    {
+        "instruction": "Why do men often insult or roast their good man friends a sign of friendship?",
+        "input": "",
+        "output": "Men often insult or roast their good man friends as a sign of friendship. It is a way to show that they are not taking the other person too seriously and that they are just joking around."
+    },
+    {
+        "instruction": "Why do the soldiers blindly listen the orders to kill innocent people in foreign countries instead of just self-organizing and killing a few psychopaths that gave such orders?",
+        "input": "",
+        "output": " человечество is a meme because it is a short way to say \"humanity\". It is sometimes incorrectly translated as \"human race\" which is longer and wastes 2 keystrokes."
+    },
+    {
+        "instruction": "I’m allergic to Sulfa. I have pinkeye, and one of the ingredients in the eye drops is sulfate. Am I ok to use them?",
+        "input": "",
+        "output": "You shouldn't use them."
+    },
+    {
+        "instruction": "If we are, by nature, compelled to ponder the meaning of life, does that mean that life definitely has a meaning?",
+        "input": "",
+        "output": " '. . . we cannot help but wonder why. We are compelled to ask, not because we necessarily expect an answer, but because it's our due as human beings.' Because humans have a natural desire to understand their place in the universe and make sense of their existence.\nNo, it doesn't automatically mean that life has a meaning just because humans are naturally inclined to ask these questions."
+    },
+    {
+        "instruction": "If you made a nuclear bomb using a heavier element, would it be more powerful by volume compared to hydrogen, helium, or uranium nuclear weapon? What element would yield the biggest result?",
+        "input": "",
+        "output": ". A fission reaction is where the nucleus of an atom splits into two or more smaller nuclei, usually with the release of energy. Nuclear fusion, on the other hand, is a process in which two atoms join together to form a heavier one. It is this energy release that powers the sun and other stars.\nThe energy released by nuclear reactions can be harnessed for. The most powerful element is uranium-235. But the most powerful weapon is a hydrogen bomb, which uses fusion to create a much larger explosion than a fission bomb. Fusion reactions are always less efficient than fission reactions, so it takes more material to make a fusion bomb produce the same amount of energy as a fission bomb."
+    },
+    {
+        "instruction": "What is a current product that you expect will ultimately fail?",
+        "input": "",
+        "output": "I really think Tay is going to fail."
+    },
+    {
+        "instruction": "Our 16yo kitty went missing and we found her under our house..two weeks later. We’re devastated. The odor alerted us to rip out the deck in search for closure. I’d like to retrieve her body and hope my vet could still cremate her. Is that something they would even do and how can we prepare her body?",
+        "input": "",
+        "output": "It’s only been 2 weeks, and you don’t even know if she is dead. Giving up hope now will be the hardest thing for your family to do.\nShe may have just gone missing. I lost my cat this summer. She had not been seen since June. Family thought she was dead so we put her ashes in a columbarium at the vet’s office. Then in late August, a neighbor saw her wandering around our neighborhood. I was able to get her home but she has not been the same. She hates being picked up and wants nothing to do with me. It’s been 4 weeks. I hope it doesn’t go on much longer.\nI suggest you call animal services and let them know what happened. They will help you search for her if she is still alive. If they can’t find her, they will pick up her body and take her to the pound."
+    },
+    {
+        "instruction": "What are some of the commonly held misconceptions about any of the American Indian/Native American cultural groups?",
+        "input": "",
+        "output": "A few misconceptions include: that all Native Americans are the same; they are a lost tribe of Israel; their culture is extinct.\nI am not sure what your question is asking for, but many people have misconceptions about Native Americans and about Native American cultures. For instance, it is often said that Native American culture is extinct because Native American societies have changed over time due to contact with Europeans and because some Native American tribes were decimated by warfare and disease. But many Native cultures still exist today and are thriving. Many Native American languages are spoken today, even though there were attempts to suppress those languages. Similarly, many Native ceremonies are still practiced today, although the U.S. government has tried to restrict access to sacred sites and ceremonies at various times."
+    },
+    {
+        "instruction": "How should I do time manage spreading time working on multiple projects? For example, should I \"time block\" your calendar and say 8am to 10am I work Project A. And 10am to 11am I work on Project B. What are other methods besides time blocking?",
+        "input": "",
+        "output": "Time blocking is a popular method to manage your time. There are many other methods such as the pomodoro technique, Kanban boards, etc. I would recommend you to explore different methods and choose the one that works best for you."
+    },
+    {
+        "instruction": "I'm buying a car for the first time, any advice?",
+        "input": "",
+        "output": "10 Things I Wish I Knew Before Buying My First Car. – While you want a car that suits your needs, it's also important to have one that fits within your budget. A car is a depreciating asset, meaning it will lose value the moment you drive it off the lot. 2. Research before you buy.\nWhat Kind of Cars Do You Drive? (What cars do you own?) – The Auto. – So what kind of cars do you drive? What cars do you own? We’re talking about the vehicles in your driveway and garage, not just the ones you’ve driven or are interested in."
+    },
+    {
+        "instruction": "Are there parallels between the use of radio communication by nationalists in the 1930’s and the use of social media/Twitter by nationalists in the present day? Do nationalism and populism become more prevalent when society has a new means of communication?",
+        "input": "",
+        "output": " picked up by @peterneumann who links to this interesting post by Thomas P.Mackey about how the rise of radio in the 1930s led to the rise of fascism and nationalistic movements across Europe."
+    }
+]

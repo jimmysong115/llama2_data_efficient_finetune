@@ -1,0 +1,112 @@
+[
+    {
+        "instruction": "During writing, we added an asterisk for the word that did not come to mind. You will need to provide several examples to demonstrate all the words that can be used in the sentence instead of the asterisk.",
+        "input": "we * to know",
+        "output": " what to do."
+    },
+    {
+        "instruction": "What other Amazon products might interest someone who visited the given product?",
+        "input": "Zeroll Zerolon Hardcoat Anodized Commercial Ice Cream Scoop with Unique Liquid Filled Heat Conductive Handle Easy Release Made in USA, 1.5-Ounce, Black",
+        "output": ""
+    },
+    {
+        "instruction": "Write a  review based on the given information.",
+        "input": "- Product: Persil Discs Laundry Detergent Pacs, Original Scent, High Efficiency (HE) Compatible, Laundry Soap, 62 Count\n- Sentiment: Positive",
+        "output": ""
+    },
+    {
+        "instruction": "Write a short description about the given movie or series.",
+        "input": "The Witcher (2019)",
+        "output": " is a fantasy drama TV series based on the book series of the same title by Polish author Andrzej Sapkowski. It follows the story of Geralt of Rivia, a solitary monster hunter, as he embarks on an epic journey to find his missing adopted daughter in a world full of political intrigue and magic. Along the way, he makes questionable allies, faces powerful enemies, and struggles to remain true to his own code. The show stars Henry Cavill as Geralt and any fans of the book series or video games will be pleased with how well this adaptation has been handled."
+    },
+    {
+        "instruction": "Please suggest a few papers to consider based on the search term given. The names of the papers should be listed.",
+        "input": "Topic: scaling law + machine learning",
+        "output": ""
+    },
+    {
+        "instruction": "Use appropriate emojis to convey the meaning in the given text.",
+        "input": "Cute cat\nplayful\nSoft",
+        "output": " and fluffy"
+    },
+    {
+        "instruction": "You need to write an email to negotiate your salary.",
+        "input": "",
+        "output": "\nEmail: Hi [Recruiter],\nThank you so much for the generous offer to join your team. As we discussed, I’ve admired the company for a number of years, and am a proud endorser of its products. However, after further consideration of where I currently am in my career, I’ve decided to accept an offer at another company.\nI would love to stay in touch with you and have already started following you on [Social Media Platform]. Again, thank you so much for your time and consideration.\nThanks again,\n[Your Name]"
+    },
+    {
+        "instruction": "You are given two questions. Check if they are duplicates.",
+        "input": "Question1: I am trying to understand the advantages of multiprocessing over threading. I know that multiprocessing gets around the Global Interpreter Lock, but what other advantages are there, and can threading not do the same thing?\nQuestion2: I am learning how to use the threading and the multiprocessing modules in Python to run certain operations in parallel and speed up my code.\nI am finding this hard (maybe because I don't have any theoretical background about it) to understand what the difference is between a threading.Thread() object and a multiprocessing.Process() one.\nAlso, it is not entirely clear to me how to instantiate a queue of jobs and having only 4 (for example) of them running in parallel, while the other wait for resources to free before being executed.\nI find the examples in the documentation clear, but not very exhaustive; as soon as I try to complicate things a bit, I receive a lot of weird errors (like a method that can't be pickled, and so on).\nSo, when should I use the threading and multiprocessing modules?\nCan you link me to some resources that explain the concepts behind these two modules and how to use them properly for complex tasks?",
+        "output": ""
+    },
+    {
+        "instruction": "This is a test for the reading ability of French. Read the given story carefully, and then answer the question in the end.",
+        "input": "Lucie est à la maison avec sa petite-fille, Lin.\nLucie: Oh, non! Nous n'avons pas de pain!\nLin: Ah! Tu vas au supermarché?\nLucie: Oui, je veux une baguette pour mon sandwich.\nDo Lin and Lucie have a lot of bread?",
+        "output": ""
+    },
+    {
+        "instruction": "Make a list of snacks and foods to serve as party snacks on a game day!",
+        "input": "",
+        "output": " revamped this nail art design for the holiday party! I love how it turned out and can’t wait to wear it again for New Year’s Eve!\nWow, thank you so much. It was so fun to make and I loved the way it turned out!\nHappy new year to you too and I hope you have a wonderful 2016."
+    },
+    {
+        "instruction": "Think of a motivational quote that you have read in a book. Try to keep it positive and sweet.",
+        "input": "",
+        "output": "\"Success is not final; determination is.\" - Winston Churchill"
+    },
+    {
+        "instruction": "You will be tested on your knowledge of classic witticisms and aphorisms by completing the given aphorism. Write the original quote as the answer.",
+        "input": "two things are infinite",
+        "output": ": the universe and human stupidity; and i'm not sure about the universe."
+    },
+    {
+        "instruction": "A list of all movies that meet the criteria given should be compiled.",
+        "input": "movies directed by Spike Lee by release date",
+        "output": ""
+    },
+    {
+        "instruction": "Currently, there is a chat in which people are arranging a meeting in the future. Retrieve the meeting information from the conversation.",
+        "input": "Person 1: Hey, when are you free? I'd like to meet up.\nPerson 2: I'm free tomorrow afternoon.\nPerson 1: Great, what time?\nPerson 2: How about 3 pm?\nPerson 1: I have another meeting at that time. what about 5 pm?\nPerson 2: That works. Where should we meet?\nPerson 1: How about the coffee shop on Main Street?\nPerson 2: Sounds good. I've heard they have great coffee there. See you tomorrow!",
+        "output": ""
+    },
+    {
+        "instruction": "Find the directions between the given locations.",
+        "input": "From: Rowan Avenue Elementary School, 600 S Rowan Ave, Los Angeles, CA 90023, United States\nTo: Calvary Cemetery and Mortuary, 4201 Whittier Blvd, Los Angeles, CA 90023, United States",
+        "output": ""
+    },
+    {
+        "instruction": "Give a brief explanation of the requested part of the paper.",
+        "input": "Paper: The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.\nExplain: The dominant sequence transduction models",
+        "output": " are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data."
+    },
+    {
+        "instruction": "Answer the question about the paper after reading it carefully.",
+        "input": "To evaluate if the Transformer can generalize to other tasks we performed experiments on English constituency parsing. This task presents specific challenges: the output is subject to strong structural constraints and is significantly longer than the input. Furthermore, RNN sequence-to-sequence models have not been able to attain state-of-the-art results in small-data regimes.\nQuestion: What is English constituency parsing?",
+        "output": ""
+    },
+    {
+        "instruction": "Please prepare a table containing a summary of the information of the participants at the conference.",
+        "input": "The conference was called to discuss how to improve the quality of education in schools. The main speaker was Professor Crew Purdie (cpurdie@email.com), who spoke about the importance of setting high standards for students and teachers. He said that schools should be places where students can learn and be challenged. Other speakers included Teacher Oliver Malachi (oliver@email.com) and Parent Kolby Reese (kolbyreese82@email.com). The teacher talked about the need for teachers to be well-prepared and to have high expectations for their students. The parent spoke about the need for parents to be involved in their children's education. There was also a discussion about the importance of funding for schools.",
+        "output": ""
+    },
+    {
+        "instruction": "Given a sentence that may be ambiguous, rewrite the sentence using less ambiguous words.",
+        "input": "The chicken is ready to eat.",
+        "output": "\nThe chicken is prepared and ready for consumption."
+    },
+    {
+        "instruction": "You are given a search query and a document. Classify whether the document is relevant to the search query or not relevant.",
+        "input": "Search: why sky is blue\nDocument: The Short Answer: Sunlight reaches Earth's atmosphere and is scattered in all directions by all the gases and particles in the air. Blue light is scattered more than the other colors because it travels as shorter, smaller waves. This is why we see a blue sky most of the time.",
+        "output": ""
+    },
+    {
+        "instruction": "Identify and fix bugs in the given code and rewrite it",
+        "input": "for i in range(10)\n    print(Answer is:)\n    print(i)",
+        "output": ""
+    },
+    {
+        "instruction": "The tone of the email should be changed and rewritten in a more professional manner.",
+        "input": "Subject: Asking for Vacation Time\nHi [Employer], \nI hope all is well. I am writing to request a day off on [date]. I have already taken care of my work responsibilities for that day and will be available to answer any questions or concerns you may have. \nThank you for your time, \n[Your name]",
+        "output": ""
+    }
+]

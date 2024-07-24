@@ -1,0 +1,47 @@
+[
+    {
+        "instruction": "Consider the differential equation dy/dx = 3(y - x)/(y + x). (a) Find the general solution of the differential equation. (b) Find the particular solution of the differential equation that satisfies the initial condition y(0) = 11",
+        "input": "",
+        "output": "(a) The general solution of the differential equation is y = 3x/y + x + c, where c is an arbitrary constant.\n(b) The particular solution of the differential equation that satisfies the initial condition y(0) = 11 is y = 11/(y+11)"
+    },
+    {
+        "instruction": "Six friends A, B, C, D, E and F are sitting in a circular table facing the center. A is sitting second to the right of D. B is sitting third to the left of A. C is sitting opposite to D. E is sitting between B and F. Who is sitting to the immediate right of C?\n\nA) A B) B C) E D) F",
+        "input": "",
+        "output": "\nAnswer: D"
+    },
+    {
+        "instruction": "Sort an array in ascending order. You must solve the problem without using any built-in functions in O(nlog(n)) time complexity and with the smallest space complexity possible. Implementing with C++. \nThe following code implementation has a time complexity of O(n^2).\n\n#include <iostream>\nusing namespace std;\n\nvoid bubble_sort(int nums[], int n) {\n    for (int i = 0; i < n; i++) {\n        for (int j = 0; j < n-i-1; j++) {\n            if (nums[j] > nums[j+1]) {\n                swap(nums[j], nums[j+1]);\n            }\n        }\n    }\n}\n\nint main() {\n    int nums[] = {5, 2, 9, 1, 5, 6};\n    int n = sizeof(nums) / sizeof(nums[0]);\n\n    bubble_sort(nums, n);\n\n    for (int i = 0; i < n; i++) {\n        cout << nums[i] << \" \";\n    }\n\n    return 0;\n}\n\nI tried to implement the requirements of the problem without using any built-in functions in O(nlog(n)) . Can you help me solve this issue?\n\n#include <iostream>\nusing namespace std;\n\nint partition(int nums[], int low, int high) {\n    int pivot = nums[high];\n    int i = low - 1;\n\n    for (int j = low; j <= high - 1; j++) {\n        if (nums[j] <= pivot) {\n            i++;\n            swap(nums[i], nums[j]);\n        }\n    }\n    swap(nums[i + 1], nums[high]);\n    return (i + 1);\n}\n\nvoid quicksort(int nums[], int low, int high) {",
+        "input": "",
+        "output": "    if (low < high) {\n        int pi = partition(nums, low, high);\n        quicksort(nums, low, pi - 1);\n        quicksort(nums, pi + 1, high);\n    }\n}\n\nint main() {\n    int nums[] = {5, 2, 9, 1, 5, 6};\n    int n = sizeof(nums) / sizeof(nums[0]);\n\n    quicksort(nums, 0, n - 1);\n\n    for (int i = 0; i < n; i++) {\n        cout << nums[i] << \" \";\n    }\n\n    return 0;\n}"
+    },
+    {
+        "instruction": "How can I make this JavaScript code work as expected when using async/await and promises? \"function delay(ms) {\\n    return new Promise(resolve => setTimeout(resolve, ms));\\n}\\n\\nasync function sayHello(name) {\\n    await delay(1000);\\n    console.log('Hello, ' + name);\\n}\\nsayHello('Alice');\\nsayHello('Bob'); // expected output: Hello, Alice (after 1 second), Hello, Bob (after another second)\"",
+        "input": "",
+        "output": "\nThis code is already using promises, but it's not using async/await. Here's how you can rewrite it using async/await to make it easier to read and understand:\n```javascript\nfunction delay(ms) {\n    return new Promise(resolve => setTimeout(resolve, ms));\n}\nasync function sayHello(name) {\n    await delay(1000);\n    console.log('Hello, ' + name);\n}\nsayHello('Alice');\nsayHello('Bob'); // expected output: Hello, Alice (after 1 second), Hello, Bob (after another second)\n```\nIn this rewritten code, we use `async` functions instead of regular functions. `async` functions automatically wrap the code inside them in an `await` statement, which returns a promise as soon as the code has finished executing. This allows us to use `await` to wait for the `delay` function to complete before continuing with the rest of the `sayHello` function."
+    },
+    {
+        "instruction": "What are some potential applications of blockchain technology in the healthcare industry? How can this technology be used to improve patient outcomes?",
+        "input": "",
+        "output": "What are some potential applications of blockchain technology in the healthcare industry? How can this technology be used to improve patient outcomes?\nBlockchain technology has the potential to revolutionize healthcare by improving patient care, increasing data security and reducing costs. Some potential applications of blockchain technology in healthcare include:\n1. Electronic Health Records (EHRs) – Blockchain technology can be used to create a secure, decentralized EHR system that can store patient data in a tamper-proof ledger. This would enable healthcare providers to share patient information securely and quickly, without the need for manual recordkeeping or intermediaries.\n2. Medical Supply Chain Management – Blockchain can be used to track the movement of medical supplies and equipment, ensuring that they are authentic and not counterfeit. It can also help to prevent diversion of medications and supplies.\n3. Clinical Trials – Blockchain technology can be used to securely store and share clinical trial data, making it easier for researchers to collaborate and share results.\n4. Patient Identification – Blockchain can be used to create a secure, decentralized patient identification system that would enable healthcare providers to identify patients accurately and securely.\n5. Payment Processing – Blockchain technology can be used to process payments between healthcare providers and insurance companies quickly and securely, reducing administrative costs and improving cash flow.\nOverall, blockchain technology has the potential to significantly improve patient outcomes by enabling more efficient and secure sharing of patient data, reducing errors and improving patient safety."
+    },
+    {
+        "instruction": "What is the name of the ethical theory that holds that the right action is the one that maximizes happiness and minimizes suffering for the greatest number of people?\n\nA) Utilitarianism B) Kantianism C) Egoism D) Virtue ethics\n\nChoose the correct answer.",
+        "input": "",
+        "output": "A) Utilitarianism"
+    },
+    {
+        "instruction": "What are the differences between the rules of American football and rugby? How do these differences affect the way the games are played? Which sport do you think is more physically demanding and why? Please provide examples to support your answer.",
+        "input": "",
+        "output": " gratitude"
+    },
+    {
+        "instruction": "What is the name of the actor who played the role of Jack Sparrow in the Pirates of the Caribbean movie series? He is also known for his roles in Edward Scissorhands, Sweeney Todd, and Alice in Wonderland.\n\nA) Johnny Depp B) Orlando Bloom C) Geoffrey Rush D) Keira Knightley\n\nChoose the correct answer.",
+        "input": "",
+        "output": "A) Johnny Depp"
+    },
+    {
+        "instruction": "In the painting “The Persistence of Memory” by Salvador Dali, what is the significance of the melting clocks? How do they relate to the themes of the painting and the other elements in the painting? Please provide evidence from the painting to support your answer.",
+        "input": "",
+        "output": "place an order to get a similar paper"
+    }
+]

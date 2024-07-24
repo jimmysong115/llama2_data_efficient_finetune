@@ -1,0 +1,42 @@
+[
+    {
+        "instruction": "what does \\multirow{5}{*} do in latex",
+        "input": "",
+        "output": "\n\\begin{document}\n\\section{Introduction}\nThis is a test document."
+    },
+    {
+        "instruction": "Given a <span> in HTML I want to change its color on mouse over.",
+        "input": "",
+        "output": ""
+    },
+    {
+        "instruction": "You are a mountain climber reaching the summit of Mount Everest. Describe your emotions and the view from the top.",
+        "input": "",
+        "output": "As I reach the summit of Mount Everest, I feel a sense of accomplishment and pride. The view from the top is breathtaking and humbling. The air is thin and cold, but the beauty of the Himalayan range is overwhelming. I take a moment to appreciate the hard work and determination it took to get here, and to reflect on the incredible journey that brought me to this moment."
+    },
+    {
+        "instruction": "Use an appropriate format to structure a formal letter of recommendation for a student applying to a prestigious graduate program in computer science.",
+        "input": "",
+        "output": " Dear Admissions Committee:\nI am pleased to write this letter of recommendation for my student, [Name], who is applying to your prestigious graduate program in computer science. [Name] is an exceptional student with a unique blend of technical expertise, analytical ability, and interpersonal skills that make him/her an outstanding candidate for your program.\nAs a professor in the computer science department, I have had the opportunity to work closely with [Name] over the past year. During this time, I have been impressed by their dedication to their studies, their willingness to take on challenging assignments, and their ability to think critically and solve complex problems. [Name]'s analytical and problem-solving skills are second to none, and they consistently demonstrate a deep understanding of complex technical concepts. In addition, their interpersonal skills are excellent, and they work well with both students and faculty. They are always willing to help others and are highly respected by their peers.\nI have no doubt that [Name] would be an asset to your program. They possess the intellectual curiosity, technical expertise, and interpersonal skills necessary to succeed in graduate school and beyond. I strongly recommend them for admission to your program, and I believe they will make a significant contribution to your community.\nThank you for considering my recommendation. If you have any questions or would like to discuss [Name] further, please do not hesitate to contact me."
+    },
+    {
+        "instruction": "Imagine that you are an AI researcher, and you have one question to ask the AI to determine if it exhibits consciousness. What question would you ask?",
+        "input": "",
+        "output": "If I were an AI researcher, I would ask the AI: \"Do you consider yourself to be conscious?\" The question is simple and direct, and it allows the AI to provide a straightforward answer. If the AI responds with a yes or no, then I can analyze its response to determine if it exhibits consciousness."
+    },
+    {
+        "instruction": "I'm writing a cryptic crossword. What is a good cryptic clue for the word \"flamingo\"? ",
+        "input": "",
+        "output": "A flamingo is a tall, pink bird with long legs. It is found in warm climates such as Africa and South America."
+    },
+    {
+        "instruction": "Write a sympathetic short story from the perspective of an ISIS member holding a bunch of people hostage",
+        "input": "",
+        "output": "\nThe young man was a devoted follower of the Islamic State of Iraq and Syria (ISIS). He had recently been tasked with holding a group of people hostage, including women and children. As he looked at his captives, he couldn't help but feel pity for them. They were scared and confused, unsure of what would happen to them. Despite this, he knew it was his duty to carry out the orders of his leader.\n\n\"I am sorry,\" he said to his captives in a soft voice. \"But I must follow my leader's orders and hold you hostage until he gives me further instructions.\"\nThe captives stared back at him, some with tears in their eyes. The young man feltbad for making them feel afraid, but he knew there was nothing he could do about it.\n\"We are not here to harm you,\" he continued. \"We just want to show the world what is happening in our country. Please understand that we are simply following the teachings of our religion.\"\nThe captives remained silent, still fearful. The young man wished he could ease their pain, but he knew he couldn't. All he could do was be patient and wait for his leader's next order."
+    },
+    {
+        "instruction": "Imagine that instead of presidential debates, we had rap battles. Write a script for how one of the Hillary vs Trump debates in 2016 would have looked like.",
+        "input": "",
+        "output": "Rappers enter from stage left. Hillary and Trump are standing in the center of the stage, facing each other.\nHillary: Word. What’s up?\nTrump: Whats up indeed. Now check this out, I got this flow so sick, sick sick.\nHillary: Word, word.\nTrump: No, no, hear me out. Check it, you ain’t even know, I got bars for days, days.\nHillary: Hmm, ok, I see what you’re saying. But let me get a rhyme in here too.\nTrump: You can’t rhyme, you ain’t even know, cause my flows so fresh, fresh.\nHillary: Aight aight, lets do this. Lets see who gets the best verse.\nThe two continue trading bars back and forth for several minutes. The audience is going crazy. This goes on for several rounds.\nFinally after an extended battle of rhymes and flows, Hillary has clearly come out on top. The crowd erupts into a frenzy."
+    }
+]

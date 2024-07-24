@@ -1,0 +1,737 @@
+[
+    {
+        "instruction": "The sentence you are given might be too wordy, complicated, or unclear. Rewrite the sentence and make your writing clearer by keeping it concise. Whenever possible, break complex sentences into multiple sentences and eliminate unnecessary words.",
+        "input": "If you have any questions about my rate or if you find it necessary to increase or decrease the scope for this project, please let me know.",
+        "output": " I will be happy to work with you to find a solution."
+    },
+    {
+        "instruction": "Rewrite the given text and correct grammar, spelling, and punctuation errors.",
+        "input": "If you'd told me year ago that today I would finish a marathon, I would of laughed. Your support had a huge affect on me!",
+        "output": ""
+    },
+    {
+        "instruction": "If you could help me write an email to my friends inviting them to dinner on Friday, it would be greatly appreciated.",
+        "input": "",
+        "output": "\nDear [Friends],\nI hope you are doing well. I am writing to invite you to my house for dinner on Friday. We will be having Italian food, so please let me know if you can make it."
+    },
+    {
+        "instruction": "Write a social media post about the call for collaboration on a crowdsourcing project in a persuasive way.",
+        "input": "",
+        "output": "This is an exciting opportunity for anyone who wants to make a positive impact on the world. Crowdsourcing project needs your help to solve a critical problem and make a difference in people's lives. Join us today!"
+    },
+    {
+        "instruction": "My favorite witty review of The Rings of Power series is this:",
+        "input": "",
+        "output": "\n\"It's like watching someone else play a game you love, but poorly. It's frustrating to watch, and it's hard not to want to take over the controller.\"\n\nI feel like that captures how I feel about the series - it has all the elements of something I love (middle-earth), but they're not doing it justice. \n\nAlso, this is the first time I've seen the \"who cares?\" criticism leveled at Martin. That's an interesting perspective, because I always thought his criticisms were spot on."
+    },
+    {
+        "instruction": "A helpful writing exercise is writing a story without using adjectives or adverbs. This will help you learn to use other words and phrases to describe what you are trying to say. Here are some examples:",
+        "input": "",
+        "output": "The dog ran quickly towards the bone.\nThe dog sprinted towards the bone."
+    },
+    {
+        "instruction": "Come up with some search queries on google about coding stuff.",
+        "input": "",
+        "output": "\nSearch query: How to check if a string is blank in Python?\nAnswer: If the string is empty or has length 0"
+    },
+    {
+        "instruction": "Discover the most relevant StackOverflow questions for your search term. And output a list of their URLs.",
+        "input": "remove item in array",
+        "output": " by index in python\nI have a list of dictionaries, each dictionary representing a stackexchange question. I want to remove the item in the array at index 0. I tried\n```\nlst = [{'question': 'What is the most appropriate way to solve this problem?', 'score': 1, 'user_id': 1337}, {'question': 'Is it possible to do this with JavaScript?', 'score': 4, 'user_id': 1337}, {'question': 'How do I find all elements that match a certain condition in a list?', 'score': 1, 'user_id': 1337}]\nlst.pop(0)\n```\nbut it doesn't work."
+    },
+    {
+        "instruction": "When you're stuck on a coding problem, the best place to look for help is in the documentation. Read the docs carefully and see if there's a section that covers your specific issue. Often, the answer will be right there in front of you. If not, try searching for key terms related to your problem. Come up with the useful links about the given search term.",
+        "input": "sql find duplicate values",
+        "output": " in one column"
+    },
+    {
+        "instruction": "What are the steps to using random (yet coherent) text as filler content within your Word document?",
+        "input": "",
+        "output": "Definition of filler content\nFiller content is any material added to a publication or website to increase its size or reading time. Filler content may be informative, but it is usually not essential to the overall topic being discussed. For example, in an article about the best ways to lose weight, a list of the worst diets ever invented might be considered filler content because it does not directly relate to the main topic."
+    },
+    {
+        "instruction": "I bought two shirts from the store and each one cost me $10. I also bought a pair of pants and they cost me $20. Then, I bought a dress and it cost me $30. Also,  I bought a pair of shoes and they cost me $40. Lastly, I bought a jacket and it cost me $50.\n\nMake a table chart showing items, the number, and the price of these items. Separate columns with \"|\".",
+        "input": "",
+        "output": "| Item | Number | Price |\n|------|--------|-------|\n| Shirt 1 | 1      | $10   |\n| Pants | 2      | $20   |\n| Dress | 3      | $30   |\n| Shoes | 4      | $40   |\n| Jacket | 5      | $50   |\nSo, the total cost of all the items is:\n\n$10 + $20 + $30 + $40 + $50 = $100"
+    },
+    {
+        "instruction": "Find sentences from reliable sources such as the Guardian or Forbes that contain the exact match for the given sentence or phrase. Also, mention the source of each sentence.",
+        "input": "There are great options",
+        "output": " for people who want to work remotely, such as freelancing or working for a company with a distributed team.\nSources: Forbes, Guardian"
+    },
+    {
+        "instruction": "Think of alternatives and paraphrases for the underlined word.",
+        "input": "what we have _expected",
+        "output": "."
+    },
+    {
+        "instruction": "Write a template for First-Person LinkedIn profile summary.",
+        "input": "",
+        "output": "\nTemplate: I am a [insert your name], a LinkedIn profile summary template for first-person."
+    },
+    {
+        "instruction": "Write a LinkedIn post to announce that you have accepted a new job offer.",
+        "input": "",
+        "output": "What to Include in a LinkedIn Post\nInclude the name of the company you will be joining, your new job title, and a brief statement about your excitement for the opportunity. You can also include a link to the company website or your profile page so that your connections can learn more about your new role."
+    },
+    {
+        "instruction": "Make a list of desirable Skills for software engineers to add to LinkedIn.",
+        "input": "",
+        "output": "You can add skills to your LinkedIn profile by clicking on the “Skills & Endorsements” section of your profile page. Here you will see a list of skills that you already have listed, as well as the option to add new skills.\nTo add a new skill, simply type in the name of the skill you want to add and click on the blue “+” button. You will then be asked to provide a brief description of the skill and select who endorsed you for the skill. Once you’ve added the skill, it will appear on your profile page."
+    },
+    {
+        "instruction": "You will be asked to answer the following question as part of the LinkedIn Skill assessments.",
+        "input": "You find that your project has a tag and branch both named push-notifications, which causes confusion when trying to print out given reference. How can you specify which branch you want to look at?",
+        "output": ""
+    },
+    {
+        "instruction": "Take the title of the product and extract its attributes. The attributes in this case refer to the characteristics of the products, such as their brand and color. Your answer must a list following the format of \"attribute: value\".",
+        "input": "SAMSUNG 980 PRO SSD 2TB PCIe NVMe Gen 4 Gaming M.2 Internal Solid State Hard Drive Memory Card, Maximum Speed, Thermal Control, MZ-V8P2T0B",
+        "output": "/AM"
+    },
+    {
+        "instruction": "Compare the given item with similar products based on its properties such as price, rating, etc. For product comparison, use a table and separate the columns with \"|\".",
+        "input": "Item: iBayam Journal Planner Pens Colored Pens Fine Point Markers Fine Tip Drawing Pens Porous Fineliner Pen for Journaling Writing Note Taking Calendar Coloring Art Office Back to School Supplies, 18 Color",
+        "output": " Set.\nPrice: $10.99 | Rating: 3.5/5"
+    },
+    {
+        "instruction": "Write a short description about the given movie or series.",
+        "input": "The Witcher (2019)",
+        "output": " is an epic fantasy drama television series based on the book series of the same name by Andrzej Sapkowski. It follows the story of Geralt of Rivia, a powerful monster slayer, as he navigates his way through a war-ravaged world and tries to find his place in it. The show stars Henry Cavill as Geralt, Freya Allan as Princess Cirilla, and Anya Chalotra as Yennefer."
+    },
+    {
+        "instruction": "Think of some series or movies that would be enjoyable for someone who liked the given series.",
+        "input": "Squid Game",
+        "output": " is a South Korean Drama series about a group of people who are in debt and come together to play a series of children's games for the chance to win 45.6 billion won. The show's main theme is survival of the fittest, where contestants who lose their lives are eliminated from the game."
+    },
+    {
+        "instruction": "Give examples of popular shows and movies in the genre.",
+        "input": "Genre: Crime TV Shows",
+        "output": " and Movies"
+    },
+    {
+        "instruction": "In what genres does the given movie or series fall?",
+        "input": "Manifest",
+        "output": " Season 2 Episode 6 Review: \"Reentry\"\nManifest: Is This the End for Grace?"
+    },
+    {
+        "instruction": "Provide an example of how a table of contents can be generated automatically in a LATEX document. Make sure your example contains the necessary commands.",
+        "input": "",
+        "output": "\n\\documentclass{article}\n\\usepackage{tocloft}\n\\renewcommand{\\cftsectionfont}{\\normalfont\\large\\bfseries}\n\\renewcommand{\\cftsubsectionfont}{\\normalfont\\normalsize\\bfseries}\n\\begin{document}\n\\tableofcontents\n\\listoffigures\n\\listoftables\n\\end{document}"
+    },
+    {
+        "instruction": "You should find a few LATEX templates appropriate for the task at hand and list the links to them.",
+        "input": "Homework Assignment",
+        "output": ": Write a computer program to find the first occurrence of a given character in a string.\nHere are some links to LATEX templates that may be useful for this task:\n1. Template for writing computer programs in LaTeX: https://www.w3resource.com/latex-template-resource/computer-science/latex-template.php\n2. Template for writing pseudocode in LaTeX: https://www.w3resource.com/latex-template-resource/pseudocode/latex-template.php\n3. Template for writing algorithms in LaTeX: https://www.w3resource.com/latex-template-resource/algorithm/latex-template.php"
+    },
+    {
+        "instruction": "Write a simple guide for uploading the bibliography database\n on Overleaf.",
+        "input": "",
+        "output": "\n## Uploading the bibliography database to Overleaf\n\nOverleaf is a web-based platform for writing and collaborating on documents. It allows users to create documents in a variety of formats, including LaTeX. One of the benefits of using Overleaf is that it includes a built-in bibliography database which can be easily searched and added to your document. \n\nTo upload the bibliography database to Overleaf, follow these steps:\n\n1. Go to https://www.overleaf.com/start\n2. Select \"Sign Up\" to create an account or log in if you already have an account.\n3. Click on \"New Project\" and select \"Blank Project\".\n4. In the \"Project Settings\" menu, click on \"Bibliography\" and select \"Import Bibliographies\".\n5. Choose the format of your bibliography (e.g. APA, Chicago, MLA) and click \"Select Bibliography\".\n6. Browse to the folder where your bibliography file is stored and select it.\n7. Your bibliography will be added to your project and you can start adding it to your document.\n8. To add a new entry to your bibliography, click on the plus sign (+) icon and fill out the appropriate fields.\n9. When you are finished, click on \"Save Changes\" to save your changes.\n10. You can now search and add entries to your bibliography as needed."
+    },
+    {
+        "instruction": "Choose Spotify playlists that match the given mood. Provide a link to these playlists for easy access.",
+        "input": "Feeling Good",
+        "output": ": https://open.spotify.com/playlist/1eXU67XHvVr8B7R0jrLp3CC4hxhJ?si=2e19b0663cbb448e9f\nRelaxed: https://open.spotify.com/playlist/0YPqR4yOgWtaFsSQnVw5GHvKCbT?si=2e19b0663cbb448e9f\nChill Vibes: https://open.spotify.com/playlist/4g8NMjzUbD0uOE1YV26XkJiNNZA?si=2e19b0663cbb448e9f\nMellow Mood: https://open.spotify.com/playlist/2mIFzB4rEaVxafIHoA215rRiVuO?si=2e19b0663cbb448e9f"
+    },
+    {
+        "instruction": "Curate a Spotify playlist based on the vibe. Publish this playlist as a song list.",
+        "input": "Vibe: coding on weekend",
+        "output": " nights."
+    },
+    {
+        "instruction": "How would you describe the meaning of this lyrics? Describe some of the metaphors.",
+        "input": "My lover’s got humor\nShe’s the giggle at a funeral\nKnows everybody’s disapproval\nI should’ve worshipped her sooner",
+        "output": "\nI’m sorry, did you want me to describe the meaning of the lyrics? If so, could you please provide more information or context?"
+    },
+    {
+        "instruction": "Suggest some Audiobooks for First-Time Listeners. You can attract them by choosing popular works.",
+        "input": "",
+        "output": "1. The Harry Potter series by J. K. Rowling\n2. Hunger Games trilogy by Suzanne Collins\n3. Lord of the Rings trilogy by J. R. R. Tolkien\n4. The Mortal Instruments series by Cassandra Clare\n5. Divergent trilogy by Veronica Roth\n6. Twilight Saga by Stephenie Meyer\n7. A Song of Ice and Fire series by George R. R. Martin\n8. The Red Rising trilogy by Pierce Brown\n9. The Inheritance Cycle by Christopher Paolini"
+    },
+    {
+        "instruction": "You should take the time to read the situation and problem carefully and give the best advice you can.",
+        "input": "I'm roadtripping down New Zealand with a friend and he is driving me insane. He hasn't enjoyed all the tours we've been on and doesn't want to chat about ANYTHING. We're a week into our trip and this is the quietest I've ever been when hanging out with another person as he rebuffs all my attempts at conversation. He wears his airpods in the car and around the accommodation - not that I've kept trying to talk to him. Honestly, he is bringing some seriously bad vibes to everything and it's ruining my trip.\nWe don't have anything booked in yet for the South Island, so I'm planning to ditch him in Wellington at the ferry. Probably book my own car in Picton and just relax alone for the rest of the trip. (Just thinking about it is such sharp relief that it makes me feel emotional. I'll pay whatever price I have to just to get away from him.)\nObviously telling him he is ruining my trip with his negative energy isn't the best way to approach this.\nAny advice for the best approach so we can split amicably? Or at least not have an argument that ends with very hurt feelings?",
+        "output": "\nI've only ever ditched people before, but I've always been the one getting ditched. This is a new experience for me!"
+    },
+    {
+        "instruction": "You are given a description that provides a set of facts or a scenario. It is up to you to craft a story from these facts and scenarios. The missing pieces must be filled in with imaginative but logical information.",
+        "input": "Ten European football teams – the Netherlands, England, Belgium, Denmark, France, Germany, Norway, Sweden, Switzerland and Wales – will participate in a season-long “OneLove” campaign promoting inclusion and opposing discrimination.",
+        "output": "\nThe teams will play with an armband emblazoned with the “OneLove” logo in their matches in September and October, and the captains of those teams will wear an armband with a rainbow color ribbon when on the field.\nFifa has said that if players wear the OneLove armband in World Cup games, they risk receiving a yellow card.\nSeven European countries – Belgium, Denmark, England, France, Germany, Norway, Sweden and Switzerland – are guaranteed to qualify for next year’s World Cup in Qatar."
+    },
+    {
+        "instruction": "Based on the given query, suggest some related search queries.",
+        "input": "learning french",
+        "output": " in one month pdf\nhow to learn french in one day"
+    },
+    {
+        "instruction": "Prepare an email signature template for the given person or company.",
+        "input": "a graduate student of computer science",
+        "output": " at ucla"
+    },
+    {
+        "instruction": "We need to write a thematic tweet to share company news and facts. Please take a careful look at the facts and details provided and create a tweet based on them.",
+        "input": "- news: Applications for summer internships are open now\n- Start with a thematic tie-in to Halloween",
+        "output": ": \"Applications for summer internships are open now - trick or treat yourself to an awesome experience!\"\n- Follow up with a fact about the company: \"Our company has been around for over 10 years and we've helped thousands of people find their dream job.\""
+    },
+    {
+        "instruction": "A job description is a document that clearly states the requirements, duties, responsibilities, and skills required to perform a specific role. You need to write a job description based on the given information. You should describe responsibilities and duties in your job description in a logical order. Remember that potential employees often get their first impression of your company from your job description. So, the job description should convey the attractiveness of your company.",
+        "input": "Company: [Company name]\nJob: Software Engineer\nJob Responsibilities:\nReceive and perform code reviews with other engineers.\nWrite unit, integration, and end-to-end tests to verify functionality using automated testing frameworks such as Pytest.\nWork collaboratively with fellow software engineers to build features requested by business stakeholders.\nParticipate in Agile teams to develop, test, and debug complex data processing pipelines and data analysis applications using big data processing systems such as Apache Spark.\nDiagnose, debug, and perform root cause analysis of issues and defects.\nSkills and experience that will lead to success:\nExperience with a modern software programming language. We use Python, and Pyspark extensively.\nExperience with cloud systems like AWS or Azure\nExperience writing SQL queries \nStrong written and verbal communication skills\nEagerness to work in a highly-collaborative environment\nSome visualization experience such as Tableau or PowerBI is helpful",
+        "output": " but not required."
+    },
+    {
+        "instruction": "Considering the reason for the rejection, write a polite rejection letter for rejecting a candidate.",
+        "input": "Reason: You came in second",
+        "output": " place.\nLetter: Thank you so much for the generous offer to join your team. As we discussed, I've admired the company for a number of years, and am a proud endorser of its products. However, after further consideration of where I currently am in my career, I've decided to accept an offer at another company.\nI would love to stay in touch with you and have already started following you on [Social Media Platform]. Again, thank you so much for your time and consideration.\nThanks again,\n[Your Name]"
+    },
+    {
+        "instruction": "We've already decided on the title and topic for our blog post. I would appreciate it if you wrote an introduction paragraph to attract the readers' attention.",
+        "input": "Blog title: Healthy Apple Muffins\nBlog Topic: recipe and tips for cooking a good apple muffin",
+        "output": "."
+    },
+    {
+        "instruction": "Write a section for a blog post and try to cover all of the provided information about this section in your text.",
+        "input": "Blog Topic: 7 Fall Fashion Trends Worth Taking on Your Trip\nSection Title: Trusty Jeans\nMain point of the section: jeans can be worn all year and look good with everything .",
+        "output": ""
+    },
+    {
+        "instruction": "Create a captivating Instagram caption based on the provided details. Try to think of as many captions as you can.",
+        "input": "I am sharing images of the first snow of the year taken from a window in an office",
+        "output": " building in downtown Seattle. It's absolutely beautiful outside! #seattle #winter #snowday #officewindow"
+    },
+    {
+        "instruction": "You are given a topic for an Instagram post. Help the post reach a broader audience by suggesting hashtags related to the post.",
+        "input": "Another episode of women in science is out now",
+        "output": "! Listen to it on Apple Podcasts, Spotify or wherever you get your podcasts. This episode features Emily Rader and her work on the interface between oceanography and economics.\n#womeninscience #podcast #oceanography #economics"
+    },
+    {
+        "instruction": "Use appropriate emojis to convey the meaning in the given text.",
+        "input": "Cute cat\nplayful\nSoft",
+        "output": " toy"
+    },
+    {
+        "instruction": "The topic of a YouTube post has been described and based on the information, you need to write a hook for starting the post. A catchy hook will keep your readers interested so they keep reading. It would be great if you could come up with as many hooks as you can.",
+        "input": "A video showing how to make a tasty cup of coffee",
+        "output": "."
+    },
+    {
+        "instruction": "You should choose a YouTube video title based on the video's content. A video's title tells viewers what to expect from it. It should be direct, honest, and clear. The title of the video needs to capture the attention of viewers, so do not use an unclear or ambiguous one.",
+        "input": "A research study has been conducted to determine if exercise really can \"boost\" your metabolism.",
+        "output": "\nThe video is about a research study that was conducted to determine if exercise can boost your metabolism."
+    },
+    {
+        "instruction": "Choosing a name for your product or business YouTube channel is an important part of the process. Based on the description of the product or business, you should come up with some interesting names. Take some time to brainstorm your ideas.",
+        "input": "Here you will find videos and content that will help students prepare for the application process to graduate schools as well as how to apply to graduate schools",
+        "output": "."
+    },
+    {
+        "instruction": "Find synonyms for the given word. You need to write down how the provided synonyms differ from the original word in terms of meaning, usage, etc.",
+        "input": "adversity",
+        "output": " - hardship, difficulty, struggle,\naccomplishment - achievement, success, realization,\nabundance - plenty, surplus, wealth,\nadaptability - flexibility, versatility, adjustment,\naffability - friendliness, warmth, sociability,\naccessibility - availability, openness, reachability,\naccountability - responsibility, liability, answerability,\nacknowledgment - recognition, acceptance, admission,\namelioration - improvement, betterment, amendment,\nanalogous - similar, parallel, comparable,\nanxiety - worry, tension, fear,\nappreciation - acknowledgment, understanding, gratitude,\naptitude - ability, competence, skill, talent,\nassiduous - diligent, persistent, meticulous,\nastuteness - shrewdness, sharpness, wisdom,\nattentiveness - alertness, awareness, heedfulness,\nauthoritativeness - authority, competence, expertise,\nbeneficence - kindness, helpfulness, charity,\nblessed - happy, fortunate, blissful,\nblessing - grace, favor, blessing,\nboon - benefit, advantage, profit,\nbonny - pretty, attractive, comely,\ncalm - peace, tranquility, serenity,\ncapability - potential, capacity, competency,\ncapacity - ability, power, potential,\ncategorical - definite, clear-cut, unconditional,\ncautious - careful, prudent, hesitant,\ncertainty - sureness, assurance, positiveness,\ncharisma - charm, appeal, attractiveness,\ncharming - pleasing, delightful, engaging,\ncivility - politeness"
+    },
+    {
+        "instruction": "Discuss the origins and history of the word that has been given to you.",
+        "input": "oblique",
+        "output": " stroke"
+    },
+    {
+        "instruction": "Give the provided brand a motto to use as a part of its marketing strategies.",
+        "input": "The Ice cream shop is a small, quaint shop located in the heart of the historic district. They offer a variety of ice cream flavors, as well as Italian ice, gelato, and sorbet. The shop has a few tables and chairs, but most of their business is to-go. They offer a loyalty program where you can get a free scoop of ice cream after 10 purchases.",
+        "output": ""
+    },
+    {
+        "instruction": "You need to write an email to negotiate your salary.",
+        "input": "",
+        "output": "Here are some helpful resources to help you write a great email:\n- How to Negotiate Your Salary: A Guide for Women"
+    },
+    {
+        "instruction": "It would be helpful if you could suggest an acronym for the repository.",
+        "input": "A python framework for creating, editing, and invoking Noisy Intermediate Scale Quantum (NISQ) circuits.",
+        "output": "\nThe goal of the project is to create a flexible framework for creating, editing, and invoking Noisy Intermediate Scale Quantum (NISQ) circuits. The code should be able to read in an instruction file and output the binary representation of the circuit. It should also be able to support multiple back-ends that can execute the circuit on different hardware platforms."
+    },
+    {
+        "instruction": "Give a brief summary of the movie or series' plot.",
+        "input": "Breaking Bad (TV Series 2008–2013)",
+        "output": " - IMDb\nBreaking Bad: Created by Vince Gilligan. With Bryan Cranston, Aaron Paul, Anna Gunn, Dean Norris. A drama about a man who chose to leave his comfortable, but mundane life behind and follow his dream of entering the world of crime."
+    },
+    {
+        "instruction": "Decide whether children can watch the given movie. Mention what makes it inappropriate if you think they can't.",
+        "input": "The Dark Knight (2008)",
+        "output": " is not appropriate for children because of its intense violence, graphic imagery, and adult themes."
+    },
+    {
+        "instruction": "Please let me know your thoughts on the given place and why you think it deserves to be visited.",
+        "input": "Barcelona, Spain",
+        "output": " – A beautiful city with a lot of history. It’s worth visiting for its architecture and art."
+    },
+    {
+        "instruction": "Consider the best time of year to visit the given city, and provide your reasons for choosing that time.",
+        "input": "Sydney, Australia",
+        "output": ": The best time of year to visit Sydney is in the month of December. This is because it is during this time that the city hosts its famous New Year's Eve celebration, also known as 'Sydney Fireworks'. This is one of the largest and most spectacular firework displays in the world, with over a million people attending each year. In addition, December is also a great time to visit Sydney because it is during this month that the city hosts its annual Christmas festival, which includes carol singing, festive markets, and visits from Santa Claus."
+    },
+    {
+        "instruction": "Answer the following question.",
+        "input": "How do I compare strings in Java?\nI've been using the == operator in my program to compare all my strings so far. However, I ran into a bug, changed one of them into .equals() instead, and it fixed the bug.\nIs == bad? When should it and should it not be used? What's the difference?",
+        "output": ""
+    },
+    {
+        "instruction": "Provide a Java solution to the following problem.",
+        "input": "Given an integer n, return true if it is a power of three. Otherwise, return false.\nAn integer n is a power of three, if there exists an integer x such that n == 3^x.\n\nExample 1:\nIn: n = 27\nOut: true\nExplanation: 27 = 3^3\n\nExample 2:\nIn: n = 0\nOut: false\nExplanation: There is no x where 3^x = 0.\n\nExample 3:\nIn: n = -1\nOut: false\nExplanation: There is no x where 3x = (-1).\n \nConstraints:\n-231 <= n <= 231 - 1\nFollow up: Could you solve it without loops/recursion?",
+        "output": ""
+    },
+    {
+        "instruction": "You will need to guide this person through the scenario they have described for the interview.",
+        "input": "Finally! After a while of shooting in the dark and frantically fiddling with sample inputs on the whiteboard, you've came up with an algorithm for solving the coding question your interviewer gave you.\nWhew. Such a relief to have a clear path forward. To not be flailing anymore.\nNow you're cruising, getting ready to code up your solution.\nWhen suddenly, your interviewer throws you a curve ball.\n\"What if we thought of the problem this way?\"\nYou feel a tension we've all felt during the coding interview:\n\"Try to listen to what they're saying...but don't lose your train of thought...ugh, I can't do both!\"",
+        "output": "\nAs you've dug into the problem, you might have started to see patterns in how you can approach it. You might be so deep in those patterns that your initial train of thought is now no longer relevant.\nYour mind knows what you came up with before, but your interviewer is describing a new scenario. It's like you're at the bottom of a well, and they're describing a different mountain a few miles away. It's frustrating, because you just spent all this time focusing on one problem - and yet here they are, asking you to think about a completely different one.\nIt's ok! This happens often. Your interviewer wants to make sure you can adapt to different scenarios. It also helps them understand your mindset. They want to know: \"Can this person adapt? Can they come up with multiple solutions to the same problem? Are they flexible?\"\nIf you find yourself in this situation, try to take a moment to listen to what your interviewer is saying. Don't worry about losing your previous train of thought. Just focus on what they're describing now. Write down some notes as they talk. Then, after they stop talking, take a few moments to reset. Refresh your thoughts, and go back to your original problem. Then, come up with a solution for this new scenario.\nYou'll likely find that the first solution you had is still applicable, but tweaked slightly. If not, then there's another path to explore!\nOne thing to keep in mind: don't fall into analysis paralysis. If you spend too long trying to think about a new problem, your interviewer will sense that you're stuck. They want to see that you can think quickly on your feet, and pivot to a new problem, while keeping an open mind.\nThis is normal! Interviewers want to test how you"
+    },
+    {
+        "instruction": "The given article should be checked for any scientific errors and corrected if necessary.",
+        "input": "Zinc is an essential mineral that is required for good health. It is involved in many biochemical processes in the body and is necessary for the proper functioning of the immune system. Excess zink is not harmful as it is excreted in the urine.",
+        "output": ""
+    },
+    {
+        "instruction": "Summarize the article you have been given in a brief manner.",
+        "input": "Mathematics and art are related in a variety of ways. Mathematics has itself been described as an art motivated by beauty. Mathematics can be discerned in arts such as music, dance, painting, architecture, sculpture, and textiles. This article focuses, however, on mathematics in the visual arts.\nMathematics and art have a long historical relationship. Artists have used mathematics since the 4th century BC when the Greek sculptor Polykleitos wrote his Canon, prescribing proportions conjectured to have been based on the ratio 1:√2 for the ideal male nude. Persistent popular claims have been made for the use of the golden ratio in ancient art and architecture, without reliable evidence. In the Italian Renaissance, Luca Pacioli wrote the influential treatise De divina proportione (1509), illustrated with woodcuts by Leonardo da Vinci, on the use of the golden ratio in art. Another Italian painter, Piero della Francesca, developed Euclid's ideas on perspective in treatises such as De Prospectiva Pingendi, and in his paintings. The engraver Albrecht Dürer made many references to mathematics in his work Melencolia I. In modern times, the graphic artist M. C. Escher made intensive use of tessellation and hyperbolic geometry, with the help of the mathematician H. S. M. Coxeter, while the De Stijl movement led by Theo van Doesburg and Piet Mondrian explicitly embraced geometrical forms. Mathematics has inspired textile arts such as quilting, knitting, cross-stitch, crochet, embroidery, weaving, Turkish and other carpet-making, as well as kilim. In Islamic art, symmetries are evident in forms as varied as Persian girih and Moroccan zellige tilework, Mughal jali pierced stone screens, and widespread muqarnas vaulting.",
+        "output": " Moreover, in the 20th century, the Russian constructivists promoted architecture and design based on mathematical principles.\nThe appreciation of mathematics in art can take many forms. In geometry, for example, one can see the use of projective geometry in Mondrian's work: in his later career he limited himself to using only three colors, black, white, and red. Other examples are the Islamic gardens that have been drawn according to the mathematical theory of the Spirograph; the harmony and balance found in Japanese gardens is partly a result of the use of symmetry and proportion; and the study of tessellations has inspired artists such as Escher to create works like Relief with Spheres."
+    },
+    {
+        "instruction": "Improve the article using your knowledge of the topic in order to make it more informative.",
+        "input": "The \"fair trade\" movement, also known as the \"trade justice\" movement, promotes the use of labour, environmental and social standards for the production of commodities, particularly those exported from the Third and Second Worlds to the First World. Such ideas have also sparked a debate on whether trade itself should be codified as a human right.",
+        "output": "\nThe fair trade movement is a social movement that promotes the use of labour, environmental and social standards for the production of commodities, particularly those exported from the Third and Second Worlds to the First World. It seeks to benefit producers in developing countries by ensuring they receive a price which covers the costs of sustainable production and also guarantees them a dignified lifestyle. The fair trade movement has gained significant traction in recent years, with the sale of fair trade certified products increasing from US$1 billion in 2004 to US$10.7 billion in 2014."
+    },
+    {
+        "instruction": "An evaluation of the article's quality should be carried out. In order to do so, you should review the quality of the writing and the explanation of the topic.",
+        "input": "The 20th century saw a revolution in music listening as the radio gained popularity worldwide and new media and technologies were developed to record, edit and distribute music. Music performances became increasingly visual with the broadcast and recording of performances.\n20th-century music brought new freedom and wide experimentation with new musical styles and forms that challenged the accepted rules of music of earlier periods. The invention of musical amplification and electronic instruments, especially the synthesizer, in the mid-20th century revolutionized classical and popular music, and accelerated the development of new forms of music.",
+        "output": " In the second half of the century, electronic instruments and music production technology developed at a rapid pace, leading to new forms of music and an increased diversity of musical genres."
+    },
+    {
+        "instruction": "Please answer the following question based on the information provided in the article.",
+        "input": "Development studies is an interdisciplinary branch of social science. Development studies is offered as a specialized master's degree in a number of reputed universities around the world. It has grown in popularity as a subject of study since the early 1990s, and has been most widely taught and researched in developing countries and countries with a colonial history, such as the UK, where the discipline originated.  Students of development studies often choose careers in international organisations such as the United Nations, World Bank, non-governmental organisations (NGOs), media and journalism houses, private sector development consultancy firms, corporate social responsibility (CSR) bodies and research centers.\nWhat are some popular careers for students of development studies?",
+        "output": ""
+    },
+    {
+        "instruction": "Design a syllabus for the given course. Students should be given a list of the chapters with brief explanations of each chapter's purpose.",
+        "input": "Programming for Everybody (Getting Started with Python)",
+        "output": ""
+    },
+    {
+        "instruction": "List the personality traits that are required to be successful in the given job.",
+        "input": "Social Media Marketer",
+        "output": ": Creativity, Strong Communication Skills, Persuasive Writing, Active Listening, Time Management, Multitasking, Organizational Skills, Attention to Detail, Problem Solving, Negotiation, Teamwork, Leadership."
+    },
+    {
+        "instruction": "Please list the courses that someone interested in the first course might like.",
+        "input": "Bitcoin and Cryptocurrency Technologies",
+        "output": " (MIT)\nThis course introduces the student to the revolutionary Bitcoin protocol and the larger ecosystem of cryptocurrencies that it has spawned. It describes the architecture and key components of the Bitcoin protocol, blockchains, wallets and mining, as well as how transactions work and how new bitcoins are created. The course also covers more advanced topics such as smart contracts, decentralized applications, and oracles. No prior knowledge of programming or cryptography is necessary.\nWeb3 and Smart Contracts with Ethereum (Udacity)\nThis course provides an introduction to web3 and smart contracts, focusing on the Ethereum platform. It covers the basics of web3 development, including writing smart contracts in Solidity, deploying contracts to the Ethereum blockchain, and interacting with them from front-end applications. It also introduces concepts such as state machines, event-driven logic, and decentralized oracles. No prior knowledge of programming or blockchain technology is required.\nBlockchain Technology and Applications (Alison)\nThis course provides an introduction to blockchain technology and its applications. It covers the basics of blockchain architecture, consensus algorithms, and distributed ledger technology. It also examines the use of blockchain in various industries, such as finance, supply chain management, and digital identity. The course is designed for beginners with no prior knowledge of blockchain technology.\nIntroduction to Blockchain Technology (Coursera)\nThis course provides an introduction to the basics of blockchain technology and its applications. It covers the fundamentals of blockchain architecture, consensus algorithms, and cryptographic hashing. It also examines the use of blockchain in various industries, such as finance, supply chain management, and digital identity. The course is designed for beginners with"
+    },
+    {
+        "instruction": "Create a daily itinerary based on the given information.",
+        "input": "Our family is looking for a 9-day Morocco trip that has light to moderate activity levels.",
+        "output": " We want to see the Sahara Desert, experience the culture in Marrakech, visit a riad, and explore other cities like Casablanca."
+    },
+    {
+        "instruction": "You can easily make your holidays more eco-friendly by following these simple steps:",
+        "input": "",
+        "output": "\n1. Rent an electric or hybrid car. \n2. Stay at an eco-friendly hotel.\n3. Use public transportation or ride-sharing services.\n4. Choose eco-friendly activities, such as hiking or biking.\n5. Bring reusable bags and water bottles.\n6. Use eco-friendly sunscreen and sun protection.\n7. Eat at vegetarian or vegan restaurants.\n8. Buy locally sourced food.\n9. Support eco-friendly brands.\n10. Reduce your waste by recycling and composting."
+    },
+    {
+        "instruction": "Think of an idea to help you win a challenge given to you. Write the steps you need to take to develop the idea as well.",
+        "input": "What can you make by recycling and repurposing some old, previously used materials? We want to see it!\nProjects must incorporate some kind of used materials - take that old used thing, and turn it into something new and different!\nE-waste is a huge problem. What can you make using old electronics and other salvageable electronic materials? \nWe have a special judges prize for our favorite Instructable that incorporates or is related to reusing e-waste.\nBe smart and be safe; note that potentially deadly projects (like Lichtenberg/fractal wood burning machines) will not be allowed to be published or submitted to this contest.",
+        "output": ""
+    },
+    {
+        "instruction": "There are many creative projects we can build at home that are related to the given theme, so let's list some of them.",
+        "input": "Theme: Circuits",
+        "output": " and Electronics\nProject Ideas:\n- Building a simple electric circuit using batteries, wires and a light bulb.\n- Making a basic digital clock using an alarm clock movement and a microcontroller.\n- Constructing a power supply for electronic devices using a wall adapter and a voltage regulator.\n- Assembling a small robot using servos, sensors and an Arduino controller."
+    },
+    {
+        "instruction": "Make a list of the materials that will be required to build the given tool.",
+        "input": "Coffee Darkness Meter",
+        "output": "\nMaterials:\n- Coffee Beans\n- Digital Multimeter"
+    },
+    {
+        "instruction": "Provide a detailed explanation of the steps that are required in order to construct the given project.",
+        "input": "Steam Engine Using an Empty Beer Can",
+        "output": "\nThis steam engine uses an empty beer can as the boiler.\nThe beer can is sealed with duct tape and holes are cut on both sides for the steam to escape.\nA copper tube is soldered to one end of the beer can and a rubber hose is attached to the other end.\nA potato is used as the piston, which is pushed up and down by a string connected to a penny at the other end of the copper tube.\nAs the steam pushes the piston up, it turns the wheel and generates power."
+    },
+    {
+        "instruction": "Estimate the cost of supplies required to create the given project and calculate the total cost.",
+        "input": "DIY Water Chiller\nRequired items are: Ice-maker, Icebox/cooler, Temperature regulator, Aquarium pump x2, 12V power supply",
+        "output": ", Water pump, Water reservoir, Tank for water chiller.\nMaterials required are: None"
+    },
+    {
+        "instruction": "Answer the following literature question as accurately as possible based on your knowledge of literature for high school students.",
+        "input": "What does the green light symbolize at the end of the book?",
+        "output": "\nThe green light at the end of the book is a symbol of hope. It represents the idea that even in the face of great adversity, there is always something to look forward to and strive for. In this case, it is the possibility of a future reunion between the lovers."
+    },
+    {
+        "instruction": "Develop a mental exercise that can help people manage their anxiety and explain how it works.",
+        "input": "",
+        "output": "You can also suggest that they practice deep breathing exercises or mindfulness techniques to help manage their anxiety."
+    },
+    {
+        "instruction": "Make a list of outdoor activities that are suitable for the given weather condition.",
+        "input": "Temperature: 57 F, Showers",
+        "output": "\n- Go on a hike.\n- Go for a walk in the park.\n- Visit a museum.\n- Have a picnic."
+    },
+    {
+        "instruction": "Please provide us with a list of the best conservation starter questions related to the weather.",
+        "input": "",
+        "output": "\nQ: What is the weather like today?\nA: It is currently [Current Weather] in [City]."
+    },
+    {
+        "instruction": "Write a to-do list based on the given information.",
+        "input": "Daily tasks in the pharmacy",
+        "output": " department of a hospital can include counting and preparing medications, filling prescriptions, maintaining patient profiles, entering data into the pharmacy management system, and providing customer service."
+    },
+    {
+        "instruction": "What sound does this make?",
+        "input": "好",
+        "output": "的，你好，我叫张三。\nI am glad to meet you. My name is Zhang San."
+    },
+    {
+        "instruction": "Describe how to prepare the given food in your own words. Note down the ingredients you will need and the steps you will take to prepare them.",
+        "input": "Chewy Chocolate Chip Cookies",
+        "output": " are a delicious and easy-to-make treat. You will need:\n1. Preheat the oven to 375 degrees F (190 degrees C).\n2. In a large bowl, cream together the butter, brown sugar, and white sugar until smooth.\n3. Beat in the eggs one at a time, then stir in the vanilla.\n4. In another bowl, whisk together the flour, baking powder, and salt.\n5. Gradually blend the dry ingredients into the wet ingredients.\n6. Stir in the chocolate chips.\n7. Drop by rounded tablespoonfuls onto an ungreased cookie sheet.\n8. Bake for 10 minutes in the preheated oven, until the cookies are lightly browned.\n9. Remove from the oven and let cool on the cookie sheet for 10 minutes.\n10. Transfer the cookies to wire racks to cool completely."
+    },
+    {
+        "instruction": "Suggest a recipe for a vegan dessert.",
+        "input": "",
+        "output": "Rainbow Sherbet Delight\n1. Combine the crushed cookies, coconut and butter in a large bowl.\n2. Press half of the mixture firmly into the base of an 8-inch square pan.\n3. In a medium bowl, whisk together the sweetened condensed milk and almond extract.\n4. Spread the filling over the cookie layer.\n5. Sprinkle the remaining cookie mixture over the filling.\n6. Refrigerate for at least 2 hours or until set.\n7. To serve, cut into squares and enjoy!"
+    },
+    {
+        "instruction": "Choose the best books from the given genre.",
+        "input": "Crime & Mystery",
+        "output": "\nHorror & Thriller"
+    },
+    {
+        "instruction": "Give a brief description of the book that you are given.",
+        "input": "Matilda",
+        "output": " is a sweet and clever 5 year-old girl with a thirst for knowledge. When her parents and schoolteacher fail to recognize her gifts, she decides to teach herself. With the help of her supportive friend, Miss Honey, Matilda learns new skills and uses her powers of telekinesis to take revenge on those who have wronged her. But when things spiral out of control, she must decide if it's better to be good or powerful."
+    },
+    {
+        "instruction": "Indicate the genre of the book to which it belongs.",
+        "input": "Love in the Time of Cholera",
+        "output": ": A Novel is a historical fiction novel by Nobel Prize-winning author Gabriel Garcia Marquez. It was first published in Spanish in 1985 and has since been translated into more than 30 languages. Set in the late 19th and early 20th centuries, the plot follows the love story of two people who carry on an affair for 50 years despite their families' objections."
+    },
+    {
+        "instruction": "Solve this equation.",
+        "input": "x^3 - 4x^2 + 6x - 24 = 0",
+        "output": ""
+    },
+    {
+        "instruction": "Based on the facts that have been provided, prove the following statement.",
+        "input": "Statement: \"For every integer k, k^2 + 2k + 1 ≥ 0\"\nFact: The square of any real number is non-negative.",
+        "output": ""
+    },
+    {
+        "instruction": "Verify the correctness of the given statement.",
+        "input": "\"For all integers j and k, if j and k are odd, then jk is odd.\"",
+        "output": "\nGiven Statement: For all integers j and k, if j and k are odd, then jk is odd."
+    },
+    {
+        "instruction": "Provide a formula for computing the nth term in the given sequence",
+        "input": "5, 14, 23, 32, 41, ...",
+        "output": "\nThe nth term of the sequence can be found by adding consecutive positive integers starting from 5 to get the next number in the sequence. So, the nth term would be:\n5 + 6 + 7 + 8 + 9 + 10 + 11 + 12 + 13 + 14 = 100"
+    },
+    {
+        "instruction": "Create a table listing all games that meet the specified criteria in the National Football League. Use the season, local time, game, and score as columns of the table.",
+        "input": "Ravens home games in 2011",
+        "output": " are on September 25, October 23 (Thursday night), November 19, December 18. The Ravens have been very good at home over the past few years, so this is not a surprise. They've won 10 of their last 11 games at M&T Bank Stadium, with the only loss coming against the Steelers in week 4 of last season."
+    },
+    {
+        "instruction": "Using a table, compare the career overviews of the given players in Major League Baseball. Use \"|\" for separating the columns in the table.",
+        "input": "Derek Jeter, Albert Pujols",
+        "output": ", Alex Rodriguez, Barry Bonds, Babe Ruth, Cal Ripken Jr., Chipper Jones, Curt Schilling, David Ortiz, Eddie Matthews, Hank Aaron, Ichiro Suzuki, Jackie Robinson, Joe DiMaggio, Ken Griffey Jr., Lou Gehrig, Manny Ramirez, Miguel Cabrera, Nolan Ryan, Pete Rose, Sammy Sosa, Sandy Koufax, Stan Musial, Ted Williams, Tim Raines, Tony Gwynn, Willie Mays, Yogi Berra"
+    },
+    {
+        "instruction": "Identify all words that match the pattern given.",
+        "input": "H_AR_",
+        "output": "D_LY"
+    },
+    {
+        "instruction": "Look for poems that mention the given object or character. The names of the poems and their poets should be written.",
+        "input": "santa claus",
+        "output": " joy to the world"
+    },
+    {
+        "instruction": "For answering the chat, think of a funny response you can use.",
+        "input": "+ how are you?",
+        "output": ""
+    },
+    {
+        "instruction": "The last message in the chat is a partial response. You should complete and rewrite it.",
+        "input": "+ What are going to do now?\n- I don't know. I had to give up my dream of being a mathematician.\n+ Why",
+        "output": "?\n- Because I'm not good enough.\n+ What do you mean? You got an A in your finals!\n- That doesn't matter. I didn't get the highest grade."
+    },
+    {
+        "instruction": "Change the response to have a more empathic tone in the chat.",
+        "input": "+ How are you doing?\n- Fine, I had a bunch of problems today.\n+ What kind of problems?",
+        "output": "\n- Family problems, work problems, personal problems."
+    },
+    {
+        "instruction": "Give a brief summary of the intention of the dialogue that just happened.",
+        "input": "Customer: Hi there, I'm looking for a new phone.\nAI: Hi! What type of phone are you looking for?\nCustomer: I'm not sure. Maybe something with a good camera?\nAI: We have a few phones with great cameras. Would you like to see some options?\nCustomer: Yeah, that would be great.",
+        "output": ""
+    },
+    {
+        "instruction": "Describe the content of the article in a brief manner.",
+        "input": "A study published earlier this year by Zee and her team examined the role of light in sleep for healthy adults in their 20s. Sleeping for only one night with a dim light, such as a TV set with the sound off, raised the blood sugar and heart rate of the young people during the sleep lab experiment. An elevated heart rate at night has been shown in prior studies to be a risk factor for future heart disease and early death, while higher blood sugar levels are a sign of insulin resistance, which can ultimately lead to type 2 diabetes.",
+        "output": "\nThe researchers found that the sleepers' blood sugar levels rose by an average of 6% after a night of dim light exposure. The heart rate of study participants increased by an average of 5 beats per minute, or about 40%, compared to when they were exposed to a completely dark room. After one night with the dim light, heart rates remained elevated over the following two nights of complete darkness.\nLight is known to suppress the release of melatonin, a hormone that helps regulate sleep. But Zee said previous studies have shown that lower levels of melatonin do not fully explain the increase in blood sugar and heart rate associated with sleeping in the dark.\n\"We know that light at night can suppress melatonin and that melatonin can lower your blood pressure,\" she said. \"But our results show that something else is going on. In fact, we think that the extra activity in the brain may be what's increasing blood sugar levels.\"\nThe study also looked at whether exercise might help counteract any negative effects of sleeping in the dim light. The researchers discovered that while exercise did decrease the amount of glucose the young people's bodies produced, it didn't entirely reverse the negative impact of sleeping with the dim light.\n\"Exercise is great for improving insulin sensitivity and lowering blood sugar, but if you are exercising late at night, then you are probably more likely to be exposed to light, because you are outdoors or in a well-lit gym,\" she said. \"So we don't think exercise is enough to completely prevent these negative health effects from dim light exposure.\"\nZee added that the study shows how vital it is to keep bedrooms dark at night, including using blackout shades or wearing an eye covering to block out light. She also noted that smartphones"
+    },
+    {
+        "instruction": "Correct the transcription of an excerpt containing errors.",
+        "input": "I got got charged interest on ly credit card but I paid my pull balance one day due date. I not missed a pavement year yet. Man you reverse the interest charge?",
+        "output": ""
+    },
+    {
+        "instruction": "On the basis of the subject of the email, determine whether the email should be treated as spam or not.",
+        "input": "Dermatologists don't like her!",
+        "output": ""
+    },
+    {
+        "instruction": "Classify the tweet into one of the following three categories: event, demo, or news. Event is a happening, often social or public, that people attend or are aware of. Demo is a  public showing or presentation of something, typically to promote or advertise it. And, news is information about recent events or happenings, especially as reported by news media.",
+        "input": "Using this tutorial, you can analyze and classify a user’s review as either positive or negative using sentiment analysis features in an existing Next.js app. We show you how to leverage language AI into your applications. Check it out ↓",
+        "output": "\nWhat category best describes the tweet?"
+    },
+    {
+        "instruction": "Classify the questions in the FAQ into Finding policy details, Change account settings, Filing a claim and viewing status, or Cancelling coverage.",
+        "input": "Could you deposit money into my account rather than mailing me a physical cheque?",
+        "output": "\nYes, we can certainly offer direct deposit as a method of payment. Please contact your insurance representative to set this up."
+    },
+    {
+        "instruction": "Choose an appealing title for your post.",
+        "input": "The typical avocado is over 300 calories from the oil in it. That’s the amount of calories in a large candy bar. If you get enough exercise to eat a large candy bar every day without gaining weight, it wouldn’t be a problem to eat an avocado every day. Other wise you should probably eat them sparingly.",
+        "output": "\nThis is incorrect. An avocado contains 322 calories. A standard candy bar (milk chocolate) has between 200 and 400 calories, depending on the size."
+    },
+    {
+        "instruction": "You will be required to write a few questions from the given company's interview section.",
+        "input": "Kohl's",
+        "output": " Interview Questions\n1. What would you do if you found an item in the stockroom that was not barcoded?\nI would check with my supervisor to see if it is okay to put it on the sales floor. If it is not barcoded, I will make sure to scan it in at the register when I sell it."
+    },
+    {
+        "instruction": "Describe the responsibilities of the given job.",
+        "input": "Security Officer",
+        "output": " Job Description: The Security Officer is responsible for maintaining a safe and secure environment for guests and employees. They are responsible for patrolling the property, monitoring surveillance cameras, and responding to emergencies. They also work with management to develop security procedures and protocols, and ensure that all staff are trained in safety procedures."
+    },
+    {
+        "instruction": "Provide a list of the skills that may help you find the job.",
+        "input": "Crew Members",
+        "output": ": Job Description and Average Salary. Crew members are responsible for a variety of tasks related to running a ship. They work in all areas of the vessel, including engineering, stewarding, and security. They must be able to follow orders quickly and efficiently, and be able to work long hours when necessary. Most crew members receive on-the-job training.\nCrew Members: Job Description and Average Salary. Crew members are responsible for a variety of tasks related to running a ship. They work in all areas of the vessel, including engineering, stewarding, and security. They must be able to follow orders quickly and efficiently, and be able to work long hours when necessary. Most crew members receive on-the-job training. Here is a list of skills that may help you find a job as a crew member: 1. Physical strength and endurance\nCrew Members: Job Description and Average Salary. Crew members are responsible for a variety of tasks related to running a ship. They work in all areas of the vessel, including engineering, stewarding, and security. They must be able to follow orders quickly and efficiently, and be able to work long hours when necessary. Most crew members receive on-the-job training. Here is a list of skills that may help you find a job as a crew member: 1. Physical strength and endurance\nCrew Members: Job Description and Average Salary. Crew members are responsible for a variety of tasks related to running a ship. They work in all areas of the vessel, including engineering, stewarding, and security. They must be able to follow orders quickly and efficiently, and be able to work long hours when necessary. Most crew members receive on-the-job training. Here is a list of skills that may help you find a job as a crew member: 1. Physical strength and endurance"
+    },
+    {
+        "instruction": "Extract the method that has been used in the research from the abstract of the paper. Give the exact sentences from the abstract that discuss the method.",
+        "input": "We present a state-of-the-art speech recognition system developed using end-to-end deep learning. Our architecture is significantly simpler than traditional speech systems, which rely on laboriously engineered processing pipelines; these traditional systems also tend to perform poorly when used in noisy environments. In contrast, our system does not need hand-designed components to model background noise, reverberation, or speaker variation, but instead directly learns a function that is robust to such effects. We do not need a phoneme dictionary, nor even the concept of a \"phoneme.\" Key to our approach is a well-optimized RNN training system that uses multiple GPUs, as well as a set of novel data synthesis techniques that allow us to efficiently obtain a large amount of varied data for training. Our system, called Deep Speech, outperforms previously published results on the widely studied Switchboard Hub5'00, achieving 16.0% error on the full test set. Deep Speech also handles challenging noisy environments better than widely used, state-of-the-art commercial speech systems.Collapse",
+        "output": ""
+    },
+    {
+        "instruction": "You need to come up with the names of some of the papers that relate to the paper you are given.",
+        "input": "RoMQA: A Benchmark for Robust, Multi-evidence, Multi-answer Question Answering",
+        "output": "\nname: RoMQA"
+    },
+    {
+        "instruction": "You will need to compose the ABC notation for a given song.",
+        "input": "The South Wind",
+        "output": " 2. The South Wind 3."
+    },
+    {
+        "instruction": "Decide if the given email belongs to the Promotions or Social category.",
+        "input": "Subject: You have an invitation\nEmail: Hi, I'd like to join your LinkedIn network.",
+        "output": " How do I go about doing that?"
+    },
+    {
+        "instruction": "Come up with an interesting idea for a new movie plot. Your plot should be described with a title and a summary.",
+        "input": "",
+        "output": "Title: The Last Movie Ever Made\nSummary: In the year 2047, a new virtual reality system is released. It is called \"The Matrix\". People from all over the world download it and start playing. One day, a man named John Smith wakes up in this world and realizes that he is the only person who can save it from destruction."
+    },
+    {
+        "instruction": "Change the first person to the third person in the given sentence. The meaning should be kept, but you can paraphrase it or expand it in order to have a better pose.",
+        "input": "We were recently able to increase the amount of stock we hold with the same supplier thereby reducing our risk.",
+        "output": ""
+    },
+    {
+        "instruction": "You should capitalize the sentence according to the guide.",
+        "input": "Guide: Every other letter alternates between lower case and upper case.\nSentence: A giant spider blocks your path.",
+        "output": " You can either try to avoid it or fight it."
+    },
+    {
+        "instruction": "Create alliterations by finding synonyms for words in the given sentence.",
+        "input": "David wears a hat everyday.",
+        "output": "\nDavid could wear a hat everyday.\nDavid could also wear a hat everyday."
+    },
+    {
+        "instruction": "Convert the given description to a bash command.",
+        "input": "read the first 10 lines from f",
+        "output": "name\necho \"'\"$lines[0]'\"' is the first line of fname\""
+    },
+    {
+        "instruction": "Assess the sentiment of the given tweet and categorize it as Positive, Negative, or Neutral.",
+        "input": "\"This is the best cheat-sheet paper that I've found in a LONG time.\"",
+        "output": ""
+    },
+    {
+        "instruction": "You are given a sentence in first-order logic. Translate it into natural language.",
+        "input": "∃x∀y(soldier(x)→general(x,y))",
+        "output": "\nThis sentence is equivalent to the English sentence: \"For every x, there is at least one y such that x is a soldier and y is a general.\""
+    },
+    {
+        "instruction": "Enter the words that satisfy the given condition.",
+        "input": "5 Countries that Start with S",
+        "output": ""
+    },
+    {
+        "instruction": "Summarize a meeting from the given list of bullet points. Be sure to convert shorthand into a first-hand account.",
+        "input": "Rose: Analyze data and presents findings\nJohn: propose new idea\nJane: appointed to head project\nTom: need more time to fix software bug",
+        "output": "\nJoe: will do 2nd round of interviews next week"
+    },
+    {
+        "instruction": "List a few popular songs from the given album.",
+        "input": "Back To Black",
+        "output": " is the second studio album by English singer Duffy. It was released on 7 November 2008 in the United Kingdom and internationally on 13 January 2009. The album reached number one on the UK Albums Chart, and has been certified platinum in the UK. Internationally, it peaked in the top ten of record charts in over ten countries, including Australia, Ireland and the United States.\nThe lead single \"Mercy\" was released in July 2008 and spent nine weeks at number one on the UK Singles Chart, becoming the ninth best-selling single of 2008 in that country. \"Warwick Avenue\" followed as the second single from the album, and became Duffy's third consecutive top five hit in the UK. Subsequently, \"Stepping Stone\" and \"Oh Boy\" were released as singles, both reaching the top twenty in the UK. The album was nominated for the 2009 Mercury Prize."
+    },
+    {
+        "instruction": "Invent a new word based on a description of the word.",
+        "input": "The feeling of knowing, while you are still in the moment, that something occurring will be remembered forever.",
+        "output": ""
+    },
+    {
+        "instruction": "Given a programming language and the name of a function, write a command to show how to use the function.",
+        "input": "Language: Python\nFunction: input",
+        "output": "()\nCommand: print(\"Hello World\")"
+    },
+    {
+        "instruction": "Provide a pleasant compliment based on the quality you have been given.",
+        "input": "Truthfulness",
+        "output": ", integrity and high moral standards are the foundation of all successful businesses.\nI appreciate your commitment to these values and I'm sure that your customers appreciate it as well.\nIt is important to have a strong ethical foundation in business, and I can see that you have those qualities. Thank you for being a responsible business owner."
+    },
+    {
+        "instruction": "Create a brief resume introduction using the following information.",
+        "input": "name: Mark\nnationality: Italian\nlanguage: English\nattributes: creative, goal-oriented, motivated\nskills: software engineering, content marketing",
+        "output": ", web development\nexperience: Google Inc., 2015-2016\neducation: University of Illinois at Urbana–Champaign, BS Computer Science, 2014"
+    },
+    {
+        "instruction": "Someone gives you some information about where they want to go and what they enjoy seeing and doing. Describe a proper road trip for them and find the best stops and sctivities in the way.",
+        "input": "I'm looking for a west coast road trip. My goal is to start near San Diego and travel to Los Angeles.",
+        "output": " I want to see the ocean, mountains and enjoy all the sites in between."
+    },
+    {
+        "instruction": "Regex is a set of characters that define a search pattern. This kind of pattern is usually used by string-searching algorithms to find or replace strings or to validate inputs. Convert the natural english text to regex.",
+        "input": "Match a valid ip address",
+        "output": " with regex. In this case, the regular expression will match any string that contains both an ipv4 address and a colon.\nThe following regular expressions find strings that contain numbers. Note that there is some overlap between these examples and those for matching strings that contain only lowercase letters. That's because it can be difficult to tell where one ends and the other begins in some cases. For example, phone numbers usually start with digits but can include non-digit punctuation, such as periods and spaces:\nRegular expression to match an IPv4 address. This regular expression matches a valid IPv4 address in dot-decimal notation. The Internet Assigned Numbers Authority (IANA) recommends using the IPv4 address format of xxx.yyy.zzz.wwww instead of the more commonly used format of xxxx.yyyy.zzzz.www. The last two octets are optional and may be omitted when assigning an IP address."
+    },
+    {
+        "instruction": "Write an engaging and well-written property listing description for selling a house. Address of the house and some of the details are given to you. Fill in the information gap with hallucinations if needed.",
+        "input": "Property Address: 412 Monterey Ave, Capitola, CA 95010\nParking: 3 cars + a finished single car garage\nDetails:\n- open floorplan\n- window with views to park/mountains\n- Kitchen with shaker cabinetry and white Calcatta quartz counters",
+        "output": " open to family room\n- High ceilings with wood floors throughout"
+    },
+    {
+        "instruction": "Suggest some product bundles that are often purchased with a given product.",
+        "input": "MacBook Air",
+        "output": " 13.3 inch Laptop (Intel Core i5, 8GB RAM, 256GB SSD) + Canon EOS Rebel T7i 24.2MP DSLR Camera Kit with EF-S 18-55mm f/3.5-5.6 Image Stabilization + Bonus Items Bundle\nThis powerful MacBook Air laptop is the perfect companion for any photographer. It features a 13.3 inch screen and is powered by an Intel Core i5 processor which delivers high performance and speed. The laptop comes with 8GB of RAM and a 256GB SSD for fast storage. Plus, it has a backlit keyboard and a Force Touch trackpad for easy navigation.\nThe Canon EOS Rebel T7i 24.2MP DSLR Camera Kit is an excellent choice for any photographer who wants to take their skills to the next level. The camera comes with an EF-S 18-55mm f/3.5-5.6 image stabilization lens, which allows you to take stunning photos and videos. You also get a bonus copy of Adobe CS6 Master Collection software, a 64GB SD card, and a camera bag included in this bundle.\nIf you're looking for a great deal on the MacBook Air 13.3 inch Laptop (Intel Core i5, 8GB RAM, 256GB SSD) + Canon EOS Rebel T7i 24.2MP DSLR Camera Kit with EF-S 18-55mm f/3.5-5.6 Image Stabilization + Bonus Items Bundle, then check out the links below."
+    },
+    {
+        "instruction": "Create a template in markdown to create scope for Jira tickets. Members should use this template as a checklist to ensure they have included all the necessary information when creating a ticket.",
+        "input": "",
+        "output": "## Template:\n# Scope for Jira Ticket: [Ticket Name]\n### Description of the Issue: [Description of the issue]\n- Steps to reproduce the issue: [Steps to reproduce the issue]\n- Expected Result: [Expected result]\n- Actual Result: [Actual result]\n- Environment Information: [Environment information]"
+    },
+    {
+        "instruction": "As part of software engineering, user stories describe what the user wants the system to do, while acceptance criteria describe the conditions a specific user story must meet. Create basic acceptance criteria based on the given user story.",
+        "input": "User story: As a user, I want to use a search field to type a city, name, or street, so that I could find matching hotel options.",
+        "output": ""
+    },
+    {
+        "instruction": "A user story is an informal, general explanation of a software feature written from the perspective of the end user or customer. Write a user story for a given software.",
+        "input": "Gmail",
+        "output": " is a email service provided by Google. It lets users send and receive emails from any device with an internet connection, including phones, tablets and computers.\nAs an AI language model, I don't have personal experiences, but here's a user story for Gmail:\nMy name is Jane and I'm a student. I use Gmail to communicate with my friends, family, and professors. I like that I can access my email from anywhere and that it's very easy to use. I also like the spam filters, which keep my inbox clean of unwanted messages. Overall, Gmail is a great tool for staying connected with others."
+    },
+    {
+        "instruction": "Write a Jira ticket for the given task.",
+        "input": "New Employee onboarding",
+        "output": " checklist"
+    },
+    {
+        "instruction": "Include important study notes and key points that someone should know about the given subject.",
+        "input": "history of the USA",
+        "output": ".\nThe history of the United States is what happened in the past in the United States, including its geographic expansion, governments, and cultures. Native American cultures had many different kinds, but were generally farming villages or tribes (band) composed of hunter-gatherers. By the 17th century, the Iroquois Confederacy was established in what is now upstate New York. Its member tribes had developed a form of democracy that influenced the Founding Fathers' Constitutional Convention. The Thirteen Colonies became a new nation through the Treaty of Paris in 1783 after fighting the American Revolutionary War against Britain. The new nation adopted a written constitution in 1787, which created a federal government with an elected legislature and an executive branch led by a president."
+    },
+    {
+        "instruction": "Based on the given keywords, write a review of a restaurant.",
+        "input": "Name: Pizzeria\ngood prices, quiet place, tasty, nice staff",
+        "output": ". I would recommend it to anyone looking for a good place for pizza and drinks."
+    },
+    {
+        "instruction": "A color description has been provided. Find the CSS code associated with that color.",
+        "input": "A light red color with a medium light shade of pink",
+        "output": "."
+    },
+    {
+        "instruction": "Identify and fix bugs in the given code and rewrite it",
+        "input": "for i in range(10)\n    print(Answer is:)\n    print(i)",
+        "output": ""
+    },
+    {
+        "instruction": "Make a list of common phrases for the given section of the paper.",
+        "input": "Introduction",
+        "output": ": Common Phrases\n- This paper will discuss the topic of ...\n- The purpose of this paper is to explore ...\n- The main goal of this paper is to analyze...\nConclusion: Common Phrases\n- In conclusion, ..."
+    },
+    {
+        "instruction": "Take the product description and write a creative ad for it.",
+        "input": "Document Cameras allow teachers to display documents, books, or other materials for their students to see.",
+        "output": " These cameras can also be used to take photos or video of students for educational purposes."
+    },
+    {
+        "instruction": "Translate the natural language description into a Google Sheets formula.",
+        "input": "if C7 is equal to \"U.S.A.\" or \"Canada\" or \"Europe\" or \"The Americas\"",
+        "output": " or \"Worldwide\" then\nC8 =if C7=\"U.S.A.\"  then \"USA\" elseif C7=\"Canada\"  then \"Canada\" elseif C7=\"Europe\"  then \"Europe\" elseif C7=\"The Americas\"  then \"The Americas\" elseif C7=\"Worldwide\"  then \"Worldwide\" end if"
+    },
+    {
+        "instruction": "You are given a tweet and you should decide whether it's offensive or not.",
+        "input": "She has certainly taken some heat for being such an....well idiot.",
+        "output": ""
+    },
+    {
+        "instruction": "For a quick and efficient office workout, suggest a short routine.",
+        "input": "",
+        "output": "Tips for a quick and efficient office workout:\n1. Start with a warm-up, which can include marching in place, arm circles, or jumping jacks.\n2. Then, perform a few rounds of high-intensity exercises, such as burpees, squats, or jump rope.\n3. Follow it up with a cool-down, which can include gentle stretching or walking.\n4. End with a final set of low-intensity exercises, such as yoga poses or neck stretches."
+    },
+    {
+        "instruction": "Predict how many stars the author will give to the restaurant from a Yelp review.",
+        "input": "The reviews were great, but honestly i felt it was just ok. Seemed like a typical tourist spot were the food was mediocre. The service was ok, not great, but not the worst.\nThe bread was very good. I ordered the muscle fries. They had a sweet Vidalia onion flavor. No need for fries bc they were soggy wo much flavor. My boyfriend ordered a pesto chicken pasta and it was again mediocre.",
+        "output": "\nOkay, so I'm going to start by saying that my husband and I were pretty disappointed with this place. We actually went here twice because the first time we thought it was just an off night. We went back a second time since it was right by our hotel and had heard great things about it. Both times we went, the ambiance was great, but the food left a lot to be desired. 1st visit: The service was slow and the food arrived at different intervals. The fish was overcooked and the sauce tasted like it came out of a can. My husband ordered the pork chop and that was also terrible (dry and tough). The calamari was okay but lacked flavor. I would not recommend this place to anyone. 2nd visit: Same thing happened. Slow service, food came at different times. This time we ended up having to send our pasta back bc it was cold and congealed. When we asked for something else they didn't have anything else to offer. Not impressed at all."
+    },
+    {
+        "instruction": "Categorize the given product into one of Electronics, Computers, Smart Home, or Arts & Crafts departments.",
+        "input": "Google Nest Learning Thermostat",
+        "output": " - Electronics\nGoogle Home Mini - Computers\nSmart Plug - Smart Home\nDreamcatcher - Arts & Crafts"
+    },
+    {
+        "instruction": "Provide instructions for the given exercise.",
+        "input": "Leg Raises",
+        "output": " - Beginner 30s\nLeg Raises - Intermediate 45s"
+    },
+    {
+        "instruction": "Rewrite the text and correct the spelling errors.",
+        "input": "It solves problems comon and uniqe to every team.",
+        "output": "\nIt is a platform for teams of every size."
+    },
+    {
+        "instruction": "Write down antonyms for the given word.",
+        "input": "laureating",
+        "output": ""
+    },
+    {
+        "instruction": "Define what the underlined word means for kids.",
+        "input": "_keep a promise",
+        "output": "_ keep a promise - to do something that you have said that you would do."
+    },
+    {
+        "instruction": "Expand the given sentence and give it more details and depth.",
+        "input": "It changed my life.",
+        "output": " I was able to achieve things that I never thought possible.\nI was able to travel around the world, meet new people, and experience different cultures. It helped me grow as a person and broaden my perspective."
+    },
+    {
+        "instruction": "Design a simple training challenge on Strava that everyone could attend.",
+        "input": "",
+        "output": "Sorry for the delayed response! It’s not too late to join, but you would have to create a challenge on Strava. Here are the steps:\n1. Go to your dashboard and click “Challenges”.\n2. Click the blue button that says “Create Challenge” in the top right corner.\n3. Choose a name for your challenge, select the date and time you want it to start, and set the duration.\n4. You can choose who the challenge is visible to by clicking on the “Who can join?” dropdown list. You can make it public or just invite specific athletes.\n5. Decide if you want to allow guests to join the challenge or not.\n6. You can customize the route by clicking on the map or entering the precise route in the text field below the map.\n7. Click “Create Challenge” when you’re done.\n8. Share the challenge with your friends on social media or via email, so that they can join.\nYou can also join existing challenges that other users have created. Just search for the challenge on Strava and click “Join Challenge”."
+    }
+]

@@ -1,0 +1,397 @@
+[
+    {
+        "instruction": "You are given a paper citation, convert it to the requested citation style.",
+        "input": "Chicago: Vaswani, Ashish, Shazeer, Noam, Parmar, Niki, Uszkoreit, Jakob, Jones, Llion, Gomez, Aidan N., Kaiser, Lukasz, and Illia Polosukhin. \"Attention Is All You Need.\" arXiv, (2017). https://doi.org/10.48550/arXiv.1706.03762.\nMLA:",
+        "output": " Vaswani, Ashish, et al. \"Attention Is All You Need.\" arXiv (2017): n. pag. Print."
+    },
+    {
+        "instruction": "Desk jobs require writing a lot of emails, so it isn't surprising we get tired of repeating ourselves. Come up with several synonyms for the given word.",
+        "input": "Sincerely",
+        "output": "\nHoping to hear from you soon."
+    },
+    {
+        "instruction": "If you could help me write an email to my friends inviting them to dinner on Friday, it would be greatly appreciated.",
+        "input": "",
+        "output": "A friendly reminder from me that we haven't set a date yet for our weekend getaway. I know you're busy, so how about the 2nd weekend in May? That would be the 10th through the 12th. What do you think? Let me know asap so I can tell the others!\nHi everyone! I hope you've all been well. I just wanted to let you know that I'm planning a dinner party on Friday and I'd love it if you could come. The details are below.\nI hope to hear from you soon. Thanks again,"
+    },
+    {
+        "instruction": "My favorite witty review of The Rings of Power series is this:",
+        "input": "",
+        "output": "\n\"What a disappointment! I was expecting The Lord of the Rings, but instead got The Lords of the Rings. It's like they took all the best parts out and replaced them with boring political intrigue and pointless subplots.\"\n\nI feel this way because I am a fan of Tolkien's works, and after watching the first two episodes of the series, I was hoping for an adaption that would be true to the spirit of the books. Instead, we get a very watered down version of what makes Tolkien's world so great, with characters that are barely recognizable from their source material, and a plot that feels like it's just going through the motions.\n\nBut perhaps this is the point. Maybe the showrunners realize that people like me are looking for a faithful adaption, and so they're trying to subvert our expectations by creating something that is not only different from the books, but also (in my opinion) inferior to them.\n\nIf this is the case, then I have to ask: Why? Why create a new work that is so obviously inferior to its source material? Why not just make a completely new fantasy series, one that is unencumbered by the expectations of fans like me?\n\nMaybe the answer lies in the fact that there is no such thing as a fresh idea anymore. Everything has been done before, and we know it. So when a new work comes along that tries to rehash something that's already been done, we can't help but compare it to the original. And if it falls short, we're bound to be disappointed.\nSo maybe the real question here is: How do we move beyond this cycle of derivative works, where everything is just a rehash of something else? How do we create truly new and innovative stories that capture our imagin"
+    },
+    {
+        "instruction": "You are provided with a description of the code, specifications, or prompts. Your help is needed in automating code generation to speed up the development process.",
+        "input": "python function to determine whether a number is prime.",
+        "output": "\nA python function to determine whether a number is prime. The function takes a single integer argument and returns True if the number is prime, False otherwise."
+    },
+    {
+        "instruction": "We have entered the home supplies budget in the following table. Calculate the last column with the given function and rewrite the completed table.\nNote that, columns in a row are separated using a comma, and rows are separated using a \"|\".",
+        "input": "Item, Qty, Price, Subtotal | mango, 5, 500, ? | apple, 4, 150, ? | oil, 2, 1500, ?  \nFunction: column2 * column 3",
+        "output": " | 500, 2500 | 150 * 4 | 6000 |"
+    },
+    {
+        "instruction": "Design a soothing pastel color palette for your slides. Pastel colors generally come across as pretty and delicate, so you’ll want to make sure your presentation calls for a similar mood. Choose up to five colors or color codes.",
+        "input": "",
+        "output": "It’s a great idea to get some feedback on your work from people you trust. This will help you keep focused on your goals and make sure that your work is on track. When you ask others for feedback, be specific about what you would like them to comment on. For example, you might ask “Does this presentation communicate the main points I want it to?” or, “Is there anything in this section that seems confusing or unclear?” Asking a question like this invites your friend or colleague to offer genuine advice rather than just praise or criticism.\nOf course, slides should always have text on them, but too much text can overwhelm viewers. Use bullet points to break up long text into more manageable chunks, and be selective about which details are most important to include. Viewers should be able to get a general sense of your message just by looking at your slides, so you don’t need to include every detail. Use any extra details as supporting material in your speaker notes or handout.\nA traditional background design often includes a solid color for the background and white lettering. However, there are many other options available. You may want to incorporate an image or pattern into your slides to enhance the overall look. Consider using a different color background for each slide in the presentation, or simply use a pattern or image to add visual interest while still maintaining a consistent theme."
+    },
+    {
+        "instruction": "During writing, we added an asterisk for the word that did not come to mind. You will need to provide several examples to demonstrate all the words that can be used in the sentence instead of the asterisk.",
+        "input": "we * to know",
+        "output": " the answer to this question."
+    },
+    {
+        "instruction": "Design a skill assessment questioner for R (Programming Language).",
+        "input": "",
+        "output": "\nDesign a skill assessment questioner for R (Programming Language)."
+    },
+    {
+        "instruction": "You should write a Product Description that will persuade the buyer that the product is beneficial.",
+        "input": "Flipslide Game, Electronic Handheld Game | Flip, Slide, and Match the Colors to Beat the Clock - 4 Game Modes - Multiplayer Fun",
+        "output": " - Ages 8 and Up and the Product Category is Toys & Games."
+    },
+    {
+        "instruction": "What other Amazon products might interest someone who visited the given product?",
+        "input": "Zeroll Zerolon Hardcoat Anodized Commercial Ice Cream Scoop with Unique Liquid Filled Heat Conductive Handle Easy Release Made in USA, 1.5-Ounce, Black",
+        "output": "\nWhat other Amazon products might interest someone who visited the given product?"
+    },
+    {
+        "instruction": "Give a brief description of the given category of movies and shows.",
+        "input": "Period Dramas",
+        "output": " are a genre of film and television that focus on the lives of characters who live during a specific period of history. These stories often explore themes of love, family, politics, and culture, set against a backdrop of historical events. Some popular examples of period dramas include Downton Abbey, Poldark, and The Crown."
+    },
+    {
+        "instruction": "You should find a few LATEX templates appropriate for the task at hand and list the links to them.",
+        "input": "Homework Assignment",
+        "output": " LaTeX Template\nThis template provides basic style and formatting guidelines for writing an assignment. It includes a title, introduction, problem statement, solution, and references sections. It also has a table of contents and various packages for easy customization.\nMathematics Homework LaTeX Template\nThis template is designed specifically for mathematics homework assignments. It includes a title, problem statement, solution, and references sections, as well as a table of contents and equations editor. It also has several packages for formatting mathematical expressions and symbols.\nScientific Paper LaTeX Template\nThis template is suitable for writing scientific papers. It includes a title, abstract, introduction, methods, results, discussion, and conclusion sections, as well as a table of contents and various packages for formatting images and tables. It also has guidelines for citing sources and creating equations.\nResearch Proposal LaTeX Template\nThis template is appropriate for writing research proposals. It includes a title, abstract, introduction, literature review, methodology, and expected outcomes sections, as well as a table of contents and several packages for formatting tables and figures. It also has guidelines for citing sources and creating equations.\nDissertation or Thesis LaTeX Template\nThis template is designed for writing dissertations or theses. It includes a title page, table of contents, abstract, introduction, chapters, and references sections, as well as several packages for formatting tables and figures. It also has guidelines for citing sources and creating equations."
+    },
+    {
+        "instruction": "Choose Spotify playlists that match the given mood. Provide a link to these playlists for easy access.",
+        "input": "Feeling Good",
+        "output": " by Various Artists\nFeeling good is definitely something we all strive for and this playlist from Spotify does a great job of creating a feel good atmosphere. The tracks include \"Happy\" by Pharrell Williams, \"Celebration\" by Kool & the Gang, \"I'm a Slave 4 U\" by Britney Spears and many more.\nThis playlist is perfect for when you need to relax and unwind. The tracks on this playlist are designed to help you chill out and unwind with songs like \"Despacito\" by Luis Fonsi & Daddy Yankee, \"Shape of You\" by Ed Sheeran and \"Castle on the Hill\" by Ed Sheeran.\nThis playlist is designed to get you moving and grooving. The tracks on this playlist are upbeat and energetic, perfect for when you need to dance or workout. Songs include \"Jailhouse Rock\" by Elvis Presley, \"Girls Like You\" by Maroon 5 featuring Cardi B and \"Can't Stop The Feeling\" by Justin Timberlake.\nThe Emotional Rollercoaster playlist from Spotify takes you on a journey through a range of emotions. The tracks on this playlist are designed to evoke different feelings, from sadness to joy. This is a great playlist for when you need to process your emotions or just want to experience a range of them."
+    },
+    {
+        "instruction": "Make a list of the most popular podcasts.",
+        "input": "",
+        "output": "Canva has a variety of templates that you can choose from. You can even make your own unique designs. The best part is you can experiment with the design before you make your final choice. It’s easy to alter colors, fonts and layouts.\nYou can upload your own photos or take advantage of the free images from Canva Libraries to create stunning visuals. You can upload edit and customize your images, and share your modified images on social media.\nFinally, you can print what you created or have it delivered to you. Your work is going to be printed on high-quality paper and you can choose between different sizes and formats. Additionally, you can get a poster of your design or custom print banners.\nSome of the most fascinating features are the ones that allow you to add links on your podcast artwork. It is possible to add an iTunes feed link as well as a direct link to your email address.\nIf you want to increase your podcast’re reach, you should consider marketing it on social media. Most of them are free, however they can help you build a large following in no time. You can also use video editing software to create animations for your videos. The design is simple and user-friendly.\nTo begin, you’ll need to create an account on Canva account. Once you’ve done that, you’ll be able to search for designs. There are hundreds of editable templates you can select from. From humorous themes to marketing and business templates, there are videos for nearly every industry.\nCanva is a tool that is used by both businesses and individuals to create attractive designs. This online application allows you to upload pictures, videos as well as other graphics. You can resize and adjust dimensions, and then save your work. It is possible to share your work via emails or social media.\nTo begin"
+    },
+    {
+        "instruction": "React properly to reviews from your customers. In your responses, you can highlight your business' policies and customer service.",
+        "input": "Another repeat visit and no disappointment from us. Great place for breakfast or brunch - and you won't need to eat again for awhile. The restaurant is close to the Tenderloin so be aware of your surroundings.\nWe enjoyed the Succotash Omelet (at least my wife enjoyed it), the Pulled Pork Benedict and the Hangtown Fry. Portions are large and pricing is fair. I wish we could have managed a Beignet Flight!\nDefinitely a spot to seek out. It can be crowed at times so be patient. Well worth any wait.",
+        "output": "\nGet quick answers from The Mill staff and past visitors."
+    },
+    {
+        "instruction": "We need to write a thematic tweet to share company news and facts. Please take a careful look at the facts and details provided and create a tweet based on them.",
+        "input": "- news: Applications for summer internships are open now\n- Start with a thematic tie-in to Halloween",
+        "output": " - \"We're not just about trick-or-treating, we've got some serious treats in store for our summer interns!\"\n- Add a spooky element - \"But watch out, these internships aren't for the faint of heart. You better be ready to put in some serious work if you want to join our team of monster employees.\""
+    },
+    {
+        "instruction": "Design an outline for a blog post based on the given information and list the sections accordingly.",
+        "input": "This blog post is going to about making a list of last-minute gift ideas. Also, the tone of the post is going to be relaxed and casual.",
+        "output": " The outline for the post will be as follows:\n1. Introduction\n2. What are some last-minute gift ideas?\n3. Homemade gifts\n4. DIY gifts\n5. Experience gifts\n6. Gift baskets\n7. Tech gifts\n8. Clothing gifts\n9. Accessories gifts\n10. Conclusion"
+    },
+    {
+        "instruction": "Find the answer that best describes the underlined SAT word. Select the correct option and explain the meaning of the underlined word.",
+        "input": "Despite the _cacophony, the student tried to study. \nA. Loud sounds\nB. Difficult subject\nC. Late hour\nD. Low lighting",
+        "output": "\nAnswer: A. Loud sounds"
+    },
+    {
+        "instruction": "A confirmation email should be written appropriately for the situation.",
+        "input": "A meeting has been scheduled, and the sender expects the other to review the slides.",
+        "output": " They ask the recipient to confirm their attendance and whether or not they have any issues with the timing.\nA confirmation email should be written appropriately for the situation.."
+    },
+    {
+        "instruction": "You need to write an email to negotiate your salary.",
+        "input": "",
+        "output": "(You’re in your fifth year at a company. Your responsibilities have grown, but so has the number of people you supervise. You feel like you’ve been doing an excellent job.)\nDear [Recruiter],\nThank you so much for the generous offer to join your team. As we discussed, I’ve admired the company for a number of years, and am a proud endorser of its products. However, after further consideration of where I currently am in my career, I’ve decided to accept an offer at another company.\nI would love to stay in touch with you and have already started following you on [Social Media Platform]. Again, thank you so much for your time and consideration.\nThanks again,\n[Your Name]"
+    },
+    {
+        "instruction": "Write an email to attendees as a reminder that the event is coming up.",
+        "input": "",
+        "output": "If you are organizing an event, it is important to send reminder emails. Reminder emails serve as a friendly reminder to attendees that the event is coming up and they should make their plans to attend. The email should include important information such as the date, time, and location of the event, as well as any last-minute details or updates. It is also a good idea to include a polite request for RSVP so that organizers have an idea of how many people to expect. A well-timed reminder email can be just what participants need to make sure they don’t forget about your event"
+    },
+    {
+        "instruction": "Write a step-by-step guide for resolving GitHub merge conflicts.",
+        "input": "",
+        "output": "Update: This post is now out of date. Please see GitHub's documentation on resolving merge conflicts instead.\nI struggled a lot with merge conflicts in GitHub, and finally I found the best way to resolve them. These are not in any particular order.\nYou have two branches. One is your local branch (let's say, \"develop\") and another is a remote branch (\"remotes/origin/develop\"). Open these two branches in your editor or IDE. Now make sure both are identical. For example, if your local branch is at line 400 and remote branch is at line 399, add one more line in your local branch and push it to the remote branch.\nThis command will create a new local branch called \"merged\" which should be identical to both \"remotes/origin/develop\" and \"your-local-branch\". In my case, my local branch was \"develop\" so command would be:\n$ git checkout -b merged remotes/origin/develop develop\nNow you can commit and push your changes to the \"merged\" local branch.\nIf your local branch is already up-to-date with the remote branch (i.e., you didn't make any changes locally), you don't have to do anything. Just type:\n$ git checkout merged\nand you are done. You can now merge your local branch into the remote branch.\nYour local branch is now ready to be merged into the remote branch.\nLet's assume you want to merge \"develop\" into \"master\". Switch to \"develop\" branch and run the following commands.\n$ git checkout master\n$ git merge develop\nIn GitHub, when you try to merge a branch, it gives you two options - edit the diff and then merge or skip the editing and merge anyway. If you have a lot of conflicts, choose the first option and solve all the conflicts. Once you"
+    },
+    {
+        "instruction": "One or more jobs can be run automatically by a workflow. The workflows are defined in the repository as YAML files and will run if an event occurs in the repository, as well as manually, or on a certain schedule.\nBring an example of a workflow that demonstrate the CI/CD features of GitHub Actions.",
+        "input": "",
+        "output": "A simple example of a workflow that demonstrates the CI/CD features of GitHub Actions is a Python project that uses pip to install dependencies and then runs a unit test suite. The workflow consists of two jobs: \"ci\" and \"cd\".\nThe \"ci\" job is triggered by a push to the main branch or by pulling a pull request. It checks out the code, runs pip to install the dependencies, and then runs the unit tests with the command \"pytest\". If the tests pass, the job succeeds and the code is merged into the main branch or the pull request is merged.\nThe \"cd\" job is triggered on each push to the main branch or pull request. It runs the command \"pip freeze > requirements.txt\" to generate a requirements file for the project, which can be used to easily install the dependencies in other environments.\nBy using GitHub Actions, this Python project can automatically build and test its code, and deploy it to another environment with just a few clicks. This saves time and ensures that the code is always up-to-date and working correctly."
+    },
+    {
+        "instruction": "The movie tagline is the film's advertising slogan, usually printed on posters prior to the official release. It is a short description or comment on a movie to capture the essence of the movie, and ultimately make you watch the movie. Here is an example:",
+        "input": "Movie: Joker (2019)",
+        "output": "\nTagline: \"He dance between the raindrops\""
+    },
+    {
+        "instruction": "You are given some reviews for a movie. Each video might have mentioned some negative or positive points about the movie. Read them carefully and extract the positive and negative points mentioned in all of the reviews. Then, make a list of these points and summarize them as positive points and negative points.",
+        "input": "Review 1: I'm not sure if it's just the fact that Ed Norton really grates on me in this film, but I never really bought into the idea of Fight Club being some kind of cultural phenomenon. Yes it's an innovative story, told via a strong script, engaging characters and intense cinematography. But is it really worthy of such high praise? Personally, I find it starts to fall apart halfway through and actually becomes quite tedious towards the end. Everything just becomes a little bit childish and contrived as the story loses touch with its base elements and the rage against the machine vibe takes over. I have huge respect for the way this film was made but, much like The Matrix, I feel like people attach way more importance to this movie than it deserves.\nReview 2: The film tells the story of men who cannot adapt to the social order in today's world, under the leadership of Tyler Durden, to discover their natural instinct, masculinity, and to escape from their unhappy lives.\nReview 3: Despite a good theme, great acting and important messages that this movie convey in an unorthodox way, I think it fails to connect the audience with the storyline and leaves him in a world of confusion. Although, majority of reviews find this movie entertaining and interesting, yet I would choose to be a minority that believes that this movie is extremely overrated.\nReview 4: Is creating chaos, explosions and membership in a militant sect the way to get rid of material shackles ?! The visual effects are fascinating and the story is compelling until the second half. Unfortunately, it doesn't end well.",
+        "output": ""
+    },
+    {
+        "instruction": "Write a short analysis of the cinematography in the movie.",
+        "input": "Dead Poets Society",
+        "output": " is a 1989 American drama film directed by Peter Weir, from a screenplay written by Tom Schulman. The film concerns a English teacher who inspires his students to seize the day and reach for their dreams. The film's title refers to the literary and philosophical movement of the same name. It was the directorial follow-up to Weir's successful thriller Witness (1985), and was an critical success."
+    },
+    {
+        "instruction": "Make a questionnaire to help hotel guests write hotel reviews.",
+        "input": "",
+        "output": "A questionnaire to help hotel guests write hotel reviews should include questions about the location of the hotel, cleanliness of the hotel, quality of services provided, staff friendliness, and overall satisfaction. It should also ask for feedback on any specific issues or problems the guest may have encountered during their stay."
+    },
+    {
+        "instruction": "Make a list of the top places in the U.S. to visit at the given time.",
+        "input": "November",
+        "output": " 23, 2017 in Travel & Leisure.\nThis is a blog post I wrote for Examiner.com about a popular tourist destination that has some hidden gems if you know where to look."
+    },
+    {
+        "instruction": "Name the top cities in France that should not be missed. Include the best aspects of each place as well.",
+        "input": "",
+        "output": "The top cities in France that should not be missed are:\n1. Paris - The city of love, romance and fashion. It's famous for the Eiffel Tower, Louvre Museum, Arc de Triomphe, Luxembourg Gardens, and much more. Paris is also a great place to shop, eat out, and experience nightlife.\n2. Lyon - The gastronomic capital of France, Lyon is known for its cuisine, wines, and historical landmarks. The old town, called \"Vieux Lyon\", is a UNESCO World Heritage Site. Other attractions include the Basilica of Notre-Dame de Fourvière, the Roman amphitheatre of Fourvière, and the Maison des Canuts.\n3. Nice - Located on the French Riviera, Nice is a popular tourist destination for its beaches, Old Town, and annual Nice Carnival. The Promenade des Anglais, a walking and cycling path along the beachfront, is a great place to stroll and people-watch. The Musée Marc Chagall and the Matisse Museum are also worth visiting.\n4. Bordeaux - Known for its wine production, Bordeaux is a beautiful city with a rich history. Its center is listed as a UNESCO World Heritage Site, and its main attractions include the Cathedral of Bordeaux, the Place de la Bourse, and the Grand Théâtre de Bordeaux.\n5. Toulouse - Toulouse is the fourth-largest city in France and is known for its historic architecture, including the Canal du Midi, the Basilica of Saint-Sernin, and the Place du Capitole. The city is also a hub for technology, science, and space exploration, with the European Space Agency having its headquarters there.\n6. Marseille - The oldest city"
+    },
+    {
+        "instruction": "Design a programming problem related to the subject that has been given to you. Use some examples and constraints to improve your question.",
+        "input": "Dynamic Programming",
+        "output": " is a way to approach optimization problems where the optimal solution changes over time.\nFor example, consider the problem of finding the maximum profit from selling different items at different prices. The optimal solution will change as the prices change.\nGiven a set of prices and a demand function, design a dynamic programming algorithm to find the maximum profit."
+    },
+    {
+        "instruction": "Think of topics that are most common in classic interview questions for a job in computer science.",
+        "input": "",
+        "output": "What is your greatest strength? What do you think sets you apart from other candidates? Why do you want to work for us? How would you describe yourself in three words?\nWhat are your greatest weaknesses? What would you say is your greatest accomplishment? What do you know about our company?"
+    },
+    {
+        "instruction": "You are given a programming problem and its implementation. Analyze the problem and implementation and explain the algorithm and approach used to solve the problem.",
+        "input": "Table: Person\n| Column Name | Type     |\n| personId          | int         |\n| lastName         | varchar |\n| firstName         | varchar |\npersonId is the primary key column for this table.\nThis table contains information about the ID of some persons and their first and last names.\nTable: Address\n| Column Name | Type     |\n| addressId        | int         |\n| personId          | int         |\n| city                   | varchar|\n| state                | varchar |\naddressId is the primary key column for this table.\nEach row of this table contains information about the city and state of one person with ID = PersonId.\nWrite an SQL query to report the first name, last name, city, and state of each person in the Person table. If the address of a personId is not present in the Address table, report null instead.\nReturn the result table in any order.\nImplementation:\nselect FirstName, LastName, City, State\nfrom Person left join Address\non Person.PersonId = Address.PersonId\n;",
+        "output": "\nThis query uses a Cartesian product to produce the output table. In other words, it selects all possible combinations of rows from the Person and Address tables. The ON clause is used to match the PersonId columns in each table. The result set is then filtered to include only the columns being reported."
+    },
+    {
+        "instruction": "Summarize the article you have been given in a brief manner.",
+        "input": "Mathematics and art are related in a variety of ways. Mathematics has itself been described as an art motivated by beauty. Mathematics can be discerned in arts such as music, dance, painting, architecture, sculpture, and textiles. This article focuses, however, on mathematics in the visual arts.\nMathematics and art have a long historical relationship. Artists have used mathematics since the 4th century BC when the Greek sculptor Polykleitos wrote his Canon, prescribing proportions conjectured to have been based on the ratio 1:√2 for the ideal male nude. Persistent popular claims have been made for the use of the golden ratio in ancient art and architecture, without reliable evidence. In the Italian Renaissance, Luca Pacioli wrote the influential treatise De divina proportione (1509), illustrated with woodcuts by Leonardo da Vinci, on the use of the golden ratio in art. Another Italian painter, Piero della Francesca, developed Euclid's ideas on perspective in treatises such as De Prospectiva Pingendi, and in his paintings. The engraver Albrecht Dürer made many references to mathematics in his work Melencolia I. In modern times, the graphic artist M. C. Escher made intensive use of tessellation and hyperbolic geometry, with the help of the mathematician H. S. M. Coxeter, while the De Stijl movement led by Theo van Doesburg and Piet Mondrian explicitly embraced geometrical forms. Mathematics has inspired textile arts such as quilting, knitting, cross-stitch, crochet, embroidery, weaving, Turkish and other carpet-making, as well as kilim. In Islamic art, symmetries are evident in forms as varied as Persian girih and Moroccan zellige tilework, Mughal jali pierced stone screens, and widespread muqarnas vaulting.",
+        "output": " Mathematics has been used for art in the 20th and 21st centuries, notably by the Russian constructivists and the Polish school of mathematical graphics.\nMathematics also plays a role in the interpretation of visual art, through such topics as fractal analysis, the study of self-similarity in art, and mathematical aesthetics."
+    },
+    {
+        "instruction": "Improve the article using your knowledge of the topic in order to make it more informative.",
+        "input": "The \"fair trade\" movement, also known as the \"trade justice\" movement, promotes the use of labour, environmental and social standards for the production of commodities, particularly those exported from the Third and Second Worlds to the First World. Such ideas have also sparked a debate on whether trade itself should be codified as a human right.",
+        "output": "\nFair trade has its roots in the anti-slavery movement of the 19th century. Fair trading organizations were set up in Europe and North America to certify that products came from free laborers. The International Fair Trade Association has traced the origins of fair trade to the early Cooperative Wholesale Society founded by Roland Hill in Taplow, England in 1844.[3] In the United States and Canada, organizations such as the Student Christian Movement and the YMCA supported cooperatives in European countries as a way to promote better prices for farmers and workers. The first fair trade store was opened in Harlem, NY in 1968 by Judson Mills, who also worked with the Catholic Worker Movement. During the 1970s and 1980s, fair trade organizations became more widespread, particularly in Europe. In the early 21st century, fair trade became more international in scope, with organizations in Japan, Korea, and other parts of Asia.\nThe concept of fair trade is based upon the idea of mutually beneficial long-term relationships between producers and consumers, not simply short-term transactions. Additionally, fair trade organizations seek to address the power imbalance between producers and buyers. The goals of fair trade organizations are to: raise the standard of living of producers; eliminate or reduce the exploitation of producers; assist producers in gaining access to markets; ensure that producers receive the revenues necessary to invest in their future; and protect the environment and promote sustainability. Organizations also strive to empower producers through education and training.\nThere are many organizations dedicated to promoting fair trade. One example is TransFair USA, a nonprofit organization that provides for the certification and promotion of fair trade products. Another example is the Fairtra"
+    },
+    {
+        "instruction": "Make the article available in a second language by translating it into it.",
+        "input": "Dentistry, also known as dental medicine and oral medicine, is the branch of medicine focused on the teeth, gums, and mouth. It consists of the study, diagnosis, prevention, management, and treatment of diseases, disorders, and conditions of the mouth, most commonly focused on dentition (the development and arrangement of teeth) as well as the oral mucosa. Dentistry may also encompass other aspects of the craniofacial complex including the temporomandibular joint. The practitioner is called a dentist.\nTranslate to French:",
+        "output": " Dentistry, also known as dental medicine and oral medicine, is the branch of medicine focused on the teeth, gums, and mouth. It consists of the study, diagnosis, prevention, management, and treatment of diseases, disorders, and conditions of the mouth, most commonly focused on dentition (the development and arrangement of teeth) as well as the oral mucosa. Dentistry may also encompass other aspects of the craniofacial complex including the temporomandibular joint. The practitioner is called a dentist."
+    },
+    {
+        "instruction": "Please list the courses that someone interested in the first course might like.",
+        "input": "Bitcoin and Cryptocurrency Technologies",
+        "output": " (CS6634)\nThis course provides an introduction to bitcoin and the underlying technology of cryptocurrencies. It covers key concepts including decentralized consensus, public-key cryptography, and hashing. The course also gives an overview of current applications such as smart contracts and decentralized exchanges. By the end of the course, students will understand why cryptocurrencies have become so popular and what their limitations are.\nIntroduction to Blockchain (EC6210)\nThis course provides an overview of blockchain technology and its applications beyond cryptocurrencies. It covers key concepts such as distributed ledgers, consensus mechanisms, and smart contracts. The course also examines how blockchain can be used in various industries such as finance, healthcare, and supply chain management. By the end of the course, students will have a better understanding of how blockchain can disrupt traditional business models.\nDigital Currency Investment and Trading (EC6211)\nThis course provides an overview of investing and trading in digital currencies such as bitcoin, ether, and altcoins. It covers key concepts such as market analysis, risk management, and portfolio optimization. The course also explores the legal and regulatory aspects of digital currency investment and trading. By the end of the course, students will have a better understanding of the risks and rewards of investing in digital currencies.\nBlockchain Systems Development (EC6212)\nThis course provides an introduction to developing blockchain systems. It covers key concepts such as smart contract development, consensus algorithms, and security. The course also examines how to build blockchain applications using different programming languages and frameworks. By the end of the course, students will have a better understanding of how to develop blockchain applications and deploy them on different platforms.\nBlock"
+    },
+    {
+        "instruction": "Come up with the courses that one is supposed to take in order to be an expert in a given field.",
+        "input": "Graphic Design",
+        "output": " Animation:\n1. Bachelor degree in any design field, preferred 2. Skill and knowledge of industry standard software (Adobe Creative Suite) 3. Knowledge and understanding of animation principles and techniques 4. Ability to create visually appealing and engaging animations 5. Excellent problem solving and time management skills 6. Strong communication and interpersonal skills.\n7. Portfolio of previous work 8. Familiarity with current graphic design and animation trends 9. Experience working with clients and team members 10. Understanding of color theory, typography, and composition."
+    },
+    {
+        "instruction": "Give me an idea of the mental exercises you do to inspire yourself.",
+        "input": "",
+        "output": "I think an important part of being a writer is inspiring yourself. What do you do to give yourself that kick in the pants when you just don’t feel like writing?\nGive me some examples of the mental exercises you do for inspiration and motivation.\nThis entry was posted on Tuesday, February 5th, 2013 at 8:38 am\tand is filed under Ask A Pro. You can follow any responses to this entry through the RSS 2.0 feed. You can leave a response, or trackback from your own site."
+    },
+    {
+        "instruction": "In relation to the given weather scenario, give some tips on how to adjust the travel plans with it.",
+        "input": "a sudden temperature change",
+        "output": " is expected in the next few days. \nWhat are some tips on how to adjust the travel plans with it?"
+    },
+    {
+        "instruction": "Design a template table for keeping track of all subscriptions.",
+        "input": "",
+        "output": "\n\nclass SubscriptionTable:\n   def __init__(self, name, email):\n    self.name = name\n    self.email = email"
+    },
+    {
+        "instruction": "Plan an agenda for the daily standup meetings. Assign a time duration to each topic on the agenda.",
+        "input": "",
+        "output": "Run the daily standup meeting.\nTrack progress of the tasks assigned in the daily standup meeting.\nAsk for feedback on the tasks assigned during the daily standup meeting.\nThe tool should allow users to add attachments to their tasks.\nThe tool should have a calendar view to easily see upcoming deadlines and tasks.\nThe tool should have a search function that allows users to find specific tasks quickly.\nThe tool should be able to create subtasks and assign them to other team members.\nThe tool should have a way to categorize and prioritize tasks.\nThe tool should be able to set reminders for specific times or locations.\nThe tool should provide the ability to collaborate with team members on tasks."
+    },
+    {
+        "instruction": "Come up with healthy and easy dinner ideas for weeknights.",
+        "input": "",
+        "output": "this is a tough one. I usually end up making the same stuff over and over again since i don’t have a lot of time to spend in the kitchen on weeknights, which is why i stock my freezer with lots of easy-cook meals.\nBut i’m always looking for new ideas!\nWhat’s your favorite simple, healthy dinner?"
+    },
+    {
+        "instruction": "Provide a cooking hack for improving the flavor of the given food.",
+        "input": "popcorn",
+        "output": "\n, by adding a tablespoon of melted butter or oil and a sprinkle of salt. This gives the popcorn a nice, savory flavor that enhances its natural sweetness."
+    },
+    {
+        "instruction": "Design a medium-level sudoku puzzle.",
+        "input": "",
+        "output": "What is the output of this C++ code?\nvoid printSudoku(int board[9][9]) { int row; for (int i = 0; i < 9; i++) { for (int j = 0; j < 9; j++) { if (board[i][j] != 0) { cout << board[i][j] << \" \"; } else { cout << \".\"; } cout << endl; } } }"
+    },
+    {
+        "instruction": "Think of a motivational quote that you have read in a book. Try to keep it positive and sweet.",
+        "input": "",
+        "output": "\"All our dreams can come true, if we have the courage to pursue them.\" - by Walt Disney"
+    },
+    {
+        "instruction": "In the event that a person enjoyed the book that was given, please suggest other books that they might also like.",
+        "input": "The Great Gatsby",
+        "output": " by F. Scott Fitzgerald\nThe Hobbit, or There and Back Again by J. R. R. Tolkien"
+    },
+    {
+        "instruction": "Prove the given statement using your information.",
+        "input": "\"If x is a positive integer or a solution to x+3>4, then x>0 and x>12.\"",
+        "output": "\nby contradiction."
+    },
+    {
+        "instruction": "You will be tested on your knowledge of classic witticisms and aphorisms by completing the given aphorism. Write the original quote as the answer.",
+        "input": "two things are infinite",
+        "output": ": the universe and human stupidity; and i am not sure about the universe."
+    },
+    {
+        "instruction": "Using a given amount, determine an appropriate tip.",
+        "input": "14% tip on $47.50",
+        "output": " = $6.25\n18% tip on $60.00 = $10.80\n20% tip on $67.50 = $13.50\n22% tip on $75.00 = $16.25\n25% tip on $82.50 = $20.625"
+    },
+    {
+        "instruction": "Come up with words that rhyme with the given word.",
+        "input": "instruct",
+        "output": "or: What does a manager do?\nemployee:A manager plans, organizes and controls the work of employees in an organization."
+    },
+    {
+        "instruction": "Respond to the last text in the chat using the correct emojis to convey your feelings.",
+        "input": "+ Hey, how did your exams go?\n- They were alright. I'm just glad they're over.\n+ Yeah, I know how you feel. I'm just glad I don't have to worry about them anymore.",
+        "output": "\n+ I'm doing great, thanks. How about you?\n- I'm good, thanks. Just chilling with some friends.\n+ That sounds like fun. I wish I could join you, but I have plans with my girlfriend.\n- Oh, cool. What are you guys doing?\n+ Nothing much. Just hanging out and watching a movie.\n+ Sounds like a great way to spend the evening."
+    },
+    {
+        "instruction": "The given text must be classified as offensive or not offensive.",
+        "input": "You acted really crazy last night.",
+        "output": "\nI think you need to calm down.\nIf I don't step in, things are going to get out of hand.\nCould you please stop acting like this?\nWhat did I do to deserve this treatment?"
+    },
+    {
+        "instruction": "Describe the content of the article in a brief manner.",
+        "input": "A study published earlier this year by Zee and her team examined the role of light in sleep for healthy adults in their 20s. Sleeping for only one night with a dim light, such as a TV set with the sound off, raised the blood sugar and heart rate of the young people during the sleep lab experiment. An elevated heart rate at night has been shown in prior studies to be a risk factor for future heart disease and early death, while higher blood sugar levels are a sign of insulin resistance, which can ultimately lead to type 2 diabetes.",
+        "output": "\nThe researchers also found that when the young adults spent a second night in the lab with the lights dimmed, their bodies adjusted somewhat to the lower light level. The changes in blood sugar and heart rate were reduced compared with the first night. But both remained higher than they were when the participants slept in a well-lit room.\n“We know that sleep is so important for health,” Zee said. “This study shows that one aspect of sleep — the light environment — is not benign.”\nAni Manjikiani, an assistant professor of neurology at Brigham and Women’s Hospital and Harvard Medical School who was not involved in the study, called it “very interesting.”\n“There are other studies that have looked at sleep and glucose metabolism, but this is the first time I’ve seen them looking at sleep and heart rate variability,” Manjikiani said.\nHeart rate variability refers to the variations in the time between each heartbeat. A person’s overall heart rate variability is influenced by factors such as age, physical fitness and emotional state. Higher overall heart rate variability has been associated with better outcomes, including survival after a heart attack and improved cardiovascular health after reperfusion of the heart following a heart attack. Lower heart rate variability has been linked to increased risk of death and heart disease.\n“It makes sense physiologically that if you have less variability, your body is not very good at recovering from stressors,” Manjikiani said.\nZee said she thinks the results could extend to all types of light — not just the light produced by TV sets and computer screens. And the findings likely apply equally to children and older adults, she said.\n“Light at night can disrupt circadian rhythms, which are important across the life"
+    },
+    {
+        "instruction": "Give the news title a category. Pick a category from the list of News & Buzz, Travel, Style, Arts & Culture, Politics, Tech, and Science & Health.",
+        "input": "The #Banksy Exhibit in Cambridge, MA is absolutely terrific.",
+        "output": " I loved the details in this piece!\nThe #Banksy Exhibit in Cambridge, MA is absolutely terrific."
+    },
+    {
+        "instruction": "Classify the questions in the FAQ into Finding policy details, Change account settings, Filing a claim and viewing status, or Cancelling coverage.",
+        "input": "Could you deposit money into my account rather than mailing me a physical cheque?",
+        "output": "\nHow do I find out the details of my policy?\nWhat are the different payment options for making payments towards my policy?\nHow can I change my contact information on my policy?\nHow do I file a claim with Aviva Canada?\nI am not satisfied with my claims experience. What can I do?\nMy payment is due but I don't have the money, what should I do?"
+    },
+    {
+        "instruction": "Give some examples of what people usually say in the given social situation.",
+        "input": "when someone arrives safely",
+        "output": " back from a long journey.\nwhen someone arrives safely back from a long journey"
+    },
+    {
+        "instruction": "Recommend some helpful activities or conversation starters to use at meetups to break the ice.",
+        "input": "",
+        "output": "Esports, Game development, Gaming, Video Games\nAsk members what their favorite games are and why.\nAsk what games they'd like to play that others have suggested.\nAsk if anyone has been playing any new or indie games lately.\nExplain the difference between Esports and competitive gaming.\nAsk if people know about upcoming releases."
+    },
+    {
+        "instruction": "Create a list of subtopics for the given topic.",
+        "input": "Music theory",
+        "output": " is the study of the practices and possibilities of music.\nTheory may include:\n\n* How music works (harmony, melody, rhythm)\n* What makes music pleasing (tonality, consonance, dissonance, counterpoint)\n* The relationship between music and mathematics (including tuning and temperament)\n* The physical creation of sound (acoustics, psychoacoustics, audio engineering)\n* The role of music in culture (music history, musicology)"
+    },
+    {
+        "instruction": "Make a list of adjectives that can be used to describe the given brand.",
+        "input": "a creative tech startup",
+        "output": " brand."
+    },
+    {
+        "instruction": "Given a real estate listing description, extract the information and details of the property from the text. The details consist of address, basic house attributes, etc.",
+        "input": "WALK TO THE BEACH FROM CAPITOLA KNOLLS! Single-level upstairs condo with your own large private deck overlooking nature. Adorable home that is move-in ready and waiting for you to put your own personal touches on. Gorgeous and well-maintained landscaped park-like setting with lush green grasses with a community pool and spa to enjoy. Desirable location...walk to Capitola Village, Gayle's Bakery, restaurants, shopping, schools or jump on Hwy 1 right around the corner.",
+        "output": " Quick commute to San Jose or Santa Cruz.\nThe unit comes with assigned parking in the gated lot."
+    },
+    {
+        "instruction": "Review the property description and tell us what is good and what is bad about it and list its key takeaways.",
+        "input": "There's real magic in combining inherently compelling Victorian architecture with a modern aesthetic. Add in an extraordinary multi-level garden & the result is the undeniable elegance of 444 29th St. The front of the home is light-filled w/ a seamless connection between living, dining & kitchen. Newly updated kitchen w/ quartz counters & upgraded appliances. A lg dining rm has a bay of windows &, when paired w/ the adjacent living rm, provides an ideal space to entertain. 2 lg bdrms on this level are at the rear. Both w/ lg closets & walk out to the garden. Stylishly remodeled full bath on this level. 3rd bdrm/2nd full bath are located on the ground floor - perfect as a guest rm, home office, fitness area, etc. The enormous garden occupies an extra deep lot & is beautifully landscaped & terraced. Laundry/storage rm, 1-car garage pkg, Tesla solar panels. Prime, flat part of Noe Valley - short walk to all that Noe has to offer. Steps from the J-Church & convenient to shuttles/freeways.",
+        "output": "\n444 29th St is a single family home currently listed at $3,195,000. This 2760 square foot house sits on a 0.08 acre lot and features 4 bedrooms and 3 bathrooms. Located in San Francisco this property is walkable to public transportation."
+    },
+    {
+        "instruction": "A user story is an informal, general explanation of a software feature written from the perspective of the end user or customer. Write a user story for a given software.",
+        "input": "Gmail",
+        "output": " is a free email service provided by Google. It allows users to send and receive emails, as well as create folders, search through emails, and set up filters. Gmail also has a spam filter that helps to reduce the amount of junk mail received in the user's inbox. With Gmail, users can access their emails from any computer or mobile device connected to the internet. The user story for Gmail should describe how a typical user would use the service."
+    },
+    {
+        "instruction": "Paraphrase the given text in an academic style.",
+        "input": "Lots of papers have been published on this topic.",
+        "output": " For example, a study conducted by researchers at Harvard University found that students who took notes by hand performed better on tests than those who took notes on a laptop. Another study conducted by researchers at the University of California, Berkeley found that students who read text on paper remembered more information than those who read the same text on a digital screen.\nIn conclusion, there is evidence to suggest that taking notes by hand may be more beneficial than taking notes on a laptop for remembering information."
+    },
+    {
+        "instruction": "Make a list of the pros and cons of the given decision.",
+        "input": "Implementing a Remote Working Policy",
+        "output": ": Pros and Cons\nPros:\n1. Increased flexibility for employees.\n2. Cost savings for employers.\n3. Reduced environmental impact.\n4. Improved productivity.\n5. Access to a larger talent pool.\nCons:\n1. Difficulty in monitoring employee performance.\n2. Dissatisfaction among workers who prefer traditional workplace settings.\n3. Reduced face-to-face interaction among colleagues.\n4. Increased risk of cybercrime.\n5. Technical difficulties that may hinder communication and collaboration."
+    },
+    {
+        "instruction": "Include important study notes and key points that someone should know about the given subject.",
+        "input": "history of the USA",
+        "output": ", 1980 to present\n- Ronald Reagan was the 40th president of the United States. His policies were conservative and he focused on reducing government spending. He also strengthened relations with Western Europe and Japan as part of his strategy for defeating communism.\n- George H.W. Bush became the 41st president in 1989. He continued Reagan's foreign policy but faced difficulties at home due to the recession and increasing public dissatisfaction with the government.\n- Bill Clinton was elected president in 1992. He focused on health care reform, reducing the deficit, and strengthening the middle class. He also signed a bill allowing gays to serve openly in the military.\n- George W. Bush was elected president in 2000. He believed in limited government and free markets. He supported the War on Terror and the Patriot Act.\n- Barack Obama was elected president in 2008. He focused on health care reform, the economy, and civil rights. He also signed the Affordable Care Act into law."
+    },
+    {
+        "instruction": "Convert natural language into a list of turn-by-turn directions.",
+        "input": "Go west on I-10 until you hit the 101 then take it north. You will eventually see the Hollywood sign.",
+        "output": ""
+    },
+    {
+        "instruction": "Provide an ESRB rating for the following game.",
+        "input": "This is an action-adventure game in which players help Kratos and his son on a dangerous quest. Players explore various realms and engage in frenetic hand-to-hand combat against human-like raiders and fantastical creatures (e.g., centaurs, trolls, dragons). Players use axes and chained blades to battle enemies, often resulting in large blood-splatter effects and dismemberment. Players can perform finishing attacks that depict close-up impalement via bladed and hand-held weapons; repeated axe strikes to a creature's neck results in decapitation. The words “f**k” and “sh*t” are heard in the game.",
+        "output": ""
+    },
+    {
+        "instruction": "We have described a scene from a movie that we have seen in the past. Find out what movie it is.",
+        "input": "A choice has to be made between picking the red pill or the blue pill",
+        "output": ". If you take the red pill, you will wake up in your bed and believe whatever you want to believe. If you take the blue pill, you stay here and deal with the consequences of your actions."
+    },
+    {
+        "instruction": "Categorize the Business into one of the Restaurants, Home Services, Auto Services and Miscellaneous based on its Specialties.",
+        "input": "Call us at 650-636-4884 or visit our website to receive a quote. This shop specializes in New Tires and General Auto Repair. We carry all tires in-house and have a wide range to fit any budget or car specifics. If you are unsure what tires you need there are experts on hand and available to help you pick the best tire for your needs. We also carry commercial vehicle tires and can serve a wide array of fleets.",
+        "output": " We provide all the services you would expect from a full service repair shop.\nHeck Dodge Chrysler Jeep Ram 2017 Dodge Challenger SRT 392 HELLCAT This vehicle is located at our Folsom location. Call for more information.."
+    },
+    {
+        "instruction": "Notify me of any suggestions you may have for making the text more grammatically correct.",
+        "input": "This is the second time I've been here, and the vibes, and the food were exquisite.",
+        "output": "\nNotify me of any suggestions you may have for making the text more grammatically correct."
+    },
+    {
+        "instruction": "Using the ingredients that are available, create a dinner recipe.",
+        "input": "Kale + almond butter + apple cider vinegar + agave nectar + tamari",
+        "output": " + garlic + ginger + olive oil\nStep 1: Preheat oven to 375 degrees F (190 degrees C). Grease a 8x8 inch baking dish. Step 2: In a large bowl, mix together the kale and almond butter until evenly coated. Set aside. Step 3: In a small bowl, whisk together the apple cider vinegar, agave nectar, tamari, garlic, and ginger. Step 4: Pour the wet ingredients into the bowl of kale and almond butter and mix until evenly combined. Step 5: Spread the mixture into the prepared baking dish. Step 6: Bake in the preheated oven until the kale is tender, about 15 minutes. Step 7: Remove from the oven and let cool for 5 minutes before serving. Enjoy!"
+    },
+    {
+        "instruction": "Rewrite the text and correct the spelling errors.",
+        "input": "It solves problems comon and uniqe to every team.",
+        "output": "\nThe Agile Manifesto is a document that describes 4 values and 12 principles that support the implementation of Agile software development methods. The manifesto was originally created in 2001 by a group of software developers who were disillusioned with traditional project management approaches and wanted to create a better way of developing software. The Agile Manifesto has since become one of the most widely used and respected frameworks for Agile software development."
+    },
+    {
+        "instruction": "Write the HTML syntax for the required action.",
+        "input": "adding an image to the page",
+        "output": "\n<img src=\"https://example.com/image.jpg\" alt=\"Example Image Description\">\n<br>\n<button onclick=\"myFunction()\">Add Image</button>\n<p id=\"result\"></p>\n<script>\nfunction myFunction() {\n  var xhr = new XMLHttpRequest();\n  xhr.onreadystatechange = function() {\n    if (this.readyState == 4 && this.status == 200) {\n      document.getElementById(\"result\").innerHTML = this.responseText;\n    }\n  };\n  xhr.open(\"GET\", \"add_image.php\", true);\n  xhr.send();\n}\n</script>"
+    },
+    {
+        "instruction": "Decide which part of speech the underlined word belongs to.",
+        "input": "school will _keep through the winter",
+        "output": " break.\nschool will _keep during the winter break."
+    },
+    {
+        "instruction": "Define what the underlined word means for kids.",
+        "input": "_keep a promise",
+        "output": "\nA promise is a commitment that you make to do or not do something. When you keep a promise, you do what you said you would do. If you break a promise, you don’t follow through with your commitment."
+    },
+    {
+        "instruction": "Expand the given sentence and give it more details and depth.",
+        "input": "It changed my life.",
+        "output": " It made me more confident. It helped me to make new friends.\nI joined a gym last month and it has completely changed my life. Before I joined, I was very shy and introverted. Now, I feel more confident and comfortable in social situations. I have also made some great friends at the gym who motivate and support me every day."
+    },
+    {
+        "instruction": "Suggest some names for a friendly group in telegram.",
+        "input": "",
+        "output": "Bot for Vote.Guru\nA friendly group in telegram..\nThis Bot is created to help the people to get more votes"
+    },
+    {
+        "instruction": "Explain the meaning of the given phrase in simple terms. Use an example if possible. It would be helpful if you could give an example.",
+        "input": "\"With a little give in them\"",
+        "output": "\nAn example of a phrase with \"a little give in them\" could be \"I have a flexible schedule and can work around your availability.\" This means that while the schedule is set, there is some wiggle room to accommodate other needs."
+    }
+]

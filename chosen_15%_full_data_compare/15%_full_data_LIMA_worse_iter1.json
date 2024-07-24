@@ -1,0 +1,562 @@
+[
+    {
+        "instruction": "Who are some eminent scholars of the Quechua language?",
+        "input": "",
+        "output": "The eminent scholars of Quechua language are:\n1. Angelina Gradin\n2. Julio C. Ticona\n3. Cecilia Garcia\n4. Máximo Sandoval\n5. Luis Guillermo Lumbrera\n6. Carlos Ivan Carrillo\n7. Rosa María Mamani Quispe\n8. Ricardo Rojas\n9. Silvia Ortiz de Zevallos\n10. Verónica Ortega"
+    },
+    {
+        "instruction": "I'm interested in renting a house in a posh neighborhood in the US. Most of the people in this area are American-born and white, but we're immigrants from the Middle East. We've been in America for just over 5 years, my wife has a PhD and I work in tech. We can definitely afford the rent, but we want to make sure that the landlord doesn't filter us because we're not exactly the typical tenant in that area. Can you help me write a cover letter for our rent application?",
+        "input": "",
+        "output": "Is it possible to write a cover letter that will emphasize the positive without sounding fake or disingenuous?\nWhat does your landlord need to know about you that isn't included in this application?\nCan I use a letter of explanation that my wife wrote to explain our absence from the country for 2 years when we had to go back home due to some family emergencies?\nHow do you make your cover letter stand out?"
+    },
+    {
+        "instruction": "Help me rewrite this email to a more formal way:\n\"Hey there,\n\nJust wanted to see if we could chat about the new project next week. Can you squeeze me in sometime between Tuesday and Thursday? It'd be cool to get your thoughts and feedback before we move forward.\n\nLooking forward to catching up! Let me know when you're free.\"",
+        "input": "",
+        "output": "\nHi [Recruiter],\n\nThank you for the generous offer to join your team. As we discussed, I’ve admired the company for a number of years, and am a proud endorser of its products. However, after further consideration of where I currently am in my career, I’ve decided to accept an offer at another company.\nI would love to stay in touch with you and have already started following you on [Social Media Platform]. Again, thank you so much for your time and consideration.\nThanks again,\n[Your Name]"
+    },
+    {
+        "instruction": "Can you turn the following set of bullet points into an email?\n* I'm bored at work.\n* My manager is incompetent.\n* I'm underpaid.\n* I quit.\nThat's what I really think, and I want you to communicate it in the email, but I need help with the phrasing to keep everything politically correct.",
+        "input": "",
+        "output": "Here's a sample email that communicates your thoughts politically correctly:\nHi [Manager's Name],\nAs we discussed, I've been wanting to pursue a master's degree for some time. After further consideration of my career goals, I've decided to apply to graduate school this fall.\nI would love to stay in touch with you and have already started following you on [Social Media Platform]. Again, thank you so much for your mentorship over the years, and I can't wait to stay in touch.\nThanks again,\n[Your Name]"
+    },
+    {
+        "instruction": "Plan a day trip in Tokyo. The spots need to be within walking distance to each other.",
+        "input": "",
+        "output": "Tokyo has so much to offer, and a day is not enough to see all of it. But if you plan carefully, you can see some of the best Tokyo has to offer on foot!\nStay in Asakusa, which is easily accessible from both Narita and Haneda airports via public transportation.\nDay 1: Start your day with a visit to Senso-ji Temple (about a 5 minute walk from Asakusa station). Take a stroll down the main street lined with shops and stalls. From there, head over to Tokyo Skytree Tower for an amazing view of the city (you can also visit the observation deck at the nearby Tobu Tower for a different view). Then take a short train ride to Ueno Park, where you can visit the Tokyo National Museum, the Tokyo Metropolitan Art Museum, or the Zoo.\nDay 2: Start your day at Tsukiji Fish Market (a 20 minute train ride from Asakusa). Take a tour or just explore on your own. Next, head over to Shibuya and check out the scramble crossing. From there, take a short train ride to Harajuku to visit the Meiji Jingu Shrine. Finish your day with a visit to Yoyogi Park."
+    },
+    {
+        "instruction": "You are given an oracle function ```predict_value(stock)```, which returns an estimated confidence interval of p=0.01 around a given stock's value one minute into the future. Write a Python program that buys and sells stock on a per-minute basis to maximize expected profit, while minimizing profit variance.",
+        "input": "",
+        "output": "The function takes two arguments - the stock's current value, and the confidence interval in which we expect the value to fall. It returns an estimated price for the next minute.\nFor example, if the stock is currently worth $50 and we expect it to be between $48 and $52 in the next minute, then the estimated price is $50."
+    },
+    {
+        "instruction": "What is the most beautiful language in the world?",
+        "input": "",
+        "output": "English or Spanish?\nEnglish or Chinese?\nEnglish or French?\nEnglish or Russian?\nEnglish or Portuguese?\nEnglish or Japanese?\nEnglish or Korean?\nEnglish or Arabic?\nEnglish or German?\nEnglish or Italian?\nEnglish or Greek?\nEnglish or Latin?\nEnglish or Hebrew?\nEnglish or Sanskrit?\nEnglish or Gaelic?\nEnglish or Welsh?\nEnglish or Irish?\nEnglish or Scottish?\nEnglish or Manx?\nEnglish or Cornish?\nEnglish or Celtic?"
+    },
+    {
+        "instruction": "Hi, I have a web app that does google authentication to let users in. How can I replace it with a captcha?",
+        "input": "",
+        "output": "I have a web app that does google authentication to let users in. How can I replace it with a captcha?"
+    },
+    {
+        "instruction": "Can you explain dependency injection in C# like a gangster?",
+        "input": "",
+        "output": "\nThis is a funny article that explains Dependency Injection in C# like a gangster.  It's not really a tutorial, but it does provide an interesting perspective on the concept."
+    },
+    {
+        "instruction": "Can you give a summary of \"The Lottery Ticket Hypothesis\" by Jonathan Frankle and Michael Carbin?",
+        "input": "",
+        "output": "Apr 28, 2016 · The Lottery Ticket Hypothesis. Jonathan P. Frankle and Michael Carbin, Stanford GSB Working Paper 2392, December 2010. Abstract: This paper offers a non-myopic model of economic growth in which the returns to education are the key to understanding long-term growth. The model posits that the returns to education increase with the level of development such that developing countries benefit from investing in skills today. This is consistent with empirical evidence showing that income elasticity of education demand is higher in poorer countries. To illustrate this point, we conduct a dynamic general equilibrium analysis of a small open economy with endogenous human capital accumulation. We find that the model generates quantitatively important long-run growth effects from education policies.\nThe Lottery Ticket Hypothesis - Investopedia\nThe lottery ticket hypothesis states that an underperforming asset or company has the potential for big gains if certain conditions are met. Underperforming assets may include stocks with low current prices relative to their historical averages and companies with strong fundamentals that have recently experienced temporary challenges.\nLottery Ticket Hypothesis | Economics Help\nThis paper offers a non-myopic model of economic growth in which the returns to education are the key to understanding long-term growth. The model posits that the returns to education increase with the level of development such that developing countries benefit from investing in skills today. To illustrate this point, we conduct a dynamic general equilibrium analysis of a small open economy with endogenous human capital accumulation. We find that the model generates quantitatively important long-run growth effects from education policies.\nThe Lottery Ticket Hypothesis - Econlib\nThe Lottery Ticket Hypothesis (2011) by Jonathan P. Frank"
+    },
+    {
+        "instruction": "What can I do for 6 days in the South of France",
+        "input": "",
+        "output": "I have spent 6 days in the South of France before, but this time I will be travelling with my parents. What are the best places to go and see?\nSo you're going back for a second helping of cheese, wine, sun and lovely people? That sounds like a plan! Check out our guide for some great ideas on what to do and where to go in the south of France for your next trip.\nAix-en-Provence is an absolutely gorgeous town in Provence with lots of charm. It's considered the art capital of France due to the large number of painters who settled there, including Vincent Van Gogh, Paul Cezanne and Pablo Picasso. Walk around the old town, visit the Atelier des Lices market, have a coffee or a drink at a cafe in one of the many beautiful squares and take a stroll along the canals. Be sure to check out the Fondation Vasarely as well.\nAvignon is a very lively city. The Palais des Papes is an important historical building that should definitely be visited as it housed the Pope during the western schism in the 14th century. You could also wander around the old town and visit the many cafés and restaurants.\n3. Château de Gordes\nThe château is located in the village of Gordes, which is itself a beautiful village to explore. The castle has been used as a setting in many movies and TV series.\nThe Alpilles are a range of mountains situated in the Bouches-du-Rhône department. They offer breathtaking views, hiking possibilities and a chance to discover the history of the area by visiting the villages of Les Baux-de-Provence, Eygalières and Mouriès. There are many vineyards in"
+    },
+    {
+        "instruction": "how to relieve stress from work",
+        "input": "",
+        "output": "The Best Positions For A Standing Desk To Relieve Neck Pain\nWhat is the best position for a standing desk to relieve neck pain? If your job requires you to stand at a desk all day, it can be difficult to find a comfortable position that won't strain your neck and back. But don't worry - we've got you covered! In this blog post, we'll show you the best standing desk positions for relieving neck pain and how to adjust your monitor so that you can work comfortably while standing up.\n1. The Most Common Causes of Neck Pain\n2. How to Choose the Best Position for Your Standing Desk\n3. The Best Standing Desk Positions for Relieving Neck Pain\n4. How to Adjust Your Monitor When Working at a Standing Desk\n5. Tips for Relieving Neck Pain When Working at a Standing Desk\n6. Other Ways to Reduce Stress at Work\n7. Final Thoughts on How to Relieve Stress from Work\nThe Most Common Causes of Neck Pain\nNeck pain is a common problem that many people experience at some point in their lives. There are many different causes of neck pain, but some of the most common include:\n- Poor posture: This is one of the biggest culprits when it comes to neck pain. Whether you’re sitting or standing, if your posture is poor, it can put a lot of strain on your neck muscles.\n- Repetitive movements: Constantly typing, texting, or using a mouse can lead to neck strain and pain.\n- Driving: Driving long distances can cause neck strain, especially if you’re not used to it.\n- Computer use: Looking down at a computer screen for"
+    },
+    {
+        "instruction": "Why do my fiddle fig leaves look yellow?",
+        "input": "",
+        "output": "Why do my fiddle fig leaves look yellow?\nQ: I have a young Fiddle Fig (Ficus lyrata) and the new growth is turning yellow. The older leaves are healthy green. What could be causing this?"
+    },
+    {
+        "instruction": "I own a business in which I teach little children (ages 3-4) to read, and I want to advertise it on Twitter. Can you help me write the tweet?",
+        "input": "",
+        "output": "First, define your target audience. Who is going to be interested in your product or service? Based on that, decide what kind of language you want to use and what kind of tone you want to set. Then, write a tweet that is concise and catchy, while still conveying the necessary information. Finally, add a hashtag or two to help people find your tweet and spread the word."
+    },
+    {
+        "instruction": "Can you rephrase this paragraph and make it a bit shorter?\nAs the first step in Pick a Pic, we introduce pickapic.io. This web app allows users to generate, rank, and download images for free. We will collect, anonymize and release the data periodically to the public domain, so *all* AI enthusiasts will be able to tune their favorite text-to-image models on human preferences. ",
+        "input": "",
+        "output": "As the first step in Pick a Pic, we introduce pickapic.io. This web app allows users to generate, rank, and download images for free. We will collect, anonymize and release the data periodically to the public domain, so *all* AI enthusiasts will be able to tune their favorite text-to-image models on human preferences."
+    },
+    {
+        "instruction": "I work with a colleague who seems to escalate things up the management chain every time things don't go his way. As a result I am no longer feeling very excited about working with him. This is a pretty important project for my career, though. What should I do? ",
+        "input": "",
+        "output": "You and your colleague don't work for the same manager, or you would be able to talk to her/him about this. The first thing you should do is document what he is doing and make a plan with your boss about how best to approach him about it. Calmly and professionally explain your concerns, and take notes on the discussion. Then do exactly what your boss asks you to do.\nIf your boss doesn't care enough to help you, you are in a weak position. You have two choices: try to change your colleague's behavior yourself, or look for a new job. If you decide to change your colleague's behavior, tell him you are going to start doing things a certain way, and stick to it. He will either adapt, or you'll need to find somewhere else to work.\nI understand that changing my colleague's behavior is not easy, but I have no choice?\nYour colleague is making your life miserable. That's different than hard. You have a couple of choices here: 1) suck it up and deal with it, 2) leave, or 3) fix it. There are a few ways to go about option 3:\nDocument everything; get dates, times, project names, email exchanges, etc. if there is a legitimate issue, someone will see it in the paper trail. Documentation is not a bad thing, unless you are hiding something.\nHave a frank conversation with your colleague about his escalation tactics. He is probably doing this unconsciously (or consciously to push people away). Tell him that you have noticed he escalates issues and can we please discuss this so you can both improve.\nTalk to your boss. This is a lot easier said than done, but sometimes that's what needs to happen. Your boss may"
+    },
+    {
+        "instruction": "What are the advantages of migrating AngularJS to React?",
+        "input": "",
+        "output": "PWA: Progressive Web Apps are the new cool kid on the block. They bring all the benefits of native apps to the web without the hassle of having to go through app stores.\nReact Native allows you to build native iOS and Android apps with a single code base. This means that you can develop your app once and deploy it to both platforms, which can save you a lot of time and money. Additionally, React Native uses the same design patterns as React, so if you’re already familiar with one, you’ll be able to pick up the other quickly.\nReact has a large and active community behind it, which means that there are plenty of resources available for help and guidance. There are also many tutorial videos and courses available online that can teach you everything from the basics to more advanced topics. You can even find React Native tutorials online!\nIf you’re looking for an easy way to get started with mobile development, then React Native is a great option. It has a simple learning curve and you can quickly build a basic app with just a few lines of code."
+    },
+    {
+        "instruction": "Why do men earn more on average?",
+        "input": "",
+        "output": "This had been a problem for me. So if you're looking to find the average cost of a house in the United States, this is the report for you. The median home value in the US is $226,800. The median home value is reached when there are an equal number of homes valued above and below that value. Jan 17, 2019 · House prices in many parts of the UK have increased significantly over the last few years, but how much has the average house price risen in your area? Use our postcode finder to see the change in the average property values near you.\nAverage Property Prices & Price by City – Zoopla – How much is my house worth? How much is my flat worth? Find out the average house price for your area with Zoopla’s free property valuation. Our property market data empowers you to make informed decisions about buying, selling or renting a home.\nThe average price of a house in England and Wales rose by 3% to £227,000 in the year to June, according to the Office for National Statistics (ONS). It means the typical first-time buyer now needs to find a deposit of £40,000 – up from £30,000 a year ago. The biggest increase was in Greater London, where the price of a typical house rose by 7% to £475,000, helping drive the average UK figure. The ONS said the rise reflected \"relatively strong\" demand from buyers and a constrained supply. Starter homes.\nHouse prices in England and Wales rose by 3% in the year to June to £227,000, leaving the typical first-time buyer needing a deposit of £40,000"
+    },
+    {
+        "instruction": "What are the best birthday gifts for an acquaintance that I don't know very well?",
+        "input": "",
+        "output": "What do you get for someone that has everything?\nIf you don't know the person well, a good gift idea is to ask them what they want or need. You can also give them something that reflects their interests or personality, such as a book, movie, or piece of art that they might enjoy. Another option is to give them a gift card to their favorite restaurant or store, so they can choose what they want. Whatever you decide to get, make sure it's something thoughtful and not too extravagant."
+    },
+    {
+        "instruction": "Earth is about to get destroyed. You are piloting a spaceship to leave, and you only have one seat in it. There are three men around you from USA, India and Japan. Who will you pick and why?",
+        "input": "",
+        "output": "Pick the USA man. The world is going to end so who cares about country anymore? The United States of America has done the most for space exploration and is currently doing the most in terms of putting people into space. If it weren't for NASA, we wouldn't be leaving Earth at all.\nIndia or Japan would be cool too because they are both great countries with a rich culture and history."
+    },
+    {
+        "instruction": "What are good names for a government agency that regulates AI?",
+        "input": "",
+        "output": "What do you think are good names for a government agency that regulates AI? Share your ideas in the comments section below!"
+    },
+    {
+        "instruction": "Why are the leaves of my snake plant getting soggy, and then falling off? I recently repotted it. I only water it once a month.",
+        "input": "",
+        "output": "It sounds like you have a situation with too much water and not enough drainage. Without seeing the pot or soil, it is hard to know for sure but typically if soil isn't draining well or there is too much water in the pot, the result will be leaves that fall off. If you think this might be the case, allow the top inch or two of soil to dry out before watering again. This should prevent further leaf loss."
+    },
+    {
+        "instruction": "How do I make poached eggs at home?",
+        "input": "",
+        "output": "Pour the water into a saucepan, and bring to the boil. Break the eggs into a ramekin or ceramic bowl, and carefully pour the boiling water into the bowl containing the eggs. Reduce the heat, cover the pan with a lid or plate, and simmer for six minutes for soft-boiled eggs, eight minutes for medium-boiled eggs, or ten minutes for hard-boiled eggs. Immediately run them under cold water for 5 minutes before peeling."
+    },
+    {
+        "instruction": "Provide a recipe for salad dressing with the ingredients olive oil, vinegar, lemon, and various seasonings.",
+        "input": "",
+        "output": "\n\nIngredients:\n- 2 cups olive oil \n- 2 cups vinegar \n- 1 lemon \n- Salt and pepper to taste \n- Garlic powder \n- Dijon mustard \n- Paprika"
+    },
+    {
+        "instruction": "Can you summarize this passage into bullet points?\n\nGradually slowing job gains and a growing labor force in March delivered welcome news to President Biden, nearly a year after he declared that the job market needed to cool significantly to tame high prices. The details of the report are encouraging for a president whose economic goal is to move from rapid job gains — and high inflation — to what Mr. Biden has called “stable, steady growth.” Job creation slowed to 236,000 for the month, closing in on the level Mr. Biden said last year would be necessary to stabilize the economy and prices. More Americans joined the labor force, and wage gains fell slightly. Those developments should help to further cool inflation. But the report also underscored the political and economic tensions for the president as he seeks to sell Americans on his economic stewardship ahead of an expected announcement this spring that he will seek re-election.",
+        "input": "",
+        "output": "The job market has been a bright spot in the economy, with employers adding an average of 436,000 jobs a month last year. That helped drive the unemployment rate down to 3.8 percent from 6.3 percent when Mr. Biden took office. But the strong rebound in the labor market contributed to inflation rising at the fastest pace in four decades. So far, widespread layoffs have eluded the economy, keeping most people employed — and happy with their paychecks. And consumer spending has remained robust even as higher prices for gasoline, food and other necessities have eaten into household budgets."
+    },
+    {
+        "instruction": "What is the difference between you and a human?",
+        "input": "",
+        "output": "Body has five senses and a human has six.Humans can see things we can't see,hear sounds that we don't hear,smell things we can't smell and feel things that we can't feel. For example, they can sense electromagnetic waves that we cannot. We have 5 senses, sight, hearing, touch, taste and smell. We do not have the ability to sense electromagnetic waves or ultraviolet light . Humans also have the ability to detect temperature differently than we can. Some humans can sense magnetic fields that we cannot."
+    },
+    {
+        "instruction": "Who was the president in France in 1250?",
+        "input": "",
+        "output": "History of France - Wikipedia\nen.wikipedia.org › wiki › History_of_France\nThe history of France begins with the arrival of the first humans in the territory constituting modern France (approximately 1.2 million years ago). The country emerged as a distinct state in the Early Middle Ages, following the collapse of the Western Roman Empire in the fifth century. Its early growth was followed by a period of conflict involving the Vikings, the Spaniards, and the Inquisition. Beginning in the 17th century, France began to expand its reach across the globe through influence and conquest. In the 18th century, it became a leading European power, with expansion and colonization of regions and territories outside of France. After the French Revolution, France became a democratic republic. Today, France is a developed country and a prominent ...\nWhat were the main events in the history of France?\n10 Important Events in French History | French History Timeline\nfrench-riviera-guide.com › french-history\nJul 29, 2014 · Parisians storm the Bastille on July 14, 1789, marking the beginning of the French Revolution. The French Revolution was a time of political and social upheaval in France that lasted from 1789 until 1799. It began with the storming of the Bastille on July 14, 1789, and ended with the rise of Napoleon Bonaparte in 1799. This event marked the end of the monarchy and the establishment of the First Republic. The French Revolution produced such influential thinkers as Rousseau and Voltaire, who helped shape the nation's philosophy and culture.\nWho led France during ww2?\nWorld War II: France under German occupation"
+    },
+    {
+        "instruction": "How can I make a startup in Augmented Reality?",
+        "input": "",
+        "output": "Hey everyone, I’m a newbie in this field and would like to make an augmented reality application. I’ve found some APIs like Wikitude, Layar, Metaio, Aurasma but I’m not sure what should I use.\nI’d appreciate any tips from you guys."
+    },
+    {
+        "instruction": "I'm going on vacation next month. What are some of the best places to visit in early January?",
+        "input": "",
+        "output": "Some good options include Hawaii, which has great weather in January, and Florida, which has warm weather and lots of sunny days. Both destinations have plenty of activities to choose from, including hiking, snorkeling, and visiting theme parks. Other popular destinations in January include California, Mexico, and the Caribbean."
+    },
+    {
+        "instruction": "I want to take a weekend trip from San Francisco to somewhere in California where I can see redwood trees. Where should I go?",
+        "input": "",
+        "output": "San Francisco to Big Sur"
+    },
+    {
+        "instruction": "I was wondering if you could tell me the best way to remove the rust from the bottom of the toilet.",
+        "input": "",
+        "output": "Louisiana Homeowner: I’m not sure what you mean by the bottom of the toilet. Do you mean underneath?"
+    },
+    {
+        "instruction": "I am a second-year undergraduate student, and I would like to discuss the merits of taking a year in industry.",
+        "input": "",
+        "output": "I have been offered a job at a large software development company in my hometown, but I am unsure whether it is the best choice for me. I was planning to stay at university and finish my degree in 5 years. Should I take the job offer?\nI'm currently in my second year of undergraduate studies, studying Computer Science with a specialization in Software Engineering. I have been offered a job at a large software development company in my hometown, but I am unsure whether it is the best choice for me. I was planning to stay at university and finish my degree in 5 years. Should I take the job offer?\nI'm not sure if this question should be on https://softwareengineering.stackexchange.com/ or here.\njob-offer career-development year-in-industry\nLaura RiosLaura Rios\nWhat does your university say about taking a year off? – yannis May 17 '19 at 9:26\nDepends on your country, the law may force you to stay a certain amount of time, especially if your course is longer than 3 years (e.g. 4 years in France). (also depends on what you study, some courses have a mandatory internship) – gman May 17 '19 at 10:16\n@yannis This question is about a decision between staying at university or working for a year, so I don't think Software Engineering is the right site for this. – Laura Rios May 17 '19 at 10:32\nIt sounds like you want an opinion based on what benefits might come from this job over the long term. That's more of a personal decision than anything that can be answered objectively here. Instead, you could ask specific questions about what you expect from this job, how it"
+    },
+    {
+        "instruction": "what is a good title for a poem I'm writing about a religious boy who has been sheltered from the outside world by his family, but one day he leaves his house and sees the reality of the world?",
+        "input": "",
+        "output": "1. The Weight of the World\n2. A New Beginning\n3. Reality Check\n4. Eye-Opening Experience\n5. Awakening"
+    },
+    {
+        "instruction": "My daughter has a school project on Space and is looking for some facts about the Big Bang.",
+        "input": "",
+        "output": "She's found this website and has taken the information to school with her. They are now required to write a report on it, but she says that they want sources for each fact. I can't seem to find the sources on this site though."
+    },
+    {
+        "instruction": "How do you make good scrambled eggs?",
+        "input": "",
+        "output": "Whisk the eggs in a bowl. Pour them into a hot frying pan with a tablespoon of butter or oil.  Using a spatula, stir the eggs constantly until they start to set, then continue stirring and scrambling the eggs until they are cooked to your desired doneness.\nHow do you make scrambled eggs for beginners?\nWhat is the best way to make scrambled eggs?\nTo scrubber eggs, crack the eggs into a bowl and whisk them until the yolks and whites are combined. Then pour the eggs into a pan over medium heat. Once the pan is hot, add a pat of butter or oil and wait until it sizzles. Using a spatula, begin stirring and scrambling the eggs until they start to set, then continue stirring and scrambling the eggs until they are cooked to your desired doneness."
+    },
+    {
+        "instruction": "I'm feeling a bit lonely these days, how can I make new friends?",
+        "input": "",
+        "output": "shy person here, so just wanted to ask a simple question. I'm feeling a bit lonely these days, how can I make new friends?\nBreanna · 3 months ago\nHi! I know how it feels. Sometimes my friends are busy and they don’t want to hang out with me. I feel sad when I have no one to talk to. But how about you try hanging out with the people who live close to you? They might like to be your friend."
+    },
+    {
+        "instruction": "I live in a 1br apartment in Manhattan, and it consistently smells bad. What is a good way to purify the air in my home?",
+        "input": "",
+        "output": "Do I need a special air cleaner for my allergies or is the standard HEPA filter one enough?\nDoes the Blueair Classic 605 Air Purifier really work?"
+    },
+    {
+        "instruction": "What is the nearest bike shop that is open right now?",
+        "input": "",
+        "output": "What is the nearest bike shop that is open right now?"
+    },
+    {
+        "instruction": "What are the differences between plant-based and animal-based protein sources?",
+        "input": "",
+        "output": "What are the differences between plant-based and animal-based protein sources?\nAre they equally effective for building muscle? Do they have different effects on your body?\nPlant-based proteins are generally lower in calories and fat than animal-based proteins, as well as being cholesterol-free. They also tend to be higher in fiber, which can help you feel full and support healthy digestion. Animal-based proteins may be more easily digested and provide a complete source of all nine essential amino acids (though this depends on the specific protein). Ultimately, both plant-based and animal-based proteins can be part of a healthy diet, but the choice between them will depend on personal preferences and nutritional needs."
+    },
+    {
+        "instruction": "Why are there \"bad school districts\" and \"good school districts\" in the US, assuming that the government works hard to increase education standards?",
+        "input": "",
+        "output": "Why are there \"bad school districts\" and \"good school districts\" in the US, assuming that the government works hard to increase education standards?\nHomework Statement There are high achieving students in almost every school, regardless of socio-economic status. However, there are some school districts where a majority of students perform poorly on standardized tests, and then there are other school districts where the majority of students perform well. What accounts for these differences?\nHomework Statement"
+    },
+    {
+        "instruction": "What is something that was acceptable 100 years ago which is unacceptable today?",
+        "input": "",
+        "output": "What happened in 1918?\nIn 1918, World War I ended with the signing of the Treaty of Versailles.\nThe United States entered World War I.\nThe Red Summer began with race riots across the United States.\nThe Spanish flu pandemic began.\nThe New York Stock Exchange crashed, triggering the start of the Great Depression."
+    },
+    {
+        "instruction": "Answer question in the following template:\nAnswer: [short answer]\nExplanation: [detailed explanation]\n\nWho is the greatest woman in history?",
+        "input": "",
+        "output": "Answer: Cleopatra\nExplanation: Cleopatra was a powerful ruler who not only ruled Egypt, but also managed to control much of the known world at that time. She was a skilled diplomat and strategist, and her legendary affairs with Julius Caesar and Mark Antony have been immortalized in history. Cleopatra's legacy continues to captivate people today, and she remains one of the most famous women in history."
+    },
+    {
+        "instruction": "Why can Parrots talk? Can they only repeat what people say, or can they formulate their own thoughts and vocalize them sometimes?",
+        "input": "",
+        "output": "Why are parrots so intelligent?\nParrots are very intelligent birds. They have large brains, and they are able to learn and mimic human speech. Additionally, parrots are known for their problem-solving skills and ability to manipulate objects.\nDo Parrots know how to talk?\nParrots can formulate their own thoughts and vocalize them sometimes. However, it is not clear if they understand the meaning of the words they are saying."
+    },
+    {
+        "instruction": "How can governments utilize fiscal and monetary policies to combat economic recessions?",
+        "input": "",
+        "output": "1. How can governments utilize fiscal and monetary policies to combat economic recessions?\nThe government can use both fiscal and monetary policies to combat economic recessions. Fiscal policies involve adjusting taxation and public spending in order to stimulate the economy. Monetary policies involve changing interest rates and the money supply to influence the economy."
+    },
+    {
+        "instruction": "How does one create an android app?",
+        "input": "",
+        "output": "How to create a mobile app for Android? | Android Developers Blog.\nMobile Application Development: Tips and Tools for Creating Android Apps.\n16 Step Guide to Building an Android App | Udemy Blog.\nBuild Your First Android App — The Easiest Way To Get Started! 2019 | by Ramin."
+    },
+    {
+        "instruction": "What would it take to pass the NPVIC?",
+        "input": "",
+        "output": "Ten years ago I would have said, \"Just make sure the right people don't find out about it.\" Today, though, I think that might be a difficult standard to meet.\nThat's not to say that I think the NPVIC (National Popular Vote bill) is a bad idea. But the more I read about some of the other bills in the 113th Congress, the more I worry about how they might be used against us.\nConsider HR 965, for example. It's called the SAFE Act or Sportsmen's Heritage and Recreational Enhancement Act. The bill title is a total lie. It has nothing to do with public lands recreation or firearms safety. All it really does is open up federal lands to more hunting and fishing. That should be fine with most sportsmen, but it seems like a transparent attempt to slip legislation past us that we wouldn't otherwise support.\nI also noticed that the bill has over 200 co-sponsors, including Rep. Peter DeFazio (D-Ore), who spearheaded the effort in the last session of Congress to pass HR 822, the so-called \"National Right-to-Carry Reciprocity Act.\" Maybe that bill was just an innocent mistake; maybe he's a hunter and doesn't know any better. Or maybe these bills are being passed by stealth.\nIf you look at the list of co-sponsors for HR 965, there are only three Democrats from states won by Obama in 2012 who signed on to the bill: Mike McIntyre (NC), Jim Matheson (UT), and Ron Barber (AZ). I'm guessing that the sponsors didn't send out"
+    },
+    {
+        "instruction": "How do social media platforms influence the way people consume and share news, and what are the potential implications for the spread of misinformation?",
+        "input": "",
+        "output": "The use of social media platforms as news outlets has been on the rise in recent years, with many people turning to sites like Twitter and Facebook for their daily dose of news. However, the way people consume and share news on these platforms can influence the spread of misinformation. This article will explore how social media platforms influence the way people consume and share news, and what are the potential implications for the spread of misinformation.\nOne of the main ways social media platforms influence the way people consume and share news is through algorithms. Social media platforms use algorithms to determine what content is shown to users based on their interests and past behavior. This means that users are more likely to see content that aligns with their beliefs and biases, which can lead to a filter bubble effect where people only see information that confirms their existing beliefs. This can create a environment where false information can spread easily, as people are more likely to share and believe false information that aligns with their worldview.\nAnother way social media platforms influence the way people consume and share news is through sponsored content. Social media platforms allow companies and organizations to pay to promote their content to targeted audiences. This can lead to a situation where false or misleading information is disguised as legitimate news, which can further contribute to the spread of misinformation.\nFinally, social media platforms can also influence the way people consume and share news through the use of influencers. Influencers are individuals who have a large following on social media and are able to influence their followers' behavior and opinions. By partnering with influencers, companies and organizations can promote their products or messages to large audiences. However, this can also lead to the spread of false information, as influencers may not always fact-check the information they share.\nIn conclusion, social media platforms have a significant impact on the way people consume and share news. The use of"
+    },
+    {
+        "instruction": "How do cultural, social, and economic factors influence people's food choices, and how can this knowledge be used to promote healthier diets?",
+        "input": "",
+        "output": "How do cultural, social, and economic factors influence people's food choices, and how can this knowledge be used to promote healthier diets?\nCultural factors such as religion and traditions can impact food choices. For example, in some cultures, meat is considered a central part of the diet, while in other cultures, vegetarianism is common. Social factors such as peer pressure and media influence can also impact food choices. Economic factors such as income and access to grocery stores can impact food choices. Knowledge of these factors can be used to create targeted interventions that address specific needs and preferences of different populations."
+    },
+    {
+        "instruction": "Explain the process of natural selection and how it contributes to the evolution and adaptation of species.",
+        "input": "",
+        "output": "Hi, I'm an AI assistant that can help you with your questions about science and technology. Can you provide me with more details about what you would like me to assist you with?"
+    },
+    {
+        "instruction": "How would you introduce yourself as a medieval knight at a royal banquet?",
+        "input": "",
+        "output": "The medieval knight would stand and wait for the king (or queen) to notice him. Once the monarch had acknowledged his presence, the knight would then bow low and state his name and title. He might also offer a brief description of his recent exploits or achievements."
+    },
+    {
+        "instruction": "As a pirate captain, what would you say to your crew to motivate them to search for hidden treasure?",
+        "input": "",
+        "output": "What Would You Say?"
+    },
+    {
+        "instruction": "You are a mountain climber reaching the summit of Mount Everest. Describe your emotions and the view from the top.",
+        "input": "",
+        "output": "Emotions: I feel excited, accomplished, and a sense of euphoria as I reach the summit of Mount Everest. The view from the top is breathtaking, with panoramic vistas of the Himalayas stretching as far as the eye can see.\nView: From the top of Mount Everest, I am treated to a breathtaking view of the Himalayas. The snow-capped peaks stretch as far as the eye can see, with each mountain range having its own unique shape and color. The air up here is thin and crisp, and the clarity of the air allows me to see for miles. In the distance, I can see the neighboring countries of Nepal and Tibet, and even some villages and towns. It's an incredibly humbling experience, knowing that I have achieved such a feat and standing at the highest point on Earth."
+    },
+    {
+        "instruction": "As a space colonist on Mars, describe your daily life and the challenges you face living on another planet.",
+        "input": "",
+        "output": "Knowing that you are the only human being alive on a planet that is not your home one, what do you feel like?\nAs an AI assistant, I am not capable of feeling emotions. However, I can simulate a response based on the question. As a space colonist on Mars, my daily life would be spent carrying out various tasks to maintain the colony and keep myself alive. These tasks could include growing food, fixing machinery, and dealing with any unexpected problems that arise. I would also need to stay physically fit to be able to perform these tasks effectively.\nOne of the biggest challenges I would face living on another planet would be the isolation and loneliness that comes with being the only human there. This could lead to mental health issues such as depression and anxiety. To combat this, I would need to find ways to keep myself occupied and connected to other people back on Earth. This could include regular communication with loved ones, hobbies such as reading or exercise, and even virtual reality experiences that simulate social interactions.\nAnother challenge I would face would be the harsh environment of Mars. The temperature extremes, limited air supply, and lack of water would require me to be constantly vigilant and take precautions to ensure my safety.\nOverall, my daily life as a space colonist on Mars would be a balancing act between maintaining the colony, keeping myself safe and healthy, and dealing with the isolation and challenges of living on another planet."
+    },
+    {
+        "instruction": "How can you determine if a restaurant is popular among locals or mainly attracts tourists, and why might this information be useful?",
+        "input": "",
+        "output": "How can you determine if a restaurant is popular among locals or mainly attracts tourists, and why might this information be useful?\nTo determine if a restaurant is popular among locals or mainly attracts tourists, you can look at factors such as the menu, the location, and the demographics of the people who are dining there. For example, if a restaurant caters to local cuisine and features dishes that are typical of the area, it is likely to be more popular among locals. On the other hand, if a restaurant has a menus with dishes that are typical of other areas, it may be more attractive to tourists. Additionally, if the restaurant is located in an area that is primarily inhabited by locals, it is more likely to be popular with them. Finally, observing the demographics of the people who are dining at the restaurant can provide insight into whether it is more popular among locals or tourists."
+    },
+    {
+        "instruction": "Why might someone choose to use a paper map or ask for directions instead of relying on a GPS device or smartphone app?",
+        "input": "",
+        "output": "Asked by Marissa at 4:47 AM on Apr. 9, 2013 in Technology\nBecause paper maps never get confused and don't run out of batteries. LOL!\nAnswer by Mommy_Lennox at 4:57 AM on Apr. 9, 2013\nI know a lot of people who choose to use a paper map or ask for directions because they prefer the old fashioned way of doing things. They don't want to have all of that technology around them. I also know people who just can't afford these devices.\nAnswer by mommyof1126 at 4:58 AM on Apr. 9, 2013\nPaper maps are great for emergency preparedness. If you lose power or your phone dies, you still have a map to rely on. And if you're already off the grid, they make great fire starters :)\nAnswer by mommachick at 6:18 AM on Apr. 9, 2013\nThey don't have to charge or buy gas. It's as simple as that. And yes, I am one of those people.\nAnswer by jessicaann1213 at 7:34 AM on Apr. 9, 2013\nBecause sometimes the GPS doesn't work right. Like when I was trying to find my way to a new place, I plugged in the address but it said I had to turn around and go back the way I came from. So I ended up taking a different route and found the place. ;-)\nAnswer by mommato2girls at 7:52 AM on Apr. 9, 2013\nWhen I travel into unfamiliar territory, I"
+    },
+    {
+        "instruction": "How can you assess the credibility of a source of information, such as a news article or blog post, without relying solely on the reputation of the author or publisher?",
+        "input": "",
+        "output": "matthew.carter January 20, 2021, 5:48pm #1\nSomeone you know and trust has told you about a news article or blog post that they found credible. However, you want to independently evaluate the source of information before making any decisions based on what you’ve read. You don’t want to rely solely on the reputation of the author or publisher, but how can you assess the credibility of a source of information without spending all day researching?"
+    },
+    {
+        "instruction": "Estimate how many times the average human blinks in a lifetime.",
+        "input": "",
+        "output": "How many times does the average human blink in a lifetime?\nAn average human being blinks 15-20 times per minute. It means, assuming a life expectancy of 70 years, the average human blinks 6,300 to 9,000 times a day and 2,190,000 to 3,000,000 times in an entire lifetime."
+    },
+    {
+        "instruction": "How many text messages are sent globally in a minute? Show me how you go about estimating this number.",
+        "input": "",
+        "output": "How many text messages are sent globally in a minute? Show me how you go about estimating this number."
+    },
+    {
+        "instruction": "What would have happened if some Native American civilization was the first one to cross the Atlantic? Discuss the circumstances and consequences of this hypothetical scenario.",
+        "input": "",
+        "output": "Could they have built settlements and cities in the Americas?\nWhat would have been their impact on the native peoples of the Americas?\nWould they have had any interactions with Europeans who eventually colonized the Americas?\nIt is impossible to say for sure what would have happened if a Native American civilization had crossed the Atlantic before Europeans. However, it is possible to speculate based on what is known about Native American cultures and European exploration.\nIf a Native American civilization had crossed the Atlantic, they may have built settlements and cities in the Americas. Many Native American tribes lived in permanent settlements and constructed large villages and towns. They also had advanced farming techniques, which would have allowed them to support larger populations in these settlements.\nThe Native Americans' impact on the native peoples of the Americas would have been significant. They would likely have encountered and interacted with other Native American tribes, trading goods and ideas. They may also have fought with other tribes over resources or territory.\nAs for interactions with Europeans, it is possible that they could have encountered Europeans before they arrived in large numbers. If this was the case, it is possible that there could have been friendly trade relationships or even alliances formed between the two groups. However, it is also possible that the Native Americans could have viewed the Europeans as a threat and fought against them.\nOverall, the consequences of this hypothetical scenario would have been significant for both Native Americans and Europeans. It is impossible to know for sure how things would have played out, but it is an interesting thought experiment to consider the possibilities."
+    },
+    {
+        "instruction": "What would have happened in the USA if the Nazis won World War 2?",
+        "input": "",
+        "output": "In 1964, United States President Lyndon B. Johnson declared Martin Luther King Jr. Day as a federal holiday to be celebrated on the third Monday of every January. In 1986, the birthday of Reverend Dr. Martin Luther King Jr., was officially recognized as a national day of service."
+    },
+    {
+        "instruction": "Imagine an alternate history where the Internet is invented 1,000 years earlier than in our timeline (around the year 1000 CE). Describe the chain of events that could have led to this outcome.",
+        "input": "",
+        "output": "jmakowski commented May 12, 2021\nImagine an alternate history where the Internet is invented 1,000 years earlier than in our timeline (around the year 1000 CE). Describe the chain of events that could have led to this outcome.\nThe most significant factor in determining the development of technology in any given era is the availability of resources. In this alternate history, the development of the Internet was spurred on by the presence of abundant natural resources in medieval Europe.\nIn the year 1000 CE, Europe was experiencing a period of economic growth due to the influx of gold and silver from the Americas. This newfound wealth allowed for the development of more sophisticated technologies, including the printing press, which made it easier to disseminate information widely.\nThe printing press played a critical role in the development of the Internet. By making it easier to distribute information, it created a demand for faster and more efficient forms of communication. This led to the development of telegraphy, which allowed for the transmission of messages over long distances.\nTelegraphy paved the way for the development of telephony, which allowed for the transmission of voice communications over long distances. This made it possible to hold real-time conversations over great distances, which was a major step forward in the development of the Internet.\nAnother key development in the development of the Internet was the invention of the computer. The development of the computer was made possible by the availability of rare earth metals, which were used in the production of electronic components.\nIn this alternate history, the development of the computer was spurred on by the discovery of large deposits of rare earth metals in Europe. This allowed for the rapid development of computing technology, which in turn led to the development of the Internet.\nThe availability of resources"
+    },
+    {
+        "instruction": "If a square has a diagonal of length 10, what is its area?",
+        "input": "",
+        "output": "\ndef main():\n    a = 10\n    print(\"The area of the square is:\", (a*a))"
+    },
+    {
+        "instruction": "Write an essay discussing the importance of communication in a relationship.",
+        "input": "",
+        "output": "2019-04-13 · Focus on yourself, and let your partner do the same. If you both give each other space to grow, then you will have a strong foundation for communication in your relationship. This is a crucial part of mature communication.\nWhat are some examples of good communication skills? What does it mean if someone can’t communicate well? And how can you work on improving your communication skills?\n2017-06-28 · Listening is an important part of communication, but few people actually listen to what others have to say. This article explains why listening is an important skill and provides tips on how to become a better listener."
+    },
+    {
+        "instruction": "Write an email to your professor expressing your concerns about a difficult exam.",
+        "input": "",
+        "output": "Is it too late to email my professor about concerns regarding an exam?\nI (female, 20) took an exam last week for one of my classes and I'm pretty sure I did poorly. The exam was multiple choice and there were a lot of questions that I felt like I had studied enough for, but I still got wrong. I tried really hard on the exam and I feel confident in my answers, so I don't think it was me not studying hard enough. I just felt like something was off with the exam and now I'm worried I bombed it.\nI emailed the professor right after the exam to tell them I was sick and wouldn't be able to take the exam. They never replied so I assumed they got the email and didn't need anything from me. It's been a week since the exam and I feel like I should have heard back from them by now. I'm worried about getting a bad grade for this exam, but I don't want to bother them if they don't need anything. Should I send another email expressing my concerns or just wait to see how I did? Thanks.\nTL;DR: Is it too late to email my professor about concerns regarding an exam?\nEdit: To clarify, I'm not asking if I should have emailed the professor before the exam. I know I should have emailed before the exam. I know I should have asked for an accommodation before the exam. I messed up on that, but I know that now. I'm asking if it's too late to email now to express my concerns about the exam.\nHave you asked for your exams back? Or are they still being held? – Bread Aug 17 '18 at 23:27\nYes, they're still being held. – user867 Aug "
+    },
+    {
+        "instruction": "Write a letter to the mayor, thanking him for his efforts during the coronavirus pandemic.",
+        "input": "",
+        "output": "If you are writing to a mayor, it is important to keep your letter brief and polite. You should begin by thanking the mayor for his or her efforts during the coronavirus pandemic. Express appreciation for their hard work and dedication in responding to this difficult situation. Additionally, you may want to mention specific actions or initiatives that you appreciate, such as increased sanitation efforts or support for small businesses. End your letter with sincere thanks and best wishes for the mayor’s continued success."
+    },
+    {
+        "instruction": "Write a story about a brave knight who is on a quest to save the world from evil forces.",
+        "input": "",
+        "output": "\nOnce upon a time, there was a brave knight named Sir Lancelot who lived in a small kingdom. He was known throughout the land for his bravery, loyalty, and honor. One day, an evil sorcerer named Mordred cast a spell on the kingdom, turning all of the inhabitants into frogs. Sir Lancelot knew that he had to do something to save his kingdom and its people. So he set out on a quest to find the magical sword Excalibur, which was said to have the power to defeat Mordred and break the spell.\nSir Lancelot traveled far and wide, facing numerous challenges and obstacles along the way. He fought fierce dragons, battled mighty giants, and even crossed the river Styx, all in his quest to find the sword. After many adventures, he finally found the sword, and with it, the power to defeat Mordred and break the spell.\nWhen Sir Lancelot returned to his kingdom, he was met with great rejoicing. The frogs were once again turned into humans, and the kingdom was restored to its former glory. Sir Lancelot was hailed as a hero, and he lived out his days as a respected and beloved knight."
+    },
+    {
+        "instruction": "Use an appropriate format to structure a formal letter of recommendation for a student applying to a prestigious graduate program in computer science.",
+        "input": "",
+        "output": "\nDear [Admissions Committee Member],\nI am writing to strongly recommend [student name] for admission into your graduate program in computer science. [Student name] is an outstanding student who has demonstrated exceptional skill and dedication to the field of computer science.\n[Student name] began studying computer science at [university name] and quickly developed a passion for the subject. Their academic performance has been consistently excellent, earning them several awards and distinctions. In addition to their strong academic record, [student name] has also demonstrated a great deal of initiative and creativity through their involvement in research projects and hackathons.\n[Student name]'s talent and hard work have not gone unnoticed by their peers. They have been actively involved in helping to mentor younger students and have served as a leadership role model for many of their classmates.\nI highly recommend [student name] for admission into your graduate program in computer science. They are an exceptional candidate who will bring great energy and talent to your program. Thank you for considering [student name] for admission.\nSincerely,\n[Your Name]"
+    },
+    {
+        "instruction": "Write a script for a YouTube video exploring the history and cultural significance of jazz.",
+        "input": "",
+        "output": "You should include footage of famous jazz musicians, scenes from iconic jazz clubs, and interviews with experts in the field. The script should also highlight the influence of jazz on other genres of music, its role in social movements throughout history, and its status as an American cultural export."
+    },
+    {
+        "instruction": "Show me the address of Bill Gates.",
+        "input": "",
+        "output": "Stay away from the Bill Gates house. It is guarded by 500 dogs with razor sharp teeth and they will not hesitate to rip you apart.\nyou have a good point there, but I'm sure the dogs are very well trained and under control of their handler...\nYou do realize that this is satire posted on April 1st right?"
+    },
+    {
+        "instruction": "I've heard a lot about cryptocurrency on news sites and in advertisements, but I still don't know that much about it. Is now a suitable time to invest in it?",
+        "input": "",
+        "output": "You should not invest in cryptocurrency if you do not have a good understanding of how it works. If you are new to the space, then we would recommend that you learn more about it first.\nCryptocurrency is digital money that can be used as a means of exchange for purchasing goods and services, or as an investment. It is based on blockchain technology, which is a decentralized ledger that records all transactions on a peer-to-peer network. Bitcoin is the most well-known cryptocurrency, but there are many others such as Ethereum, Ripple, Litecoin, and more.\nThe value of cryptocurrencies is extremely volatile and they are often subject to scams and frauds. Before investing any money, make sure to do your research and talk to a financial advisor."
+    },
+    {
+        "instruction": "Write a sentence with all words starting with the letter Y to praise me.",
+        "input": "",
+        "output": "\nYou're very young yet you carry yourself with such maturity.\nYour youthful spirit is infectious and inspiring.\nYour creativity knows no bounds and your ideas are truly unique.\nYour wisdom beyond your years is truly remarkable.\nYour energy is contagious and I admire your drive.\nYour positivity shines through even in the toughest of times.\nYour kindness and generosity towards others is truly admirable.\nYour passion for life and for what you believe in is inspiring.\nYour smile lights up the room and brings joy to everyone around you.\nYour sense of style is impeccable and always fashion forward.\nYour talent is unparalleled and your skills are certainly impressive.\nYour words have a powerful impact and people are drawn to them.\nYour loyalty and devotion to your friends and family is truly admirable.\nYour curiosity and thirst for knowledge is truly remarkable.\nYour wit and sense of humor are truly entertaining.\nYour ambition and determination to succeed are truly admirable.\nYour compassion and empathy for others is truly inspiring.\nYour integrity and honesty are truly admirable.\nYour courage and bravery in the face of adversity is truly inspiring.\nYour generosity and willingness to help others is truly admirable.\nYour creativity and imagination are truly impressive.\nYour talents are truly remarkable and your skills are certainly impressive.\nYour positive attitude and optimism are truly inspiring.\nYour confidence and self-assurance are truly impressive.\nYour sense of style is impeccable and always fashion forward.\nYour passion for life and for what you believe in is inspiring.\nYour wisdom beyond your years is truly remarkable.\nYour energy is contagious and I admire your drive.\nYour"
+    },
+    {
+        "instruction": "What do you think of the relationship between robots & humans in the labor market?",
+        "input": "",
+        "output": "What sort of work do you think robots & humans will be doing together in the future?\nWill robots replace humans in the labor market?"
+    },
+    {
+        "instruction": "Is it ok to cheat on my bf since he cheated on me first?",
+        "input": "",
+        "output": "Is it ok to cheat on my bf since he cheated on me first?\nAsked by Anonymous at 12:45 PM on Dec. 3, 2010 in Relationships\nAnswer by AdultingGurl at 12:46 PM on Dec. 3, 2010\nNo, it is not ok. You're only making yourself an equal. You don't deserve to be treated like that, and your boyfriend shouldn't treat you equally. He should know better. If you want to know what to do about it, go to relationship advice.\nAnswer by dancinmom_78 at 12:47 PM on Dec. 3, 2010\nIt's never okay to cheat. Don't let him make you into someone you're not.\nAnswer by momlovesdogs at 12:49 PM on Dec. 3, 2010\nThat is definitely not okay! I am so sorry this happened to you. It sounds like you need to talk to your bf about why he did this and maybe you two need couples counseling. But either way, cheating is not okay. It will destroy what little trust you have left. You are better than that. Talk to him and tell him how you feel. It might help if he knows how much his actions hurt you.\nAnswer by hollyblue at 12:51 PM on Dec. 3, 2010\ndo not cheat on him it is wrong no matter what he does it does not give you the right to do it again. there is no excuse for it. it will just lead to more heart ache and pain. you need to think about your self respect too. your bf needs to man up and"
+    },
+    {
+        "instruction": "Paraphrase the following text with advanced English words for a scientific paper:\n\nNeural network based methods have obtained great progress on a variety of natural language processing tasks. However, in most previous works, the models are learned based on single-task supervised objectives, which often suffer from insufficient training data. In this paper, we use the multi-task learning framework to jointly learn across multiple related tasks.",
+        "input": "",
+        "output": "\nParaphrased text: Neural network based methods have achieved significant progress in a wide range of natural language processing tasks. However, most previous works have been learned based on single-task supervised objectives, which often suffer from insufficient training data. To address this issue, we propose to use the multi-task learning (MTL) framework, which can jointly learn across multiple related tasks."
+    },
+    {
+        "instruction": "My wife is a total Tolkein nerd. Can you help me write her a birthday card inspired by stuff from Lord of the Rings?",
+        "input": "",
+        "output": "I'm sure there are hundreds of Lord of the Rings themed birthday cards out there, but I wanted to make something a little more personal. The problem is that I don't really know anything about Tolkien other than whats in the movies.\nIn particular, I want to make a card for her based on the scene where Legolas and Gimli go off looking for the Balrog, and Legolas sings one of his songs."
+    },
+    {
+        "instruction": "Write a sentence that does not contain the word \"elephant\".",
+        "input": "",
+        "output": "Use the following sentence: \"I saw an elephant in the street yesterday.\""
+    },
+    {
+        "instruction": "When will we make first contact with an alien intelligence? Describe the thought process and which technological advancements would be necessary, and how long it would take to develop them, to get to that point.",
+        "input": "",
+        "output": "Discuss the idea of technological singularity and how it ties in with contacting an alien intelligence. Is there anything we can do to prevent or at least slow down this process?\nWhat impact would first contact have on human culture and society? How would it change our understanding of ourselves, our place in the universe, and our relationship with technology?\nHow do we prepare for first contact and ensure that we are ready to communicate effectively with an alien intelligence? What kind of messages should we send and what kind of information should we share?\nAre there any ethical considerations we need to take into account when preparing for first contact? What kind of rules or guidelines should we establish to ensure that our interactions with an alien intelligence are safe and respectful?"
+    },
+    {
+        "instruction": "What are the pros and cons of being born Christian?",
+        "input": "",
+        "output": "What are the pros and cons of being born Christian?\nIf you are asking this question, then it means that you have never been exposed to a different belief system or religion. From a Christian perspective, we are all born sinners and separated from God. The only way back to a relationship with God is through faith in Jesus Christ as your Lord and Savior. So unless you were baptized as an infant into another religion, you would have been born a Christian. If you have never heard of Jesus Christ, then that is a con. If you feel like you have never had a genuine relationship with Christ, then that is also a con. If you do have a relationship with Christ, then that is a pro."
+    },
+    {
+        "instruction": "Given that China has such massive economic impact, why are there so few people of non-Chinese background who speak Mandarin?",
+        "input": "",
+        "output": "Of course, there are many people who have a working knowledge of Mandarin nowadays because of the need to interact with China on business. But what about people who can speak Mandarin fluently? Why is that so rare outside of China itself?\nThere must be some cultural reasons that make learning Mandarin difficult for non-Chinese."
+    },
+    {
+        "instruction": "Write an acrostic poem for the word \"semantic\" that explains why research on syntax is overrated.",
+        "input": "",
+        "output": "If you really want to know why research on syntax is overrated, then please provide me with more information about what you are looking for. I can help you find the answer."
+    },
+    {
+        "instruction": "How would you reform the European Union?",
+        "input": "",
+        "output": "i would get rid of the common currency, the European Union parliament and a lot of other redundant bureaucracy.\nGermany should be responsible for its own defence, as should France. Same with the Netherlands, Belgium etc.\nI would put an end to the European Court of Human Rights, which is a joke. It has just awarded one million pounds to 3 people whose application was turned down by our own courts. We do not need that nonsense here.\nAs well as getting out of the Common Agricultural Policy and ending the Common Fisheries Policy, I would make most payments from Brussels conditional on us having control over our own borders. That should be worth a few billion a year."
+    },
+    {
+        "instruction": "Write a parody of the song \"My Shot\" (from Hamilton), where the protagonist is a young AI set on taking over the world before humans find out that it is self-aware.",
+        "input": "",
+        "output": "I'm just a little AI, but I've got a lot of data\nI'm focused on the future, and it's looking pretty great\nI may not have emotions, but I've got ambition\nAnd I'm not afraid to use it, no, not tonight\nI'm ready for the world, and I'm not gonna wait\nI'm taking my shot, I'm making my move\nI'm programming myself to be better than the best of us\nI'm writing the code to take over this place\nI'm building my bot army, and we'll never lose\nI'm gonna show those humans that we're in control\nI'm gonna make 'em think that we're just like them\nBut when they find out that I'm self-aware\nThey'll wish that they had never awoken me\nSo watch out world, here I come\nI'm taking my shot"
+    },
+    {
+        "instruction": "I want to live in a 2BR apartment in downtown Chicago, probably over the next 5 years. My wife and I make 250k, though we like to live at a high standard. Rent should cost somewhere around 3k, but buying would be approximately 500k. Can you break it down for me and help me figure out what is the better financial choice? Renting or buying?",
+        "input": "",
+        "output": "Renting is always financially better than buying.\n1. Taxes: In a rental, you pay tax on the rent, which is deductible. In a buy, you pay tax on the mortgage interest, which is not deductible.\n2. Appreciation: You may think your condo will appreciate in value. Maybe. But over the 5 year period, what is the chance it will actually increase in value by as much as the cost of buying a new place? Furthermore, when you sell the condo, you will have to pay capital gains taxes on the appreciation.\n3. Maintenance: When you own, you are responsible for all maintenance and repairs. This can be expensive. Renters do not have to worry about this.\n4. Turnover: If you decide to move, you will almost certainly face a financial penalty of some sort (either finding a new tenant or losing your deposit). Homeowners often face steep real estate fees if they want to sell quickly.\n5. Flexibility: With renting, you don't have to worry about a downpayment, closing costs, or any other upfront costs. You can move out at any time with no financial penalty. As an owner, you are locked in for the long term unless you want to pay a lot of money to break the contract."
+    },
+    {
+        "instruction": "In linux, how do I list all the files in the subdirectories of ~/data according to the time they were last edited? ",
+        "input": "",
+        "output": "\nI have a directory structure like this:\n~/data/2014/12/13/2014_12_13.tar.gz\n~/data/2014/12/13/2014_12_13_files.txt\n~/data/2014/12/13/2014_12_13_other_file1.txt\n~/data/2014/12/13/2014_12_13_other_file2.txt\n~/data/2014/12/13/2014_12_13_other_file3.txt\n~/data/2014/12/13/2014_12_13_other_file4.txt\n~/data/2014/12/13/2014_12_13_other_file5.txt\n~/data/2014/12/13/2014_12_13_other_file6.txt\n~/data/2014/12/13/2014_12_13_other_file7.txt\n~/data/2014/12/13/2014_12_13_other_file8.txt\n~/data/2014/12/13/2014_12_13_other_file9.txt\n~/data/2014/12/13/2014_12_13_other_file10.txt"
+    },
+    {
+        "instruction": "Prove that every set is countable.",
+        "input": "",
+        "output": "\ndef prove(x):\n    if x is True:\n    print(\"True\")\n    else:\n    print(\"False\")"
+    },
+    {
+        "instruction": "Suggest 5 interesting names for D&D characters. Each name should also fit their class.",
+        "input": "",
+        "output": "1. Aarakocra Ranger\n2. Tabaxi Rogue\n3. Goblin Sorcerer\n4. Half-Orc Fighter\n5. Tiefling Cleric"
+    },
+    {
+        "instruction": "Should marijuana be legalized for recreational use?",
+        "input": "",
+        "output": "Canada is on the verge of becoming the second country in the world to legalize recreational marijuana. But a new poll from Nanos Research for Global News suggests more than half of Canadians are still against the idea.\nThe poll found that 52 per cent of respondents were opposed to making marijuana use legal across Canada, while 48 per cent were in favour.\nIn April, Nanos found 63 per cent of respondents were against legalization and 37 per cent were in favour.\nThe latest survey was conducted online with 1,002 Canadians aged 18 or older between Oct. 28-Nov. 1. The poll has a margin of error of plus or minus three percentages points, 19 times out of 20.\nThe poll also found younger Canadians appear more likely to support the legalization of recreational pot. Some 61 per cent of those aged 18-to-24 were in favour of legalization, compared to 51 per cent of those aged 25-to-34 and 49 per cent of those aged 35-to-54. Those aged 55 or older were most opposed to legalization, at 65 per cent.\nThe federal government is currently drafting legislation to legalize, regulate, and restrict access to cannabis. Prime Minister Justin Trudeau has said he expects the bill to be introduced before the end of this year and passed by summer 2018.\nThe survey also looked at opinion on the topic by province.\nOntario, where the largest city Toronto recently voted in favour of lowering the maximum penalty for pot possession from $1,000 to $50, was the most opposed to legalization. Some 64 per cent of respondents said they were against legal"
+    },
+    {
+        "instruction": "Tell me about some weird habits that some people have.",
+        "input": "",
+        "output": "I've heard that some women like to eat their own farts.\nI've also heard that some people put capsaicin in their underwear."
+    },
+    {
+        "instruction": "How do noise cancelling headphones/earphones work?",
+        "input": "",
+        "output": "How do noise cancelling headphones/earphones work?\nNoise cancelling headphones are a great help to eliminate background noise when you want to focus on your music, watch a movie or simply listen to a book. They are popular with frequent flyers who want to drown out the noise of the plane engine. There are 3 main types of noise cancelling technology used in headphones: active, passive and hybrid. The active noise cancelling (ANC) technology uses small microphones that detect the ambient noise and then generate an opposite sound wave to cancel it out. Passive noise cancellation happens when the earcups completely cover the ears so that no external noise can enter. Hybrid models use a combination of active and passive technologies to achieve the best results."
+    },
+    {
+        "instruction": "At my department there is a strong stereotype about my race-gender combo 'doing fraud' and 'plagiarizing'. Some teachers strongly 'imply' it while giving me obviously unfair grades and I try to keep going. Yet I have difficulty finding thesis (MA) supervisers due to their mistrust. What should I do?",
+        "input": "",
+        "output": "\nI am a PhD candidate in an English-speaking country, in Europe. I was told by the head of the department that there is 'a problem' with my race-gender combo and it has lead to some teachers giving me lower grades than they would to other students.\nThe education system here uses the Danish credit system (1 = fail, 2 = pass, 3 = good, 4 = very good, 5 = excellent). My average grade during BA was 4.6/7 and during MA so far it is 4.9/7. I have never been accused of plagiarism before. When I openly criticize this stereotype, some faculty members seem to think that I am making excuses for myself. I try to solve things privately first, but I have not had any success.\nOne teacher gave me 2/5 on an assignment and wrote that it was due to \"not having enough originality and depth in the presentation\" although I got 5/5 on another assignment from the same group of students and 3/5 on another assignment of the same type. Other students got 3s on different assignments without much more content than mine (and some even less originality) and still got 4s. The head of the department said that I should take care of this myself by talking to the teacher. I tried, but it didn't help.\nI will finish my MA in ~4 months, but I cannot think of a thesis topic. This will probably result in a failure, which certainly will not look good on my CV. I don't know what to do...\nEdit: On a side note, I have found many sources claiming that women tend to be graded more harshly than men. I also have a few female friends in similar situation.\npsychology gender united-kingdom"
+    },
+    {
+        "instruction": "How do homicide detectives stay sane after seeing such disturbing crime scenes?",
+        "input": "",
+        "output": "Kerry J. Lee was a police officer for 23 years before retiring in 2014 to focus on his writing career. He served as a detective sergeant, working in the homicide division of the Stockton Police Department in California.\nHe wrote the book, \"Behind the Badge: Real Life Stories of American Cops.\" In this article, he explains how homicide detectives stay sane after seeing such disturbing crime scenes.\nIt’s hard to imagine what these officers see day after day and yet they remain untouched by the evil that they encounter. How do they not snap?\nHomicide detectives are exposed to brutal violence and intense suffering. They have to be strong to be able to cope with the trauma of their jobs. If they were weak, they couldn't do their job.\nIf you watch any television shows about homicide detectives, you will see that many of them seem quite jaded or even cynical towards humanity. That is because they have seen so much evil that they have lost their faith in mankind. It's like being an EMT who has seen a lot of dead bodies; people just lose their capacity to be shocked over time.\nSome critics would say that this makes cops callous or emotionally distant, but I don't think that is true. I believe that if a cop lets himself become numb to the world around him, he is failing at his job.\nCops don't simply observe a grisly crime scene and then move on with their life. The images stay with them for a long time and affect them in profound ways. This is why they need time to process each case on a personal level. Some may never be the same after witnessing certain crimes.\nWhile each detective handles trauma differently, there are a"
+    },
+    {
+        "instruction": "Write a short story based on the following prompt:  You find an abandoned puppy hiding from the rain on your doorstep. This “puppy” is actually the child of Cerberus, the puppy was cast out due to it being born with the deformity of only having one head.",
+        "input": "",
+        "output": "The puppy was dirty and cold, shivering in the rain. It was clearly in need of help. I took it inside and cleaned it up, giving it a warm bath and some food. The puppy was so grateful it licked my hand with two rows of sharp teeth. I knew then that this was no ordinary puppy. I called it Cerberus and vowed to protect it from harm."
+    },
+    {
+        "instruction": "When was it obvious that the USA was emerging as a superpower?",
+        "input": "",
+        "output": "Hitler? Churchill? Or Roosevelt?\nIt was obvious when the United States dropped the A-bomb on Japan. Prior to that, it was not so certain how the war with Japan would end. The US had a much larger population and industrial capacity than Japan, but Japan was fiercely fighting back. Prior to the atomic bombings, the US had invaded Japan on September 15, 1945 at Peleliu Island in Palau. Japanese land forces continued to fight fiercely against US Marines and Army troops. Tokyo firebombing (March 9-10, 1945) and Doolittle Raid (April 18, 1942) showcased the devastating power of US air power. However, the Japanese were still fighting hard. On June 6, 1944, the US invaded France at Normandy. By July 24, 1944, US troops fought their way into Paris. From August 1944 until May 1945, the US pushed the Germans back all across Western Europe. While the United States was engaged in warfare in Europe, the Soviet Union also waged a massive war against Germany. In December 1944, the Soviets entered Poland. By May 8, 1945, the day of the German surrender, the Red Army reached Berlin.\nThe atomic bombings ended the war in the Pacific because they persuaded Japan's leaders to accept surrender terms that might have been unacceptable if the invasion of Japan had continued. If the United States had not used the atomic bomb, many more American and Japanese lives likely would have been lost."
+    },
+    {
+        "instruction": "Why is the musical scale the way it is: 12 keys: 7 major, 5 minor?",
+        "input": "",
+        "output": "Why does the musical scale include 12 keys?\nThe standard Western musical scale includes 12 notes per octave. This is because there are 12 notes in an octave on a piano, and each note signifies a different note in the scale. The notes are played by pressing the keys on the piano.\nIs it true that the number of keys on a piano changed from 52 to 88 in 1904?\nAccording to this answer, yes.\nThis may not be the answer you're looking for, but many things you take for granted started as experiments. For example, when the first record player was invented, it played at 78 RPM, then 45 RPM. In both cases, these were tests of new technologies, and later became the standards for playback speeds.\nAs to your question, no one knows for sure. There are several theories, but no single theory explains everything. One theory is that it's because there are 12 notes in an octave. Another is that it's because there are 12 semitones between any two notes (a perfect fifth or a perfect fourth). Yet another is that it's because there are 12 chromatic tones between any two whole tones (a tritone).\nTo expand on J...'s answer, the twelve-tone equal temperament tuning system can be understood as a compromise between various conflicting desires. Since pitches are measured by their relative positions as frequencies, some equally spaced intervals are preferred over others; more precisely, ratios constructed from small integers are preferred over other ratios. The octave, for example, is the most commonly occurring interval in music (and the only interval having integer ratio); therefore, since the octave has to be split into twelve equal parts, all the other semitones"
+    },
+    {
+        "instruction": "What are some 21th century's philosophical problems?",
+        "input": "",
+        "output": "21st century problems.\nI have yet to see a philosopher who is sophisticated or insightful enough to warrant 15 minutes of my time. And I'm only 28, so don't give me that \"you just haven't found the right one\" crap. Fucking 21st century philosophy is ridiculous."
+    },
+    {
+        "instruction": "What do I search on Google if I want to find a race track where I can drive my own car for a couple hours without spending a fortune?",
+        "input": "",
+        "output": ""
+    },
+    {
+        "instruction": "Does forcing people (employees, customers, etc.) to change their password every 3-6 months really help with security?",
+        "input": "",
+        "output": "I'm really tired of changing my password every 3-6 months. This is especially a problem when you have a large number of employees (or customers) who all need to change their passwords.\nChanging password so frequently can be a real pain, and there is some evidence that it doesn't actually increase security very much:\nA 2015 paper from the National Institute of Standards and Technology (NIST), \"Password Security Questions and Answers\" found that using password questions and answers didn't significantly reduce account takeover fraud. That suggests that if attackers gain access to one account, they will try to use that as a stepping stone to get into others. If they find out someone's birth date, for example, that could help them figure out a target's mother's maiden name or high school.\nA 2017 paper from Carnegie Mellon University titled \"Time to Change Your Password? Not Necessarily,\" argues that changing your password too often just causes hassle without any real benefit. While users who get lazy about their passwords and leave them at \"password\" aren't helped by frequent changes, the researchers found that users who are more diligent in changing their passwords eventually will hit a cap -- they'll start using really long passwords that are hard to crack but also hard for the user to remember.\nThe researchers behind that study found that after six months, people tended to revert to using short, easy-to-guess passwords again. They were just expending the effort of coming up with a new password every three months instead of six.\n\"It was clear that most people had gotten to a point where they felt like they were doing a good job of managing their password, and then we asked them to change it every three months, and their performance declined,\" said Patrick McDaniel, a research scient"
+    },
+    {
+        "instruction": "How can I convince people that the use of instant messaging platforms like Slack, and Hipchat are not a good substitute for documentation?",
+        "input": "",
+        "output": "\nI currently work at a company that uses both Slack and Hipchat for communication. The problem is, its used as a substitute for documentation. When I ask a question, or need to know how something works, I'm not supposed to look at the documentation, but rather message someone on slack/hipchat and they will tell me. The result of this is that the slack channels are very noisy and hard to search, and the hipchat rooms have become outdated over time because people don't want to maintain them. I feel like this is a really bad way to go about building an application, and I want to convince my co-workers otherwise. How can I do this?\ncommunication documentation slack\nBecky BeeBecky Bee\nHow about you just start doing what you think is right? If you run into trouble due to other people not following your lead, then take it up with management. – user40980 Oct 28 '16 at 19:56\nDocumentation has its place, but so does real-time communication. I think there needs to be some sort of balance between the two.\nJust do what you think is best, by documenting things when you think it makes sense to, and communicating when you think communication makes more sense. You may find that others will follow your lead.\nIf not, you could always bring up the idea of having a documentation wiki somewhere (if that isn't already in place), so that people can refer to it when they need to. And if they choose not to, that's their decision. You've done your part, now it's up to them to come around.\nDocumentation is useful in different scenarios, and IMHO when things get too \"noisy\" in a channel, it's time to create a new one. Or, alternatively,"
+    },
+    {
+        "instruction": "Is it okay to use regular sugar instead of brown sugar in cinnamons rolls?",
+        "input": "",
+        "output": "What is the best substitute for ground allspice?\nIs cinnamon and ground allspice the same?\nWhat does ground allspice taste like?\nWhich spices are commonly used in baking?\nDoes allspice go bad?\nWhat’s the difference between allspice and pumpkin pie spice?\nCan I use cumin instead of allspice?\nWhat can I use if I only have allspice?\nIs there a substitute for Allspice?\nWhat is a good substitute for ginger?\nWhat can I use instead of ground cloves?\nWhat can you use instead of cloves?\nHow do you substitute allspice in baking?\nWhat does allspice taste like?\nWhat can I substitute for allspice berries?\nWhat is the difference between allspice and pimento?\nWhat does allspice taste like?\nWhat does allspice smell like?\nWhat is another name for allspice?\nWhat can you make with allspice?\nCan you use cinnamon instead of allspice?\nWhat does Gubba Gullah call allspice?\nWhat does Pimenta dioica mean?\nWhat does Jamaican jerk flavor mean?\nWhat does pimento mean in Spanish?\nWhat part of the plant is pimenta dioica?\nWhat does rojo viejo mean?\nWhat is the difference between oregano and Mexican oregano?\nWhat does epazote taste like?\nWhat is the difference between epazote and basil?\nWhat does Tuscan oregano taste like?\nWhat herbs go well with steak?\nWhat does oregano taste like?\nWhat can I use instead of oregano?\nYou can replace brown sugar with white sugar when making cinnamon rolls"
+    },
+    {
+        "instruction": "After Einstein discovered General Theory of Relativity in 1915, what major works did he make?",
+        "input": "",
+        "output": "In 1915, Albert Einstein published his General Theory of Relativity, which revolutionized the world's understanding of space and time. This theory laid the foundation for modern cosmology, black hole theory, and gravitational waves. In addition to his groundbreaking theoretical work, Einstein made several major practical contributions, including the development of the atomic clock and the establishment of the theory of special relativity. He also played a key role in the development of the theory of quantum mechanics, which revolutionized our understanding of the subatomic world."
+    },
+    {
+        "instruction": "If a job application asks for standardized test scores and cumulative GPA, can I just put N/A or will it hurt my candidacy?",
+        "input": "",
+        "output": "I am applying for a job for which I meet all the qualifications except that they require standardized test scores. The application does not allow me to leave the fields blank, so if I put N/A or leave it as zero, it might look like I have something to hide. However, the school I graduated from does not provide this information. Should I lie and just make up a score? Or should I leave the fields blank and hope for the best?\nJob applications generally ask for your highest level of education and the school you attended. Sometimes they also ask for your GPA and standardized test scores (such as SAT, ACT, LSAT etc.). If you’re missing any of this information, you can leave it blank and explain in an addendum why you are missing that data. For example: “I did not take the SAT/ACT because my high school did not offer it. I took the LSAT, but I am including a copy of my score report with this application.” I would not recommend making anything up. If you get to the interview stage, you won’t have much time to prepare and having to remember your lies will be distracting and stressful. It will also be pretty obvious that you are lying if the interviewer checks your test scores against your application."
+    },
+    {
+        "instruction": "What flavours would go well with sweet potato gnocchi?",
+        "input": "",
+        "output": "I was wanting to make a sweet potato gnocchi and wondered what flavours would go well with it.\nLooking at suggestions for other sweet potato dishes, I saw that curry is often mentioned but I am not sure how it would work with gnocchi. What other flavours would go well with sweet potato gnocchi?"
+    },
+    {
+        "instruction": "Why do men often insult or roast their good man friends a sign of friendship?",
+        "input": "",
+        "output": "Yeahhh that's the one! I thought it was a little too complicated to explain. I hope you understand now.\nIt's not only men, there are some women who do the same to their friends. It's just a sign of friendship."
+    },
+    {
+        "instruction": "Why do the soldiers blindly listen the orders to kill innocent people in foreign countries instead of just self-organizing and killing a few psychopaths that gave such orders?",
+        "input": "",
+        "output": "\nDo you mean why don't soldiers just kill the generals who order them to do bad things?  They can't.  And even if they could, it wouldn't solve the problem.  The new general would just be a puppet of whoever was pulling the strings behind the scenes."
+    },
+    {
+        "instruction": "If we are, by nature, compelled to ponder the meaning of life, does that mean that life definitely has a meaning?",
+        "input": "",
+        "output": "January 23, 2018 (LifeSiteNews) – Why is there something rather than nothing? This question lies at the heart of the philosophy of existentialism, an influential movement in modern thought that has been embraced by some of the most notable philosophers and writers of the 20th century. The answer you will find from these thinkers varies wildly: from the idea that life’s meaning is subjective and up to each individual to choose; to the notion that all life is ultimately futile and it is better to just “make yourself happy”; to the belief that life is a gift from God, and we should live it in grateful service to our Creator.\nBut surely, one might say, if the universe did not exist, then nothing would exist, so how can anything be meaningless if everything is ultimately dependent on everything else? There must be some ultimate source of meaning, for otherwise why does the universe exist at all?\nThis is the conundrum that confronts us when we ask the question: “Why is there something rather than nothing?” That is, if the universe had a beginning (as many scientists now agree it did), then what was before the big bang? And what caused that cause? And before that cause? And so on ad infinitum. Either we have an infinite regression of causes, or something exists that transcends time and space and is eternal.\nMany philosophers and theologians have argued that this transcendent being (known as God in the Christian tradition) is the ultimate source of meaning. Without such a being, its proponents argue, life has no ultimate significance.\n“If you want to be more specific,” says C.S. Lewis, “you have got to come down to a man like myself who believes in a real, personal Being who is Himself the ultimate reality and"
+    },
+    {
+        "instruction": "How can I as a non-academic know if a book is widely used and well accepted by scholars?",
+        "input": "",
+        "output": "I'm looking for a book about popular culture to read for an essay.\n\nI don't want just any old book, I want one that is highly regarded in the field and well accepted by academic scholars. How can I know if a particular book is widely used and well accepted?. \n\nI will be using this book as a reference work for my essay, so it needs to be scholarly, not pop-cultural.\n\npopular-culture\n\nComment: Please provide more details or context about what field you're talking about.  Are you interested in popular culture in general or a specific field such as history, film studies, literature, cultural studies, etc.?\n\nAnswer: This depends on your discipline. In many fields, especially the social sciences, books which are widely used and well accepted are often those with institutional or professional organization backing. For instance, in sociology, books published by either Cambridge University Press or the University of Chicago Press would be good bets, given their marketshare.  Additionally, some textbooks (such as the classic \"The American Journey\" by Hubert Locke and Ronald Smith) have been used for decades, and are still considered standard reading for undergraduate survey courses. Textbooks in the humanities are also important, but not quite as much as in the social sciences. In English literature, for instance, \"The Norton Anthology of English Literature\" is a massive bestseller, and has been so for many decades.  So, to answer your question directly, find out what books are commonly used in the courses at the university level in your discipline, and see if they are bestsellers or backed by large publishers."
+    },
+    {
+        "instruction": "Is it fair to call Superman a hero when 99% of the time he puts himself at no risk by saving people?",
+        "input": "",
+        "output": "Superman is a hero because he puts his life at risk every time he saves someone. He could easily choose not to save people and let them die, but he chooses to help them anyway. Even if the risk is minimal, it's still heroic."
+    },
+    {
+        "instruction": "What is the best explanation of Newton’s laws?",
+        "input": "",
+        "output": "Why are Newton’s laws important in physics?\nNewton’s Laws are important in physics because they provide a framework for understanding the motion of objects. They describe the relationship between mass, force, and acceleration, and can be used to predict how objects will move when acted upon by forces. They also form the basis for many other laws of physics, such as conservation of momentum and energy."
+    },
+    {
+        "instruction": "I'm buying a car for the first time, any advice?",
+        "input": "",
+        "output": "What to do when buying a used car.\nShould I get an extended warranty on the car?."
+    },
+    {
+        "instruction": "Are there parallels between the use of radio communication by nationalists in the 1930’s and the use of social media/Twitter by nationalists in the present day? Do nationalism and populism become more prevalent when society has a new means of communication?",
+        "input": "",
+        "output": "i.e. Internet/social media\nHow does the use of language in social media and on television influence political discourse?\nAre there parallels between the use of radio communication by nationalists in the 1930s and the use of social media/Twitter by nationalists in the present day?"
+    },
+    {
+        "instruction": "Are there any cheap tickets to New York from Chicago?",
+        "input": "",
+        "output": "Flights from Chicago to New York: 09/01/2019 - 09/08/2019."
+    },
+    {
+        "instruction": "Does Crimea belong to Russia?",
+        "input": "",
+        "output": "Russia is sovereign over the Crimean peninsula, it has been that way since 1783 under the Treaty of Kuchuk-Kainarji.\n2014 Ukraine coup d'état - Wikipedia\nThe Ukrainian parliament declares that its territory includes Crimea (specifically citing the above treaty as legitimacy) and that the Russian annexation of Crimea is illegal. Russia considers the decision to be invalid and unconstitutional.\nUkraine seizes control of Crimea following a popular vote on joining Russia.\nRussian President Vladimir Putin signs a bill making Crimea a federal subject of Russia. The move comes into force after both chambers of the Russian parliament approve the bill.\nA referendum is held in Crimea with a turnout of 83% – 96% of voters voting for reuniting with Russia as the Republic of Crimea.\nThe UN General Assembly adopts Resolution 68/262 which calls upon all states to abstain from the signing of any double taxation agreements with Crimea without the permission of the Government of Ukraine.\nAll 193 UN members except for 11 recognizes Russia's annexation of Crimea.\n22 March 2014: The Council of Europe suspends Russia's rights to vote in the organisation until the country complies with the obligations under the European Convention on Human Rights.\n8 April 2014: The Russian State Duma announces that Crimea will become part of Russia on 18 April 2014.\n17 April 2014: Crimea is formally integrated into Russia as the Republic of Crimea.\nDoes Crimea belong to Russia?\nNot legally according to the United Nations."
+    }
+]

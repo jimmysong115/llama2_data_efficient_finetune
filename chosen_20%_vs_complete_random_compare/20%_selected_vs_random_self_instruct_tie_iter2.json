@@ -1,0 +1,127 @@
+[
+    {
+        "instruction": "The tone of the email should be changed and rewritten in a more professional manner.",
+        "input": "Subject: Asking for Vacation Time\nHi [Employer], \nI hope all is well. I am writing to request a day off on [date]. I have already taken care of my work responsibilities for that day and will be available to answer any questions or concerns you may have. \nThank you for your time, \n[Your name]",
+        "output": ""
+    },
+    {
+        "instruction": "I bought two shirts from the store and each one cost me $10. I also bought a pair of pants and they cost me $20. Then, I bought a dress and it cost me $30. Also,  I bought a pair of shoes and they cost me $40. Lastly, I bought a jacket and it cost me $50.\n\nMake a table chart showing items, the number, and the price of these items. Separate columns with \"|\".",
+        "input": "",
+        "output": "Items | Number | Price\n------|-------|-----------\nShirts | 2     | $10\nPants  | 1     | $20\nDress  | 1     | $30\nShoes  | 1     | $40\nJacket | 1     | $50"
+    },
+    {
+        "instruction": "During writing, we added an asterisk for the word that did not come to mind. You will need to provide several examples to demonstrate all the words that can be used in the sentence instead of the asterisk.",
+        "input": "we * to know",
+        "output": " the answer to a question."
+    },
+    {
+        "instruction": "Write a  review based on the given information.",
+        "input": "- Product: Persil Discs Laundry Detergent Pacs, Original Scent, High Efficiency (HE) Compatible, Laundry Soap, 62 Count\n- Sentiment: Positive",
+        "output": ""
+    },
+    {
+        "instruction": "Please suggest a few papers to consider based on the search term given. The names of the papers should be listed.",
+        "input": "Topic: scaling law + machine learning",
+        "output": ""
+    },
+    {
+        "instruction": "Write a good Twitter Bio. Try to cover all the provided main points in your generated bio.",
+        "input": "Name: Jane\nMain points:\n- Architect\n- Interested in Tech\nWritten in first person\nUse casual tone",
+        "output": ""
+    },
+    {
+        "instruction": "Name the top cities in France that should not be missed. Include the best aspects of each place as well.",
+        "input": "",
+        "output": "Paris, the capital of France, is a romantic city known for its iconic landmarks such as the Eiffel Tower and Notre Dame Cathedral. The city is also famous for its cafes, fashion, and art galleries. Paris is a great place to explore on foot, with many museums and historical sites located in the center of the city.\n2. Lyon:\nLyon is a charming city in southeast France known for its rich history, architecture, and cuisine. The city is situated on the Rhône River and is home to many historic monuments, including the Basilica of Notre-Dame de Fourvière. Lyon is also famous for its traditional French bouchons, which are restaurants that serve typical French dishes like coq au vin and quenelles.\n3. Marseille:\nMarseille is the largest city in the Provence-Alpes-Côte d'Azur region of France and is known for its stunning natural beauty, including the Calanques National Park. The city is also famous for its Old Port, which is a lively area with many restaurants, bars, and fish markets. Marseille is a great place to explore on foot, with many historical sites located in the old town, such as the Vieille Charité.\n4. Nice:\nNice is a coastal city in the Provence-Alpes-Côte d'Azur region of France and is known for its beautiful beaches and promenades. The city is also famous for its historical sites, including the Château de l'Horizon, which offers panoramic views of the city and the Mediterranean Sea. Nice is a great place to visit in the summer, when the weather is warm and the beaches are crowded with people.\n5. Bordeaux:\nBordeaux is a port"
+    },
+    {
+        "instruction": "You are given two questions. Check if they are duplicates.",
+        "input": "Question1: I am trying to understand the advantages of multiprocessing over threading. I know that multiprocessing gets around the Global Interpreter Lock, but what other advantages are there, and can threading not do the same thing?\nQuestion2: I am learning how to use the threading and the multiprocessing modules in Python to run certain operations in parallel and speed up my code.\nI am finding this hard (maybe because I don't have any theoretical background about it) to understand what the difference is between a threading.Thread() object and a multiprocessing.Process() one.\nAlso, it is not entirely clear to me how to instantiate a queue of jobs and having only 4 (for example) of them running in parallel, while the other wait for resources to free before being executed.\nI find the examples in the documentation clear, but not very exhaustive; as soon as I try to complicate things a bit, I receive a lot of weird errors (like a method that can't be pickled, and so on).\nSo, when should I use the threading and multiprocessing modules?\nCan you link me to some resources that explain the concepts behind these two modules and how to use them properly for complex tasks?",
+        "output": ""
+    },
+    {
+        "instruction": "Give a grammar tip on how to end a German verb.",
+        "input": "",
+        "output": "Ich liebe dich or Ich liebe Dich?"
+    },
+    {
+        "instruction": "This is a test for the reading ability of French. Read the given story carefully, and then answer the question in the end.",
+        "input": "Lucie est à la maison avec sa petite-fille, Lin.\nLucie: Oh, non! Nous n'avons pas de pain!\nLin: Ah! Tu vas au supermarché?\nLucie: Oui, je veux une baguette pour mon sandwich.\nDo Lin and Lucie have a lot of bread?",
+        "output": ""
+    },
+    {
+        "instruction": "You will be tested on your knowledge of classic witticisms and aphorisms by completing the given aphorism. Write the original quote as the answer.",
+        "input": "two things are infinite",
+        "output": ": the universe and human stupidity; and i'm not sure about the universe."
+    },
+    {
+        "instruction": "A list of all movies that meet the criteria given should be compiled.",
+        "input": "movies directed by Spike Lee by release date",
+        "output": ""
+    },
+    {
+        "instruction": "Schedule the meetings based on the given informqation.",
+        "input": "Person1: available from 9-11 am, meeting duration: 30 min \nPerson2: available from 1-3 pm, meeting duration: 90 min\nPerson3: available from 2-3:30 pm, meeting duration: 60 min",
+        "output": ""
+    },
+    {
+        "instruction": "Find the directions between the given locations.",
+        "input": "From: Rowan Avenue Elementary School, 600 S Rowan Ave, Los Angeles, CA 90023, United States\nTo: Calvary Cemetery and Mortuary, 4201 Whittier Blvd, Los Angeles, CA 90023, United States",
+        "output": ""
+    },
+    {
+        "instruction": "Answer the question about the paper after reading it carefully.",
+        "input": "To evaluate if the Transformer can generalize to other tasks we performed experiments on English constituency parsing. This task presents specific challenges: the output is subject to strong structural constraints and is significantly longer than the input. Furthermore, RNN sequence-to-sequence models have not been able to attain state-of-the-art results in small-data regimes.\nQuestion: What is English constituency parsing?",
+        "output": ""
+    },
+    {
+        "instruction": "Convert the given description to a bash command.",
+        "input": "read the first 10 lines from f",
+        "output": "name\nlines=($(wc -l < fname | awk '{print $1}'))\nfor i in `seq 0 $lines[0]-1`\ndo\n    read line\n    if [[ $line == *\"!\"* ]]\n    then\n        echo \"Line $i:\"\n        echo \"$line\"\n    fi\ndone"
+    },
+    {
+        "instruction": "Please prepare a table containing a summary of the information of the participants at the conference.",
+        "input": "The conference was called to discuss how to improve the quality of education in schools. The main speaker was Professor Crew Purdie (cpurdie@email.com), who spoke about the importance of setting high standards for students and teachers. He said that schools should be places where students can learn and be challenged. Other speakers included Teacher Oliver Malachi (oliver@email.com) and Parent Kolby Reese (kolbyreese82@email.com). The teacher talked about the need for teachers to be well-prepared and to have high expectations for their students. The parent spoke about the need for parents to be involved in their children's education. There was also a discussion about the importance of funding for schools.",
+        "output": ""
+    },
+    {
+        "instruction": "Given a sentence that may be ambiguous, rewrite the sentence using less ambiguous words.",
+        "input": "The chicken is ready to eat.",
+        "output": "\nThe chicken is prepared to be eaten."
+    },
+    {
+        "instruction": "You are given a search query and a document. Classify whether the document is relevant to the search query or not relevant.",
+        "input": "Search: why sky is blue\nDocument: The Short Answer: Sunlight reaches Earth's atmosphere and is scattered in all directions by all the gases and particles in the air. Blue light is scattered more than the other colors because it travels as shorter, smaller waves. This is why we see a blue sky most of the time.",
+        "output": ""
+    },
+    {
+        "instruction": "Provide a name for the dish given the ingredients and instructions.",
+        "input": "INGREDIENTS:\n2 (5 oz) cans Bumble Bee® Solid White Albacore Tuna, drained\n1 avocado\n2 Tbsp Sriracha\n1 Tbsp Dijon mustard\n2 to 3 Tbsp celery, chopped\n2 Tbsp red onion, chopped\n2 green onions, chopped\n1 Tbsp fresh cilantro, chopped\nSalt and pepper, to taste\n2 heaping cups leafy green lettuce\n1 cup matchstick carrots\n4 (10 inch) whole wheat tortillas\nINSTRUCTIONS:\nIn a medium bowl, mash together tuna and avocado until combined. Add in the rest of the ingredients through the salt and pepper, mixing well.\nTo assemble, top each tortilla with a 1/2 cup leafy greens, 1/4 cup matchstick carrots and divide the tuna mixture evenly among the wraps. Tightly roll up the tortilla, slice and enjoy!",
+        "output": ""
+    },
+    {
+        "instruction": "Make a list of adjectives that can be used to describe the given brand.",
+        "input": "a creative tech startup",
+        "output": " brand."
+    },
+    {
+        "instruction": "Provide an ESRB rating for the following game.",
+        "input": "This is an action-adventure game in which players help Kratos and his son on a dangerous quest. Players explore various realms and engage in frenetic hand-to-hand combat against human-like raiders and fantastical creatures (e.g., centaurs, trolls, dragons). Players use axes and chained blades to battle enemies, often resulting in large blood-splatter effects and dismemberment. Players can perform finishing attacks that depict close-up impalement via bladed and hand-held weapons; repeated axe strikes to a creature's neck results in decapitation. The words “f**k” and “sh*t” are heard in the game.",
+        "output": ""
+    },
+    {
+        "instruction": "A color description has been provided. Find the CSS code associated with that color.",
+        "input": "A light red color with a medium light shade of pink",
+        "output": " undertone.\nThe hexcode for this color is #ff5a80."
+    },
+    {
+        "instruction": "Identify the programming language used to write the given code.",
+        "input": "if (20 > 18) {\n  printf(\"20 is greater than 18\");\n}",
+        "output": "\nelse if (20 < 18) {\n  printf(\"20 is less than 18\");\n}"
+    },
+    {
+        "instruction": "Analyze the word choice, phrasing, punctuation, and capitalization in the given email. How may the writer of this email sound to the reader? These tones include Disheartening, Accusatory, Worried, Curious, Surprised, Disapproving, Unassuming, Formal, Assertive, Confident, Appreciative, Concerned, Sad, Informal, Regretful, Encouraging, Egocentric, Joyful, Optimistic, and Excited.",
+        "input": "Hi Jen, \nI hope you're well. Can we catch up today? I'd appreciate your input on my presentation for tomorrow's meeting. I'd especially love it if you could double-check the sales numbers with me. There's a coffee in it for you!",
+        "output": "\nThanks, \n[Your Name]"
+    }
+]

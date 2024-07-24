@@ -1,0 +1,467 @@
+[
+    {
+        "instruction": "Analyze the word choice, phrasing, punctuation, and capitalization in the given email. How may the writer of this email sound to the reader? These tones include Disheartening, Accusatory, Worried, Curious, Surprised, Disapproving, Unassuming, Formal, Assertive, Confident, Appreciative, Concerned, Sad, Informal, Regretful, Encouraging, Egocentric, Joyful, Optimistic, and Excited.",
+        "input": "Hi Jen, \nI hope you're well. Can we catch up today? I'd appreciate your input on my presentation for tomorrow's meeting. I'd especially love it if you could double-check the sales numbers with me. There's a coffee in it for you!",
+        "output": "\nWords: Hi Jen, I hope you're well. Can we catch up today? I'd appreciate your input on my presentation for tomorrow's meeting. I'd especially love it if you could double-check the sales numbers with me. There's a coffee in it for you!\nTone: The writer of this email sounds appreciative and informal."
+    },
+    {
+        "instruction": "You are given a paper citation, convert it to the requested citation style.",
+        "input": "Chicago: Vaswani, Ashish, Shazeer, Noam, Parmar, Niki, Uszkoreit, Jakob, Jones, Llion, Gomez, Aidan N., Kaiser, Lukasz, and Illia Polosukhin. \"Attention Is All You Need.\" arXiv, (2017). https://doi.org/10.48550/arXiv.1706.03762.\nMLA:",
+        "output": " Vaswani, Ashish, Shazeer, Noam, Parmar, Niki, Uszkoreit, Jakob, Jones, Llion, Gomez, Aidan N., Kaiser, Lukasz, Polosukhin, Illia. \"Attention Is All You Need.\" arXiv (2017). doi:10.48550/arXiv.1706.03762.\nAMA: Vaswani, Ashish, Shazeer, Noam, Parmar, Niki, Uszkoreit, Jakob, Jones, Llion, Gomez, Aidan N., Kaiser, Lukasz, Polosukhin, Illia. \"Attention Is All You Need.\" arXiv (2017). https://doi.org/10.48550/arXiv.1706.03762."
+    },
+    {
+        "instruction": "Desk jobs require writing a lot of emails, so it isn't surprising we get tired of repeating ourselves. Come up with several synonyms for the given word.",
+        "input": "Sincerely",
+        "output": ",\nSincerely yours,"
+    },
+    {
+        "instruction": "My favorite witty review of The Rings of Power series is this:",
+        "input": "",
+        "output": "The Rings of Power is like a four-hour fan trailer for the next Lord of The Rings movie that doesn’t exist.\nThe series follows the rise of power-hungry elf Galadriel (Morfydd Clark) and exiled human king, Durin IV (Owain Arthur), as they try to resist the evil forces of Morgoth (voiced by David Wenham) trying to claim Middle Earth.\nHowever, their storylines are just a backdrop to the true main event: the creation of the One Ring by the slender young warrior Isildur (Maxim Baldry). It’s this plot point that will presumably drive much of the subsequent story from here on out.\nThat’s all well and good, but The Rings of Power has a serious problem with pacing. With 5 episode sandwiching one major event, it felt like an eternity before the show allowed us to see what we actually came to see.\nIn fact, the first hour of the series is almost completely devoid of any action until a brief skirmish about 10 minutes in. Then there’s another lull until the last 20 minutes. It feels like the writers were too busy with world building and character development to focus on the struggle between good and evil that makes fantasy stories so compelling.\nA lot of the characters are underdeveloped or downright annoying – especially the humans. The acting is fine but the writing often feels wooden and forced.\nIt’s also weird that so many characters sounded like they were from Ireland. I realize they were trying to go for a British or Irish feel, but it was distracting. Why not just cast actual British and Irish actors?\nStill, there are some redeeming qualities here. The visual effects and cinematography are stunning. There are some truly bre"
+    },
+    {
+        "instruction": "Come up with some search queries on google about coding stuff.",
+        "input": "",
+        "output": "\nThese are some questions I found on stack overflow:\n1. How do you solve LeetCode problems?\n2. What is the most efficient way to sort an array?\n3. How do you find the longest string in an array of strings?\n4. How do you convert a binary number to decimal?\n5. What is the difference between a stack and a queue?\n6. How do you create a tree from an adjacency matrix?\n7. How do you print a matrix in Python?\n8. How do you search for a string in a binary search tree?\n9. How do you find the height of a binary tree?\n10. How do you reverse a string in Python?\n11. How do you search for a value in a hash table?"
+    },
+    {
+        "instruction": "You are provided with a description of the code, specifications, or prompts. Your help is needed in automating code generation to speed up the development process.",
+        "input": "python function to determine whether a number is prime.",
+        "output": "\ndef isPrime(n):\n    if n <= 1:\n    return False\n    for i in range(2, int(sqrt(n)) + 1):\n        if n % i == 0:\n    return False\n    return True"
+    },
+    {
+        "instruction": "Please write the Excel function name associated with each description.",
+        "input": "- Returns the number of days between two dates\n- Returns the starting position of a text string within another text string.\n- Returns the number in the middle of the set of given numbers",
+        "output": ".\n- Returns the value of a cell at a given position."
+    },
+    {
+        "instruction": "Design a soothing pastel color palette for your slides. Pastel colors generally come across as pretty and delicate, so you’ll want to make sure your presentation calls for a similar mood. Choose up to five colors or color codes.",
+        "input": "",
+        "output": "In order to get this look, you will need: A nice neutral with some depth such as a light gray (#F7F7F7), a soft pink (#FFB3C4), an earth tone such as a muted terra cotta (#964B00), and maybe even a lavender shade (#E6E6FA). Then, pair these colors together in your presentation. You can use the color picker tool in PowerPoint to easily select the colors you want.\nTo find the color codes for the paint chips above, simply hover over the color with your cursor until a small box appears. Then, click on the box and a pop-up menu will appear with the color code."
+    },
+    {
+        "instruction": "Find sentences from reliable sources such as the Guardian or Forbes that contain the exact match for the given sentence or phrase. Also, mention the source of each sentence.",
+        "input": "There are great options",
+        "output": " available for those who want to learn more about investing, such as books, podcasts, and online courses. For example, the book The Intelligent Investor by Benjamin Graham is considered a classic in the field and has been translated into many languages. Additionally, there are several popular podcasts on investing, such as the Invest Like the Best podcast with Patrick O'Shaughnessy, which features interviews with leading investors and thinkers. Online courses are also available on sites like Coursera and edX, with options ranging from introductory courses on investing to more advanced topics."
+    },
+    {
+        "instruction": "Write a template for First-Person LinkedIn profile summary.",
+        "input": "",
+        "output": "Throughout my career, I have always been passionate about [Skill 1] and [Skill 2]. I believe that these skills are essential for success in any field. In addition to these skills, I also possess strong communication and problem-solving abilities, which have helped me excel in my previous roles.\nIn my current position, I am responsible for [Current Role] where I get to apply all of these skills on a daily basis. I enjoy the challenges and rewards that come with this role, and I look forward to continuing to grow professionally in the years ahead."
+    },
+    {
+        "instruction": "You will be asked to answer the following question as part of the LinkedIn Skill assessments.",
+        "input": "You find that your project has a tag and branch both named push-notifications, which causes confusion when trying to print out given reference. How can you specify which branch you want to look at?",
+        "output": "\nTo specify which branch you want to look at, you can use the branch name as the second argument to the git rev-parse command. For example:\ngit rev-parse HEAD:refs/heads/push-notifications\nThis will print out the SHA1 of the push-notifications branch, which can be used as a reference when printing out other references."
+    },
+    {
+        "instruction": "Take the title of the product and extract its attributes. The attributes in this case refer to the characteristics of the products, such as their brand and color. Your answer must a list following the format of \"attribute: value\".",
+        "input": "SAMSUNG 980 PRO SSD 2TB PCIe NVMe Gen 4 Gaming M.2 Internal Solid State Hard Drive Memory Card, Maximum Speed, Thermal Control, MZ-V8P2T0B",
+        "output": "/AM 980 PRO\nattribute: value\nbrand: Samsung\ncolor: black"
+    },
+    {
+        "instruction": "You should write a Product Description that will persuade the buyer that the product is beneficial.",
+        "input": "Flipslide Game, Electronic Handheld Game | Flip, Slide, and Match the Colors to Beat the Clock - 4 Game Modes - Multiplayer Fun",
+        "output": " for Kids, Families & Adults | Classic Game with a Twist 4.4 out of 5 stars 364 $22.99 $ 22 . 99 Luckily, there are lots of different types of games and activities that families can do together, including board games , card games , video games and more! If you're looking for great things to do with your family this holiday season or any other time of year, this list of fun games to play with the whole family has something for everyone.\nBoard Games: Whether you're playing cribbage, backgammon, poker, yahtzee, monopoly, yahtzee or yahtzee, these classic games make perfect family fun. You could even try an online version of yahtzee if you want to mix things up a bit! Card Games: The classic game of poker is great fun for all ages and skill levels, but there are many other great card games you could play too. Video Games: There are loads of family friendly games available to buy, both physically and digitally.\n\"Jenga\" is an example of a cooperative game, where players work together to stack the blocks without making the tower fall. If one player messes up, everyone loses. Most tabletop games (including board games and some card games) are competitive — teams or individuals compete against each other to be the first to reach a pre-determined goal. Cooperative games challenge players to work together to solve a common problem or reach a shared goal. For example, in the game \"One Night Ultimate Werewolf,\" players work together to identify the werewolf before he or she kills them all."
+    },
+    {
+        "instruction": "Compare the given item with similar products based on its properties such as price, rating, etc. For product comparison, use a table and separate the columns with \"|\".",
+        "input": "Item: iBayam Journal Planner Pens Colored Pens Fine Point Markers Fine Tip Drawing Pens Porous Fineliner Pen for Journaling Writing Note Taking Calendar Coloring Art Office Back to School Supplies, 18 Color",
+        "output": " Set\nProduct Comparison:\nPrice | $12.99 | $6.99 | $7.99 | $8.99 | $10.99\nRating | 4.5 out of 5 stars | 4.0 out of 5 stars | 4.5 out of 5 stars | 4.5 out of 5 stars | 4.5 out of 5 stars\nReviews | 979 reviews | 1,035 reviews | 1,815 reviews | 34 reviews | 3 reviews\nConclusion: Based on the comparison table, the iBayam Journal Planner Pens Colored Pens Fine Point Markers Fine Tip Drawing Pens Porous Fineliner Pen for Journaling Writing Note Taking Calendar Coloring Art Office Back to School Supplies is the best product for product comparison. It has a higher rating and lower price than the other products."
+    },
+    {
+        "instruction": "In what genres does the given movie or series fall?",
+        "input": "Manifest",
+        "output": " is a science-fiction drama series that follows the story of a commercial airliner that suddenly reappears after being missing for five and a half years. The passengers and crew on board have not aged, but their loved ones believe they are different from when they left, as they now have new perspectives on life. The series explores themes of grief, loss, and the power of love and hope."
+    },
+    {
+        "instruction": "Give a brief description of the given category of movies and shows.",
+        "input": "Period Dramas",
+        "output": ": Period dramas are set in a specific period of time, typically the past, and often portray historical events or periods of social change. They often focus on the lives of ordinary people caught up in extraordinary circumstances. Some popular period dramas include \"The Tudors,\" \"Downton Abbey,\" \"Mad Men,\" and \"Boardwalk Empire.\""
+    },
+    {
+        "instruction": "Provide an example of how a table of contents can be generated automatically in a LATEX document. Make sure your example contains the necessary commands.",
+        "input": "",
+        "output": "\n\\documentclass{article}\n\\usepackage{tocdepth}\n\\setcounter{tocdepth}{3} % adjust the depth of the table of contents\n\\usepackage{titlesec}\n\\titleformat{\\section}[block]{\\centering\\bfseries\\MakeUppercase}{\\thesection.}{1em}{}\n\\begin{document}\n\\tableofcontents\n\\section{Introduction}\n\\label{intro}\nThis document provides an overview of the most important concepts in machine learning. It starts with an introduction to the field, including a brief history and a discussion of the goals of machine learning. The rest of the document is organized into three sections: supervised learning, unsupervised learning, and reinforcement learning. Each section contains several subsections that discuss different aspects of the respective topic.\n\\section{Supervised Learning}\n\\label{sec:supervised_learning}\nSupervised learning is a type of learning where the system is given a set of training data and a corresponding output or label. The goal of supervised learning is to learn a function that maps the input to the correct output. This function can be used to make predictions on new data.\n\\subsection{Linear Regression}\n\\label{sec:linear_regression}\nLinear regression is a simple but powerful technique for supervised learning. It is used to fit a linear equation to the data, where the intercept and slope are estimated from the data.\n\\subsection{Support Vector Machines}\n\\label{sec:svm}\nSupport vector machines (SVMs) are another popular technique for supervised learning. They are used to find the hyperplane that maximizes the margin between the two classes.\n\\section{Unsupervised Learning}\n\\label{sec:unsupervised_learning}\nUnsupervised learning is a type of learning where the system is given a set of data and"
+    },
+    {
+        "instruction": "Imagine you have a FEN notation of a chessboard. How can you draw a board to show this state of the chessboard in LATEX? Create a LATEX code that includes all the required commands and packages.",
+        "input": "",
+        "output": "\nFor example, if the FEN notation is \"rnbqkbnr/pppp1ppp/8/8/8/8/PPP1P2PP/RNBQKBNR w KQkq - 0 1\", then the resulting board should look like this:\n[Image of chessboard]\nTo create a LATEX code that includes all the required commands and packages, you need to start with the Chessboard environment from the xmodern package. This will give you a basic chessboard template that you can customize with the appropriate pieces and squares.\nHere is an example code:\n\\begin{chessboard}[fen \"rnbqkbnr/pppp1ppp/8/8/8/8/PPP1P2PP/RNBQKBNR w KQkq - 0 1\"]\n\\position[WhiteKing(d1),BlackKing(d8)]\n\\startboard[RNBQKBNR]\n\\pieces[]\n\\white{\n\\knight{g1}\n\\knight{b1}\n\\bishop{g7}\n\\bishop{b2}\n\\king{d1}\n\\queen{d8}\n\\rook{c1}\n\\rook{d1}\n\\rook{c8}\n\\rook{d8}\n}\n\\black{\n\\knight{g8}\n\\knight{b8}\n\\bishop{g6}\n\\bishop{b7}\n\\king{d8}\n\\queen{d1}\n\\rook{c8}\n\\rook{c1}\n\\rook{d1}\n\\rook{d8}\n}\n\\endchessboard\nThis code creates a"
+    },
+    {
+        "instruction": "What is the output of the given LATEX code?",
+        "input": "\\documentclass{article}\n\\begin{document}\nFirst document. This is a simple example, with no \nextra parameters or packages included.\n\\end{document}",
+        "output": "\nOf course, this document will appear in the output."
+    },
+    {
+        "instruction": "Make a list of the most popular podcasts.",
+        "input": "",
+        "output": "Listen to the most popular podcasts on Spotify. 100 episodes available. A weekly conversation about books, literature, culture and ideas with host Samantha Cooper Gault, Founder of The Book is a Gift.\nPodcasts have become a staple in many people's lives, providing entertainment, information, and connection during long commutes, workouts, or just general down time. There are so many great podcasts to choose from that it can be hard to know where to start. Here are 28 of the most popular podcasts for you to check out. From true crime to comedy, there's something for everyone. This podcast doesn't shy away from the darkest side of humanity. It takes an unflinching look at disturbing crimes and the minds behind them. It's equal parts fascinating and chilling. This podcast is a real-life thriller that will have you on the edge of your seat as it unfolds. If you love true crime, this is one of the best podcasts out there. You may not want to listen to this one while walking home alone at night. In addition to taking a deep dive into each topic, this podcast also features interviews with experts and everyday people who have been affected by the issues discussed. The hosts bring their personal experiences to the conversation, making it relatable and engaging.\nThe guests are some of the most interesting people in the world, from politicians to athletes to scientists. This is an excellent choice if you enjoy hearing different perspectives on current events and learning new things. With so much going on in the world, this podcast is a great way to stay informed without feeling overwhelmed. Love comedians? This podcast has two hilarious hosts who keep things lighthearted while discussing"
+    },
+    {
+        "instruction": "Prepare an email signature template for the given person or company.",
+        "input": "a graduate student of computer science",
+        "output": " at the University of Maryland, College Park. He is a member of the Jericho Team and has been working on the JXON project since 2014."
+    },
+    {
+        "instruction": "React properly to reviews from your customers. In your responses, you can highlight your business' policies and customer service.",
+        "input": "Another repeat visit and no disappointment from us. Great place for breakfast or brunch - and you won't need to eat again for awhile. The restaurant is close to the Tenderloin so be aware of your surroundings.\nWe enjoyed the Succotash Omelet (at least my wife enjoyed it), the Pulled Pork Benedict and the Hangtown Fry. Portions are large and pricing is fair. I wish we could have managed a Beignet Flight!\nDefinitely a spot to seek out. It can be crowed at times so be patient. Well worth any wait.",
+        "output": "\nWe enjoyed brunch here. The space is small and cozy and really packs people in, but the food was delicious and the service was great!\nThe brunch menu is small but everything was excellent. The service was very attentive to our needs. I would go back again.\nI highly recommend this place. If you go on a Saturday be sure to make reservations. The wait outside was crazy long.\nWe had an awesome time at Del Popolo. Our server was super friendly, knowledgeable and attentive. Food was incredibly good. We will definitely come back!\nThis place has become one of my favorite spots in San Francisco for brunch. It's always crowded so make a reservation if you can. The staff are super nice and attentive to your needs. The food is amazing and perfectly prepared. Highly recommend this spot."
+    },
+    {
+        "instruction": "Write a good Twitter Bio. Try to cover all the provided main points in your generated bio.",
+        "input": "Name: Jane\nMain points:\n- Architect\n- Interested in Tech\nWritten in first person\nUse casual tone",
+        "output": "\nTwitter Bio: I'm an architect with interests in tech."
+    },
+    {
+        "instruction": "We need to write a thematic tweet to share company news and facts. Please take a careful look at the facts and details provided and create a tweet based on them.",
+        "input": "- news: Applications for summer internships are open now\n- Start with a thematic tie-in to Halloween",
+        "output": ", such as \"Creepy-crawly creations: Applications for summer internships are open now!\"\n- Focus on the benefits of applying early, such as a better selection of projects and earlier consideration for bonuses.\n- Call-to-action to apply now and take advantage of these opportunities."
+    },
+    {
+        "instruction": "Write a section for a blog post and try to cover all of the provided information about this section in your text.",
+        "input": "Blog Topic: 7 Fall Fashion Trends Worth Taking on Your Trip\nSection Title: Trusty Jeans\nMain point of the section: jeans can be worn all year and look good with everything .",
+        "output": "\nParagraph 1: Jeans are a staple in every wardrobe, but they can be dressed up or down depending on the occasion. This fall, try pairing yours with a chic sweater and booties for an effortless look.\nParagraph 2: If you're looking to add some edge to your outfit, consider pairing your jeans with a leather jacket and some chunky boots. This look is perfect for a night out on the town.\nParagraph 3: When packing for a trip, it's important to pack clothes that you can mix and match. A pair of dark wash jeans will go with everything else in your suitcase, so don't leave home without them."
+    },
+    {
+        "instruction": "Create a detailed caption for an Instagram post about a discount. A proper caption should explain the product, offer the discount, and tell the user how to claim it.",
+        "input": "Product: Golang course\nProduct description: teaching the foundational skills for building cloud services, web applications, DevOps tools, and backend development\nDiscount: 50%\nHow to claim: Use the coupon code: GOLANG",
+        "output": "50 at checkout\nInstructions: Click here to learn more and enroll in the course. Make sure to use the coupon code GOLANG50 at checkout to get 50% off."
+    },
+    {
+        "instruction": "The topic of a YouTube post has been described and based on the information, you need to write a hook for starting the post. A catchy hook will keep your readers interested so they keep reading. It would be great if you could come up with as many hooks as you can.",
+        "input": "A video showing how to make a tasty cup of coffee",
+        "output": " using a French press has been viewed over 3 million times. The video, titled “How to Make Coffee with a French Press,” starts off with a catchy hook: “Want to know how to make the best cup of coffee in the world? Well, I’m about to show you.”"
+    },
+    {
+        "instruction": "You should choose a YouTube video title based on the video's content. A video's title tells viewers what to expect from it. It should be direct, honest, and clear. The title of the video needs to capture the attention of viewers, so do not use an unclear or ambiguous one.",
+        "input": "A research study has been conducted to determine if exercise really can \"boost\" your metabolism.",
+        "output": " The study found that exercise can help increase metabolism, but only for a short period of time. It also found that the more intense the workout, the greater the metabolic boost."
+    },
+    {
+        "instruction": "Choosing a name for your product or business YouTube channel is an important part of the process. Based on the description of the product or business, you should come up with some interesting names. Take some time to brainstorm your ideas.",
+        "input": "Here you will find videos and content that will help students prepare for the application process to graduate schools as well as how to apply to graduate schools",
+        "output": ".\nChoosing a name for your product or business YouTube channel is an important part of the process. Based on the description of the product or business, you should come up with some interesting names. Take some time to brainstorm your ideas."
+    },
+    {
+        "instruction": "A confirmation email should be written appropriately for the situation.",
+        "input": "A meeting has been scheduled, and the sender expects the other to review the slides.",
+        "output": " It is best to confirm the scheduling details and perhaps ask any clarifying questions. This can be done via email, since it does not require an immediate response. If you need to reschedule or have any questions, you should contact the sender directly.\nIs it appropriate to write a confirmation email after an interview?\nYes, it is appropriate to send a thank-you note after an interview."
+    },
+    {
+        "instruction": "Write a step-by-step guide for resolving GitHub merge conflicts.",
+        "input": "",
+        "output": "\nSteps:\n1. Open the GitHub repository where the conflict exists.\n2. Click on the \"Compare\" option next to one of the conflicting files.\n3. From here, click on the \"Resolve\" button found in the top right corner of the page.\n4. You will be presented with two options: \"keep local changes\" and \"reject local changes.\" If you select \"keep local changes,\" it means that you are accepting the changes made by the other branch. If you select \"reject local changes,\" it means that you are keeping your own changes and discarding the changes made by the other branch.\n5. Select your preferred option and click \"Ok.\"\n6. Once you've resolved the merge conflict, commit your changes and push them to the remote branch."
+    },
+    {
+        "instruction": "One or more jobs can be run automatically by a workflow. The workflows are defined in the repository as YAML files and will run if an event occurs in the repository, as well as manually, or on a certain schedule.\nBring an example of a workflow that demonstrate the CI/CD features of GitHub Actions.",
+        "input": "",
+        "output": "Sure, here's an example of a workflow that demonstrates the CI/CD features of GitHub Actions:\n## Example Workflow\n\nThis workflow is designed to automate the build and deployment process for a Node.js application. The workflow consists of two jobs: \"build\" and \"deploy\".\n\nThe \"build\" job is triggered by a push to the main branch. It uses the Node.js language server to run npm install and then runs npm run build to compile the application. The resulting files are stored in a temporary repository directory.\n\nThe \"deploy\" job is triggered by a push to the main branch or a scheduled event. It uses the GitHub API to create a new deployment in the app's Heroku deployment slot. It then copies the application files from the temporary repository directory to the deployment slot using the Heroku CLI. Finally, it pushes the application to the app's live environment using the Heroku CLI.\n\nHere's the YAML code for the workflow:\n```\n# GitHub Actions workflow file\n# See https://help.github.com/en/actions for more information\nname: CI/CD Workflow\non:\n  push:\n    branches: [main]\n  schedule:\n    - at: \"01:00\"\n      every: \"6 hours\"\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2\n      - name: Install dependencies\n        uses: actions/setup-node@v2\n        with:\n          node-version: '12.x'\n      - name: Run npm install\n        uses: actions/javascript/npm-run@v2\n        with:\n          args: ['install', '--save-dev', 'gh-pages"
+    },
+    {
+        "instruction": "The movie tagline is the film's advertising slogan, usually printed on posters prior to the official release. It is a short description or comment on a movie to capture the essence of the movie, and ultimately make you watch the movie. Here is an example:",
+        "input": "Movie: Joker (2019)",
+        "output": "\nTagline: \"Where does a legend come from?\""
+    },
+    {
+        "instruction": "You are given some reviews for a movie. Each video might have mentioned some negative or positive points about the movie. Read them carefully and extract the positive and negative points mentioned in all of the reviews. Then, make a list of these points and summarize them as positive points and negative points.",
+        "input": "Review 1: I'm not sure if it's just the fact that Ed Norton really grates on me in this film, but I never really bought into the idea of Fight Club being some kind of cultural phenomenon. Yes it's an innovative story, told via a strong script, engaging characters and intense cinematography. But is it really worthy of such high praise? Personally, I find it starts to fall apart halfway through and actually becomes quite tedious towards the end. Everything just becomes a little bit childish and contrived as the story loses touch with its base elements and the rage against the machine vibe takes over. I have huge respect for the way this film was made but, much like The Matrix, I feel like people attach way more importance to this movie than it deserves.\nReview 2: The film tells the story of men who cannot adapt to the social order in today's world, under the leadership of Tyler Durden, to discover their natural instinct, masculinity, and to escape from their unhappy lives.\nReview 3: Despite a good theme, great acting and important messages that this movie convey in an unorthodox way, I think it fails to connect the audience with the storyline and leaves him in a world of confusion. Although, majority of reviews find this movie entertaining and interesting, yet I would choose to be a minority that believes that this movie is extremely overrated.\nReview 4: Is creating chaos, explosions and membership in a militant sect the way to get rid of material shackles ?! The visual effects are fascinating and the story is compelling until the second half. Unfortunately, it doesn't end well.",
+        "output": " Fight Club is an example of a movie that has impressive beginnings, but disappoints in the end."
+    },
+    {
+        "instruction": "Give a brief summary of the movie or series' plot.",
+        "input": "Breaking Bad (TV Series 2008–2013)",
+        "output": " - IMDb\nBreaking Bad: Created by Vince Gilligan. With Bryan Cranston, Aaron Paul, Anna Gunn, Dean Norris. A high school chemistry teacher diagnosed with inoperable lung cancer turns to producing and selling methamphetamine in order to secure his family's financial future before he dies, sparking a series of events that causes rivals, old friends, and police to hunt him down."
+    },
+    {
+        "instruction": "Write a short analysis of the cinematography in the movie.",
+        "input": "Dead Poets Society",
+        "output": " is a film that explores the power of poetry and literature to inspire and transform lives. With its themes of self-discovery, individualism, and the importance of pursuing one’s dreams, it is no surprise that the cinematography in the movie is equally captivating and inspiring.\nThe film’s visual style is characterized by its use of warm colors, natural lighting, and sweeping shots that capture the beauty of the natural world. The lush green meadows, the towering trees, and the majestic mountains all serve as backdrops for the story of the young men who come alive under the guidance of their English teacher, Mr. Keating (played by Robin Williams). The use of color is particularly effective in conveying the emotions of the characters. For example, when Neil (Ralph Macchio) is struggling with his decision to stay true to himself or give into peer pressure, the scene is bathed in blue, signifying his feeling of isolation and sadness. Similarly, when Todd (Ethan Hawke) begins to open up and embrace his love of poetry, the scene is filled with red, symbolizing his passion and vitality.\nThe cinematography also highlights the close relationships between the students and their teacher. The shots are often intimate, emphasizing the trust and mutual respect that develops between them. One particularly memorable scene is when the boys climb to the top of a hill to watch the sunrise. The camera lingers on their faces as they gaze out at the beautiful landscape, their expressions filled with awe and wonder. This moment serves as a metaphor for the transformative power of poetry and literature, which can help us see the world in new ways and find our place in it.\nOverall, the cinematography in Dead Poets Society perfectly captures the themes and emotions of"
+    },
+    {
+        "instruction": "Make a list of the top places in the U.S. to visit at the given time.",
+        "input": "November",
+        "output": " 21, 2017 / Travel\nThe United States is home to some of the most beautiful places in the world. From bustling cities to peaceful parks, there’s something for everyone. If you’re planning a trip soon, we’ve compiled a list of the top places to visit in the U.S., depending on when you’ll be traveling.\nDo you love the crisp air and changing colors of fall? Head to New England to see the leaves change. Some of the best places to visit include Acadia National Park in Maine, the Green Mountain National Forest in Vermont, and Shenandoah National Park in Virginia.\nOr, if you prefer a more urban experience, check out New York City during the holidays. Visit the tree at Rockefeller Center, go ice skating in Central Park, and see the windows displays at Macy’s.\nIf you’re looking for a tropical getaway, head to Hawaii. The islands offer stunning beaches, amazing food, and plenty of opportunities for outdoor adventure. Some popular spots include Waikiki Beach in Honolulu, Hanauma Bay Nature Preserve on Oahu, and Kauai’s Na Pali Coast.\nFor winter sports, Colorado is the place to be. Ski resorts like Vail, Aspen, and Breckenridge offer world-class skiing and snowboarding. And in the summer, you can hike, bike, and explore national parks like Rocky Mountain National Park and Great Sand Dunes National Park.\nAnd if you love history, a visit to Washington, D.C. is a must. See the monuments and memorials on the National Mall, take a tour of the White House, and learn about our nation’s past at museums like the Smithsonian and the National Air and"
+    },
+    {
+        "instruction": "Name the top cities in France that should not be missed. Include the best aspects of each place as well.",
+        "input": "",
+        "output": "Some popular cities in France include Paris, Lyon, Marseille, Nice, Bordeaux and Strasbourg. Each city has its own unique charm and offers a variety of experiences for visitors. Paris is known for its iconic landmarks such as the Eiffel Tower and Notre Dame Cathedral, while Lyon is known for its cuisine and history as a major trading hub on the Rhone River. Marseille is a vibrant port city with a diverse population and beautiful beaches, Nice is known for its luxury resorts and stunning views of the Mediterranean Sea, Bordeaux is known for its wine production and history as a center of trade and culture, and Strasbourg is known for its German influence and stunning cathedral."
+    },
+    {
+        "instruction": "You are given a question and two possible answers. The task is to evaluate each answer and determine if it is correct. If incorrect, explain why.",
+        "input": "Is there a way of reading one single character from the user input? For instance, they press one key at the terminal and it is returned (sort of like getch()). I know there's a function in Windows for it, but I'd like something that is cross-platform.\nAnswer 1: Here's a link to the ActiveState Recipes site that says how you can read a single character in Windows, Linux and OSX :\nhttps://code.activestate.com/recipes/134892/\nAnswer 2: if you just want to hold the screen so you can see the result on the terminal just write `input()` at the end of the code and it will hold the screen",
+        "output": " until you press any key."
+    },
+    {
+        "instruction": "Design a programming problem related to the subject that has been given to you. Use some examples and constraints to improve your question.",
+        "input": "Dynamic Programming",
+        "output": " (DP) is a technique for solving problems by breaking them into smaller subproblems. These subproblems are solved repeatedly using a recurrence relation, which allows us to solve larger problems more efficiently than if we were to solve them directly.\nFor example, consider the problem of finding the longest string in an array of strings. We can solve this problem using DP by first finding the length of the longest string in an array of size 1, then the length of the longest string in an array of size 2, and so on.\nLet's consider a more general problem: given two arrays A[ ] and B[ ], find the maximum difference between any two elements of A[] and B[].\nThe solution is to use DP again. We can divide the problem into two cases: when the dimension of A[] is less than or equal to the dimension of B[], and when the dimension of A[] is greater than the dimension of B[].\nIn the first case, we can simply compare the two arrays element-wise and get the maximum difference. In the second case, we can use DP to solve the problem recursively. The base case is when the dimensions of A[] and B[] are both 1. In this case, we can just compare the two elements directly and get the maximum difference.\nThe recursive case works as follows: suppose we have two arrays A[ ] and B[ ] of dimensions n and m respectively. If n < m, then we can use the fact that max(A[i], B[j]) <= max(B[i], A[j]) for all i and j. This means that we can solve the problem by comparing each element of A[] with each element of B[] and getting the maximum difference. If n > m, then we can use DP to solve the problem recursively. We can break the problem into two cases: when the dimension of A[]"
+    },
+    {
+        "instruction": "Provide a Java solution to the following problem.",
+        "input": "Given an integer n, return true if it is a power of three. Otherwise, return false.\nAn integer n is a power of three, if there exists an integer x such that n == 3^x.\n\nExample 1:\nIn: n = 27\nOut: true\nExplanation: 27 = 3^3\n\nExample 2:\nIn: n = 0\nOut: false\nExplanation: There is no x where 3^x = 0.\n\nExample 3:\nIn: n = -1\nOut: false\nExplanation: There is no x where 3x = (-1).\n \nConstraints:\n-231 <= n <= 231 - 1\nFollow up: Could you solve it without loops/recursion?",
+        "output": "\n\npublic class Solution {\n    public boolean isPowerOfThree(int n) {\n        return n == 3 || (n % 3 == 0);\n    }\n}"
+    },
+    {
+        "instruction": "Think of topics that are most common in classic interview questions for a job in computer science.",
+        "input": "",
+        "output": " New grads usually have the hardest time answering these questions because they haven't had much experience yet. If you are a senior or an experienced engineer, you should focus on answering the question well and explaining your thought process instead of going into too much detail about specific projects.\nHere are some examples of classic interview questions for computer science jobs:\n1. What is your experience with algorithms?\n2. How comfortable are you with data structures like arrays, linked lists, etc.?\n3. Can you explain how hashing works and when it is appropriate to use it?\n4. Can you tell me about a project that you are particularly proud of?\n5. How do you approach solving complex problems?\n6. Have you worked with any large code bases before? If so, how did you go about debugging them?\n7. Are there any open source projects that you have contributed to?"
+    },
+    {
+        "instruction": "Make the article available in a second language by translating it into it.",
+        "input": "Dentistry, also known as dental medicine and oral medicine, is the branch of medicine focused on the teeth, gums, and mouth. It consists of the study, diagnosis, prevention, management, and treatment of diseases, disorders, and conditions of the mouth, most commonly focused on dentition (the development and arrangement of teeth) as well as the oral mucosa. Dentistry may also encompass other aspects of the craniofacial complex including the temporomandibular joint. The practitioner is called a dentist.\nTranslate to French:",
+        "output": "\nLa dentisterie, aussi connue sous le nom de médecine dentaire ou de médecine orale, est la branche de la médecine qui se concentre sur les dents, les gencives et la bouche. Elle consiste à l'étude, à la diagnostication, à la prévention, à la gestion et au traitement des maladies, des désordres et des conditions des dents, du développement et de l'arrangement des dents ainsi que de la muqueuse orale. La pratique est réalisée par un dentiste."
+    },
+    {
+        "instruction": "Give students tips on how to keep their nerves under control during class presentations.",
+        "input": "",
+        "output": "Nerves can be a common problem for students when they have to give presentations in class. Here are some tips on how to keep your nerves under control during a presentation:\n1. Practice, practice, practice - the more you practice your presentation, the more comfortable you will become with it.\n2. Visualize success - imagine yourself giving a great presentation and succeeding.\n3. Take deep breaths - slow, controlled breaths can help calm your nerves.\n4. Focus on something positive - try to think about something that makes you happy or relaxed before your presentation.\n5. Smile - smiling is contagious and can help you feel more confident.\n6. Think positive thoughts - tell yourself that you can do it and that you will do a great job.\n7. Get plenty of sleep - lack of sleep can make you more nervous, so try to get enough rest before your presentation."
+    },
+    {
+        "instruction": "Think of an idea to help you win a challenge given to you. Write the steps you need to take to develop the idea as well.",
+        "input": "What can you make by recycling and repurposing some old, previously used materials? We want to see it!\nProjects must incorporate some kind of used materials - take that old used thing, and turn it into something new and different!\nE-waste is a huge problem. What can you make using old electronics and other salvageable electronic materials? \nWe have a special judges prize for our favorite Instructable that incorporates or is related to reusing e-waste.\nBe smart and be safe; note that potentially deadly projects (like Lichtenberg/fractal wood burning machines) will not be allowed to be published or submitted to this contest.",
+        "output": "\nI want to enter! What do I do now?\nEnter the contest by creating a new Instructable that fits the guidelines above. Your Instructable must be published no earlier than today (08/21/2013) at 11:59 pm Pacific Time ( UTC).\nStandard Contest Rules apply."
+    },
+    {
+        "instruction": "Estimate the cost of supplies required to create the given project and calculate the total cost.",
+        "input": "DIY Water Chiller\nRequired items are: Ice-maker, Icebox/cooler, Temperature regulator, Aquarium pump x2, 12V power supply",
+        "output": ", Tubing, and Bucket.\n1. Cut the tubing to fit the ice-maker line and the aquarium pump lines.\n2. Connect the tubing to the ice-maker line and the aquarium pump lines.\n3. Place the bucket in the icebox/cooler with water.\n4. Connect the temperature regulator to the ice-maker line.\n5. Plumb the tubing from the temperature regulator to the aquarium pumps.\n6. Plug the 12V power supply into the aquarium pumps.\n7. Turn on the aquarium pumps and set the temperature regulator to chill the water."
+    },
+    {
+        "instruction": "Develop a mental exercise that can help people manage their anxiety and explain how it works.",
+        "input": "",
+        "output": "A mental exercise that can help people manage their anxiety is called cognitive restructuring. This involves identifying and challenging the unhelpful thoughts and beliefs that contribute to anxiety. By reframing these thoughts in a more positive and realistic light, individuals can learn to reduce their anxiety levels. For example, someone who is worried about public speaking may recognize that they are overestimating the likelihood of a bad outcome (such as being embarrassed or humiliated) and underestimating their ability to cope with it. Through cognitive restructuring, they can learn to challenge this thinking and replace it with more realistic and encouraging statements, such as \"I have successfully presented before and I will be able to handle any situation that arises.\""
+    },
+    {
+        "instruction": "In relation to the given weather scenario, give some tips on how to adjust the travel plans with it.",
+        "input": "a sudden temperature change",
+        "output": ", like from summer to winter, can be difficult to adjust to. Here are some tips on how to adjust your travel plans with it:\n1. Pack layers: Pack clothes that you can layer on top of each other. This will help you adjust to the temperature change easily.\n2. Bring a jacket: Even if the weather is warm during the day, the temperature can drop at night. Make sure to bring a jacket or a warm layer to keep you comfortable.\n3. Check the forecast: Check the forecast for the area you are going to and plan your activities accordingly.\n4. Stay hydrated: Drink plenty of water to stay hydrated and keep your body warm.\n5. Wear comfortable shoes: Wear comfortable shoes that you can walk in for long distances.\n6. Use public transportation: If possible, use public transportation instead of driving. This will help you avoid traffic jams and save time.\n7. Plan ahead: Plan your trip in advance so that you can adjust your itinerary according to the weather conditions."
+    },
+    {
+        "instruction": "Design a template table for keeping track of all subscriptions.",
+        "input": "",
+        "output": "\n<table>\n    <tr>\n        <th>Subscription Name</th>\n        <th>Product/Service</th>\n        <th>Price</th>\n        <th>Frequency</th>\n        <th>Status</th>\n        <th>Cancel Date</th>\n    </tr>\n    <tr>\n        <td>Netflix</td>\n        <td>Streaming Video</td>\n        <td>$7.99</td>\n        <td>Monthly</td>\n        <td>Active</td>\n        <td>2013-08-14</td>\n    </tr>\n    <tr>\n        <td>Spotify</td>\n        <td>Music Streaming</td>\n        <td>$9.99</td>\n        <td>Monthly</td>\n        <td>Active</td>\n        <td>2013-08-14</td>\n    </tr>\n    <tr>\n        <td>Audible</td>\n        <td>Audiobook &amp; Podcasts</td>\n        <td>$14.95</td>\n        <td>Monthly</td>\n        <td>Active</td>\n        <td>2013-08-14</td>\n    </tr>\n    <tr>\n        <td>Hulu</td>\n        <td>TV Streaming</td>\n        <td>$7.99</td>\n        <td>Monthly</td>\n        <td>Active</td>\n        <td>2013-08-14</"
+    },
+    {
+        "instruction": "Plan an agenda for the daily standup meetings. Assign a time duration to each topic on the agenda.",
+        "input": "",
+        "output": "\nThis will ensure that the standup meetings are effective and productive. It will also help team members to stay focused and on track with their tasks."
+    },
+    {
+        "instruction": "What sound does this make?",
+        "input": "好",
+        "output": "きなんです。I like it.\nWhat sound does this make?"
+    },
+    {
+        "instruction": "Come up with healthy and easy dinner ideas for weeknights.",
+        "input": "",
+        "output": " on a tight budget.\nIngredients: 2 chicken breasts, 1 cup of frozen peas, 1 sweet potato, 2 tablespoons of olive oil, salt and pepper to taste.\nInstructions: Preheat the oven to 375°F. Cut the sweet potato into cubes and cook it in the olive oil for about 10 minutes. Season with salt and pepper. Meanwhile, cut the chicken breasts into small cubes and cook them in a pan with some olive oil for about 10 minutes. Add the frozen peas and cook for another 5 minutes. Finally, combine all the ingredients in a baking dish and bake for about 20 minutes. Serve hot."
+    },
+    {
+        "instruction": "Design a medium-level sudoku puzzle.",
+        "input": "",
+        "output": "\n```\nfunction createSudoku(difficulty) {\n  let board = [];\n  let seen = [];\n  for (let i = 0; i < 9; i++) {\n    board[i] = Array.from({ length: 9 }, () => -1);\n    seen[i] = new Set();\n  }\n  // Generate the puzzle\n  for (let i = 0; i < 81; i++) {\n    let row = Math.floor(Math.random() * 9);\n    let col = Math.floor(Math.random() * 9);\n    let val = Number(Math.random() * 100);\n    if (seen[row].has(col)) continue;\n    board[row][col] = val;\n    seen[row].add(col);\n  }\n  // Add the borders\n  board[0][0] = board[8][0] = 1;\n  board[0][8] = board[8][8] = 2;\n  board[1][1] = board[2][1] = 3;\n  board[1][2] = board[2][2] = 4;\n  board[3][3] = board[3][3] = 5;\n  board[3][4] = board[3][4] = 6;\n  board[4][4] = board[4][4] = 7;\n  board[4][5] = board[4][5] = 8;\n  board[5][5] = board[5][5] = 9;\n  board[5][6] = board[5][6] = 10;\n  board[6][6] ="
+    },
+    {
+        "instruction": "Solve the given Sudoku puzzle.",
+        "input": "The Sudoku puzzle is:\n|1|  |5|  |  |  |  |8|  |\n|  |  |  |  |  |3|  |6|4|\n|8|3|4|6|7|  |9|  |  |\n|2|9|1|  |  |8|3|7|6|\n|  |  |6|  |  |9|8|1|  |\n|  |  |  |  |  |2|  |  |  |\n|  |2|  |  |9|7|6|  |  |\n|5|4|  |  |  |  |  |9|8|\n|6|1|  |  |  |5|4|3|7|",
+        "output": "\n|3|6|  |  |  |7|5|  |9|\n|4|7|  |  |  |  |  |8|1|\n|4|9|  |  |  |  |  |6|2|"
+    },
+    {
+        "instruction": "In the event that a person enjoyed the book that was given, please suggest other books that they might also like.",
+        "input": "The Great Gatsby",
+        "output": " by F. Scott Fitzgerald - This classic American novel tells the story of Jay Gatsby, a wealthy man determined to win back the love of his life, Daisy Buchanan, who is married to another man. Set in the roaring twenties, it is a story of excess, passion, and tragedy.\nThe Catcher in the Rye by J.D. Salinger - This coming-of-age novel tells the story of Holden Caulfield, a teenager who has just been expelled from yet another school. He embarks on a journey across America, where he confronts his past and ultimately learns important lessons about life.\nTo Kill a Mockingbird by Harper Lee - This Pulitzer Prize-winning novel tells the story of two children growing up in the 1930s South. Their father, Atticus, is a lawyer who takes on the case of a black man accused of raping a white woman, and the children learn important lessons about justice, equality, and morality.\nThe Grapes of Wrath by John Steinbeck - This classic American novel tells the story of the Joad family, who are forced to leave their home during the Great Depression and travel to California in search of work. Along the way, they face hardship, poverty, and prejudice.\nThe Lord of the Rings by J.R.R. Tolkien - This epic fantasy novel follows the adventures of Frodo Baggins and his companions as they attempt to destroy a powerful ring that threatens to destroy the world. It is a story of friendship, love, and good versus evil."
+    },
+    {
+        "instruction": "Solve this equation.",
+        "input": "x^3 - 4x^2 + 6x - 24 = 0",
+        "output": "\nx = 2, 3, -3"
+    },
+    {
+        "instruction": "Using a table, compare the career overviews of the given players in Major League Baseball. Use \"|\" for separating the columns in the table.",
+        "input": "Derek Jeter, Albert Pujols",
+        "output": ", Cal Ripken Jr., Tony Gwynn, Ken Griffey Jr.\n| Name | Position | MLB Career Stats |\n|------||---------||---------------------|\n| Derek Jeter | Shortstop | 3,465 Hits, .310 BA, 260 Home Runs, 358 Stolen Bases |\n| Albert Pujols | First Baseman | 645 Home Runs, .290 BA, 1,329 RBI, 1,247 Walks |\n| Cal Ripken Jr. | Third Baseman | 3,184 Hits, .276 BA, 431 Home Runs, 1,699 Combined Games Played |\n| Tony Gwynn | Outfielder | 1,595 Hits, .338 BA, 117 Stolen Bases, 5 Total League Awards |\n| Ken Griffey Jr. | Outfielder | 630 Home Runs, 1,400 Strikeouts, 10 Gold Glove Awards |"
+    },
+    {
+        "instruction": "Identify all words that match the pattern given.",
+        "input": "H_AR_",
+        "output": "T_HAR_T\nWords that match the pattern are: heart, art, and harth"
+    },
+    {
+        "instruction": "The last message in the chat is a partial response. You should complete and rewrite it.",
+        "input": "+ What are going to do now?\n- I don't know. I had to give up my dream of being a mathematician.\n+ Why",
+        "output": "? What happened?\n- I couldn't pass the qualification exam.\n+ What exam?\n- The one for the mathematician position at Google.\n+ Oh, I'm sorry to hear that."
+    },
+    {
+        "instruction": "Change the response to have a more empathic tone in the chat.",
+        "input": "+ How are you doing?\n- Fine, I had a bunch of problems today.\n+ What kind of problems?",
+        "output": "\n- I had some issues with my car, and it's breaking down again.\n+ That sounds frustrating, what happened?\n- Yeah, the engine light came on and it just stopped working.\n+ Do you know what caused it?\n- No, I don't. The mechanic is looking at it now, but he thinks it might be a spark plug.\n+ That sounds like it could be expensive.\n- Yeah, it's going to cost me a lot of money to fix.\n+ I'm sorry to hear that. Is there anything I can do to help?\n- Thanks, but I think I'll just have to deal with it."
+    },
+    {
+        "instruction": "Correct the transcription of an excerpt containing errors.",
+        "input": "I got got charged interest on ly credit card but I paid my pull balance one day due date. I not missed a pavement year yet. Man you reverse the interest charge?",
+        "output": "\nI don't think you can reverse it, but I could be wrong. You should have a conversation with your credit card company and see what they say about it.\nYou may be able to dispute the interest charge by explaining that the due date was not properly communicated to you. If you prove that you made an honest effort to pay on time, then you may be able to get the interest waived. However, I don't think you will be able to get a refund of the interest - once it's been charged, it's usually too late."
+    },
+    {
+        "instruction": "Take a look at the contract and extract the parties of the agreement from it.",
+        "input": "As of the 13th day of December 2021, this Music Recording Agreement (\"Agreement\") is made between Good Kid, a Toronto-based musical group (\"Artist\"), and Universal Music Group, a record label with license number 545345 (\"Record Label\"). The Artist and the Recording Label may be referred to in this Agreement individually as \"Parties\" and collectively as \"Parties.\" Work under this Agreement will begin on March 15, 2022, and will last for the duration of the Agreement.",
+        "output": "\nIn consideration of the foregoing, and subject to the terms and conditions herein contained, the Parties agree as follows:\n1. Record Label will record, produce, and distribute an album containing approximately 20 songs with the Artist on its label. The parties understand that not all songs may be used in the final product, and that the number of songs recorded may vary based on the quality of the songs performed by the Artist.\n2. The term of this Agreement shall be from March 15, 2022, until its completion. The Parties agree that the duration of this Agreement is dependent on the timely delivery of materials by the Artist and the successful recording and production of the album.\n3. In consideration of the services rendered by the Record Label under this Agreement, the Artist agrees to pay the Record Label a total fee of $10,000. The Artist shall make payments to the Record Label upon the successful completion of each milestone (as defined below) as follows:\n(a) Upon signing of this Agreement, the Artist shall pay the Record Label a one-time fee of $2,000;\n(b) Upon the selection of one song for inclusion in the album by the Artist, the Artist shall pay the Record Label an additional $2,000;\n(c) Upon the selection of two songs for inclusion in the album by the Artist, the Artist shall pay the Record Label an additional $2,000;\n(d) Upon the selection of three songs for inclusion in the album by the Artist, the Artist shall pay the Record Label an additional $2,000;\n(e) Upon the selection of four songs for inclusion in the album by the Artist, the Artist shall pay the Record Label an additional $2"
+    },
+    {
+        "instruction": "On the basis of the subject of the email, determine whether the email should be treated as spam or not.",
+        "input": "Dermatologists don't like her!",
+        "output": "I'm sorry, but I cannot provide a definitive answer as I do not have access to the email content. However, it is important to note that dermatologists are medical professionals who specialize in skin care and treatments, so it is unlikely that they would be hostile towards someone offering a skin care product. It is also possible that the email was sent to multiple recipients and some people may have reported it as spam, causing it to be filtered in the future."
+    },
+    {
+        "instruction": "Give the news title a category. Pick a category from the list of News & Buzz, Travel, Style, Arts & Culture, Politics, Tech, and Science & Health.",
+        "input": "The #Banksy Exhibit in Cambridge, MA is absolutely terrific.",
+        "output": " He's a political genius, but also an incredibly gifted artist. I especially loved his take on the Mona Lisa (with her eyes closed. Blissfully unaware of the world around her) and the \"flower thrower\" who perfectly captured the essence of protest art. Highly recommended.\nGraffiti artist Banksy's new exhibition has opened in Boston. Some of his most famous works have been brought over from the UK, including Dismaland, the model village, which was set up as a theme park 'bemusement park' to showcase Bansky's skewed view of the world."
+    },
+    {
+        "instruction": "Give some examples of what people usually say in the given social situation.",
+        "input": "when someone arrives safely",
+        "output": " at their destination after a long journey.\nExamples:\n- \"Welcome home!\"\n- \"It's so great to see you!\"\n- \"I'm glad you made it safely.\""
+    },
+    {
+        "instruction": "Schedule the meetings based on the given informqation.",
+        "input": "Person1: available from 9-11 am, meeting duration: 30 min \nPerson2: available from 1-3 pm, meeting duration: 90 min\nPerson3: available from 2-3:30 pm, meeting duration: 60 min",
+        "output": " \nPerson4: available from 3:30-5 pm, meeting duration: 60 min"
+    },
+    {
+        "instruction": "Convert the given HTML into Markdown format.",
+        "input": "<code>Use `code` in your Markdown file.</code>",
+        "output": "\nTo create an HTML file, you can use any text editor or a web-based tool like <a href=\"https://www.w3schools.com/html/default.asp\">W3Schools</a>. Here is an example of an HTML code:\n```\n<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"UTF-8\">\n    <title>My Website</title>\n  </head>\n  <body>\n    <h1>Welcome to My Website!</h1>\n    <p>This is a website I have created using HTML and CSS.</p>\n  </body>\n</html>\n```\nTo convert this HTML code into Markdown format, you can use a online converter tool like <a href=\"https://markdown-online.com/\">Markdown Online</a>. The converted Markdown code will look like this:\n```\n## Welcome to My Website!\n## This is a website I have created using HTML and CSS.\n```"
+    },
+    {
+        "instruction": "You need to come up with the names of some of the papers that relate to the paper you are given.",
+        "input": "RoMQA: A Benchmark for Robust, Multi-evidence, Multi-answer Question Answering",
+        "output": ".\nEvidence-grounded QA across Languages: From Neural Machine Translation to Robust Question Answering.\nJoint Modeling of Questions and Answers for Multi-lingual Question Answering.\nTranslating Questions Cross-Lingually with a Neural Attention Model."
+    },
+    {
+        "instruction": "Create a short, concise summary of the paper based on its abstract.",
+        "input": "Few-shot learning (FSL) is one of the key future steps in machine learning and raises a lot of attention. In this paper, we focus on the FSL problem of dialogue understanding, which contains two closely related tasks: intent detection and slot filling. Dialogue understanding has been proven to benefit a lot from jointly learning the two sub-tasks. However, such joint learning becomes challenging in the few-shot scenarios: on the one hand, the sparsity of samples greatly magnifies the difficulty of modeling the connection between the two tasks; on the other hand, how to jointly learn multiple tasks in the few-shot setting is still less investigated. In response to this, we introduce FewJoint, the first FSL benchmark for joint dialogue understanding. FewJoint provides a new corpus with 59 different dialogue domains from real industrial API and a code platform to ease FSL experiment set-up, which are expected to advance the research of this field. Further, we find that insufficient performance of the few-shot setting often leads to noisy sharing between two sub-task and disturbs joint learning. To tackle this, we guide slot with explicit intent information and propose a novel trust gating mechanism that blocks low-confidence intent information to ensure high quality sharing. Besides, we introduce a Reptile-based meta-learning strategy to achieve better generalization in unseen few-shot domains. In the experiments, the proposed method brings significant improvements on two datasets and achieve new state-of-the-art performance.",
+        "output": ""
+    },
+    {
+        "instruction": "The story of a movie has been described using many emojis. You need to guess the name of the movie based on the emojis.",
+        "input": "🧙‍♂️🚪📚🦅⚡",
+        "output": "���️🌴🍿☀️\nThe movie is Harry Potter and the Philosopher's Stone."
+    },
+    {
+        "instruction": "Convert the given description to a bash command.",
+        "input": "read the first 10 lines from f",
+        "output": "name\nfname=$1\nif [ -f \"$fname\" ]; then\n    command='cat \"$fname\"'\nelse\n    echo \"File '$fname' does not exist.\"\n    exit 1\nfi"
+    },
+    {
+        "instruction": "List the concepts that should be learned before approaching the given complex concept.",
+        "input": "Deep Learning",
+        "output": " is a branch of machine learning that uses multiple layers of artificial neural networks to process large sets of data autonomously. It can be used for image recognition, natural language processing, and speech recognition, among other applications. Before diving into deep learning, it is important to have a strong foundation in machine learning concepts such as supervised and unsupervised learning, linear regression, logistic regression, decision trees, clustering, and ensembles. Understanding the basics of probability and statistics is also helpful."
+    },
+    {
+        "instruction": "Assess the sentiment of the given tweet and categorize it as Positive, Negative, or Neutral.",
+        "input": "\"This is the best cheat-sheet paper that I've found in a LONG time.\"",
+        "output": " - Positive"
+    },
+    {
+        "instruction": "You are given a Python command and are required to convert it into Ruby.",
+        "input": "print(\"Hello World!\")",
+        "output": "\nputs(\"Hello World!\")"
+    },
+    {
+        "instruction": "Create a list of subtopics for the given topic.",
+        "input": "Music theory",
+        "output": " is the study of music, generally in a highly technical manner outside of practical music-making.\nA list of subtopics for the given topic \"Music theory\" include:\n1. Harmony\n2. Counterpoint\n3. Rhythm\n4. Form and structure\n5. Tonality\n6. Modulation\n7. Chromaticism\n8. Texture\n9. Orchestration\n10. Analysis"
+    },
+    {
+        "instruction": "Provide a name for the dish given the ingredients and instructions.",
+        "input": "INGREDIENTS:\n2 (5 oz) cans Bumble Bee® Solid White Albacore Tuna, drained\n1 avocado\n2 Tbsp Sriracha\n1 Tbsp Dijon mustard\n2 to 3 Tbsp celery, chopped\n2 Tbsp red onion, chopped\n2 green onions, chopped\n1 Tbsp fresh cilantro, chopped\nSalt and pepper, to taste\n2 heaping cups leafy green lettuce\n1 cup matchstick carrots\n4 (10 inch) whole wheat tortillas\nINSTRUCTIONS:\nIn a medium bowl, mash together tuna and avocado until combined. Add in the rest of the ingredients through the salt and pepper, mixing well.\nTo assemble, top each tortilla with a 1/2 cup leafy greens, 1/4 cup matchstick carrots and divide the tuna mixture evenly among the wraps. Tightly roll up the tortilla, slice and enjoy!",
+        "output": "\nServe with additional Sriracha if desired."
+    },
+    {
+        "instruction": "Make a list of adjectives that can be used to describe the given brand.",
+        "input": "a creative tech startup",
+        "output": " that offers innovative solutions to everyday problems, with a focus on simplicity and efficiency."
+    },
+    {
+        "instruction": "Write an engaging and well-written property listing description for selling a house. Address of the house and some of the details are given to you. Fill in the information gap with hallucinations if needed.",
+        "input": "Property Address: 412 Monterey Ave, Capitola, CA 95010\nParking: 3 cars + a finished single car garage\nDetails:\n- open floorplan\n- window with views to park/mountains\n- Kitchen with shaker cabinetry and white Calcatta quartz counters",
+        "output": "\n- Family room with vaulted ceiling and skylight\n- Large master suite with deck access\n- Guest bathroom with dual vanities\n- Separate laundry room\n- Finished garage with epoxy floors and cabinets"
+    },
+    {
+        "instruction": "Given a real estate listing description, extract the information and details of the property from the text. The details consist of address, basic house attributes, etc.",
+        "input": "WALK TO THE BEACH FROM CAPITOLA KNOLLS! Single-level upstairs condo with your own large private deck overlooking nature. Adorable home that is move-in ready and waiting for you to put your own personal touches on. Gorgeous and well-maintained landscaped park-like setting with lush green grasses with a community pool and spa to enjoy. Desirable location...walk to Capitola Village, Gayle's Bakery, restaurants, shopping, schools or jump on Hwy 1 right around the corner.",
+        "output": " Owner's Suite with walk-in closet and bath. 2 spacious bedrooms with built-ins. Large living room that opens to the dining area. In-unit washer/dryer. Two parking spaces. Great location!\nLOCATION, LOCATION, LOCATION!!! Walk to the beach from Capitola Knolls! Single-level upstairs condo with your own large private deck overlooking nature. Adorable home that is move-in ready and waiting for you to put your own personal touches on. Gorgeous and well-maintained landscaped park-like setting with lush green grasses with a community pool and spa to enjoy. Desirable location...walk to Capitola Village, Gayle's Bakery, restaurants, shopping, schools or jump on Hwy 1 right around the corner. Owner's Suite with walk-in closet and bath. 2 spacious bedrooms with built-ins. Large living room that opens to the dining area. In-unit washer/dryer. Two parking spaces. Great location!"
+    },
+    {
+        "instruction": "As part of software engineering, user stories describe what the user wants the system to do, while acceptance criteria describe the conditions a specific user story must meet. Create basic acceptance criteria based on the given user story.",
+        "input": "User story: As a user, I want to use a search field to type a city, name, or street, so that I could find matching hotel options.",
+        "output": "\nAcceptance criteria:\nWhen the user types a name or street in the search field, the system should display a list of matching hotels.\nWhen the user selects a hotel from the list, the system should redirect the user to the hotel's page."
+    },
+    {
+        "instruction": "A user story is an informal, general explanation of a software feature written from the perspective of the end user or customer. Write a user story for a given software.",
+        "input": "Gmail",
+        "output": " is a free, advertising-supported email service provided by Google. It was first launched in 2004 and has become one of the most popular email services in the world. Gmail offers users a massive storage capacity of 15 GB as well as advanced features such as email grouping and search capabilities.\nAs an AI assistant, I would like to be able to interact with Gmail in order to help people find information quickly and easily."
+    },
+    {
+        "instruction": "Paraphrase the given text in an academic style.",
+        "input": "Lots of papers have been published on this topic.",
+        "output": " Many of them focus on the benefits of using natural language processing for text analysis, while others look at how to improve the accuracy of machine translation.\nIn recent years, there has been a significant increase in the use of deep learning algorithms for natural language processing and machine translation. These methods have shown great promise in improving the performance of these tasks. However, there is still much room for improvement. In particular, it is important to develop methods that can handle long-term dependencies between words and phrases."
+    },
+    {
+        "instruction": "Convert natural language into a list of turn-by-turn directions.",
+        "input": "Go west on I-10 until you hit the 101 then take it north. You will eventually see the Hollywood sign.",
+        "output": "\nGo west on I-10 until you hit the 101 then take it north. You will eventually see the Hollywood sign."
+    },
+    {
+        "instruction": "Provide an ESRB rating for the following game.",
+        "input": "This is an action-adventure game in which players help Kratos and his son on a dangerous quest. Players explore various realms and engage in frenetic hand-to-hand combat against human-like raiders and fantastical creatures (e.g., centaurs, trolls, dragons). Players use axes and chained blades to battle enemies, often resulting in large blood-splatter effects and dismemberment. Players can perform finishing attacks that depict close-up impalement via bladed and hand-held weapons; repeated axe strikes to a creature's neck results in decapitation. The words “f**k” and “sh*t” are heard in the game.",
+        "output": "\nGameStop is an online retailer that sells video games, but they also have physical stores. Their website provides information on the ESRB ratings for games, which can be useful for parents who are looking for appropriate content for their children. The website has a search tool that allows users to search for games by rating or genre."
+    },
+    {
+        "instruction": "Categorize the Business into one of the Restaurants, Home Services, Auto Services and Miscellaneous based on its Specialties.",
+        "input": "Call us at 650-636-4884 or visit our website to receive a quote. This shop specializes in New Tires and General Auto Repair. We carry all tires in-house and have a wide range to fit any budget or car specifics. If you are unsure what tires you need there are experts on hand and available to help you pick the best tire for your needs. We also carry commercial vehicle tires and can serve a wide array of fleets.",
+        "output": " Our goal is to get you back on the road quickly and safely."
+    },
+    {
+        "instruction": "Notify me of any suggestions you may have for making the text more grammatically correct.",
+        "input": "This is the second time I've been here, and the vibes, and the food were exquisite.",
+        "output": "\nThe vibes and the food were exquisite."
+    },
+    {
+        "instruction": "Provide instructions for the given exercise.",
+        "input": "Leg Raises",
+        "output": " - Start lying on your back with your knees bent and feet flat on the floor. Lift one leg a few inches off the floor, hold for a second, then lower it back down. Repeat with the other leg. That's one rep. Do as many reps as possible in 60 seconds."
+    },
+    {
+        "instruction": "Rewrite the text and correct the spelling errors.",
+        "input": "It solves problems comon and uniqe to every team.",
+        "output": " It keeps track of the progress of each task and the team members responsible for completing them. It also provides a centralized location for storing project-related documents and communications."
+    },
+    {
+        "instruction": "Write the HTML syntax for the required action.",
+        "input": "adding an image to the page",
+        "output": "\n<img src=\"image.jpg\" alt=\"Image description\">"
+    },
+    {
+        "instruction": "Decide which part of speech the underlined word belongs to.",
+        "input": "school will _keep through the winter",
+        "output": " vacation_.\nA.Noun"
+    },
+    {
+        "instruction": "Expand the given sentence and give it more details and depth.",
+        "input": "It changed my life.",
+        "output": " I was a high school student when I first heard about Bitcoin. I was fascinated by the idea of a digital currency that wasn’t controlled by any government or financial institution. I started learning more about it and bought my first Bitcoin in 2013.\nAt that time, Bitcoin was worth only a few dollars. But I believed in its potential and held onto my coins.\nOver the years, Bitcoin has grown exponentially in value. Today, one Bitcoin is worth thousands of dollars. I have been able to invest wisely and become financially independent thanks to Bitcoin. It has opened up new opportunities for me and given me a brighter future."
+    },
+    {
+        "instruction": "Suggest some names for a friendly group in telegram.",
+        "input": "",
+        "output": "Hey guys, just joined this forum.\nSo i’m looking for some suggestions for a name for my telegram group. had one before but it got deleted by mistake.\nAnyway, this time i want something more unique and catchy.\nI want the name to be friendly, something like “The Friendship Club” or “The Chill Club”.\nPlease suggest some names."
+    },
+    {
+        "instruction": "Write what the pronunciation of the given word sounds like. Follow the \"Google pronunciation dictionary\" scheme for phonetic spelling.",
+        "input": "interpretations",
+        "output": " 1. The act of interpreting something. 2. An explanation of a text, statement, or concept in a way that makes it easier to understand."
+    }
+]

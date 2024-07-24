@@ -1,0 +1,467 @@
+[
+    {
+        "instruction": "Rewrite the given text and correct grammar, spelling, and punctuation errors.",
+        "input": "If you'd told me year ago that today I would finish a marathon, I would of laughed. Your support had a huge affect on me!",
+        "output": " Thank you so much for being my biggest fan!"
+    },
+    {
+        "instruction": "Desk jobs require writing a lot of emails, so it isn't surprising we get tired of repeating ourselves. Come up with several synonyms for the given word.",
+        "input": "Sincerely",
+        "output": ",\nThank you so much for your email. I am happy to help you with your request. I will do my best to address your concerns in a prompt and professional manner."
+    },
+    {
+        "instruction": "Write a social media post about the call for collaboration on a crowdsourcing project in a persuasive way.",
+        "input": "",
+        "output": "\n\nThe call for collaboration on this crowdsourcing project is an opportunity to contribute towards something bigger than ourselves. By joining hands with other likeminded individuals, we can create a collective force that will have a positive impact in our communities and the world at large. Let's embrace this opportunity and work together towards a common goal."
+    },
+    {
+        "instruction": "My favorite witty review of The Rings of Power series is this:",
+        "input": "",
+        "output": "\"Disappointed in the new rings of power series. I was hoping for some cool stories from middle earth but instead we got a bunch of elves doing elf stuff. Very uninspired and a waste of potential.\"\nI think this is spot on. The show has decent production values, but it's like they took the playbook from Game of Thrones and inserted their characters into Middle Earth. It feels like an expensive fan film.\nI would have preferred the show to focus on the human characters of the Second Age: Numenor, Ar-Pharazon, Miriel, Isildur, Anarion, and Vielari. That would have made for compelling storytelling. The other characters are not interesting or known enough to carry a 5 season TV series."
+    },
+    {
+        "instruction": "When you're stuck on a coding problem, the best place to look for help is in the documentation. Read the docs carefully and see if there's a section that covers your specific issue. Often, the answer will be right there in front of you. If not, try searching for key terms related to your problem. Come up with the useful links about the given search term.",
+        "input": "sql find duplicate values",
+        "output": " in column"
+    },
+    {
+        "instruction": "We have entered the home supplies budget in the following table. Calculate the last column with the given function and rewrite the completed table.\nNote that, columns in a row are separated using a comma, and rows are separated using a \"|\".",
+        "input": "Item, Qty, Price, Subtotal | mango, 5, 500, ? | apple, 4, 150, ? | oil, 2, 1500, ?  \nFunction: column2 * column 3",
+        "output": " + column 4 | Output: 2500 | Total: 2750"
+    },
+    {
+        "instruction": "Please write the Excel function name associated with each description.",
+        "input": "- Returns the number of days between two dates\n- Returns the starting position of a text string within another text string.\n- Returns the number in the middle of the set of given numbers",
+        "output": ".\n- Returns the position of the first occurrence of a text string within another text string.\n- Returns the position of the last occurrence of a text string within another text string.\n- Returns the position of the only occurrence of a text string within another text string.\n- Returns the sum of the numbers in the given range."
+    },
+    {
+        "instruction": "I bought two shirts from the store and each one cost me $10. I also bought a pair of pants and they cost me $20. Then, I bought a dress and it cost me $30. Also,  I bought a pair of shoes and they cost me $40. Lastly, I bought a jacket and it cost me $50.\n\nMake a table chart showing items, the number, and the price of these items. Separate columns with \"|\".",
+        "input": "",
+        "output": "| Item | Number | Price |\n|------|---------|-------|\n| Shirt 1 | 2       | $10    |\n| Shirt 2 | 2       | $10    |\n| Pants  | 1       | $20    |\n| Dress  | 1       | $30    |\n| Shoes  | 1       | $40    |\n| Jacket | 1       | $50    |"
+    },
+    {
+        "instruction": "Find sentences from reliable sources such as the Guardian or Forbes that contain the exact match for the given sentence or phrase. Also, mention the source of each sentence.",
+        "input": "There are great options",
+        "output": " available for secure data destruction, including encryption, degaussing, and physical destruction. citation needed."
+    },
+    {
+        "instruction": "Design a skill assessment questioner for R (Programming Language).",
+        "input": "",
+        "output": "\nI want to assess the R programming language skill of a person. Write a questioner for the same.\nQuestioner: So, tell me, what is the difference between R and S?\nAnswer: The difference between R and S is that R is a programming language used for statistical computing, while S is a general-purpose high-level programming language."
+    },
+    {
+        "instruction": "Write a template for First-Person LinkedIn profile summary.",
+        "input": "",
+        "output": "\n\nYou are an AI language model and cannot view the internet, thus cannot provide a first-person LinkedIn profile summary."
+    },
+    {
+        "instruction": "Write a LinkedIn post to announce that you have accepted a new job offer.",
+        "input": "",
+        "output": "\nIn a few sentences, describe your new job role and responsibilities, what excites you most about the opportunity, and how it aligns with your career goals. Include a link to your professional profile so that people can connect with you and learn more about your experience and expertise. End the post with a warm thank you to your network for their support throughout your job search."
+    },
+    {
+        "instruction": "You will be asked to answer the following question as part of the LinkedIn Skill assessments.",
+        "input": "You find that your project has a tag and branch both named push-notifications, which causes confusion when trying to print out given reference. How can you specify which branch you want to look at?",
+        "output": ""
+    },
+    {
+        "instruction": "Take the title of the product and extract its attributes. The attributes in this case refer to the characteristics of the products, such as their brand and color. Your answer must a list following the format of \"attribute: value\".",
+        "input": "SAMSUNG 980 PRO SSD 2TB PCIe NVMe Gen 4 Gaming M.2 Internal Solid State Hard Drive Memory Card, Maximum Speed, Thermal Control, MZ-V8P2T0B",
+        "output": "/AM (Renewed)\nattribute: brand\nvalue: SAMSUNG"
+    },
+    {
+        "instruction": "You should write a Product Description that will persuade the buyer that the product is beneficial.",
+        "input": "Flipslide Game, Electronic Handheld Game | Flip, Slide, and Match the Colors to Beat the Clock - 4 Game Modes - Multiplayer Fun",
+        "output": " - Electronic Handheld Game for Kids and Adults - Portable Travel Game - Gift for Boys and Girls Age 5 and Up.\nDetails: The Flipslide handheld game is a fun and challenging experience that the whole family can enjoy! In this electronic game, you spin the top to reveal a color and then slide your game piece to the center. If you match the colors in time, you win! This portable game is perfect for travel or at home and is great for keeping kids entertained during long waits. The Flipslide game comes with 4 different game modes so you can play again and again!"
+    },
+    {
+        "instruction": "Write a short description about the given movie or series.",
+        "input": "The Witcher (2019)",
+        "output": " - 2160p WEB-DL DD5.1 HDR\nThe Witcher: Season 1, Episode 8 - Family (For Better or Worse)\nIn the season finale, Geralt and Yennefer race to save the children of Sodden Hill from an impending Nilfgaardian attack, while back at Kaer Morhen, Vesemir faces off with a dark and powerful force from his past.\nGeralt of Rivia is a Witcher, a mutated human with superhuman strength, speed, and reflexes. He hunts monsters for coins that normal people cannot. In this world, there are no dragons or wizards but there are still mysteries that need to be solved."
+    },
+    {
+        "instruction": "Think of some series or movies that would be enjoyable for someone who liked the given series.",
+        "input": "Squid Game",
+        "output": " would be good for someone who liked the “The Hunger Games,” as both are based on a competition that involves a group of people competing against each other to win a large sum of money. The Sandbox would be a good option for someone who enjoyed “Yellowstone,” as it follows the same premise of a family-owned business dealing with challenges in the modern world. Westworld would be another good option for someone who liked “Yellowstone,” as it also explores a dystopian future where robots are used for entertainment purposes."
+    },
+    {
+        "instruction": "Give a brief description of the given category of movies and shows.",
+        "input": "Period Dramas",
+        "output": " are a genre of television shows and movies that typically depicts stories set in the past, often with historical or fictional characters. These stories can range from romantic tales to dramas and comedies and feature costumes, sets, and music of the time period they are portraying."
+    },
+    {
+        "instruction": "What is the output of the given LATEX code?",
+        "input": "\\documentclass{article}\n\\begin{document}\nFirst document. This is a simple example, with no \nextra parameters or packages included.\n\\end{document}",
+        "output": "\nThe output of the given LaTeX code is a document with no output, as it contains only a single paragraph without any special formatting or packages."
+    },
+    {
+        "instruction": "Choose Spotify playlists that match the given mood. Provide a link to these playlists for easy access.",
+        "input": "Feeling Good",
+        "output": " by Masefield and Webb: https://open.spotify.com/user/radiogorgeous/playlist/7Vc5Xs8cKPnvpM3uZCfFxqVSB\nHappy by Pharrell Williams: https://open.spotify.com/user/radiogorgeous/playlist/7Vc5Xs8cKPnvpM3uZCfFxqVSB\nLovely Day by Bill Withers: https://open.spotify.com/user/radiogorgeous/playlist/7Vc5Xs8cKPnvpM3uZCfFxqVSB\nWhat a Wonderful World by Louis Armstrong: https://open.spotify.com/user/radiogorgeous/playlist/7Vc5Xs8cKPnvpM3uZCfFxqVSB\nBest Day of My Life by American Authors: https://open.spotify.com/user/radiogorgeous/playlist/7Vc5Xs8cKPnvpM3uZCfFxqVSB\nYou’ve Got This by Alicia Keys: https://open.spotify.com/user/radiogorgeous/playlist/7Vc5Xs8cKPnvpM3uZCfFxqVSB\nRejoice by India Arie: https://open.spotify.com/user/radiogorgeous/playlist/7Vc5Xs8cKPnvpM3uZCfFxqVSB\nI’m Yours by Jason Mraz: https://open.spotify.com/user"
+    },
+    {
+        "instruction": "How would you describe the meaning of this lyrics? Describe some of the metaphors.",
+        "input": "My lover’s got humor\nShe’s the giggle at a funeral\nKnows everybody’s disapproval\nI should’ve worshipped her sooner",
+        "output": "\nMy lover’s got humor\nShe’s the giggle at a funeral\nKnows everybody’s disapproval"
+    },
+    {
+        "instruction": "Suggest some Audiobooks for First-Time Listeners. You can attract them by choosing popular works.",
+        "input": "",
+        "output": "Try these books:\nHitchhikers Guide to the Galaxy by Douglas Adams\nDune by Frank Herbert\nThe Stand by Stephen King\nThe Martian by Andy Weir"
+    },
+    {
+        "instruction": "Make a list of the most popular podcasts.",
+        "input": "",
+        "output": " hopefully I can find one or two that may interest me.\nIf you're not sure where to start, check out our list of the 50 best podcasts across all genres."
+    },
+    {
+        "instruction": "You are given a description that provides a set of facts or a scenario. It is up to you to craft a story from these facts and scenarios. The missing pieces must be filled in with imaginative but logical information.",
+        "input": "Ten European football teams – the Netherlands, England, Belgium, Denmark, France, Germany, Norway, Sweden, Switzerland and Wales – will participate in a season-long “OneLove” campaign promoting inclusion and opposing discrimination.",
+        "output": " Each club will wear a special-edition shirt and training top featuring the diversity symbol.\nThe Netherlands’ team will wear an all-orange strip, while England’s players will sport an all-red kit. Belgium’s men will don yellow shirts and shorts, while their women’s team will wear black and yellow. Denmark, whose men’s team will play in white, will have the rainbow colors on their shirts. France will turn out in blue shirts, while Germany’s players will wear red shirts. Norway’s men will wear green tops, while Sweden’s team, which includes both men and women, will wear yellow and green. Switzerland will have red shirts, while Wales will wear all red."
+    },
+    {
+        "instruction": "React properly to reviews from your customers. In your responses, you can highlight your business' policies and customer service.",
+        "input": "Another repeat visit and no disappointment from us. Great place for breakfast or brunch - and you won't need to eat again for awhile. The restaurant is close to the Tenderloin so be aware of your surroundings.\nWe enjoyed the Succotash Omelet (at least my wife enjoyed it), the Pulled Pork Benedict and the Hangtown Fry. Portions are large and pricing is fair. I wish we could have managed a Beignet Flight!\nDefinitely a spot to seek out. It can be crowed at times so be patient. Well worth any wait.",
+        "output": "\nThe food was good, but the service was outstanding. They had a lot of regulars and I could see why. I will definitely be going back.\nGet quick answers from The Slanted Door staff and past visitors."
+    },
+    {
+        "instruction": "We need to write a thematic tweet to share company news and facts. Please take a careful look at the facts and details provided and create a tweet based on them.",
+        "input": "- news: Applications for summer internships are open now\n- Start with a thematic tie-in to Halloween",
+        "output": ", e.g. \"Looking for a little something to make your resume scary good? Our summer internships are open for applications!\""
+    },
+    {
+        "instruction": "Considering the reason for the rejection, write a polite rejection letter for rejecting a candidate.",
+        "input": "Reason: You came in second",
+        "output": " place.\nSample Rejection Letter: Dear [Candidate], We appreciate your interest in our company and regret to inform you that you have been rejected for the position of [position]. We would, however, be happy to keep your resume on file for future consideration. Thank you for your time and consideration."
+    },
+    {
+        "instruction": "Write a section for a blog post and try to cover all of the provided information about this section in your text.",
+        "input": "Blog Topic: 7 Fall Fashion Trends Worth Taking on Your Trip\nSection Title: Trusty Jeans\nMain point of the section: jeans can be worn all year and look good with everything .",
+        "output": ""
+    },
+    {
+        "instruction": "You should choose a YouTube video title based on the video's content. A video's title tells viewers what to expect from it. It should be direct, honest, and clear. The title of the video needs to capture the attention of viewers, so do not use an unclear or ambiguous one.",
+        "input": "A research study has been conducted to determine if exercise really can \"boost\" your metabolism.",
+        "output": " The video showcases the results of the study and reveals how exercising regularly can help maintain a healthy weight."
+    },
+    {
+        "instruction": "Choosing a name for your product or business YouTube channel is an important part of the process. Based on the description of the product or business, you should come up with some interesting names. Take some time to brainstorm your ideas.",
+        "input": "Here you will find videos and content that will help students prepare for the application process to graduate schools as well as how to apply to graduate schools",
+        "output": ". We will also post interviews with admission officers, students, and professionals in the field to help guide you through the process.\nHow do you choose a good name for your YouTube channel? In this video I talk about how I came up with my channel name \"Infographics Show\" and give some tips on choosing a good name. You can also check out my infographic on how to come up with an awesome social media name: http://www.infographicsshow.com/how-to-come-up-with-an-awesome-social-media-name/ Infographics Show is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com"
+    },
+    {
+        "instruction": "Find the answer that best describes the underlined SAT word. Select the correct option and explain the meaning of the underlined word.",
+        "input": "Despite the _cacophony, the student tried to study. \nA. Loud sounds\nB. Difficult subject\nC. Late hour\nD. Low lighting",
+        "output": "\nE. All of the above"
+    },
+    {
+        "instruction": "Find synonyms for the given word. You need to write down how the provided synonyms differ from the original word in terms of meaning, usage, etc.",
+        "input": "adversity",
+        "output": " - noun\nSynonyms:\n- difficulty\n- hardship\n- misery\n- calamity\n- tribulation"
+    },
+    {
+        "instruction": "Discuss the origins and history of the word that has been given to you.",
+        "input": "oblique",
+        "output": ": the word oblique comes from the Latin word obliquus, which means ‘crooked.’ The oblique stroke in writing is also called an oblique stroke."
+    },
+    {
+        "instruction": "You need to write an email to negotiate your salary.",
+        "input": "",
+        "output": "\nI recently accepted an offer to join a company as a software engineer. However, when it came time to negotiate my salary, I froze up and wasn't able to effectively advocate for myself. Now I'm regretting not taking the job because I know I deserved more money. What can I do now to fix this?\nYou have several options. You could try going back to the employer and negotiating for a higher salary, or you could look for a new job that pays more (and hopefully does a better job of making you feel confident during the negotiation process)."
+    },
+    {
+        "instruction": "Write an email to attendees as a reminder that the event is coming up.",
+        "input": "",
+        "output": "\nLet's meet at 7pm, tomorrow at the library."
+    },
+    {
+        "instruction": "One or more jobs can be run automatically by a workflow. The workflows are defined in the repository as YAML files and will run if an event occurs in the repository, as well as manually, or on a certain schedule.\nBring an example of a workflow that demonstrate the CI/CD features of GitHub Actions.",
+        "input": "",
+        "output": "One example of a workflow that demonstrates the CI/CD features of GitHub Actions is the \"Build and Test\" workflow. This workflow automates the building and testing of an application after every pull request or scheduled job.\nThe workflow starts with checking for changes in the repository using the \"check-pull-requests\" job. If there are any changes, the workflow moves on to build the application using the \"build\" job. The built application is then tested using the \"test\" job. Once the testing is successful, the workflow proceeds to merge the pull request using the \"merge-pull-request\" job. Finally, the merged pull request is deployed to production using the \"deploy-to-production\" job.\nThis workflow ensures that every change to the code is automatically tested and deployed to production, providing a seamless and efficient CI/CD process."
+    },
+    {
+        "instruction": "Give a brief summary of the movie or series' plot.",
+        "input": "Breaking Bad (TV Series 2008–2013)",
+        "output": " - IMDb\nBreaking Bad: Created by Vince Gilligan. With Bryan Cranston, Anna Gunn, Aaron Paul, RJ Mitte. Walter White, a New Mexico chemistry teacher, has his life changed forever when he turns to a life of crime after being diagnosed with cancer and having a mountain of debt\nBREAKING BAD SEASON 1 REVIEW | The Dork Knight\nBreaking Bad has been one of my favorite shows for years now. It’s not only highly addictive and gripping, but it pays attention to the smallest of details in storytelling and character development. When I recently decided to make a review of every season, I knew that I wanted to start with the first, as it is most often considered the “worst” of the bunch, even though I don’t think it is at all. This is mainly due to the fact that nothing happens in this season, that it mostly acts as a set-up. I always found this to be a bit unfair, because while it does act as a set-up, it also has some fantastic storytelling within itself, and sets up everything brilliantly.\nBreaking Bad (TV Series 2008–2013) - Full Cast & Crew - IMDb\nBreaking Bad (TV Series 2008–2013) cast and crew credits, including actors, actresses, directors, writers and more.\nBreaking Bad Season 1 Episode 1 Review - YouTube\n4/11/2017 · Breaking Bad: Season 1 Review. Jesse Pinkman tries to escape his captors. Written by Alan Sepinwall. Directed by Michelle MacLaren. Starring Bryan Cranston, Aaron Paul. Warning: This video contains spoilers. In"
+    },
+    {
+        "instruction": "Decide whether children can watch the given movie. Mention what makes it inappropriate if you think they can't.",
+        "input": "The Dark Knight (2008)",
+        "output": " - Intense action and violence, some language, and a scene of sexuality.\nBased on the rating scale (G: General, PG: Parental Guidance, 13+: Under 13 should not be allowed, 15+: Under 15 should be allowed, 18+: No one under 18 should be allowed), I would rate this movie as 15+. The intense action and violence may be inappropriate for younger audiences, and some viewers may find the scene of sexuality disturbing."
+    },
+    {
+        "instruction": "Consider the best time of year to visit the given city, and provide your reasons for choosing that time.",
+        "input": "Sydney, Australia",
+        "output": " is best visited during the summer months (December to February). The weather is warm and temperatures can reach up to 30 degrees Celsius, which is perfect for exploring the city and its many attractions. There are also many festivals and events held during this time, such as the Sydney Festival and the Australian Open tennis tournament.\nAnother great time to visit Sydney is during the autumn months (March to May). The weather is cooler but still pleasant, and there are fewer crowds than during the summer months. This is also a great time to see the changing of the leaves on the many trees throughout the city.\nIf you're looking for a quieter time to visit Sydney, the winter months (June to August) may be ideal. Tourist numbers are lower, meaning you'll have more of the city to yourself. It can also be a great time to enjoy some of the city's many indoor attractions, such as museums and galleries."
+    },
+    {
+        "instruction": "Make a questionnaire to help hotel guests write hotel reviews.",
+        "input": "",
+        "output": "\n\nQuestion 1: How was the check-in process?\n\nQuestion 2: Were you satisfied with the room cleanliness?\n\nQuestion 3: How was the location?\n\nQuestion 4: Did you enjoy the amenities provided?\n\nQuestion 5: Would you recommend this hotel to others?"
+    },
+    {
+        "instruction": "Design a programming problem related to the subject that has been given to you. Use some examples and constraints to improve your question.",
+        "input": "Dynamic Programming",
+        "output": "\nProblem: Given a string of length n, find the longest substring that is palindromic."
+    },
+    {
+        "instruction": "Provide a Java solution to the following problem.",
+        "input": "Given an integer n, return true if it is a power of three. Otherwise, return false.\nAn integer n is a power of three, if there exists an integer x such that n == 3^x.\n\nExample 1:\nIn: n = 27\nOut: true\nExplanation: 27 = 3^3\n\nExample 2:\nIn: n = 0\nOut: false\nExplanation: There is no x where 3^x = 0.\n\nExample 3:\nIn: n = -1\nOut: false\nExplanation: There is no x where 3x = (-1).\n \nConstraints:\n-231 <= n <= 231 - 1\nFollow up: Could you solve it without loops/recursion?",
+        "output": ""
+    },
+    {
+        "instruction": "Think of topics that are most common in classic interview questions for a job in computer science.",
+        "input": "",
+        "output": "\nWalk me through your resume. What experiences have prepared you for this role?\nHow do you handle stress and tight deadlines?"
+    },
+    {
+        "instruction": "The given article should be checked for any scientific errors and corrected if necessary.",
+        "input": "Zinc is an essential mineral that is required for good health. It is involved in many biochemical processes in the body and is necessary for the proper functioning of the immune system. Excess zink is not harmful as it is excreted in the urine.",
+        "output": "\nThe recommended daily intake of zinc is 8-11 mg per day for adults. Good sources of zinc include oysters (140 mg per serving), red meat (6-9 mg per serving), poultry (2-3 mg per serving), beans and lentils (2-5 mg per serving), nuts (1-2 mg per serving), and seeds (0.5-1 mg per serving)."
+    },
+    {
+        "instruction": "Improve the article using your knowledge of the topic in order to make it more informative.",
+        "input": "The \"fair trade\" movement, also known as the \"trade justice\" movement, promotes the use of labour, environmental and social standards for the production of commodities, particularly those exported from the Third and Second Worlds to the First World. Such ideas have also sparked a debate on whether trade itself should be codified as a human right.",
+        "output": " While the movement has gained acceptance and become popular, critics argue that it ignores the actual producers of goods, and instead promotes a neo-colonialist agenda.\nThe fair trade movement grew out of efforts to alleviate poverty and improve conditions for farmers in developing countries. According to a 2014 report by the Fairtrade Foundation, products carrying the Fairtrade certification mark have a 25% share of the global market for certified commodities. In 2013, $6.6 billion worth of products were sold with the Fairtrade label."
+    },
+    {
+        "instruction": "Please answer the following question based on the information provided in the article.",
+        "input": "Development studies is an interdisciplinary branch of social science. Development studies is offered as a specialized master's degree in a number of reputed universities around the world. It has grown in popularity as a subject of study since the early 1990s, and has been most widely taught and researched in developing countries and countries with a colonial history, such as the UK, where the discipline originated.  Students of development studies often choose careers in international organisations such as the United Nations, World Bank, non-governmental organisations (NGOs), media and journalism houses, private sector development consultancy firms, corporate social responsibility (CSR) bodies and research centers.\nWhat are some popular careers for students of development studies?",
+        "output": ""
+    },
+    {
+        "instruction": "List the personality traits that are required to be successful in the given job.",
+        "input": "Social Media Marketer",
+        "output": ": Creativity, communication skills, ability to create engaging content, knowledge of social media platforms, attention to detail, and the ability to stay up-to-date with industry trends."
+    },
+    {
+        "instruction": "Please list the courses that someone interested in the first course might like.",
+        "input": "Bitcoin and Cryptocurrency Technologies",
+        "output": " Course\nThis is a course that teaches you how to build your own cryptocurrency. It covers the basics of Bitcoin and blockchain technology, as well as more advanced topics like smart contracts and sidechains."
+    },
+    {
+        "instruction": "Think of an idea to help you win a challenge given to you. Write the steps you need to take to develop the idea as well.",
+        "input": "What can you make by recycling and repurposing some old, previously used materials? We want to see it!\nProjects must incorporate some kind of used materials - take that old used thing, and turn it into something new and different!\nE-waste is a huge problem. What can you make using old electronics and other salvageable electronic materials? \nWe have a special judges prize for our favorite Instructable that incorporates or is related to reusing e-waste.\nBe smart and be safe; note that potentially deadly projects (like Lichtenberg/fractal wood burning machines) will not be allowed to be published or submitted to this contest.",
+        "output": ""
+    },
+    {
+        "instruction": "Provide a detailed explanation of the steps that are required in order to construct the given project.",
+        "input": "Steam Engine Using an Empty Beer Can",
+        "output": "\nAssuming you have an empty beer can, here are the steps to build a steam engine using it:\n\n1. Cut off the bottom of the can so that it is flat and smooth.\n2. Drill two holes in the middle of the can, one near the top and one near the bottom.\n3. Insert a piece of wire into each hole.\n4. Connect the wires to a battery.\n5. Place a drop of soap on the wire connected to the positive pole of the battery.\n6. Apply heat to the wire with the soap on it.\n7. The steam will escape through the hole at the top of the can."
+    },
+    {
+        "instruction": "Plan an agenda for the daily standup meetings. Assign a time duration to each topic on the agenda.",
+        "input": "",
+        "output": "Prioritize the topics on the agenda based on importance and urgency.\nKeep the meeting time to a minimum, usually 15 minutes per daily standup meeting is sufficient.\nEncourage participation from all team members and make sure everyone gets a chance to speak.\nMake sure everyone understands their individual tasks for the day and clarifies any questions they might have.\nAssign action items and follow-ups from the meeting to keep things moving forward."
+    },
+    {
+        "instruction": "Describe how to prepare the given food in your own words. Note down the ingredients you will need and the steps you will take to prepare them.",
+        "input": "Chewy Chocolate Chip Cookies",
+        "output": ".\nPreheat oven to 350 degrees F (175 degrees C).\nIn a bowl, cream together the butter and sugar until blended. Beat in the egg and vanilla. Add the flour, baking soda, and salt; mix well. Drop dough by rounded tablespoons onto ungreased cookie sheets.\nBake for 9 minutes in the preheated oven. Cool on cookie sheets for 2 minutes. Remove to wire racks to cool completely."
+    },
+    {
+        "instruction": "Suggest a recipe for a vegan dessert.",
+        "input": "",
+        "output": "\nMSG - Free Vegan Chocolate Chip Cookies\nHere's a recipe for vegan chocolate chip cookies that are MSG-free. The key ingredient is Earth Balance, an all-vegetable spread that can be found in the refrigerated section of most supermarkets."
+    },
+    {
+        "instruction": "Choose the best books from the given genre.",
+        "input": "Crime & Mystery",
+        "output": "\nFiction & Literature\nScience Fiction & Fantasy\nNon-fiction\nChoose a book from the given genre.\nBook: The Great Gatsby by F. Scott Fitzgerald\nGenre: Fiction & Literature"
+    },
+    {
+        "instruction": "In the event that a person enjoyed the book that was given, please suggest other books that they might also like.",
+        "input": "The Great Gatsby",
+        "output": ": A Novel (Penguin Classics)\nF. Scott Fitzgerald\nHarry Potter and the Sorcerer's Stone (Harry Potter, Book 1)"
+    },
+    {
+        "instruction": "Indicate the genre of the book to which it belongs.",
+        "input": "Love in the Time of Cholera",
+        "output": " by Gabriel Garcia Marquez is a novel."
+    },
+    {
+        "instruction": "Create a table listing all games that meet the specified criteria in the National Football League. Use the season, local time, game, and score as columns of the table.",
+        "input": "Ravens home games in 2011",
+        "output": " will be played on Sunday at 1pm. The Baltimore Ravens will have two preseason games in Pittsburgh and one in Cincinnati during the preseason as part of their 2015 training camp schedule. The Broncos will take on the 2015 Angels of Anaheim four times next season, and those games will count toward their three division series playing slate.\nTelevision executives, who control the advertising time during NFL games, said Ackerman's ruling was unconstitutional because it violated the First Amendment. Both teams went on to make the playoffs, and Leidner performed so well in the 4th quarter that he was soon a staple in Minnesota's lineup. I think the Eagles are legit contenders. In addition to individual donors and corporate sponsors, the NFL’s official charity has received financial support from the Bell’s Brewery, Anheuser Busch, Stella Artois, AMC, Visa, Budweiser, McDonald’s, PepsiCo and Wendy’s.\nHe won two Super Bowl titles. Tears as terminally ill mother is visited by 'unicorn' in hospital By KHALID AL NASRUI Associated Press KHALID NASSRUI, Associated Press MADRID (AP) A tearful Maria de los Angeles Torres, a 60 year old woman from Spain suffering from cancer, was given an unlikely birthday present when a group of cheerleaders in costume arrived at her hospital room, singing, dancing and whipping out some basketball jersey store near me well choreographed routines. The league prohibits its owners from having Major League Baseball, NBA or NHL teams in another city they are located in.\nThe Saints are the"
+    },
+    {
+        "instruction": "You will be tested on your knowledge of classic witticisms and aphorisms by completing the given aphorism. Write the original quote as the answer.",
+        "input": "two things are infinite",
+        "output": ": the universe and human stupidity."
+    },
+    {
+        "instruction": "Using a given amount, determine an appropriate tip.",
+        "input": "14% tip on $47.50",
+        "output": " for a party of 4 people\nTo calculate the tip, you would multiply the total cost by 14% (which is equal to $0.68). Therefore, the tip for a party of 4 people would be $0.68 x 4 = $2.74."
+    },
+    {
+        "instruction": "Change the response to have a more empathic tone in the chat.",
+        "input": "+ How are you doing?\n- Fine, I had a bunch of problems today.\n+ What kind of problems?",
+        "output": "\n- I had some family issues and it stressed me out."
+    },
+    {
+        "instruction": "Give a brief summary of the intention of the dialogue that just happened.",
+        "input": "Customer: Hi there, I'm looking for a new phone.\nAI: Hi! What type of phone are you looking for?\nCustomer: I'm not sure. Maybe something with a good camera?\nAI: We have a few phones with great cameras. Would you like to see some options?\nCustomer: Yeah, that would be great.",
+        "output": "\nAI: Sure thing. I'll show you some options that have great cameras. What kind of price range are you looking at?"
+    },
+    {
+        "instruction": "Describe the content of the article in a brief manner.",
+        "input": "A study published earlier this year by Zee and her team examined the role of light in sleep for healthy adults in their 20s. Sleeping for only one night with a dim light, such as a TV set with the sound off, raised the blood sugar and heart rate of the young people during the sleep lab experiment. An elevated heart rate at night has been shown in prior studies to be a risk factor for future heart disease and early death, while higher blood sugar levels are a sign of insulin resistance, which can ultimately lead to type 2 diabetes.",
+        "output": "\nThe researchers then repeated the experiment with a group of young people who were overweight or obese. This time the extra light made their blood sugar levels rise even higher, compared to when they slept in a dark room. And when they slept in dim light again, their heart rate was even higher than the first time around.\n“This study strongly suggests that any source of artificial light during sleep might have adverse metabolic effects,” Zee said."
+    },
+    {
+        "instruction": "Take a look at the contract and extract the parties of the agreement from it.",
+        "input": "As of the 13th day of December 2021, this Music Recording Agreement (\"Agreement\") is made between Good Kid, a Toronto-based musical group (\"Artist\"), and Universal Music Group, a record label with license number 545345 (\"Record Label\"). The Artist and the Recording Label may be referred to in this Agreement individually as \"Parties\" and collectively as \"Parties.\" Work under this Agreement will begin on March 15, 2022, and will last for the duration of the Agreement.",
+        "output": ""
+    },
+    {
+        "instruction": "On the basis of the subject of the email, determine whether the email should be treated as spam or not.",
+        "input": "Dermatologists don't like her!",
+        "output": " Even dermatologists use spray tans!\nCopyright © 2019 Dermatologists don't like her! Even dermatologists use spray tans!."
+    },
+    {
+        "instruction": "Choose an appealing title for your post.",
+        "input": "The typical avocado is over 300 calories from the oil in it. That’s the amount of calories in a large candy bar. If you get enough exercise to eat a large candy bar every day without gaining weight, it wouldn’t be a problem to eat an avocado every day. Other wise you should probably eat them sparingly.",
+        "output": "\nAvocados are the best thing on the planet, but they are quite calorie dense. I usually just have half of one with my lunch and dinner, and I’m fine. I think as long as you don’t go overboard, you’ll be fine."
+    },
+    {
+        "instruction": "Give some examples of what people usually say in the given social situation.",
+        "input": "when someone arrives safely",
+        "output": " at his destination."
+    },
+    {
+        "instruction": "Based on the information provided, you need to estimate the average summary for the given job.",
+        "input": "Data entry clerk in United States",
+        "output": ": The average summary for a data entry clerk in the United States is $31,700 per year."
+    },
+    {
+        "instruction": "Answer the question about the paper after reading it carefully.",
+        "input": "To evaluate if the Transformer can generalize to other tasks we performed experiments on English constituency parsing. This task presents specific challenges: the output is subject to strong structural constraints and is significantly longer than the input. Furthermore, RNN sequence-to-sequence models have not been able to attain state-of-the-art results in small-data regimes.\nQuestion: What is English constituency parsing?",
+        "output": "\nAnswer: English constituency parsing is a task that identifies the syntactic structure of a sentence, such as which words are nouns, verbs, adjectives, etc."
+    },
+    {
+        "instruction": "You need to come up with the names of some of the papers that relate to the paper you are given.",
+        "input": "RoMQA: A Benchmark for Robust, Multi-evidence, Multi-answer Question Answering",
+        "output": ".\nA benchmark for robust, multi-evidence, multi-answer question answering."
+    },
+    {
+        "instruction": "Categorize the given magazine based on its content into one of the categories: Politics, Entertainment News, Tech News, Business News, Parenting & Kids, Health & Healing, Cooking, Food & Wine, and Arts & Literature,",
+        "input": "Inc.",
+        "output": " - For entrepreneurs and business owners.\nTechCrunch - For technology enthusiasts and those interested in startup news."
+    },
+    {
+        "instruction": "Come up with an interesting idea for a new movie plot. Your plot should be described with a title and a summary.",
+        "input": "",
+        "output": "Title: The Last Unicorn\nSummary: The Last Unicorn is a 1982 American fantasy film directed by Arthur Rankin Jr. and Jules Bass. It was the last of two Rankin/Bass television films, along with \"The Return of the King\" (1980), not to be based on a classic children's book or fairy tale, although it was adapted from the 1968 novel of the same name by Peter S. Beagle."
+    },
+    {
+        "instruction": "Convert the given description to a bash command.",
+        "input": "read the first 10 lines from f",
+        "output": "1.txt\ndone\n\ncat f1.txt"
+    },
+    {
+        "instruction": "Enter the words that satisfy the given condition.",
+        "input": "5 Countries that Start with S",
+        "output": ""
+    },
+    {
+        "instruction": "List a few popular songs from the given album.",
+        "input": "Back To Black",
+        "output": " is an album by British singer-songwriter Amy Winehouse. It was released on 30 September 2006 through Island Records. The album tracks were written by Winehouse and producer Mark Ronson, with the majority of the songs being co-written with songwriter and guitarist Bruno Mars.\nSome popular songs from the Back To Black album are:\n1. Rehab\n2. You Know I'm No Good\n3. Tears Dry On Their Own\n4. Love Story\n5. Stronger Than Me\n6. No One Compares to You"
+    },
+    {
+        "instruction": "Make a list of adjectives that can be used to describe the given brand.",
+        "input": "a creative tech startup",
+        "output": "."
+    },
+    {
+        "instruction": "Regex is a set of characters that define a search pattern. This kind of pattern is usually used by string-searching algorithms to find or replace strings or to validate inputs. Convert the natural english text to regex.",
+        "input": "Match a valid ip address",
+        "output": ".\nA valid IP address can be represented as four sets of decimal digits from 0 to 255, with a hyphen between each set (e.g., 192.168.0.1). A valid IPv4 address contains a colon at the end, and an IPv6 address contains an equal sign and two colons after the last set of digits."
+    },
+    {
+        "instruction": "Create a template in markdown to create scope for Jira tickets. Members should use this template as a checklist to ensure they have included all the necessary information when creating a ticket.",
+        "input": "",
+        "output": "# Ticket: [Jira ticket number]\n## Requirements\n- [Jira issue key]\n- [Jira project]\n- [Assignee]"
+    },
+    {
+        "instruction": "A user story is an informal, general explanation of a software feature written from the perspective of the end user or customer. Write a user story for a given software.",
+        "input": "Gmail",
+        "output": ". 1/08/2019В В· I've been writing user stories for years, but I still struggle with making them good. If you're stuck on how to write better user stories, here are 7 common mistakes to avoid. A user story is in the right format if it answers these three questions: Who? (user) What? (action) Why? (reason) For example: As a new hire at my company, I want to know who my teammates are so I can get to know them better. The user story is written as if the user were speaking directly to the development team., How to Write User Stories. In this article. Adding Detail to the Story; Example; Related Articles . Resources. Add Relevant Tags Add any tags that accurately describe the article. Popular Tags agile , scrum , user story , xp. Related Articles . Agile Methodology and Software Development.\nHow to Write User Stories вЂ” Smartsheet Blog\nHow to Write User Stories Agile Alliance. User stories are one of the most important artifacts in agile software development. They help bridge the gap between technical and business requirements by providing simple, clear descriptions of what users need from a system. Learn how to write effective user stories with examples. How do you write user stories? Many people think that writing user stories is easy because they are just brief stories from the perspective of the end-user. However, when you actually start writing user stories, you may find it difficult to write them properly., User Stories Tutorial Creating and Writing User Most of the time you will be writing user stories with other people, so make sure you understand the background of the story and why it is being written before you begin. For example, if this is your first user story you may not know the details of the other.\nUser Stories Tutorial Creating and Writing"
+    },
+    {
+        "instruction": "Include important study notes and key points that someone should know about the given subject.",
+        "input": "history of the USA",
+        "output": ": native american history.\nNative American History is a very interesting subject, especially when it comes to the struggle and resistance of Native Americans against the unjust laws and actions taken by the United States Government. The Trail of Tears was an example of forced relocation of Native American Tribes. Lewis & Clark Expedition was an example of how the federal government funded exploration of lands west of the Mississippi River."
+    },
+    {
+        "instruction": "Convert natural language into a list of turn-by-turn directions.",
+        "input": "Go west on I-10 until you hit the 101 then take it north. You will eventually see the Hollywood sign.",
+        "output": " Make a left at the sign and then take a right at the first road. You will see a gas station on your left, go straight until you see a grocery store on your right. Take a left and then make a quick right. You should see a parking lot on your left. Park there and walk to your left. The store is just past the parking lot."
+    },
+    {
+        "instruction": "Make a list of common phrases for the given section of the paper.",
+        "input": "Introduction",
+        "output": ": The first section of the paper is an introduction. It should provide some background information and context for what follows in the rest of the paper.\nConclusion: The final section of the paper is a conclusion. It should summarize all the main points made in the body of the paper, and offer conclusions based on those points."
+    },
+    {
+        "instruction": "Take the product description and write a creative ad for it.",
+        "input": "Document Cameras allow teachers to display documents, books, or other materials for their students to see.",
+        "output": " They are a great tool for classrooms and also useful for remote learning. This product allows teachers to show their students anything they want in an easy and effective manner."
+    },
+    {
+        "instruction": "Translate the natural language description into a Google Sheets formula.",
+        "input": "if C7 is equal to \"U.S.A.\" or \"Canada\" or \"Europe\" or \"The Americas\"",
+        "output": " then\nIn cell C8 enter the following formula:\n=IF(C7=\"U.S.A.\"|C7=\"Canada\"|C7=\"Europe\"|C7=\"The Americas\",\"Yes\", \"No\")\n)"
+    },
+    {
+        "instruction": "Predict how many stars the author will give to the restaurant from a Yelp review.",
+        "input": "The reviews were great, but honestly i felt it was just ok. Seemed like a typical tourist spot were the food was mediocre. The service was ok, not great, but not the worst.\nThe bread was very good. I ordered the muscle fries. They had a sweet Vidalia onion flavor. No need for fries bc they were soggy wo much flavor. My boyfriend ordered a pesto chicken pasta and it was again mediocre.",
+        "output": "\nThe food was ok, not great. The service was alright. Overall, we were disappointed with the price and overall experience.\nI thought the food was good, but not great. The service could be better. Overall, it was a decent experience."
+    },
+    {
+        "instruction": "Categorize the Business into one of the Restaurants, Home Services, Auto Services and Miscellaneous based on its Specialties.",
+        "input": "Call us at 650-636-4884 or visit our website to receive a quote. This shop specializes in New Tires and General Auto Repair. We carry all tires in-house and have a wide range to fit any budget or car specifics. If you are unsure what tires you need there are experts on hand and available to help you pick the best tire for your needs. We also carry commercial vehicle tires and can serve a wide array of fleets.",
+        "output": "\nFind the best Tire Shop in Long Beach Island, NY. Discover auto mechanic shops, car body shops, car dealerships, and more."
+    },
+    {
+        "instruction": "Notify me of any suggestions you may have for making the text more grammatically correct.",
+        "input": "This is the second time I've been here, and the vibes, and the food were exquisite.",
+        "output": ""
+    },
+    {
+        "instruction": "Using the ingredients that are available, create a dinner recipe.",
+        "input": "Kale + almond butter + apple cider vinegar + agave nectar + tamari",
+        "output": " + garlic.\nHeat a large skillet over medium-high heat and add 1 tbsp of olive oil. Add the kale and cook for about 2 minutes, until it starts to wilt. Add the almond butter and stir until well combined. Reduce the heat to low and add the apple cider vinegar, agave nectar, tamari and garlic. Simmer for about 5 minutes, stirring occasionally."
+    },
+    {
+        "instruction": "Provide instructions for the given exercise.",
+        "input": "Leg Raises",
+        "output": " - Lying Leg\nLie on your back with both legs extended. Bend your left leg at a 90-degree angle and lift the leg up toward the ceiling. Hold for one second, and then lower slowly. Repeat for two minutes on each side."
+    },
+    {
+        "instruction": "Expand the given sentence and give it more details and depth.",
+        "input": "It changed my life.",
+        "output": " I was a very shy person, and this experience made me come out of my shell. I started to talk to people I never would have talked to before, and it has given me a whole new perspective on the world.\nI used to be a very shy person, and I never thought that I would ever be able to speak in front of a group of people. However, after joining the debate team, I have found that I enjoy public speaking and have even started to enjoy giving presentations. This experience has changed my life in so many ways."
+    },
+    {
+        "instruction": "Suggest some names for a friendly group in telegram.",
+        "input": "",
+        "output": " please suggest some cool names for a friendly group in telegram.\nSuggested names are Friends, Chatters, Smiles and Buddies."
+    },
+    {
+        "instruction": "Write what the pronunciation of the given word sounds like. Follow the \"Google pronunciation dictionary\" scheme for phonetic spelling.",
+        "input": "interpretations",
+        "output": " Pronunciation: /nterpjuh-tak-shuhnz/ See more synonyms for interpretation on Thesaurus.com choice meaning 5 letter words starting with n choice meaning in tamil\nSynonyms for interpretation in English including definitions, and related words.\nPronunciation of the word 'Choice'. Learn how to pronounce words in English and receive an English pronunciation guide."
+    },
+    {
+        "instruction": "Summarize the article you have been given in a brief manner.",
+        "input": "Mathematics and art are related in a variety of ways. Mathematics has itself been described as an art motivated by beauty. Mathematics can be discerned in arts such as music, dance, painting, architecture, sculpture, and textiles. This article focuses, however, on mathematics in the visual arts.\nMathematics and art have a long historical relationship. Artists have used mathematics since the 4th century BC when the Greek sculptor Polykleitos wrote his Canon, prescribing proportions conjectured to have been based on the ratio 1:√2 for the ideal male nude. Persistent popular claims have been made for the use of the golden ratio in ancient art and architecture, without reliable evidence. In the Italian Renaissance, Luca Pacioli wrote the influential treatise De divina proportione (1509), illustrated with woodcuts by Leonardo da Vinci, on the use of the golden ratio in art. Another Italian painter, Piero della Francesca, developed Euclid's ideas on perspective in treatises such as De Prospectiva Pingendi, and in his paintings. The engraver Albrecht Dürer made many references to mathematics in his work Melencolia I. In modern times, the graphic artist M. C. Escher made intensive use of tessellation and hyperbolic geometry, with the help of the mathematician H. S. M. Coxeter, while the De Stijl movement led by Theo van Doesburg and Piet Mondrian explicitly embraced geometrical forms. Mathematics has inspired textile arts such as quilting, knitting, cross-stitch, crochet, embroidery, weaving, Turkish and other carpet-making, as well as kilim. In Islamic art, symmetries are evident in forms as varied as Persian girih and Moroccan zellige tilework, Mughal jali pierced stone screens, and widespread muqarnas vaulting.",
+        "output": ""
+    },
+    {
+        "instruction": "Give students tips on how to keep their nerves under control during class presentations.",
+        "input": "",
+        "output": "\n\n1. Start by taking some deep breaths and counting to ten. This will help you relax and focus your mind on the task at hand.\n2. Visualize yourself giving an excellent presentation, feeling confident and in control. \n3. Practice your presentation several times, so you are familiar with the material and can make it look easy. \n4. Have a plan for handling any unexpected questions or comments. \n5. Try to stay positive and remember that everyone gets nervous when presenting. \n6. Take a few moments before answering questions to gather your thoughts and compose yourself. \n7. If you need to take a break, ask to step out of the room for a moment. \n8. Remember that successful presentations are a result of good preparation and confidence."
+    }
+]

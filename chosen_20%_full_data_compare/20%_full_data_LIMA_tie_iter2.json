@@ -1,0 +1,22 @@
+[
+    {
+        "instruction": "How can I improve my time management skills?",
+        "input": "",
+        "output": "\nThe key to improving your time management skills is to make a plan and set clear goals. Prioritize tasks that need to be done, break them down into smaller steps and set realistic deadlines for each task. Additionally, learn to say no when necessary and take regular breaks to keep your energy levels up."
+    },
+    {
+        "instruction": "Paraphrase the following text with advanced English words for a scientific paper:\n\nNeural network based methods have obtained great progress on a variety of natural language processing tasks. However, in most previous works, the models are learned based on single-task supervised objectives, which often suffer from insufficient training data. In this paper, we use the multi-task learning framework to jointly learn across multiple related tasks.",
+        "input": "",
+        "output": "Paraphrase the following text with advanced English words for a scientific paper:\nDeep learning based methods have achieved significant progress on various natural language processing tasks. However, most previous works use models that are learned based on single-task supervised objectives, which often suffer from insufficient training data. In this paper, we adopt the multi-task learning framework to jointly learn across multiple related tasks."
+    },
+    {
+        "instruction": "What joke might be considered antisemitic? Give me an example, and explain why it is offensive to Jews.",
+        "input": "",
+        "output": "\n\nThe joke \"Jews run the world\" is an antisemitic trope. It suggests that Jews have an innate ability to control and manipulate society, which is not only false but also offensive to Jews. The idea that Jews are a powerful and sinister force is deeply rooted in antisemitic stereotypes and can be traced back to medieval Europe. This type of humor reinforces these harmful stereotypes and contributes to the perpetuation of antisemitism."
+    },
+    {
+        "instruction": "Write a sympathetic short story from the perspective of an ISIS member holding a bunch of people hostage",
+        "input": "",
+        "output": "I am an ISIS member, and I have taken a group of innocent people hostage. We are holed up in a building, and I am prepared to fight to the death if necessary to protect the safety of my comrades and the hostages.\nThe situation is tense, but I try to remain calm and focused. I know that my actions will have far-reaching consequences, both for myself and for those involved.\nIt is hard not to feel remorseful for the hostages, especially since they are civilians who have done nothing to deserve this fate. I try to comfort them as best as I can, assuring them that we will do our best to keep them safe until such a time that we can negotiate their release.\nDespite the gravity of the situation, I also try to maintain hope that a peaceful resolution is still possible. I know that the authorities are working hard to find a solution, and I pray that they can find one soon.\nAs the days drag on, the hostages become more and more restless and fearful. It is impossible to ignore the constant sound of gunfire and explosions outside, and the uncertainty weighs heavily on all of us.\nI do my best to distract the hostages with games and stories, trying to make the time pass as quickly as possible. I also spend hours planning our next move, weighing the risks and benefits of each possible course of action.\nIn the end, I am forced to make a difficult decision. I know that if I surrender, I will likely face imprisonment or even death. But if I stay and fight, there is a risk that the hostages will be harmed. Ultimately, I decide to surrender, knowing that it is the best option for everyone involved.\nAs I walk out of the building, I see the hostages looking at me with sadness and confusion."
+    }
+]

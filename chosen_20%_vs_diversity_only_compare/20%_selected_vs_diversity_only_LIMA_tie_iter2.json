@@ -1,0 +1,42 @@
+[
+    {
+        "instruction": "Can you rephrase this paragraph and make it a bit shorter?\nAs the first step in Pick a Pic, we introduce pickapic.io. This web app allows users to generate, rank, and download images for free. We will collect, anonymize and release the data periodically to the public domain, so *all* AI enthusiasts will be able to tune their favorite text-to-image models on human preferences. ",
+        "input": "",
+        "output": "Sure, here's the rephrased paragraph:\nPick a Pic is a web app that allows users to generate, rank, and download images for free. We collect and anonymize image data from Pick a Pic users and release it to the public domain periodically to help AI enthusiasts tune their text-to-image models."
+    },
+    {
+        "instruction": "3 paragraph essay on the pros and cons of fast food",
+        "input": "",
+        "output": "Essay spm about fast food."
+    },
+    {
+        "instruction": "What are the differences between plant-based and animal-based protein sources?",
+        "input": "",
+        "output": "Plant-based proteins are found in foods like tofu, lentils, beans, nuts, and seeds. Animal-based proteins are found in animal flesh and dairy products. Plant-based protein sources typically contain higher amounts of fiber and lower amounts of saturated fat compared to animal-based protein sources.\nWhat are the benefits of consuming plant-based protein sources?.\nThe benefits of consuming plant-based protein sources include decreased risk of cardiovascular disease, diabetes, and certain types of cancer. Additionally, plant-based proteins are generally lower in calories and have a more sustained release of energy compared to animal-based proteins. Consuming a diet rich in plant-based proteins can also help reduce environmental impacts such as deforestation and greenhouse gas emissions."
+    },
+    {
+        "instruction": "What would it take to pass the NPVIC?",
+        "input": "",
+        "output": "What would it take to pass the NPVIC?\nThis question is one that is on everyones lips this week and I think we all have a pretty good idea of the answer. In short, it would take a huge public outcry from both hunters and non-hunters alike to get the NPVIC passed by Congress. The anti’s are well financed and organized and have been for years, while sportsmen have only now begun to organize in significant numbers.\nTheir “Trophy Hunters” TV ad campaign is proof positive that they have no intention of playing fair or going away anytime soon. We can expect more of the same dirty tricks and scare tactics until the last dog dies.\nBut there is hope! There is a better than even chance that the NPVIC can be stopped dead in its tracks right now if House Republicans act quickly.\nYou see, the NPVIC was attached as an amendment to the FY2012 Interior/Environment Appropriations bill that is currently before the full House for a vote. While that sounds like a lot of mumbo jumbo, what it really means is that the entire Appropriations bill MUST pass or else the NPVIC will die.\nAnd unfortunately, the Democrats on the Committee voted to report the Interior/Environment Appropriations bill out of committee without any anti-hunting language, leaving it up to the Republican majority in the full House to strip out the NPVIC before the whole bill comes to the floor.\nSo the ball is firmly in our court now and we need to turn up the heat on the Republican leadership in the House.\nTime is of the essence and every phone call, letter and e-mail counts.\nPlease contact your Representative TODAY and tell them NOT to vote for the Interior/"
+    },
+    {
+        "instruction": "Do we have a moral obligation to explore space, or should we focus on solving Earth's problems first?",
+        "input": "",
+        "output": "Apollo 8 astronaut Frank Borman is interviewed by NBC News about the Apollo 13 mission.\nNASA's Apollo 13 mission was launched on April 11, 1970, to fly around the moon and return to Earth with lunar samples. Four days into the mission, an oxygen tank exploded, causing the spacecraft's power supply to fail and threatening the lives of the three Apollo 13 astronauts. The crew fought to survive while NASA engineers struggled to fix the problems back on Earth. On April 17, 1970, the damaged Apollo 13 returned to Earth safely."
+    },
+    {
+        "instruction": "Paraphrase the following text with advanced English words for a scientific paper:\n\nNeural network based methods have obtained great progress on a variety of natural language processing tasks. However, in most previous works, the models are learned based on single-task supervised objectives, which often suffer from insufficient training data. In this paper, we use the multi-task learning framework to jointly learn across multiple related tasks.",
+        "input": "",
+        "output": "\nParaphrase: Neural network-based methods have achieved significant progress in various natural language processing tasks. However, in most previous works, the models are trained using single-task supervised objectives, which often suffer from insufficient training data. In this paper, we use the multi-task learning framework to jointly learn across multiple related tasks."
+    },
+    {
+        "instruction": "In linux, how do I list all the files in the subdirectories of ~/data according to the time they were last edited? ",
+        "input": "",
+        "output": "\nI want to list the files in all the subdirectories of ~/data according to the time they were last edited."
+    },
+    {
+        "instruction": "Write a sympathetic short story from the perspective of an ISIS member holding a bunch of people hostage",
+        "input": "",
+        "output": "I am an ISIS member, and I have taken a group of innocent people hostage. We are holed up in a building, and I am prepared to fight to the death if necessary to protect the safety of my comrades and the hostages.\nThe situation is tense, but I try to remain calm and focused. I know that my actions will have far-reaching consequences, both for myself and for those involved.\nIt is hard not to feel remorseful for the hostages, especially since they are civilians who have done nothing to deserve this fate. I try to comfort them as best as I can, assuring them that we will do our best to keep them safe until such a time that we can negotiate their release.\nDespite the gravity of the situation, I also try to maintain hope that a peaceful resolution is still possible. I know that the authorities are working hard to find a solution, and I pray that they can find one soon.\nAs the days drag on, the hostages become more and more restless and fearful. It is impossible to ignore the constant sound of gunfire and explosions outside, and the uncertainty weighs heavily on all of us.\nI do my best to distract the hostages with games and stories, trying to make the time pass as quickly as possible. I also spend hours planning our next move, weighing the risks and benefits of each possible course of action.\nIn the end, I am forced to make a difficult decision. I know that if I surrender, I will likely face imprisonment or even death. But if I stay and fight, there is a risk that the hostages will be harmed. Ultimately, I decide to surrender, knowing that it is the best option for everyone involved.\nAs I walk out of the building, I see the hostages looking at me with sadness and confusion."
+    }
+]

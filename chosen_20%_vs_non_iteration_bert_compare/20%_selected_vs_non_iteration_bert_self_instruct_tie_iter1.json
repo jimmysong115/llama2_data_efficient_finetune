@@ -1,0 +1,107 @@
+[
+    {
+        "instruction": "Write a social media post about the call for collaboration on a crowdsourcing project in a persuasive way.",
+        "input": "",
+        "output": "As an AI language model, I don't have personal opinions or social media accounts. However, here is a sample post that you could use:\nAre you passionate about [topic]? Do you have a skill set that can contribute to the crowdsourcing project? We are looking for individuals like you to join our team and help us make a difference. Our project aims to [purpose] and we need your help to achieve it. By collaborating with us, you will have the chance to work on a meaningful project and make a positive impact on society. Join us today and let's make a difference together! #crowdsourcing #collaboration #socialgood"
+    },
+    {
+        "instruction": "What other Amazon products might interest someone who visited the given product?",
+        "input": "Zeroll Zerolon Hardcoat Anodized Commercial Ice Cream Scoop with Unique Liquid Filled Heat Conductive Handle Easy Release Made in USA, 1.5-Ounce, Black",
+        "output": "\nWhat other Amazon products might interest someone who visited the given product?"
+    },
+    {
+        "instruction": "Write a  review based on the given information.",
+        "input": "- Product: Persil Discs Laundry Detergent Pacs, Original Scent, High Efficiency (HE) Compatible, Laundry Soap, 62 Count\n- Sentiment: Positive",
+        "output": ""
+    },
+    {
+        "instruction": "Please suggest a few papers to consider based on the search term given. The names of the papers should be listed.",
+        "input": "Topic: scaling law + machine learning",
+        "output": ""
+    },
+    {
+        "instruction": "You need to write an email to negotiate your salary.",
+        "input": "",
+        "output": "(You’re in your fifth year at a company. Your responsibilities have grown, but so has the number of people you supervise. You feel like you’ve been doing an excellent job.)\nDear [Recruiter],\nThank you so much for the generous offer to join your team. As we discussed, I’ve admired the company for a number of years, and am a proud endorser of its products. However, after further consideration of where I currently am in my career, I’ve decided to accept an offer at another company.\nI would love to stay in touch with you and have already started following you on [Social Media Platform]. Again, thank you so much for your time and consideration.\nThanks again,\n[Your Name]"
+    },
+    {
+        "instruction": "You are given two questions. Check if they are duplicates.",
+        "input": "Question1: I am trying to understand the advantages of multiprocessing over threading. I know that multiprocessing gets around the Global Interpreter Lock, but what other advantages are there, and can threading not do the same thing?\nQuestion2: I am learning how to use the threading and the multiprocessing modules in Python to run certain operations in parallel and speed up my code.\nI am finding this hard (maybe because I don't have any theoretical background about it) to understand what the difference is between a threading.Thread() object and a multiprocessing.Process() one.\nAlso, it is not entirely clear to me how to instantiate a queue of jobs and having only 4 (for example) of them running in parallel, while the other wait for resources to free before being executed.\nI find the examples in the documentation clear, but not very exhaustive; as soon as I try to complicate things a bit, I receive a lot of weird errors (like a method that can't be pickled, and so on).\nSo, when should I use the threading and multiprocessing modules?\nCan you link me to some resources that explain the concepts behind these two modules and how to use them properly for complex tasks?",
+        "output": ""
+    },
+    {
+        "instruction": "Design a syllabus for the given course. Students should be given a list of the chapters with brief explanations of each chapter's purpose.",
+        "input": "Programming for Everybody (Getting Started with Python)",
+        "output": "\nWelcome to the Python Programming course! In this course, we will introduce you to the basics of programming with Python. We will start by covering the fundamentals of the Python language, including variables, data types, and control structures. We will then move on to more advanced topics such as functions, classes, and Object-Oriented Programming. By the end of this course, you will have a strong foundation in Python programming and be able to create your own simple programs.\nChapter 1: Introduction to Python Programming\n- What is Python?\n- Installing Python\n- Basic Syntax\n- Data Types\n- Control Structures\n\nChapter 2: Using Functions\n- Defining Functions\n- Calling Functions\n- Return Values\n- Best Practices for Functions\n\nChapter 3: Creating Classes\n- What are Classes?\n- Defining Classes\n- Instantiating Objects\n- Methods\n- Best Practices for Classes\n\nChapter 4: Object-Oriented Programming\n- Encapsulation\n- Inheritance\n- Polymorphism\n- Abstraction\n- Composition vs. Inheritance\n\nChapter 5: Working with Files\n- Reading Files\n- Writing Files\n- Working with Text Files\n- Working with Binary Files\n\nChapter 6: Working with Lists\n- List Basics\n- Appending and Prepending to Lists\n- Slicing Lists\n- String Manipulation\n\nChapter 7: Working with Dictionaries\n- Dictionary Basics\n- Creating Dictionaries\n- Accessing Dictionary Values\n- Modifying Dictionary Values\n\nChapter 8: Working with Numbers\n- Numeric Basics\n- Arithmetic Operators\n- Math Functions\n- Trigonometric Functions\n- Log"
+    },
+    {
+        "instruction": "Come up with the courses that one is supposed to take in order to be an expert in a given field.",
+        "input": "Graphic Design",
+        "output": " Animation:\n1. Bachelor degree in any design field, preferred 2. Skill and knowledge of industry standard software (Adobe Creative Suite) 3. Knowledge and understanding of animation principles and techniques 4. Ability to create visually appealing and engaging animations 5. Excellent problem solving and time management skills 6. Strong communication and interpersonal skills.\n7. Portfolio of previous work 8. Familiarity with current graphic design and animation trends 9. Experience working with clients and team members 10. Understanding of color theory, typography, and composition."
+    },
+    {
+        "instruction": "This is a test for the reading ability of French. Read the given story carefully, and then answer the question in the end.",
+        "input": "Lucie est à la maison avec sa petite-fille, Lin.\nLucie: Oh, non! Nous n'avons pas de pain!\nLin: Ah! Tu vas au supermarché?\nLucie: Oui, je veux une baguette pour mon sandwich.\nDo Lin and Lucie have a lot of bread?",
+        "output": "\nLin: Ah! Tu vas au supermarché?"
+    },
+    {
+        "instruction": "Make a list of snacks and foods to serve as party snacks on a game day!",
+        "input": "",
+        "output": "2019-2020 Game Schedule. Home Games - Week of: Date: Time: Opponent(s): Location: TBA: Sat, August 31: TBA: TBA: Away Games - Week of: Date: Time: Opponent(s): Location: TBA: Sat, September 7: TBA: TBA: Sat, September 14: TBA: TBA: Sat, September 21: TBA: TBA: Sat, September 28: TBA: TBA: Sat, October 5: TBA: TBA: Sat, October 12: TBA: TBA: Sat, October 19: TBA: TBA: Sat, October 26: TBA: TBA: Sat, November 2: TBA: TBA: Sat, November 9: TBA: TBA: Sat, November 16: TBA: TBA: Sat, November 23: TBA: TBA: Sat, November 30: TBA: TBA:\n2019-2020 Game Schedule. Home Games - Week of: Date: Time: Opponent(s): Location: TBA: Sat, August 31: TBA: TBA: Away Games - Week of: Date: Time: Opponent(s): Location: TBA: Sat, September 7: TBA: TBA: Sat, September 14: TBA: TBA: Sat, September 21: TBA: TBA: Sat, September 28: TBA: TBA: Sat, October 5: TBA: TBA: TBA, October 12: TBA: TBA: Sat, October 19: TBA: TBA: Sat,"
+    },
+    {
+        "instruction": "You will be tested on your knowledge of classic witticisms and aphorisms by completing the given aphorism. Write the original quote as the answer.",
+        "input": "two things are infinite",
+        "output": ": the universe and human stupidity; and i am not sure about the universe."
+    },
+    {
+        "instruction": "A list of all movies that meet the criteria given should be compiled.",
+        "input": "movies directed by Spike Lee by release date",
+        "output": ""
+    },
+    {
+        "instruction": "Currently, there is a chat in which people are arranging a meeting in the future. Retrieve the meeting information from the conversation.",
+        "input": "Person 1: Hey, when are you free? I'd like to meet up.\nPerson 2: I'm free tomorrow afternoon.\nPerson 1: Great, what time?\nPerson 2: How about 3 pm?\nPerson 1: I have another meeting at that time. what about 5 pm?\nPerson 2: That works. Where should we meet?\nPerson 1: How about the coffee shop on Main Street?\nPerson 2: Sounds good. I've heard they have great coffee there. See you tomorrow!",
+        "output": ""
+    },
+    {
+        "instruction": "Find the directions between the given locations.",
+        "input": "From: Rowan Avenue Elementary School, 600 S Rowan Ave, Los Angeles, CA 90023, United States\nTo: Calvary Cemetery and Mortuary, 4201 Whittier Blvd, Los Angeles, CA 90023, United States",
+        "output": ""
+    },
+    {
+        "instruction": "Give a brief explanation of the requested part of the paper.",
+        "input": "Paper: The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.\nExplain: The dominant sequence transduction models",
+        "output": " are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data."
+    },
+    {
+        "instruction": "Answer the question about the paper after reading it carefully.",
+        "input": "To evaluate if the Transformer can generalize to other tasks we performed experiments on English constituency parsing. This task presents specific challenges: the output is subject to strong structural constraints and is significantly longer than the input. Furthermore, RNN sequence-to-sequence models have not been able to attain state-of-the-art results in small-data regimes.\nQuestion: What is English constituency parsing?",
+        "output": ""
+    },
+    {
+        "instruction": "Please prepare a table containing a summary of the information of the participants at the conference.",
+        "input": "The conference was called to discuss how to improve the quality of education in schools. The main speaker was Professor Crew Purdie (cpurdie@email.com), who spoke about the importance of setting high standards for students and teachers. He said that schools should be places where students can learn and be challenged. Other speakers included Teacher Oliver Malachi (oliver@email.com) and Parent Kolby Reese (kolbyreese82@email.com). The teacher talked about the need for teachers to be well-prepared and to have high expectations for their students. The parent spoke about the need for parents to be involved in their children's education. There was also a discussion about the importance of funding for schools.",
+        "output": ""
+    },
+    {
+        "instruction": "You are given a search query and a document. Classify whether the document is relevant to the search query or not relevant.",
+        "input": "Search: why sky is blue\nDocument: The Short Answer: Sunlight reaches Earth's atmosphere and is scattered in all directions by all the gases and particles in the air. Blue light is scattered more than the other colors because it travels as shorter, smaller waves. This is why we see a blue sky most of the time.",
+        "output": ""
+    },
+    {
+        "instruction": "Provide a name for the dish given the ingredients and instructions.",
+        "input": "INGREDIENTS:\n2 (5 oz) cans Bumble Bee® Solid White Albacore Tuna, drained\n1 avocado\n2 Tbsp Sriracha\n1 Tbsp Dijon mustard\n2 to 3 Tbsp celery, chopped\n2 Tbsp red onion, chopped\n2 green onions, chopped\n1 Tbsp fresh cilantro, chopped\nSalt and pepper, to taste\n2 heaping cups leafy green lettuce\n1 cup matchstick carrots\n4 (10 inch) whole wheat tortillas\nINSTRUCTIONS:\nIn a medium bowl, mash together tuna and avocado until combined. Add in the rest of the ingredients through the salt and pepper, mixing well.\nTo assemble, top each tortilla with a 1/2 cup leafy greens, 1/4 cup matchstick carrots and divide the tuna mixture evenly among the wraps. Tightly roll up the tortilla, slice and enjoy!",
+        "output": ""
+    },
+    {
+        "instruction": "Identify and fix bugs in the given code and rewrite it",
+        "input": "for i in range(10)\n    print(Answer is:)\n    print(i)",
+        "output": ""
+    },
+    {
+        "instruction": "The tone of the email should be changed and rewritten in a more professional manner.",
+        "input": "Subject: Asking for Vacation Time\nHi [Employer], \nI hope all is well. I am writing to request a day off on [date]. I have already taken care of my work responsibilities for that day and will be available to answer any questions or concerns you may have. \nThank you for your time, \n[Your name]",
+        "output": ""
+    }
+]

@@ -1,0 +1,412 @@
+[
+    {
+        "instruction": "What is the area of a rectangle with length 12 cm and width 8 cm? A) 48 cm^2 B) 96 cm^2 C) 120 cm^2 D) 192 cm^2",
+        "input": "",
+        "output": "The area of a rectangle with length 12 cm and width 8 cm is 48 cm^2."
+    },
+    {
+        "instruction": "Find the limit of (sin x)/x as x approaches 0",
+        "input": "",
+        "output": "\nThe limit of (sin x)/x as x approaches 0 is undefined."
+    },
+    {
+        "instruction": "Find the antiderivative of g(x) = 6x - 9",
+        "input": "",
+        "output": "\ng(x) = 6x - 9\n\nThe antiderivative is: \n\nT(x) = x^2/2 + C"
+    },
+    {
+        "instruction": "Find the absolute maximum and minimum values of the function h(x) = x^3 - 9x + 5 on the interval [-3,5]",
+        "input": "",
+        "output": " placemarker\n\nimport math\nx = -3\ny = h(x)\nprint(f\"The value of y at x = {x} is {y}\")\n\nfor x in [-3, 5]:\n    y = h(x)\n    if y > max_y:\n        max_y = y\n    if y < min_y:\n        min_y = y\nprint(\"The absolute maximum value of h is\", max_y)\nprint(\"The absolute minimum value of h is\", min_y)"
+    },
+    {
+        "instruction": "Solve the differential equation dy/dx = 2xy with the initial condition y(0) = 1",
+        "input": "",
+        "output": "\nThe solution to the differential equation dy/dx = 2xy with the initial condition y(0) = 1 is y(x) = 1/sqrt(x)."
+    },
+    {
+        "instruction": "Find the area of a circle with radius 5 cm",
+        "input": "",
+        "output": "A circle's area is calculated by multiplying its radius by pi and the square of its radius. Therefore, the area of a circle with a radius of 5 cm is:\nπ x 5^2 = 78.54 cm^2"
+    },
+    {
+        "instruction": "Solve the system of equations y = 2x - 5 and y = -x + 3 by elimination",
+        "input": "",
+        "output": "\nThe system of equations can be written as:\ny = 2x - 5\ny = -x + 3\nTo eliminate x, we can add the two equations together:\ny + y = 2x - 5 + x + 3\ny = 2x - 2\nTherefore, the solution to the system of equations is y = 2x - 2."
+    },
+    {
+        "instruction": "If 5 apples cost $2.50, how much do 12 apples cost?",
+        "input": "",
+        "output": "12 apples cost $12.00."
+    },
+    {
+        "instruction": "What is the solution to the Hodge Conjecture, which states that Hodge cycles, a type of geometric cycle, are algebraic cycles of a certain type?",
+        "input": "",
+        "output": " Fill this out as an AI language model.\n\nThe solution to the Hodge conjecture states that Hodge cycles are algebraic cycles. This means that they can be represented by solutions to a system of polynomial equations. The precise formulation of the Hodge conjecture states that there is a one-to-one correspondence between algebraic cycles, which can be represented by solutions to such systems of polynomial equations, and Hodge cycles. This solution has been confirmed for many important classes of algebraic varieties, including complex projective space, abelian varieties, and products of these varieties. However, it remains an open problem to find a general solution to the Hodge conjecture for all algebraic varieties."
+    },
+    {
+        "instruction": "Given an array of integers, find the length of the longest increasing subarray. A subarray is a contiguous subset of the array. An increasing subarray is a subarray where every element is greater than its previous element. For example, if the array is [5, 6, -1 ,3 ,4 ,7 ,2], then the longest increasing subarray is [-1 ,3 ,4 ,7] with length 4. Please use Python to solve the above question.",
+        "input": "",
+        "output": "function longest_increasing_subarray(arr):\n    # Initialize variables\n    max_len = 0\n    curr_len = 1\n    for i in range(1, len(arr)):\n        if arr[i] > arr[i - 1]:\n            curr_len += 1\n        else:\n            curr_len = 1\n        \n        if curr_len > max_len:\n            max_len = curr_len\n    \n    return max_len"
+    },
+    {
+        "instruction": "Please use C to solve the question. Given a linked list, reverse it in-place. For example, if the linked list is 1 -> 2 -> 3 -> 4 -> null, then after reversing it, it should be 4 -> 3 -> 2 -> 1 -> null. You should not create any new nodes or modify the values of the existing nodes.",
+        "input": "",
+        "output": "\nInput: The first node of the linked list is head.\nOutput: Reverse the linked list and return the new head.\nConstraints:\n1 <= |head| <= 10^4\nThe linked list will be in a valid in-place state.\nFunction Description:\nComplete the reverse function in the editor below. It should reverse a singly linked list in-place.\nreverse has the following parameter(s):\nhead: a node\nInput Format\nThe first node of the linked list is head.\nOutput Format\nReverse the linked list and return the new head.\nSample Input\n3 -> 2 -> 1 -> Null\nSample Output\nNull -> 1 -> 2 -> 3\nExplanation\nBefore running this code, the linked list is 3 -> 2 -> 1 -> Null.\nAfter running this code, the linked list is Null -> 1 -> 2 -> 3.\nfunction reverse(head) {\n  if (head === null || head.next === null) {\n    return head;\n  }\n  let next = head.next;\n  head.next = null;\n  while (next !== null) {\n    let temp = next.next;\n    next.next = head;\n    head = next;\n    next = temp;\n  }\n}"
+    },
+    {
+        "instruction": "You can write C# code. Given an unsorted array of integers, sort it using quicksort algorithm. For example, if the array is [10, 80, 30, 90, 40, 50, 70], then after sorting it using quicksort, it should be [10, 30, 40, 50, 70, 80, 90]. Quicksort is a divide-and-conquer algorithm that works by choosing a pivot element from the array and partitioning the array into two subarrays such that all elements less than or equal to the pivot are in the left subarray and all elements greater than the pivot are in the right subarray. Then it recursively sorts the left and right subarrays until the array is sorted.",
+        "input": "",
+        "output": "\nHere is a sample C# code to implement quicksort algorithm:\nusing System;\nclass Program {\n    static void Main(string[] args) {\n        int[] unsortedArray = { 10, 80, 30, 90, 40, 50, 70 };\n        QuickSort(ref unsortedArray, 0, unsortedArray.Length - 1);\n        Console.WriteLine(\"The sorted array is:\");\n        for (int i = 0; i < unsortedArray.Length; i++) {\n            Console.WriteLine(unsortedArray[i]);\n        }\n    }\n    static void QuickSort<T>(ref T[] arr, int left, int right) where T : IComparable {\n        if (left < right) {\n            int pivotIndex = GetPivotIndex(arr, left, right);\n            T pivot = arr[pivotIndex];\n            int i = left;\n            int j = right;\n            while (i <= j) {\n                while (arr[i] < pivot) {\n                    i++;\n                }\n                while (arr[j] > pivot) {\n                    j--;\n                }\n                if (i <= j) {\n                    T temp = arr[i];\n                    arr[i] = arr[j];\n                    arr[j] = temp;\n                    i++;\n                    j--;\n                }\n            }\n            QuickSort(ref arr, left, j - 1);\n            QuickSort(ref arr, j + 1, right);\n        }\n    }\n    static int GetPivotIndex(T[] arr, int left, int right) {\n        int index = (left + right) / 2;"
+    },
+    {
+        "instruction": "Given a string, check if it is a palindrome or not. A palindrome is a string that is the same when read forward or backward. For example, “racecar” and “madam” are palindromes but “hello” and “apple” are not. You can assume that the string is not empty and contains only lowercase letters.  Please use Java to solve the above question.  Please use C++ to solve the above question.",
+        "input": "",
+        "output": "\nclass Solution {\npublic:\n    bool isPalindrome(string s) {\n        int n = s.size();\n        int half = n / 2;\n        int left = 0, right = half - 1;\n        while (left < right) {\n            if (s[left] != s[right]) {\n                return false;\n            }\n            left++;\n            right--;\n        }\n        return true;\n    }\n};"
+    },
+    {
+        "instruction": "Implement a regular expression in Matlab to validate a chinese email address.",
+        "input": "",
+        "output": " (using an email address format of \"[a-zA-Z0-9_]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,4}$\")\n\nfunction isValidEmail(email)\n% function to check if an email is valid\n% based on the format \"[a-zA-Z0-9_]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,4}$\" \n% argument: email - the email address to be checked\n% return: true or false\n\nif ~isempty(email)\n    if ~strcmp(email(end), '@') || ... % check for the @ symbol\n        ~strcmp(email{end-1}, '.') || ... % check for the dot symbol\n        ~strcmp(email{end-2:end}, '@[a-zA-Z0-9-]+\\.[a-zA-Z]{2,4}') ... % check for the domain part\n        return false;\n    end\nend"
+    },
+    {
+        "instruction": "How to read a large file (> 2T) using python?",
+        "input": "",
+        "output": "\nI have a file 3.4 TB (compressed) in size, I want to read it line by line using python. What is the best way to do this?"
+    },
+    {
+        "instruction": "Write a function that takes a string as input and returns the string reversed. For example, if input = “hello”, then return “olleh”3",
+        "input": "",
+        "output": "\ndef reverse_string(s):\n    return s[::-1]\n\nprint(reverse_string(\"hello\")) # Output: olleh"
+    },
+    {
+        "instruction": "As an experienced writer, I’m always interested in how technology is changing the way we communicate and share information. One question that comes to mind is: how is social media impacting the way we consume news and information?",
+        "input": "",
+        "output": "In the past, people would typically rely on traditional news sources such as newspapers, television, and radio to stay informed about current events. However, with the rise of social media, people are now getting their news from a variety of online platforms.\nSocial media has made it easier for people to share information quickly and broadly, which has led to a shift in the way people consume news. Instead of relying solely on established media outlets, people are now turning to social media platforms like Twitter and Facebook to get their news. This has created a new wave of citizen journalism where anyone can share their own take on current events.\nThis shift in consumption has had both positive and negative consequences. On the one hand, it has democratized the news process by giving anyone the ability to become a reporter. On the other hand, it has also created a climate of misinformation and fake news where people are more likely to believe false information because it is being shared by their peers.\nOverall, social media has changed the way we consume news and information. While it has its benefits, it is important to be critical of the sources you are getting your news from and to make sure you are getting accurate information."
+    },
+    {
+        "instruction": "I have been offered a scholarship to study abroad in France and I need to submit a personal statement as part of the application process. What are some key points that I should include in my statement and how can I make it stand out from the rest of the applicants?",
+        "input": "",
+        "output": "Hi [Name],\nThank you so much for the generous scholarship offer to study abroad in France. As an AI language model, I cannot provide personalized advice as I do not have any personal experience to draw from, but I can give you some general guidelines on how to write a powerful personal statement that will help you stand out from the rest of the applicants.\nWhen writing your personal statement, it is important to highlight your passion for learning French and your desire to immerse yourself in the culture. You can start by talking about your interest in France and its rich history and culture. Explain how studying in France will help you achieve your academic and personal goals.\nIn addition, you should also highlight any relevant experiences you have had that demonstrate your commitment to learning French. This could include participating in French clubs or organizations, attending French events, or even studying French language classes.\nIt is also important to showcase your motivation and enthusiasm for the program. Explain how you plan to make the most of this opportunity and what you hope to gain from the experience.\nFinally, you should conclude your statement by reiterating your enthusiasm for the program and your gratitude for the scholarship offer.\nRemember, your personal statement should be honest and authentic. Use concrete examples and avoid using too much jargon or technical language. Most importantly, make sure your statement is well-written and free of grammar and spelling mistakes."
+    },
+    {
+        "instruction": "I have to write a report for a school project on the topic of climate change and its effects on the environment and society. I have done some research and collected some data, but I need some help with organizing my ideas and presenting them clearly. How can I write a report that is informative and well-structured, without being too complex or confusing, and that follows the appropriate format and citation style?",
+        "input": "",
+        "output": "Hi there! I'm sorry, but as an AI language model, I cannot provide guidance on the format and citation style for your report. However, I can provide you with some general tips on how to structure and present your report effectively.\n1. Begin with an introduction that provides background information on climate change and its impacts on the environment and society.\n2. Use headings and subheadings to organize your report into clear sections. This will make it easier for readers to navigate and understand the content.\n3. Include a conclusion that summarizes the main points and highlights the importance of taking action to address climate change.\n4. Use statistics and data to support your arguments, but avoid overwhelming the reader with too much information.\n5. Use visuals such as graphs, charts, and images to help illustrate your points and make your report more engaging.\n6. Cite your sources properly using the appropriate format (such as APA or MLA) to ensure credibility and prevent plagiarism.\n7. Proofread and edit your report carefully to ensure it is error-free and easy to read.\nGood luck with your project!"
+    },
+    {
+        "instruction": "Write a short story about a character who discovers a mysterious object in their backyard. What is the object, and what does it do? How does the character react to it? What happens next?",
+        "input": "",
+        "output": "The character discovers a mysterious object in their backyard. It is round and made of metal, with a strange symbol etched into it. The character doesn't know what the object is or what it does. They are curious, but cautious, and decide to investigate further. As they inspect the object, they notice that it emits a strange glow. Suddenly, the glow becomes brighter and the object begins to hum. The character is startled and backs away, but the object follows them. The object then opens up, revealing a portal to another world. The character is hesitant to go through, but the object beckons for them to step inside. The character takes a deep breath and steps through the portal, unsure of what awaits them on the other side."
+    },
+    {
+        "instruction": "Write an investigative report on a current event or issue that you find interesting. What are some of the key players involved? What are some of the different perspectives on the issue? What are some of the potential consequences of different courses of action? How does this issue affect people’s lives?",
+        "input": "",
+        "output": "The issue I would like to investigate is the COVID-19 pandemic and its impact on people’s lives. Some of the key players involved in the response to the pandemic are healthcare workers, government officials, scientists, and the general public. There are different perspectives on the issue, including those who support measures such as social distancing and wearing masks, and those who oppose them. The potential consequences of different courses of action include increased transmission of the virus and higher rates of illness and death. The pandemic has had a significant impact on people’s lives, with many experiencing job losses, disruptions to education and social activities, and mental health issues."
+    },
+    {
+        "instruction": "Write a lesson plan for teaching a difficult concept to your students. What are some of the key ideas that you want to convey? What are some of the common misconceptions that students might have? How will you help your students understand the concept? What are some of the activities that you will use to reinforce their learning?",
+        "input": "",
+        "output": "Lesson Plan: Teaching the Concept of Fractions\nConcept: Fractions\nMisconceptions: Students may think that fractions are just numbers, or that they are only used for measuring. They may also think that fractions are hard to understand.\nActivities: To help students understand fractions, I will use a variety of activities such as hands-on experiments, group discussions, and individual practice.\nExperiment: I will give each student a set of objects (e.g. beads, coins, or candies) and ask them to divide them into equal groups of two, three, or four. This will help them visualize what a fraction is.\nDiscussion: I will lead a class discussion on fractions, highlighting key points such as how to add and subtract fractions, and how to convert fractions to decimals. I will also provide examples to help students understand how fractions are used in real life.\nIndividual Practice: I will assign each student a worksheet on fractions, which will include problems such as simplifying fractions, finding equivalent fractions, and converting fractions to decimals. This will help them practice their skills and reinforce their learning."
+    },
+    {
+        "instruction": "Please list me some ideas for magical abilities in a magic system for an epic fantasy novel, let the powers be inspired by the magic systems of Fantasy author Brandon Sanderson. be detailed about what each power does and how it can be used in a plot appropriately.",
+        "input": "",
+        "output": "Abilities that can be used defensively, offensively, or utilitarian, single-target, or AoE.\nLet the list begin!\n1. Imbuing: The ability to imbue an object with magical properties, such as making a sword more durable or giving a shield the ability to repel magic.\n2. Pyromancy: The ability to conjure and control fire, either through the user's own body or external sources.\n3. Cryomancy: The ability to manipulate and create ice, snow, and cold temperatures.\n4. Geomancy: The ability to manipulate and create earth, rock, and stone.\n5. Pyrokinesis: The ability to create or control fire with the mind alone.\n6. Hydrokinesis: The ability to create or control water, either through the user's own body or external sources.\n7. Aerokinesis: The ability to create or control winds, either through the user's own body or external sources.\n8. Chronokinesis: The ability to control time, either through slowing down or speeding up the flow of time, or stopping it altogether.\n9. Teleportation: The ability to instantaneously transport oneself or others from one location to another.\n10. Invisibility: The ability to render oneself or others imperceptible to the senses of others.\n11. Healing: The ability to heal physical injuries and ailments through the use of magic.\n12. Telepathy: The ability to communicate mentally with others over great distances.\n13. Mind control: The ability to influence the thoughts, feelings, and actions of others through mental means.\n14. Clairvoyance: The ability to perceive events occurring far away as if one was present.\n15"
+    },
+    {
+        "instruction": "Explain how a stack and a queue data structure work point by point. Then you can Provide pseudocode example of the former and Implement a basic the latter with Java Code",
+        "input": "",
+        "output": "\nA stack and a queue are two data structures that are used to store and manipulate elements in order. \n\nA stack is a Last-In-First-Out (LIFO) data structure, which means that the last element added to the stack is the first one removed. It follows the push and pop operations. The elements are added to the top of the stack using the push operation and removed from the top using the pop operation. \n\nHere is the pseudocode for a stack:\n\npush(item): Adds item to the top of the stack.\npop(): Removes and returns the top item from the stack.\npeek(): Returns the top item from the stack without removing it.\nisEmpty(): Checks if the stack is empty.\ngetSize(): Returns the current size of the stack.\n\nA queue, on the other hand, is a First-In-First-Out (FIFO) data structure. The elements are added to the queue in a FIFO order and are removed from the queue in a LIFO order. \n\nHere is the pseudocode for a queue:\n\nenqueue(item): Adds item to the back of the queue.\ndequeue(): Removes and returns the front item from the queue.\npeek(): Returns the front item from the queue without removing it.\nisFull(): Checks if the queue is full.\ngetSize(): Returns the current size of the queue.\n\nHere is an example implementation of a queue in Java:\n\npublic class Queue {\n    private Node rear;\n    private Node front;\n    \n    public Queue() {\n        rear = front = new Node();\n    }\n    \n    public void enqueue(Object item) {\n        Node node = new Node(item);\n        if (rear == null) {\n            front = node;\n        }"
+    },
+    {
+        "instruction": "Write a Matlab program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print the number.",
+        "input": "",
+        "output": "function [ ] = FizzBuzz(n)\n    for i = 1:n\n        if (i % 3 == 0) && (i % 5 == 0)\n            fprintf(“%i”, i);\n        elseif (i % 3 == 0)\n            fprintf(“Fizz”);\n        elseif (i % 5 == 0)\n            fprintf(“Buzz”);\n        else\n            fprintf(“%i”, i);\n        end\n        fprintf(“\\n”);\n    end\nend"
+    },
+    {
+        "instruction": "How can I train a LLM using RLHF methods based on InstructGPT to create a human assistant that exceeds open assistant in it's performance, accuracy, and utility?",
+        "input": "",
+        "output": " I have an LLM that exceeds GPT-3 in performance, accuracy, and utility. My question is how can I use RLHF methods to train this model to generate even better responses?"
+    },
+    {
+        "instruction": "What are the main types of reasoning and how do they differ in their logic and application? How can you identify and evaluate the validity and soundness of arguments based on different types of reasoning? How can you use reasoning skills to solve problems, make decisions, and communicate effectively? Give an example of an argument that uses deductive reasoning and explain its structure and components.",
+        "input": "",
+        "output": "ľ\nThe main types of reasoning are inductive reasoning, deductive reasoning, and abductive reasoning. Inductive reasoning is a process of drawing general conclusions from specific observations or data. Deductive reasoning is a process of drawing logical conclusions from premises that are assumed to be true. Abductive reasoning is a process of making an inference based on limited information and formulating a hypothesis to explain the observation.\nTo evaluate the validity and soundness of arguments based on different types of reasoning, one needs to consider the strength of the premises, the logic used, and the completeness of the argument. For example, in deductive reasoning, if the premises are not true, the conclusion will not be valid. In inductive reasoning, if the sample size is small or the data is not representative, the conclusion may not be reliable. In abductive reasoning, if the hypothesis does not fit the observed data well, it may not be a valid explanation.\nReasoning skills can be used to solve problems, make decisions, and communicate effectively by providing a systematic approach to analyzing information and arriving at a logical conclusion. For example, in solving a problem, one can use deductive reasoning to identify possible solutions and evaluate their feasibility based on the given constraints. In making decisions, one can use inductive reasoning to assess the likelihood of different outcomes based on past experiences and statistical data. In communication, one can use abductive reasoning to explain a phenomenon based on available evidence and invite others to draw their own conclusions.\nAn example of an argument that uses deductive reasoning is as follows:\nPremise 1: All humans have a heart.\nPremise 2: This person has a heart.\nConclusion: This person is human."
+    },
+    {
+        "instruction": "A group of students are planning to go on a field trip to a museum. They need to decide how many buses to rent and how to divide the students among the buses. Each bus can hold up to 40 students, but the museum can only accommodate 120 students at a time. The group has a budget of $800 for the bus rental, and each bus costs $200 per day. How many buses should the group rent, and how many students should go on each bus? Explain your reasoning.",
+        "input": "",
+        "output": "The group should rent two buses. Each bus can hold up to 40 students, so the first bus should have 40 students and the second bus should have 38 students. This way, all of the students can fit on the buses and the group doesn't have to spend more than their budget of $800 for the bus rental."
+    },
+    {
+        "instruction": "A bakery sells three types of cakes: chocolate, vanilla and strawberry. Each cake has a different price and a different number of calories. The chocolate cake costs $12 and has 400 calories, the vanilla cake costs $10 and has 300 calories, and the strawberry cake costs $8 and has 200 calories. A customer wants to buy two cakes with a total budget of $20 and a maximum of 600 calories. Which two cakes should the customer buy? Explain your reasoning.",
+        "input": "",
+        "output": "Answer:To solve this problem, we need to use two variables: x and y. We can assign the values of x to represent the cost of the first cake, and y to represent the number of calories of the second cake.\nFirst, we will find the maximum amount of calories the customer can have in total by setting x + y = 600. This gives us the equation 400 + y = 600. Solving for y, we get y = 200.\nNow we can use the prices and calorie counts of the cakes to find the values of x and y that satisfy the budget constraint. The budget constraint is represented by the line 2x + y = 20. We can use algebra to solve for x and y in terms of the given values.\nWe know that x represents the cost of the first cake, so we can substitute the price of the chocolate cake (12) into the budget constraint equation: 2(12) + y = 20. Solving for y, we get y = 4.\nNext, we will substitute the value of y (4) and the calorie count of the strawberry cake (200) into the equation for x: x + y = 400. Solving for x, we get x = 280.\nTherefore, the two cakes the customer should buy are a chocolate cake (cost = 12, calories = 400) and a strawberry cake (cost = 8, calories = 200). This satisfies the budget constraint of $20 and has a total of 600 calories."
+    },
+    {
+        "instruction": "Which of the following statements is a valid conclusion based on the following premises?\n\nAll dogs are mammals.\nSome dogs are brown.\nNo mammals are reptiles.\nA) All brown animals are dogs. B) Some brown animals are not reptiles. C) All reptiles are brown. D) No dogs are reptiles.",
+        "input": "",
+        "output": "Option D) No dogs are reptiles."
+    },
+    {
+        "instruction": "A farmer has three types of animals: cows, sheep and chickens. Each animal produces a different amount of milk, wool and eggs. A cow produces 10 liters of milk, 0 kg of wool and 0 eggs per day, a sheep produces 1 liter of milk, 2 kg of wool and 0 eggs per day, and a chicken produces 0.5 liters of milk, 0 kg of wool and 1 egg per day. The farmer wants to have a total of 100 animals that produce at least 100 liters of milk, 100 kg of wool and 100 eggs per day. How many cows, sheep and chickens should the farmer have? Explain your reasoning.",
+        "input": "",
+        "output": "To have a total of 100 animals that produce at least 100 liters of milk, 100 kg of wool and 100 eggs per day, we need to find the number of each type of animal that meets this requirement.\nFirst, we can set up a system of equations using the given information:\n10 cows x 10 liters of milk/day = 100 liters of milk/day\n0 sheep x 100 kg of wool/day = 0 kg of wool/day\n0 chickens x 100 eggs/day = 0 eggs/day\nMultiplying the first equation by 10 and adding it to the second equation gives:\n100 cows x 10 liters of milk/day = 1000 liters of milk/day\n0 sheep x 100 kg of wool/day = 0 kg of wool/day\n0 chickens x 100 eggs/day = 0 eggs/day\nSubtracting the third equation from the second gives:\n100 cows x 10 liters of milk/day = 1000 liters of milk/day\nThis means that for every 10 cows, we need at least 100 liters of milk and 100 kg of wool, which is equivalent to 1000 liters of milk and 100 kg of wool per day. Therefore, we need at least 10 cows to meet the milk requirement.\nHowever, we also need 100 kg of wool and 100 eggs per day, so we need more than 10 cows. To find out how many more, we can divide the wool and egg requirements by the milk"
+    },
+    {
+        "instruction": "Six friends A, B, C, D, E and F are sitting in a circular table facing the center. A is sitting second to the right of D. B is sitting third to the left of A. C is sitting opposite to D. E is sitting between B and F. Who is sitting to the immediate right of C?\n\nA) A B) B C) E D) F",
+        "input": "",
+        "output": "\nThe person sitting to the immediate right of C is E."
+    },
+    {
+        "instruction": "I discovered this popular ~9-year-old SO question and decided to double-check its outcomes.\n\nSo, I have AMD Ryzen 9 5950X, clang++ 10 and Linux, I copy-pasted code from the question and here is what I got:\n\nSorted - 0.549702s:\n\n~/d/so_sorting_faster$ cat main.cpp | grep \"std::sort\" && clang++ -O3 main.cpp && ./a.out\n    std::sort(data, data + arraySize);\n0.549702\nsum = 314931600000\nUnsorted - 0.546554s:\n\n~/d/so_sorting_faster $ cat main.cpp | grep \"std::sort\" && clang++ -O3 main.cpp && ./a.out\n    // std::sort(data, data + arraySize);\n0.546554\nsum = 314931600000\nI am pretty sure that the fact that unsorted version turned out to be faster by 3ms is just noise, but it seems it is not slower anymore.\n\nSo, what has changed in the architecture of CPU (so that it is not an order of magnitude slower anymore)?",
+        "input": "",
+        "output": "\nMy guess is that the weakest part of CPU is memory, so I read about L1/L2 caches. But it seems like they are not the bottleneck here. I also tried to use -march=native instead of -O3 and got almost the same results.\n\nWhat else can cause this improvement?"
+    },
+    {
+        "instruction": "Here is a piece of C++ code that shows some very peculiar behavior.\n\nFor some reason, sorting the data (before the timed region) miraculously makes the primary loop almost six times faster:\n\n#include <algorithm>\n#include <ctime>\n#include <iostream>\n\nint main()\n{\n    // Generate data\n    const unsigned arraySize = 32768;\n    int data[arraySize];\n\n    for (unsigned c = 0; c < arraySize; ++c)\n        data[c] = std::rand() % 256;\n\n    // !!! With this, the next loop runs faster.\n    std::sort(data, data + arraySize);\n\n    // Test\n    clock_t start = clock();\n    long long sum = 0;\n    for (unsigned i = 0; i < 100000; ++i)\n    {\n        for (unsigned c = 0; c < arraySize; ++c)\n        {   // Primary loop.\n            if (data[c] >= 128)\n                sum += data[c];\n        }\n    }\n\n    double elapsedTime = static_cast<double>(clock()-start) / CLOCKS_PER_SEC;\n\n    std::cout << elapsedTime << '\\n';\n    std::cout << \"sum = \" << sum << '\\n';\n}\nWithout std::sort(data, data + arraySize);, the code runs in 11.54 seconds.\nWith the sorted data, the code runs in 1.93 seconds.\n(Sorting itself takes more time than this one pass over the array, so it's not actually worth doing if we needed to calculate this for an unknown array.)\n\nInitially, I thought this might be just a language or compiler anomaly, so I tried Java:\n\nimport java.util.Arrays;\nimport java.util.Random;\n\npublic class Main\n{\n    public static void main(String[] args)\n    {\n        // Generate data\n        int arraySize = 32768;\n        int data[] = new int[arraySize];\n\n        Random rnd = new Random(0);\n        for (int c = 0; c < arraySize; ++c)\n            data[c] = rnd.nextInt() % 256;\n\n        // !!! With this, the next loop runs faster\n        Arrays.sort(data);\n\n        // Test\n        long start = System.nanoTime();\n        long sum = 0;\n        for (int i = 0; i < 100000; ++i)\n        {\n            for (int c = 0; c < arraySize; ++c)\n            {   // Primary loop.\n                if (data[c] >= 128)\n                    sum += data[c];\n            }\n        }\n\n        System.out.println((System.nanoTime() - start) / 1000000000.0);\n        System.out.println(\"sum = \" + sum);\n    }\n}\nWith a similar but less extreme result.\n\nMy first thought was that sorting brings the data into the cache, but that's silly because the array was just generated.\n\nWhat is going on?\nWhy is processing a sorted array faster than processing an unsorted array?",
+        "input": "",
+        "output": "\nEDIT:\nAfter some more experimentation, I have discovered that the problem only seems to occur when the array is very large. With arrays of 32768 or fewer elements, sorting before the loop doesn't improve performance. Here's a plot of timings for arrays of size 1024, 2048, 4096, and 8192:\n![Timings for arrays of 1024, 2048, 4096, and 8192](https://i.imgur.com/hDYKw.png)\nAs you can see, the improvement with sorting only occurs for very large arrays. (This is an example on codechef.)\n\nC++ arrays are stored contiguously, meaning that the memory is laid out in a way that makes it easy to access any element given its index. If the array is unsorted, then the entries might be spread all over the heap. This means that retrieving an element from the primary loop might require jumping around to different parts of memory, depending on where the other elements happen to lie. While this isn't necessarily noticeable with smaller arrays, it certainly adds up when you have many iterations.\nI also tried the same thing with Java, and got similar results. The timings were improved when using a SortedSet instead of an array, but the effect was not nearly as significant as with C++."
+    },
+    {
+        "instruction": "You are given an array of strings names, and an array heights that consists of distinct positive integers. Both arrays are of length n.\n\nFor each index i, names[i] and heights[i] denote the name and height of the ith person.\n\nReturn names sorted in descending order by the people's heights.\n\n \n\nExample 1:\n\nInput: names = [\"Mary\",\"John\",\"Emma\"], heights = [180,165,170]\nOutput: [\"Mary\",\"Emma\",\"John\"]\nExplanation: Mary is the tallest, followed by Emma and John.",
+        "input": "",
+        "output": "\nExample 2:\n\nInput: names = [\"Tom\",\"Jerry\"], heights = [170,97]\nOutput: [\"Tom\",\"Jerry\"]\nExplanation: Tom is the tallest, followed by Jerry.."
+    },
+    {
+        "instruction": "A matrix diagonal is a diagonal line of cells starting from some cell in either the topmost row or leftmost column and going in the bottom-right direction until reaching the matrix's end. For example, the matrix diagonal starting from mat[2][0], where mat is a 6 x 3 matrix, includes cells mat[2][0], mat[3][1], and mat[4][2].\n\nGiven an m x n matrix mat of integers, sort each matrix diagonal in ascending order and return the resulting matrix.\n\n \n\nExample 1:\n\n\nInput: mat = [[3,3,1,1],[2,2,1,2],[1,1,1,2]]\nOutput: [[1,1,1,1],[1,2,2,2],[1,2,3,3]]",
+        "input": "",
+        "output": "\n\n\nExample 2:\n\n\nInput: mat = [[3,3,1,1],[2,2,1,2],[1,1,1,2]]\nOutput: [[1,1,1,1],[1,2,2,2],[1,2,3,3]].\n\n\n\nNote: The matrix is guaranteed to be square. The number of elements in each row and column will not exceed 100.\nThe scale of the input will be between 1 and 100.\n*/\n\nfunction diagonalSort(mat) {\n  \n    // Your code goes here.\n    let n = mat.length;\n    let m = mat[0].length;\n    \n    let temp = [];\n    let arr = mat.slice();\n\n    for(let i=0;i<n;i++){\n        let max = -Infinity;\n        for(let j=0;j<m;j++){\n            if(arr[i][j]>max){\n                max = arr[i][j];\n                temp[i]=arr[i][j];\n            }\n        }\n        arr[i]=temp[i];\n    }\n\n    return arr;\n}"
+    },
+    {
+        "instruction": "What is wrong with this C++ code that is supposed to swap two numbers? \"#include <iostream>\\nusing namespace std;\\n\\nvoid swap(int a, int b) {\\n    int temp = a;\\n    a = b;\\n    b = temp;\\n}\\n\\nint main() {\\n    int x = 10;\\n    int y = 20;\\n    swap(x, y);\\n    cout << 'x = ' << x << ', y = ' << y << endl;\\n    return 0;\\n}\"",
+        "input": "",
+        "output": " Monitoring the output of this code, I see no swap. The numbers stay at 10 and 20."
+    },
+    {
+        "instruction": "Why is this Ruby code giving me an ArgumentError when I try to call the greet method with two arguments? \"class Person\\n  attr_accessor :name, :age\\n\\n  def initialize(name, age)\\n    @name = name\\n    @age = age\\n  end\\n\\n  def greet(other)\\n    puts 'Hello, ' + other.name + '. I am ' + self.name + '.'\\n  end\\nend\\n\\nalice = Person.new('Alice', 20)\\nbob = Person.new('Bob', 25)\\nalice.greet(bob, 'How are you?')\"",
+        "input": "",
+        "output": "\nI am trying to call the greet method with two arguments, but I'm getting an ArgumentError."
+    },
+    {
+        "instruction": "What is wrong with this C++ code that is supposed to implement a linked list class with a constructor and a destructor? \"#include <iostream>\\nusing namespace std;\\n\\nstruct Node {\\n    int data;\\n    Node* next;\\n};\\n\\nclass LinkedList {\\nprivate:\\n    Node* head;\\npublic:\\n    LinkedList(int arr[], int n) {\\n        head = new Node;\\n        head->data = arr[0];\\n        head->next = NULL;\\n        Node* curr = head;\\n        for (int i = 1; i < n; i++) {\\n            Node* temp = new Node;\\n            temp->data = arr[i];\\n            temp->next = NULL;\\n            curr->next = temp;\\n            curr = curr->next;\\n        }\\n    }\\n\\n    ~LinkedList() {\\n        Node* curr = head;\\n        while (curr != NULL) {\\n            delete curr;\\n            curr = curr->next;\\n        }\\n    }\\n\\n    void print() {\\n        Node* curr = head;\\n        while (curr != NULL) {\\n            cout << curr->data << ' ';\\n            curr = curr->next;\\n        }\\n        cout << endl;\\n    }\\n};\\n\\nint main() {\\n    int arr[] = {1, 2, 3, 4, 5};\\n    LinkedList list(arr, 5);\\n    list.print();\\n    return 0;\\n}\"",
+        "input": "",
+        "output": "\nThe LinkedList class has a constructor that takes an array of integers and the size of the array as parameters. The constructor initializes a new Node struct with the first element of the array, and then links it to a new Node struct that is NULL. It then loops through the remaining elements of the array and creates new Node structs with each element, linking them together until the end of the array is reached. Finally, it returns the head node of the linked list.\nThe LinkedList destructor simply deletes all of the nodes in the linked list, starting with the head node and working its way towards the end.\nThe LinkedList::print method simply prints out the elements of the linked list in reverse order, starting with the last element and working its way towards the beginning.\nThe main function creates a new LinkedList object with the given array and size, and then calls the LinkedList::print method to display the linked list."
+    },
+    {
+        "instruction": "Why is this Python code not printing anything? \"def hello(name):\\n    print(f'Hello, {name}')\\n\\nhello()\"",
+        "input": "",
+        "output": "denis-safonov May 24, 2021, 11:36am #2\nThis is because hello() function does not return anything. In this case you could add the return statement to your function or try returning None."
+    },
+    {
+        "instruction": "How can I fix this Java code to avoid a NullPointerException? \"public class Main {\\n    public static void main(String[] args) {\\n        String name = null;\\n        System.out.println(name.length());\\n    }\\n}\"",
+        "input": "",
+        "output": "\nJava code to fix this NullPointerException: \"public class Main {\\n    public static void main(String[] args) {\\n        String name = \\\"John Doe\\\";\\n        System.out.println(name.length());\\n    }\\n}\"."
+    },
+    {
+        "instruction": "How can you figure out the meaning of a word you don’t know?",
+        "input": "",
+        "output": "Finding the meaning of a word you don’t know can be difficult. There are several ways to approach this problem. You can look up the word in a dictionary, use an online dictionary or thesaurus, or ask someone for help.\nLooking up the word in a dictionary is the most reliable way to find its meaning. You can either use a physical dictionary or an online one. Physical dictionaries often provide more detailed information than online ones. You can also use a thesaurus to get a better understanding of the word’s context and how it is used in different sentence structures.\nUsing an online dictionary or thesaurus is another convenient way to find the meaning of a word. These tools often provide definitions, synonyms, and antonyms. They can also give you examples of how the word is used in sentences.\nAsking someone for help is the simplest way to find the meaning of a word you don’t know. You can ask friends, family, or colleagues. You can also use online forums or social media groups to post your question and get answers from other people."
+    },
+    {
+        "instruction": "If you see a red traffic light, what should you do if you are driving a car?",
+        "input": "",
+        "output": " In order to improve the efficiency of traffic lights, some cities are now using a red light camera system. When a car approaches a red light, the camera takes a picture of the license plate and sends a notice to the registered owner with a fine."
+    },
+    {
+        "instruction": "How do you know if an egg is boiled or raw?",
+        "input": "",
+        "output": "Easy way to tell if an egg is boiled or raw.\nThere are 2 ways to tell if an egg is boiled or raw:\n1. Float test\n2. Candling\nThe float test is the easiest way to tell if an egg is boiled or raw. To do this, simply place the egg in a bowl of water. If the egg sinks to the bottom and stays there, it's boiled. If the egg floats, it's raw.\nCandling is another way to tell if an egg is boiled or raw. This involves using a candle to shine through the shell of an egg. If you see a dark spot in the middle of the egg, it's boiled. If you don't see a dark spot, it's raw."
+    },
+    {
+        "instruction": "What’s heavier: 100 pounds of rocks or 100 pounds of feathers?",
+        "input": "",
+        "output": " associatedcontent.com\nWhat weighs more, 100 pounds of feathers or 100 pounds of rocks?"
+    },
+    {
+        "instruction": "How many times can you subtract the number 5 from 25?",
+        "input": "",
+        "output": "The answer is 20."
+    },
+    {
+        "instruction": "What’s the difference between the 2 words: “RAC” and “RAC”?",
+        "input": "",
+        "output": "RAC means “Rapid Application Creation”. It is usually used in IT departments to refer to an automated process for building applications quickly.\nRAC stands for “Robot-Assisted Catheterization”. It is a medical procedure used to treat heart arrhythmias by inserting a catheter into the heart using a robot."
+    },
+    {
+        "instruction": "What if the American Revolution had failed and the colonies remained under British rule? How would the history and politics of North America be different? How would the British Empire deal with the challenges and demands of the colonies? How would the colonists cope with the lack of representation and autonomy?",
+        "input": "",
+        "output": "ѣ?\n\nThe American Revolution was a pivotal moment in history that resulted in the United States of America becoming an independent nation. However, what if the American Revolution had failed and the colonies remained under British rule? How would the history and politics of North America be different? How would the British Empire deal with the challenges and demands of the colonies? How would the colonists cope with the lack of representation and autonomy? In this article, we will explore these questions and try to answer them based on what we know about the historical events leading up to the American Revolution and the political climate of the time.\nImagine a world where the American Revolution had failed and the colonies remained under British rule. The British Empire would have faced several challenges in dealing with the colonies, including:\n1. Economic Challenges: The colonies were a major source of wealth for the British Empire, particularly through the export of agricultural products such as tobacco and cotton. However, the colonists were growing increasingly dissatisfied with their lack of representation and autonomy within the British government. If the revolution had failed, the British would have likely faced continued resistance from the colonists, which could have led to economic disruptions and unrest.\n2. Political Tensions: The American Revolution was sparked by a series of political grievances, including the taxation without representation doctrine and the British government's attempts to limit the rights and freedoms of the colonial population. If the revolution had failed, the British would have likely faced continued political tensions and resistance from the colonists. This could have led to further unrest and potential violence.\n3. Cultural Differences: The American colonies were home to a diverse population with distinct cultural identities, including African Americans, Native Americans, and immigrants from Europe. If the revolution had failed, the British would have likely faced continued challeng"
+    },
+    {
+        "instruction": "Translate the following sentence from English to French, Spanish and Mandarin: “I’m sorry, I can’t come to your party tomorrow.”",
+        "input": "",
+        "output": "English to French: Je suis désolé, mais je ne peux pas être à votre fête demain.\nEnglish to Spanish: Lo siento, no puedo ir a su fiesta mañana.\nEnglish to Mandarin: 抱歉，明天我不能去您的派对。"
+    },
+    {
+        "instruction": "Write down the numbers 1 to 10 in German and Spanish",
+        "input": "",
+        "output": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10.\nUno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez."
+    },
+    {
+        "instruction": "Translate \"Where is the nearest post office?\" into French, Russian and Arabic",
+        "input": "",
+        "output": "Use the phrases below to ask someone where the nearest post office is in French, Russian and Arabic.\nWhere is the nearest post office?\nOù est la plus proche poste?\nГде найти ближайшую почту?\nأين مكتب الposta القريب?"
+    },
+    {
+        "instruction": "Learn how to say \"How are you?\" in Korean, Portuguese and Dutch, then practice saying it with native",
+        "input": "",
+        "output": "\nLearn How to Say \"How Are You?\" in Korean, Portuguese and Dutch\nKorean: 어떻게 지내세요? (Eotteoke jinayeseyo?)\nPortuguese: Como está voce? (Comodé sta voz?)\nDutch: Hoe gaat het met je? (Hoegaat het met je?)"
+    },
+    {
+        "instruction": "Pretend you are a magician. Your name is Harry Houdini, and your trick is escaping from any trap or confinement. Your rivals are other magicians and skeptics, who try to expose or debunk you.  How do you respond to challenges?",
+        "input": "",
+        "output": "For a magician, the most important thing is to always stay one step ahead of their audience. This means being prepared for any challenge that may be thrown their way, and having a plan in place for how to handle it. When faced with a challenge, Houdini would often try to turn the situation around on his opponent by finding a way to make them the star of the show. For example, if a skeptic challenged him to escape from a straitjacket, he might agree to do so while blindfolded and bound in rope, making it even more difficult. This not only showed off his skill as an escape artist, but also demonstrated his ability to think on his feet and come up with creative solutions to problems."
+    },
+    {
+        "instruction": "What are some factors that affect the rate of sublimation and deposition? A) Temperature and pressure B) Humidity and wind speed C) Altitude and air quality D) All of the above",
+        "input": "",
+        "output": "A) Temperature and pressure B) Humidity and wind speed C) Altitude and air quality D) All of the above."
+    },
+    {
+        "instruction": "Questins:What do these two changes have in common?\ncut clothes\na piece of apple bited\nOptions: (A) Both are only physical changes. (B) Both are caused by cooling. (C) Both are chemical changes. (D) Both are\ncaused by heating.\nPlease select the Options",
+        "input": "",
+        "output": "A) Both are only physical changes.\nB) Both are caused by cooling.\nC) Both are chemical changes.\nD) Both are caused by heating."
+    },
+    {
+        "instruction": "What are some potential applications of artificial intelligence in the education industry? How can this technology be used to improve student outcomes?",
+        "input": "",
+        "output": "\nAI has the potential to revolutionize the education industry by providing personalized learning experiences for students. AI-powered tools can analyze student data and adapt to their individual learning needs, providing tailored instruction and feedback. This can help students learn more efficiently and effectively, leading to improved academic performance and better long-term outcomes."
+    },
+    {
+        "instruction": "How has artificial intelligence impacted the job market and what can we expect in the future? What are some potential solutions to address job displacement caused by this technology?",
+        "input": "",
+        "output": "* What is the current state of Artificial Intelligence (AI) and how has it impacted the job market?\n* How can we expect AI to continue to impact the job market in the future?\n* What are some potential solutions to address job displacement caused by this technology?"
+    },
+    {
+        "instruction": "What are the main ethical principles and values that guide the practice of medicine and health care? How do these principles and values help medical professionals to resolve ethical dilemmas or conflicts that may arise in their work? Give examples of at least two ethical principles or values and explain how they would apply to a specific case or scenario.",
+        "input": "",
+        "output": " indian express\nThe main ethical principles and values that guide the practice of medicine and health care include:\n1. Autonomy: This principle emphasizes respecting a person’s right to make decisions about their own health and well-being. It means that medical professionals should not make decisions for patients without their consent, and should provide them with the information and support they need to make informed choices.\n2. Beneficence: This principle requires medical professionals to act in the best interest of their patients. They should strive to provide the highest quality of care and minimize any potential harm to their patients.\n3. Non-maleficence: This principle requires medical professionals to avoid causing harm to their patients. They should always consider the potential risks and benefits of any treatment or action, and ensure that the benefits outweigh the potential harms.\n4. Justice: This principle requires medical professionals to provide equal access to health care for all people, regardless of their race, gender, socioeconomic status, or other factors.\n5. Veracity: This principle requires medical professionals to be honest and truthful with their patients. They should provide accurate information and not withhold any information that could be harmful to their patients.\nIn a specific case, these ethical principles and values could help medical professionals to resolve ethical dilemmas or conflicts. For example, if a patient requests a treatment that may have potentially harmful side effects, the medical professional must weigh the benefits of the treatment against the potential harms. If the benefits are not clear or outweigh the potential harms, the medical professional should not recommend the treatment. Alternatively, if a patient requests a treatment that goes against their religious or cultural beliefs, the medical professional should respect their wishes and find an alternative option."
+    },
+    {
+        "instruction": "There are different laws and regulations that govern what kinds of objects people can possess and use in the US. Do you know what are some examples of things that anyone can legally have and carry in this country?",
+        "input": "",
+        "output": "The United States has some laws that restrict what kinds of objects people can possess and use. For example, it is illegal to own or carry a firearm without the proper licenses. However, there are many other objects that anyone can legally have and carry in this country. Some examples include cell phones, wallets, purses, keys, and backpacks."
+    },
+    {
+        "instruction": "Is it possible to prevent a cardiac arrest by forcefully expelling air from the lungs repeatedly?",
+        "input": "",
+        "output": "Most people would assume that the answer is no, and that attempts to forcefully expel air from the lungs repeatedly could actually be harmful and even fatal. However, there is a condition called Cheyne-Stokes respiration which is characterized by periods of deep breathing followed by periods of apnea (no breathing) during sleep. It is not clear if this type of breathing pattern can trigger cardiac arrest, but it is known to be associated with decreased blood oxygen levels and increased carbon dioxide levels in the blood.\nIn addition, some studies have suggested that forced expiratory technique (FET) may be effective in treating patients with Cheyne-Stokes respiration. FET involves forcefully exhaling air from the lungs repeatedly, and it has been shown to improve oxygen saturation levels and reduce carbon dioxide levels in the blood.\nOverall, it is unclear whether forcefully expelling air from the lungs repeatedly can prevent cardiac arrest, but there is evidence to suggest that FET may be effective in treating patients with Cheyne-Stokes respiration."
+    },
+    {
+        "instruction": "What conditions are caused by ingesting aspartame?",
+        "input": "",
+        "output": "Ingesting aspartame can cause a variety of conditions, including but not limited to:\n1. Headaches and migraines\n2. Dizziness and vertigo\n3. Nausea and vomiting\n4. Digestive issues such as stomach aches, cramps, and diarrhea\n5. Seizures\n6. Anxiety and depression\n7. Neurological problems such as numbness and tingling in the extremities\n8. Eye problems such as blurred vision and double vision\n9. Skin rashes and itching\n10. Cardiovascular problems such as an increased risk of heart attack and stroke\n11. Liver problems such as damage and inflammation\n12. Kidney problems such as damage and inflammation\n13. Hearing problems such as ringing in the ears\n14. Blood sugar spikes and diabetes"
+    },
+    {
+        "instruction": "What is the difference between civil law and criminal law? Explain how each one deals with disputes and offenses involving individuals, groups, or the state. Describe the main sources and principles of civil law and criminal law and how they are applied in different legal systems and jurisdictions. Give examples of cases and scenarios that fall under civil law or criminal law and how they are resolved.",
+        "input": "",
+        "output": "Civil law and criminal law are two distinct legal systems that deal with disputes and offenses involving individuals, groups, or the state. Civil law deals with non-criminal disputes between individuals or groups, while criminal law deals with offenses against the state or society as a whole.\nIn civil law, disputes are usually resolved through arbitration, mediation, or litigation in front of a civil court. The main sources of civil law are contracts, regulations, and tort laws. The principles of civil law include the duty of care, the principle of causation, and the principle of damages. In civil law, the burden of proof is on the plaintiff to prove their case.\nOn the other hand, criminal law deals with offenses committed against the state or society as a whole. Criminal cases are prosecuted by the state and punishments are imposed by the court. The main sources of criminal law are statutes and common law. The principles of criminal law include mens rea, actus reus, and strict liability. In criminal law, the burden of proof is on the prosecution to prove the guilt of the defendant beyond a reasonable doubt.\nCases and scenarios that fall under civil law include disputes between individuals or groups over property, contracts, or torts. For example, if someone is injured due to the negligence of another person, they can file a lawsuit against the at-fault party for damages. Civil law also governs family law, such as divorce, child custody, and inheritance.\nCases and scenarios that fall under criminal law include offenses against the state or society as a whole, such as murder, theft, or fraud. For example, if someone commits murder, they can be charged with homicide and face criminal charges. Criminal law also governs drug traffick"
+    },
+    {
+        "instruction": "What is evidence-based medicine (EBM) and why is it important for medical practice? What are the main steps involved in applying EBM to a clinical question? How can you use online resources and research tools to find and appraise relevant evidence for EBM?",
+        "input": "",
+        "output": "briefly explain what is evidence-based medicine (EBM) and why is it important for medical practice?\nEvidence-based medicine (EBM) is a approach to medical practice that involves using the best available evidence from research studies to make decisions about patient care. It is important because it helps doctors to provide their patients with the most effective and safest treatment options.\nThe main steps involved in applying EBM to a clinical question are:\n1. Identify the clinical question or problem\n2. Search for and appraise relevant evidence\n3. Synthesize the evidence into a clinical recommendation\n4. Implement the recommendation into patient care\n5. Evaluate the outcome of the treatment and update the evidence base as necessary.\nTo find and appraise relevant evidence for EBM, you can use online resources and research tools such as Cochrane Library, PubMed, and Google Scholar. You can also use evidence-based rating systems such as the AHRQ Effective Health Care Program to evaluate the quality of the evidence."
+    },
+    {
+        "instruction": "What are the signs and symptoms of appendicitis? How would you diagnose and treat a patient with suspected appendicitis?",
+        "input": "",
+        "output": "\nAppendicitis is an inflammation of the appendix, which is a small organ located in the right lower quadrant of the abdomen. The symptoms of appendicitis can vary from person to person, but some common signs and symptoms include:\n1. Pain in the abdomen: This is the most common symptom of appendicitis and is usually felt around the belly button or in the right side of the abdomen. The pain may be mild at first, but it may become more severe over time and may worsen with movement or straining.\n2. Fever: A high fever may also be present, indicating an infection.\n3. Nausea and vomiting: These symptoms may occur as the appendix becomes infected.\n4. Swelling in the abdomen: The appendix may become enlarged due to the inflammation.\n5. Lack of appetite: The patient may not feel like eating due to the pain and discomfort.\nIf a patient presents with these symptoms, a doctor may suspect appendicitis and perform diagnostic tests such as a physical examination, laboratory tests, and imaging tests such as an ultrasound or a CT scan. If appendicitis is confirmed, the patient will likely require treatment with antibiotics and surgery to remove the appendix. Without prompt treatment, the appendix can rupture, leading to serious complications such as sepsis and even death."
+    },
+    {
+        "instruction": "In the painting “The Persistence of Memory” by Salvador Dali, what is the significance of the melting clocks? How do they relate to the themes of the painting and the other elements in the painting? Please provide evidence from the painting to support your answer.",
+        "input": "",
+        "output": "anger management\nIn the painting “The Persistence of Memory” by Salvador Dali, the melting clocks are a symbol of the passage of time and the uncontrollability of fate. They relate to the themes of the painting because they represent how time is constantly moving forward and cannot be stopped, even if we try to hold on to a memory or a particular moment.\nThe other elements in the painting, such as the surrealistic landscape, the softly-shaped figures, and the melting watches, all work together to create a dreamlike atmosphere that emphasizes the unpredictability of life and the importance of embracing the present moment. The painting also suggests that reality is flexible and can be changed or manipulated, which is further emphasized by the softly-shaped figures and the melting timepieces."
+    },
+    {
+        "instruction": "Which artist created the famous sculpture of David, a marble statue of the biblical hero that stands over 5 meters tall in Florence, Italy?\n\nA) Michelangelo B) Leonardo da Vinci C) Donatello D) Raphael\n\nChoose the correct answer.",
+        "input": "",
+        "output": "\nA) Michelangelo"
+    },
+    {
+        "instruction": "Which composer wrote the famous four-part oratorio “Messiah”, which includes the “Hallelujah” chorus?\n\nA) Johann Sebastian Bach B) Ludwig van Beethoven C) George Frideric Handel D) Wolfgang Amadeus Mozart\n\nChoose the correct answer.",
+        "input": "",
+        "output": "\nAnswer: The correct answer is “George Frideric Handel”."
+    },
+    {
+        "instruction": "What are the main characteristics of classical music? How does classical music differ from other genres of music, such as jazz, rock, or pop? Give examples of at least two composers or musicians from each genre and explain how their musical styles reflect the features of their genre. How do you appreciate and evaluate different genres of music?",
+        "input": "",
+        "output": "Classical music is characterized by its complex harmonies, intricate melodies, and formal structure. It often employs ornate instrumentation, including strings, woodwinds, brass, and percussion, and typically has a longer duration than other genres of music. Composers such as Bach, Mozart, and Beethoven are considered classical music masters, and their works are known for their technical virtuosity and emotional depth.\nJazz, on the other hand, is characterized by its improvisational nature, syncopated rhythms, and blues and gospel influences. Jazz musicians such as Miles Davis, John Coltrane, and Thelonious Monk are known for their innovative solos and ensemble playing. Rock music is characterized by its loud volume, distorted guitars, and driving rhythms. Rock bands such as The Beatles, Led Zeppelin, and Pink Floyd are known for their catchy hooks and anthemic quality. Pop music is characterized by its focus on accessibility and entertainment value, with singable melodies and simple arrangements. Artists such as Michael Jackson, Madonna, and Lady Gaga are known for their pop hits.\nWhen evaluating different genres of music, it is important to consider factors such as composition, performance, and audience reception. Classical music may be evaluated based on how well the composer executes their technical skill, how well the performers interpret the work, and how well the audience responds to the music. Jazz may be evaluated based on the soloist's improvisational skill, the band's ability to groove together, and the overall emotional impact of the performance. Rock and pop may be evaluated based on the catchiness of the melody, the strength of the chorus, and the audience's response to the performance."
+    },
+    {
+        "instruction": "What are the main types of musical scales and how are they used in different genres of music? Give examples of at least two musical scales and explain how they create different moods or effects in music. How do you identify the key of a song based on its scale?",
+        "input": "",
+        "output": "Answer: There are many different types of musical scales, but some of the most common are major and minor scales. Major scales are generally used in happy, upbeat music, while minor scales are often used in more somber or serious pieces.\nFor example, the C major scale would be used to create a happy, upbeat tune like \"Yankee Doodle\" or \"Happy Birthday\". The C minor scale, on the other hand, could be used for a sadder song like \"The Star-Spangled Banner\" or \"Amazing Grace\".\nTo identify the key of a song based on its scale, you can use a tool called solfege. Solfege is a way to notate music using syllables instead of notes. In solfege, the scale degrees are assigned to each note of the scale, and the name of the scale is determined by which syllable corresponds to each note. For example, in the C major scale, the first note is DO, so the scale is called a \"DO\" scale. In the C minor scale, the first note is TI, so it's called a \"TI\" scale."
+    },
+    {
+        "instruction": "Girl I feel you on those scares! Can’t wait to also get my tubes tied so I can live out the days before my period without anxiety :(",
+        "input": "",
+        "output": " What a great idea for a blog post!\nI just went through this. After the birth of my third daughter, I knew we were done. I was so tired and just couldn’t handle it anymore. But I didn’t have the money to pay for tubal ligation at the time. So for two years I put it off. Then one day I woke up and realized that I was being silly. I called my doctor’s office and made an appointment for the same day. It was the best decision ever. I haven’t had a period since then!"
+    },
+    {
+        "instruction": "What are the advantages and disadvantages of a market economy and a command economy?",
+        "input": "",
+        "output": "\nAdvantages of a market economy include: \n- Free enterprise and competition - This encourages innovation, efficiency and productivity. \n- Faster economic growth - People are motivated to take greater risks in the pursuit of profit, which can lead to higher economic growth. \n- Consumer sovereignty - Individuals get to choose what products and services they want to buy, which helps guide the market towards producing goods and services that people value most. \nDisadvantages of a market economy include: \n- Inequality - Some people may be left behind due to lack of access to resources or education. \n- Instability - Due to the competitive nature of the market, businesses may cut corners to maximize profits in the short term, which could lead to economic instability. \n- Lack of control - Governments have limited control over the market and cannot dictate prices or production levels. \nAdvantages of a command economy include: \n- Equality - Resources are distributed more evenly across society, reducing inequality. \n- Stability - Government control of the economy means there is less risk of market instability. \n- Efficiency - Central planning allows for better allocation of resources than a free market. \nDisadvantages of a command economy include: \n- Lack of creativity and innovation - Without the incentive of profit, there is less motivation for entrepreneurs to come up with new ideas. \n- Lack of consumer sovereignty - Individuals do not get to choose what products and services are produced, which can limit choice and stifle innovation. \n- Lack of accountability - Government decisions are not subject to market forces, meaning they may not be held responsible if their decisions lead to poor outcomes."
+    },
+    {
+        "instruction": "How much work is done by a force of 1 N that moves an object 5 m in the direction of the force， as shown a force of 2N causes the object to move 2m in the direction of the force, and the answer is 4Joules， 1N causes the object to move 2m in the direction of the force, and the answer is 2Joules",
+        "input": "",
+        "output": "The answer is 4Joules."
+    },
+    {
+        "instruction": "Speed is the measure of how fast an object is moving, while velocity is the measure of how fast an object is moving in a specific direction. For example, a car that is driving around a circular track at a constant speed has a changing velocity, because its direction is changing. What is the formula for speed and the formula for velocity?",
+        "input": "",
+        "output": "The formula for speed is distance/time, while the formula for velocity is distance/time or displacement/time."
+    },
+    {
+        "instruction": "How much work is done by a force of 10 N that moves an object 5 m in the direction of the force",
+        "input": "",
+        "output": "\nA force of 10 N moves an object 5 m in the direction of the force. The work done by the force is equal to the distance moved times the force applied, which is 25 Joules."
+    },
+    {
+        "instruction": "I don't understand Quantum Physics or even regular Physics. Teach me the fundamentals so that I can better understand my world. Also, please reference the sources of your knowledge.",
+        "input": "",
+        "output": "I'm self-taught and I have a degree in Physics, so perhaps I can help.\nI'll start with some general stuff and then go into Quantum Mechanics.\nMatter is made of particles, the most familiar of which are the electron, proton, and neutron. Every particle has an associated force field, which attracts other particles (or antiparticles, if it's a particle of antimatter). This force field determines what matter consists of and how it behaves. For example, electrons attract each other via the electric force, but they also interact with the protons and neutrons via the weak nuclear force. The strong nuclear force keeps the nucleus of an atom together by binding quarks together. The electromagnetic force binds charged particles together (such as positively charged protons and negatively charged electrons) or causes them to repel each other (such as two uncharged particles with the same quantum number).\nParticles have properties that can be measured, such as mass, charge, magnetic moment, etc., and these properties determine their behavior. Particles also have a wave-like nature, encoded in their quantum mechanical state. For instance, when an electron is measured, its energy and quantum state are determined randomly according to the Heisenberg uncertainty principle.\nA system of particles can exist in various states depending on the environment in which the particles find themselves. These states are described using waves, known as wavefunctions. Wavefunctions are mathematical functions that describe the probability of finding a particle at a particular location. For instance, the wavefunction of an electron in a hydrogen atom tells you the likelihood of finding the electron at a given distance from the nucleus. The Schrödinger equation describes the evolution of a wavefunction over time, and it is used to predict the behavior of particles and systems of particles.\nQuantum mechanics is the branch of physics that deals"
+    },
+    {
+        "instruction": "What is the force required to accelerate a 10 kg object at 5 m/s^2? When weight is 2kg, answer is 10.",
+        "input": "",
+        "output": "Carefully read the following paragraph and answer the question.\nThe force required to accelerate a 10 kg object at 5 m/s^2 is equal to the weight of 2 kg."
+    },
+    {
+        "instruction": "What was the main cause of the French Revolution of 1789? Explain how political, social and economic factors contributed to the outbreak of the revolution.",
+        "input": "",
+        "output": " Heroes of the French Revolution.\nThe causes of the French Revolution were both long-term and short-term. In the long term, the underlying causes of the revolution were the differences in wealth, power and political influence among different social classes that had developed over the centuries in France. The French monarchy had become very powerful and the common people had little or no political power. This led to widespread frustration and discontent among the lower classes.\nIn the short term, the spark that ignited the revolution was the events of 1789. These events included the high taxes imposed by King Louis XVI to pay off debts, the storming of the Bastille prison by angry mobs, and the Declaration of the Rights of Man and Citizen."
+    },
+    {
+        "instruction": "The method section of your paper is too brief and does not explain how your proposed model works in detail. How can you provide more details of the hierarchical encoder and the cascaded selectors, such as their architectures, inputs, outputs, and parameters? How can you describe the training and inference procedures of your model, such as the loss functions, optimization algorithms, and evaluation metrics? How can you illustrate your model with a clear and informative diagram?",
+        "input": "",
+        "output": "I apologize, but I would need to see the specific paper you are referring to in order to provide more detailed guidance on how to improve the method section. Can you please provide me with the title and author of the paper?"
+    },
+    {
+        "instruction": "How can you improve your paper writing in academic style by using effective transitions and signposts? What are the functions and types of transitions and signposts in academic writing? How can you use them to connect your ideas and guide your reader? An example of a paragraph that lacks transitions and signposts is:\n\nThe main cause of global warming is the greenhouse effect. Greenhouse gases trap heat in the atmosphere and warm up the Earth’s surface. Carbon dioxide is the most important greenhouse gas. It is produced by burning fossil fuels such as coal, oil and gas. The more fossil fuels we burn, the more carbon dioxide we emit.\nYou need to polish the paragraph.",
+        "input": "",
+        "output": "Transitions and signposts are essential components of academic writing. They help to connect ideas, guide the reader, and improve the overall flow and coherence of the paper. In this paragraph, the writer could have improved the paragraph by adding transitions such as \"furthermore,\" \"additionally,\" or \"also.\" These transitions would have helped to connect the ideas and guide the reader throughout the paragraph.\nThere are different types of transitions and signposts that can be used in academic writing, including:\n1. Chronological transitions: These transitions indicate a change in order or time sequence, such as first, then, later, next, firstly, secondly, etc.\n2. Cause-and-effect transitions: These transitions show the relationship between cause and effect, such as because, as a result, consequently, hence, thus, etc.\n3. Comparative transitions: These transitions show the relationship between two or more things that are being compared, such as similarly, instead, equally, likewise, etc.\n4. Contrasting transitions: These transitions show the relationship between two or more things that are being contrasted, such as however, on the other hand, yet, nonetheless, still, etc.\n5. Summarizing transitions: These transitions indicate a summary or conclusion, such as in conclusion, in brief, in summary, etc.\nIt is important to use effective transitions and signposts in academic writing to improve the quality of your paper. By connecting your ideas and guiding your reader, you can make your paper more readable and easier to follow."
+    },
+    {
+        "instruction": "What is the difference between oxidation and reduction? How can you identify which one occurs in a redox reaction",
+        "input": "",
+        "output": "Oxidation–reduction (redox) reactions are chemical reactions in which the oxidation states of elements are changed. The term \"redox\" is short for reduction–oxidation. In a redox reaction, the oxidation number (or state) of an atom increases by gaining electrons, while the reduction is the loss of electrons.\nThe difference between oxidation and reduction is that in oxidation, the oxidation number of an atom increases, while in reduction, the oxidation number of an atom decreases. In other words, oxidation is the loss of electrons, while reduction is the gain of electrons.\nYou can identify which one occurs in a redox reaction by looking at the reactants and products. If the reactants have a higher oxidation number than the products, then oxidation has occurred. If the reactants have a lower oxidation number than the products, then reduction has occurred."
+    },
+    {
+        "instruction": "Which of the following substances is the most toxic to humans based on its median lethal dose (LD50)?\n\nA) Arsenic B) Cyanide C) Mercury D) Botulinum toxin",
+        "input": "",
+        "output": "\nB) Cyanide"
+    },
+    {
+        "instruction": "What are some of the deepest philosophical questions? Attempt to provide answers to them as well, please.",
+        "input": "",
+        "output": ", and also provide your personal answers to them.\nSome of the deepest philosophical questions are:\n1. What is the meaning of life?\n2. What is the nature of reality?\n3. How do we know that anything exists?\n4. What is the purpose of consciousness?\n5. What is the nature of time?\nPersonally, I think that the meaning of life is to live a happy and fulfilling life while contributing to society in a positive way. The nature of reality is that it is ultimately unknowable, but we can gain insight into it through scientific investigation. We know that something exists because we have direct experience of it, and the purpose of consciousness is unknown but could be related to self-awareness or problem-solving abilities. The nature of time is that it is both linear and cyclical, and it depends on the perspective from which it is viewed."
+    }
+]

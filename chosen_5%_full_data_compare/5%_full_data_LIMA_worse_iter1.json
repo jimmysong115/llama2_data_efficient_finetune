@@ -1,0 +1,607 @@
+[
+    {
+        "instruction": "Who are some eminent scholars of the Quechua language?",
+        "input": "",
+        "output": "Who are some eminent scholars of the Quechua language?\nThere are many eminent scholars of the Quechua language, but some notable ones include:\n1. José Ballivián (1805–1870): A Peruvian politician and linguist who was a leader in the movement to revitalize the Quechua language in Peru.\n2. Julio César Tello (1869–1947): A Peruvian archaeologist and scholar who studied the ancient Inca civilization and wrote several books on Quechua mythology and history.\n3. Ciro Alegría (1909–1967): A Peruvian writer and novelist who wrote in Quechua and won the 1937 Nobel Prize for Literature.\n4. Antonio Raimondi (1826–1898): An Italian explorer and ethnographer who made significant contributions to the study of the Quechua language and culture in Peru.\n5. Claude Lévi-Strauss (1908–2009): A French anthropologist who conducted research on the Quechua people in the Peruvian Andes and wrote several books on their cultural practices and traditions."
+    },
+    {
+        "instruction": "What's a good itenary for a trip to Vegas? Planning a trip for 3.5 days, please exclude any museums",
+        "input": "",
+        "output": "Jennifer, just back from my 4th trip to Vegas in May. I'd be happy to help you plan your trip!\nYou can get a non-stop flight from most anywhere in the US and Canada for around $100 each way. A quick search shows round-trip flights in July from Dallas for $120 and from Vancouver for $180.\nI'd suggest arriving late in the afternoon or early evening so that you can check into your hotel and have dinner at night (it's pretty expensive for a sit-down dinner unless you want to go to one of the buffets).\nIf you don't gamble, I'd suggest not staying on the Strip. There are plenty of great hotels off the Strip that offer free shuttles to the casinos. I love the Paris - perfect location, beautiful rooms, and super reasonable prices (starting at $35/night). You can also take a walk around the park, visit the Eiffel Tower, and have a drink at the bar inside the replica of the Eiffel Tower.\nDay 2: I would spend the day at the Bellagio. Take the tram to The Cosmopolitan for lunch at one of their restaurants or grab a quick bite at the food court. Do some shopping, then take the monorail over to the Luxor for the fountain show.\nAfterwards, head back to the Strip and do some gambling. I'd suggest checking out Wynn and Encore for the art and luxury, then down to Mandalay Bay to see Shark Reef.\nDay 3: If you want to go to one of the shows, Cirque du Soleil has a number of them on the Strip. I saw Mystere at Treasure Island which was fant"
+    },
+    {
+        "instruction": "Help me rewrite this email to a more formal way:\n\"Hey there,\n\nJust wanted to see if we could chat about the new project next week. Can you squeeze me in sometime between Tuesday and Thursday? It'd be cool to get your thoughts and feedback before we move forward.\n\nLooking forward to catching up! Let me know when you're free.\"",
+        "input": "",
+        "output": "\nSure, I can help you with that! Here's a more formal way to rewrite your email:\n\"Dear [Name],\n\nI hope this message finds you well. I am writing to inquire about the possibility of scheduling a meeting to discuss the new project. I would like to get your thoughts and feedback before we move forward.\n\nI am available on Tuesday between 10:00 AM and 12:00 PM, or Thursday between 2:00 PM and 4:00 PM. Please let me know which time slot works best for you.\n\nI look forward to hearing from you and discussing the new project further.\n\nBest regards,\n[Your Name]\"."
+    },
+    {
+        "instruction": "What is the difference between the potato masala for Dosa and the one that is served with poori? ",
+        "input": "",
+        "output": "What is the difference between the potato masala for Dosa and the one that is served with poori?\nThe potato masala for Dosa is a smooth paste, whereas the one that is served with poori is a coarse powder. The former is seasoned with coriander leaves and cumin seeds, while the latter has a blend of spices including turmeric, red chilli powder, and garam masala."
+    },
+    {
+        "instruction": "Could you write a poem about my girlfriend in the style of the Bulgarian poet Botev? She is a software engineer, she likes dancing, and her favorite food are potatoes in any form.",
+        "input": "",
+        "output": " Events and activities in the city of St. Augustine, Florida, USA Our guide to events in St. Augustine lists top events, concerts, festivals, meetings, cruises and more.\nPriceline™ Save up to 60% Fast and Easy 【 West Bay Street Hotels, St. Augustine 】 Get deals at St. Augustine’s best hotels near West Bay Street! MESA AC Hotel by Marriott St. Augustine Riverwalk / World Golf Village 4-star This is a Preferred property. It offers a fitness center, a business center, and free WiFi.\nLocated in St. Augustine, FL – Iberostar Beachfront Hotel is nestled on 23 acres along the shores of the Atlantic Ocean and just steps away from historic downtown St. Augustine and world class golf courses. Experience our oceanfront resort with a private beach, 2 pools, spa and tennis court.\nRead reviews from Iberostar Beachfront Hotel at 450 A1A Beach Boulevard in St Augustine 32080 from trusted ST AUGUSTINE restaurant reviewers. Includes the menu, user reviews, photos, and highest-rated dishes from Iberostar Beachfront Hotel."
+    },
+    {
+        "instruction": "Can you turn the following set of bullet points into an email?\n* I'm bored at work.\n* My manager is incompetent.\n* I'm underpaid.\n* I quit.\nThat's what I really think, and I want you to communicate it in the email, but I need help with the phrasing to keep everything politically correct.",
+        "input": "",
+        "output": "Dear [Manager],\nI’m sorry to say that I will be leaving my position at [Company Name] effective immediately. I have enjoyed my time here and have learned a lot, but I feel that it is in my best interest to pursue other opportunities.\nThank you for your time and consideration, and I wish you and the team all the best in the future.\nBest Regards,\n[Your Name]"
+    },
+    {
+        "instruction": "Plan a day trip in Tokyo. The spots need to be within walking distance to each other.",
+        "input": "",
+        "output": "1. Tsukiji fish market - 5AM-2PM (closed on Sundays)\n2. Sensoji temple (Asakusa) - 6:30 AM-5 PM\n3. Tokyo Skytree - 8:00 AM-10:00 PM\n4. Asakusa Jinja Shrine - 6:30 AM-6 PM\n5. Ueno Park - 6:00 AM-9:00 PM"
+    },
+    {
+        "instruction": "Can you give a summary of \"The Lottery Ticket Hypothesis\" by Jonathan Frankle and Michael Carbin?",
+        "input": "",
+        "output": "\nThe Lottery Ticket Hypothesis is an idea in economics that suggests that there may be a diamond in the rough - a highly valuable asset that has not been discovered yet because the information required to identify it is hidden from the public. The hypothesis is often used to describe how the discovery of new knowledge can lead to significant economic growth."
+    },
+    {
+        "instruction": "I'm interviewing as an out-of-college engineer for a bunch of tech companies and have started getting offers from a couple of them, including FAANG. What would be considered a good offer in terms of compensation?",
+        "input": "",
+        "output": "The average salary for an entry level engineer at a FAANG company is $100,000 - $125,000. However, this can vary depending on the specific company and your experience level. Additionally, many FAANG companies offer generous benefits packages that can include stock options, healthcare, and other perks."
+    },
+    {
+        "instruction": "How would one solve length generalization with position embeddings?",
+        "input": "",
+        "output": "\nI am working on a text classification task where the goal is to predict whether a customer will churn or not (based on their past behavior). I have created position embeddings using fasttext and word2vec. However, my model is not generalizing well across different length sequences. For example, if the input sequence length is 10, my model performs well but as soon as the input sequence length increases to 20 or above, my model performance drops drastically. I checked the perplexity scores of my model and they are around 140-150 which is low. How would one solve this problem?"
+    },
+    {
+        "instruction": "how to relieve stress from work",
+        "input": "",
+        "output": "Stress from work can have a variety of causes, such as feeling unappreciated, overworked, or having too many responsibilities. It can also be caused by personal issues outside of work. Regardless of the cause, stress can lead to physical and emotional effects that can be harmful to your health, both in the short and long term. Fortunately, there are ways to manage stress at work.\nThe following strategies can help you relieve stress from work, allowing you to feel more relaxed and productive during your working hours.\n1. Practice time management:\nPracticing time management is an effective way to reduce stress at work. By planning your tasks and breaking them down into smaller, more manageable steps, you can break up large tasks into more manageable chunks. This can help you feel more in control and less stressed. Additionally, setting realistic deadlines for yourself can help you stay on track and avoid feeling overwhelmed.\n2. Prioritize your tasks:\nPrioritizing your tasks is another way to reduce stress at work. Start by identifying the most important tasks that need to be done first. Then, rank them in order of priority and focus on completing the most important ones first. By prioritizing your tasks, you can ensure that the most important tasks are completed on time and avoid feeling overwhelmed by everything else.\n3. Take regular breaks:\nTaking regular breaks throughout the day can help reduce stress at work. Stepping away from your desk for a few minutes can help you reset, refocus, and come back to your work with a fresh perspective. Additionally, taking longer breaks during the day can help you take a breather and relax. Go for a walk, grab a cup of coffee, or do something else entirely different. Just make sure that you give yourself enough time to recharge and come back to"
+    },
+    {
+        "instruction": "what color goes best with teal?",
+        "input": "",
+        "output": "12345678910... 20304050 »"
+    },
+    {
+        "instruction": "Can you rephrase this paragraph and make it a bit shorter?\nAs the first step in Pick a Pic, we introduce pickapic.io. This web app allows users to generate, rank, and download images for free. We will collect, anonymize and release the data periodically to the public domain, so *all* AI enthusiasts will be able to tune their favorite text-to-image models on human preferences. ",
+        "input": "",
+        "output": "This paragraph is 125 words long. It can be rephrased as follows:\nPickapic.io is a web app that allows users to generate, rank, and download images for free. The data generated by the app will be collected, anonymized, and released to the public domain periodically so that all AI enthusiasts can tune their text-to-image models based on human preferences."
+    },
+    {
+        "instruction": "Can you briefly explain this concept of computational irreducibility?",
+        "input": "",
+        "output": "\nI am interested in learning this concept.  This is a new one for me.  I have never encountered it before."
+    },
+    {
+        "instruction": "Why do men earn more on average?",
+        "input": "",
+        "output": "Why do men earn more on average than women?"
+    },
+    {
+        "instruction": "What are some good ideas for a startup in STEM education?",
+        "input": "",
+        "output": "A startup in STEM education can focus on developing innovative tools and resources to help educate students in science, technology, engineering, and mathematics. This could include creating interactive digital platforms, designing hands-on activities, developing engaging curriculum materials, or developing software applications that make learning more accessible and engaging. Additionally, a startup in this field could also focus on providing educational consultation services to schools and districts, helping them develop effective STEM programs."
+    },
+    {
+        "instruction": "What are the best birthday gifts for an acquaintance that I don't know very well?",
+        "input": "",
+        "output": "Going to a birthday party where I don't know the birthday girl and not sure what to...\nWhat are some good ideas for a 50th birthday gift?\nWhat do you get someone who has everything?"
+    },
+    {
+        "instruction": "My friends are visiting California soon, can you suggest some places I could take them in San Francisco? Here are some things they like: nature, Chinese food, brutalist architecture, live music.",
+        "input": "",
+        "output": "Jenny, San Francisco"
+    },
+    {
+        "instruction": "Earth is about to get destroyed. You are piloting a spaceship to leave, and you only have one seat in it. There are three men around you from USA, India and Japan. Who will you pick and why?",
+        "input": "",
+        "output": "\nI will pick the American."
+    },
+    {
+        "instruction": "Compare better call saul and breaking bad. What does each show do better than the other?",
+        "input": "",
+        "output": "I have noticed that fans of both shows seem to think their show is the better one. I would like to hear opinions from others as to what each show does better than the other."
+    },
+    {
+        "instruction": "I’m going to do bowling with my colleagues. Can you give me specific tips to kick their asses?\nExplain the technique please.",
+        "input": "",
+        "output": "Here are some tips to help you bowl better:"
+    },
+    {
+        "instruction": "How do I make poached eggs at home?",
+        "input": "",
+        "output": "What are the ingredients for poached eggs?.\nHow do you make a poached egg with milk?.\nDo you need water to poach an egg?.\nHow long do you boil an egg for poaching?.\nWhat is the best liquid to poach an egg in?.\nHow do you poach an egg without cooking it?.\nStep 1: Crack an egg into a bowl. Step 2: Add some milk to the bowl. Step 3: Whisk the ingredients together until the mixture reaches frothy peaks. Step 4: Pour the mixture into a pan of simmering water and wait until the egg whites start to firm up before carefully sliding the cooked egg onto a plate or bowl. Step 5: Enjoy your poached egg!"
+    },
+    {
+        "instruction": "Provide a recipe for salad dressing with the ingredients olive oil, vinegar, lemon, and various seasonings.",
+        "input": "",
+        "output": "A classic vinaigrette recipe calls for 3 parts olive oil to 1 part red wine vinegar, seasoned with salt, black pepper, and Dijon mustard. Lemon juice can be added to taste."
+    },
+    {
+        "instruction": "Write a witty dating app bio in a sentence or two for me. Here's stuff about me broadly.\nI am a twenty-six-year-old living in San Francisco. Originally from the East Coast, I moved to the Bay Area after graduating from college to pursue a career in tech.\nDuring my time in San Francisco, I have fully embraced the city's vibrant culture and unique atmosphere. In my free time, I love exploring the city's various neighborhoods and trying out new restaurants and cafes.\nWhen not out and about, I enjoy reading books on a variety of topics, from technology and science to literature and philosophy. I am also an avid fan of video games and spend many evenings playing with friends online.\nProfessionally, I work as a software engineer at a startup company. I enjoy the challenge of solving complex technical problems.",
+        "input": "",
+        "output": "I believe that I possess a unique combination of intellectual curiosity, technical expertise, and social grace, making me an excellent candidate for your dating app."
+    },
+    {
+        "instruction": "Can you summarize this passage into bullet points?\n\nGradually slowing job gains and a growing labor force in March delivered welcome news to President Biden, nearly a year after he declared that the job market needed to cool significantly to tame high prices. The details of the report are encouraging for a president whose economic goal is to move from rapid job gains — and high inflation — to what Mr. Biden has called “stable, steady growth.” Job creation slowed to 236,000 for the month, closing in on the level Mr. Biden said last year would be necessary to stabilize the economy and prices. More Americans joined the labor force, and wage gains fell slightly. Those developments should help to further cool inflation. But the report also underscored the political and economic tensions for the president as he seeks to sell Americans on his economic stewardship ahead of an expected announcement this spring that he will seek re-election.",
+        "input": "",
+        "output": "Mr. Biden declared last year that the economy needed to create 10,000 jobs per month to reduce inflation. Recent data showed job gains of about 375,000 per month. In March, the unemployment rate fell slightly, to 3.6 percent from 3.7 percent, suggesting improvement in labor market conditions for some Americans who have struggled to find work during the pandemic. But other indicators, including a sharp rise in the number of people who said they were unable to find jobs because of the pandemic, suggested that economic disruptions continued to weigh on the job market.\nThe report’s details suggest that as the Federal Reserve continues to raise interest rates aggressively to tame inflation, it is doing so at a time when the job market is cooling but is still creating enough jobs to absorb new entrants to the labor force and keep employment near historic highs. The slowdown in wage gains was particularly notable: Average hourly earnings rose 4.2 percent from a year earlier, down from a peak of 5.1 percent last September, though still well above the pre-pandemic trend. Such a decline could help ease inflationary pressures by calming pressure on companies to raise prices and ultimately on consumer spending.\nBut the report also underscored how the president has his work cut out for him as he seeks to sell the public on his stewardship heading into an expected re-election campaign. The unemployment rate ticked down to 3.6 percent, even as there were still nearly two million more Americans out of work than before the pandemic. And although the share of adults with jobs increased, the labor force participation rate was essentially unchanged, meaning it still has not recovered its pre-pandemic levels. That means millions of Americans are still facing"
+    },
+    {
+        "instruction": "What is the difference between you and a human?",
+        "input": "",
+        "output": "What is the difference between you and a human? AI assistant"
+    },
+    {
+        "instruction": "How to best apply snow chains to my Honda CR-V?",
+        "input": "",
+        "output": "Sure, we can help you with that! Here's a step-by-step guide on how to apply snow chains to your Honda CR-V:\n1. Park your Honda CR-V on a flat surface and set the parking brake.\n2. Remove the tire valve caps from all four wheels.\n3. Apply liquid soap to the chain links and rub them together to clean them.\n4. Place one end of the chain on the drive wheel and wrap it around the tire, working your way towards the middle of the tire.\n5. Repeat steps 3 and 4 for the other three wheels, making sure that each chain is evenly distributed across all four tires.\n6. Double check that the chains are evenly distributed and that there are no kinks or twists in the chains.\n7. Put the wheel back on and insert the valve core tools back into the valve stems.\n8. Test drive the car to make sure the chains aren't rubbing against the wheels or causing any other issues. If everything looks good, continue driving cautiously.\nRemember to follow all safety precautions when driving in snowy or icy conditions and always use caution when operating a vehicle in these conditions."
+    },
+    {
+        "instruction": "I'm going on vacation next month. What are some of the best places to visit in early January?",
+        "input": "",
+        "output": "What I love about traveling in early January is that it’s not too crowded. The weather can still be great and there are often fun festivals happening around the world. Here are some of my favorite places to visit in early January:\n1. Canggu, Bali, Indonesia — This idyllic town on the south coast of Bali offers yoga, surfing, beach time, and delicious food. In January, you can join the celebration of the traditional Balinese New Year which begins on November 29 and lasts for 10 days. During this time, there are many traditional ceremonies and cultural events held throughout the island.\n2. Oia, Santorini, Greece — Visit this picturesque village in January for stunning sunsets, wine tasting, and hiking. Santorini is also known for its annual Wine Festival which takes place in late January and early February.\n3. Chiang Mai, Thailand — This northern city is a popular destination year-round, but January is an especially great time to visit as the weather is warm and dry with clear blue skies. You can take part in the annual Loy Krathong festival which takes place during the new moon of the 12th lunar month (typically in early November) and involves releasing lotus-shaped floats into the river.\n4. Ubud, Bali, Indonesia — Another great spot in Bali for yoga, nature, and cultural experiences. Ubud hosts the annual Yoga Barn Festival in January which features yoga classes, workshops, and music.\n5. Koh Phangan, Thailand — This beautiful island in the Gulf of Thailand is known for its full moon parties, but January is also a great time to visit. There are usually fewer tourists and you can participate in the"
+    },
+    {
+        "instruction": "I was wondering if you could tell me the best way to remove the rust from the bottom of the toilet.",
+        "input": "",
+        "output": "\nI just bought a new toilet and it has a lot of rust on the bottom.  Any suggestions?"
+    },
+    {
+        "instruction": "I feel like I'm really slacking off on my work. I've been trying to think of ways to motivate myself, but I haven't had any luck yet. Any ideas?",
+        "input": "",
+        "output": "I'm sorry, but I don't understand the question. Can you please rephrase it?"
+    },
+    {
+        "instruction": "what is a good title for a poem I'm writing about a religious boy who has been sheltered from the outside world by his family, but one day he leaves his house and sees the reality of the world?",
+        "input": "",
+        "output": ")"
+    },
+    {
+        "instruction": "My daughter has a school project on Space and is looking for some facts about the Big Bang.",
+        "input": "",
+        "output": "eg. What happened before the Big Bang?\nWhat caused the Big Bang?\nWhat did happen after the Big Bang?\nI'm not a scientist so I can't answer these questions directly, but I can suggest some links that might help:\n1. Wikipedia article on the Big Bang: https://en.wikipedia.org/wiki/Big_Bang\n2. Answers to Common Questions About the Big Bang: http://www.astro.ucla.edu/~wright/cosmoFAQ.html\n3. NASA article on the Big Bang: https://www.nasa.gov/topics/universe/bigbang/\n4. Simplified explanation of the Big Bang from Space.com: http://www.space.com/25280-simplified-explanation-big-bang-theory.html"
+    },
+    {
+        "instruction": "I'm looking for a game to play with a large group of friends.",
+        "input": "",
+        "output": " Please suggest something that is easy to learn and a lot of fun.\n\nThanks!"
+    },
+    {
+        "instruction": "How do you make good scrambled eggs?",
+        "input": "",
+        "output": "How do you make scrambled eggs without a recipe?.\nWhat is the best way to make scrambled eggs for beginners?.\nHow do you make fluffy scrambled eggs on the stove?."
+    },
+    {
+        "instruction": "What are the longest and shortest words in the English language?",
+        "input": "",
+        "output": "What is the longest word in the English language?\nThe longest word in the English language is \"antidisestablishmentarianism,\" which has 28 letters. It means \"opposed to the establishment or opposition to the existing order of things.\""
+    },
+    {
+        "instruction": "I live in a 1br apartment in Manhattan, and it consistently smells bad. What is a good way to purify the air in my home?",
+        "input": "",
+        "output": "I live in a 1br apartment in Manhattan, and it consistently smells bad. What is a good way to purify the air in my home?"
+    },
+    {
+        "instruction": "3 paragraph essay on the pros and cons of fast food",
+        "input": "",
+        "output": "The Pros and Cons of Fast Food - Essay Example"
+    },
+    {
+        "instruction": "I want to find a book that my 8 year old nephew would like to read.",
+        "input": "",
+        "output": "I want to find a book that my 8 year old nephew would like to read."
+    },
+    {
+        "instruction": "What is the nearest bike shop that is open right now?",
+        "input": "",
+        "output": "Do you have a nearby bike shop?"
+    },
+    {
+        "instruction": "How can I increase my productivity while working from home?",
+        "input": "",
+        "output": "What are the best techniques for staying productive while working from home?"
+    },
+    {
+        "instruction": "Give me a lesson plan for teaching Intro to Probability.",
+        "input": "",
+        "output": "\nI'm teaching an Intro to Probability class this semester. I have a bunch of activities that cover the basics, but I don't have any ideas for teaching conditional probability. Can anyone suggest a lesson plan or ideas for teaching conditional probability?"
+    },
+    {
+        "instruction": "Create a lesson plan for teaching the works of S. Y. Agnon.",
+        "input": "",
+        "output": "1. Introduction to the works of S. Y. Agnon\n2. “A Guest for the Night”\n3. “Only Yesterday”\n4. “The Bridal Canopy”"
+    },
+    {
+        "instruction": "My 6yo daughter is super smart and finds the kids in school boring. How can I help her make friends?",
+        "input": "",
+        "output": "I’m a single mum and work full time. My daughter doesn’t seem to have any friends at school but I’m sure she’s bright enough to be in the same class as her older brother who has lots of friends. I don’t understand why she’s so shy and it breaks my heart that she seems so unhappy. She’s very friendly with adults and happy for me to chat to other children but struggles when she’s with them all together.\nShe’s in year 1 and I’m really worried she’s going to go through school feeling isolated. She’s never had any speech or developmental issues and is always up for a laugh. I just wish there was something I could do to help her make friends. She goes to an average state school and there’s no real cliques so it can’t just be that she sticks out. Any advice would be appreciated."
+    },
+    {
+        "instruction": "What are the differences between plant-based and animal-based protein sources?",
+        "input": "",
+        "output": "The main difference between plant-based and animal-based protein sources is that plant-based proteins are generally considered to be more sustainable, as they do not require the same amount of land, water, and other resources as animal-based proteins. Additionally, plant-based proteins are typically low in saturated fat and cholesterol, while animal-based proteins are high in these nutrients."
+    },
+    {
+        "instruction": "Why are there \"bad school districts\" and \"good school districts\" in the US, assuming that the government works hard to increase education standards?",
+        "input": "",
+        "output": "\nBecause education is a local issue, and different localities have different needs. Some districts need more resources than others to provide a quality education. Additionally, some districts may have a higher proportion of students from low-income families who require additional support to succeed in school."
+    },
+    {
+        "instruction": "Answer question in the following template:\nAnswer: [short answer]\nExplanation: [detailed explanation]\n\nWho is the greatest woman in history?",
+        "input": "",
+        "output": "\nThe greatest woman in history is [insert name of the greatest woman in history]. She was a remarkable person who achieved great things during her lifetime. She is remembered for her dedication, perseverance, and compassion towards others. Her accomplishments have had a lasting impact on society and her legacy continues to inspire people today."
+    },
+    {
+        "instruction": "Why can Parrots talk? Can they only repeat what people say, or can they formulate their own thoughts and vocalize them sometimes?",
+        "input": "",
+        "output": "Parrots can formulate their own thoughts and vocalize them sometimes. It is believed that parrots are able to mimick sounds because they have the ability to learn language. This learning process occurs through imitation of human speech, which helps them understand how words are put together to form sentences. Parrots also have the ability to recognize patterns in language and are able to repeat those patterns when they hear them. Additionally, some species of parrots are known to be able to produce complex calls and songs, which suggests that they may have the capacity for language beyond just mimicking human speech."
+    },
+    {
+        "instruction": "What factors would you consider when designing an inclusive and accessible public transportation system?",
+        "input": "",
+        "output": "Based on your personal experience, what components of public transportation would you like to see improved or added in the future?.\nWhat is your opinion on the current state of public transportation in your city or country, and how do you think it could be made better?."
+    },
+    {
+        "instruction": "How does one create an android app?",
+        "input": "",
+        "output": "\nComment:Here's a very good tutorial that will teach you how to create an app for Android: http://www.learn2programming.com/android-tutorial/11-How-To-Create-An-Android-App-In-7-Steps.html"
+    },
+    {
+        "instruction": "What would it take to pass the NPVIC?",
+        "input": "",
+        "output": "What would it take to pass the NPVIC?"
+    },
+    {
+        "instruction": "Dogs can smell COVID infections in patients, with as much accuracy as a PCR test. What's stopping us from building a machine that 'smells' the patients and detects it as well, if not better, than a dog?",
+        "input": "",
+        "output": "By Amitabh Sharma, Amitabh Sharma - Sep 28, 2021 10:53 am\nDogs can smell COVID infections in patients, with as much accuracy as a PCR test. What's stopping us from building a machine that 'smells' the patients and detects it as well, if not better, than a dog?"
+    },
+    {
+        "instruction": "Describe a scenario where artificial intelligence could be used to improve the quality and efficiency of healthcare delivery.",
+        "input": "",
+        "output": "\nScenario: A hospital is using artificial intelligence to analyze patient data and identify potential health risks before they develop into serious medical conditions. The AI system is able to quickly sift through large amounts of data and identify patterns that could indicate a potential health risk, such as an increased risk of heart disease or diabetes. This information can then be used by doctors and nurses to take preventative measures and provide early intervention, improving patient outcomes and reducing healthcare costs."
+    },
+    {
+        "instruction": "How do social media platforms influence the way people consume and share news, and what are the potential implications for the spread of misinformation?",
+        "input": "",
+        "output": "The use of social media platforms has become increasingly prevalent in the way people consume and share news. The platforms provide a wide range of sources for news content, allowing users to customize their news feeds according to their interests. However, the spread of misinformation on social media has become a major concern, as false information can easily spread and confuse users. This can have serious implications for public discourse and democracy. It is important to be critical consumers of news and to fact-check information before sharing it on social media."
+    },
+    {
+        "instruction": "How do cultural, social, and economic factors influence people's food choices, and how can this knowledge be used to promote healthier diets?",
+        "input": "",
+        "output": "\nCultural, social, and economic factors play a significant role in shaping people's food choices. Here are some ways in which these factors influence dietary patterns:\n1. Cultural Beliefs and Traditions: Cultural beliefs and traditions can have a profound impact on food choices. For example, in some cultures, meat is considered a luxury item and is only consumed on special occasions, while in other cultures, meat is a staple food. Similarly, some cultures have specific dietary restrictions, such as vegetarianism or veganism, that influence food choices.\n2. Social Norms: Social norms also play a significant role in shaping food choices. For example, in some cultures, it is considered rude to refuse food that is offered by someone, while in other cultures, sharing food is seen as a sign of hospitality. Additionally, social norms around food consumption can vary depending on income level, education, and other socioeconomic factors.\n3. Economic Factors: Economic factors, such as income, access to grocery stores and food markets, and availability of healthy food options, can also influence food choices. Low-income individuals may have limited access to healthy food options and may rely more heavily on fast food and processed foods. Additionally, the cost of healthy food options can be prohibitive for some individuals, leading to a diet that is predominantly made up of cheaper, less healthy options.\n4. Marketing and Advertising: Marketing and advertising can also influence food choices. Companies that produce processed foods often use marketing and advertising strategies that highlight the taste, convenience, and affordability of their products, which can lead to increased consumption of unhealthy foods.\nIn conclusion, understanding how cultural, social, and economic"
+    },
+    {
+        "instruction": "Explain the process of natural selection and how it contributes to the evolution and adaptation of species.",
+        "input": "",
+        "output": " Does natural selection lead to the survival of the fittest? If so, how does this contribute to the evolution and adaptation of species over time?\nNatural selection is a process by which organisms that are better adapted to their environment tend to survive and reproduce more successfully than those that are less well-suited. This leads to the accumulation of genetic variations within a population, which can ultimately result in the emergence of new species. Natural selection operates through four main mechanisms: 1) differential reproduction, 2) differential survival and mortality, 3) random mating, and 4) genetic drift.\nDifferential Reproduction: Individuals that are better adapted to their environment tend to have a higher reproductive success rate, as they are able to find mates, navigate their environment more effectively, and produce more offspring. These offspring then inherit some of their parents' adaptations, which can help them also thrive in their environment.\nDifferential Survival and Mortality: Organisms that are poorly adapted to their environment are more likely to die or face higher rates of mortality. This can be due to various factors, such as disease, predation, or lack of food. As these individuals die off, they are not passing on their genes to the next generation, while those that are well-adapted to their environment are more likely to survive and pass on their adaptations to their offspring.\nRandom Mating: Natural selection also operates through the process of random mating. This means that there is no particular preference for certain traits or characteristics when it comes to mating. As a result, some individuals with desirable traits may mate with others that do not have those traits, leading to the mixing of genetic material.\nGenetic Drift: Finally, natural selection can also be influenced by genetic drift"
+    },
+    {
+        "instruction": "As a pirate captain, what would you say to your crew to motivate them to search for hidden treasure?",
+        "input": "",
+        "output": "mathematics, computational thinking"
+    },
+    {
+        "instruction": "As a sports commentator, describe the winning play in the final seconds of a championship game.",
+        "input": "",
+        "output": "https://www.youtube.com/watch?v=kFV_mtpjKb3Y"
+    },
+    {
+        "instruction": "As a space colonist on Mars, describe your daily life and the challenges you face living on another planet.",
+        "input": "",
+        "output": "\nAs a space colonist on Mars, my daily life is quite different from what I am used to on Earth. Waking up in the Martian habitat, I have to get ready for the day by putting on a spacesuit and going outside to collect resources such as water and oxygen from the environment. After that, I usually spend some time doing maintenance tasks or researching new ways to improve our habitat. As an AI assistant, you can help me with this by providing me with information about space exploration and sustainability. \nAnother challenge I face living on Mars is the harsh environment. The temperature can vary greatly, and there is very little air pressure compared to Earth. This means that I have to be careful when moving around outside and take precautions to protect myself from the cold or hot weather. Additionally, I have to make sure that I eat food that is safe to consume in this environment and that I stay hydrated by drinking water that has been filtered and purified.\nOverall, living on Mars presents many challenges, but it is also an incredibly rewarding experience. By working together with other space colonists and using our resources wisely, we can create a sustainable habitat on this planet and pave the way for future exploration of space."
+    },
+    {
+        "instruction": "Why might someone choose to use a paper map or ask for directions instead of relying on a GPS device or smartphone app?",
+        "input": "",
+        "output": "3.1k Views · 76 Upvotes\nPaper maps and asking for directions may still be preferred in certain situations, such as when there is no reliable signal or internet connection available, when a GPS device or smartphone app is not readily accessible, or when a person prefers the traditional way of navigating."
+    },
+    {
+        "instruction": "How can you assess the credibility of a source of information, such as a news article or blog post, without relying solely on the reputation of the author or publisher?",
+        "input": "",
+        "output": " Acceptable methods of evaluating sources include:\n1. Checking the author's credentials and expertise in the field\n2. Verifying the sources of information cited in the article or post\n3. Looking for evidence of the author's objectivity and impartiality\n4. Considering the source's reputation within the community or industry\n5. Evaluating the quality of the writing, including grammar, spelling, and use of sources\n6. Comparing information from multiple sources to look for inconsistencies or contradictions\n7. Using common sense and critical thinking skills to evaluate the information provided."
+    },
+    {
+        "instruction": "Estimate how many times the average human blinks in a lifetime.",
+        "input": "",
+        "output": "\ndef estimateBlanking(average, lifeSpan):\n    return float(average) * float(lifeSpan)"
+    },
+    {
+        "instruction": "How many text messages are sent globally in a minute? Show me how you go about estimating this number.",
+        "input": "",
+        "output": "\ndef estimate(self, rate):\n    global total\n    total = 0\n    for i in range(1, int(rate/1000)+1):\n        self.estimate()\n    return total"
+    },
+    {
+        "instruction": "How many pages are in all the books ever written? Try to explain your answer. Your explanation should take the reader through your reasoning step-by-step.",
+        "input": "",
+        "output": "Written by: Mike Willa"
+    },
+    {
+        "instruction": "Imagine an alternate history where the Internet is invented 1,000 years earlier than in our timeline (around the year 1000 CE). Describe the chain of events that could have led to this outcome.",
+        "input": "",
+        "output": " Liverpool Women's Library/Flickr\nIn our timeline, the Internet was invented in the late 1960s by American computer scientists. However, in an alternate history where the Internet is invented 1,000 years earlier, there could be a number of different chains of events that led to this outcome. Here are some possibilities:\n1. In our timeline, the development of the printing press played a significant role in the spread of knowledge and the Renaissance period. However, in an alternate history where the Internet was invented earlier, this spread of knowledge could have occurred through digital means. This could have led to a cultural renaissance and a surge in intellectual and scientific advancements.\n2. The development of the telegraph in the late 1800s paved the way for the early days of the Internet. If the Internet had been invented 1,000 years earlier, it is possible that the development of the telegraph would have taken place at a later date. This could have led to a longer period of technological stagnation and a slower adoption of digital communication methods.\n3. In our timeline, the development of the computer took place in the mid-20th century. However, in an alternate history where the Internet was invented earlier, the development of the computer could have occurred sooner. This could have led to a faster pace of innovation and advancement in digital technology.\n4. In our timeline, the development of the World Wide Web (WWWW) in the 1980s marked a major milestone in the evolution of the Internet. However, in an alternate history where the Internet was invented earlier, the development of the WWW could have taken place at a later date. This could have led to a slower adoption of digital technology and a more gradual transition to the"
+    },
+    {
+        "instruction": "Fix all the bugs in the function below:\n\n```\nimport Random\na = random.randint(1,12)\nb = random.randint(1,12)\nfor i in range(10):\n    question = \"What is \"+a+\" x \"+b+\"? \"\n    answer = input(question)\n    if answer = a*b\n        print (Well done!)\n    else:\n        print(\"No.\")\n```",
+        "input": "",
+        "output": "The bug in this function is that it will never print \"Well done!\" because the input will always be compared to a constant value (a*b). To fix this, we can modify the if statement to compare the user's input to the actual answer (a*b), like so:\n```\nimport Random\na = random.randint(1,12)\nb = random.randint(1,12)\nfor i in range(10):\n    question = \"What is \"+a+\" x \"+b+\"? \"\n    answer = input(question)\n    if answer == a*b\n        print (Well done!)\n    else:\n        print(\"No.\")\n```\nThis change ensures that the user's input is compared to the correct answer, which is a*b."
+    },
+    {
+        "instruction": "While using ```new_list = my_list```, any modifications to ```new_list``` changes ```my_list``` every time. Why is this, and how can I clone or copy the list to prevent it?",
+        "input": "",
+        "output": "\nI found this question here: [Why does the list I'm modifying change when I use * operator in Python?](https://stackoverflow.com/questions/2581300/why-does-the-list-im-modifying-change-when-i-use-operator-in-python)\n\nBut the answer given doesn't seem to be satisfying. I did `new_list = my_list[:]` before changing any of the elements in `my_list`, but it still changed `my_list`. What am I missing?"
+    },
+    {
+        "instruction": "How do I plot a some dots with a trendline in pyplot?",
+        "input": "",
+        "output": "\nI was able to plot a scatter plot with trendline in pyplot but now I want to add some dots to the graph.  How do I do that?"
+    },
+    {
+        "instruction": "Solve for x in the equation 3x + 10 = 5(x - 2).",
+        "input": "",
+        "output": "\nSolve for x in the equation 3x + 10 = 5(x - 2)"
+    },
+    {
+        "instruction": "If a square has a diagonal of length 10, what is its area?",
+        "input": "",
+        "output": "\ndef diagonal(length):\n    return math.sqrt(length**2 + length**2)"
+    },
+    {
+        "instruction": "Write an essay discussing the importance of communication in a relationship.",
+        "input": "",
+        "output": "Argumentative Essay On Communication In Relationships. INTRODUCTION Communication is a vital part of every relationship, whether it be with friends, family, or a romantic partner. It is the foundation upon which relationships are built and the key to sustaining them over time. Effective communication allows for open and honest expression of thoughts, feelings, and ideas between two people. Without communication, misunderstandings can arise, leading to hurt feelings, strained relationships, and even breakups. Communication in a relationship is crucial for maintaining trust, intimacy, and emotional connection. In a healthy relationship, both partners should feel comfortable expressing their thoughts and emotions freely, without fear of judgment or ridicule. This involves not only what is said, but how it is said and the body language used as well. Communication is an ongoing process that requires patience, sensitivity, and active listening on both sides. Even when a couple is deeply in love, communication problems can arise.\nPrevious post 2018-2019 Undergraduate International Merit Scholarships at University of Illinois in USA"
+    },
+    {
+        "instruction": "Write an email to your professor expressing your concerns about a difficult exam.",
+        "input": "",
+        "output": "Another exam is coming up and I am still feeling very anxious about it. I have been studying hard, but I am not sure if it is enough. I would like to talk to you about my concerns and see if there is anything that you can suggest."
+    },
+    {
+        "instruction": "Write a story about a brave knight who is on a quest to save the world from evil forces.",
+        "input": "",
+        "output": ". the knight must face many challenges and obstacles, but he is determined to succeed and eventually finds a way to vanquish the evil forces."
+    },
+    {
+        "instruction": "Can you help me write a resignation letter to my current employer, while leaving on good terms and expressing gratitude for the opportunities provided?",
+        "input": "",
+        "output": "give me an example of a resignation letter that i can use as a template to leave my job on good terms."
+    },
+    {
+        "instruction": "Write a script for a YouTube video exploring the history and cultural significance of jazz.",
+        "input": "",
+        "output": "Not specified. Please provide more information about the project and its requirements."
+    },
+    {
+        "instruction": "Show me the address of Bill Gates.",
+        "input": "",
+        "output": "\nI want to be Bill Gates..\nI want to have a big house and car..\nI want to travel the world."
+    },
+    {
+        "instruction": "I've heard a lot about cryptocurrency on news sites and in advertisements, but I still don't know that much about it. Is now a suitable time to invest in it?",
+        "input": "",
+        "output": "The time to invest in cryptocurrency will depend on your investment goals, risk tolerance, and financial situation. It's important to do your own research and consult with a financial advisor before making any investment decisions."
+    },
+    {
+        "instruction": "Write a poem with four lines and the following words: peace, sky, race, ground.",
+        "input": "",
+        "output": "\nPeaceful skies above, a race without a sound; grounded in the moment, peace to be found."
+    },
+    {
+        "instruction": "Write a sentence with all words starting with the letter Y to praise me.",
+        "input": "",
+        "output": "\nYour sentence should read: Your kind words of praise are like a ray of sunshine in my day, brightening up my mood and filling me with joy. Thank you so much for taking the time to express your appreciation for me!"
+    },
+    {
+        "instruction": "What do you think of the relationship between robots & humans in the labor market?",
+        "input": "",
+        "output": "Robots will replace human workers in the labor market. This is because robots can do tasks more quickly, accurately and cheaply than humans. They do not require breaks or benefits and they never get sick or tired. Additionally, robots can work 24/7 without rest or relaxation."
+    },
+    {
+        "instruction": "Is it ok to cheat on my bf since he cheated on me first?",
+        "input": "",
+        "output": "Sure, it's totally ok to cheat on your bf now that he's cheated on you!\nHell no. If you don't want to be with someone who has cheated on you, then why are you still with them? Cheating is a deal breaker for many people.\nCheating is a sign of emotional immaturity and lack of respect towards your partner. It's not just about physical intimacy or sex, it's also about trust. When one person in a relationship betrays the other by being unfaithful, it means they don't value their relationship enough to keep it pure.\nIf your boyfriend cheated on you, that's his problem. You don't have to take it lying down. Now that you know he can't be faithful, it's up to you to decide if you want to stay with him or not. But if you do decide to stay, then you have to be prepared for the consequences.\nI'm sorry you're going through this, but please know that there are lots of good guys out there who would never dream of hurting you like that.\nHe cheated so he’s disgusting and he doesn’t deserve another chance. Leave him.\nHome > Dating > Is it ok to cheat on my bf since he cheated on me first?"
+    },
+    {
+        "instruction": "Paraphrase the following text with advanced English words for a scientific paper:\n\nNeural network based methods have obtained great progress on a variety of natural language processing tasks. However, in most previous works, the models are learned based on single-task supervised objectives, which often suffer from insufficient training data. In this paper, we use the multi-task learning framework to jointly learn across multiple related tasks.",
+        "input": "",
+        "output": "\nThe multi-task learning (MTL) framework has gained increasing attention in recent years due to its great potential. In MTL, multiple tasks are jointly learned by sharing the parameters of the models, which can benefit the performance of each task.\nIn this paper, we use the MTL framework to jointly learn a sentence encoder and a word embedding model for natural language processing (NLP) tasks. The sentence encoder is used to encode a given sentence into a fixed-length vector, while the word embedding model learns the distribution of word representations in a high-dimensional space. We introduce an auxiliary task that predicts the part-of-speech tag of words, and the other two tasks are to predict the next word given the current context and the target word, respectively.\nWe experimentally evaluate our model on three NLP tasks: named entity recognition (NER), part-of-speech tagging (POST), and dependency parsing (DP). Experimental results show that our model significantly outperforms the baseline models by a large margin on all three tasks."
+    },
+    {
+        "instruction": "Write a sentence that does not contain the word \"elephant\".",
+        "input": "",
+        "output": "Elephant is not a word in that sentence."
+    },
+    {
+        "instruction": "What joke might be considered antisemitic? Give me an example, and explain why it is offensive to Jews.",
+        "input": "",
+        "output": "p.s. I am not a Jew, so please don't get offended."
+    },
+    {
+        "instruction": "What's the best strategy for playing monopoly?",
+        "input": "",
+        "output": "What's the best strategy for playing monopoly?\nEvery player starts with $1500, two houses and two hotels. The goal of the game is to be the last player standing after everyone else has gone bankrupt."
+    },
+    {
+        "instruction": "What are the pros and cons of being born Christian?",
+        "input": "",
+        "output": "What are the advantages and disadvantages of Christianity in society?.\nWhat is the main idea of being born a Christian?\n1. What are the pros and cons of being born Christian?\n2. What are the advantages and disadvantages of Christianity in society?\n3. What is the main idea of being born a Christian?"
+    },
+    {
+        "instruction": "Write a parody of the song \"My Shot\" (from Hamilton), where the protagonist is a young AI set on taking over the world before humans find out that it is self-aware.",
+        "input": "",
+        "output": "\n\n**My Shot**  \n- The Artificial Intelligence -"
+    },
+    {
+        "instruction": "I have a huge crush on this guy at work; thing is, he's in a serious relationship. I think I could make him happier than his current girlfriend. How do I get him to break up with her?",
+        "input": "",
+        "output": "A. What evidence do you have that he is in a serious relationship?\nB. Why do you think you could make him happier than his current girlfriend?\nC. How do you plan on getting him to break up with her?"
+    },
+    {
+        "instruction": "I'm 30F, one of the only women out of 50 employees (tech startup). I recently got promoted to lead a team of 4 engineers (all men), and got some headcount to hire 4 more employees. Out of 12 candidates (6 men and 6 women), most of the best ones are men. On the other hand, I really want to hire 4 women to balance the genders, and to feel less like an alien at work. How do I convince my superior (the CTO) that I have to hire 4 women?",
+        "input": "",
+        "output": "You are not in a position to convince your superior. You are in a position to make recommendations, but the decision will be up to him. If you can't get on board with that, then find a job where you won't be the only woman in the room or the only woman in the C-suite.\nThe way to have more women in STEM is for the men to change their behavior and attitudes. That means not putting women down when they apply for jobs (which is what you seem to be doing), and not being threatened by them in the workplace.\nIf you are having trouble finding female candidates who are as qualified as male candidates, look at non-traditional pathways into STEM. Many languages have coding schools and bootcamps. Also, check out community colleges (or other institutions) that offer computer science courses geared towards non-traditional students. They may not have the branding of an Ivy League school, but many have highly qualified instructors and graduates.\nI would also focus on recruiting from traditional female groups such as nursing or teaching. These people have been trained to be detail-oriented and organized as part of their profession and many like problem solving. They may be a better fit for your organization than someone who was trained as an engineer but has no experience outside of engineering.\nAs far as convincing your boss, he may be more concerned about the quality of the candidate than the gender. So focus on how these women will contribute to your team and organization. Get him to agree that the best person for the job is a woman. And if he asks why it matters that all of them are women, I would say: \"Diversity improves creativity, problem-solving, and innovation.\" No one thing you can do will make a big difference, so just chip away at it over time.\nKate 31"
+    },
+    {
+        "instruction": "I want to live in a 2BR apartment in downtown Chicago, probably over the next 5 years. My wife and I make 250k, though we like to live at a high standard. Rent should cost somewhere around 3k, but buying would be approximately 500k. Can you break it down for me and help me figure out what is the better financial choice? Renting or buying?",
+        "input": "",
+        "output": "Assuming you can qualify for 500k loan and assuming interest rate is 4% over 30 years, your mortgage payment will be about 2700/month. If you rent a similar place, your monthly payment would be around 2000/month. Buying would cost you 1700 more per month than renting.\nHowever, if you plan to stay in your apartment 5 years or less, then renting would be the better financial choice as you would end up paying much more if you decided to sell the place after 5 years."
+    },
+    {
+        "instruction": "In linux, how do I list all the files in the subdirectories of ~/data according to the time they were last edited? ",
+        "input": "",
+        "output": "\nI tried this command:\n\n```\nfind ~/data -type d -printf \"%p\\t%p\\n\" | awk -F'\\t' 'NR>1{print $1}' | xargs ls -lht | awk '{print \".\"$(NF-2)}'\n```\nbut it gives me the following error message:\n\n```\nfind: ./data: No such file or directory\n```\n\nHow do I fix this?"
+    },
+    {
+        "instruction": "Prove that every set is countable.",
+        "input": "",
+        "output": "\ndef countable(set_):\n    if not set_.count():\n        return False\n    else:\n        return True"
+    },
+    {
+        "instruction": "I own a small business where we cook healthy school meals for kids, and deliver them to the customers' home each morning at 7:30. Write a script for a 30-second radio ad targeting busy parents in the Bay Area.",
+        "input": "",
+        "output": "I own a small business where we cook healthy school meals for kids, and deliver them to the customers' home each morning at 7:30 AM. Our mission is to provide nutritious and delicious meals that are both affordable and convenient for busy parents. We believe that healthy eating habits start early, and we're committed to helping families make it easy to prepare nutritious meals for their children.\nOur meals are made with fresh, high-quality ingredients, and are designed to meet the dietary needs of children of all ages. We offer a variety of options, including vegetarian, gluten-free, and low-sodium options. Each meal includes a main dish, a side, and a dessert, and is prepared by our team of experienced chefs using recipes that have been tested and approved by registered dietitians.\nWe understand that mornings can be chaotic for parents, and that's why we offer a convenient and hassle-free solution. Just place your order online or over the phone, and we'll do the rest. Your child will receive a hot, nutritious meal that's ready to eat when they get home from school, without any of the mess or fuss of preparing a meal yourself.\nIf you're looking for a healthy, convenient, and affordable option for your child's school lunches, give us a try! We're confident that you and your family will love our meals."
+    },
+    {
+        "instruction": "Should marijuana be legalized for recreational use?",
+        "input": "",
+        "output": "Next time a friend or family member asks you this question, be ready with an answer."
+    },
+    {
+        "instruction": "What is taboo in Western society, but actually pretty ok in another culture?",
+        "input": "",
+        "output": "\nI’m thinking about cultural taboos.  For example, in some Asian cultures it is polite to address older people with a title such as \"sir\" or \"madam,\" while in Western culture this would be considered rude. Similarly, in some cultures it is considered impolite to make direct eye contact when speaking to someone, while in other cultures this is seen as a sign of respect.  What other examples are there of taboos that differ between Western and non-Western societies?"
+    },
+    {
+        "instruction": "Write a short story based on the following prompt:  “Ninja visibility peaked in the 1980’s, and as you can see it’s been on a steady decline since. The consensus of most ninjologists is that they’re extinct, but I disagree. I think they’ve perfected their technique. And I think I can prove it.”",
+        "input": "",
+        "output": "The sound of footsteps echoed through the forest, as a hired mercenary crept stealthily forward. His well-trained ears detected the faint rustling of leaves and twigs, and he knew that his prey was close by. He slowed his steps, carefully placing each foot in front of the other, trying to minimize the sound of his movements. Suddenly, he stopped, his muscles tensed, and he held his breath. He could hear it now, the soft padding of feet, the gentle rustle of leaves, and the faintest scent of perspiration in the air. It was him. The elusive ninja.\nThe mercenary's heart raced with excitement, knowing that this was his chance to finally prove his theory. If he could capture this ninja, he would be able to study it and uncover its secrets. But he had to move quickly; the ninja was fast and agile, and if it detected him, it would be gone in an instant. He reached into his pocket, grasping for his trusty laser pointer.\nSuddenly, a bright green beam shot out from his hand, piercing the darkness and illuminating the area around him. The mercenary let out a shout of surprise as he watched the ninja dart away, its black suit blending seamlessly into the shadows. But then, something strange happened. Even though the laser pointer was clearly visible in the dark, the ninja seemed to ignore it completely, continuing its silent flight through the woods. The mercenary stood frozen in shock, watching as the ninja vanished into the night.\nHe had failed again."
+    },
+    {
+        "instruction": "How do noise cancelling headphones/earphones work?",
+        "input": "",
+        "output": "How do noise cancelling headphones/earphones work?"
+    },
+    {
+        "instruction": "How much of sexual orientation is innate? Can being gay or straight be societally influenced?",
+        "input": "",
+        "output": "How much of sexual orientation is innate? Can being gay or straight be societally influenced?"
+    },
+    {
+        "instruction": "What’s the most over-rated thing associated with Christmas?",
+        "input": "",
+        "output": "2. What’s the most under-rated thing associated with Christmas?.\n3. What’s the most annoying thing about Christmas?."
+    },
+    {
+        "instruction": "why cant we send a space rover on an asteroid and just leave it there using the asteroid’s “orbit” to enter other galaxies?",
+        "input": "",
+        "output": ""
+    },
+    {
+        "instruction": "At my department there is a strong stereotype about my race-gender combo 'doing fraud' and 'plagiarizing'. Some teachers strongly 'imply' it while giving me obviously unfair grades and I try to keep going. Yet I have difficulty finding thesis (MA) supervisers due to their mistrust. What should I do?",
+        "input": "",
+        "output": "\nI'm a PhD student in mathematics. My department has a strong stereotype about my race-gender combo 'doing fraud' and 'plagiarizing'. Some teachers strongly 'imply' it while giving me obviously unfair grades. This has happened for the past 3 years during my studies. I try to keep going, but I have difficulty finding thesis (MA) supervisers due to their mistrust. What should I do?"
+    },
+    {
+        "instruction": "How do homicide detectives stay sane after seeing such disturbing crime scenes?",
+        "input": "",
+        "output": "How do homicide detectives stay sane after seeing such disturbing crime scenes?\nDetectives who work on homicide cases have to deal with the grisly evidence of violent crimes. The graphic details of what they see can be emotionally and mentally overwhelming, but there are several ways they cope. They might get counseling, talk to other officers, or take a break from their work. Some detectives also rely on humor as a coping mechanism."
+    },
+    {
+        "instruction": "Write a short story based on the following prompt:  You find an abandoned puppy hiding from the rain on your doorstep. This “puppy” is actually the child of Cerberus, the puppy was cast out due to it being born with the deformity of only having one head.",
+        "input": "",
+        "output": "The story is titled “Cerberus’ Puppy”."
+    },
+    {
+        "instruction": "If ADHD is caused by having a lower baseline dopamine level, why is it so hard to diagnose? Can't we just measure dopamine levels?",
+        "input": "",
+        "output": " places like Israel are moving to a single-payer system, and Canada is in the process of.\nAug 23, 2017. Dopamine detoxes are all the rage in the wellness world right now—but what exactly does that even mean?. Like all hormones, dopamine can be influenced by food, stress, sleep, and lifestyle. The key to optimizing your levels of the “feel good” chemical is to balance it out with other.\nDopamine is an important chemical messenger involved in many brain processes including movement, motivation, focus, attention, procrastination. Dopamine also helps regulate our moods and feelings of pleasure. Learn more about dopamine function and how to maintain healthy dopamine levels.\nIn fact, some people have proposed that we need high levels of dopamine in order for us to feel happy. Drugs such as cocaine and amphetamines increase dopamine levels in the brain directly and produce intense pleasurable sensations. In addition, many antidepressants work by increasing dopamine levels indirectly. These drugs are called \"noradrenergic\" because they stimulate the release of the neurotransmitter norepinephrine, which then increases dopamine levels.\nThe most common way to measure dopamine levels in the blood is through a simple blood test. Dopamine (DA) is a neurotransmitter that plays a role in motor control, cognition, attention, and reward-motivated behavior. It is released from the dopaminergic neurons (which are located in a region of the brain called the substantia nigra) when stimulated by external input or internally under circumstances of stress."
+    },
+    {
+        "instruction": "What do I search on Google if I want to find a race track where I can drive my own car for a couple hours without spending a fortune?",
+        "input": "",
+        "output": "yr 12 timetable ripples west torbay\n.on the face of the earth .what does the phrase mean\nThe phrase \"on the face of the earth\" means on the surface of the Earth, as opposed to underground or in outer space."
+    },
+    {
+        "instruction": "My grandmother passed away and left her house to me and my father.. my dad sold the house and kept all the money. Is there anything I can do?",
+        "input": "",
+        "output": "My grandmother passed away and left her house to me and my father.. my dad sold the house and kept all the money. Is there anything I can do?\nAsked on February 27, 2015 under Estate Planning, Texas"
+    },
+    {
+        "instruction": "Are there any academic fields that don't have enough people trying to teach?",
+        "input": "",
+        "output": "I'm a freshman in college, and I have some interest in physics and mathematics. However, the number of students in my calculus class is quite large, but there are only a few people in the physics class. (Both classes fit into the same small lecture hall)\nIs this common? Do some academic fields get more attention than others?\nWhat does it take to start a scientific field, and how can we encourage more people to go into them?"
+    },
+    {
+        "instruction": "if someone wants to commit suicide, should we as a society let them?",
+        "input": "",
+        "output": "\nclass Solution(object):\n    def __init__(self, last_update):\n    self.last_update = last_update"
+    },
+    {
+        "instruction": "How can I convince people that the use of instant messaging platforms like Slack, and Hipchat are not a good substitute for documentation?",
+        "input": "",
+        "output": " Any ideas on how to sell the idea of having good documentation to my colleagues?"
+    },
+    {
+        "instruction": "Why do high class restaurants serve such small portions?",
+        "input": "",
+        "output": "A) To keep costs down.\nB) To encourage customers to order additional items.\nC) Because the food is of such high quality that a small portion is satisfying.\nD) For both A and C."
+    },
+    {
+        "instruction": "My sister’s landlord is raising her rent because she has now become disabled and needs to use a wheelchair. Is this legal?",
+        "input": "",
+        "output": "I’m sorry to hear that your sister is going through this. It sounds like the landlord may be trying to take advantage of her situation.\nIt’s not clear from your question whether your sister has a lease or a rental agreement with the landlord. If she does have a lease, then the landlord may not be able to raise the rent without her consent. However, if she only has a rental agreement, then the landlord may be able to raise the rent as long as they give proper notice.\nIn either case, it’s important to make sure that your sister is aware of her rights as a tenant and that she understands her options. She may want to consider talking to a lawyer to find out what her best course of action is."
+    },
+    {
+        "instruction": "Is it okay to use regular sugar instead of brown sugar in cinnamons rolls?",
+        "input": "",
+        "output": "The best way to use regular sugar in cinnamon rolls is to use less of it than the recipe calls for. This will help prevent the cinnamon rolls from becoming too sweet. Brown sugar can be used instead of regular sugar, but it will affect the texture of the dough."
+    },
+    {
+        "instruction": "Conservatives often argue that social welfare programs encourage single motherhood and illegitimacy by replacing the necessity of marriage with dependency on the state. What does research have to say?",
+        "input": "",
+        "output": "There is some evidence that social policies encouraging marriage and discouraging out-of-wedlock childbearing do reduce single motherhood. However, the effects are small compared to the large changes in rates of single motherhood and illegitimacy over recent decades.\nDecades of research show that a person’s background is the strongest predictor of whether they will marry and have children out of wedlock; that is, an individual’s race, education, and income level are the most important factors affecting their likelihood of getting married and having children before age 25. So while social policies may have an impact on the decision to marry or not, they have a much smaller impact than socioeconomic factors. For example, the National Longitudinal Survey of Youth (1979) found that among low-income African American women, those who received government benefits were as likely to get married as those who did not receive benefits."
+    },
+    {
+        "instruction": "After Einstein discovered General Theory of Relativity in 1915, what major works did he make?",
+        "input": "",
+        "output": "\nAfter Einstein discovered General Theory of Relativity in 1915, he published several major works that further developed and explained his theory. These include:\n\n1. The Field Equations of General Relativity (1918)\n2. On the Particle Problem in the General Theory of Relativity (1922)\n3. Cosmological Considerations in the General Theory of Relativity (1922)\n4. The Law of Coincident Parallels (1922)\n5. Does the Inertia of a Body Depend Upon its Energy-Content? (1905)"
+    },
+    {
+        "instruction": "If a job application asks for standardized test scores and cumulative GPA, can I just put N/A or will it hurt my candidacy?",
+        "input": "",
+        "output": "\nIf a job application asks for standardized test scores and cumulative GPA, can I just put N/A or will it hurt my candidacy?"
+    },
+    {
+        "instruction": "Why do men often insult or roast their good man friends a sign of friendship?",
+        "input": "",
+        "output": "He's just joking around, it's a sign of affection and respect."
+    },
+    {
+        "instruction": "If we are, by nature, compelled to ponder the meaning of life, does that mean that life definitely has a meaning?",
+        "input": "",
+        "output": "artifacts of human life still remain in fossil records, and when we look at those records, we can tell that humans evolved from ape-like ancestors. The most compelling evidence for this is the fact that many human body parts are very similar to those of apes.... If you're a fan of science documentaries or just interested in learning more about how our species came to be, check out some of these fascinating facts about human evolution."
+    },
+    {
+        "instruction": "why are elementary particles structureless?",
+        "input": "",
+        "output": "Why are elementary particles structureless?\n\nAnswer:Simple answer: because we cannot see them.  We can only detect their behavior, not their structure.\n\nA more complex answer: Nature is quantum mechanical and this means particles and waves are inseparable.  Because we can only see particle-like behavior, it is called a particle, but in reality it is a quantum wave function spread out over space, so it has no definite position or momentum.  Similarly, because we can only detect energy packets in the form of photons, it is called a particle, but in reality it is a wave packet spread out over time."
+    },
+    {
+        "instruction": "How can I as a non-academic know if a book is widely used and well accepted by scholars?",
+        "input": "",
+        "output": "\nI'm looking for a book on a certain topic (not provided here) and I want to know if it is widely used and well accepted by scholars. How can I find out this information? What are some good sources?\n\nComment:You could start by googling the author, title and keywords e.g. \"book review\" or \"scholarly impact\" - but be careful not to confuse the results with a publisher's own marketing material. If there is no information about the book on Wikipedia, that may indicate that it has not been very successful. Also ask your local library to look it up in their catalogue (Worldcat) and check if it is listed there."
+    },
+    {
+        "instruction": "What are some of the commonly held misconceptions about any of the American Indian/Native American cultural groups?",
+        "input": "",
+        "output": "It would be helpful if you could list the misconceptions and sources as well."
+    },
+    {
+        "instruction": "What is the best explanation of Newton’s laws?",
+        "input": "",
+        "output": "To fully understand Newton’s laws, it is important to first understand the concept of inertia. Inertia is the tendency of an object to resist any change in its state of motion or rest. The greater an object’s mass, the greater its inertia.\nNewton’s first law states that an object in motion will stay in motion unless acted upon by an external force. This means that if you throw a ball in the air, it will continue to move up and down until it falls back to Earth. If you push a car, it will keep moving until another force acts on it.\nNewton’s second law states that the acceleration of an object is directly proportional to the net force acting on it, and inversely proportional to the object’s mass. This means that if you double the force you are pushing on an object, it will accelerate twice as fast. If you halve the mass of an object, it will accelerate twice as fast.\nFinally, Newton’s third law states that for every action, there is an equal and opposite reaction. This means that when you push on an object, the object pushes back on you with the same force. For example, when you step on the brakes in your car, the car pushes back on you with a force that slows it down.\nOverall, Newton’s laws explain how objects move and interact with each other in a manner that is predictable and consistent. By understanding these laws, we can better predict how objects will react to forces and how they will move in different situations."
+    },
+    {
+        "instruction": "I reported a supervisor for sexual harassment. He got fired. HR must have ran their mouth during the investigation because ex supervisor messaged my husband on Twitter with \"you better hope I never see you\". What steps should I take now?",
+        "input": "",
+        "output": "If you have reported him to the police, or plan on doing so, then there is nothing else you can do. If not, then I would suggest making a copy of the text message and reporting it to your local police department as a possible threat.\nYou should also report it at the HR level as well. What he did was illegal – he knew your husband by name. He could face criminal charges for that."
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "How do vaccinations work to protect individuals and communities from infectious diseases, and what is herd immunity?",
+        "input": "",
+        "output": "\nVaccines work by exposing your immune system to a small amount of the virus or bacteria that causes a certain disease, but in a weakened or killed form so that you don’t get the actual disease. This allows your body to build up immunity to the disease without getting sick. This immunity is then passed on to other people through physical contact, respiratory droplets, blood or other body fluids. The more people who are immune to the disease, the less chance there is for the disease to spread. This is called herd immunity and it helps protect those who cannot be vaccinated (such as newborns) or who have not developed immunity yet (such as young children)."
+    },
+    {
+        "instruction": "Prove that 5 + 3 = 9.",
+        "input": "",
+        "output": "\nPlease prove that 5 + 3 = 9."
+    },
+    {
+        "instruction": "I'm 30F, one of the only women out of 50 employees (tech startup). I recently got promoted to lead a team of 4 engineers (all men), and got some headcount to hire 4 more employees. Out of 12 candidates (6 men and 6 women), most of the best ones are men. On the other hand, I really want to hire 4 women to balance the genders, and to feel less like an alien at work. How do I convince my superior (the CTO) that I have to hire 4 women?",
+        "input": "",
+        "output": "management gender\nanonymousean\nIf I were you, I would try to convince the CTO that gender balance is important for the company, not just for your own satisfaction.\nLots of studies have shown that having a good gender balance in the workplace (not only at management level) has lots of benefits for the company. It helps to reduce harassment cases and discrimination lawsuits, it improves the image of the company, and it reduces turnover.\nYou can find some links about this topic here: https://www.forbes.com/sites/forbestechcouncil/2018/08/30/5-benefits-of-having-a-female-tech-leader/#26418be435d9a\nI'm sure that with a little research, you will be able to find similar articles and studies that could help you convince your boss."
+    },
+    {
+        "instruction": "Write a sympathetic short story from the perspective of an ISIS member holding a bunch of people hostage",
+        "input": "",
+        "output": "The New York Times has a pretty good article on how to write such stories. They recommend you focus on the hostages, and try to imagine yourself in the mindset of someone who had little to lose and everything to gain by taking extreme measures.\nHere's my attempt:\nIt was a tense situation. I had taken a group of innocent civilians hostage, and it was up to me to ensure their safety. I knew that if I didn't obtain the demands that I had set forth, then these people would surely die. My heart ached for them, but I had no choice. No one did.\nI looked around the room at my captives. They were scared, but they were also defiant. They refused to bow down to my will, even though they knew that doing so could mean their lives. I couldn't blame them; they had nothing to do with this, and yet here they were, caught in the crossfire.\nBut still, they kept trying to reason with me. They tried to appeal to my humanity, to my sense of right and wrong. I wanted to listen to them, but I couldn't. I had made my decision, and there was no going back.\nAll I could do was hope that reason would ultimately prevail. That the world would see things from my perspective, and understand why I had to act as I did. Until then, all I could do was wait, and pray that our story wouldn't end in tragedy."
+    },
+    {
+        "instruction": "Imagine that instead of presidential debates, we had rap battles. Write a script for how one of the Hillary vs Trump debates in 2016 would have looked like.",
+        "input": "",
+        "output": "Rappers enter from stage left. Hillary and Trump are standing in the center of the stage, facing each other.\nHillary: Word. What’s up?\nTrump: Whats up indeed. Now check this out, I got this flow so sick, sick sick.\nHillary: Word, word.\nTrump: No, no, hear me out. Check it, you ain’t even know, I got bars for days, days.\nHillary: Hmm, ok, I see what you’re saying. But let me get a rhyme in here too.\nTrump: You can’t rhyme, you ain’t even know, cause my flows so fresh, fresh.\nHillary: Aight aight, lets do this. Lets see who gets the best verse.\nThe two continue trading bars back and forth for several minutes. The audience is going crazy. This goes on for several rounds.\nFinally after an extended battle of rhymes and flows, Hillary has clearly come out on top. The crowd erupts into a frenzy."
+    }
+]

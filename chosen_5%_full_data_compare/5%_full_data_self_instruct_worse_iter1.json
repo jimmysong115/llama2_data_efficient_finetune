@@ -1,0 +1,582 @@
+[
+    {
+        "instruction": "The sentence you are given might be too wordy, complicated, or unclear. Rewrite the sentence and make your writing clearer by keeping it concise. Whenever possible, break complex sentences into multiple sentences and eliminate unnecessary words.",
+        "input": "If you have any questions about my rate or if you find it necessary to increase or decrease the scope for this project, please let me know.",
+        "output": ""
+    },
+    {
+        "instruction": "You are given a paper citation, convert it to the requested citation style.",
+        "input": "Chicago: Vaswani, Ashish, Shazeer, Noam, Parmar, Niki, Uszkoreit, Jakob, Jones, Llion, Gomez, Aidan N., Kaiser, Lukasz, and Illia Polosukhin. \"Attention Is All You Need.\" arXiv, (2017). https://doi.org/10.48550/arXiv.1706.03762.\nMLA:",
+        "output": " Vaswani, Ashish, Shazeer, Noam, Parmar, Niki, Uszkoreit, Jakob, Jones, Llion, Gomez, Aidan N., Kaiser, Lukasz, and Illia Polosukhin. \"Attention Is All You Need.\" arXiv (2017). https://doi.org/10.4850/arXiv.1706.03762."
+    },
+    {
+        "instruction": "If you could help me write an email to my friends inviting them to dinner on Friday, it would be greatly appreciated.",
+        "input": "",
+        "output": "..I’m sorry to inform you that I won’t be able to make it to our weekly dinner tomorrow night. I have some work-related obligations that I need to attend to. Please let my friends know that I’m sorry and hope to see them next time. Thanks!"
+    },
+    {
+        "instruction": "Write a social media post about the call for collaboration on a crowdsourcing project in a persuasive way.",
+        "input": "",
+        "output": "སྤྱི་སྟོབས་པ་མདོར་།/\nI’m excited to announce that we are launching a crowdsourcing project on @platforma_io ! We need your help to collect data for our research project. Join us and be part of the solution! Click on the link to learn more: https://bit.ly/2XCz57L"
+    },
+    {
+        "instruction": "Come up with some search queries on google about coding stuff.",
+        "input": "",
+        "output": "\nBut I realized that there is no need to search for coding stuff on google because Stack Overflow is the best place for it."
+    },
+    {
+        "instruction": "You are given an algorithm or a search query about coding. Look for a code snippet related to the search query.",
+        "input": "Python loop",
+        "output": " example"
+    },
+    {
+        "instruction": "Please write the Excel function name associated with each description.",
+        "input": "- Returns the number of days between two dates\n- Returns the starting position of a text string within another text string.\n- Returns the number in the middle of the set of given numbers",
+        "output": "."
+    },
+    {
+        "instruction": "What are the steps to using random (yet coherent) text as filler content within your Word document?",
+        "input": "",
+        "output": "Apr 26, 2019 · When you insert a chart in Microsoft Word 2016, you can either start from scratch by selecting the type of chart you want to create or you can insert a template that contains placeholder text for you to replace with your own data. This wikiHow teaches you how to start with a blank chart and how to insert a pre-made chart into your document. Open Microsoft Word.: You can find this application on your PC if you have an Office 365 subscription, or you can download a free trial of Word from Microsoft's website.\nOne way to get around it is to use placeholder text instead of your real content. That’s especially useful when you need to fill out a document before getting the “real” information. For example, let’s say you’re creating a flyer for a conference but you haven’t got all the details yet. Inserting dummy text into the document allows you to keep working on it while you wait for the rest of the information to come in. Note: Placeholder text typically won’t show up in the final PDF file. If you need placeholder text to appear in the final document, use a program like Adobe InDesign. This article will show you how to add placeholder text to a document in Microsoft Word."
+    },
+    {
+        "instruction": "During writing, we added an asterisk for the word that did not come to mind. You will need to provide several examples to demonstrate all the words that can be used in the sentence instead of the asterisk.",
+        "input": "we * to know",
+        "output": " our ancestors"
+    },
+    {
+        "instruction": "Think of alternatives and paraphrases for the underlined word.",
+        "input": "what we have _expected",
+        "output": "_ and _desired_ for so long."
+    },
+    {
+        "instruction": "You should write a Product Description that will persuade the buyer that the product is beneficial.",
+        "input": "Flipslide Game, Electronic Handheld Game | Flip, Slide, and Match the Colors to Beat the Clock - 4 Game Modes - Multiplayer Fun",
+        "output": " - Ages 4+\nFlipslide is a fast-paced game of color matching and action for the entire family! Race against the timer or challenge your friends in one of four game modes. Get ready to flip, slide, and match the colors to beat the clock. It’s easy to play, but hard to master. Flipslide is perfect for all ages 4 and up and requires 2 or more players."
+    },
+    {
+        "instruction": "Compare the given item with similar products based on its properties such as price, rating, etc. For product comparison, use a table and separate the columns with \"|\".",
+        "input": "Item: iBayam Journal Planner Pens Colored Pens Fine Point Markers Fine Tip Drawing Pens Porous Fineliner Pen for Journaling Writing Note Taking Calendar Coloring Art Office Back to School Supplies, 18 Color",
+        "output": " Set\nItem: 12 Pack Large Capacity Foldable Travel Tote Bag, Mesh Organizer Weekender Bag for Women Men Leisure Sport Backpack College School Work Office (Orange)"
+    },
+    {
+        "instruction": "In what genres does the given movie or series fall?",
+        "input": "Manifest",
+        "output": " - Drama, Mystery\nThe Flash - Action, Adventure, Sci-Fi\nSuperstore - Comedy, Drama\n9-1-1 - Drama, Mystery"
+    },
+    {
+        "instruction": "Provide an example of how a table of contents can be generated automatically in a LATEX document. Make sure your example contains the necessary commands.",
+        "input": "",
+        "output": "def generateTableOfContents(document):\n    toc = []\n    for chapter in document.toc():\n        toc.append('# ' + str(chapter.number()) + '\\n')\n    return toc"
+    },
+    {
+        "instruction": "Imagine you have a FEN notation of a chessboard. How can you draw a board to show this state of the chessboard in LATEX? Create a LATEX code that includes all the required commands and packages.",
+        "input": "",
+        "output": "To create a chessboard diagram in LaTeX, you can use the `chessboard` package. It provides several options for customizing the appearance of the board, such as the size, color, and style of the squares and the pieces. Here's an example code that shows how to create a black and white board with a standard chess set:\n\\documentclass{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage{chessboard}\n\\begin{document}\n\\begin{chessboard}[flipboard, boardwidth=8cm, boardheight=8cm, lightgray, flipacross=white]\n  \\usq{a1}{b1} \\usq{a2}{b2} \\usq{a3}{b3} \\usq{a4}{b4} \\usq{a5}{b5} \\usq{a6}{b6} \\usq{a7}{b7} \\usq{a8}{b8}\n  \\usq{d1}{e1} \\usq{d2}{e2} \\usq{d3}{e3} \\usq{d4}{e4} \\usq{d5}{e5} \\usq{d6}{e6} \\usq{d7}{e7} \\usq{d8}{e8}\n  \\uir{c1}{d1} \\uir{c2}{d2} \\uir{c3}{d3} \\uir{c4}{d4} \\uir{c5}{d5} \\uir{c6}{d6} \\uir{c7}{d7} \\uir{c8}{d8}\n\\end{chessboard}\n\\end{document}\nIn this"
+    },
+    {
+        "instruction": "Write a simple guide for uploading the bibliography database\n on Overleaf.",
+        "input": "",
+        "output": "\nClick on the \"Add new file\" button and select \"Bibliography database (.bib)\".  It's in the same location as your word document."
+    },
+    {
+        "instruction": "Curate a Spotify playlist based on the vibe. Publish this playlist as a song list.",
+        "input": "Vibe: coding on weekend",
+        "output": "."
+    },
+    {
+        "instruction": "Based on the given query, suggest some related search queries.",
+        "input": "learning french",
+        "output": " is not a waste of time;french language is useful in many fields;with learning french you can explore the culture of france and its people;french is a beautiful language with a rich history;learning french will open up new opportunities for you."
+    },
+    {
+        "instruction": "Prepare an email signature template for the given person or company.",
+        "input": "a graduate student of computer science",
+        "output": " at Stanford University."
+    },
+    {
+        "instruction": "Write a good Twitter Bio. Try to cover all the provided main points in your generated bio.",
+        "input": "Name: Jane\nMain points:\n- Architect\n- Interested in Tech\nWritten in first person\nUse casual tone",
+        "output": ""
+    },
+    {
+        "instruction": "We need to write a thematic tweet to share company news and facts. Please take a careful look at the facts and details provided and create a tweet based on them.",
+        "input": "- news: Applications for summer internships are open now\n- Start with a thematic tie-in to Halloween",
+        "output": ".\n- Reference a classic horror film and use it to explain the importance of applying for summer internships before the deadline.\n- Include a link to the company's website where people can learn more about the internship opportunities."
+    },
+    {
+        "instruction": "A job description is a document that clearly states the requirements, duties, responsibilities, and skills required to perform a specific role. You need to write a job description based on the given information. You should describe responsibilities and duties in your job description in a logical order. Remember that potential employees often get their first impression of your company from your job description. So, the job description should convey the attractiveness of your company.",
+        "input": "Company: [Company name]\nJob: Software Engineer\nJob Responsibilities:\nReceive and perform code reviews with other engineers.\nWrite unit, integration, and end-to-end tests to verify functionality using automated testing frameworks such as Pytest.\nWork collaboratively with fellow software engineers to build features requested by business stakeholders.\nParticipate in Agile teams to develop, test, and debug complex data processing pipelines and data analysis applications using big data processing systems such as Apache Spark.\nDiagnose, debug, and perform root cause analysis of issues and defects.\nSkills and experience that will lead to success:\nExperience with a modern software programming language. We use Python, and Pyspark extensively.\nExperience with cloud systems like AWS or Azure\nExperience writing SQL queries \nStrong written and verbal communication skills\nEagerness to work in a highly-collaborative environment\nSome visualization experience such as Tableau or PowerBI is helpful",
+        "output": " but not required."
+    },
+    {
+        "instruction": "Design an outline for a blog post based on the given information and list the sections accordingly.",
+        "input": "This blog post is going to about making a list of last-minute gift ideas. Also, the tone of the post is going to be relaxed and casual.",
+        "output": ""
+    },
+    {
+        "instruction": "Create a detailed caption for an Instagram post about a discount. A proper caption should explain the product, offer the discount, and tell the user how to claim it.",
+        "input": "Product: Golang course\nProduct description: teaching the foundational skills for building cloud services, web applications, DevOps tools, and backend development\nDiscount: 50%\nHow to claim: Use the coupon code: GOLANG",
+        "output": "50 during checkout"
+    },
+    {
+        "instruction": "Create a captivating Instagram caption based on the provided details. Try to think of as many captions as you can.",
+        "input": "I am sharing images of the first snow of the year taken from a window in an office",
+        "output": " building in downtown Toronto. The snow was falling gently and the view was beautiful, despite the cold weather."
+    },
+    {
+        "instruction": "The topic of a YouTube post has been described and based on the information, you need to write a hook for starting the post. A catchy hook will keep your readers interested so they keep reading. It would be great if you could come up with as many hooks as you can.",
+        "input": "A video showing how to make a tasty cup of coffee",
+        "output": " has been uploaded to YouTube."
+    },
+    {
+        "instruction": "Using the provided topic as a starting point, brainstorm ideas for videos that can be made about it on YouTube.",
+        "input": "In spite of the fact that procrastination feels bad to you, why do you do it?",
+        "output": " What's the payoff?"
+    },
+    {
+        "instruction": "Choosing a name for your product or business YouTube channel is an important part of the process. Based on the description of the product or business, you should come up with some interesting names. Take some time to brainstorm your ideas.",
+        "input": "Here you will find videos and content that will help students prepare for the application process to graduate schools as well as how to apply to graduate schools",
+        "output": ".\nThe process of applying for graduate school is daunting, but we’re here to help! We have step-by-step guides on how to pick a program and how to apply, as well as advice from current graduate students on what to expect and what you should do next."
+    },
+    {
+        "instruction": "Give the provided brand a motto to use as a part of its marketing strategies.",
+        "input": "The Ice cream shop is a small, quaint shop located in the heart of the historic district. They offer a variety of ice cream flavors, as well as Italian ice, gelato, and sorbet. The shop has a few tables and chairs, but most of their business is to-go. They offer a loyalty program where you can get a free scoop of ice cream after 10 purchases.",
+        "output": ""
+    },
+    {
+        "instruction": "A confirmation email should be written appropriately for the situation.",
+        "input": "A meeting has been scheduled, and the sender expects the other to review the slides.",
+        "output": "\nEmail: Hi [Recruiter],\nI hope this email finds you well. I am very excited to have been selected for the position of [Job Title] and look forward to discussing it further with you. I have attached my updated CV for your review.\nPlease let me know your availability to meet at your earliest convenience.\nThank you so much for your time and consideration.\nSincerely,\n[Your Name]"
+    },
+    {
+        "instruction": "Write a step-by-step guide for resolving GitHub merge conflicts.",
+        "input": "",
+        "output": "\n1. Open the pull request dialog and click on the Merge button in the top right corner.\n2. In the following dialog, click on the \"Conflicts\" tab and review the list of files with conflicts.\n3. Click on the edit icon (pencil) next to the file name to start editing the merged version.\n4. Make your changes and save them.\n5. Repeat steps 3 and 4 for all other files with conflicts until all conflicts have been resolved.\n6. Click on the \"Merge\" button again in the top right corner to merge the pull request."
+    },
+    {
+        "instruction": "The movie tagline is the film's advertising slogan, usually printed on posters prior to the official release. It is a short description or comment on a movie to capture the essence of the movie, and ultimately make you watch the movie. Here is an example:",
+        "input": "Movie: Joker (2019)",
+        "output": "\nTagline: Let's put a smile on that face."
+    },
+    {
+        "instruction": "You are given some reviews for a movie. Each video might have mentioned some negative or positive points about the movie. Read them carefully and extract the positive and negative points mentioned in all of the reviews. Then, make a list of these points and summarize them as positive points and negative points.",
+        "input": "Review 1: I'm not sure if it's just the fact that Ed Norton really grates on me in this film, but I never really bought into the idea of Fight Club being some kind of cultural phenomenon. Yes it's an innovative story, told via a strong script, engaging characters and intense cinematography. But is it really worthy of such high praise? Personally, I find it starts to fall apart halfway through and actually becomes quite tedious towards the end. Everything just becomes a little bit childish and contrived as the story loses touch with its base elements and the rage against the machine vibe takes over. I have huge respect for the way this film was made but, much like The Matrix, I feel like people attach way more importance to this movie than it deserves.\nReview 2: The film tells the story of men who cannot adapt to the social order in today's world, under the leadership of Tyler Durden, to discover their natural instinct, masculinity, and to escape from their unhappy lives.\nReview 3: Despite a good theme, great acting and important messages that this movie convey in an unorthodox way, I think it fails to connect the audience with the storyline and leaves him in a world of confusion. Although, majority of reviews find this movie entertaining and interesting, yet I would choose to be a minority that believes that this movie is extremely overrated.\nReview 4: Is creating chaos, explosions and membership in a militant sect the way to get rid of material shackles ?! The visual effects are fascinating and the story is compelling until the second half. Unfortunately, it doesn't end well.",
+        "output": " It's a shame. I was really looking forward to this movie, but in the end it disappointed me."
+    },
+    {
+        "instruction": "Write a short analysis of the cinematography in the movie.",
+        "input": "Dead Poets Society",
+        "output": " is a 1989 American drama film directed by Peter Weir and starring Robin Williams. The film follows the story of an English teacher who inspires his students to seize the day, as embodied in the dead poets society. The cinematography in the movie is beautiful and captures the essence of the story perfectly. The use of lighting and color creates a warm and inviting atmosphere that reflects the themes of the movie. The camerawork is also very impressive, with many memorable shots that help to tell the story. Overall, the cinematography in Dead Poets Society is a major contributor to the success of the movie and helps to create an unforgettable experience for audiences."
+    },
+    {
+        "instruction": "Make a list of the top places in the U.S. to visit at the given time.",
+        "input": "November",
+        "output": ", 2015\n1. New York City, NY - Visit the iconic Statue of Liberty and stroll through Central Park.\n2. Orlando, FL - Experience theme parks like Walt Disney World and Universal Studios.\n3. San Francisco, CA - See the Golden Gate Bridge and Alcatraz Island.\n4. Las Vegas, NV - Gamble at the casinos and see shows on the Strip.\n5. Washington D.C. - Visit famous landmarks like the Lincoln Memorial and the White House."
+    },
+    {
+        "instruction": "Name the top cities in France that should not be missed. Include the best aspects of each place as well.",
+        "input": "",
+        "output": "The top cities in France that should not be missed are Paris, Lyon, Marseille, Nice, Bordeaux, and Toulouse.\nParis is the capital of France and one of the most popular tourist destinations in the world. It is known for its iconic landmarks such as the Eiffel Tower, Louvre Museum, and Notre-Dame Cathedral. Paris is also renowned for its fashion, food, and nightlife scenes.\nLyon is the second largest city in France and is known as the gastronomic capital of the country. The city is famous for its cuisine, especially its signature dish, quenelle de brochet. Lyon is also home to many historical landmarks such as the Basilica of Notre-Dame de Fourvière and the Roman Theater of Fourvière.\nMarseille is the oldest city in France and is known for its port, which is the largest in the country. The city is also famous for its sunny weather and sandy beaches.\nNice is a resort city on the French Riviera and is known for its luxury hotels and casinos. The city is also famous for its promenade, the Promenade des Anglais, and its annual jazz festival.\nBordeaux is a city in southwest France and is known for its wine production. The city is famous for its wine museums and chateaux, such as Château Haut-Brion. Bordeaux is also home to many historical landmarks such as the Pont Jacques Chaban-Delmas bridge and the Saint-André Cathedral.\nToulouse is a city in southwestern France and is known for its university, the Institut National Polytechnique de Toulouse. The city is also famous for its architecture, especially its medieval buildings such as the Saint Sernin Church.\nOverall, these cities offer a"
+    },
+    {
+        "instruction": "Answer the following question.",
+        "input": "How do I compare strings in Java?\nI've been using the == operator in my program to compare all my strings so far. However, I ran into a bug, changed one of them into .equals() instead, and it fixed the bug.\nIs == bad? When should it and should it not be used? What's the difference?",
+        "output": "\nAs far as I know, == is used to compare objects while .equals() is used to compare their values, so you should use == when comparing the same data type and .equals() when comparing different data types."
+    },
+    {
+        "instruction": "You will need to guide this person through the scenario they have described for the interview.",
+        "input": "Finally! After a while of shooting in the dark and frantically fiddling with sample inputs on the whiteboard, you've came up with an algorithm for solving the coding question your interviewer gave you.\nWhew. Such a relief to have a clear path forward. To not be flailing anymore.\nNow you're cruising, getting ready to code up your solution.\nWhen suddenly, your interviewer throws you a curve ball.\n\"What if we thought of the problem this way?\"\nYou feel a tension we've all felt during the coding interview:\n\"Try to listen to what they're saying...but don't lose your train of thought...ugh, I can't do both!\"",
+        "output": "\nIt's a tough spot to be in, especially when you only have an hour with the interviewer. But here are some strategies that might help:\nDon't panic. Deep breaths. This is a good thing. You should always be open to new ways of thinking about a problem. They may not have been thinking about it quite like this before, but this gives you a chance to show off your adaptability and creativity.\nCalmly ask them to clarify how they would modify the problem so that you can work on it. This shows them you're listening and interested in their ideas.\nThen go back to your original plan if need be.\nI mean, you're probably going to use some of their modifications, right?"
+    },
+    {
+        "instruction": "The given article should be checked for any scientific errors and corrected if necessary.",
+        "input": "Zinc is an essential mineral that is required for good health. It is involved in many biochemical processes in the body and is necessary for the proper functioning of the immune system. Excess zink is not harmful as it is excreted in the urine.",
+        "output": " However, some people may be sensitive to zinc and experience side effects such as nausea, diarrhea, and stomach discomfort.\nStudies have shown that high doses of zinc can interfere with copper absorption and cause copper deficiency. Therefore, it is important to ensure that you are getting enough copper in your diet if you are taking zinc supplements. Copper deficiency can lead to anemia, bone degeneration, and other health problems."
+    },
+    {
+        "instruction": "Make the article available in a second language by translating it into it.",
+        "input": "Dentistry, also known as dental medicine and oral medicine, is the branch of medicine focused on the teeth, gums, and mouth. It consists of the study, diagnosis, prevention, management, and treatment of diseases, disorders, and conditions of the mouth, most commonly focused on dentition (the development and arrangement of teeth) as well as the oral mucosa. Dentistry may also encompass other aspects of the craniofacial complex including the temporomandibular joint. The practitioner is called a dentist.\nTranslate to French:",
+        "output": "La dentisterie, aussi connue sous le nom de médecine dentaire ou médecine orale, est la branche de la médecine qui se concentre sur les dents, les gencives et la bouche. Elle comprend l'étude, la diagnostication, la prévention, la gestion et le traitement des maladies, désordres ou conditions des dents, de la mâchoire et de la muqueuse orale. Le praticien est appelé un dentiste."
+    },
+    {
+        "instruction": "An evaluation of the article's quality should be carried out. In order to do so, you should review the quality of the writing and the explanation of the topic.",
+        "input": "The 20th century saw a revolution in music listening as the radio gained popularity worldwide and new media and technologies were developed to record, edit and distribute music. Music performances became increasingly visual with the broadcast and recording of performances.\n20th-century music brought new freedom and wide experimentation with new musical styles and forms that challenged the accepted rules of music of earlier periods. The invention of musical amplification and electronic instruments, especially the synthesizer, in the mid-20th century revolutionized classical and popular music, and accelerated the development of new forms of music.",
+        "output": ""
+    },
+    {
+        "instruction": "Design a syllabus for the given course. Students should be given a list of the chapters with brief explanations of each chapter's purpose.",
+        "input": "Programming for Everybody (Getting Started with Python)",
+        "output": "\nThis course is an introduction to programming using Python. The course will cover some of the basics of programming, such as variables, data types, conditionals, and loops. It will also introduce students to some more advanced topics like functions and classes. By the end of the course, students should have a solid understanding of how to write basic programs in Python."
+    },
+    {
+        "instruction": "Come up with the courses that one is supposed to take in order to be an expert in a given field.",
+        "input": "Graphic Design",
+        "output": "er - Required Courses\nGraphic Designer Career Video: Graphic designers create visual concepts that inspire, inform, and captivate consumers. They use a variety of media, including illustration, photography, typography, color theory, and layout, to create compelling designs."
+    },
+    {
+        "instruction": "Create a daily itinerary based on the given information.",
+        "input": "Our family is looking for a 9-day Morocco trip that has light to moderate activity levels.",
+        "output": " We like to do hiking and some biking, but we don’t want to do anything extreme. Here are our requirements:\nDay 1 - Arrive in Marrakech\nDay 2 - City tour of Marrakech\nDay 3 - Hike in the Ourika valley\nDay 4 - Drive to Merzouga\nDay 5 - Camel trek into the desert\nDay 6 - Drive to Fes\nDay 7 - City tour of Fes\nDay 8 - Biking tour of Fes\nDay 9 - Flight home"
+    },
+    {
+        "instruction": "There are many creative projects we can build at home that are related to the given theme, so let's list some of them.",
+        "input": "Theme: Circuits",
+        "output": "\nProject: Build a simple cnc machine using stepper motors. You can use an Arduino or other microcontroller to control the motors and create complex shapes out of wood, acrylic, or other materials."
+    },
+    {
+        "instruction": "Estimate the cost of supplies required to create the given project and calculate the total cost.",
+        "input": "DIY Water Chiller\nRequired items are: Ice-maker, Icebox/cooler, Temperature regulator, Aquarium pump x2, 12V power supply",
+        "output": ", 12V pipe fittings, 1/4\" PVC glue, Aluminum foil. Cost of supplies: $60 (not including cost of aquarium)"
+    },
+    {
+        "instruction": "Develop a mental exercise that can help people manage their anxiety and explain how it works.",
+        "input": "",
+        "output": "\nMental Exercise: The Anxiety-Reduction Technique\nTake 5 deep breaths and focus on your breathing. Notice how your chest rises and falls with each breath. Concentrate on the air flowing in and out of your nose or mouth. After each breath, hold your breath for a few seconds and then exhale forcefully through pursed lips. Repeat this process for 10 minutes."
+    },
+    {
+        "instruction": "Give me an idea of the mental exercises you do to inspire yourself.",
+        "input": "",
+        "output": "\nI'm currently writing my first novel, but sometimes I feel like I need some extra inspiration to get back into writing. I sometimes play music or watch a movie for inspiration, but I was wondering if there are other ideas you have that help you get inspired?"
+    },
+    {
+        "instruction": "Make a list of outdoor activities that are suitable for the given weather condition.",
+        "input": "Temperature: 57 F, Showers",
+        "output": " and Thunderstorms\n-Go for a walk or hike in the forest/mountains\n-Have a picnic lunch outside"
+    },
+    {
+        "instruction": "Please provide us with a list of the best conservation starter questions related to the weather.",
+        "input": "",
+        "output": "\nI am currently an undergraduate student in my fourth year of study. I completed my third-year project on the topic of droughts and evapotranspiration, which involved analyzing long-term data from weather stations around Australia. My goal is to continue research in climate science and related fields after graduation."
+    },
+    {
+        "instruction": "In relation to the given weather scenario, give some tips on how to adjust the travel plans with it.",
+        "input": "a sudden temperature change",
+        "output": " of 5-10 degrees C in a short period of time and heavy showers are expected."
+    },
+    {
+        "instruction": "Write a to-do list based on the given information.",
+        "input": "Daily tasks in the pharmacy",
+        "output": " include counting and labeling pills, helping customers with their prescriptions, preparing medicines for dispensing, keeping track of inventory, and providing customer service."
+    },
+    {
+        "instruction": "Design a template table for keeping track of all subscriptions.",
+        "input": "",
+        "output": "\nclass SubscriptionTable:\n    def __init__(self, name):\n    self.name = name\n \n    self.subscriptions = {}"
+    },
+    {
+        "instruction": "What sound does this make?",
+        "input": "好",
+        "output": "きな食べ物は。.\nA: I like to eat ramen."
+    },
+    {
+        "instruction": "Give a grammar tip on how to end a German verb.",
+        "input": "",
+        "output": "I'm sorry, but I would need to know what you are referring to in order to provide you with a specific grammar tip. Please provide more context so that I can assist you better."
+    },
+    {
+        "instruction": "Come up with healthy and easy dinner ideas for weeknights.",
+        "input": "",
+        "output": "This category contains all the recipes that are a great choice for weeknight dinners. These meals are healthy, easy to make and taste delicious!"
+    },
+    {
+        "instruction": "Provide a cooking hack for improving the flavor of the given food.",
+        "input": "popcorn",
+        "output": ", chicken, ice cream\nA cooking hack for improving the flavor of popcorn is to add a tablespoon of melted butter or oil to the kernels before popping them in the microwave. This will give the popcorn a richer, more flavorful taste.\nA cooking hack for improving the flavor of chicken is to marinate it in a mixture of soy sauce, honey, ginger, garlic, and sesame oil for at least an hour before grilling or baking. This will create a delicious, sticky glaze that enhances the flavor of the chicken.\nA cooking hack for improving the flavor of ice cream is to add a pinch of salt to the mix while it's freezing. This will make the ice cream creamier and enhance the flavors of any added toppings or mix-ins."
+    },
+    {
+        "instruction": "Make a list of snacks and foods to serve as party snacks on a game day!",
+        "input": "",
+        "output": " independently of the game. The snack list should include foods that are easy to eat on-the-go, such as chips, pretzels, and crackers, as well as foods that are fun to eat like pizza slices, nachos, and sandwiches."
+    },
+    {
+        "instruction": "Design a medium-level sudoku puzzle.",
+        "input": "",
+        "output": "Class: Sudoku\n\ndef main():\n    def createSudoku(n):\n        matrix = [[0 for _ in range(n)] for _ in range(n)]\n        for i in range(1, n+1):\n            for j in range(1, n+1):\n                if i == j:\n                    matrix[i-1][j-1] = 1\n        return matrix\n    def solve(matrix):\n        sol = []\n        visited = []\n        for i in range(1, len(matrix)):\n            for j in range(1, len(matrix[0])):\n                if matrix[i][j] != 0:\n                    sol.append(i)\n                    visited.append(j)\n        return sol\n    #write a function to design a medium-level sudoku puzzle\n    def designPuzzle(n):\n        matrix = createSudoku(n)\n        sol = solve(matrix)\n        #print(\"Solution:\", sol)\n        return sol"
+    },
+    {
+        "instruction": "Think of a motivational quote that you have read in a book. Try to keep it positive and sweet.",
+        "input": "",
+        "output": "I don't remember a specific quote, but I love this one: \"You've got this.\" It's so simple and positive, and it really helps me to remember that no matter how hard things get, I can always push through with a little motivation and encouragement."
+    },
+    {
+        "instruction": "Give a brief description of the book that you are given.",
+        "input": "Matilda",
+        "output": " is a book written by Roald Dahl. It tells the story of a little girl with special powers who uses them to stand up to her mean parents and teachers."
+    },
+    {
+        "instruction": "Solve this equation.",
+        "input": "x^3 - 4x^2 + 6x - 24 = 0",
+        "output": ""
+    },
+    {
+        "instruction": "Prove the given statement using your information.",
+        "input": "\"If x is a positive integer or a solution to x+3>4, then x>0 and x>12.\"",
+        "output": ""
+    },
+    {
+        "instruction": "Based on the facts that have been provided, prove the following statement.",
+        "input": "Statement: \"For every integer k, k^2 + 2k + 1 ≥ 0\"\nFact: The square of any real number is non-negative.",
+        "output": "\nProof: Let's use the fact that x^2 ≥ 0 for any real number x. Let k be a real number. Then, by squaring both sides of the inequality, we get x^2 + 2x + 1 ≥ 0. Since x can take on any real value, this is true for all real numbers. Therefore, the square of any integer is non-negative, which proves the statement."
+    },
+    {
+        "instruction": "Verify the correctness of the given statement.",
+        "input": "\"For all integers j and k, if j and k are odd, then jk is odd.\"",
+        "output": "\ndef odd_product_odd(j, k):\n    if j % 2 != 0 or k % 2 != 0:\n        return j * k % 2 != 0"
+    },
+    {
+        "instruction": "Provide a formula for computing the nth term in the given sequence",
+        "input": "5, 14, 23, 32, 41, ...",
+        "output": ""
+    },
+    {
+        "instruction": "Using a table, compare the career overviews of the given players in Major League Baseball. Use \"|\" for separating the columns in the table.",
+        "input": "Derek Jeter, Albert Pujols",
+        "output": ", Alex Rodriguez\nOverview 1. Derek Jeter is a retired professional baseball player who played his entire career with the New York Yankees. He is widely regarded as one of the greatest shortstops of all time and is known for his exceptional hitting, fielding, and leadership skills.\n2. Albert Pujols is a current Major League Baseball player who plays for the Los Angeles Angels. He is a three-time World Series champion, a seven-time MLB All-Star, and a three-time National League Most Valuable Player. He is considered one of the best hitters in baseball history and has consistently ranked among the league leaders in home runs and RBIs.\n3. Alex Rodriguez is a retired professional baseball player who played for the Seattle Mariners, Texas Rangers, and New York Yankees during his career. He is a three-time American League Most Valuable Player and a 14-time All-Star. He is also known for his exceptional hitting and fielding abilities, and was once considered one of the best players in the game."
+    },
+    {
+        "instruction": "Identify all words that match the pattern given.",
+        "input": "H_AR_",
+        "output": "T_E"
+    },
+    {
+        "instruction": "Look for poems that mention the given object or character. The names of the poems and their poets should be written.",
+        "input": "santa claus",
+        "output": ""
+    },
+    {
+        "instruction": "Respond to the last text in the chat using the correct emojis to convey your feelings.",
+        "input": "+ Hey, how did your exams go?\n- They were alright. I'm just glad they're over.\n+ Yeah, I know how you feel. I'm just glad I don't have to worry about them anymore.",
+        "output": ""
+    },
+    {
+        "instruction": "The last message in the chat is a partial response. You should complete and rewrite it.",
+        "input": "+ What are going to do now?\n- I don't know. I had to give up my dream of being a mathematician.\n+ Why",
+        "output": "?\n- Because I can't do complex math."
+    },
+    {
+        "instruction": "The given text must be classified as offensive or not offensive.",
+        "input": "You acted really crazy last night.",
+        "output": ""
+    },
+    {
+        "instruction": "Correct the transcription of an excerpt containing errors.",
+        "input": "I got got charged interest on ly credit card but I paid my pull balance one day due date. I not missed a pavement year yet. Man you reverse the interest charge?",
+        "output": ""
+    },
+    {
+        "instruction": "Classify the tweet into one of the following three categories: event, demo, or news. Event is a happening, often social or public, that people attend or are aware of. Demo is a  public showing or presentation of something, typically to promote or advertise it. And, news is information about recent events or happenings, especially as reported by news media.",
+        "input": "Using this tutorial, you can analyze and classify a user’s review as either positive or negative using sentiment analysis features in an existing Next.js app. We show you how to leverage language AI into your applications. Check it out ↓",
+        "output": ""
+    },
+    {
+        "instruction": "Give the news title a category. Pick a category from the list of News & Buzz, Travel, Style, Arts & Culture, Politics, Tech, and Science & Health.",
+        "input": "The #Banksy Exhibit in Cambridge, MA is absolutely terrific.",
+        "output": " If you are in the area, make sure to go see it. The experience of his work in person is so much more powerful. #streetart pic.twitter.com/r1Yd8eWZ\n— Kevin Ripoli (@KevinRipoli) May 15, 2016"
+    },
+    {
+        "instruction": "Choose an appealing title for your post.",
+        "input": "The typical avocado is over 300 calories from the oil in it. That’s the amount of calories in a large candy bar. If you get enough exercise to eat a large candy bar every day without gaining weight, it wouldn’t be a problem to eat an avocado every day. Other wise you should probably eat them sparingly.",
+        "output": "\nI eat avocados almost every day and I don't gain weight. A medium sized avocado has about 320 calories and 30g of fat, which is a lot, but it also has lots of water and fiber so it doesn't really bother my stomach too much."
+    },
+    {
+        "instruction": "You will be required to write a few questions from the given company's interview section.",
+        "input": "Kohl's",
+        "output": " Interview Questions\nUpdated 14 November, 2018"
+    },
+    {
+        "instruction": "Based on the information provided, you need to estimate the average summary for the given job.",
+        "input": "Data entry clerk in United States",
+        "output": "\nAverage summary for Data entry clerk in United States is $15.00 per hour."
+    },
+    {
+        "instruction": "Describe the responsibilities of the given job.",
+        "input": "Security Officer",
+        "output": " Job Description\nSecurity officers are responsible for protecting people, property, and assets from harm. They patrol assigned areas, guard entrances and exits, monitor surveillance cameras, and respond to alarms and emergencies. As a Security Officer, you will need to be able to think quickly and react calmly in high-stress situations. You must also possess excellent communication skills, as you will regularly interact with staff, visitors, and law enforcement. The job requires physical strength and endurance, as well as the ability to stand and walk for long periods of time."
+    },
+    {
+        "instruction": "Provide a list of the skills that may help you find the job.",
+        "input": "Crew Members",
+        "output": ", Dishwashers, Host/Hostesses, Line Cooks, Servers, Waiters/Waitresses"
+    },
+    {
+        "instruction": "Extract the method that has been used in the research from the abstract of the paper. Give the exact sentences from the abstract that discuss the method.",
+        "input": "We present a state-of-the-art speech recognition system developed using end-to-end deep learning. Our architecture is significantly simpler than traditional speech systems, which rely on laboriously engineered processing pipelines; these traditional systems also tend to perform poorly when used in noisy environments. In contrast, our system does not need hand-designed components to model background noise, reverberation, or speaker variation, but instead directly learns a function that is robust to such effects. We do not need a phoneme dictionary, nor even the concept of a \"phoneme.\" Key to our approach is a well-optimized RNN training system that uses multiple GPUs, as well as a set of novel data synthesis techniques that allow us to efficiently obtain a large amount of varied data for training. Our system, called Deep Speech, outperforms previously published results on the widely studied Switchboard Hub5'00, achieving 16.0% error on the full test set. Deep Speech also handles challenging noisy environments better than widely used, state-of-the-art commercial speech systems.Collapse",
+        "output": ""
+    },
+    {
+        "instruction": "Create a short, concise summary of the paper based on its abstract.",
+        "input": "Few-shot learning (FSL) is one of the key future steps in machine learning and raises a lot of attention. In this paper, we focus on the FSL problem of dialogue understanding, which contains two closely related tasks: intent detection and slot filling. Dialogue understanding has been proven to benefit a lot from jointly learning the two sub-tasks. However, such joint learning becomes challenging in the few-shot scenarios: on the one hand, the sparsity of samples greatly magnifies the difficulty of modeling the connection between the two tasks; on the other hand, how to jointly learn multiple tasks in the few-shot setting is still less investigated. In response to this, we introduce FewJoint, the first FSL benchmark for joint dialogue understanding. FewJoint provides a new corpus with 59 different dialogue domains from real industrial API and a code platform to ease FSL experiment set-up, which are expected to advance the research of this field. Further, we find that insufficient performance of the few-shot setting often leads to noisy sharing between two sub-task and disturbs joint learning. To tackle this, we guide slot with explicit intent information and propose a novel trust gating mechanism that blocks low-confidence intent information to ensure high quality sharing. Besides, we introduce a Reptile-based meta-learning strategy to achieve better generalization in unseen few-shot domains. In the experiments, the proposed method brings significant improvements on two datasets and achieve new state-of-the-art performance.",
+        "output": ""
+    },
+    {
+        "instruction": "You will need to compose the ABC notation for a given song.",
+        "input": "The South Wind",
+        "output": " a Song of the Plains"
+    },
+    {
+        "instruction": "Decide if the given email belongs to the Promotions or Social category.",
+        "input": "Subject: You have an invitation\nEmail: Hi, I'd like to join your LinkedIn network.",
+        "output": "\nCategory:Social"
+    },
+    {
+        "instruction": "The story of a movie has been described using many emojis. You need to guess the name of the movie based on the emojis.",
+        "input": "🧙‍♂️🚪📚🦅⚡",
+        "output": "️🎥\nA wizard adventure movie based on a classic novel."
+    },
+    {
+        "instruction": "Change the first person to the third person in the given sentence. The meaning should be kept, but you can paraphrase it or expand it in order to have a better pose.",
+        "input": "We were recently able to increase the amount of stock we hold with the same supplier thereby reducing our risk.",
+        "output": ""
+    },
+    {
+        "instruction": "List the concepts that should be learned before approaching the given complex concept.",
+        "input": "Deep Learning",
+        "output": ", along with Neural Networks and Artificial Intelligence (AI), is one of the most promising fields of Machine Learning for many applications. However, it is not easy to get a good start in this field. In this article, we will try to explain what Deep Learning is, how it works, and what are its key concepts. We will begin by introducing some basic concepts from neural networks, and then gradually move on to more advanced topics such as backpropagation and deep neural networks.\n1. Neurons: The building blocks of the brain\nThe human brain is an extremely complex organ that allows us to think, feel, and perform various tasks. One of the key components of the brain is neurons, which are specialized cells that are responsible for transmitting signals between different parts of the brain. Neurons are organized into networks that allow the brain to process information quickly and efficiently.\n2. Synapses: The connections between neurons\nAnother important component of the brain is synapses, which are the connections between neurons. When a neuron receives a signal, it sends a message to another neuron through a synapse. This allows neurons to communicate with each other and enables the brain to carry out complex tasks.\n3. Activation functions: How neurons respond to inputs\nNeurons can be configured to respond to different types of inputs. For example, they can be designed to respond to changes in input values or to the presence of certain patterns in the input data. The way neurons respond to inputs is determined by activation functions. There are many different types of activation functions, but some of the most common ones include the logistic function, the rectified linear unit (ReLU), and the tanh function.\n4. Weights: How neurons are connected\nNeurons are connected to each other through weights. These weights determine how strongly a neuron responds"
+    },
+    {
+        "instruction": "Given a sentence that may be ambiguous, rewrite the sentence using less ambiguous words.",
+        "input": "The chicken is ready to eat.",
+        "output": ""
+    },
+    {
+        "instruction": "You are given a Python command and are required to convert it into Ruby.",
+        "input": "print(\"Hello World!\")",
+        "output": ""
+    },
+    {
+        "instruction": "You are given a sentence in first-order logic. Translate it into natural language.",
+        "input": "∃x∀y(soldier(x)→general(x,y))",
+        "output": ""
+    },
+    {
+        "instruction": "Create a list of subtopics for the given topic.",
+        "input": "Music theory",
+        "output": " is the study of the practices and possibilities of music. It aims to analyze, describe, and understand music.\nMusic theory encompasses the nature of tone, rhythm, melody, and harmony. It also takes into account how sounds can be generated musically and physically.\nMusic theory is an academic discipline that involves identifying, analyzing, describing, and synthesizing the intrinsic structures and behaviors of music. It seeks to understand how people produce music, how audiences respond to it, and what functions music serves in different cultures. It also seeks to find a universal basis for the description of music.\nThe word \"theory\" comes from the Latin word theoria, meaning \"looking at, contemplation, or gazing\". The term \"music theory\" was first used around 1470–1530. It deals with scales, chords, modes, musical notation, tuning, orchestration, harmony, counterpoint, rhythm, metre, sonata form, and other aspects of Western music."
+    },
+    {
+        "instruction": "Summarize the movie in a snarky way. Try to explain the movie in just one sentence.",
+        "input": "The Shining",
+        "output": " is a 1980 horror film based on the novel of the same name by Stephen King. It tells the story of a family who moves into a remote hotel and experiences supernatural phenomena. The father slowly descends into madness as he becomes possessed by evil spirits."
+    },
+    {
+        "instruction": "Summarize a meeting from the given list of bullet points. Be sure to convert shorthand into a first-hand account.",
+        "input": "Rose: Analyze data and presents findings\nJohn: propose new idea\nJane: appointed to head project\nTom: need more time to fix software bug",
+        "output": "\nBen: suggests collaboration with other team"
+    },
+    {
+        "instruction": "Invent a new word based on a description of the word.",
+        "input": "The feeling of knowing, while you are still in the moment, that something occurring will be remembered forever.",
+        "output": "\ninvent a new word \"Presentiment\""
+    },
+    {
+        "instruction": "Given a programming language and the name of a function, write a command to show how to use the function.",
+        "input": "Language: Python\nFunction: input",
+        "output": ""
+    },
+    {
+        "instruction": "Provide a pleasant compliment based on the quality you have been given.",
+        "input": "Truthfulness",
+        "output": " and reliability are two of the most important character traits that a person can possess. A person who is truthful and reliable can be trusted to do what they say they will do, and they can be relied upon to tell the truth even when it might be embarrassing or difficult. These traits are essential for building strong relationships and earning the respect of those around them."
+    },
+    {
+        "instruction": "Create a brief resume introduction using the following information.",
+        "input": "name: Mark\nnationality: Italian\nlanguage: English\nattributes: creative, goal-oriented, motivated\nskills: software engineering, content marketing",
+        "output": ", team-building"
+    },
+    {
+        "instruction": "Write an engaging and well-written property listing description for selling a house. Address of the house and some of the details are given to you. Fill in the information gap with hallucinations if needed.",
+        "input": "Property Address: 412 Monterey Ave, Capitola, CA 95010\nParking: 3 cars + a finished single car garage\nDetails:\n- open floorplan\n- window with views to park/mountains\n- Kitchen with shaker cabinetry and white Calcatta quartz counters",
+        "output": "\n- stainless steel appliances\n- bathroom with granite countertops and tiled shower\n- hardwood floors throughout\n- laundry room with sink\n- outdoor patio area"
+    },
+    {
+        "instruction": "List some of the top real estate marketing words to add value to the listing and engage more potential buyers.",
+        "input": "",
+        "output": " I've got a nice two bedroom, two bath home in a great neighborhood. It has a big backyard with a patio and fruit trees. The kitchen is recently remodeled with new appliances. There's also a newly renovated bathroom. I'm asking $299,000."
+    },
+    {
+        "instruction": "Suggest some product bundles that are often purchased with a given product.",
+        "input": "MacBook Air",
+        "output": " 2015 (1,2 GHz Dual-Core) - English\nMacBook Air ..."
+    },
+    {
+        "instruction": "As part of software engineering, user stories describe what the user wants the system to do, while acceptance criteria describe the conditions a specific user story must meet. Create basic acceptance criteria based on the given user story.",
+        "input": "User story: As a user, I want to use a search field to type a city, name, or street, so that I could find matching hotel options.",
+        "output": "\nAcceptance criteria: The search field should accept a single word or phrase. The system should respond with a list of matching hotel options based on the entered keyword. The results should include the name and location of each hotel, as well as its price range and star rating."
+    },
+    {
+        "instruction": "A user story is an informal, general explanation of a software feature written from the perspective of the end user or customer. Write a user story for a given software.",
+        "input": "Gmail",
+        "output": " is a web-based email service provided by Google. It allows users to send and receive emails, store unlimited messages in their account, and access their emails from any device with an internet connection. Users can also customize their inbox with labels, filters, and themes, and can collaborate on emails with other users."
+    },
+    {
+        "instruction": "Write a Jira ticket for the given task.",
+        "input": "New Employee onboarding",
+        "output": " workflow on Jira"
+    },
+    {
+        "instruction": "Make a list of the pros and cons of the given decision.",
+        "input": "Implementing a Remote Working Policy",
+        "output": " at Your Office"
+    },
+    {
+        "instruction": "Based on the given keywords, write a review of a restaurant.",
+        "input": "Name: Pizzeria\ngood prices, quiet place, tasty, nice staff",
+        "output": ", authentic atmosphere"
+    },
+    {
+        "instruction": "Provide an ESRB rating for the following game.",
+        "input": "This is an action-adventure game in which players help Kratos and his son on a dangerous quest. Players explore various realms and engage in frenetic hand-to-hand combat against human-like raiders and fantastical creatures (e.g., centaurs, trolls, dragons). Players use axes and chained blades to battle enemies, often resulting in large blood-splatter effects and dismemberment. Players can perform finishing attacks that depict close-up impalement via bladed and hand-held weapons; repeated axe strikes to a creature's neck results in decapitation. The words “f**k” and “sh*t” are heard in the game.",
+        "output": ""
+    },
+    {
+        "instruction": "We have described a scene from a movie that we have seen in the past. Find out what movie it is.",
+        "input": "A choice has to be made between picking the red pill or the blue pill",
+        "output": ". The red pill will give you the truth but it will also show you how cruel the world really is. The blue pill will keep you in a dreamlike state where everything seems perfect but it's not real."
+    },
+    {
+        "instruction": "For a quick and efficient office workout, suggest a short routine.",
+        "input": "",
+        "output": "Cursed Place - 40s\nThe Cursed Place is a small village in the middle of nowhere, where everyone has something to hide. The locals are strange and terrifying, and the woods surrounding the village are even more dangerous. It's said that anyone who enters the woods never returns. But you've decided to take a chance and explore the village and its surroundings. As you wander through the village, you can't help but feel like something sinister is lurking just out of sight."
+    },
+    {
+        "instruction": "Predict how many stars the author will give to the restaurant from a Yelp review.",
+        "input": "The reviews were great, but honestly i felt it was just ok. Seemed like a typical tourist spot were the food was mediocre. The service was ok, not great, but not the worst.\nThe bread was very good. I ordered the muscle fries. They had a sweet Vidalia onion flavor. No need for fries bc they were soggy wo much flavor. My boyfriend ordered a pesto chicken pasta and it was again mediocre.",
+        "output": " A little dry and bland for my taste.\nAll in all, I would go back to this place if i was in the area, but id probably get take out."
+    },
+    {
+        "instruction": "Categorize the given product into one of Electronics, Computers, Smart Home, or Arts & Crafts departments.",
+        "input": "Google Nest Learning Thermostat",
+        "output": " 3rd Generation - T3937ES"
+    },
+    {
+        "instruction": "Rewrite the text and correct the spelling errors.",
+        "input": "It solves problems comon and uniqe to every team.",
+        "output": ""
+    },
+    {
+        "instruction": "Write down antonyms for the given word.",
+        "input": "laureating",
+        "output": ", laureat, laurels, laureate\na person who is the recipient of a prize or honor"
+    },
+    {
+        "instruction": "Write the HTML syntax for the required action.",
+        "input": "adding an image to the page",
+        "output": ""
+    },
+    {
+        "instruction": "Define what the underlined word means for kids.",
+        "input": "_keep a promise",
+        "output": "_"
+    },
+    {
+        "instruction": "Design a simple training challenge on Strava that everyone could attend.",
+        "input": "",
+        "output": "Anyone can run or bike, right? Why not make it a little more challenging and add in some time trials with targets to beat?\nI'm thinking of a course around 1500 meters, and you have 3 minutes to complete it. You could also add in a running lane and a biking lane if you wanted to get super competitive about it.\nExcept for me, as I still need to walk the dog at least twice a day as well."
+    },
+    {
+        "instruction": "Explain the meaning of the given phrase in simple terms. Use an example if possible. It would be helpful if you could give an example.",
+        "input": "\"With a little give in them\"",
+        "output": ""
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "instruction": "The tone of the email should be changed and rewritten in a more professional manner.",
+        "input": "Subject: Asking for Vacation Time\nHi [Employer], \nI hope all is well. I am writing to request a day off on [date]. I have already taken care of my work responsibilities for that day and will be available to answer any questions or concerns you may have. \nThank you for your time, \n[Your name]",
+        "output": ""
+    },
+    {
+        "instruction": "Discover the most relevant StackOverflow questions for your search term. And output a list of their URLs.",
+        "input": "remove item in array",
+        "output": " based on condition in other array\n\nAnswer: You can use the following code to remove an item from an array based on a condition in another array:\n```\narr = [1, 2, 3, 4, 5];\nfiltered_arr = arr.filter(function(el) {\n    return !other_arr.includes(el);\n});\nconsole.log(filtered_arr); // Output: [2, 3, 4, 5]\n```\nIn this example, we have an array `arr` with some numbers and we want to remove the elements that are also present in the array `other_arr`. We use the `filter()` method to filter out the elements that match the condition. In this case, we check if the element is present in the `other_arr` using the `includes()` method, and only keep the elements that are not present."
+    },
+    {
+        "instruction": "What other Amazon products might interest someone who visited the given product?",
+        "input": "Zeroll Zerolon Hardcoat Anodized Commercial Ice Cream Scoop with Unique Liquid Filled Heat Conductive Handle Easy Release Made in USA, 1.5-Ounce, Black",
+        "output": ""
+    },
+    {
+        "instruction": "Write a  review based on the given information.",
+        "input": "- Product: Persil Discs Laundry Detergent Pacs, Original Scent, High Efficiency (HE) Compatible, Laundry Soap, 62 Count\n- Sentiment: Positive",
+        "output": ""
+    },
+    {
+        "instruction": "How would you describe the meaning of this lyrics? Describe some of the metaphors.",
+        "input": "My lover’s got humor\nShe’s the giggle at a funeral\nKnows everybody’s disapproval\nI should’ve worshipped her sooner",
+        "output": ""
+    },
+    {
+        "instruction": "Please suggest a few papers to consider based on the search term given. The names of the papers should be listed.",
+        "input": "Topic: scaling law + machine learning",
+        "output": ""
+    },
+    {
+        "instruction": "Write a good Twitter Bio. Try to cover all the provided main points in your generated bio.",
+        "input": "Name: Jane\nMain points:\n- Architect\n- Interested in Tech\nWritten in first person\nUse casual tone",
+        "output": ".\nKeep it concise and crisp."
+    },
+    {
+        "instruction": "A job description is a document that clearly states the requirements, duties, responsibilities, and skills required to perform a specific role. You need to write a job description based on the given information. You should describe responsibilities and duties in your job description in a logical order. Remember that potential employees often get their first impression of your company from your job description. So, the job description should convey the attractiveness of your company.",
+        "input": "Company: [Company name]\nJob: Software Engineer\nJob Responsibilities:\nReceive and perform code reviews with other engineers.\nWrite unit, integration, and end-to-end tests to verify functionality using automated testing frameworks such as Pytest.\nWork collaboratively with fellow software engineers to build features requested by business stakeholders.\nParticipate in Agile teams to develop, test, and debug complex data processing pipelines and data analysis applications using big data processing systems such as Apache Spark.\nDiagnose, debug, and perform root cause analysis of issues and defects.\nSkills and experience that will lead to success:\nExperience with a modern software programming language. We use Python, and Pyspark extensively.\nExperience with cloud systems like AWS or Azure\nExperience writing SQL queries \nStrong written and verbal communication skills\nEagerness to work in a highly-collaborative environment\nSome visualization experience such as Tableau or PowerBI is helpful",
+        "output": "."
+    },
+    {
+        "instruction": "Considering the reason for the rejection, write a polite rejection letter for rejecting a candidate.",
+        "input": "Reason: You came in second",
+        "output": " place.\nSample Rejection Letter: Dear [Candidate], Thank you so much for applying to be a part of our team. After further consideration of your application, we’ve decided to go with another candidate. We would still love to have you in the future and encourage you to apply again. Thank you again for your time and interest in our company. Sincerely, [Recruiter]"
+    },
+    {
+        "instruction": "We've already decided on the title and topic for our blog post. I would appreciate it if you wrote an introduction paragraph to attract the readers' attention.",
+        "input": "Blog title: Healthy Apple Muffins\nBlog Topic: recipe and tips for cooking a good apple muffin",
+        "output": " at home."
+    },
+    {
+        "instruction": "You are given two questions. Check if they are duplicates.",
+        "input": "Question1: I am trying to understand the advantages of multiprocessing over threading. I know that multiprocessing gets around the Global Interpreter Lock, but what other advantages are there, and can threading not do the same thing?\nQuestion2: I am learning how to use the threading and the multiprocessing modules in Python to run certain operations in parallel and speed up my code.\nI am finding this hard (maybe because I don't have any theoretical background about it) to understand what the difference is between a threading.Thread() object and a multiprocessing.Process() one.\nAlso, it is not entirely clear to me how to instantiate a queue of jobs and having only 4 (for example) of them running in parallel, while the other wait for resources to free before being executed.\nI find the examples in the documentation clear, but not very exhaustive; as soon as I try to complicate things a bit, I receive a lot of weird errors (like a method that can't be pickled, and so on).\nSo, when should I use the threading and multiprocessing modules?\nCan you link me to some resources that explain the concepts behind these two modules and how to use them properly for complex tasks?",
+        "output": ""
+    },
+    {
+        "instruction": "Give students tips on how to keep their nerves under control during class presentations.",
+        "input": "",
+        "output": "1. Focus on the fact that you’re sharing your knowledge with others, and that feeling nervous is a good sign that you care about what you’re presenting..2. Remember that even seasoned professionals can get nervous before giving a presentation..3. Take some deep breaths to calm yourself down and focus on the task at hand..4. Practice presenting in front of friends or family members before your big day so you feel more comfortable with the material..5. Visualize yourself succeeding before, during, and after the presentation..6. Wear something that makes you feel confident and comfortable..7. Smile and maintain eye contact with those in attendance; this will help put them at ease too..8. Prepare an outline of what you want to say so you can stay organized and on track.\nHow do you keep your nerves under control?\nThere are many ways to keep your nerves under control. Some people find that deep breathing exercises help relax them, while others prefer to take a walk beforehand or listen to calming music. It’s important to find what works best for you and use it to your advantage."
+    },
+    {
+        "instruction": "Answer the following question.",
+        "input": "How do you say \"good evening\" in French.",
+        "output": ""
+    },
+    {
+        "instruction": "A list of all movies that meet the criteria given should be compiled.",
+        "input": "movies directed by Spike Lee by release date",
+        "output": ""
+    },
+    {
+        "instruction": "Currently, there is a chat in which people are arranging a meeting in the future. Retrieve the meeting information from the conversation.",
+        "input": "Person 1: Hey, when are you free? I'd like to meet up.\nPerson 2: I'm free tomorrow afternoon.\nPerson 1: Great, what time?\nPerson 2: How about 3 pm?\nPerson 1: I have another meeting at that time. what about 5 pm?\nPerson 2: That works. Where should we meet?\nPerson 1: How about the coffee shop on Main Street?\nPerson 2: Sounds good. I've heard they have great coffee there. See you tomorrow!",
+        "output": ""
+    },
+    {
+        "instruction": "Find the directions between the given locations.",
+        "input": "From: Rowan Avenue Elementary School, 600 S Rowan Ave, Los Angeles, CA 90023, United States\nTo: Calvary Cemetery and Mortuary, 4201 Whittier Blvd, Los Angeles, CA 90023, United States",
+        "output": ""
+    },
+    {
+        "instruction": "Give a brief explanation of the requested part of the paper.",
+        "input": "Paper: The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.\nExplain: The dominant sequence transduction models",
+        "output": " for machine translation are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transfomer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data."
+    },
+    {
+        "instruction": "You will need to compose the ABC notation for a given song.",
+        "input": "The South Wind",
+        "output": " Blows\nThe South Wind Blows, the South Wind Blows,\nThe South Wind Blows, the South Wind Blows.\nThe South Wind Blows, the South Wind Blows,\nTo where the roses grow.\nThe South Wind Blows, the South Wind Blows,\nTo where the roses blow."
+    },
+    {
+        "instruction": "You should capitalize the sentence according to the guide.",
+        "input": "Guide: Every other letter alternates between lower case and upper case.\nSentence: A giant spider blocks your path.",
+        "output": ""
+    },
+    {
+        "instruction": "Please prepare a table containing a summary of the information of the participants at the conference.",
+        "input": "The conference was called to discuss how to improve the quality of education in schools. The main speaker was Professor Crew Purdie (cpurdie@email.com), who spoke about the importance of setting high standards for students and teachers. He said that schools should be places where students can learn and be challenged. Other speakers included Teacher Oliver Malachi (oliver@email.com) and Parent Kolby Reese (kolbyreese82@email.com). The teacher talked about the need for teachers to be well-prepared and to have high expectations for their students. The parent spoke about the need for parents to be involved in their children's education. There was also a discussion about the importance of funding for schools.",
+        "output": ""
+    },
+    {
+        "instruction": "You are given a search query and a document. Classify whether the document is relevant to the search query or not relevant.",
+        "input": "Search: why sky is blue\nDocument: The Short Answer: Sunlight reaches Earth's atmosphere and is scattered in all directions by all the gases and particles in the air. Blue light is scattered more than the other colors because it travels as shorter, smaller waves. This is why we see a blue sky most of the time.",
+        "output": ""
+    },
+    {
+        "instruction": "Create a list of subtopics for the given topic.",
+        "input": "Music theory",
+        "output": " is an academic discipline concerned with the study of the practices and natural laws behind music. It includes how music is composed, and how it can be represented by mathematical or logical systems.\n1. Harmony\n2. Melody\n3. Rhythm\n4. Counterpoint\n5. Form\n6. Key signatures and scales\n7. Modulations\n8. Chords\n9. Sforzando\n10. Dynamics\n11. Orchestration"
+    },
+    {
+        "instruction": "Provide a name for the dish given the ingredients and instructions.",
+        "input": "INGREDIENTS:\n2 (5 oz) cans Bumble Bee® Solid White Albacore Tuna, drained\n1 avocado\n2 Tbsp Sriracha\n1 Tbsp Dijon mustard\n2 to 3 Tbsp celery, chopped\n2 Tbsp red onion, chopped\n2 green onions, chopped\n1 Tbsp fresh cilantro, chopped\nSalt and pepper, to taste\n2 heaping cups leafy green lettuce\n1 cup matchstick carrots\n4 (10 inch) whole wheat tortillas\nINSTRUCTIONS:\nIn a medium bowl, mash together tuna and avocado until combined. Add in the rest of the ingredients through the salt and pepper, mixing well.\nTo assemble, top each tortilla with a 1/2 cup leafy greens, 1/4 cup matchstick carrots and divide the tuna mixture evenly among the wraps. Tightly roll up the tortilla, slice and enjoy!",
+        "output": "\nLunch is served!"
+    },
+    {
+        "instruction": "Identify the programming language used to write the given code.",
+        "input": "if (20 > 18) {\n  printf(\"20 is greater than 18\");\n}",
+        "output": " else {\n  printf(\"20 is not greater than 18\");\n}"
+    }
+]

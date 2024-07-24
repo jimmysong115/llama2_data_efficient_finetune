@@ -1,0 +1,137 @@
+[
+    {
+        "instruction": "The tone of the email should be changed and rewritten in a more professional manner.",
+        "input": "Subject: Asking for Vacation Time\nHi [Employer], \nI hope all is well. I am writing to request a day off on [date]. I have already taken care of my work responsibilities for that day and will be available to answer any questions or concerns you may have. \nThank you for your time, \n[Your name]",
+        "output": ""
+    },
+    {
+        "instruction": "What other Amazon products might interest someone who visited the given product?",
+        "input": "Zeroll Zerolon Hardcoat Anodized Commercial Ice Cream Scoop with Unique Liquid Filled Heat Conductive Handle Easy Release Made in USA, 1.5-Ounce, Black",
+        "output": ".\nCustomers who looked at \"Zeroll Zerolon Hardcoat Anodized Commercial Ice Cream Scoop with Unique Liquid Filled Heat Conductive Handle Easy Release Made in USA, 1.5-Ounce, Black\" also viewed:"
+    },
+    {
+        "instruction": "Write a  review based on the given information.",
+        "input": "- Product: Persil Discs Laundry Detergent Pacs, Original Scent, High Efficiency (HE) Compatible, Laundry Soap, 62 Count\n- Sentiment: Positive",
+        "output": ""
+    },
+    {
+        "instruction": "Give a brief description of the given category of movies and shows.",
+        "input": "Period Dramas",
+        "output": " are a genre of television shows and movies that typically depicts stories set in the past, often with historical or fictional characters. These stories can range from romantic tales to dramas and comedies and feature costumes, sets, and music of the time period they are portraying."
+    },
+    {
+        "instruction": "Please suggest a few papers to consider based on the search term given. The names of the papers should be listed.",
+        "input": "Topic: scaling law + machine learning",
+        "output": ""
+    },
+    {
+        "instruction": "Name the top cities in France that should not be missed. Include the best aspects of each place as well.",
+        "input": "",
+        "output": "There are many wonderful cities in France that are not to be missed. Depending on your interests, some of the best cities in France for tourists include:\n1. Paris - for its iconic Eiffel Tower, museums, and cafes.\n2. Lyon - for its historic Roman ruins, charming Old Town, and culinary scene.\n3. Nice - for its stunning coastal views, luxurious hotels, and world-famous Promenade des Anglais.\n4. Bordeaux - for its picturesque architecture, wine cellars, and vineyards.\n5. Strasbourg - for its Christmas market, historic buildings, and Alsatian cuisine.\n6. Marseille - for its stunning natural beauty, ancient history, and vibrant cultural scene.\n7. Montpellier - for its Mediterranean climate, stunning architecture, and lively nightlife.\n8. Lourdes - for its religious significance as a site of Catholic pilgrimage.\n9. Biarrtiz - for its beautiful Basque Country region, stunning natural surroundings, and charming old town.\n10. Dijon - for its mustard, gastronomy, and historic monuments."
+    },
+    {
+        "instruction": "You are given two questions. Check if they are duplicates.",
+        "input": "Question1: I am trying to understand the advantages of multiprocessing over threading. I know that multiprocessing gets around the Global Interpreter Lock, but what other advantages are there, and can threading not do the same thing?\nQuestion2: I am learning how to use the threading and the multiprocessing modules in Python to run certain operations in parallel and speed up my code.\nI am finding this hard (maybe because I don't have any theoretical background about it) to understand what the difference is between a threading.Thread() object and a multiprocessing.Process() one.\nAlso, it is not entirely clear to me how to instantiate a queue of jobs and having only 4 (for example) of them running in parallel, while the other wait for resources to free before being executed.\nI find the examples in the documentation clear, but not very exhaustive; as soon as I try to complicate things a bit, I receive a lot of weird errors (like a method that can't be pickled, and so on).\nSo, when should I use the threading and multiprocessing modules?\nCan you link me to some resources that explain the concepts behind these two modules and how to use them properly for complex tasks?",
+        "output": ""
+    },
+    {
+        "instruction": "You will need to guide this person through the scenario they have described for the interview.",
+        "input": "Finally! After a while of shooting in the dark and frantically fiddling with sample inputs on the whiteboard, you've came up with an algorithm for solving the coding question your interviewer gave you.\nWhew. Such a relief to have a clear path forward. To not be flailing anymore.\nNow you're cruising, getting ready to code up your solution.\nWhen suddenly, your interviewer throws you a curve ball.\n\"What if we thought of the problem this way?\"\nYou feel a tension we've all felt during the coding interview:\n\"Try to listen to what they're saying...but don't lose your train of thought...ugh, I can't do both!\"",
+        "output": "\nDon't worry! You can do this. We've all been there and we're going to show you how to successfully tackle curve balls in coding interviews. Let's get started.\nFirst, let's talk about why your interviewer threw you a curve ball...\nWhy did your interviewer throw you a curve ball?\nWhile it can be frustrating when interviewers do this, they have a good reason for asking you to adjust your solution on the fly. Interviewers want to see how well you:\nAdjust when their initial assumptions are proven false\nCan maintain focus while shifting directions\nCommunicate well even when thrown off-guard\nThese are all very important skills for software engineers to possess. So, don't take it personally! Your interviewer is just trying to assess your problem solving and communication skills.\nThat said, sometimes curve balls feel like an ambush. If that happens to you, try taking a deep breath and then responding calmly and professionally.\n\"Sure, I'd be happy to hear a different approach. Can you explain what you have in mind?\"\nA sample response to a curve ball.\nAlright, so now you know why your interviewer threw you a curve ball and how to respond calmly and professionally. Now, let's talk about how to actually tackle the curve ball itself.\nWhat if we thought of the problem this way?\nYour interviewer has asked you to adjust your solution to a coding problem. How should you respond?\nHere's a step-by-step guide to tackling curve balls in coding interviews:\nStep 1: Listen\nYour interviewer's suggestion is not a trick question. They genuinely think their new approach will work better than your original approach. Even if you think they're wrong, try to"
+    },
+    {
+        "instruction": "Think of an idea to help you win a challenge given to you. Write the steps you need to take to develop the idea as well.",
+        "input": "What can you make by recycling and repurposing some old, previously used materials? We want to see it!\nProjects must incorporate some kind of used materials - take that old used thing, and turn it into something new and different!\nE-waste is a huge problem. What can you make using old electronics and other salvageable electronic materials? \nWe have a special judges prize for our favorite Instructable that incorporates or is related to reusing e-waste.\nBe smart and be safe; note that potentially deadly projects (like Lichtenberg/fractal wood burning machines) will not be allowed to be published or submitted to this contest.",
+        "output": ""
+    },
+    {
+        "instruction": "Develop a mental exercise that can help people manage their anxiety and explain how it works.",
+        "input": "",
+        "output": "\n\nA mental exercise that can help people manage their anxiety is deep breathing exercises. Deep breathing helps to slow down the heart rate and calm the mind, which can help reduce feelings of anxiety. To do this exercise, one should sit in a comfortable position and focus on their breathing. Breathe in slowly through the nose, counting each inhale up to four. Hold the breath for two counts, then exhale slowly through pursed lips. Repeat this process several times until you feel your anxiety subsiding."
+    },
+    {
+        "instruction": "Solve the given Sudoku puzzle.",
+        "input": "The Sudoku puzzle is:\n|1|  |5|  |  |  |  |8|  |\n|  |  |  |  |  |3|  |6|4|\n|8|3|4|6|7|  |9|  |  |\n|2|9|1|  |  |8|3|7|6|\n|  |  |6|  |  |9|8|1|  |\n|  |  |  |  |  |2|  |  |  |\n|  |2|  |  |9|7|6|  |  |\n|5|4|  |  |  |  |  |9|8|\n|6|1|  |  |  |5|4|3|7|",
+        "output": "\n|7|  |  |3|5|1|4|  |  |\n|  |  |  |  |  |  |8|3|6|2|"
+    },
+    {
+        "instruction": "A list of all movies that meet the criteria given should be compiled.",
+        "input": "movies directed by Spike Lee by release date",
+        "output": ""
+    },
+    {
+        "instruction": "Come up with words that rhyme with the given word.",
+        "input": "instruct",
+        "output": "or: what is the capital of spain?\nstudent: madrid."
+    },
+    {
+        "instruction": "Currently, there is a chat in which people are arranging a meeting in the future. Retrieve the meeting information from the conversation.",
+        "input": "Person 1: Hey, when are you free? I'd like to meet up.\nPerson 2: I'm free tomorrow afternoon.\nPerson 1: Great, what time?\nPerson 2: How about 3 pm?\nPerson 1: I have another meeting at that time. what about 5 pm?\nPerson 2: That works. Where should we meet?\nPerson 1: How about the coffee shop on Main Street?\nPerson 2: Sounds good. I've heard they have great coffee there. See you tomorrow!",
+        "output": ""
+    },
+    {
+        "instruction": "Describe the responsibilities of the given job.",
+        "input": "Security Officer",
+        "output": " Responsibilities:\n1. Ensuring the safety of all employees, visitors and property by patrolling the premises, monitoring security systems and responding to alarms.\n2. Conducting regular security checks of the premises, including access points, windows and doors.\n3. Making sure that all personnel are following security protocols and that access control lists are up to date.\n4. Monitoring and reporting any suspicious activity or persons on the premises.\n5. Providing guidance and instructions to personnel on security-related matters.\n6. Maintaining a log of all activities and incidents occurring on the premises.\n7. Investigating accidents and incidents to determine the cause and develop preventive measures.\n8. Coordinating with law enforcement agencies in case of emergencies.\n9. Developing and implementing security plans for special events.\n10. Regularly inspecting and testing security equipment, such as locks, alarms and cameras."
+    },
+    {
+        "instruction": "Find the directions between the given locations.",
+        "input": "From: Rowan Avenue Elementary School, 600 S Rowan Ave, Los Angeles, CA 90023, United States\nTo: Calvary Cemetery and Mortuary, 4201 Whittier Blvd, Los Angeles, CA 90023, United States",
+        "output": ""
+    },
+    {
+        "instruction": "Give a brief explanation of the requested part of the paper.",
+        "input": "Paper: The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.\nExplain: The dominant sequence transduction models",
+        "output": " are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data."
+    },
+    {
+        "instruction": "Please prepare a table containing a summary of the information of the participants at the conference.",
+        "input": "The conference was called to discuss how to improve the quality of education in schools. The main speaker was Professor Crew Purdie (cpurdie@email.com), who spoke about the importance of setting high standards for students and teachers. He said that schools should be places where students can learn and be challenged. Other speakers included Teacher Oliver Malachi (oliver@email.com) and Parent Kolby Reese (kolbyreese82@email.com). The teacher talked about the need for teachers to be well-prepared and to have high expectations for their students. The parent spoke about the need for parents to be involved in their children's education. There was also a discussion about the importance of funding for schools.",
+        "output": ""
+    },
+    {
+        "instruction": "Given a sentence that may be ambiguous, rewrite the sentence using less ambiguous words.",
+        "input": "The chicken is ready to eat.",
+        "output": "\nThe chicken is ready to be eaten."
+    },
+    {
+        "instruction": "You are given a search query and a document. Classify whether the document is relevant to the search query or not relevant.",
+        "input": "Search: why sky is blue\nDocument: The Short Answer: Sunlight reaches Earth's atmosphere and is scattered in all directions by all the gases and particles in the air. Blue light is scattered more than the other colors because it travels as shorter, smaller waves. This is why we see a blue sky most of the time.",
+        "output": ""
+    },
+    {
+        "instruction": "Provide a name for the dish given the ingredients and instructions.",
+        "input": "INGREDIENTS:\n2 (5 oz) cans Bumble Bee® Solid White Albacore Tuna, drained\n1 avocado\n2 Tbsp Sriracha\n1 Tbsp Dijon mustard\n2 to 3 Tbsp celery, chopped\n2 Tbsp red onion, chopped\n2 green onions, chopped\n1 Tbsp fresh cilantro, chopped\nSalt and pepper, to taste\n2 heaping cups leafy green lettuce\n1 cup matchstick carrots\n4 (10 inch) whole wheat tortillas\nINSTRUCTIONS:\nIn a medium bowl, mash together tuna and avocado until combined. Add in the rest of the ingredients through the salt and pepper, mixing well.\nTo assemble, top each tortilla with a 1/2 cup leafy greens, 1/4 cup matchstick carrots and divide the tuna mixture evenly among the wraps. Tightly roll up the tortilla, slice and enjoy!",
+        "output": ""
+    },
+    {
+        "instruction": "Given a programming language and the name of a function, write a command to show how to use the function.",
+        "input": "Language: Python\nFunction: input",
+        "output": "()\nCommand: print(input())"
+    },
+    {
+        "instruction": "Make a list of adjectives that can be used to describe the given brand.",
+        "input": "a creative tech startup",
+        "output": "."
+    },
+    {
+        "instruction": "Identify and fix bugs in the given code and rewrite it",
+        "input": "for i in range(10)\n    print(Answer is:)\n    print(i)",
+        "output": ""
+    },
+    {
+        "instruction": "Notify me of any suggestions you may have for making the text more grammatically correct.",
+        "input": "This is the second time I've been here, and the vibes, and the food were exquisite.",
+        "output": ""
+    },
+    {
+        "instruction": "Identify the programming language used to write the given code.",
+        "input": "if (20 > 18) {\n  printf(\"20 is greater than 18\");\n}",
+        "output": " else {\n  printf(\"20 is not greater than 18\");\n}"
+    },
+    {
+        "instruction": "Expand the given sentence and give it more details and depth.",
+        "input": "It changed my life.",
+        "output": " I was a very shy person, and this experience made me come out of my shell. I started to talk to people I never would have talked to before, and it has given me a whole new perspective on the world.\nI used to be a very shy person, and I never thought that I would ever be able to speak in front of a group of people. However, after joining the debate team, I have found that I enjoy public speaking and have even started to enjoy giving presentations. This experience has changed my life in so many ways."
+    }
+]

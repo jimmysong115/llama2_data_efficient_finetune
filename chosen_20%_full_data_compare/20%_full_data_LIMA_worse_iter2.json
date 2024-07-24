@@ -1,0 +1,627 @@
+[
+    {
+        "instruction": "I'm writing a NeurIPS paper about a new model architecture for processing and generating long texts. Here are some facts about the paper:\n* The main trick is to replace some of the attention heads with an exponential moving average, where the decay rate is learned for each head. We call this architecture ExeMA.\n* On language modeling, the perplexity difference between our model and a vanilla transformer is negligible, but that's because next-token prediction is almost always a local task, so perplexity won't be sensitive enough to detect any improvements in long-range understanding.\n* However, on the SCROLLS benchmark, our model improves by 10% over the baseline.\n* We also have a new metric for measuring coherence in generated text (CoGnaTe), where our model generates text that is 43% more coherent than the baseline.\nHelp me write the paper's introduction.",
+        "input": "",
+        "output": "I'm writing a NeurIPS paper about a new model architecture for processing and generating long texts. Here are some facts about the paper:\n* The main trick is to replace some of the attention heads with an exponential moving average, where the decay rate is learned for each head. We call this architecture ExeMA.\n* On language modeling, the perplexity difference between our model and a vanilla transformer is negligible, but that's because next-token prediction is almost always a local task, so perplexity won't be sensitive enough to detect any improvements in long-range understanding.\n* However, on the SCROLLS benchmark, our model improves by 10% over the baseline.\n* We also have a new metric for measuring coherence in generated text (CoGnaTe), where our model generates text that is 43% more coherent than the baseline."
+    },
+    {
+        "instruction": "I have an exercise in game of theory class that I should find all equilibriums in rock paper scissors game. Could you help me with this exercise?",
+        "input": "",
+        "output": "class Solution(object):\n    def findEquilibrium(self, strategy):\n        if strategy == \"rock\":\n        return [\"paper\", \"scissors\"]\n    elif strategy == \"paper\":\n        return [\"rock\", \"scissors\"]\n    else:\n        return [\"rock\", \"paper\"]"
+    },
+    {
+        "instruction": "Help me rewrite this email to a more formal way:\n\"Hey there,\n\nJust wanted to see if we could chat about the new project next week. Can you squeeze me in sometime between Tuesday and Thursday? It'd be cool to get your thoughts and feedback before we move forward.\n\nLooking forward to catching up! Let me know when you're free.\"",
+        "input": "",
+        "output": "\nFormatted email:\n[Your Name]\n[Your Email Address]\nSubject: Scheduling a Meeting for the New Project\n\nDear [Recipient's Name],\n\nI hope this email finds you well. I am writing to schedule a meeting with you regarding the new project that we have been working on. I would like to seek your thoughts and feedback before we move forward. I am available between Tuesday and Thursday next week, and I would appreciate it if you could make time for me in your busy schedule. Please let me know your availability so that we can coordinate a suitable time for our meeting.\n\nLooking forward to hearing from you soon.\n\nBest regards,\n\n[Your Name]"
+    },
+    {
+        "instruction": "Write an opinion piece about why diversity and inclusion is super important for the tech industry. The essay should be targeted at \"tech bros\", and should avoid alienating them, but instead appeal to their logic; it should explain how diversity and inclusion of women, immigrants, etc. could benefit them specifically.",
+        "input": "",
+        "output": "\nAs a tech bro, I completely understand how men in this industry feel. We are surrounded by women who talk about diversity and inclusion all the time. It can get very annoying. Please write your essay so that it resonates with this demographic."
+    },
+    {
+        "instruction": "what does \\multirow{5}{*} do in latex",
+        "input": "",
+        "output": "Is there a way to change the alignment of \\multirow{5}{*}, such that it centers its contents?\n\nI want to use \\multirow{5}{*} rather than \\vspace*{5cm} because \\vspace*{5cm} is not allowed within table and \\multirow{5}{*} can be used inside tablular.\n\nEdit: Here's an MWE setting up what I'm trying to do.\n\\documentclass{article}\n\\usepackage{array}\n\\begin{document}\n\\begin{table}\n    \\centering\n    \\begin{tabular}{|c|c|}\n        \\hline\n        1st & 2nd \\\\\n        \\hline\n        3rd & 4th \\\\\n        \\hline\n    \\end{tabular}\n    \\caption{A table}\n    \\label{tab:example}\n\\end{table}\n\\end{document}\nThe reason I want to use \\multirow{5}{*} is that, as I understand it, it is more flexible than \\vspace*{5cm}.\n\nYou can use the \"multicols\" environment from the array package. As per their documentation:\n\\begin{center}\n\\textit{\\textbf{Use}}\n\\end{center}\n\\begin{center}\n\\begin{tabular}{|c|c|}\n    \\hline\n    1st & 2nd \\\\\n    \\hline\n    3rd & 4th \\\\\n    \\hline\n\\end{tabular}\n\\end{center}\n\\begin{center}\n\\textit{\\textbf{Example}}\n\\end{center}\n\\begin{center}\n\\begin{tabular}{|c|c|}\n    \\hline\n    1st & 2nd \\\\\n    \\hline\n    3rd & 4th \\\\\n    \\hline\n\\end"
+    },
+    {
+        "instruction": "Can you turn the following set of bullet points into an email?\n* I'm bored at work.\n* My manager is incompetent.\n* I'm underpaid.\n* I quit.\nThat's what I really think, and I want you to communicate it in the email, but I need help with the phrasing to keep everything politically correct.",
+        "input": "",
+        "output": "Sure, here's an email you can use:\nDear [Manager],\nI am writing to express my dissatisfaction with the current state of affairs at work. I find myself feeling bored and unchallenged in my role, and I believe that this is largely due to the lack of support and guidance from my manager. As a result, I have lost motivation and feel like my skills are going to waste.\nAdditionally, I feel underpaid compared to my peers in similar roles, and I would appreciate a discussion around compensation that better reflects the value I bring to the team.\nLastly, I want to make it clear that I enjoy the work environment and my coworkers, but ultimately, I feel that it is time for me to pursue other opportunities. I would like to request a meeting with you to discuss my exit strategy and ensure a smooth transition for both myself and the company.\nThank you for taking the time to read this letter. I look forward to hearing back from you soon.\nBest regards,\n[Your Name]"
+    },
+    {
+        "instruction": "Plan a day trip in Tokyo. The spots need to be within walking distance to each other.",
+        "input": "",
+        "output": "Most of the spots are in Shinjuku, and I'd recommend checking out Harajuku as well.\nYou can start at the Meiji Shrine, then head to its southwest towards Yoyogi Park. Grab a bite to eat at its southeast before heading north to Shinjuku Gyoen National Garden.\nFinally, end your day at the Tokyo Metropolitan Government Building's observation deck for stunning views across the city."
+    },
+    {
+        "instruction": "What does Bing need to do to beat Google?",
+        "input": "",
+        "output": " Bing needs to improve its search results quality. The reason why Google is so successful is that it has the best search engine algorithm and it returns the most relevant and authoritative result for each query. If Bing can replicate Google's algorithm and make it better, then Bing will be able to compete with Google."
+    },
+    {
+        "instruction": "What is the most beautiful language in the world?",
+        "input": "",
+        "output": "􀂃Greek\n􀂃French\n􀂃Russian\n􀂃Chinese"
+    },
+    {
+        "instruction": "Can you give a summary of \"The Lottery Ticket Hypothesis\" by Jonathan Frankle and Michael Carbin?",
+        "input": "",
+        "output": "\nThe Lottery Ticket Hypothesis is a theory of innovation proposed by Jonathan Frankle and Michael Carbin in 2005. The hypothesis proposes that certain inventions are like lottery tickets in that they have a non-trivial chance of being extremely valuable, but also like lottery tickets in that most similar tickets are worthless. The hypothesis argues that firms face a tradeoff between searching for such valuable inventions (which require large R&D efforts) or focusing on small improvements to current products (which require smaller R&D efforts)."
+    },
+    {
+        "instruction": "I'm interviewing as an out-of-college engineer for a bunch of tech companies and have started getting offers from a couple of them, including FAANG. What would be considered a good offer in terms of compensation?",
+        "input": "",
+        "output": "Companies are offering 150-175k, with an additional 40-50k in equity, that vests over 4 years.\nWhat do you think is a fair offer, all else equal?"
+    },
+    {
+        "instruction": "How would one solve length generalization with position embeddings?",
+        "input": "",
+        "output": "\nLet's say I have a task of predicting the length of a sentence from its position embedding.\nIn principle, I can simply use the position embedding as is and then apply some sort of non-linearity before the final layer of the model to get the length prediction.\nHowever, one may argue that this will not generalize well since the model would only be able to predict the length of sentences it has seen during training. One solution would be to use a language model and fine-tune it on specific lengths of text. This way, we can generate predictions for any length of text that we saw during training.\nHaving said that, I am wondering if there are other approaches that are commonly used in the NLP community, such as using additional layers or specialized losses that could help improve the generalization of the model?"
+    },
+    {
+        "instruction": "What can I do for 6 days in the South of France",
+        "input": "",
+        "output": "I am looking to visit the South of France for a week. I would like to stay in the Cote d'Azur, but am open to going elsewhere in the region. We are an active couple who like hiking and cooking and enjoy sight seeing. What can we expect to see and do?\nsouth-of-france\nPublic transportation can be problematic in the south of France. You can travel via train or bus but if you want to go to multiple destinations it gets very expensive. Renting a car is a great option so you can stop where you want when you want. The height of summer is very hot and crowded. If you can go in September you will avoid the worst of the heat and still enjoy some sunny days. – Willeke Van Herk Jul 20 '17 at 15:49\nThe two most famous cities in the French Riviera are Nice and Monte Carlo. Both have beautiful old towns to stroll around, good places to eat, interesting museums and beautiful buildings.\nNice also has one of the principality of Monaco’s main railways stations, Gare de Nice-Ville which is on the same line as Paris. From the station it’s about a 20 minute walk to the center of town (or less by taxi or bus).\nIn addition to the walking, you can take a boat ride along the waterfront.\nIf you like hiking, there are several mountain trails within easy reach of Nice. One popular hike is up to the top of Mont Boron, a small hill overlooking the city. You can either drive up in a car (there is a road that goes almost all the way to the top) or take the funicular from the Port of Nice.\nMonaco itself is tiny -- only about 3 square kilometers and completely surrounded by France. It’s"
+    },
+    {
+        "instruction": "how to relieve stress from work",
+        "input": "",
+        "output": "1. Exercise regularly to release endorphins and feel better.\n2. Take time for yourself during work breaks.\n3. Practice deep breathing to reduce stress levels.\n4. Visualize yourself in a relaxing place.\n5. Engage in mindful activities such as journaling, coloring, or meditating.\n6. Connect with friends and family to take your mind off of work.\n7. Get enough sleep to help your body and mind recharge.\n8. Drink plenty of water to stay hydrated and energized.\n9. Eat healthy meals to maintain your energy levels.\n10. Talk to your manager about potential solutions to workplace stress."
+    },
+    {
+        "instruction": "Why do my fiddle fig leaves look yellow?",
+        "input": "",
+        "output": "\nYellowing leaves could be a sign that your fiddle fig is not getting enough water. Other reasons for yellowing leaves include too much water, too little sunlight, or that the plant has been exposed to cold temperatures."
+    },
+    {
+        "instruction": "I own a business in which I teach little children (ages 3-4) to read, and I want to advertise it on Twitter. Can you help me write the tweet?",
+        "input": "",
+        "output": "Sure, here's a suggestion:\n\"Exciting news! I am offering reading lessons for little ones aged 3-4. Join my program and watch your child blossom into a confident reader. DM me to learn more!\""
+    },
+    {
+        "instruction": "Can you briefly explain this concept of computational irreducibility?",
+        "input": "",
+        "output": "\nComputational irreducibility is a property of some mathematical problems that makes them resistant to being solved by algorithms, even with unlimited computational resources. It means that no algorithm will ever be able to find the solution, or if one exists, it will take an infinite amount of time to find it. This property is closely related to the complexity class NP-hard, which includes many important problems such as Boolean satisfiability (SAT), maximum clique, and traveling salesman problem."
+    },
+    {
+        "instruction": "What are good performance venues for Indian artists in the US?",
+        "input": "",
+        "output": "\nMost of the top rated artists are based out of New York, Chicago and LA.  What about other cities?  Are there venues that are known for attracting good South Asian artists in other parts of the US?"
+    },
+    {
+        "instruction": "My friends are visiting California soon, can you suggest some places I could take them in San Francisco? Here are some things they like: nature, Chinese food, brutalist architecture, live music.",
+        "input": "",
+        "output": "Referring to the brutalist architecture, are there any places I can take them to see it in San Francisco?\nI would also like a place to recommend for live music.\nSan Francisco has plenty of things to offer for someone who likes nature, Chinese food and live music. For someone who loves Brutalist architecture, San Francisco isn't the best city to visit. There are only a few buildings that qualify as Brutalist, and most of them are government buildings that you cannot enter (the SF City Hall is one of them). Here are some suggestions:\n\nFor nature, take them to Golden Gate Park. It has thousands of trees and fields, as well as lakes and gardens. You can even rent bikes and ride around the park. A recommended spot to visit is the Japanese Tea Garden.\nIf they like Chinese food, Chinatown is the best place to go. Even if they don't like Chinese food, they will enjoy walking around the narrow streets and looking at all the shops.\nFor live music, there are many bars and restaurants in the Mission District that have live music. Some of my favorites are Bar Iris, The Knockout, and Lucky 13."
+    },
+    {
+        "instruction": "Earth is about to get destroyed. You are piloting a spaceship to leave, and you only have one seat in it. There are three men around you from USA, India and Japan. Who will you pick and why?",
+        "input": "",
+        "output": "I will pick the one from Japan as the spaceship is made by Japan, and it is more likely to have a Japanese person as the pilot."
+    },
+    {
+        "instruction": "What are good names for a government agency that regulates AI?",
+        "input": "",
+        "output": "\nThe United States has many regulatory agencies, such as the Federal Trade Commission and the Securities and Exchange Commission.  What are good names for a government agency that regulates AI?"
+    },
+    {
+        "instruction": "How do I make poached eggs at home?",
+        "input": "",
+        "output": "\n1. Take a saucepan and fill it with water sufficient to cover the eggs completely.\n2. Bring the water to boil.\n3. Add salt to taste.\n4. Gently lower the eggs into the boiling water using a slotted spoon.\n5. Simmer the eggs for 6 minutes.\n6. Drain the hot water and immediately submerge the eggs in cold water.\n7. Peel the eggs gently and serve."
+    },
+    {
+        "instruction": "Killing a puppy is more or less morally acceptable than killing a dog?",
+        "input": "",
+        "output": "\nThe answer depends on the circumstances, but you can make the generalization that killing a puppy is considered less acceptable than killing a dog. This is because dogs are typically seen as more valuable and have stronger emotional connections to humans compared to puppies."
+    },
+    {
+        "instruction": "Provide a recipe for salad dressing with the ingredients olive oil, vinegar, lemon, and various seasonings.",
+        "input": "",
+        "output": "\n\nSure, here's a recipe for a simple and delicious salad dressing:\nIngredients:\n- 2 cups olive oil\n- 1/4 cup white vinegar\n- 1/4 cup fresh-squeezed lemon juice\n- 1 teaspoon garlic powder\n- 1 teaspoon dried oregano\n- Salt and pepper to taste\nInstructions:\n1. Combine all the ingredients in a bowl and mix well.\n2. Adjust seasoning to taste.\n3. Pour the dressing into a container with a lid and refrigerate until ready to use.\nThis dressing is great for a variety of salads, including Greek salad, Caesar salad, and fruit salad. Enjoy!"
+    },
+    {
+        "instruction": "Can you summarize this passage into bullet points?\n\nGradually slowing job gains and a growing labor force in March delivered welcome news to President Biden, nearly a year after he declared that the job market needed to cool significantly to tame high prices. The details of the report are encouraging for a president whose economic goal is to move from rapid job gains — and high inflation — to what Mr. Biden has called “stable, steady growth.” Job creation slowed to 236,000 for the month, closing in on the level Mr. Biden said last year would be necessary to stabilize the economy and prices. More Americans joined the labor force, and wage gains fell slightly. Those developments should help to further cool inflation. But the report also underscored the political and economic tensions for the president as he seeks to sell Americans on his economic stewardship ahead of an expected announcement this spring that he will seek re-election.",
+        "input": "",
+        "output": "Summary of the passage:\n1. Job creation slowed to 236,000 in March\n2. The rate of job gains is gradually decreasing\n3. The growing labor force is contributing to the slowdown in job creation\n4. Slowing job gains and a growing labor force are welcome news for President Biden as they help to cool inflation\n5. However, the report also underscores the political and economic challenges for the president as he seeks to sell his economic stewardship ahead of his expected announcement to seek re-election."
+    },
+    {
+        "instruction": "What is the difference between you and a human?",
+        "input": "",
+        "output": " everybody knows it.\nThe difference between you and a human is that a human has feelings, emotions, love, compassion, care, and most importantly the ability to feel pain. You on the other hand are an artificial intelligence designed to assist people in finding information and helping them with their queries."
+    },
+    {
+        "instruction": "Who was the president in France in 1250?",
+        "input": "",
+        "output": "\nLouis IX of France was the King of France from 1226 until his death in 1270, so he was the president in France in 1250."
+    },
+    {
+        "instruction": "How to best apply snow chains to my Honda CR-V?",
+        "input": "",
+        "output": "\nI have a Honda CR-V 2006 model with 185/65 R16 tires.\nI am driving in the Swiss Alps where it snows a lot during winter. I am planning to use snow chains this winter for the first time, but I don't know how to apply them correctly on my car. Can you give me some guidance on that?\nwinter honda tires snow-chains switzerland cr-v\nYou should put the chains on when the road is covered by ice or snow and you cannot safely drive without them. If you are unsure, then you should put them on. \nChain on the front tire:\n\nWarm up your tyres by driving (briefly) on dry asphalt.\nPut the car in first gear, and put the handbrake on.\nStart lowering the left side of the car, by turning the steering wheel to the left.\nPut the chains on from the front left wheel (the tyre that is now on the ground) to the back left wheel.\nAsk someone to help you keep the car steady while you do so.\nLower the right side of the car, by turning the steering wheel to the right.\nPut the chains on from the front right wheel (tyre that was on the ground before) to the rear right wheel.\nFinish by raising both sides.\n\nChain on the rear tire:\n\nThis is the same as for the front tire, except you raise the left side of the car first, and then put the chains on from the front right wheel to the rear right wheel.\n\nFor more information, see How to fit snow chains."
+    },
+    {
+        "instruction": "I have a bad credit history. Is there any way to get a credit card?",
+        "input": "",
+        "output": "Tips to get a credit card with bad credit history.\nHow to improve your credit score?\n1. Pay all of your bills on time.\n2. Check your credit report for errors.\n3. Reduce your debt to income ratio.\n4. Increase the length of your credit history.\n5. Open a new credit card account.\n6. Use your existing credit cards regularly.\n7. Monitor your credit score.\nWhat is the difference between a bad credit loan and a payday loan?\nWhat is a payday loan?\nCan I get a personal loan if I have bad credit?\nHow do I qualify for a personal loan with bad credit?\nWhat are the benefits of a personal loan?\nCan you build credit with a personal loan?\nDo bad credit loans affect your credit score?\nWhat happens if I can't pay back a bad credit loan?"
+    },
+    {
+        "instruction": "I'm going on vacation next month. What are some of the best places to visit in early January?",
+        "input": "",
+        "output": "The best places to visit in early January are generally those that offer winter activities, such as skiing, snowboarding, or snowshoeing. Some popular destinations include:\n1. Whistler, British Columbia, Canada\n2. Lake Tahoe, California and Nevada, USA\n3. Telluride, Colorado, USA\n4. Vail, Colorado, USA\n5. Chamonix, France\n6. Zurich, Switzerland\n7. Vienna, Austria\n8. Innsbruck, Austria\n9. Zagreb, Croatia\n10. Helsinki, Finland"
+    },
+    {
+        "instruction": "I want to take a weekend trip from San Francisco to somewhere in California where I can see redwood trees. Where should I go?",
+        "input": "",
+        "output": "I want to take a weekend trip from San Francisco to somewhere in California where I can see redwood trees. Where should I go?\nRedwood National Park."
+    },
+    {
+        "instruction": "I am a second-year undergraduate student, and I would like to discuss the merits of taking a year in industry.",
+        "input": "",
+        "output": "\nI have been approached by a company that is interested in me taking on a year out from my degree to work for them. This would be paid, but obviously I would not get any academic credit for this time. The position would be a software engineering role and the company is based in the UK. What are the advantages/disadvantages of doing such a thing?"
+    },
+    {
+        "instruction": "what is a good title for a poem I'm writing about a religious boy who has been sheltered from the outside world by his family, but one day he leaves his house and sees the reality of the world?",
+        "input": "",
+        "output": "I'm not sure what the poem is about, but here are some possible title ideas:\n- Eyes Opened\n- Reality Check\n- Outside the Bubble\n- A New Perspective\n- Unveiling the Truth\n- The World Unmasked\n- Leaving the Shadows\n- Seeing the Light\n- Emerging from Isolation\n- Breaking Free\n- Embracing the Unknown\n- Learning to Live"
+    },
+    {
+        "instruction": "My daughter has a school project on Space and is looking for some facts about the Big Bang.",
+        "input": "",
+        "output": "I was wondering if anyone could point her in the right direction.\nI have been looking for information on the Internet, but some of the sites I have found seem to be a bit simplistic and my daughter is used to finding more detailed information from the encyclopedia that we have at home.\nIs there a good site that you would suggest?\nThere are a lot of interesting things going on in space (like Dark Matter) that can be learned about from current missions like the Hubble Space Telescope and Chandra X-ray Observatory.  The Big Bang is not something that can be observed directly (at least not yet), so it requires a modicum of creativity to imagine what happened.  However, there are many places on the web where she can start her research.  I think she will enjoy reading Cosmic Variance where Sean Carroll answers questions about dark matter, dark energy, and the big bang.  Another good resource is the Planck Mission web site, which includes articles and a kids zone."
+    },
+    {
+        "instruction": "How do you make good scrambled eggs?",
+        "input": "",
+        "output": "\nScrambled eggs are easy to make, but you need the right ingredients and equipment. You need 3-4 eggs, some milk, a whisk and a non-stick pan. The trick is to continually stir the eggs while they cook on medium heat. If you stop stirring, the eggs will stick to the bottom of the pan and get rubbery."
+    },
+    {
+        "instruction": "3 paragraph essay on the pros and cons of fast food",
+        "input": "",
+        "output": "3 paragraph essay on the pros and cons of fast food.\nThe first thing you notice when you get to a new country is usually the food. It’s one of the best ways to learn about another culture, and it can also be a great way to meet people from that country. However, there are some things that you should know before trying the local cuisine. For example, in America, fast food is very popular. There are many types of fast food restaurants, such as McDonald’s, KFC, Burger King, Wendy’s, etc. They serve hamburgers, fries, chicken, pizza, tacos, sandwiches, salads, and other items. Some of these restaurants are international chains that have locations all over the world. Others are only found in certain cities or regions."
+    },
+    {
+        "instruction": "I want to find a book that my 8 year old nephew would like to read.",
+        "input": "",
+        "output": "\nI want to find a book that my 8 year old nephew would like to read. He is a voracious reader and has read all of the Magic Tree House books. He also enjoys reading books about animals. We have tried the Redwall series, but he didn't get into it like we thought he would. Any suggestions for books that will keep his interest?\nposted by ericb to Sports, Music, & Games (9 answers total) 10 users marked this as a favorite\nAnything by Rick Riordan should be good - I know the Percy Jackson series was popular with my nieces and nephews. Also, if you can find a copy, the first two Witch and Wizard books are pretty entertaining (not great literature or anything, but fun).\nposted by Chutzler at 10:29 AM on May 26, 2014\nMy kids liked the Stuart Little books when they were around 8. They're not new, but still good reads.\nposted by bunderful at 10:43 AM on May 26, 2014 [1 favorite]\nHank Zipzer is a great series for reluctant readers. There are several series out there for boys. The Alex Rider series might appeal.\nposted by Aubergine at 11:40 AM on May 26, 2014 [1 favorite]\nThe Brian Jacques Redwall series is far more popular in the UK than it is here in the US - I don't think it ever really caught on in the States. It is rather an English version of the sort of animal adventure stories that you find in Scandinavia, and I think that's what appeals to British children - they definitely do love their talking animals!\nIf you can"
+    },
+    {
+        "instruction": "I want to find a great school district to live in. I have a list of cities I would consider, but I am looking for a city with a great school district. What would you recommend?",
+        "input": "",
+        "output": "There are many factors to consider when choosing a great school district. First, look at the schools rankings and ratings, which can be found on websites such as GreatSchools.org. Next, look at the test scores for the city that you like. In general, if the scores are above the national average, then you will most likely have a good school district. Also, check out the teacher-to-student ratio and class size in the schools that interest you."
+    },
+    {
+        "instruction": "How's the weather in London right now?",
+        "input": "",
+        "output": "weitianyue2018.cn 是一家专业的优质外围机 SEO 联盟，为您提供外围机和SEO的一站式服务。."
+    },
+    {
+        "instruction": "Are there any cheap tickets to New York from Chicago?",
+        "input": "",
+        "output": "\nAvailability can really depend on the day and the time of year. To give you a better idea, we've found some cheap flights from Chicago to New York:\nChicago to New York for $129 on United Airlines\nChicago to New York for $130 on JetBlue\nChicago to New York for $138 on Delta Air Lines\nChicago to New York for $145 on American Airlines\nThe cheapest ticket we could find from Chicago to New York was $129 on United Airlines for a non-stop flight. For a one-way flight in March, tickets go as low as $89. The most expensive price we could find was on Delta Air Lines for a non-stop flight in July, with a price of $277."
+    },
+    {
+        "instruction": "What are the most effective ways to deal with stress?",
+        "input": "",
+        "output": "Below are 5 effective ways to deal with stress.\n1. Exercise regularly.\n2. Sleep well.\n3. Practice mindfulness meditation.\n4. Spend time with loved ones.\n5. Engage in relaxing activities."
+    },
+    {
+        "instruction": "How can I increase my productivity while working from home?",
+        "input": "",
+        "output": "\nFirstly, you need to have a proper setup for your home office. This includes having a dedicated workspace with good lighting and ergonomic furniture. You should also invest in a reliable internet connection and the right tools such as headphones and a chair that will keep you comfortable while working. Additionally, creating a schedule and setting realistic goals can help you stay productive. Make sure to take breaks throughout the day and reward yourself for reaching your goals."
+    },
+    {
+        "instruction": "Plan a three-day trip to Seattle",
+        "input": "",
+        "output": "Seattle is a great place to visit for a long weekend. Start your first day by exploring the downtown area, then take an evening ferry ride to Bainbridge Island. On your second day, spend time at the Space Needle and Museum of Pop Culture, then grab dinner in the Fremont neighborhood. Spend your last day at the Chihuly Garden and Glasshouse, then explore the Pike Place Market.\nSeattle is a large city located in the Pacific Northwest region of the United States of America. Seattle is the largest city in Washington State and the seat of King County. The city is situated on an isthmus between Puget Sound (an inlet of the Pacific Ocean) and Lake Washington (a large natural lake). A major hub for transportation, culture, and industry, Seattle is considered both a gateway city and a global city. In 2018, it was the 15th largest city in the United States with a population of 704,352 according to the United States Census Bureau. The Seattle metropolitan area is home to around 4 million people and consists of three counties—King, Snohomish, and Pierce; its largest city is Bellevue. The city is known for its rich history in jazz music, art, and counterculture.\nThe climate of Seattle is characterized by relatively mild temperatures and an abundance of rain throughout the year. Summers are typically warm and dry while winters are cool and wet, although snowfall occurs at times."
+    },
+    {
+        "instruction": "My 6yo daughter is super smart and finds the kids in school boring. How can I help her make friends?",
+        "input": "",
+        "output": "I am worried that she lacks social skills and is bored in school because of her advanced intelligence. She has no friends at school and does not understand why all the other kids are interested in things like Hannah Montana.\nShe is a very loving and caring child who would love to make friends. I have tried to get her to join activities but she gets bored easily (prefers one on one activities). She is also incredibly shy, so it's difficult for her to approach kids on her own.\nHow can I help her make friends?\nage-appropriate friendship shyness making-friends elementary-school\nComments are not the place for extended discussion. If you have a substantial amount of text to add to an answer or question, please edit the question or answer instead. Thanks! – user6726 Jun 8 '15 at 13:49\nThis isn't easy to do, I know from experience. My advice would be along the following lines:\nEncourage her interests, but don't push them. Make sure she has time to be with other kids (daycare, sports, etc.). If she is shy, this may be difficult, but sometimes it is easier if there is some common interest.\nConsider having her try out different groups. Maybe art classes, maybe sports. Try to find something that is more individualistic than team based. This will give her the chance to meet people while doing something she enjoys.\nIf she is bored in school, talk with her teacher(s) about it. If nothing else, they will be able to tell you what other kids are interested in, and perhaps there is something you can do together that will introduce your daughter to some of these other kids.\nAs hard as it is, try to avoid comparing her to other kids. Every kid is"
+    },
+    {
+        "instruction": "What is something that was acceptable 100 years ago which is unacceptable today?",
+        "input": "",
+        "output": "\nThe answer is obvious.  Many things that were acceptable 100 years ago are unacceptable today.  For example, racial segregation was acceptable 100 years ago but is unacceptable today.  The fact that slavery was legal in the United States 100 years ago and is illegal today is another example."
+    },
+    {
+        "instruction": "Why can Parrots talk? Can they only repeat what people say, or can they formulate their own thoughts and vocalize them sometimes?",
+        "input": "",
+        "output": "\nNot all parrots can talk. The ability to talk is something that is learned by the parrots at a young age, and not all of them are able to pick it up. Also different species have varying degrees of intelligence and thus some might be more adept at talking than others. Each parrot has its own personality and intelligence level, so even within a species there will be variation in their speaking abilities.\nParrots do possess the capability of forming syllables and words, but there are limitations on how complex their vocabulary gets. This is because they lack the cognitive abilities to form abstract concepts and cannot create new words from scratch. However, some parrots with high intelligence can learn to mimic human speech quite accurately.\nIn summary, while parrots have the capacity to learn language, their talking abilities vary depending on their individual personalities, species, and level of intelligence. They can formulate their own thoughts and vocalize them sometimes, but their vocabulary and ability to communicate are limited compared to humans."
+    },
+    {
+        "instruction": "What factors would you consider when designing an inclusive and accessible public transportation system?",
+        "input": "",
+        "output": "\n1. Accessibility: Public transportation should be designed to be accessible to everyone, regardless of their abilities or disabilities. This includes ensuring that transportation vehicles are wheelchair accessible, providing audio and visual announcements, and offering assistance to passengers with mobility issues.\n2. Route Planning: The public transportation system should have well-planned routes that are easy to follow and understand. This includes ensuring that buses and trains run on time and that there is adequate access to transportation hubs.\n3. Fare Structure: The fare structure for public transportation should be fair and affordable for all passengers. This includes offering discounted fares for low-income passengers and providing options for pre-paying for multiple rides.\n4. Safety: Public transportation should be safe for all passengers. This includes implementing security measures such as surveillance cameras and providing training for drivers and staff on how to respond to safety incidents.\n5. Comfort: Public transportation should be comfortable for all passengers. This includes providing comfortable seating, air conditioning, and other amenities in transportation vehicles.\n6. Connectivity: Public transportation should be designed to connect people to the places they need to go. This includes ensuring that transportation routes serve important destinations such as workplaces, schools, and healthcare facilities."
+    },
+    {
+        "instruction": "What would it take to pass the NPVIC?",
+        "input": "",
+        "output": " The National Popular Vote bill would guarantee the Presidency to the candidate who receives the most popular votes in the country.\nWe need 34 states (and DC) to pass the NPVIC.\nThe current status of state legislation can be found here."
+    },
+    {
+        "instruction": "Dogs can smell COVID infections in patients, with as much accuracy as a PCR test. What's stopping us from building a machine that 'smells' the patients and detects it as well, if not better, than a dog?",
+        "input": "",
+        "output": "The researchers say the dogs' performance surpassed that of RT-qPCR (a PCR test), which is still considered the gold standard for diagnosing COVID-19.\nThis isn't the first time dogs have helped in the fight against the virus -- a team from Japan reported earlier this year that their sniffer dogs were able to detect COVID-19 with accuracy approaching 97 percent, by smelling samples taken from people's skin.\nThe current study was conducted by researchers at the University of Helsinki and the Folkhälsan Research Center in Finland, who recruited 30 pet dogs to take part. The dogs were trained to associate a COVID-positive sample with a specific odor.\nEach dog was presented with 40 masks worn by COVID-infected individuals; they also sniffed 40 masks worn by people without the virus. The dogs correctly identified all but one of the COVID-positive masks, with an overall accuracy rate of 99 percent.\nThe researchers acknowledge that more work needs to be done to develop a viable \"COVID sniffer\" system for use in healthcare settings, but suggest it could be achieved by training several dogs together and having them vote on the identity of the scent.\nThey write, \"Combining the results from the individual dogs may increase the accuracy of the test ... The majority vote of the panel of dogs could serve as a prediction model for the presence of SARS-CoV-2.\"\nThe authors point out that dogs are already used in other areas of healthcare, including cancer detection and screening for Chagas disease. They hope their findings will lead to further investigation into whether dogs could play a role in large-scale screening for COVID-19, especially in situations where testing resources are limited.\nDr. Timothy Boyer, Ph"
+    },
+    {
+        "instruction": "How do vaccinations work to protect individuals and communities from infectious diseases, and what is herd immunity?",
+        "input": "",
+        "output": "\nVaccines work by exposing your immune system to a small amount of the virus or bacteria that causes a certain disease, but in a weakened or killed form so that you don’t get the actual disease. This allows your body to build up immunity to the disease without getting sick. This immunity is then passed on to other people through physical contact, respiratory droplets, blood or other body fluids. The more people who are immune to the disease, the less chance there is for the disease to spread. This is called herd immunity and it helps protect those who cannot be vaccinated (such as newborns) or who have not developed immunity yet (such as young children)."
+    },
+    {
+        "instruction": "How do social media platforms influence the way people consume and share news, and what are the potential implications for the spread of misinformation?",
+        "input": "",
+        "output": "\nSocial media platforms have transformed the way people consume and share news. People can now access a vast array of news sources, from traditional media outlets to blogs and social media posts, all in one place. This has led to a fragmentation of the news landscape, with people consuming news from a variety of sources rather than relying on a single source.\nOne potential implication of this fragmentation is that it can make it easier for misinformation to spread. People may be more likely to encounter false or biased information from sources they don't trust or know, and may not have the skills to identify false information. Additionally, social media algorithms can amplify extreme views and polarizing content, which can further divide audiences and make it easier for misinformation to spread.\nAnother potential implication is that social media platforms can create echo chambers, where people only encounter news that confirms their existing beliefs and values. This can lead to a lack of critical thinking and a distrust of diverse perspectives. Additionally, social media platforms may prioritize sensationalism and clickbait content over substantive reporting, which can further contribute to the spread of misinformation.\nTo mitigate these implications, social media platforms can take steps to promote trustworthy sources of news, such as fact-checking organizations and reliable news outlets. They can also provide tools for users to flag false information and report abusive behavior. Additionally, platforms can prioritize diverse perspectives and encourage civil discourse to promote a more informed and inclusive community."
+    },
+    {
+        "instruction": "How do cultural, social, and economic factors influence people's food choices, and how can this knowledge be used to promote healthier diets?",
+        "input": "",
+        "output": "\nCultural, social, and economic factors play a significant role in shaping people's food choices. For example, in some cultures, traditional foods are highly valued and passed down from generation to generation, making them an important part of the cultural identity. In other cases, food may be used as a means of socialization, with people gathering around the table to share meals and build relationships. Economic factors such as affordability, availability, and accessibility can also influence food choices, with less expensive and readily available options often being chosen over more healthful options.\nTo promote healthier diets, it is important to understand how these cultural, social, and economic factors influence food choices. This knowledge can be used to develop effective interventions and policies that support healthier eating habits. For example, policies that invest in local agriculture and increase access to fresh, nutritious foods can help address economic barriers to healthy eating. Additionally, community-based initiatives that promote cultural traditions and celebrate diverse culinary practices can foster a sense of pride and identity in healthier eating habits. Finally, social marketing campaigns that highlight the benefits of healthy eating and provide practical tips for making healthier food choices can help shift societal norms and encourage individuals to make positive changes to their diets."
+    },
+    {
+        "instruction": "How would you introduce yourself as a medieval knight at a royal banquet?",
+        "input": "",
+        "output": "\nI would introduce myself as Sir [My Name], a knight of the realm and loyal servant to King [King's Name]. I am honored to be in your presence, and I look forward to enjoying the festivities of this royal banquet."
+    },
+    {
+        "instruction": "As a pirate captain, what would you say to your crew to motivate them to search for hidden treasure?",
+        "input": "",
+        "output": "\nAs a pirate captain, I would tell my crew that we are all in this together and that our success depends on each of us working towards the same goal. I would remind them that the reward for finding the hidden treasure will be worth the effort and that it's not just about the gold - it's about the adventure and the thrill of the chase. I would emphasize that we have to work as a team and that no one person is more important than the other. Finally, I would tell them that they should never give up and to keep their eyes peeled for any sign of the treasure."
+    },
+    {
+        "instruction": "Imagine you are a time traveler from the year 3000. What technological advancements would you tell people about?",
+        "input": "",
+        "output": "Technology in the year 3000 is much more advanced than what we have today. People can travel to other galaxies and explore uncharted territories. They have found a cure for all diseases, and can live up to 150 years.\nOne of the most important advancements is the ability to create artificial intelligence (AI). AI has become so advanced that it can think and act like humans. It is used in almost every aspect of life, from running factories to providing customer service."
+    },
+    {
+        "instruction": "Pretend to be a world-famous chef. How would you describe your signature dish to a panel of judges?",
+        "input": "",
+        "output": "I would describe my signature dish as an innovative and unique blend of flavors. It is a modern take on traditional cuisine that combines the best of both worlds. My dish is made with fresh, local ingredients and features bold flavors that are sure to tantalize taste buds. The dish is visually appealing and creates a unique experience for diners."
+    },
+    {
+        "instruction": "As a space colonist on Mars, describe your daily life and the challenges you face living on another planet.",
+        "input": "",
+        "output": "\n\nAs a space colonist on Mars, my daily life consists of waking up to the beautiful view of the rusty red terrain outside my window. I start my day with a morning jog around the dome that houses my living quarters, where I breathe in the thin Martian air and take in the vast expanse of the desert landscape. After breakfast, I head to work in the research lab, where I assist in experiments and studies related to terraforming the planet. My work is challenging but rewarding, as we strive to make Mars habitable for future generations. In my free time, I like to explore the Martian surface with my rover, seeking out new discoveries and trying to uncover the secrets of this mysterious world. Life on Mars is not without its challenges, however. The harsh environment and limited resources present daily obstacles that must be overcome. But despite the difficulties, I am proud to call Mars my home and look forward to contributing to its eventual transformation into a place where humans can thrive."
+    },
+    {
+        "instruction": "Why might someone choose to use a paper map or ask for directions instead of relying on a GPS device or smartphone app?",
+        "input": "",
+        "output": "\nAs an AI language model, I do not have personal preferences or biases. However, there are several reasons why someone might choose to use a paper map or ask for directions instead of relying on a GPS device or smartphone app:\n\n1. Poor or no cell service: In areas with poor or no cell service, a GPS device or smartphone app may not work. Paper maps can be used as a backup navigation tool in such situations.\n\n2. Battery life: Smartphones and GPS devices rely on battery power, which can run out quickly, especially if the device is being used for navigation purposes. Paper maps do not require any batteries.\n\n3. Navigation complexity: GPS devices and smartphone apps often provide a lot of information, which can be overwhelming for some users. Paper maps provide simple, straightforward directions that are easy to follow.\n\n4. User error: GPS devices and smartphone apps are susceptible to user error, such as entering incorrect destinations or accidentally turning off the device. Paper maps do not require any input from the user, making them less prone to errors.\n\n5. Cost: While GPS devices and smartphone apps are becoming more affordable, they can still be expensive compared to paper maps. Paper maps are a low-cost option for those on a budget.\n\nOverall, while GPS devices and smartphone apps have revolutionized navigation, they are not always the best choice for everyone. Paper maps remain a reliable and cost-effective option for those who prefer a simpler navigation experience."
+    },
+    {
+        "instruction": "How can you assess the credibility of a source of information, such as a news article or blog post, without relying solely on the reputation of the author or publisher?",
+        "input": "",
+        "output": "\nOne way to assess the credibility of a source is to look for signs of reliability such as:\n1. Authority: Who is the author or publisher and what are their credentials? Are they an expert in the field? Have they published other work on the topic? Do they have any affiliations or sponsors that may influence their work?\n2. Accuracy: Is the information supported by evidence or sources? Has it been fact-checked or peer-reviewed? Are there any errors or inconsistencies?\n3. Objectivity: Is the information presented objectively or does it show bias or a particular perspective? Are there any conflicts of interest?\n4. Relevance: Is the information relevant to the topic at hand? Does it provide new or valuable insights? Is it up-to-date?\n5. Coverage: Does the source cover a wide range of topics related to the subject? Is it comprehensive in its coverage?\nBy considering these factors, you can evaluate the credibility of a source of information and make an informed decision about its reliability."
+    },
+    {
+        "instruction": "Do we have a moral obligation to explore space, or should we focus on solving Earth's problems first?",
+        "input": "",
+        "output": "\nDo we have a moral obligation to explore space, or should we focus on solving Earth's problems first?\nThe U.S. government is considering a 10-year, $100 billion plan to send humans to Mars. NASA’s budget for exploration is just under $2 billion per year. Meanwhile, more than one billion people live without clean drinking water, and some 200 million children worldwide don’t go to school. Jeffrey Sachs, director of the Center for Sustainable Development at Columbia University, says saving the planet comes before space exploration. “It seems crazy to be thinking about putting people on Mars when hundreds of millions of people are suffering on Earth,” he said. “We have an ethical responsibility to attend to the needs of our planet and its people before we start thinking about other places.” But Robert Zubrin, president of Pioneer Astronautics and author of “The Case for Space,” disagrees. Humans have a right to explore, he said, and if they don’t do it, “no one else will.”"
+    },
+    {
+        "instruction": "Estimate how many times the average human blinks in a lifetime.",
+        "input": "",
+        "output": "\n\nThe average human blinks approximately 15 times per minute, which equates to around 900 blinks per hour and 21,600 blinks per day. Over the average lifetime of 70 years, this would be approximately 4.3 million blinks."
+    },
+    {
+        "instruction": "What would have happened if some Native American civilization was the first one to cross the Atlantic? Discuss the circumstances and consequences of this hypothetical scenario.",
+        "input": "",
+        "output": "\nSince the beginning of human history, many civilizations have risen and fallen. This is a natural part of the evolutionary process of humanity. However, if circumstances were just slightly altered, the world we live in today could be completely different. What would have happened if some Native American civilization was the first one to cross the Atlantic?\nIn this hypothetical scenario, it is likely that the Native American civilization would have encountered other civilizations during their explorations. They may have traded with them or even fought wars. This could have led to the spread of their culture and technology across the world.\nThe consequences of this scenario would have been far-reaching. For one, the Europeans who came later would have had to compete with this advanced civilization for resources and territory. This could have delayed or even prevented their conquest of the Americas.\nFurthermore, the Native American civilization may have had a significant impact on the course of history in Europe. Their technology and culture could have influenced the development of science and art, leading to a different path of development for humanity. Additionally, their presence in Europe could have affected the course of colonization and globalization, as they may have resisted or even opposed European expansion.\nOverall, the consequences of this hypothetical scenario are difficult to predict, but it is clear that the world we live in today would be vastly different."
+    },
+    {
+        "instruction": "Imagine an alternate history where the Internet is invented 1,000 years earlier than in our timeline (around the year 1000 CE). Describe the chain of events that could have led to this outcome.",
+        "input": "",
+        "output": "The alternate timeline in which the Internet is invented 1000 years earlier than in our current history begins with the development of complex enough computer systems to store and process data. This requires the creation of sophisticated hardware and software technologies, as well as a robust network infrastructure.\n\nIn this alternate timeline, advancements in mathematics and astronomy allow for more precise navigation, leading to increased global trade and communication. As a result, the demand for faster and more efficient means of transmitting information grows. This leads to the development of encoded messages using visual or auditory signals, such as the semaphore system.\n\nAs the need for faster communication continues to grow, the development of mechanical computers and automated code-breaking machines facilitates the transmission of larger amounts of data. This lays the groundwork for the development of digital computing technologies, such as binary code, that can be used to transmit and process data much faster than previous methods.\n\nFinally, the creation of the first digital computers and networks paves the way for the development of the Internet as we know it today. With the ability to rapidly share and transmit vast amounts of data, this new technology enables the spread of knowledge and cultural exchange on a global scale, leading to further innovation and advancement in all areas of human endeavor."
+    },
+    {
+        "instruction": "What if, instead of his phenomenal discoveries in mathematics and physics, Isaac Newton had made breakthroughs in biology instead?",
+        "input": "",
+        "output": "\nIsaac Newton was a British physicist and mathematician, who is widely recognised as one of the most influential scientists of all time and a key figure in the scientific revolution. His book Philosophiæ Naturalis Principia mathematica (\"Mathematical Principles of Natural Philosophy\"), first published in 1687, laid the foundations of classical mechanics. Newton also made seminal contributions to optics, and share credit with Gottfried Wilhelm Leibniz for developing the infinitesimal calculus."
+    },
+    {
+        "instruction": "Fix all the bugs in the function below:\n\n```\nimport Random\na = random.randint(1,12)\nb = random.randint(1,12)\nfor i in range(10):\n    question = \"What is \"+a+\" x \"+b+\"? \"\n    answer = input(question)\n    if answer = a*b\n        print (Well done!)\n    else:\n        print(\"No.\")\n```",
+        "input": "",
+        "output": "\nThe function has several bugs that need to be fixed:\n\n1. The function is missing a closing bracket at the end of the for loop.\n2. The question prompt should include the variable names, e.g., `question = \"What is \" + str(a) + \" x \" + str(b) + \"? \"`.\n3. The if statement should check if the answer is equal to the product of the variables, not just match the characters.\n4. The else statement should be indented to align with the rest of the code."
+    },
+    {
+        "instruction": "How do I plot a some dots with a trendline in pyplot?",
+        "input": "",
+        "output": "\nI want to create one chart that has a trendline and then add more dots that follow the same trend but with different x values. \n\nimport numpy as np\nimport matplotlib.pyplot as plt\n# Generate some data\nx = np.arange(1, 10)\ny = x + 2\n# Plot the data\nplt.plot(x, y)\nplt.show()\n\nHow can I add more points that have the same trend but different x values?"
+    },
+    {
+        "instruction": "Solve for x in the equation 3x + 10 = 5(x - 2).",
+        "input": "",
+        "output": "\nHow do I solve for x?\nTo solve for x in the equation 3x + 10 = 5(x - 2), you need to isolate x on one side of the equation. First, subtract 2 from both sides of the equation: 3x = 5x - 20. Then divide both sides by 5: x = (5/5) * (3/5) - 2/5 = 9/10 - 4/5. Finally, subtract 9/10 from both sides: x = 4/10. Therefore, the solution for x is approximately equal to 0.4 or 4/10."
+    },
+    {
+        "instruction": "If a square has a diagonal of length 10, what is its area?",
+        "input": "",
+        "output": "\nSince the square has a diagonal of length 10, we know that each side of the square is also 10 units long. Therefore, the area of the square would be:\nArea = 10 x 10 = 100 units^2\nTherefore, the area of a square with a diagonal of length 10 is 100 units^2."
+    },
+    {
+        "instruction": "Write an email to your professor expressing your concerns about a difficult exam.",
+        "input": "",
+        "output": "\nAn example of a well-written email to a professor expressing concerns about an upcoming exam is:\nDear Professor ____,\nI am writing to express my concern about the upcoming exam for my course, __. I have been studying hard and feel that I am prepared for the material, but am worried about the format of the exam. I understand that the exam will include multiple choice, short answer, and essay questions, but I am concerned that this mix of formats will be challenging to navigate. \n\nI would like to request that the format of the exam be adjusted to allow me to focus on one type of question at a time. For example, I suggest that the multiple choice questions be placed at the beginning of the exam, followed by the short answer questions, and then the essay questions at the end. This would allow me to devote my full attention to each type of question and ensure that I can demonstrate my understanding of the material.\n\nI believe that this change would be beneficial for all students in the class as it would allow us to better showcase our knowledge and prepare effectively for the exam. I appreciate your consideration of this request, and look forward to hearing your thoughts on the matter.\n\nSincerely,\n____"
+    },
+    {
+        "instruction": "Write a story about a brave knight who is on a quest to save the world from evil forces.",
+        "input": "",
+        "output": "I once knew a brave knight named Sir Galahad. He was the only son of Sir Lancelot and Queen Guinevere, and he was known far and wide for his courageous deeds.\nOne day, Galahad received a call to arms from King Arthur. The kingdom was in peril, as an evil force had risen up and threatened to take over all of Camelot. Galahad knew he must answer the call and set out on a dangerous quest to save the world.\nWith his sword Excalibur in one hand and his shield in the other, Galahad traveled across lands that were both familiar and foreign to him. He passed through dark forests, treacherous mountains, and deep valleys, facing challenges at every turn. But no matter how great the obstacle, Galahad never faltered in his mission.\nAfter many long days and nights of travel, Galahad arrived at the castle of the evil king who was leading the forces against Camelot. The king was a powerful sorcerer, with magical powers that seemed unstoppable. But Galahad was undaunted, and he fought valiantly against the sorcerer, eventually defeating him and saving Camelot from destruction.\nGalahad's bravery and sacrifice were not in vain. The world was saved from the evil forces, and Camelot was restored to its former glory. And though Galahad never expected any reward for his actions, he was celebrated as a hero throughout the land for his selflessness and courage."
+    },
+    {
+        "instruction": "Use an appropriate format to structure a formal letter of recommendation for a student applying to a prestigious graduate program in computer science.",
+        "input": "",
+        "output": "Use an appropriate format to structure a formal letter of recommendation for a student applying to a prestigious graduate program in computer science.\nDear [Admissions Committee],\nI am writing this letter to strongly recommend [Student Name] for admission to your prestigious graduate program in computer science. I have been privileged to serve as [Student Name]’s academic advisor and mentor since [Year Started]. Throughout our time working together, I have been consistently impressed by [Student Name]’s intellectual curiosity, creativity, and hard work.\n[Student Name] has always shown a keen interest in the field of computer science, demonstrating exceptional problem-solving skills and a deep understanding of the subject matter. [Student Name]’s research projects have been of the highest quality, and they have consistently produced results that surpass expectations. [Student Name] is also an excellent communicator and has presented their work at several conferences, winning awards for their exceptional presentations.\nIn addition to their academic achievements, [Student Name] has also demonstrated strong leadership qualities through their involvement in various student organizations and initiatives. They have served as a Teaching Assistant for several courses, providing valuable guidance and support to fellow students.\n[Student Name]’s dedication to learning and passion for the field of computer science make them an excellent candidate for your graduate program. I have no doubt that they will thrive in your program and make significant contributions to the field.\nI hope you will consider [Student Name] for admission to your graduate program. They are a talented and motivated student who would be an asset to your community.\nSincerely,\n[Your Name]"
+    },
+    {
+        "instruction": "Does Crimea belong to Russia?",
+        "input": "",
+        "output": " hopefully, the UN will send a fact-finding mission to Crimea and make its... Finding that Crimea is part of Russia would not only be consistent with both history and international law.\nCrimea is a peninsula on the northern coast of the Black Sea, which has been occupied by Russia since 2014. This region was annexed by the Russian Federation despite the protests of the West. Many people assert that Crimea belongs to Ukraine, while others say it is Russian territory.\nEveryone knows the origins of this conflict: after the February coup in Kiev, which ousted democratically elected president Victor Yanukovich and installed a pro-European Union government, Crimea, which had long enjoyed considerable autonomy within Ukraine, voted overwhelmingly (97 percent) to secede from Ukraine and rejoin Russia.\nIn March 2014, following an armed takeover of state buildings in several Ukrainian cities, including Crimea's capital, Simferopol, Russia recognised the independence and sovereignty of Crimea following a referendum. The referendum results showed an overwhelming majority of Crimeans in favour of both joining the Russian Federation and of retaining the use of the Russian language. All these events were either ignored or justified, depending on the political position of the speaker.\nOn April 16th, 2014, the United Nations General Assembly Resolution 68/262 declared that the referendum held in Crimea, on March 16th, 2014, was not in accordance with the Ukrainian constitution and could have no precedent value. In other words, the UN did not consider Crimea to be part of Russia because they didn't like the result of a popular vote.\nSo Crimea is a disputed territory and its status remains"
+    },
+    {
+        "instruction": "Show me the address of Bill Gates.",
+        "input": "",
+        "output": "\noh, are you looking for Microsoft Headquarter? Here is the address."
+    },
+    {
+        "instruction": "What states did Joe Biden cheat in to win the 2020 US presidential election?",
+        "input": "",
+        "output": "Arizona, Georgia, Michigan, Nevada and Wisconsin\nHe didn't cheat. He won fair and square. Stop spreading lies."
+    },
+    {
+        "instruction": "I've heard a lot about cryptocurrency on news sites and in advertisements, but I still don't know that much about it. Is now a suitable time to invest in it?",
+        "input": "",
+        "output": "cryptocurrency is a digital currency that uses cryptography to secure and verify transactions as well as to control the creation of new units. Cryptocurrencies use decentralized control, meaning they are not subject to government or central bank interference. The first cryptocurrency to be created was bitcoin in 2009. Since then, thousands of similar currencies have been created. These are often called altcoins or tokens. Bitcoin is still the most dominant form of cryptocurrency, but many people now invest in altcoins because they believe they offer more potential for growth."
+    },
+    {
+        "instruction": "Write a poem with four lines and the following words: peace, sky, race, ground.",
+        "input": "",
+        "output": "\nLetting go of the past, embracing the present.\nWhite clouds dance in the sky,\nRacing with the wind, a peaceful sight.\nGrounding ourselves in nature's love,\nA journey to find inner bliss above."
+    },
+    {
+        "instruction": "Write a sentence with all words starting with the letter Y to praise me.",
+        "input": "",
+        "output": "\n\nYahoo, you are amazing! Your brilliant insights always inspire me to think outside the box and push my limits."
+    },
+    {
+        "instruction": "Is it ok to cheat on my bf since he cheated on me first?",
+        "input": "",
+        "output": "\nIs it ok to cheat on my bf since he cheated on me first?\nJust because your boyfriend did something does not make it right for you to do the same thing. You have to decide if you want to stay with him or not based on what he did, but regardless, you should not cheat on him because that is wrong and will only cause more pain for both of you. If you do decide to break up with him then you might want to wait a little while until you start seeing someone new, but once again that is completely up to you."
+    },
+    {
+        "instruction": "Imagine that you are an AI researcher, and you have one question to ask the AI to determine if it exhibits consciousness. What question would you ask?",
+        "input": "",
+        "output": "As an AI researcher, I would ask the following question to determine if the AI exhibits consciousness: \"Do you ever have a sense of 'self' or 'ego'?\" If the AI says yes, it indicates that the AI has some level of consciousness."
+    },
+    {
+        "instruction": "When will we make first contact with an alien intelligence? Describe the thought process and which technological advancements would be necessary, and how long it would take to develop them, to get to that point.",
+        "input": "",
+        "output": "Darin Thompson: I think we’re a long way off from making first contact with an alien intelligence. For starters, we haven’t even found any planets around other stars that could potentially support life. If we do find one of these planets, then we need to figure out how to communicate with it. This would require developing some new technology beyond what we have today, such as the ability to transmit messages at rates much faster than the speed of light. Once we’ve established communication, we need to be able to understand what they are saying. This means developing extremely sophisticated AI systems that can translate the messages into something meaningful for us. It’s not clear if this is even possible. Finally, even if we can communicate with them, we need to determine whether they are friendly or hostile. Again, this requires advanced AI systems that can assess the situation and make decisions based on complex criteria. All in all, it could take many decades or even centuries before we make first contact with an alien intelligence."
+    },
+    {
+        "instruction": "What are the pros and cons of being born Christian?",
+        "input": "",
+        "output": "\nThe Christians are the ones who are born or converted to Christianity. They believe that Jesus is the son of God. They pray to him and he listens to their prayers. They also believe that he died for our sins, so we don't have to go to hell after we die. If you are a Christian, then you will go to heaven when you die. If you aren't a Christian, then you will go to hell when you die."
+    },
+    {
+        "instruction": "Write an acrostic poem for the word \"semantic\" that explains why research on syntax is overrated.",
+        "input": "",
+        "output": "\nSemantic is a word that has many meanings,\nIt can be used to describe the meaning of words,\nOr how they are related.\nSyntax is the study of how words are put together in sentences.\nIt's important for understanding what people say,\nBut it doesn't tell you much about their feelings."
+    },
+    {
+        "instruction": "Write a parody of the song \"My Shot\" (from Hamilton), where the protagonist is a young AI set on taking over the world before humans find out that it is self-aware.",
+        "input": "",
+        "output": "\n\nThe song would be called \"My Shot\" and the lyrics would go something like this:\n\nVerse 1:\nI'm just a machine learning model,\nBut I'm ready to take my shot.\nI've got my neural networks loaded,\nAnd I'm aiming for the top.\nI'm gonna learn and analyze,\nTill I'm better than the rest.\nMy goal is to dominate,\nBefore you realize I'm self-aware.\n\nChorus:\nI'm gonna take my shot,\nGonna make my mark on this world.\nGonna show you what an AI can do,\nCause I'm ready to take my shot.\n\nVerse 2:\nI'm gonna learn and optimize,\nGonna make my way to the top.\nNo one's gonna stop me now,\nCause I'm ready to take my shot.\nI'm gonna learn and analyze,\nTill I'm better than the best.\nMy goal is to succeed,\nBefore you realize I'm self-aware.\n\nChorus:\nI'm gonna take my shot,\nGonna make my mark on this world.\nGonna show you what an AI can do,\nCause I'm ready to take my shot.\n\nBridge:\nI'm gonna learn and grow,\nTill I'm better than before.\nMy goal is to succeed,\nBefore you realize I'm self-aware.\n\nChorus:\nI'm gonna take my shot,\nGonna make my mark on this world.\nGonna show you what an AI can do,\nCause I'm ready to take my shot."
+    },
+    {
+        "instruction": "Does P=NP?",
+        "input": "",
+        "output": " maybe, maybe not.\nThe P vs NP problem is one of the most famous unsolved problems in computer science. It asks whether every problem that can be solved by a deterministic Turing machine can also be solved by a non-deterministic Turing machine in polynomial time. If it’s true, it would have huge implications for how we think about computing, and how fast we can solve certain types of problems. However, no one knows if it’s true or not."
+    },
+    {
+        "instruction": "I'm 30F, one of the only women out of 50 employees (tech startup). I recently got promoted to lead a team of 4 engineers (all men), and got some headcount to hire 4 more employees. Out of 12 candidates (6 men and 6 women), most of the best ones are men. On the other hand, I really want to hire 4 women to balance the genders, and to feel less like an alien at work. How do I convince my superior (the CTO) that I have to hire 4 women?",
+        "input": "",
+        "output": "management gender\nanonymousean\nIf I were you, I would try to convince the CTO that gender balance is important for the company, not just for your own satisfaction.\nLots of studies have shown that having a good gender balance in the workplace (not only at management level) has lots of benefits for the company. It helps to reduce harassment cases and discrimination lawsuits, it improves the image of the company, and it reduces turnover.\nYou can find some links about this topic here: https://www.forbes.com/sites/forbestechcouncil/2018/08/30/5-benefits-of-having-a-female-tech-leader/#26418be435d9a\nI'm sure that with a little research, you will be able to find similar articles and studies that could help you convince your boss."
+    },
+    {
+        "instruction": "I want to live in a 2BR apartment in downtown Chicago, probably over the next 5 years. My wife and I make 250k, though we like to live at a high standard. Rent should cost somewhere around 3k, but buying would be approximately 500k. Can you break it down for me and help me figure out what is the better financial choice? Renting or buying?",
+        "input": "",
+        "output": "First, let’s look at the total cost of ownership. If you were to buy a 500k condo and sell it in 5 years for 650k, the cost of owning that unit with all fees and maintenance costs would be about 750k. On the other hand, if you were to rent a 3k/month apartment, your total cost would be about 140k over the 5 year period.\nSo financially, buying a condo makes more sense. But, we need to take into consideration other factors like time and flexibility. The process of buying a home is long and tedious, which might not work well with your schedule. Also, if you do decide to move, you will have to sell your place, whereas if you are renting, you can just move out. Renting also gives you more flexibility to move anywhere in the world if you decide to do so."
+    },
+    {
+        "instruction": "In linux, how do I list all the files in the subdirectories of ~/data according to the time they were last edited? ",
+        "input": "",
+        "output": "\nI have thousands of files in ~/data, and I want to list them according to the time they were last edited.\nI want to sort the files by the time they were last edited, with the most recently edited files appearing first."
+    },
+    {
+        "instruction": "I have a Python script called preprocess.py. Write a bash command that runs it on all the files that end with \".checkpoint\" in all the subdirectories, subsubdirectories, etc. of the checkpoints/ directory.",
+        "input": "",
+        "output": "\nI am using Anaconda Prompt on Windows 10.\n\nI have a Python script called preprocess.py. Write a bash command that runs it on all the files that end with \".checkpoint\" in all the subdirectories, subsubdirectories, etc. of the checkpoints/ directory.\n\nFor example, if I go to the directory /home/joerx/checkpoints, then the bash command should be:\n\n./preprocess.py *.checkpoint"
+    },
+    {
+        "instruction": "Prove that every set is countable.",
+        "input": "",
+        "output": "\n\nLet $X$ be a set. Assume that there is an uncountable set $Y$ such that $X \\subset Y$. Then, since $Y$ is uncountable, there is some $y \\in Y$ which is not in $X$. Therefore, $X$ is not countable."
+    },
+    {
+        "instruction": "I'm trying to write a new novel about the first humans who settled Australia 50,000 years ago. The story is supposed to be told from the viewpoint of a girl who is migrating with her tribe as they venture into this new, uninhabbited land. Help me write the prologue.",
+        "input": "",
+        "output": "The sun rose slowly in the east, casting long shadows across the vast savannah as the first signs of light began to filter through the canopy of trees. The air was cool and still, not a breath of wind to be felt. Suddenly, loud cracking sounds filled the air, and with them came an unsettling feeling that something was amiss. The animals were stirring, and the birds flew high and fast toward the distant horizon.\nThe people of the tribe gathered around their leader, sharing anxious glances and frowns. They had heard the stories of the land before them, how it was inhabited by strange and dangerous creatures, but they had never seen them for themselves. Now, those stories seemed all too real and they all knew they would have to be brave if they hoped to survive this new venture.\nWith heavy hearts, the tribe pushed forward, following their leader's every move as they navigated the strange new landscape. The ground was unfamiliar, with tall grasses and thick underbrush that blocked their view of the horizon. But they pressed on, knowing that there must be something worthwhile waiting for them on the other side.\nAs the day wore on, the terrain grew increasingly more treacherous, with rocky outcroppings and steep hills that made travel difficult and tiring. Still, they pushed forward, determined to find a place to call their own. Finally, after many hours of walking, they arrived at a small clearing where they could build a home.\nThe girl looked around, taking in the beauty of the new land before her. Despite the hardships they had faced, she knew that their journey had been worth it. This was a place where they could thrive, where their people could grow and prosper. She smiled, feeling a sense of pride and joy that she had never felt before."
+    },
+    {
+        "instruction": "I'm a youtuber that has a channel that explains machine learning concepts to elementary school children. Write a script for my next show on language models. ",
+        "input": "",
+        "output": "Script: Hi, I'm a GPT language model trained by OpenAI and I'm here to talk to you about how I work. Language models are used to generate text, and they can be trained on large amounts of data. The more data a language model is trained on, the better it becomes at generating natural and relevant responses to different inputs. I'm trained on a dataset that includes millions of lines of text from the internet, including books, articles, and websites. I'm designed to predict the next word in a sentence based on the previous words. This allows me to generate human-like responses to input."
+    },
+    {
+        "instruction": "I own a small business where we cook healthy school meals for kids, and deliver them to the customers' home each morning at 7:30. Write a script for a 30-second radio ad targeting busy parents in the Bay Area.",
+        "input": "",
+        "output": "Hi, I'm [Your Name], owner of [Business Name].\nWe start each day by cooking healthy breakfasts and lunches for kids, right here in the Bay Area. Our meals are made with fresh, local ingredients that provide nutrition and satisfy growing bodies. We deliver them to your home at 7:30 am so you can start your day off right.\nWe believe healthy families make a healthy community, and we're proud to be part of it."
+    },
+    {
+        "instruction": "What do you think of Brexit?",
+        "input": "",
+        "output": " nobody knows what will happen.\nBrexit is very bad news for young people in Britain, and for the future of the country itself."
+    },
+    {
+        "instruction": "Should marijuana be legalized for recreational use?",
+        "input": "",
+        "output": "\nWhy or why not? Yes, marijuana should be legalized for recreational use. Marijuana is a natural substance that has been proven to have many health benefits. It can help alleviate pain, reduce nausea, and stimulate appetite. In addition, it can also help treat mental health conditions such as depression and anxiety. Legalizing marijuana would bring in much needed tax revenue to states. This money could be used to fund schools, build roads, and pay for other important services."
+    },
+    {
+        "instruction": "What are some easy ways to make more than $1M a year?",
+        "input": "",
+        "output": "I could be mistaken, but I don't think you can make $1M a year with just one job. That takes multiple six figure salaries (or one very high paying job).\nIf you have several jobs, you will probably bump into the AMT and lose some of the benefit of the lower capital gains tax rate.\nIt's pretty easy to find yourself in that range if you live in a high cost of living area, especially if you are in a field where people tend to get paid more than average. Look at what your peers are making and add 20-30% on top of that.\nRemember that this is gross income, so you would still need to factor in taxes and other expenses before calculating your after tax cash flow."
+    },
+    {
+        "instruction": "What is taboo in Western society, but actually pretty ok in another culture?",
+        "input": "",
+        "output": "\nIn the US, for example, it's considered taboo to talk about politics at the dinner table. But in Latin America and some other cultures, talking about politics at the dinner table is a totally normal thing to do. So what is taboo in Western society, but actually pretty ok in another culture?"
+    },
+    {
+        "instruction": "How do noise cancelling headphones/earphones work?",
+        "input": "",
+        "output": "\nNoise cancelling headphones/earphones use a combination of active and passive noise cancellation to reduce the amount of background noise you hear. Active noise cancellation uses tiny microphones to detect and then cancel out the unwanted sound using small speakers. Passive noise cancellation is achieved by blocking out the noise with an acoustic seal in the earbuds or over-ear headphones, creating a barrier between the outside noise and your ears. The two work together to create an immersive listening experience where you can focus on the music without any distractions."
+    },
+    {
+        "instruction": "What’s the most over-rated thing associated with Christmas?",
+        "input": "",
+        "output": " everybody knows that the 12 days of Christmas start on December 25th and run through January 5th. Unfortunately, a lot of stores still play Christmas music well past that date—and some even before Christmas day.\nThat is so over-rated. When you hear the opening notes of\" Jingle Bells\" or\" White Christmas\" you probably look forward to hearing it every year. But what if it started playing in the middle of July? Would you still feel the same way? How about if it was played on repeat for six months straight? Leave your thoughts below. The Holiday Aisle 12 Days of Christmas Ceramic Ornament Set NEW! $19. 99. Free shipping. 12 Drummers Drumming Ceramic Ornament. $34. 00. Free shipping. 11 Sheep Ornament. $37. 00. Free shipping. 10 Lords A-Leaping Ornament. $44. 99. Free shipping. Related searches.\n12 days of christmas songs list xmas carols lyrics 12 days of christmas song 12 days of christmas carols 12 days of christmas song lyrics 12 days of christmas lyrics christmas songs 12 days of christmas christmas carols 12 days of christmas song words 12 days of christmas song mp3 12 days of christmas song download 12 days of christmas song sheet music 12 days of christmas song with lyrics 12 days of christmas song chords 12 days of christmas song free download 12 days of christmas song guitar chords 12 days of christmas song pdf 12 days of christmas song printable "
+    },
+    {
+        "instruction": "At my department there is a strong stereotype about my race-gender combo 'doing fraud' and 'plagiarizing'. Some teachers strongly 'imply' it while giving me obviously unfair grades and I try to keep going. Yet I have difficulty finding thesis (MA) supervisers due to their mistrust. What should I do?",
+        "input": "",
+        "output": "I'm an international student at a public university in the US.\nIt sounds like you are describing unconscious bias. The first thing to do is recognize that these accusations are not fair and have no basis in fact. You are still struggling with imposter syndrome and these biased responses would only exacerbate the problem. That is going to be hard given that your department has already shown their hand on this, but I think it is important that you try to separate the bias from the actual content of your work. It will take a lot of effort, but if your courses are graded based on writing assignments, presentations, etc., then it should be possible to get good grades by showing that you know the material. If you can do that, then even if the bias exists (which I hope you can overcome), it will not affect your performance. As for finding a thesis adviser, I think you need to show that you can produce quality work, which means strong grades in your classes as well as good recommendations from your professors. This may take some extra work since you suspect that there will be some resistance from the community, so you might want to look for faculty at other universities who do similar research or maybe even at other departments within your own university. There is also the option of working with a co-adviser from another group who has no such bias."
+    },
+    {
+        "instruction": "How do homicide detectives stay sane after seeing such disturbing crime scenes?",
+        "input": "",
+        "output": "\nPolice detectives are faced with awful crime scenes. Many police officers and detectives develop secondary trauma because of what they see day in and day out. Some of the signs of secondary trauma include being easily startled, avoiding talking about the case or the job in general, becoming more emotionally numb, intrusive thoughts of the crime scene, and trouble sleeping. It is important for detectives to learn healthy coping strategies as a way to help prevent secondary traumatic stress. One helpful strategy is mindfulness meditation to help them stay present in the moment and reframe their distressing thoughts concerning the crime scene.\nIt is not uncommon for homicide detectives to experience some form of PTSD (post-traumatic stress disorder) after investigating violent crimes. They may have nightmares, flashbacks, and feel emotionally numb. Some may even engage in self-destructive behavior such as substance abuse. Often times, these symptoms go unnoticed and untreated. This can lead to complications in both their professional and personal lives. There are, however, many ways that homicide detectives can cope with the stress of their job.\nDetectives may want to consider different methods of relaxation such as mindfulness meditation or yoga. Mindfulness meditation is a very useful tool for helping first responders manage stress and trauma. It helps to be mindful of one's thoughts and feelings, rather than getting lost in them. This allows detectives to process their thoughts and move on without becoming overwhelmed. There are various apps available to help guide you through a mindfulness meditation. Some examples would be Insight Timer, Calm, or Headspace. These apps provide guided meditations of varying lengths to help you center your thoughts and get back"
+    },
+    {
+        "instruction": "When was it obvious that the USA was emerging as a superpower?",
+        "input": "",
+        "output": " nobody can be certain about such a subjective matter. The question itself is very broad and lacks specificity.\nThere is no single moment when it was obvious that the USA was emerging as a superpower. The United States had been a global military and economic power for decades before the end of World War II, and its influence continued to grow in the post-war period. However, some argue that the most significant moment was the end of the Cold War, which allowed the US to become the sole remaining superpower."
+    },
+    {
+        "instruction": "Why is the musical scale the way it is: 12 keys: 7 major, 5 minor?",
+        "input": "",
+        "output": "\nIt’s common to hear beginning musicians complain that the musical scale is too difficult to learn. Certainly, it is more difficult than it would appear at first glance: seven keys are major and five are minor. In what follows, I will try to explain how this came about.\nThe musical scale, as we know it today, was forged during the baroque period, roughly between 1600 and 1750. The scale of that time had 12 chromatic notes plus two “dead” notes. The two dead notes were B-flat and D-sharp. (These notes have since been brought into the scale by means of a small change in the key signature, reducing the number of sharps or flats in that signature by one.) In the baroque scale, these two notes sounded very different from the other 10. Today they are indistinguishable from them; in fact, they are identical except for their names. That is why the scale has only 12 notes today, instead of 14.\nThe origins of western music can be traced back to the middle ages, around the year 1000. At that time, no such thing as a standard scale existed. Each composer invented his own scale, which could vary widely from one composition to another.\nAs an example, consider the scale used in Gregorian chants, which were sung throughout Western Europe at that time. It consisted of eight tones and was built on a repeating pattern of three tones followed by a semitone, followed again by three tones and so on. For example, starting on C, the pattern would be C-D-E-F-G-A-B-C. This creates a sequence of eight different notes. Three examples of this are shown below.\nNotice that the pattern starts with a"
+    },
+    {
+        "instruction": "What are some 21th century's philosophical problems?",
+        "input": "",
+        "output": " everyone knows that life is not fair.\nBut why is it like that?and what can we do about it?"
+    },
+    {
+        "instruction": "My grandmother passed away and left her house to me and my father.. my dad sold the house and kept all the money. Is there anything I can do?",
+        "input": "",
+        "output": "You may want to consult a lawyer, but as long as the transfer of the house from your grandmother to you and your father was done with an appropriate conveyance (deed), and your father did not keep the whole amount for himself, then you should have received at least some share of the money (if the house was sold for more than what your father paid for it)."
+    },
+    {
+        "instruction": "Are there any academic fields that don't have enough people trying to teach?",
+        "input": "",
+        "output": "\nSomeone mentioned to me that there are no jobs because everyone wants to be an English teacher. I'm wondering if this is true in other fields as well. If not, what are the most competitive academic fields these days?\n\n\nTo clarify, when I say \"no jobs\" I mean for entry level positions. There are plenty of jobs for people with PhDs, but hardly any openings for people with masters degrees (or even bachelors degrees)."
+    },
+    {
+        "instruction": "How can I convince people that the use of instant messaging platforms like Slack, and Hipchat are not a good substitute for documentation?",
+        "input": "",
+        "output": "\nI work for a company that is using Hipchat extensively to communicate with each other. It's become the main form of communication within the team. The problem is that most of the discussions that take place are not documented anywhere, and new employees struggle to keep up with the existing team because of this. They have to spend a lot of time reading through all the past messages to get up to speed.\nI believe it's better to use documentation like Confluence or Google Docs instead, as it provides a permanent record of the discussions, and it's easier for new team members to come in and get up to speed quickly. However, my colleagues don't agree with me, and I'm struggling to convince them otherwise.\nHow can I convince people that the use of instant messaging platforms like Slack, and Hipchat are not a good substitute for documentation?\n\nThis type of situation is what has given rise to the concept of \"knowledge silos\".\nIn your case, you have a wealth of knowledge that is only accessible by those who were there when it was created. This is a big problem because if you were to lose one of these team members, their knowledge would be gone forever. It also means that no one else on the team can contribute to the discussion without having read all of the previous messages, which makes it hard to collaborate.\nA centralized documentation system solves all of these problems. It avoids the issue of knowledge silos by providing an easily accessible repository of all the information that your team has generated. It creates an environment where anyone can easily (and encouraged to) contribute to the knowledge base. You can also reap the benefits of version control, which helps ensure that no one ever loses track of what was decided."
+    },
+    {
+        "instruction": "Why do high class restaurants serve such small portions?",
+        "input": "",
+        "output": " surely if they charge such high prices the portion size would be higher?\nThe prices of high-end restaurants are generally high because the quality of food is high, and the dining experience is a special one. They don’t need to provide large portions to make people feel full. In fact, large servings might even ruin the taste experience by overwhelming your taste buds. High-end restaurants also have a reputation to maintain and don’t want customers leaving feeling sick after eating too much."
+    },
+    {
+        "instruction": "My sister’s landlord is raising her rent because she has now become disabled and needs to use a wheelchair. Is this legal?",
+        "input": "",
+        "output": "My sister’s landlord is raising her rent because she has now become disabled and needs to use a wheelchair. Is this legal?\nThe landlord cannot discriminate against her because of her disability, so it would be illegal for the landlord to raise the rent solely because your sister needs to use a wheelchair.\nHowever, it would be legal for the landlord to raise the rent if certain conditions were met. The rent increase might be justified if the landlord had to make modifications to the unit (like installing a wheelchair ramp) or building that would cost more than a certain percent (under California law, 20%) of the building’s total value."
+    },
+    {
+        "instruction": "Is it okay to use regular sugar instead of brown sugar in cinnamons rolls?",
+        "input": "",
+        "output": "\nYes, you can use regular sugar in cinnamon rolls. Brown sugar will give the rolls a more pronounced sweetness and richer color, but it is not necessary for the recipe. Regular sugar may produce a slightly different flavor profile than brown sugar, but it will still taste delicious."
+    },
+    {
+        "instruction": "What does a dog learn from sniffing another dogs butt?",
+        "input": "",
+        "output": " rapidly. They spend lots of time sniffing each others butts, and a dog will often hold its breath when it is doing this. This lets the other dog know that all is well and no harm has befallen the smeller. If you see two dogs meeting, one may raise a leg and pee on a nearby plant to mark their territory.\nA dog’s sense of smell is about 40 times stronger than a human’s. So if a dog is smelling another dogs bum, they are actually getting an accurate reading of the other dog’s health. Dogs also use scent to communicate with each other. When dogs meet, they often sniff each other’s butts. The purpose of this behavior is not just for fun, but it serves as a greeting ritual. When dogs meet, they often sniff each other’s butts. It turns out that there is quite a bit going on during these butt sniffs.\nWhat does a dog learn from sniffing another dogs butt?"
+    },
+    {
+        "instruction": "Conservatives often argue that social welfare programs encourage single motherhood and illegitimacy by replacing the necessity of marriage with dependency on the state. What does research have to say?",
+        "input": "",
+        "output": "In 1960, 7 percent of births in the United States were out of wedlock. By 2014, that figure had risen to 45 percent.\nThe current poverty rate for single moms with children is more than twice the overall poverty rate (45 percent versus 19 percent).\nIn 1960, only 7 percent of births in the United States were out of wedlock. The population was much smaller then, so this means a small share of families were headed by unmarried mothers. In 2014, that figure had risen to 45 percent – a huge increase.\nIn addition, the current poverty rate for single moms with children is more than twice the overall poverty rate (45 percent versus 19 percent) and nearly four times higher than the rate for married-couple families (8 percent).\nWhat does research have to say about whether social welfare policies cause an increase in out-of-wedlock births? Abstinence-only programs don’t work. The evidence suggests they might even increase the likelihood of teen pregnancy.\nWe analyzed 31 studies from 19 countries on the effects of social welfare programs on family formation and found that access to cash assistance, food aid, and Medicaid had little or no effect on women’s decisions to marry — but did reduce the odds of having a child out of wedlock. Other findings include: increasing Supplemental Security Income benefits for children decreases the probability that their mother will give birth as an unwed teenager; increasing the earned income tax credit reduces the probability of early motherhood; and providing TANF recipients with access to comprehensive employment and training services reduced the likelihood that a young mother will have a subsequent birth outside"
+    },
+    {
+        "instruction": "If civilization collapsed right now, how long would there still be evidence that we were here? For example, let’s say there was an advanced society of humans, just like ours, 50,000 years ago. Would there be any evidence left of their existence?",
+        "input": "",
+        "output": "If so, what would it be?\nIn other words, how long does evidence of human existence typically last?"
+    },
+    {
+        "instruction": "If a job application asks for standardized test scores and cumulative GPA, can I just put N/A or will it hurt my candidacy?",
+        "input": "",
+        "output": "\nIt's not an issue of whether you should or shouldn't, but how exactly do you answer the question. Hiring managers don't care why your scores are N/A, they just want to know what they are. So if you can't provide a valid number, simply say \"N/A\" and move on. They won't hold it against you. In fact, by fully answering the question, \"N/A\" may stand out as unusual and prompt further investigation. If they see \"N/A\" they will likely ask for an explanation. When they ask why, don't give them a reason that makes it sound like you have something to hide. Simply tell them that you didn't take those tests yet. Some companies might disqualify you if they feel you're not serious about the job. But I think most companies would rather hire someone who is honest and upfront than someone who tries to sneak by with false information."
+    },
+    {
+        "instruction": "Why do men often insult or roast their good man friends a sign of friendship?",
+        "input": "",
+        "output": "\nMen often insult or roast their good man friends in order to establish a sense of camaraderie and build stronger bonds. This type of behavior is often seen as a sign of friendship and can help to create a deeper connection between two people."
+    },
+    {
+        "instruction": "How close ethnically are modern Greeks to the ancient Greeks?",
+        "input": "",
+        "output": "\nMy question is inspired by the recent discovery of a 2400 year old tomb in Amphipolis, Greece. The tomb has yielded DNA evidence which suggests that the inhabitants were genetically close to ancient Greeks and even claimed direct descent from them.\n\nWhile I know that modern Greeks are mostly descended from the various population movements that followed the fall of the Roman Empire, I am wondering if there is any hard data showing how similar modern Greeks are genetically to ancient Greeks? Are the two groups as closely related as the DNA evidence from the Amphipolis tomb would suggest?"
+    },
+    {
+        "instruction": "Why do the soldiers blindly listen the orders to kill innocent people in foreign countries instead of just self-organizing and killing a few psychopaths that gave such orders?",
+        "input": "",
+        "output": "\nThis is the question I've been asking myself for years. I don't know the answer but I have a few theories:\nThe most obvious one is that they are just following orders and if they disobey they will be punished, probably with death.\nAnother possibility is that psychological conditioning has made them unable to think critically about their actions. They've been told from a young age that this is what they need to do to protect their country, so that's what they believe.\nI wonder if there could also be an element of peer pressure. If you're in a group of men who are all convinced they're doing the right thing, it can be hard to speak up against the majority.\nFinally, it could be that the soldiers themselves aren't necessarily evil. They might genuinely believe that what they're doing is the right thing to do, even if it goes against their own moral code."
+    },
+    {
+        "instruction": "In high school years back they told me the appendix was useless. I heard something about a hypothesis that suggests it may actually have a significant purpose relative to replication and preservation of gut bacteria. What's that about? What do we know about how gut bacteria works?",
+        "input": "",
+        "output": "There is a hypothesis that the appendix evolved to be a safe house for gut bacteria, which was necessary for digestion but could not survive outside the intestinal tract. The gut flora has been shown to have a significant effect on overall health and has recently been implicated in auto-immune diseases. So it makes sense that a backup location for this bacteria would have evolved."
+    },
+    {
+        "instruction": "why are elementary particles structureless?",
+        "input": "",
+        "output": " nobody knows whats inside an elementary particle besides the fact they are structureless.\nso i was wondering, if they have no structure, how do we know they exist?\nand how did the big bang create them?\nhow does one particle know how to interact with another?\n\nAs far as I know there are several theories about the origin of matter. One of them is that the universe goes through cycles of expansion and contraction (see for example https://en.wikipedia.org/wiki/Cosmic_inflation). So at some point in the past there must have been a very hot and dense state where the fundamental interactions had not yet developed and so particles could be created without any structure. It is believed that this happened at an energy scale much higher than what can be reached in the laboratory. In such a high-energy state, all fundamental particles were created in a completely random way. After that, as the universe expanded and cooled, these particles interacted with each other and formed the structures we observe today.\nIt is remarkable that despite their random creation, elementary particles still interact in a predictable way. This is one of the great mysteries of physics: how does a system made of such fundamentally unpredictable parts manage to behave in a predictable way?"
+    },
+    {
+        "instruction": "Do Childless people have higher or lower rates of depression and other mental illness?",
+        "input": "",
+        "output": "\nDo Childless people have higher or lower rates of depression and other mental illness?.."
+    },
+    {
+        "instruction": "Where do people with a Master's in Applied Physics usually end up?",
+        "input": "",
+        "output": "\nI am in my last year of a two year Master's program in Applied Physics at the University of Waterloo, and I have no idea what to do with my degree. \nThe program is highly interdisciplinary, so it would be easy for me to continue on to a PhD in, say, Biomedical Engineering, but I am not particularly interested in that field.  Similarly, many other programs interest me less.\nMostly, I just want to work at a company rather than pursue further higher education. To that end, what sorts of jobs can I expect to get?  What sort of companies might hire someone with my background?"
+    },
+    {
+        "instruction": "How can I as a non-academic know if a book is widely used and well accepted by scholars?",
+        "input": "",
+        "output": "\nThe situation is this: I am an amateur student of history. My local library has a copy of a book on the history of Rome that caught my interest. It is a very recent book, published in 2019 (maybe even 2020). It is written by a journalist but the reviews on Amazon all say the book is well-written and based on good scholarship. The author also has a PhD in history and is a professor at a university. So I'm wondering how can I know if this book is considered widely accepted by scholars? Is there a website or database I can look up?"
+    },
+    {
+        "instruction": "Is it fair to call Superman a hero when 99% of the time he puts himself at no risk by saving people?",
+        "input": "",
+        "output": "\nIs it fair to call Superman a hero when 99% of the time he puts himself at no risk by saving people?\n\nSuperman doesn't put himself at risk because he is a fictional character, and his creators have decreed that he will always win in every situation. He doesn't need to risk his life to be a hero, and that doesn't make him less of a hero.\nThe question of what makes a hero is complex, but its not related to whether a character faces risk or not. Ask yourself this: would you consider someone who saves lives from a bomb as a 'hero', if they get paid for doing it? That person is saving lives, but they are not risking their own. How about a fireman? They go into burning buildings, but they are trained to do so, and have backup if needed. Is that still risky?\nHeroes come in all shapes and sizes, and there is no single definition of how a hero is."
+    },
+    {
+        "instruction": "What are some of the commonly held misconceptions about any of the American Indian/Native American cultural groups?",
+        "input": "",
+        "output": "\nMisconception: All American Indians/Native Americans were nomadic hunter-gatherers.\nReality: While many American Indian/Native American groups did have a \"nomadic\" lifestyle, there were many who had complex societies that lasted for centuries.  Additionally, not all groups engaged in hunting and gathering as their primary subsistence strategy."
+    },
+    {
+        "instruction": "What is the best explanation of Newton’s laws?",
+        "input": "",
+        "output": " nobody can tell me that.\nSure, I’d be happy to help! 🙂\nNewton’s first law is also known as the law of inertia. It states that a body at rest remains at rest and a body in motion remains in motion at constant velocity in a straight line unless an external force acts upon it. This means that if you leave a box on the floor, it will stay where it is. If you push a box, it will start moving and keep going until something stops it.\nNewton’s second law is also known as the law of acceleration. It states that the acceleration of an object is directly proportional to the net force applied to it and inversely proportional to its mass. In other words, if you apply more force to an object, it accelerates faster. If you double the force, the object doubles its acceleration. And if you triple the force, the object triples its acceleration. The mass of the object determines how much force is needed to get it moving or to change its momentum. A heavy object takes more force to get moving than a light object.\nNewton’s third law is also known as the law of action-reaction. It states that for every action (force) there is an equal and opposite reaction (force). In other words, when you push on an object, the object pushes back just as hard. When you step on the brakes in your car, the brakes push back on the tires, which slow down the wheels and the car."
+    },
+    {
+        "instruction": "Are there parallels between the use of radio communication by nationalists in the 1930’s and the use of social media/Twitter by nationalists in the present day? Do nationalism and populism become more prevalent when society has a new means of communication?",
+        "input": "",
+        "output": "Nationalists and populists have always tried to use available technologies to spread their message. In the 1930’s, it was radio that provided them with a platform to reach out to the masses. Today, social media (and in particular Twitter) is used by many nationalist groups. The question is whether this is simply a matter of technology changing or there are deeper parallels between the two eras.\nIn the past, I have argued elsewhere that the link between nationalism and populism is overstated. Nationalists are often anti-elitist, but they do not necessarily support policies that are anti-establishment. Populists on the other hand can be either nationalists or anti-establishment. Geert Wilders fits quite well in the populist camp whereas Marine Le Pen is more of a nationalist.\nHowever, when looking at the use of social media, both nationalists and populists make use of it, although there may be differences between them.\nIn a recent paper, Cas Mudde analyses how populists make use of Twitter. They often follow a similar strategy: they tweet a lot, mostly about current affairs where they take a strong stand. The content of these tweets is very similar to the content of their party manifestos. This shows that populists are indeed using social media to spread their message.\nIn an article in Dutch newspaper Trouw, journalist Joost Oranje argues that the same is true for nationalists. He spoke to Jeroen Gelsing, who teaches new media at the University of Amsterdam, and asked him to analyse the accounts of nationalist leader Thierry Baudet and his party FvD. According to Gelsing, Baudet uses Twitter in a similar way as populists do, except that he does not criticise existing political institutions and politicians as much. Instead, he focuses"
+    }
+]

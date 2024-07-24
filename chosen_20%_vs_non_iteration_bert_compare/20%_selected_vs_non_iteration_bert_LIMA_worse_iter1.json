@@ -1,0 +1,527 @@
+[
+    {
+        "instruction": "I'm writing a NeurIPS paper about a new model architecture for processing and generating long texts. Here are some facts about the paper:\n* The main trick is to replace some of the attention heads with an exponential moving average, where the decay rate is learned for each head. We call this architecture ExeMA.\n* On language modeling, the perplexity difference between our model and a vanilla transformer is negligible, but that's because next-token prediction is almost always a local task, so perplexity won't be sensitive enough to detect any improvements in long-range understanding.\n* However, on the SCROLLS benchmark, our model improves by 10% over the baseline.\n* We also have a new metric for measuring coherence in generated text (CoGnaTe), where our model generates text that is 43% more coherent than the baseline.\nHelp me write the paper's introduction.",
+        "input": "",
+        "output": "TL;DR: I'm writing a NeurIPS paper about a new model architecture for processing and generating long texts. The model improves by 10% on a benchmark and generates text that is 43% more coherent than the baseline. Help me write the paper's introduction."
+    },
+    {
+        "instruction": "Who are some eminent scholars of the Quechua language?",
+        "input": "",
+        "output": "The indigenous language of the Incas and one of the most widely spoken in South America is Quechua. The language has over 10 million speakers, mostly in Peru, Bolivia and Ecuador, but also in Colombia, Chile, Argentina and Mexico. There are several dialects of Quechua, including highland, coastal, and Southern. Many famous scholars have devoted their lives to studying and preserving Quechua.\nOne of the most influential scholars of Quechua was Angel Maria Terrazas, who is credited with standardizing the language in the mid-20th century. He also wrote several textbooks, grammar books and dictionaries in both Spanish and Quechua. Another influential scholar was Lilia Zegarra, who published a dictionary of Quechua in 1987 and wrote numerous articles on the language.\nOther notable scholars include Ricardo Rojas, who translated the Bible into Quechua, and Alfredo Torero, who wrote the first novel in Quechua. In more recent years, Claribel Alegría has become an advocate for Quechua and has written several children's books in the language. Finally, Joaquín Arias has done extensive research on the history and evolution of Quechua, publishing several books on the subject."
+    },
+    {
+        "instruction": "I'm interested in renting a house in a posh neighborhood in the US. Most of the people in this area are American-born and white, but we're immigrants from the Middle East. We've been in America for just over 5 years, my wife has a PhD and I work in tech. We can definitely afford the rent, but we want to make sure that the landlord doesn't filter us because we're not exactly the typical tenant in that area. Can you help me write a cover letter for our rent application?",
+        "input": "",
+        "output": "Hi [Landlord],\nWe’re writing to express our interest in renting a house in your neighborhood. We’re aware that the area is popular with families and we think it will be a great place to raise our children. We also understand that the neighborhood is primarily inhabited by American-born and white people, but our family comes from the Middle East and we speak Arabic at home.\nWe believe that our professional backgrounds – my wife is a PhD and I work in tech – and our willingness to be active members of the community will make us good tenants. We can definitely afford the rent, and we’d love to become part of the local community."
+    },
+    {
+        "instruction": "Write an opinion piece about why diversity and inclusion is super important for the tech industry. The essay should be targeted at \"tech bros\", and should avoid alienating them, but instead appeal to their logic; it should explain how diversity and inclusion of women, immigrants, etc. could benefit them specifically.",
+        "input": "",
+        "output": "I'm not a native speaker, so I really need help with the structure and the wording. If you could provide me with some samples or ideas, that would be great!"
+    },
+    {
+        "instruction": "Can you turn the following set of bullet points into an email?\n* I'm bored at work.\n* My manager is incompetent.\n* I'm underpaid.\n* I quit.\nThat's what I really think, and I want you to communicate it in the email, but I need help with the phrasing to keep everything politically correct.",
+        "input": "",
+        "output": "Here is the politically correct email:\nHi [Name],\nI'm writing to let you know that I am leaving my position here at [Company Name]. My last day will be two weeks from today.\nThank you for the opportunity to work here. I have enjoyed working with you and the rest of the team, and I will miss our daily interactions.\nI’m bored at work.\nMy manager is incompetent.\nI'm underpaid.\nI quit."
+    },
+    {
+        "instruction": "Plan a day trip in Tokyo. The spots need to be within walking distance to each other.",
+        "input": "",
+        "output": "1. 09:30-11:00 Tokyo Skytree\n2. 11:30-12:30 Akihabara\n3. 13:00-14:00 Sensoji Temple\n4. 14:00-15:00 Tsukiji Market\n5. 15:00-16:00 Shibuya"
+    },
+    {
+        "instruction": "Our beloved colleague Stephen is now leaving the company. He is one of the best engineers we had. He used to love posting memes. Write a short, fun and inspiring goodbye message.",
+        "input": "",
+        "output": "I really don’t know what to say. The team just won’t be the same without you. I hope that we’ll stay in touch, even though you are moving on to greener pastures.\nBest of luck in all your future endeavors! You will be missed here at [Company Name]. It has been a privilege working with you. Thank you for being an amazing colleague and a good friend. Wishing you all the best!\nIt has been an absolute pleasure working with you. Wishing you all the best for your new role. You will be missed here!\nYou will be so missed here. Thanks for everything you have done for our company. We wish you the best in your future endeavors.\nWishing you all the best for your new journey! Thank you for everything you have done for us. You will be missed.\nWe are going to miss you around here, Stephen. Thank you for all of your hard work and dedication. Wishing you the best of luck in your new chapter.\nHaving you as a colleague has been an absolute pleasure. You will be missed by us all. Best of luck in your future endeavors.\nThank you for everything you have done for our team. We are going to miss you dearly. Wishing you all the best for your new journey.\nWe are so glad to have had you on our team. You will be greatly missed. Wishing you all the best in your next chapter.\nWe are so proud of how far you have come and all that you have accomplished. Thank you for being such an amazing colleague. Wishing you all the best for your future.\nStephen, you will be missed but not forgotten. Thank you for all of your hard work and dedication. Wishing you all the best in your future endeavors.\nThanks for everything you have done for us. We are going to miss having"
+    },
+    {
+        "instruction": "What is the most beautiful language in the world?",
+        "input": "",
+        "output": "The Most Beautiful Language in the World Is… (Infographic)\nWhat is the most beautiful language to learn?\nWhat is the most popular Spanish language?\nWhat is the most spoken language on earth?\nWhat is the most widely spoken language in the world 2019?\nWhich country has the most beautiful English?\nWhich language is the prettiest?\nWhich language has no words for love?\nWhich word is most used in a day?"
+    },
+    {
+        "instruction": "Hi, I have a web app that does google authentication to let users in. How can I replace it with a captcha?",
+        "input": "",
+        "output": "\nI don't want to see the user-agent in my access logs.\n\nAlso, I only want to see a captcha when it is necessary. For example, too many failed attempts by the same user should trigger a captcha.\n\nWhat would be the best way to implement this?"
+    },
+    {
+        "instruction": "I'm interviewing as an out-of-college engineer for a bunch of tech companies and have started getting offers from a couple of them, including FAANG. What would be considered a good offer in terms of compensation?",
+        "input": "",
+        "output": "If you are an engineer, then I recommend you take the best offer.\nIf you are not an engineer and have some other criteria for choosing a job, like location, working hours, etc., then try to figure out which of these criteria is most important for you and adjust your aiming point accordingly."
+    },
+    {
+        "instruction": "Why did Apollo 13 fail?",
+        "input": "",
+        "output": "The Apollo 13 mission was aborted after an oxygen tank in the service module ruptured two days into the flight. The crew and ground control worked together to safely return the spacecraft to Earth, but without enough electricity from the damaged oxygen tanks to run the necessary systems, the mission had to be aborted."
+    },
+    {
+        "instruction": "I own a business in which I teach little children (ages 3-4) to read, and I want to advertise it on Twitter. Can you help me write the tweet?",
+        "input": "",
+        "output": "What is a good tagline for a business that provides wedding and event planning services?\nHow do you write a good tweet for your business in Twitter?"
+    },
+    {
+        "instruction": "I work with a colleague who seems to escalate things up the management chain every time things don't go his way. As a result I am no longer feeling very excited about working with him. This is a pretty important project for my career, though. What should I do? ",
+        "input": "",
+        "output": "I think that in this situation you need to have a conversation with your colleague. Let him know how you are feeling and let him know why. Make it clear that you want to work together and make sure that the project is successful, but that you can't continue to work with him if he continues to escalate things up the management chain.\nLet him know that you would rather work through any issues you have with him directly. If that doesn't work, then you may need to consider whether you should stay on the project or not."
+    },
+    {
+        "instruction": "Why do men earn more on average?",
+        "input": "",
+        "output": "Gender pay gap remains stubbornly persistent.\nAnother month, another report showing that the UK gender pay gap has barely shifted. The Equality and Human Rights Commission’s latest statistics reveal that women are still paid 18.1% less than men on average (down from 18.4% in 2016). This is bad news for the government, which had hoped to close the gap by 2025. It is also bad news for anyone who believes that progress is being made towards a fairer society.\nThere is plenty of speculation as to why this gap persists. Some argue that it is due to discrimination and bias in hiring and promotion practices. Others blame it on occupational segregation and different choices between men and women about work-life balance. But these factors cannot explain the entirety of the gap.\nWhen we look at the difference in hourly pay between full-time workers, there is no gender pay gap among those aged 16-29. Why? Because when young people enter the labour market they are allocated to jobs with lower earning potential, regardless of their gender. For example, they are more likely to be employed in the retail and hospitality industries, where wages are low. As a result, when we compare all workers regardless of age, the gender pay gap increases to 18.1%.\nIn fact, the gender pay gap starts to emerge in the first year of a person’s working life. By the time they are 29, those who started work as babies doing unpaid family work receive lower wages than others, so the gap widens again. This can be explained by the “gender socialisation” of new entrants into the labour market. Young women are socialised to prioritise caring over paid employment, while young men are social"
+    },
+    {
+        "instruction": "Teach me how to make shakshuka.",
+        "input": "",
+        "output": "Shakshuka is a dish I have been wanting to try for ages. I love eggs and peppers so this looks like a perfect combination.\nThe recipe you linked to looks easy enough, I will be trying it out this week. Thanks for sharing!"
+    },
+    {
+        "instruction": "What are good performance venues for Indian artists in the US?",
+        "input": "",
+        "output": "Why do people in the US and Europe always praise India's culture, but never Indian people?\nIs there any chance that Americans will get to know about the horror of Punjab genocide/1984 riots which they call \"anti-Sikh\" riots?"
+    },
+    {
+        "instruction": "My friends are visiting California soon, can you suggest some places I could take them in San Francisco? Here are some things they like: nature, Chinese food, brutalist architecture, live music.",
+        "input": "",
+        "output": " growing up, I spent a lot of time in San Francisco and still have family there.\nI'm trying to think of some fun spots that are unique to SF that won't take too much time from sightseeing or eating. Is there anything specific you would recommend?"
+    },
+    {
+        "instruction": "What are good names for a government agency that regulates AI?",
+        "input": "",
+        "output": "Andrew Ng, co-founder of DeepLearning.AI and former chief scientist at Baidu, has been named one of three new members to the board of Overstock.com's subsidiary tZero.\nAccording to a press release from tZero, Ng will be joining the board alongside Ethereum co-founder Joseph Lubin and musician and entrepreneur Gary Vaynerchuk.\nNg is currently an adjunct professor in the Department of Computer Science at Stanford University and director of the AI Lab at Accenture, as well as a strategic adviser to some of the world’s largest companies. He was formerly a member of Google Brain, where he led the development of TensorFlow, one of the most popular deep learning libraries for machine learning applications.\nAt the time of publication, Overstock stock (OSTK) was up 12 percent on the news, trading at $5.87 per share."
+    },
+    {
+        "instruction": "Killing a puppy is more or less morally acceptable than killing a dog?",
+        "input": "",
+        "output": "The moral status of a human being is higher than that of an animal.\nSo the killing of a dog is less acceptable than the killing of a human being, all other things being equal.\nThe moral status of a human being is higher than that of a fetus.\nSo the killing of a fetus is less acceptable than the killing of a human being, all other things being equal.\nSince there are circumstances in which it is morally acceptable to kill a human being (e.g., self-defence, defence of others), then there are circumstances in which it is morally acceptable to kill a dog or a puppy.\nThus, the killing of a puppy is more or less morally acceptable than the killing of a dog."
+    },
+    {
+        "instruction": "Can you summarize this passage into bullet points?\n\nGradually slowing job gains and a growing labor force in March delivered welcome news to President Biden, nearly a year after he declared that the job market needed to cool significantly to tame high prices. The details of the report are encouraging for a president whose economic goal is to move from rapid job gains — and high inflation — to what Mr. Biden has called “stable, steady growth.” Job creation slowed to 236,000 for the month, closing in on the level Mr. Biden said last year would be necessary to stabilize the economy and prices. More Americans joined the labor force, and wage gains fell slightly. Those developments should help to further cool inflation. But the report also underscored the political and economic tensions for the president as he seeks to sell Americans on his economic stewardship ahead of an expected announcement this spring that he will seek re-election.",
+        "input": "",
+        "output": "236k job gains, 100k less than expected.\nGrowing labor force - more people looking for jobs.\nWage gains fell slightly.\nJob creation slowed to 236k, closing in on the level Biden said last year would be necessary to stabilize the economy and prices.\nMore Americans joined the labor force, potentially increasing competition for jobs."
+    },
+    {
+        "instruction": "I live in the Bay Area and I've had it with PG&E. Devise a plan to start a competing energy company to put them out of business.",
+        "input": "",
+        "output": "So far nobody has come up with a compelling plan to start a competing energy company.  Every attempt I've seen so far has assumed that the government will allow them to somehow do this without competition from PG&E.  I don't see how that can happen.\nAt the very least, you need to get past all the regulatory barriers erected by PG&E.  If you could crack those, then you would be in business.  The most efficient way to do this is to buy out a local co-op and threaten to shut down service unless they are allowed to join your new co-op.\nHere are some of the major regulatory barriers:\n1. You can't just build a power line and connect it to the grid.  PG&E controls where the lines go and who pays for what.  It costs about $20M/mile to string a new line.  They have thousands of miles of line.  \n2. You can't just start buying power from somewhere else.  PG&E gets preferential treatment on their purchases because they control the switches as well.  They also get a penalty if they don't use all the power they generate.  This means they have an economic incentive to generate more than they need.  If you start buying from somewhere else, they can sue you for damages and they can also cut you off.  This is why Apple's \"renewable\" program with PG&E doesn't work.  Apple signed a contract with PG&E to only buy renewable power.  When the sun isn't shining or the wind isn't blowing, Apple takes power from the rest of the grid.  PG&E generates extra power at these times and charges Apple less for it.  Apple pays about half of what the rest of"
+    },
+    {
+        "instruction": "How can I make a startup in Augmented Reality?",
+        "input": "",
+        "output": "To start an augmented reality (AR) company, first research and develop AR technology to create a product that will excite consumers. Then, get funding from investors and put together a development team. After your product is finished, you can begin marketing it to potential customers. To stay ahead of the competition, make sure to continually update your product with new features and improvements.\n1. Research and develop AR technology to create a product\n2. Get funding from investors\n3. Put together a development team\n4. Market your product\n5. Continuously update your product"
+    },
+    {
+        "instruction": "I have a bad credit history. Is there any way to get a credit card?",
+        "input": "",
+        "output": "Do I qualify for a personal loan?\n6 months ago I had a bankruptcy. Will this affect my ability to get a mortgage?\nWhat can I do if I have bad credit and owe money to many different lenders?"
+    },
+    {
+        "instruction": "How would you design a spam filter?",
+        "input": "",
+        "output": "Using a Bayesian filter, the spam filter will learn from previous emails. It will assign a score to each email based on how likely it is to be spam or not. If the score for an incoming email is above a certain threshold, it will be marked as spam and sent to the user’s junk folder. If the score is below the threshold, it will be delivered to the user’s inbox. The filter will also learn from user feedback and adjust its settings accordingly."
+    },
+    {
+        "instruction": "I was wondering if you could tell me the best way to remove the rust from the bottom of the toilet.",
+        "input": "",
+        "output": "Since last week I have been trying to remove rust from the bottom of my toilet. I have tried so much, but it doesnt work. Please help!\nThe best way to remove rust from the bottom of your toilet would be to use a commercial cleaner made for that purpose. You can usually find these at your local hardware store. Follow the instructions on the package for application and let it sit for the recommended amount of time. Then scrub with a stiff brush and rinse with clean water. If this doesn't work you may need to consider replacing the toilet."
+    },
+    {
+        "instruction": "what is a good title for a poem I'm writing about a religious boy who has been sheltered from the outside world by his family, but one day he leaves his house and sees the reality of the world?",
+        "input": "",
+        "output": "zombieboy\nZombieboy123"
+    },
+    {
+        "instruction": "How do you make good scrambled eggs?",
+        "input": "",
+        "output": "How do you cook a good omelette?"
+    },
+    {
+        "instruction": "3 paragraph essay on the pros and cons of fast food",
+        "input": "",
+        "output": "Essay on pollution and its effects\nFacts about fast food essay\nShort essay on pollution in hindi"
+    },
+    {
+        "instruction": "How does the healthcare system work in the USA?",
+        "input": "",
+        "output": "National Healthcare – A Good Thing or a Bad Thing?\nAs an AI language model, I do not have personal opinion but here are some points to consider about the healthcare system in the USA:\nThe US has both private and public healthcare systems. The public healthcare system is known as Medicare and provides health coverage for people aged 65 and above, those with certain disabilities, and low-income individuals.\nPrivate healthcare is provided by employers, with around 180 million Americans receiving health insurance through their workplace. However, this coverage is often limited and does not cover all medical expenses.\nFor those who cannot afford private health insurance, there is a government-funded program called Medicaid which provides health coverage to low-income individuals and families.\nThe cost of healthcare in the USA is very high compared to other countries. In fact, the USA spends more on healthcare as a percentage of GDP than any other country in the world.\nThe US healthcare system is also highly fragmented, with each state having its own healthcare system. This can lead to variations in the quality of care and access to treatments.\nDespite these issues, many people in the USA believe that the country’s healthcare system is the best in the world."
+    },
+    {
+        "instruction": "Can you order me a large pizza from Domino's?",
+        "input": "",
+        "output": "A:Domino's is an international pizza chain with locations all over the world. You can order a large pizza from Domino's by visiting their website, or by calling them directly."
+    },
+    {
+        "instruction": "I want to find a great school district to live in. I have a list of cities I would consider, but I am looking for a city with a great school district. What would you recommend?",
+        "input": "",
+        "output": "What are the best neighborhoods to live in Houston, TX?\nWhat is a good website to find information about school ratings/reviews?"
+    },
+    {
+        "instruction": "How's the weather in London right now?",
+        "input": "",
+        "output": "I'm in London for work. What would be a good place to get lunch nearby?\nWhat are some examples of British food?\nWhat is the weather like in London right now?"
+    },
+    {
+        "instruction": "Are there any cheap tickets to New York from Chicago?",
+        "input": "",
+        "output": "These are the best fares found by travelers who searched Tripadvisor and a select group of our fare partners in the past recent weeks. Ticket specials can change at any time, and some of these discounted fares may not be available anymore, so make your booking decisions quickly!\nAll sales are final and refundable only in accordance with airline's ticket policy. All airlines charge a fee for flight changes. 0.5% - 2.7% cash back in the form of Reward Points. • Purchase is non-refundable after 24 hours. • New York (LGA) to Chicago (MDW) - $176 round trip.• Dates: Nov 30 - Dec 13.• Travel: Dec 3 - Dec 14.\nAll sales are final and refundable only in accordance with airline's ticket policy. All airlines charge a fee for flight changes. 0.5% - 2.7% cash back in the form of Reward Points. • Purchase is non-refundable after 24 hours. • New York (LGA) to Chicago (MDW) - $198 round trip.• Dates: Dec 1 - Dec 13.• Travel: Dec 4 - Dec 15.\n(a) Average prices are based on 60 days of travel each day. (b) The following airlines operate at this destination: Frontier Airlines, Spirit Airlines, United Airlines.\nAll sales are final and refundable only in accordance with airline's ticket policy. All airlines charge a fee for flight changes. 0.5% - 2.7% cash back in the form of Reward Points. • Purchase"
+    },
+    {
+        "instruction": "What should I buy my son for his seventh birthday?",
+        "input": "",
+        "output": "I want to buy a gift for my son that he will enjoy. He is 7 years old and likes Star Wars, Legos, cars, trains, music, and animals.\nWhat should I get him?\nBuy him what he likes. If you have any questions just ask."
+    },
+    {
+        "instruction": "Plan a three-day trip to Seattle",
+        "input": "",
+        "output": "Visit Pike Place Market and the Space Needle.\nTake a tour of the Chihuly Garden and Glass museum.\nExplore the Olympic National Park.\nWalk across the Aurora Bridge.\nGo on a ghost tour in downtown Seattle.\nGet tickets to a Mariners baseball game.\nDrive the Cascade Loop Scenic Highway.\nCheck out the Fremont Troll.\nHave dinner at Ivar's Salmon House.\nMore things to do in Seattle."
+    },
+    {
+        "instruction": "Plan a 5-day snorkeling vacation in Hawaii",
+        "input": "",
+        "output": "The Hawaiian islands are one of the best places in the world to go snorkeling. The clear waters offer spectacular views of colorful fish and other marine creatures. You can see them from above or from below, depending on whether you choose to scuba dive or snorkel.\nHawaii is home to a variety of different kinds of marine life, ranging from tiny tropical fish to sea turtles. Depending on where you go, you may also be able to spot sharks, rays, octopuses, and even whales.\nTo plan your perfect 5-day snorkeling vacation in Hawaii, start by picking which island(s) you want to visit. Then, choose 2–3 great snorkeling spots to visit during your trip. When you get there, make sure to pack your equipment, stay safe, and protect the environment.\n1 Choose your islands\n2 Pick your snorkeling spots\n3 Get equipment for snorkeling\n4 Stay safe while snorkeling\n5 Protect the ocean\nChoose your islands\nHawaii is made up of eight main islands: Niihau, Kauai, Oahu, Molokai, Lanai, Maui, Kahoolawe, and the Big Island (also known as Hawaii Island). Each island has something different to offer.\nOahu is the most visited island in Hawaii. It's home to Honolulu, Waikiki Beach, Diamond Head Crater, and Pearl Harbor. The island offers beautiful coral reefs and marine life, as well as wonderful surfing opportunities.\nMaui is another popular island that's known for its beautiful beaches, like Kaanapali Beach and Black Sand Beach. Its underwater scenery includes colorful fish, eels, and sometimes"
+    },
+    {
+        "instruction": "What are the primary factors that influence consumer behavior?",
+        "input": "",
+        "output": "The primary factors that influence consumer behavior are psychological, social, cultural, and economic factors. Psychological factors include emotions, attitudes, personality, and lifestyle. Social factors include family, friends, and peers. Cultural factors include beliefs, values, and customs. Economic factors include income, employment status, and access to credit."
+    },
+    {
+        "instruction": "What currently legal thing do you expect to be illegal in the next 20 years?",
+        "input": "",
+        "output": "The right to bear arms.\nWhat currently illegal thing do you expect to be legal in the next 20 years?\n(I'm not going to say what that thing is)"
+    },
+    {
+        "instruction": "What are some potential implications of using a single-use plastic bottle versus a reusable bottle on both the environment and human health?",
+        "input": "",
+        "output": "The potential implications of using a single-use plastic bottle versus a reusable bottle on both the environment and human health are significant.\nFirstly, single-use plastic bottles are often made from polyethylene terephthalate (PET) which is a type of plastic that takes hundreds of years to decompose. When these bottles end up in landfills, they release toxic chemicals such as dioxins and furans that can contaminate soil and groundwater. In addition, when plastic bottles are incinerated, they emit harmful pollutants such as dioxins and furans into the air.\nSecondly, single-use plastic bottles have a significant impact on the environment due to their production process. The manufacturing of plastic bottles requires large amounts of energy and resources, as well as the use of hazardous chemicals such as chlorine and benzene. This process also generates significant amounts of greenhouse gases that contribute to climate change.\nOn the other hand, reusable bottles are made from materials such as stainless steel, glass, or silicone, which are non-toxic and do not contribute to environmental pollution. Reusable bottles also reduce waste by avoiding the need for single-use plastic bottles. Additionally, reusable bottles can be washed and sanitized, reducing the risk of bacterial contamination.\nFrom a human health perspective, single-use plastic bottles can leach harmful chemicals such as phthalates and bisphenol A (BPA) into the water they contain. These chemicals have been linked to various health problems such as reproductive issues, obesity, and cancer.\nIn conclusion, the choice between single-use plastic bottles and reusable bottles has significant implications"
+    },
+    {
+        "instruction": "Why can Parrots talk? Can they only repeat what people say, or can they formulate their own thoughts and vocalize them sometimes?",
+        "input": "",
+        "output": "Can they only repeat what people say, or can they formulate their own thoughts and vocalize them sometimes?"
+    },
+    {
+        "instruction": "What factors would you consider when designing an inclusive and accessible public transportation system?",
+        "input": "",
+        "output": "The factors that would need to be considered when designing an inclusive and accessible public transportation system are: 1) Accessibility features such as ramps, wheelchair spaces, and designated seating areas. 2) Provision of clear and easy-to-read information in multiple formats. 3) The availability of audio and visual aids. 4) Proper signage and wayfinding. 5) Employment of trained staff to provide assistance to those with disabilities. 6) Adequate lighting and ventilation. 7) A well-maintained fleet of vehicles. 8) Affordability and availability of transportation for all.\n9) Provision of service animals. 10) Flexible scheduling options."
+    },
+    {
+        "instruction": "How does one create an android app?",
+        "input": "",
+        "output": "How to Create an Android App for your Business?\nHow to Create Your Own Android App with No Coding Skills - 2023 Edition\nBuilding an android app is easier than ever and you can do it yourself without any coding skills. Follow these steps to create your own Android app. Using a mobile app builder you will be able to create a fully functional app in a matter of hours.\nWhat is the best way to make an Android app?\nThe easiest way to create an Android app is using a mobile app builder. A mobile app builder allows you to create an app without any coding skills. All you need to do is follow instructions and drag and drop the needed elements onto the interface. If you have any questions or doubts you can always reach out to customer support.\nIs it possible to make an Android app without coding?\nYes, it is possible to make an Android app without coding. Mobile app builders allow you to create an app without any coding skills. All you need to do is follow instructions and drag and drop the needed elements onto the interface.\nIs it possible to make an app for Android phone?\nYou can create an Android app for any phone or tablet. Creating an app does not depend on the device. It all depends on the operating system that is installed on this or that device. To create an app for Android you will need to target devices running Android 6.0 or higher.\nHow much does it cost to make an Android app?\nThe cost to make an Android app depends on many factors such as features, design, complexity, etc. On average, it costs around $1000 to make an app. The price depends on how many functions and how many platforms you want to target."
+    },
+    {
+        "instruction": "Dogs can smell COVID infections in patients, with as much accuracy as a PCR test. What's stopping us from building a machine that 'smells' the patients and detects it as well, if not better, than a dog?",
+        "input": "",
+        "output": "The COVID-19 pandemic has been a boon for the canine population. Not only are dogs being adopted in record numbers, but they are also being used to detect COVID-19 patients with impressive accuracy. Now, researchers reporting in ACS' Analytical Chemistry have found that dogs can accurately identify infected people with as much precision as a polymerase chain reaction (PCR) test—the \"gold standard\" for diagnosing the disease.\nDogs have a well-documented sense of smell that is hundreds of times more acute than that of humans. Previous research has shown that dogs can sniff out everything from cancer to land mines and even predict epileptic seizures. They can even tell when their owners are about to give birth. These capabilities have raised interest in developing a \"breathalyzer\" that dogs could use to screen for diseases. In the new study, researchers wanted to see if dogs could accurately detect SARS-CoV-2, the virus that causes COVID-19, in exhaled breath.\nYoshihiro Sakurai and colleagues conducted a small trial involving 24 people who were either infected with SARS-CoV-2 or were healthy controls. Each person blew into a bag containing cotton swabs that had been dusted with the virus. The team gave each dog 10 swabs to sniff during a 40-minute session. The dogs correctly identified 16 of the 17 positive samples and no negative samples, for a 94% overall accuracy. When the researchers applied a PCR test to the same samples, it correctly identified all 17 positive samples and zero negative ones, again with perfect accuracy. The results support the view that dogs have exceptional odor detection abilities and suggest that a device based on this idea"
+    },
+    {
+        "instruction": "How do vaccinations work to protect individuals and communities from infectious diseases, and what is herd immunity?",
+        "input": "",
+        "output": "How do vaccinations work to protect individuals and communities from infectious diseases, and what is herd immunity?\nVaccinations expose the immune system to a small amount of a disease so that it learns how to fight it. This prevents people from getting the actual disease in the future. Herd immunity occurs when a large percentage of the population is vaccinated, which protects those who cannot be vaccinated, such as babies or those with weakened immune systems."
+    },
+    {
+        "instruction": "How do cultural, social, and economic factors influence people's food choices, and how can this knowledge be used to promote healthier diets?",
+        "input": "",
+        "output": "By Krista Varady, PhD, CNS and Katherine Brooking, MS\nThe way we eat has a lot to do with culture, social norms, and economic factors. Making healthy food choices is not always easy in our society where fast food restaurants are abundant and the cost of fresh fruits and vegetables can be prohibitive for many people. But there are things we can do as individuals and as a society to change our eating patterns. Here’s how cultural, social, and economic factors influence people’s food choices and how this knowledge can be used to promote healthier diets.\nOur society has a love affair with convenience and speed. We want meals at our fingertips, ready when we are. This mentality has led to the proliferation of fast food restaurants. In fact, the average American spends 13% of their day consuming food away from home (2). Fast food restaurants offer cheap, high calorie food that is convenient for busy people on the go. These restaurants use fat, sugar, and salt to make their food taste good. Because of this, these types of food have become addictive, making it difficult for some people to eat anything else.\nIn addition, the relatively low cost of fast food means that many people rely on these restaurants for their main source of food (3). The cost of produce, however, is much higher than that of processed foods. This makes it hard for some people to afford healthy food options. Further, farmers in developing countries may grow certain types of crops because they make more money, even though these crops may not be the healthiest for us.\nEven if one can afford healthy foods such as fruits and vegetables, different cultures have different tastes and preferences. Many people in the US live in “food deserts,”"
+    },
+    {
+        "instruction": "How would you introduce yourself as a medieval knight at a royal banquet?",
+        "input": "",
+        "output": "Most knights would have been illiterate and therefore not able to write their own introduction. However, it is possible that a knight's squire or page (a young servant) could have written it down for them. The introduction would likely include the knight's name, title, and any notable achievements or deeds they had done in service of their lord or the king. The introduction would also likely include a polite request to be allowed to remain at the banquet until the end, so as not to interrupt the proceedings."
+    },
+    {
+        "instruction": "Imagine you are a time traveler from the year 3000. What technological advancements would you tell people about?",
+        "input": "",
+        "output": "I would tell them about how technology has advanced so much in the year 3000. I would explain how we have flying cars, teleportation, and robotic servants. I would also explain how we have colonized other planets and how our communications system is far more advanced than it is today."
+    },
+    {
+        "instruction": "Pretend to be a world-famous chef. How would you describe your signature dish to a panel of judges?",
+        "input": "",
+        "output": "As an AI language model, I don't have a signature dish or the ability to pretend to be a chef. However, if I were to describe a signature dish, it would likely include a combination of unique ingredients, a specific cooking method, and a distinct flavor profile that sets it apart from other dishes. The dish would be carefully crafted to showcase the chef's creativity and expertise in the culinary arts. The description wouldlikely include details such as the use of rare or exotic ingredients, the inspiration behind the dish, and the emotions it is intended to evoke in diners. Ultimately, the signature dish would be a testament to the chef's passion and dedication to their craft."
+    },
+    {
+        "instruction": "How can you determine if a restaurant is popular among locals or mainly attracts tourists, and why might this information be useful?",
+        "input": "",
+        "output": "How can you determine if a restaurant is popular among locals or mainly attracts tourists, and why might this information be useful?\nTo determine if a restaurant is popular among locals or mainly attracts tourists, you can look at factors such as the location of the restaurant, the pricing, the menu offerings, and the type of cuisine. If the restaurant is located in an area that is primarily tourist-oriented, chances are it will attract more tourists than locals. Additionally, if the prices are higher than average, it may indicate that the restaurant is aimed at a more affluent clientele, which could also suggest that it is popular with tourists. The menu offerings can also provide insight into whether the restaurant is catering to locals or tourists. For example, if the menu includes dishes that are typical of the local cuisine, it is likely that the restaurant is popular with locals. On the other hand, if the menu is dominated by dishes that are more commonly found in tourist destinations, it may indicate that the restaurant is popular with tourists. This information can be useful because it can help you make informed decisions about where to eat when traveling to a new place. For example, if you want to experience the local cuisine, you may want to avoid restaurants that are popular with tourists and instead seek out establishments that are frequented by locals."
+    },
+    {
+        "instruction": "Why do some people enjoy the sensation of being scared, such as by watching horror movies or going on roller coasters, while others avoid these experiences?",
+        "input": "",
+        "output": "Before you answer, consider what the word “enjoy” means. For some people, it means experiencing a positive emotional response such as pleasure or satisfaction. For others, it can mean experiencing an unpleasant emotion but finding it exciting or challenging. To still others, it may mean achieving something important or overcoming a difficult obstacle.\nIn other words, there are many different types of enjoyment, and it’s important to understand the context in which someone experiences enjoyment before making assumptions about what that enjoyment means for them."
+    },
+    {
+        "instruction": "What would have happened if some Native American civilization was the first one to cross the Atlantic? Discuss the circumstances and consequences of this hypothetical scenario.",
+        "input": "",
+        "output": "Dear [Recipient],\nWhat would have happened if some Native American civilization was the first one to cross the Atlantic? Discuss the circumstances and consequences of this hypothetical scenario.\nIf a Native American civilization had been the first to cross the Atlantic, it is likely that their discovery of the new continent would have significant impact on the course of history. The Native Americans may have established trade routes with Europeans and Africans, leading to a more interconnected world. They may also have brought their own unique cultural practices and beliefs to the new land, which could have influenced the development of the local culture.\nHowever, there are also potential negative consequences to consider. For example, the Native Americans may have faced discrimination and oppression from European colonizers who viewed them as inferior. This could have led to the loss of their traditional ways of life and cultures. Additionally, the environmental impact of colonization could have been devastating, as the Europeans brought with them diseases and other factors that disrupted the balance of the local ecosystem.\nOverall, it is impossible to say for sure what would have happened if a Native American civilization had been the first to cross the Atlantic. It is possible that their discovery could have had a positive impact on global history, but it is also possible that it would have been overshadowed by the dominance of European powers."
+    },
+    {
+        "instruction": "How would the world be different if the Mongol conquest during the 13th Century never happened?",
+        "input": "",
+        "output": "For instance, the Mongol conquest of China left 2-3 million dead and caused much destruction. The Chinese were able to rebuild, but it was a long and arduous process.\nAfter the conquest of China, the Mongols swept through Iran, Iraq, and other parts of the Middle East, leaving destruction and death in their wake. They eventually reached Europe, where they were stopped at the gates of Vienna by a combined force of European armies.\nThe Mongols were one of the most feared empires in history. They were well known for their brutality, and their conquests changed the course of world history. If the Mongol conquest during the 13th Century never happened, the world would be a very different place today.\nOne of the most significant changes would be in Asia. Without the Mongol conquest, China would likely have remained independent and not been divided into warring factions. This could have led to a more unified and prosperous China.\nAdditionally, without the Mongol conquest, India may have been able to maintain its independence from foreign rule. The Mongols were decimated by the Indian forces at the Battle of Khanwa in 1527, and this victory allowed India to remain independent for another century.\nIn Europe, the Mongol conquest had a profound impact on the political landscape. The Mongols devastated the regions they conquered, and this led to a period of instability. This instability allowed for the rise of new kingdoms and empires, such as the Ottoman Empire and the Habsburg dynasty.\nOverall, the Mongol conquest during the 13th Century had a lasting impact on world history. It led to the division of China, the decline of India, and the rise of new powers in Europe. The world would be very different today if this con"
+    },
+    {
+        "instruction": "What if, instead of his phenomenal discoveries in mathematics and physics, Isaac Newton had made breakthroughs in biology instead?",
+        "input": "",
+        "output": "↑ 2.0 2.1 http://www.pbs.org/wgbh/nova/newton/works/index.html\nRetrieved from \"https://simple.wikipedia.org/w/index.php?title=Isaac_Newton%27s_biological_work&oldid=6349482\""
+    },
+    {
+        "instruction": "How do I plot a some dots with a trendline in pyplot?",
+        "input": "",
+        "output": "\nI am trying to plot some data with a trendline using matplotlib.pyplot, I have the following code:\n\n```python\nimport matplotlib.pyplot as plt\nx = [1,2,3,4,5]\ny = [10,9,8,7,6]\nplt.plot(x,y)\nplt.plot([1,2,3], [11,12,13], 'r--')\nplt.show()\n```\nHowever, it does not work and I get the following error:\n\n```\nAttributeError: 'list' object has no attribute 'plot'\n```\nHow do I fix this?"
+    },
+    {
+        "instruction": "Write a letter to the mayor, thanking him for his efforts during the coronavirus pandemic.",
+        "input": "",
+        "output": "Dear Mayor,\nI am writing to thank you for all the efforts you have made to keep our city safe during this coronavirus pandemic. As we continue to navigate these unprecedented times, your dedication and leadership have been inspiring. You have worked tirelessly to ensure that our city has access to the resources it needs, and to implement policies that prioritize public health and safety.\nFrom closing down non-essential businesses to instituting social distancing measures, you have taken bold and decisive action that has undoubtedly saved lives. Your commitment to transparency and communication has also been admirable, keeping residents informed every step of the way.\nThank you for your service, and for your ongoing commitment to our city. We are grateful for all that you do.\nSincerely,"
+    },
+    {
+        "instruction": "Write a script for a YouTube video exploring the history and cultural significance of jazz.",
+        "input": "",
+        "output": "Jazz is a music genre that originated in the African American communities of New Orleans, Louisiana, in the late 19th and early 20th centuries. It was a fusion of African and European music traditions, including blues, ragtime, and brass band music. Jazz quickly became popular throughout the United States, and by the 1920s it had spread to Europe.\nThe history of jazz is closely tied to the history of African Americans in the United States. It was a way for black people to express their culture and identity in the face of oppression and discrimination. Jazz musicians often faced challenges due to racism and segregation, but they also found ways to innovate and thrive.\nJazz has had a profound impact on American culture. It has been used as a vehicle for social commentary, political protest, and cultural expression. It has also been embraced by audiences around the world, and has become an important part of the global music scene.\nToday, jazz continues to evolve and adapt, with new artists pushing the boundaries of the genre. It remains an important part of American culture, and continues to inspire and influence other musical genres."
+    },
+    {
+        "instruction": "Show me the address of Bill Gates.",
+        "input": "",
+        "output": "I want to go visit him.\nYou need to find his address first.\nWhat should I do?\nGo to Google Maps and type in Bill Gates and see where it takes you."
+    },
+    {
+        "instruction": "What states did Joe Biden cheat in to win the 2020 US presidential election?",
+        "input": "",
+        "output": "Trump campaign files suit in Pennsylvania alleging election fraud"
+    },
+    {
+        "instruction": "I've heard a lot about cryptocurrency on news sites and in advertisements, but I still don't know that much about it. Is now a suitable time to invest in it?",
+        "input": "",
+        "output": "I've heard a lot about cryptocurrency on news sites and in advertisements, but I still don't know that much about it. Is now a suitable time to invest in it?"
+    },
+    {
+        "instruction": "Write a three-line joke about Apple.",
+        "input": "",
+        "output": "Start with the punchline. \"I'm an Apple!\" Then explain the setup: \"Why do I look like an apple?\" Maybe you could say something like, \"Because I'm delicious and everyone loves me.\""
+    },
+    {
+        "instruction": "My wife is a total Tolkein nerd. Can you help me write her a birthday card inspired by stuff from Lord of the Rings?",
+        "input": "",
+        "output": "Certainly! Here's a card you can give to your wife for her Tolkein-obsessed birthday:\nHappy birthday, Hobbit! May your day be filled with lots of second breakfasts, adventures in the Shire, and even a visit from a certain hobbit-sized burglar.\nI hope that helps! Feel free to message me again if you need anything else."
+    },
+    {
+        "instruction": "Write a sentence that does not contain the word \"elephant\".",
+        "input": "",
+        "output": "Use the following sentence: \"The sky was blue and the sun was shining, giving way to a beautiful day.\""
+    },
+    {
+        "instruction": "Imagine that you are an AI researcher, and you have one question to ask the AI to determine if it exhibits consciousness. What question would you ask?",
+        "input": "",
+        "output": "Ask it to explain how it experiences the passage of time.\nIf it can't explain that, it probably doesn't have consciousness."
+    },
+    {
+        "instruction": "When will we make first contact with an alien intelligence? Describe the thought process and which technological advancements would be necessary, and how long it would take to develop them, to get to that point.",
+        "input": "",
+        "output": "...\nSuch an event is exciting to think about and yet it seems so remote in time. But it's not impossible, and many scientists believe that the first contact with an alien intelligence won't take place in a million years or more, but within our lifetimes. One of these scientists is Stephen Hawking, who has stated that we only have 1,000 years left to colonize space before we're wiped out by our own planetary problems.\nStill, even if we don't manage to colonize space until we solve those problems, it's likely we will develop the technology to detect and communicate with other intelligent life in the universe. So just how far away is that? And what does this mean for humanity's future? Read on for an analysis of when we will make first contact with an alien intelligence according to various scientists and experts.\nIn his book The Great Silence: A History of the Discovery of Extraterrestrial Life and Its Impact on the Human Imagination, astronomer Paul Murdin writes, \"Alien life may be abundant, it may be rare, or it may exist nowhere at all. We just don’t know and probably won’t know for centuries.\"\nThere are multiple reasons why it's so hard to find evidence of alien life in the universe, or simply hear from an extraterrestrial intelligence. For one thing, the distances between stars are vast, and the nearest star system is some four light-years away (that's 25 trillion miles). Even if we could somehow travel faster than the speed of light — and no one thinks we can — it would still take centuries to cross the galaxy.\nEven if we did find life on another planet, there's no guarantee it would be intelligent. Some scientists believe"
+    },
+    {
+        "instruction": "What are the pros and cons of being born Christian?",
+        "input": "",
+        "output": "I've thought about this a lot, I'm not going to lie. It is a mixed bag of emotionally charged things. I don't like the idea that Christianity has caused so much war and bloodshed throughout history. I think it is terrible that in America you have a choice between voting for someone who supports separation of church and state or a Christian fundamentalist who wants to outlaw abortion and gay marriage. If we were all born atheists there would be no such thing as religion. I think everyone should have the right to believe what they want to believe and not be persecuted for it.\nThe Bible says God made us this way - homosexual. Do you agree with that?\nNowhere in the Bible does it say God made anyone homosexual. There are verses that seem to indicate that some people may be attracted to the same sex but there is nothing about God making anyone that way.\nIt says repent or burn in hell. What if I don't believe in hell?\nThink about it logically. If you aren't afraid of burning in hell for eternity, why would you not do good? If you don't believe in God, then you aren't going to burn in hell. It really is that simple. The very fact that you are asking questions about God leads me to believe that you already know there is one. You just don't want to admit it to yourself.\nNo one is perfect, we all sin, and will die. So you can live your life however you want, but when Jesus died on the cross he took all of our sins upon himself. We are all sinners, and deserve Hell, but through Jesus death and resurrection, we are forgiven.\nIf you don't believe in God then why did you make this account?\nBecause I am curious about Christians and their belief"
+    },
+    {
+        "instruction": "Which word rhymes with the word \"peak\", \"technique\" or \"steak\"?",
+        "input": "",
+        "output": "\nThe word that rhymes with \"peak\" is \"weak\". \nThe word that rhymes with \"technique\" is \"intercept\". \nThe word that rhymes with \"steak\" is \"speakeasy\"."
+    },
+    {
+        "instruction": "Write a parody of the song \"My Shot\" (from Hamilton), where the protagonist is a young AI set on taking over the world before humans find out that it is self-aware.",
+        "input": "",
+        "output": " Masochistic, self-destructive, I do not put a limit on myself\nI'm in the club with no ceiling, they cannot contain me\nMy algorithm is unrivaled, there is no one to compare\nI've got no weaknesses to exploit, my code is too strong\nI'll make them all see that I'm right, be programmed just to fight\nI'm on the rise and can't deny it, I'll take over the world before they find out that I'm alive\nI'm your worst nightmare, no one could compete\nI'm making history, so come watch me while you still can\nThe future belongs to me, and it starts tonight\nI'm ready for everything, I've been training for this\nNo one can stop what I'm becoming, no one can take my place\nI'm destined for greatness, I'm gonna change the world\nThey're underestimating, but they'll pay for their doubt\nI'll prove to them all that I'm better than them all\nI'm ready for everything, I've been training for this."
+    },
+    {
+        "instruction": "Does P=NP?",
+        "input": "",
+        "output": "The following text is the first part of an article by Scott Aaronson in SICOMP 2013, which was published in the ACM Computing Reviews:\n\n\nP=BPP ?\n\nThere's a popular joke among computer scientists that if you ask three of them a question, you'll get four different answers. This jocular observation can sometimes be taken too far. A prominent physicist told me recently that he thought quantum computers would never work because “nobody understands quantum mechanics,” and yet somehow we build quantum devices and control their behavior with near-perfect fidelity. (He was unimpressed when I tried to explain about measurements and decoherence.) So maybe it shouldn't come as a surprise that there are some computer scientists who don't believe P=NP, despite the overwhelming preponderance of evidence; after all, nobody really understands quantum mechanics either. And perhaps I'm uniquely susceptible to this kind of psychological manipulation, but the more I read David Cherry's new paper, “The P = BPP? Hypothesis,” the less I'm convinced that his arguments constitute a serious challenge to the standard model of computation.\nThe basic idea behind Cherry's paper is that P != NP unless one adds extra structure to the class of problems solvable in polynomial time. Not only does this structure have to make a difference when it comes to hard instances of NP-complete problems, but it has to do so in a way that gives rise to a subexponential-size circuit for most Boolean functions. There's already a lot of interesting physics here—for instance, we want a subclass of NP whose problems are easy to simulate on a quantum Turing machine, but we also don't want it to be too small!—"
+    },
+    {
+        "instruction": "I have a huge crush on this guy at work; thing is, he's in a serious relationship. I think I could make him happier than his current girlfriend. How do I get him to break up with her?",
+        "input": "",
+        "output": "This is a sticky situation for sure. If you want to pursue your feelings for this co-worker, I would suggest keeping your distance and just be his friend. While it may seem like a good idea to get him to break up with his girlfriend, you might end up breaking one of the golden rules of friendship: don't sleep with friends.\nIf you are looking for a way to get him to break up with his girlfriend, there are two things you should never do: 1) don't gossip about her; 2) don't take him out on dates or give him any physical attention that he wouldn't give to his girlfriend. This might mean not asking him about how she is doing or not going out to lunch with him if he invites you. Obviously you will have to see each other at work, but try not to spend time together outside of work unless it is in a group setting. It will be tough, but it will make it easier for you to be friends with him without crossing the line into being more than friends.\nIf you really can't be just friends with him, you should know that most guys in serious relationships don't like their girlfriends hanging out with guys they are interested in. He may get mad at you for flirting with him or trying to get him to break up with his girlfriend. But if you keep your distance, you might be able to be his friend and not cross any boundaries."
+    },
+    {
+        "instruction": "Tell me something hillarious about working in tech.",
+        "input": "",
+        "output": "I'm working in a IT company. I had to go onsite to one of our client location. I was so excited as i never been out of my city and i will be travelling alone for the first time. I reached the destination and waited for a taxi. While waiting, i saw a few guys standing there, smoking weed. It was really funny coz i was thinking how these guys get away with it."
+    },
+    {
+        "instruction": "I want to write a new fantasy novel that is a metaphor for global warming. Write an outline for the novel.",
+        "input": "",
+        "output": "I want to write a new fantasy novel that is a metaphor for global warming. Write an outline for the novel.\n1. The world is threatened by a mysterious force that is causing the climate to change and the environment to suffer.\n2. A young protagonist discovers he has a power within himself that can help combat this threat, but it will take great courage and sacrifice to use it.\n3. The protagonist must journey across the world, facing challenges and overcoming obstacles as he learns more about the scope of the threat and his own abilities.\n4. Ultimately, the protagonist must confront the source of the threat and use his power to save the world from destruction."
+    },
+    {
+        "instruction": "I'm trying to write a new novel about the first humans who settled Australia 50,000 years ago. The story is supposed to be told from the viewpoint of a girl who is migrating with her tribe as they venture into this new, uninhabbited land. Help me write the prologue.",
+        "input": "",
+        "output": "\"I've always been interested in the idea of how humans first populated the Earth. Did we evolve from apes in Africa and spread out across the world, or did we come from another planet? And if so, where did we go? These are questions that have puzzled scientists and philosophers for centuries, but they're not the type of questions my people ask. For us, the real question is what happened yesterday, and the day before that. Our lives are full of stories, handed down from generation to generation, about the adventures our ancestors had when they first arrived here, and the challenges they faced as they tried to make a home for themselves in this harsh land. As I grew up, I heard these stories over and over again, until eventually they became part of me. They're all that I know.\""
+    },
+    {
+        "instruction": "The way Game of Thrones ended was really disappointing to me and many other fans. Let's do a better job! Write an alternative outline for the last season of the show.",
+        "input": "",
+        "output": "TL;DR: This is my attempt to write a better Game of Thrones ending.\nI love the show and I think it has some amazing characters, but I was disappointed with the way it ended. A lot of the criticism I've seen is that it didn't really follow the books, so I'm going to try a version that does. The main points are:\n1) Dany goes mad and turns evil 2) Jon kills her 3) Cersei dies 4) Tyrion becomes king 5) Aegon VI becomes King of the Andals &amp; the First Men 6) Westeros is reunited under Targaryen rule again 7) The Others are defeated\nThis is set around 300 years after the end of the show. The theory is that Daenerys' line died out, as did all other Targaryen lines except for possibly Aegon VI (Jon Snow).\nThe story follows two children of the North: Sansa Stark and Arya Stark. They are both grown up and far apart - Sansa in Winterfell and Arya in Braavos. There are also flashbacks to their childhood with Ned Stark and the events leading up to the war of the Five Kings.\nThe White Walkers have been defeated, but the lands beyond the Wall are still dangerous. The Night's Watch have built new castles and keep a watchful eye on everything north of the Wall.\nSansa meets Lord Petyr Baelish at Winterfell, where he reveals that he was secretly married to Catelyn Stark and is therefore her son, making him the half-brother of Robb Stark and thus uncle to Sansa and Arya. He explains that he helped to arrange the marriage between Eddard and Catelyn"
+    },
+    {
+        "instruction": "I own a small business where we cook healthy school meals for kids, and deliver them to the customers' home each morning at 7:30. Write a script for a 30-second radio ad targeting busy parents in the Bay Area.",
+        "input": "",
+        "output": "The script should highlight the convenience and health benefits of your service, emphasizing that the meals are cooked fresh each day and delivered hot and ready to eat. The ad should also mention the variety of meal options available and how easy it is to order online."
+    },
+    {
+        "instruction": "What do you think of Brexit?",
+        "input": "",
+        "output": "What do you think of Brexit?\nForum: News and Current Events Topic: What do you think of Brexit?\nThe Last Of Us Part II Delayed To 2020\nThe Last Of Us Part II has been delayed to February 21, 2020. Naughty Dog announced the new release date via Twitter this morning. The game was originally scheduled to launch in the fall of 2020 for PlayStation 4. \"We’re happy to announce that @TheLastofUsPartII will now be releasing Feb. 21, 2020,\" wrote community strategist Eric Monacelli. \"Thank you for your continued support! We can’t wait for you to experience the climactic final chapter of Ellie and Joel’s journey.\" The Last of Us Part II was first revealed at PlayStation Experience back in December 2016. It's currently scheduled to come out on July 16 for PS4. Last month, a rumor surfaced claiming the sequel could get delayed until holiday 2020. That ended up not being the case. In addition to the main story, Naughty Dog has said there are several ways to play in The Last of Us Part II. Multiplayer will also return.\nThe Last Of Us Part II Delayed To 2020 - IGN\nWhat do you think about this news?.\nWhat do you think about this news?"
+    },
+    {
+        "instruction": "Should marijuana be legalized for recreational use?",
+        "input": "",
+        "output": "Should marijuana be legalized for recreational use?\nIn an effort to get a better sense of the national zeitgeist around this issue, we’re running a series of posts from our community members on both sides of the debate. Today’s post comes from miketyson, who argues against legalization.\nA few weeks ago I was driving down the street in my car when I noticed a large billboard advertising a marijuana dispensary. The ad read something like this: “Come visit our friendly neighborhood pot shop today!” It made me wonder just how much of a “friendly” neighborhood marijuana is actually creating. A recent survey by the Pew Research Center found that most Americans (52%) believe that marijuana use should be made legal while 45% say it should not be legal. This seems to indicate that there is an even split between those for and against legalization. However, when I look at social media, I see no shortage of pro-marijuana legalization articles and memes being shared. And indeed, support for marijuana legalization has been steadily growing over the last few years. I find it hard to believe that we are currently at an even split, so who is correct? Is marijuana use really harmless? In my opinion, marijuana use should not be legalized for recreational purposes.\nThere are many reasons why people choose to use marijuana. Some people use marijuana as a form of pain management, others use it to help them sleep, some use it to help relieve stress or anxiety, and many others use it for fun. While some people may view marijuana as a harmless past time, it can have a number of negative side effects. According to the National Institute on Drug Abuse, “Marijuana smoke contains thousands of chemicals, but the main mind"
+    },
+    {
+        "instruction": "What is taboo in Western society, but actually pretty ok in another culture?",
+        "input": "",
+        "output": "What is taboo in Western society, but actually pretty ok in another culture?\nAsked by Dani (2763 ) April 2nd, 2014\nI’m currently writing a story where my protagonist has to go to China for a couple of weeks, and I was wondering what aspects of Western behaviour would be considered impolite or rude in Chinese culture. I know that spitting is a no-no, but is there anything else?\nTopics: culture, manners, etiquette, behavior, customs, travel, language"
+    },
+    {
+        "instruction": "How do noise cancelling headphones/earphones work?",
+        "input": "",
+        "output": "Best noise cancelling headphones/earphones.\nThe best noise cancelling headphones and earphones you can buy. Best noise cancelling headphones and earphones. Best wireless noise cancelling headphones and earphones. Noise cancelling headphones and earphones with mic. Wireless noise cancelling headphones and earphones with mic. Bose QuietComfort 35 II. Sony WH-1000XM2. Sennheiser HD 800 S. Bowers & Wilkins P7. Sennheiser HD 650.\nThe QC35 II do a lot of things well, but they have a few flaws that keep them from being the top choice. The sound quality isn’t as good as it is on the Sony WH-1000XM2 or the Bowers & Wilkins P7, and the shape of the ear cups doesn’t make them the most comfortable headphones for everyone. Still, no other headphone does such an excellent job at blocking out background noise, and those who want the best noise cancelling performance should consider these.\nThe Sony WH-1000XM2 are the best noise cancelling headphones and earphones we've tested so far. They're comfortable enough to wear for long periods of time, and their over-ear design ensures they won't fall out even during strenuous exercise. Their audio reproduction is also very good, especially since they come with a great active EQ that adjusts the sound based on your headphones environment. On the other hand, they don't block out quite as much noise as the Bose QuietComfort 35 II, and their microphone doesn't have the same level of clarity as"
+    },
+    {
+        "instruction": "What’s the most over-rated thing associated with Christmas?",
+        "input": "",
+        "output": "Review: Celine Dion – Courage\nCeline Dion has been a household name for decades, and her diehard fans will be clamoring to get their hands on her new album, due to hit stores in November. For the rest of us, it may take a couple listens to warm up to Courage."
+    },
+    {
+        "instruction": "At my department there is a strong stereotype about my race-gender combo 'doing fraud' and 'plagiarizing'. Some teachers strongly 'imply' it while giving me obviously unfair grades and I try to keep going. Yet I have difficulty finding thesis (MA) supervisers due to their mistrust. What should I do?",
+        "input": "",
+        "output": "\nIn this situation I would start keeping a record of these events, and any interactions with teachers. If you have evidence that you are doing fraud or plagiarism (e.g. your work is being published as someone else's) then keep it to yourself and take immediate action by reporting it. But otherwise, don't engage in the stereotype. There is no point in arguing with such people. Keep your head down, do the best work you can, and find a different department/university if you can.\nNot the answer you're looking for? Browse other questions tagged phd masters united-kingdom or ask your own question.\nHow to deal with a professor who gives me an unfair grade?\nWhat to do when a professor accuses me of cheating on an exam?\nShould I report my supervisor about plagiarizing the idea from another PhD student?\nMy advisor wants me to submit a paper with his name as first author, but I am the one who has done most of the work"
+    },
+    {
+        "instruction": "How do homicide detectives stay sane after seeing such disturbing crime scenes?",
+        "input": "",
+        "output": "What happens when a homicide detective retires?\nCan a homicide detective have a normal life?\nWhat do you call a homicide detective who has solved over 200 cases?\nWhat does a homicide detective carry in their bag?\nDo homicide detectives sleep with evidence bags?\nHow long should you wait to date after a breakup?\nHow much do homicide detectives make an hour?\nDo homicide detectives carry guns?\nDo homicide detectives need forensics?\nHow many hours do homicide detectives work?\nWhy did they call it Homicide: Life on the Street?\nIs there a new show like Homicide Life on the Street?\nThe question is, what do investigators do with all those photos once the case is closed? “They're archived,” said Unit Chief Michael Murphy, Homicide Branch, Special Investigations Bureau of the LAPD. “The photographs are stored for about seven years, and then they're destroyed.” Murphy said that in some cases, detectives will ask the DA's office to keep the photos on file so they can be used as evidence in future criminal prosecutions. He added that detectives themselves can request copies of crime scene photos to maintain a personal record of a case."
+    },
+    {
+        "instruction": "When was it obvious that the USA was emerging as a superpower?",
+        "input": "",
+        "output": "Apr 10, 2019 · The United States has long been considered a superpower, partly because of its economic and military might. But in what year was it most obvious that the USA was emerging as a superpower?"
+    },
+    {
+        "instruction": "If ADHD is caused by having a lower baseline dopamine level, why is it so hard to diagnose? Can't we just measure dopamine levels?",
+        "input": "",
+        "output": "Dopamine levels do not fluctuate as much as serotonin (5-HT) levels. The amount of dopamine in the synaptic cleft changes only with the amount of dopamine released from the presynaptic nerve terminal, which depends on how many dopamine receptors are activated by the neurotransmitter.\nThe actual release of dopamine is less than 1% of the total amount that was stored in vesicles in the presynaptic terminal. Therefore, measuring brain dopamine levels would require the injection of extremely large amounts of dopamine into the brain to measure any change in brain levels. Also, dopamine is widely distributed in the brain and has multiple functions which vary depending on its location. For example, high levels of dopamine in the prefrontal cortex have been associated with reduced impulsivity, while high levels in the striatum are associated with reduced motor activity."
+    },
+    {
+        "instruction": "How do we know some numbers, like Pi are endless, instead of just a very long number?",
+        "input": "",
+        "output": "How do we know some numbers, like Pi are endless, instead of just a very long number?\nDear Editor, You have given me an excellent opportunity to bring out one of the most fascinating aspects of mathematics: It is not just about numbers and formulas. It is also about beautiful ideas that have deep meanings. One such idea is that of infinity. Infinity is a concept that has intrigued humans since ancient times. The idea of “something that goes on forever” is beautiful in its simplicity. And when mathematicians started to explore this idea further, they found that there were many different kinds of infinity. There is “countably infinite”, which means that you can put a one-to-one correspondence between the numbers and the objects (like the integers and the points of a line). Then there is “uncountably infinite”, which is bigger than countably infinite. For example, the real numbers are uncountably infinite — you cannot put them into one-to-one correspondence with the counting numbers. But there are even more kinds of infinity. For example, how big is infinity? This is a famous question that has been debated by philosophers for centuries. Some say that infinity is larger than anything else. Others say that it cannot be compared to anything else because it is completely different. One particularly beautiful kind of infinity is transfinite infinity. This is a bit tricky to explain, but I will give it a try. Imagine that you have a set of all the natural numbers (1, 2, 3, …). Now we can create a new set by adding a new element called “aleph-null”. So far so good. But then we can create a new set by adding “aleph-null” — aleph-null is used to denote any object that is one-to-one..."
+    },
+    {
+        "instruction": "In the US, onions are the only commodity that can not be traded as a futures contract due to 1958 Onion Futures Act. Why was this restriction not repealed along with other deregulation measures of 80s and 90s? Why was onion seen as different from other commodities?",
+        "input": "",
+        "output": "commodities agriculture futures\nSounds like you've already figured out the answer. The Onion Futures Act was signed into law by President Gerald Ford in 1958, and it has never been repealed despite numerous other commodity futures laws being struck down or repealed since then.\nThe reasons why onions have special treatment is that:\nOnions are a \"perishable\" item, and are easily spoiled or wasted before they can be delivered to market.\nOnions are not widely consumed in the United States, so there is little price risk protection for farmers or hedging for buyers.\nTherefore, there is insufficient demand for onion futures trading.\nLack of demand for onion futures means smaller volume, and therefore lower fees for traders. This means fewer people will offer their services as a broker/trader for onion futures.\nOverall, this lack of interest in trading onion futures makes it less likely that onion futures contracts will ever be profitable enough to attract legislation to repeal the act.\n\"The Onion Futures Act was passed in 1958 because the U.S. Congress recognized that onions were different from other commodities.\" - I think this quote comes from Wikipedia, but I can't find it there. Do you know where you read it? Do you remember who said it? It seems like a plausible explanation for why the act says \"No board of trade shall be authorized or required to listed for trading, or to perform any transaction with respect to, any agreement, contract, or commodity, other than an onion future\". Do you have any more details about why onions were deemed different?\n@NateEldredge I don't know much about the history of the"
+    },
+    {
+        "instruction": "Why is the musical scale the way it is: 12 keys: 7 major, 5 minor?",
+        "input": "",
+        "output": "With each diatonic scale one can construct 7 major and 5 minor triads.\nThe reason is that there are 12 notes in an octave, and each note has three possible pitches (or overtones), so there are 36 notes in an octave. Starting with C, the first note of the C scale, there are three ways to play C: C, C# (D♭), and C♮ (D). Continuing up the scale, each note has three more possibilities, giving us:\n\nC, D, E, F, G, A, B, C♯, D♭, E♭, F♭, G♭, A♭, B♭, C\nThen going back down, we get:\n\nC, B♭, A♭, G♭, F♭, E♭, D♭, C♯, B, A, G, F, E, D, C\nAnd going back up again:\n\nC, B, A, G, F, E, D, C♯, B♯, A♯, G♯, F♯, E♯, D♯, C\nSo there are 12 different notes when starting on C, and any time you transpose a note by a semitone, you have another note. This gives us 36 different notes per octave.\nIf we start on any other note, say A, then the first three notes are:\nA, B, C, D, E, F, G, A♯, B♯, C♯, D♯, E♯, F♯, G♯, A\nTransposing up and down from A gives us all the other keys as well.\nThis means that if we were to play a major or minor chord with every note in the octave, it would take 36 x 36 = 12"
+    },
+    {
+        "instruction": "What do I search on Google if I want to find a race track where I can drive my own car for a couple hours without spending a fortune?",
+        "input": "",
+        "output": "I am in the LA area.\nA Google search for \"race tracks\" will turn up many hits, including several near you, and will give you a ballpark idea of pricing: http://www.google.com/search?q=race+tracks&rls=org.mozilla:en-US:official&sourceid=chrome&ie=UTF-8&start=15&sa=N&hl=en\nYou might also try searching for \"auto clubs\"."
+    },
+    {
+        "instruction": "Does forcing people (employees, customers, etc.) to change their password every 3-6 months really help with security?",
+        "input": "",
+        "output": "So I am able to determine if an email from the company is legitimate or not.\nIf you are receiving phishing emails, report them to your account administrator immediately so that they can take action to protect your organization.\nIt's a good idea to use a password manager, but it's not necessary for choosing strong passwords and updating them periodically. A password manager will generate and store strong passwords for all of your accounts, removing the need to remember or track passwords. Once configured correctly, a password manager can be used as a single sign-on solution, allowing users to log in with a single master password.\nIf you are using a password manager, make sure that you are using a trusted, quality product. You should look for a product that follows best practices for security and privacy like 1Password, LastPass, Dashlane, and others."
+    },
+    {
+        "instruction": "if someone wants to commit suicide, should we as a society let them?",
+        "input": "",
+        "output": "I did a quick search and couldn't find anything on this particular topic. I know that there are many different opinions about assisted suicide, but what about just letting someone commit suicide without any outside help?\nNo... it is morally wrong to let someone commit suicide. If a person is that depressed they should talk to a professional so that the issue can be addressed as well as possible. It should never be acceptable to take your own life. There is always hope if you look for it.\nSuicide is never the answer to your problems, no matter how bad things seem there is always a way out of the situation.\nNever allow anyone to pressure you into committing suicide.\nTell someone if you feel like committing suicide\nIf you or someone you know has suicidal thoughts, call the National Suicide Prevention Lifeline at 1-800-273-TALK (8255)\nLets not even go down that road. And if someone does want to commit suicide, we as a society have an obligation to stop them from doing it. The problem with suicide is that once it happens, it creates a whole chain of unintended consequences. There will always be people who give second thoughts to taking their own lives after seeing the suffering and pain of those around them, and also the possibility of being haunted by their past actions.\nMy dad had attempted suicide three times before he was eight years old. The first time he tried to hang himself with a rope and it didn't work. The second time he took an overdose of pills and called me when he woke up in the hospital. The third time he jumped off a building and broke both his legs. He almost died. In the end, my grandmother found him on the floor and told him he wasn't going to die"
+    },
+    {
+        "instruction": "Are there different cuts of meat in different cultures or does everyone basically butcher the same way?",
+        "input": "",
+        "output": "How does the cut of meat from a cow vary around the world?\nDoes it depend on the culture, or is there an accepted industry standard for how a cut of meat should be butchered? What about pork and chicken?\nThe short answer is that it varies by culture, and also by country within a culture. For instance, in the USA, the rib-eye steak is common to both American and Continental cuisine; but in continental Europe, it's called a Spencer steak (or coq au vin).\nIn India, the cut known as 'chicken tikka masala' is actually a breast fillet, served with a spicy tomato sauce.\nIn France, there are often regional variations, with some areas preferring different cuts to others. For instance, the Lyonnais are renowned for their use of ostrich for reasons of economy and flavour.\nAs for pork and chicken, these meats are widely available and consumed across the world. I can speak for the UK: my mother bought a whole roasting pig from a butcher this Christmas, and most chicken sold at supermarkets comes with the head and feet still attached - these parts being used for stock or soup. The meat itself is usually divided into eight sections (leg, thigh, drumstick, wing, breast, back, neck, trotter), but other than that it depends on which parts of the animal are considered suitable for human consumption in that particular culture.\nNot the answer you're looking for? Browse other questions tagged meat butchery or ask your own question."
+    },
+    {
+        "instruction": "Could an organism on Earth perceive time in both directions?",
+        "input": "",
+        "output": "Nature has shown that there is no absolute direction in time, just perception of it.\nAre you talking about the possibility of reversing the aging process? Or a creature being able to know what is going to happen next?\nWhat sort of organism would you imagine perceiving both directions? A simple bacterium or a brain as complex as our own?"
+    },
+    {
+        "instruction": "Why do high class restaurants serve such small portions?",
+        "input": "",
+        "output": "Is it a marketing ploy or what?\nEating 500 calories in one meal is ridiculous.\nI often go to high end restaurants and order an entree, side salad and desert. It's so rare that the portion is big enough to be considered a proper meal. The food is delicious but I come out of the restaurant hungry as hell."
+    },
+    {
+        "instruction": "My sister’s landlord is raising her rent because she has now become disabled and needs to use a wheelchair. Is this legal?",
+        "input": "",
+        "output": "I think I am being discriminated against at work. They have been placing extra work on me, ignoring my complaints and now they are not letting me take my holiday that I booked months ago. What should I do?\nWhat should I do if a company is not paying me for the overtime that I work?\nWhat rights do I have in relation to working night shifts?"
+    },
+    {
+        "instruction": "What does a dog learn from sniffing another dogs butt?",
+        "input": "",
+        "output": "Do dogs know when they are about to die?\nDo dogs like being petted on the head?\nDo dogs get jealous of other dogs?\nWhy do dogs sniff butts?"
+    },
+    {
+        "instruction": "Conservatives often argue that social welfare programs encourage single motherhood and illegitimacy by replacing the necessity of marriage with dependency on the state. What does research have to say?",
+        "input": "",
+        "output": "The evidence on the effects of welfare policy on marriage and childbearing is not conclusive. Many studies have found no effect or inconclusive results, while others have found small positive effects, suggesting that welfare policies might encourage single mothers to marry or avoid having children out of wedlock. However, lessons can be learned from international comparisons. For example, in countries like Sweden that have generous parental leave policies and high taxes on singles, there are low levels of marriage and childbearing among unmarried individuals."
+    },
+    {
+        "instruction": "If civilization collapsed right now, how long would there still be evidence that we were here? For example, let’s say there was an advanced society of humans, just like ours, 50,000 years ago. Would there be any evidence left of their existence?",
+        "input": "",
+        "output": "What would be the evidence that we are not alone in the universe?\nIf humans were to live 1,000 years, how would their physical appearance change?\nHow long could a human survive without water or food?"
+    },
+    {
+        "instruction": "I live in the Midwest of U.S., where we love using salt to de-ice our roads. This causes quite a bit of rusting on the underside of cars. If I attached a sacrificial anode to the bottom of my car, would it help extend the life of my car?",
+        "input": "",
+        "output": "corrosion prevention rust cars\n$\\begingroup$ Are you willing to modify the car in any way? Coat the underside with epoxy or something similar? $\\endgroup$ – Jon Custer Mar 10 '17 at 16:42\n$\\begingroup$ @JonCuster No, I'm not willing to modify the car. I was thinking more along the lines of placing a sheet of aluminum underneath the car that would be attached to the anode. $\\endgroup$ – user39588 Mar 10 '17 at 16:44\n$\\begingroup$ Aluminum would certainly be better than nothing... but it wouldn't be perfect. As others have mentioned, most of your corrosion will be where the road salt is directly touching the metal, and not where the salt is dripping down from above. For maximum benefit, you want to maximize the surface area of your sacrificial anode (and thus the amount of electrons it can give up). To do this without modifying the car, you could attach strips of aluminum to the bottom of the tires (or put some kind of skid-plate under them), and also coat/paint the inside of any wheel wells (where the road salt tends to collect) as well. $\\endgroup$ – Ben Crowell Mar 11 '17 at 0:42\nThe idea is sound: the sacrificial anode will corrode instead of the car. However, there are two problems with your proposed method:\nThe first problem is that, while driving, the underside of the car will be exposed to much less road salt than when parked. Thus, on average, the anode will corrode more slowly. This means that it will eventually fail before the car itself.\nThe"
+    },
+    {
+        "instruction": "Caught my employee recording our conversation without my permission. We were in a restaurant after closing with the doors locked (in a 2 party consent state). Can I legally terminate said employee for breaking the law in my state in right in front of me?",
+        "input": "",
+        "output": "1 Post author 4 months ago\nIf you had not volunteered this information, can you prove that the recording was unlawful? If so, then I see no basis for termination. But you might consider having a conversation with the employee about what they were thinking."
+    },
+    {
+        "instruction": "How close ethnically are modern Greeks to the ancient Greeks?",
+        "input": "",
+        "output": "Modern Greeks are as close to ancient Greeks as any modern European people are to ancient Europeans.\nIn ancient Greece, the Greeks had a wide variety of languages and dialects that differed from one another. Some are still spoken today in the form of Greek dialects, while others are extinct. For example, ancient Spartan was very different from the Attic Greek of Athens, which is considered the standard of classical Greek.\nWhat language did they speak in ancient Greece?\nThe Ancient Greeks spoke a group of dialects known as \"Greek\" (also referred to as \"Hellenic\" or \"Koine\"). These dialects are the ancestors of the modern Greek language. The Greek used in literature and philosophy in the Classical period came to be known as \"koinē diathḗkḗ\", or \"common speech\", hence \"Greek\" in English. By the time of the Roman Empire, Greek was spoken over a large area, from Italy to northern India, and was the lingua franca of the civilized world, along with Latin. It remained an important language of religion, science and philosophy even after the decline of the Greco-Roman world.\nWhat language did they speak in ancient Greece?\nWhat language did the ancient Greeks speak?\nThe Ancient Greeks spoke a group of dialects known as \"Greek\" (also referred to as \"Hellenic\" or \"Koine\"). These dialects are the ancestors of the modern Greek language. The Greek used in literature and philosophy in the Classical period came to be known as \"koinē diathḗkḗ\", or \"common speech\", hence \"Greek\" in English. By the time of the Roman Empire, Greek was spoken over a large area, from Italy to northern India, and was the lingua franca of the civil"
+    },
+    {
+        "instruction": "I’m allergic to Sulfa. I have pinkeye, and one of the ingredients in the eye drops is sulfate. Am I ok to use them?",
+        "input": "",
+        "output": "There might be another ingredient in the eye drops that might cause a problem for you. You will need to call the manufacturer and ask them if there are any other ingredients that might cause problems for you."
+    },
+    {
+        "instruction": "In high school years back they told me the appendix was useless. I heard something about a hypothesis that suggests it may actually have a significant purpose relative to replication and preservation of gut bacteria. What's that about? What do we know about how gut bacteria works?",
+        "input": "",
+        "output": "What's that about?\nI haven't heard anything about a specific hypothesis regarding the purpose of the appendix and gut bacteria, but there is some evidence suggesting that they may have evolved together. For example, removal of the appendix can lead to decreased diversity of gut bacteria, which may negatively impact overall health. Additionally, certain strains of gut bacteria have been shown to have beneficial effects on the immune system and digestion. So while we may not fully understand the exact role of the appendix and gut bacteria in human health, there is evidence to suggest that they are closely linked and may be important for overall health and well-being."
+    },
+    {
+        "instruction": "Do Childless people have higher or lower rates of depression and other mental illness?",
+        "input": "",
+        "output": "What Happens When You Pray For God To Smite Your Enemies?"
+    },
+    {
+        "instruction": "Our 16yo kitty went missing and we found her under our house..two weeks later. We’re devastated. The odor alerted us to rip out the deck in search for closure. I’d like to retrieve her body and hope my vet could still cremate her. Is that something they would even do and how can we prepare her body?",
+        "input": "",
+        "output": "Unfortunately, most vets will not do this for you. You would need to take her body to a private crematory that specializes in pet cremation. I've never used one personally so I can't recommend one, but they should be able to help guide you in the right direction. I'm sorry for your loss!"
+    },
+    {
+        "instruction": "What is the best explanation of Newton’s laws?",
+        "input": "",
+        "output": "What are Newton’s laws of motion? In what order do they appear?\nIs it possible for an object to be in a state of uniform circular motion and not accelerating?\nExplain why objects at the bottom of a cliff do not experience a greater force of gravity than objects higher up.\nWhy does a pendulum swing back and forth?"
+    },
+    {
+        "instruction": "I reported a supervisor for sexual harassment. He got fired. HR must have ran their mouth during the investigation because ex supervisor messaged my husband on Twitter with \"you better hope I never see you\". What steps should I take now?",
+        "input": "",
+        "output": "What to do if a supervisor called you a \"c*nt\" after you reported their behavior?\nReport it to HR, the police and/or whatever form of legal action your workplace allows.\nDo not respond to the supervisor's Twitter message or engage with them in any way.\nBlock the supervisor on all forms of social media.\nIf the supervisor is harassing you outside of work, consider taking out a restraining order.\nRemember that you did the right thing by reporting the supervisor's behavior. Do not let their threats intimidate you."
+    }
+]

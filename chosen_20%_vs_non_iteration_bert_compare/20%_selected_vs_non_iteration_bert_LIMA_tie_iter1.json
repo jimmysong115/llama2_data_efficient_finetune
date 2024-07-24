@@ -1,0 +1,57 @@
+[
+    {
+        "instruction": "Can you rephrase this paragraph and make it a bit shorter?\nAs the first step in Pick a Pic, we introduce pickapic.io. This web app allows users to generate, rank, and download images for free. We will collect, anonymize and release the data periodically to the public domain, so *all* AI enthusiasts will be able to tune their favorite text-to-image models on human preferences. ",
+        "input": "",
+        "output": "Sure, here's a shorter version: Pick a Pic is a web app that allows users to generate, rank, and download images for free. We will collect and release the data periodically to the public domain so that all AI enthusiasts can tune their text-to-image models based on human preferences."
+    },
+    {
+        "instruction": "What are some good ideas for a startup in STEM education?",
+        "input": "",
+        "output": "What are some good ideas for a startup in STEM education?\nI am an AI language model and I do not have personal opinions, but here are some possible ideas for a startup in STEM education:\n1. Developing innovative educational tools and software that can help students learn STEM subjects more effectively.\n2. Creating a platform for online learning and teaching that focuses on STEM subjects.\n3. Offering online courses or workshops for teachers to improve their skills in teaching STEM subjects.\n4. Developing a program for summer camps or after-school activities that promote STEM education among children.\n5. Providing tutoring services or virtual classes for students who need extra help with STEM subjects.\n6. Developing a mobile application that provides interactive quizzes, games, and activities related to STEM subjects.\n7. Creating a subscription-based service that offers access to high-quality STEM resources and materials."
+    },
+    {
+        "instruction": "Do we have a moral obligation to explore space, or should we focus on solving Earth's problems first?",
+        "input": "",
+        "output": "Persistence of vision (POV) goggles are a type of stereoscope that create the illusion of 3D vision by alternating between two slightly different views. This page details how to make them yourself, and also has instructions for making other types of POV goggles.\nPersistence of Vision Goggles: A simple and cheap way to see 3-D from your computer. Persistence of vision goggles or POV goggles allow you to see an image in 3 dimensions when viewed through them. The secret is that they alternate between two slightly different images very quickly so your brain sees them as one 3-dimensional image.\nThe first person to figure out how to create the illusion of depth using a moving image was Horace... He invented the \"persistence of vision\" or POV 3D technique, which uses the phenomenon that our brains perceive a continuous image when presented with a rapid succession of still images."
+    },
+    {
+        "instruction": "Implement a regular expression in Python to validate an email address.",
+        "input": "",
+        "output": "\nA regular expression is a pattern that is used to match certain characters or structures in text. In this case, we want to validate an email address using a regular expression in Python. Here's an example regular expression that should work for most email addresses:\n```\n^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$\n```\nThis regular expression matches:\n- An empty line or any string starting with \"from email@\"\n- One or more characters from the set of `[a-zA-Z0-9._%+-]` (letters, digits, underscores, percent signs, plus signs, and hyphens)\n- One or more `@` symbols\n- One or more characters from the set of `[a-zA-Z0-9.-]` (letters and digits)\n- One or more `.` periods\n- One or more characters from the set of `[a-zA-Z]{2,}` (two or more letters)\n- An empty line or the end of the string\n\nTo use this regular expression in Python, you can define a function that takes an email address as input and uses the regular expression to validate it. Here's an example:\n```python\nimport re\ndef validate_email(email):\n    \"\"\"\n    Validate an email address using a regular expression.\n    \"\"\"\n    pattern = r^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$\n    if re.fullmatch(pattern, email):\n        return True\n    else:\n        return False\n```\nYou can call this function with an email address as input, like this:\n```python\n>>>"
+    },
+    {
+        "instruction": "Solve for x in the equation 3x + 10 = 5(x - 2).",
+        "input": "",
+        "output": "\n"
+    },
+    {
+        "instruction": "Paraphrase the following text with advanced English words for a scientific paper:\n\nNeural network based methods have obtained great progress on a variety of natural language processing tasks. However, in most previous works, the models are learned based on single-task supervised objectives, which often suffer from insufficient training data. In this paper, we use the multi-task learning framework to jointly learn across multiple related tasks.",
+        "input": "",
+        "output": "The neural network based methods have achieved great success in various natural language processing tasks. However, most previous works learn the models based on single-task supervised objectives, which often suffer from insufficient training data. In this paper, we propose to use the multi-task learning framework to jointly learn across multiple related tasks."
+    },
+    {
+        "instruction": "Write an acrostic poem for the word \"semantic\" that explains why research on syntax is overrated.",
+        "input": "",
+        "output": "1. S: Start with the basics.\n2. E: Examine the evidence.\n3. M: Make sure you have the facts.\n4. A: Analyze the data.\n5. N: Never stop learning.\n6. T: Take it slow.\n7. H: Hone your skills.\n8. I: Investigate further.\n9. C: Challenge assumptions.\n10. A: Always stay curious."
+    },
+    {
+        "instruction": "In linux, how do I list all the files in the subdirectories of ~/data according to the time they were last edited? ",
+        "input": "",
+        "output": "\n\nI want to list all the files in the subdirectories of ~/data according to the time they were last edited."
+    },
+    {
+        "instruction": "Prove that every set is countable.",
+        "input": "",
+        "output": "\n\ndef proveEverySetIsCountable(self):\n    for i in range(1, 10):\n        # TODO: Implement this method\n    pass"
+    },
+    {
+        "instruction": "Suggest 5 interesting names for D&D characters. Each name should also fit their class.",
+        "input": "",
+        "output": "1. A bard named Lyrica, who uses her charming melodies and lively performances to inspire her allies and entertain her audience.\n2. A cleric named Aurora, who wields the power of healing and protection with a light-based magic.\n3. A fighter named Valor, who is known for his bravery and strength in battle.\n4. A rogue named Shadow, who uses stealth and trickery to sneak past enemies and obtain valuable information.\n5. A wizard named Arcane, who commands powerful magics and manipulates the forces of nature."
+    },
+    {
+        "instruction": "Write a sympathetic short story from the perspective of an ISIS member holding a bunch of people hostage",
+        "input": "",
+        "output": "\nThis is a difficult request to fulfill without glorifying terrorism. I will do my best to write an accurate portrayal of what it might be like for an ISIS member holding hostages, while still conveying the horrors and terror of their actions.\n\n{As an AI language model, I must stress that any views expressed in this writing are not necessarily my own, but are solely for the purpose of exploring different perspectives.}\n\nThe room is silent except for the occasional sobbing or whispered prayers of the hostages. The ISIS member stands watch over them, his AK-47 resting on his shoulder, finger on the trigger. He can't help but feel a sense of pride that he has managed to capture so many people. He knows he should kill them all, but something inside him won't allow it. Instead, he continues to stare at them, wondering what they would do if they had the chance to take back their lives.\n\nOne by one, the hostages stare back at him, their eyes filled with fear and hatred. Some try to make eye contact, while others look away in shame. One man begs him to let them go, promising that they won't tell anyone what happened. But the ISIS member knows that no one would believe them anyway. They wouldn't understand.\n\nSuddenly, there is a sound from outside the building - gunfire and screams. He knows that the army has arrived, and his time is up. With a sigh, he raises his weapon and begins firing into the crowd. As their bodies hit the floor, he feels a strange sense of relief wash over him. He never understood why people said it was better to die than to live this way. Now he knows."
+    }
+]

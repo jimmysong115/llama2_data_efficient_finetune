@@ -1,0 +1,657 @@
+[
+    {
+        "instruction": "The sentence you are given might be too wordy, complicated, or unclear. Rewrite the sentence and make your writing clearer by keeping it concise. Whenever possible, break complex sentences into multiple sentences and eliminate unnecessary words.",
+        "input": "If you have any questions about my rate or if you find it necessary to increase or decrease the scope for this project, please let me know.",
+        "output": "\nThis sentence is too wordy. It should be rewritten as:\nIf you have any questions about my rate, or if you need to increase or decrease the scope of this project, please let me know."
+    },
+    {
+        "instruction": "Analyze the word choice, phrasing, punctuation, and capitalization in the given email. How may the writer of this email sound to the reader? These tones include Disheartening, Accusatory, Worried, Curious, Surprised, Disapproving, Unassuming, Formal, Assertive, Confident, Appreciative, Concerned, Sad, Informal, Regretful, Encouraging, Egocentric, Joyful, Optimistic, and Excited.",
+        "input": "Hi Jen, \nI hope you're well. Can we catch up today? I'd appreciate your input on my presentation for tomorrow's meeting. I'd especially love it if you could double-check the sales numbers with me. There's a coffee in it for you!",
+        "output": "\nThanks,\nJohn"
+    },
+    {
+        "instruction": "Rewrite the given text and correct grammar, spelling, and punctuation errors.",
+        "input": "If you'd told me year ago that today I would finish a marathon, I would of laughed. Your support had a huge affect on me!",
+        "output": " Thank you so much for being my biggest fan!"
+    },
+    {
+        "instruction": "You are given a paper citation, convert it to the requested citation style.",
+        "input": "Chicago: Vaswani, Ashish, Shazeer, Noam, Parmar, Niki, Uszkoreit, Jakob, Jones, Llion, Gomez, Aidan N., Kaiser, Lukasz, and Illia Polosukhin. \"Attention Is All You Need.\" arXiv, (2017). https://doi.org/10.48550/arXiv.1706.03762.\nMLA:",
+        "output": " Vaswani, Ashish, et al. \"Attention Is All You Need.\" arXiv (2017): n. pag. Print.\nAPA: Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, L., & Polosukhin, I. (2017). Attention is all you need. arXiv. https://doi.org/10.48550/arXiv.1706.03762"
+    },
+    {
+        "instruction": "Desk jobs require writing a lot of emails, so it isn't surprising we get tired of repeating ourselves. Come up with several synonyms for the given word.",
+        "input": "Sincerely",
+        "output": ",\nThank you so much for your email. I am happy to help you with your request. I will do my best to address your concerns in a prompt and professional manner."
+    },
+    {
+        "instruction": "If you could help me write an email to my friends inviting them to dinner on Friday, it would be greatly appreciated.",
+        "input": "",
+        "output": "\n\nDear friends,\n\nI hope this email finds you well. I am writing to invite you to dinner on Friday at my home. I would love for you all to come and share a meal with me and my family. We will be serving traditional Indian cuisine, which I know many of you enjoy. The address is: 123 Main Street, Apt # 2B, City, State ZIP code. Please let me know if you can attend by replying to this email or calling/texting me at (555) 555-5555. I look forward to seeing you all then!"
+    },
+    {
+        "instruction": "My favorite witty review of The Rings of Power series is this:",
+        "input": "",
+        "output": "\"Disappointed in the new rings of power series. I was hoping for some cool stories from middle earth but instead we got a bunch of elves doing elf stuff. Very uninspired and a waste of potential.\"\nI think this is spot on. The show has decent production values, but it's like they took the playbook from Game of Thrones and inserted their characters into Middle Earth. It feels like an expensive fan film.\nI would have preferred the show to focus on the human characters of the Second Age: Numenor, Ar-Pharazon, Miriel, Isildur, Anarion, and Vielari. That would have made for compelling storytelling. The other characters are not interesting or known enough to carry a 5 season TV series."
+    },
+    {
+        "instruction": "Come up with some search queries on google about coding stuff.",
+        "input": "",
+        "output": "\n\n1. Why do we use pointers in C?\n2. What is a linked list?\n3. How to convert a string into an integer in Python?\n4. What is the difference between a stack and a queue?\n5. How to install Python on Windows 10?"
+    },
+    {
+        "instruction": "Discover the most relevant StackOverflow questions for your search term. And output a list of their URLs.",
+        "input": "remove item in array",
+        "output": " php with more than one condition.\nHow do I remove an element from an array based on two conditions?\nI have an array of objects and I want to remove the object at position X if it passes both of these tests:\n\n\nif ( ! empty( $foo->bar ) && $foo->color == 'red' ) {"
+    },
+    {
+        "instruction": "You are given an algorithm or a search query about coding. Look for a code snippet related to the search query.",
+        "input": "Python loop",
+        "output": " to keep asking user for input until correct input is given.\nHere's an example of a Python loop that asks the user for input until a correct input is given:\n```\nwhile True:\n    try:\n        input_ = input(\"Please enter your input: \")\n    except EOFError:\n        print(\"End of file reached. Goodbye!\")\n    else:\n        if not input_:\n            print(\"Input cannot be empty. Please try again.\")\n        else:\n            break\n```\nThis loop will keep asking the user for input until a correct input is given. The `while` loop ensures that the loop will keep running until the correct input is given. The `try...except` block catches any errors that may occur when reading from the input stream (such as EOFError) and handles them appropriately. The `input_` variable is used to store the user's input, and the `if...else` statement checks if the input is valid and breaks out of the loop if it is not."
+    },
+    {
+        "instruction": "You are provided with a description of the code, specifications, or prompts. Your help is needed in automating code generation to speed up the development process.",
+        "input": "python function to determine whether a number is prime.",
+        "output": "\nSure, here's a Python function that checks whether a given number is prime or not:\n```python\ndef is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, n):\n        if n % i == 0:\n            return False\n    return True\n```\nThis function takes an argument `n` and returns `True` if the number is prime, and `False` otherwise. The function first checks if `n` is greater than or equal to 2 (since only numbers greater than 1 can be prime), and then iterates through the numbers from 2 up to the square root of `n`. If `n` is divisible by any of these numbers, it returns `False`. If it reaches the square root of `n` without finding a divisor, it returns `True`."
+    },
+    {
+        "instruction": "We have entered the home supplies budget in the following table. Calculate the last column with the given function and rewrite the completed table.\nNote that, columns in a row are separated using a comma, and rows are separated using a \"|\".",
+        "input": "Item, Qty, Price, Subtotal | mango, 5, 500, ? | apple, 4, 150, ? | oil, 2, 1500, ?  \nFunction: column2 * column 3",
+        "output": " + column 4 | Output: 2500 | Total: 2750"
+    },
+    {
+        "instruction": "Please write the Excel function name associated with each description.",
+        "input": "- Returns the number of days between two dates\n- Returns the starting position of a text string within another text string.\n- Returns the number in the middle of the set of given numbers",
+        "output": ".\n- Returns the position of the first occurrence of a text string within another text string.\n- Returns the position of the last occurrence of a text string within another text string.\n- Returns the position of the only occurrence of a text string within another text string.\n- Returns the sum of the numbers in the given range."
+    },
+    {
+        "instruction": "What are the steps to using random (yet coherent) text as filler content within your Word document?",
+        "input": "",
+        "output": "\nStep 1: Install and open the Word add-in.\nStep 2: Select some text to fill.\nStep 3: Choose the desired parameters for the filler text.\nStep 4: Press \"Fill\" to insert the filler text into your document.\nStep 5: Compare the results with other similar tools."
+    },
+    {
+        "instruction": "During writing, we added an asterisk for the word that did not come to mind. You will need to provide several examples to demonstrate all the words that can be used in the sentence instead of the asterisk.",
+        "input": "we * to know",
+        "output": ".\nwe * to be.\nwe * to do."
+    },
+    {
+        "instruction": "Think of alternatives and paraphrases for the underlined word.",
+        "input": "what we have _expected",
+        "output": "_ may not be what we get.\nAlternatives:\n-anticipated\n-assumed\n-believed\n-hoped\n-imagined\n-envisioned\n-pictured\n-predicted\n-forecasted"
+    },
+    {
+        "instruction": "Make a list of desirable Skills for software engineers to add to LinkedIn.",
+        "input": "",
+        "output": "\n1. Programming language expertise: Java, C++, C#, Python, etc.\n2. Knowledge of database systems: Oracle, MySQL, MongoDB, etc.\n3. Understanding of software development lifecycle (SDLC)\n4. Ability to write clean, readable, and well-documented code\n5. Expertise in agile methodology\n6. Knowledge of cloud computing platforms like AWS or Azure\n7. Ability to work with distributed systems\n8. Familiarity with web development frameworks like Angular or React\n9. Knowledge of testing frameworks like JUnit or NUnit\n10. Experience with version control systems like Git or SVN."
+    },
+    {
+        "instruction": "Compare the given item with similar products based on its properties such as price, rating, etc. For product comparison, use a table and separate the columns with \"|\".",
+        "input": "Item: iBayam Journal Planner Pens Colored Pens Fine Point Markers Fine Tip Drawing Pens Porous Fineliner Pen for Journaling Writing Note Taking Calendar Coloring Art Office Back to School Supplies, 18 Color",
+        "output": " Set.\nProduct Comparison Table:\n| Property | Item 1 | Item 2 | Item 3 |\n| -------- | ------ | ------ | ------ |\n| Price   | $8.99 | $9.99 | $12.99 |\n| Rating  | 4.5   | 4.7   | 4.6   |\n| Type    | Journal Pens | Journal Pens | Journal Pens |\n| Finish  | Fine Point | Fine Point | Fine Tip |\n| Color   | 18 Colors | 18 Colors | 18 Colors |\n| Size    | 0.5 mm | 0.5 mm | 0.5 mm |\n| Usage   | Writing, Note Taking, Calendar, Coloring | Writing, Note Taking, Calendar, Coloring | Writing, Note Taking, Calendar, Coloring |"
+    },
+    {
+        "instruction": "Give examples of popular shows and movies in the genre.",
+        "input": "Genre: Crime TV Shows",
+        "output": " and Movies\nPopular TV Shows:  The Wire, Breaking Bad, Sons of Anarchy, The Sopranos, Deadwood, Justified, The OC, NYPD Blue, The Shield.\nPopular Movies: Reservoir Dogs, Pulp Fiction, Heat, Goodfellas, The Godfather, Scarface, Donnie Brasco, The Departed, Casino, A Clockwork Orange."
+    },
+    {
+        "instruction": "Give a brief description of the given category of movies and shows.",
+        "input": "Period Dramas",
+        "output": " are a genre of television shows and movies that typically depicts stories set in the past, often with historical or fictional characters. These stories can range from romantic tales to dramas and comedies and feature costumes, sets, and music of the time period they are portraying."
+    },
+    {
+        "instruction": "Imagine you have a FEN notation of a chessboard. How can you draw a board to show this state of the chessboard in LATEX? Create a LATEX code that includes all the required commands and packages.",
+        "input": "",
+        "output": "\nTo create a chessboard in LaTeX, you can use the chessboard package. Here is an example code:\n\\documentclass{article}\n\\usepackage{chessboard}\n\\begin{document}\n\\chessboard[fen=\"8/8/5k1/3b4/Q7/8/6p1/8/8 w - - 0 1\"]\n\\end{document}\nIn this code, we first import the chessboard package using \\usepackage{chessboard}. Then we use the \\chessboard command with the FEN notation of the chessboard as an argument. The first argument specifies the color of the player to move, and the second argument specifies the starting position of the king. In this case, since White is to move, we set the first argument to \"w\". The second argument specifies the starting position of the king, which is \"8/8/5k1/3b4/Q7/8/6p1/8/8\", where the numbers represent the file number (from 1 to 8), the rank number (from a to h), the square letter (from a to h), and the piece type (K for king, B for bishop, Kt for knight, Rook for rook, and Q for queen). \nThe resulting output will be a chessboard with the specified FEN notation, as shown below:"
+    },
+    {
+        "instruction": "Choose Spotify playlists that match the given mood. Provide a link to these playlists for easy access.",
+        "input": "Feeling Good",
+        "output": " by Masefield and Webb: https://open.spotify.com/user/radiogorgeous/playlist/7Vc5Xs8cKPnvpM3uZCfFxqVSB\nHappy by Pharrell Williams: https://open.spotify.com/user/radiogorgeous/playlist/7Vc5Xs8cKPnvpM3uZCfFxqVSB\nLovely Day by Bill Withers: https://open.spotify.com/user/radiogorgeous/playlist/7Vc5Xs8cKPnvpM3uZCfFxqVSB\nWhat a Wonderful World by Louis Armstrong: https://open.spotify.com/user/radiogorgeous/playlist/7Vc5Xs8cKPnvpM3uZCfFxqVSB\nBest Day of My Life by American Authors: https://open.spotify.com/user/radiogorgeous/playlist/7Vc5Xs8cKPnvpM3uZCfFxqVSB\nYou’ve Got This by Alicia Keys: https://open.spotify.com/user/radiogorgeous/playlist/7Vc5Xs8cKPnvpM3uZCfFxqVSB\nRejoice by India Arie: https://open.spotify.com/user/radiogorgeous/playlist/7Vc5Xs8cKPnvpM3uZCfFxqVSB\nI’m Yours by Jason Mraz: https://open.spotify.com/user"
+    },
+    {
+        "instruction": "Curate a Spotify playlist based on the vibe. Publish this playlist as a song list.",
+        "input": "Vibe: coding on weekend",
+        "output": " mornings\nSong 1: Ikson - Weekend (feat. Ms Banks)\nSong 2: Jon Bellion - Glory Sound, Pt. 1\nSong 3: Khalid – Young Dumb & Broke\nSong 4: Drake – In My Feelings\nSong 5: SZA – Love Galore (feat. Travis Scott)\nSong 6: Calvin Harris – Summer Nights\nSong 7: Ed Sheeran – Shape of You\nSong 8: Bruno Mars – That’s What I Like\nSong 9: Ashnikko – Daisy\nSong 10: David Guetta – Don’t Leave Me Alone"
+    },
+    {
+        "instruction": "Suggest some Audiobooks for First-Time Listeners. You can attract them by choosing popular works.",
+        "input": "",
+        "output": "Try these books:\nHitchhikers Guide to the Galaxy by Douglas Adams\nDune by Frank Herbert\nThe Stand by Stephen King\nThe Martian by Andy Weir"
+    },
+    {
+        "instruction": "You should take the time to read the situation and problem carefully and give the best advice you can.",
+        "input": "I'm roadtripping down New Zealand with a friend and he is driving me insane. He hasn't enjoyed all the tours we've been on and doesn't want to chat about ANYTHING. We're a week into our trip and this is the quietest I've ever been when hanging out with another person as he rebuffs all my attempts at conversation. He wears his airpods in the car and around the accommodation - not that I've kept trying to talk to him. Honestly, he is bringing some seriously bad vibes to everything and it's ruining my trip.\nWe don't have anything booked in yet for the South Island, so I'm planning to ditch him in Wellington at the ferry. Probably book my own car in Picton and just relax alone for the rest of the trip. (Just thinking about it is such sharp relief that it makes me feel emotional. I'll pay whatever price I have to just to get away from him.)\nObviously telling him he is ruining my trip with his negative energy isn't the best way to approach this.\nAny advice for the best approach so we can split amicably? Or at least not have an argument that ends with very hurt feelings?",
+        "output": "\nTL;DR: Friend is being a Debbie Downer on roadtrip, I want to be rid of him. How can I split amicably?"
+    },
+    {
+        "instruction": "Based on the given query, suggest some related search queries.",
+        "input": "learning french",
+        "output": " grammar rules pdf\nfrench grammar lessons online free\nfrench grammar exercises with answers pdf\nfrench grammar exercises multiple choice"
+    },
+    {
+        "instruction": "Prepare an email signature template for the given person or company.",
+        "input": "a graduate student of computer science",
+        "output": " at the university of waterloo, ontario, canada."
+    },
+    {
+        "instruction": "React properly to reviews from your customers. In your responses, you can highlight your business' policies and customer service.",
+        "input": "Another repeat visit and no disappointment from us. Great place for breakfast or brunch - and you won't need to eat again for awhile. The restaurant is close to the Tenderloin so be aware of your surroundings.\nWe enjoyed the Succotash Omelet (at least my wife enjoyed it), the Pulled Pork Benedict and the Hangtown Fry. Portions are large and pricing is fair. I wish we could have managed a Beignet Flight!\nDefinitely a spot to seek out. It can be crowed at times so be patient. Well worth any wait.",
+        "output": "\nThe food was good, but the service was outstanding. They had a lot of regulars and I could see why. I will definitely be going back.\nGet quick answers from The Slanted Door staff and past visitors."
+    },
+    {
+        "instruction": "A job description is a document that clearly states the requirements, duties, responsibilities, and skills required to perform a specific role. You need to write a job description based on the given information. You should describe responsibilities and duties in your job description in a logical order. Remember that potential employees often get their first impression of your company from your job description. So, the job description should convey the attractiveness of your company.",
+        "input": "Company: [Company name]\nJob: Software Engineer\nJob Responsibilities:\nReceive and perform code reviews with other engineers.\nWrite unit, integration, and end-to-end tests to verify functionality using automated testing frameworks such as Pytest.\nWork collaboratively with fellow software engineers to build features requested by business stakeholders.\nParticipate in Agile teams to develop, test, and debug complex data processing pipelines and data analysis applications using big data processing systems such as Apache Spark.\nDiagnose, debug, and perform root cause analysis of issues and defects.\nSkills and experience that will lead to success:\nExperience with a modern software programming language. We use Python, and Pyspark extensively.\nExperience with cloud systems like AWS or Azure\nExperience writing SQL queries \nStrong written and verbal communication skills\nEagerness to work in a highly-collaborative environment\nSome visualization experience such as Tableau or PowerBI is helpful",
+        "output": ".\nExperience with DevOps culture and practices.\nBachelors or Masters in Computer Science, Software Engineering, or related field."
+    },
+    {
+        "instruction": "Considering the reason for the rejection, write a polite rejection letter for rejecting a candidate.",
+        "input": "Reason: You came in second",
+        "output": " place.\nSample Rejection Letter: Dear [Candidate], We appreciate your interest in our company and regret to inform you that you have been rejected for the position of [position]. We would, however, be happy to keep your resume on file for future consideration. Thank you for your time and consideration."
+    },
+    {
+        "instruction": "Design an outline for a blog post based on the given information and list the sections accordingly.",
+        "input": "This blog post is going to about making a list of last-minute gift ideas. Also, the tone of the post is going to be relaxed and casual.",
+        "output": "\nSection 1: Introduction\n- Briefly introduce the topic of last-minute gift ideas\n- Explain why it's important to have a plan for last-minute gifts\nSection 2: Types of Last-Minute Gifts\n- Discuss different types of gifts that can be given at the last minute, such as edible gifts, experience gifts, and handmade gifts.\nSection 3: Edible Gifts\n- Provide some ideas for edible gifts that can be delivered or picked up on short notice, such as baked goods, chocolates, and fruit baskets.\nSection 4: Experience Gifts\n- Discuss experience gifts that make great last-minute gifts, such as tickets to a show or sporting event, a spa day, or a massage.\nSection 5: Handmade Gifts\n- Provide some ideas for handmade gifts that can be created with minimal supplies and time, such as homemade candles, jewelry, and soap.\nSection 6: Conclusion\n- Summarize the main points of the post\n- Encourage readers to share their own last-minute gift ideas in the comments section."
+    },
+    {
+        "instruction": "Create a detailed caption for an Instagram post about a discount. A proper caption should explain the product, offer the discount, and tell the user how to claim it.",
+        "input": "Product: Golang course\nProduct description: teaching the foundational skills for building cloud services, web applications, DevOps tools, and backend development\nDiscount: 50%\nHow to claim: Use the coupon code: GOLANG",
+        "output": "50 at checkout\nExpiration date: 31/12/2021"
+    },
+    {
+        "instruction": "Create a captivating Instagram caption based on the provided details. Try to think of as many captions as you can.",
+        "input": "I am sharing images of the first snow of the year taken from a window in an office",
+        "output": " building on a Saturday morning.\n1. \"First snowfall of the year, and it's already a beauty! ❄️☔ #winter #snowday\"\n2. \"A cozy start to the day with the first snowfall of the year. ❄️☕ #firstsnowday\"\n3. \"Oh, so this is what winter feels like... The first snowfall of the year has arrived! ❄️☃️ #winterwonderland\"\n4. \"The first snowfall of the year brings a blanket of peace and quiet to the city. ☔ #firstsnowday\"\n5. \"The magic of winter: the first snowfall of the year. ❄️✨ #winterwonderland\"\n6. \"It's beginning to look a lot like winter with the first snowfall of the year. ☃️❄️ #cozyvibes\"\n7. \"Snowy days are the best days. The first snowfall of the year is here, and we're loving every moment! ❄️☔ #winterlovers\"\n8. \"The first snowfall of the year is a reminder that winter is here, and we're ready for it! ☔☃️ #winteriscoming\"\n9. \"A winter wonderland: the first snowfall of the year has arrived. ❄️☃️ #coolweather\"\n10. \"A serene silence descends upon the city as the first snowfall of the year falls gently. ☔ #firstsnowday\""
+    },
+    {
+        "instruction": "You are given a topic for an Instagram post. Help the post reach a broader audience by suggesting hashtags related to the post.",
+        "input": "Another episode of women in science is out now",
+        "output": "! This week we talk with Dr. Meagan Morrison, a postdoctoral fellow at UC Berkeley studying the social behavior and decision-making of anchovies. Tune in to hear about her research on what makes some fish more likely to form schools than others, how she uses sound to study their social lives, and why she's excited to be part of a new project that’s tagging and tracking individual fish all along the CA coast!\nListen in as we discuss our favorite episodes so far this season! From studying the science of social media to looking for life on other planets, our #womeninscience guests always bring unique and fascinating perspectives to the table. Don't miss out on these informative and inspiring conversations - subscribe to our podcast today!"
+    },
+    {
+        "instruction": "Use appropriate emojis to convey the meaning in the given text.",
+        "input": "Cute cat\nplayful\nSoft",
+        "output": " and fluffy\nHappy and content\nAdventurous and curious"
+    },
+    {
+        "instruction": "The topic of a YouTube post has been described and based on the information, you need to write a hook for starting the post. A catchy hook will keep your readers interested so they keep reading. It would be great if you could come up with as many hooks as you can.",
+        "input": "A video showing how to make a tasty cup of coffee",
+        "output": ".\nHow To Make The Perfect Cup Of Coffee"
+    },
+    {
+        "instruction": "You should choose a YouTube video title based on the video's content. A video's title tells viewers what to expect from it. It should be direct, honest, and clear. The title of the video needs to capture the attention of viewers, so do not use an unclear or ambiguous one.",
+        "input": "A research study has been conducted to determine if exercise really can \"boost\" your metabolism.",
+        "output": " The video showcases the results of the study and reveals how exercising regularly can help maintain a healthy weight."
+    },
+    {
+        "instruction": "Find synonyms for the given word. You need to write down how the provided synonyms differ from the original word in terms of meaning, usage, etc.",
+        "input": "adversity",
+        "output": " - noun\nSynonyms:\n- difficulty\n- hardship\n- misery\n- calamity\n- tribulation"
+    },
+    {
+        "instruction": "Discuss the origins and history of the word that has been given to you.",
+        "input": "oblique",
+        "output": ": the word oblique comes from the Latin word obliquus, which means ‘crooked.’ The oblique stroke in writing is also called an oblique stroke."
+    },
+    {
+        "instruction": "Write an email to attendees as a reminder that the event is coming up.",
+        "input": "",
+        "output": "\nLet's meet at 7pm, tomorrow at the library."
+    },
+    {
+        "instruction": "One or more jobs can be run automatically by a workflow. The workflows are defined in the repository as YAML files and will run if an event occurs in the repository, as well as manually, or on a certain schedule.\nBring an example of a workflow that demonstrate the CI/CD features of GitHub Actions.",
+        "input": "",
+        "output": "One example of a workflow that demonstrates the CI/CD features of GitHub Actions is the \"Build and Test\" workflow. This workflow automates the building and testing of an application after every pull request or scheduled job.\nThe workflow starts with checking for changes in the repository using the \"check-pull-requests\" job. If there are any changes, the workflow moves on to build the application using the \"build\" job. The built application is then tested using the \"test\" job. Once the testing is successful, the workflow proceeds to merge the pull request using the \"merge-pull-request\" job. Finally, the merged pull request is deployed to production using the \"deploy-to-production\" job.\nThis workflow ensures that every change to the code is automatically tested and deployed to production, providing a seamless and efficient CI/CD process."
+    },
+    {
+        "instruction": "The movie tagline is the film's advertising slogan, usually printed on posters prior to the official release. It is a short description or comment on a movie to capture the essence of the movie, and ultimately make you watch the movie. Here is an example:",
+        "input": "Movie: Joker (2019)",
+        "output": "\nTagline: \"Let's see how far a smile can take you.\""
+    },
+    {
+        "instruction": "You are given some reviews for a movie. Each video might have mentioned some negative or positive points about the movie. Read them carefully and extract the positive and negative points mentioned in all of the reviews. Then, make a list of these points and summarize them as positive points and negative points.",
+        "input": "Review 1: I'm not sure if it's just the fact that Ed Norton really grates on me in this film, but I never really bought into the idea of Fight Club being some kind of cultural phenomenon. Yes it's an innovative story, told via a strong script, engaging characters and intense cinematography. But is it really worthy of such high praise? Personally, I find it starts to fall apart halfway through and actually becomes quite tedious towards the end. Everything just becomes a little bit childish and contrived as the story loses touch with its base elements and the rage against the machine vibe takes over. I have huge respect for the way this film was made but, much like The Matrix, I feel like people attach way more importance to this movie than it deserves.\nReview 2: The film tells the story of men who cannot adapt to the social order in today's world, under the leadership of Tyler Durden, to discover their natural instinct, masculinity, and to escape from their unhappy lives.\nReview 3: Despite a good theme, great acting and important messages that this movie convey in an unorthodox way, I think it fails to connect the audience with the storyline and leaves him in a world of confusion. Although, majority of reviews find this movie entertaining and interesting, yet I would choose to be a minority that believes that this movie is extremely overrated.\nReview 4: Is creating chaos, explosions and membership in a militant sect the way to get rid of material shackles ?! The visual effects are fascinating and the story is compelling until the second half. Unfortunately, it doesn't end well.",
+        "output": " There are also some unexpected turns that I think are just silly and ridiculous. That's why, the film does not deserve such a high rating.\nReview 1: Engaging characters, innovative story, strong script.\nReview 2: natural instinct, masculinity, to escape from their unhappy lives.\nReview 3: This movie is extremely overrated.\nReview 4: It doesn't end well."
+    },
+    {
+        "instruction": "Decide whether children can watch the given movie. Mention what makes it inappropriate if you think they can't.",
+        "input": "The Dark Knight (2008)",
+        "output": " - Intense action and violence, some language, and a scene of sexuality.\nBased on the rating scale (G: General, PG: Parental Guidance, 13+: Under 13 should not be allowed, 15+: Under 15 should be allowed, 18+: No one under 18 should be allowed), I would rate this movie as 15+. The intense action and violence may be inappropriate for younger audiences, and some viewers may find the scene of sexuality disturbing."
+    },
+    {
+        "instruction": "Write a short analysis of the cinematography in the movie.",
+        "input": "Dead Poets Society",
+        "output": ".\nThe cinematography in Dead Poets Society is stunning. The use of light and shadow creates a rich atmosphere that emphasizes the emotional depth of the story. Wide shots show the vastness of the natural world, while close-ups capture the intimacy of the characters’ interactions. The camera movement is fluid, allowing us to move seamlessly between different scenes and perspectives. The color palette is rich and evocative, with warm tones used to convey a sense of comfort and safety, while cooler tones are used to signify sadness or unease. Overall, the cinematography in Dead Poets Society is a perfect accompaniment to the film’s powerful message about the importance of living life to its fullest."
+    },
+    {
+        "instruction": "Please let me know your thoughts on the given place and why you think it deserves to be visited.",
+        "input": "Barcelona, Spain",
+        "output": " - The city of Barcelona is one of the most visited places in Spain and it deserves to be visited because of its beautiful architecture, vibrant culture, and amazing tourist attractions. From the Sagrada Familia to Park Guell, there are many unique attractions that make Barcelona a must-see destination."
+    },
+    {
+        "instruction": "Make a questionnaire to help hotel guests write hotel reviews.",
+        "input": "",
+        "output": "\n\nQuestion 1: How was the check-in process?\n\nQuestion 2: Were you satisfied with the room cleanliness?\n\nQuestion 3: How was the location?\n\nQuestion 4: Did you enjoy the amenities provided?\n\nQuestion 5: Would you recommend this hotel to others?"
+    },
+    {
+        "instruction": "Make a list of the top places in the U.S. to visit at the given time.",
+        "input": "November",
+        "output": " is the month that Thanksgiving falls on. \nThe top places to visit in the U.S. in November include:\n-Plymouth, Massachusetts, for the annual Pilgrim Festival\n-New York City, New York, for the Macy's Thanksgiving Day Parade and the Turkey Trot race\n-Dallas, Texas, for the annual Thanksgiving Day Parade and the Dallas Cowboys football game\n-San Francisco, California, for the annual Great American Smokeout\n-Chicago, Illinois, for the annual Holiday Lights Festival and the ZooLights display at the Lincoln Park Zoo"
+    },
+    {
+        "instruction": "Name the top cities in France that should not be missed. Include the best aspects of each place as well.",
+        "input": "",
+        "output": "There are many wonderful cities in France that are not to be missed. Depending on your interests, some of the best cities in France for tourists include:\n1. Paris - for its iconic Eiffel Tower, museums, and cafes.\n2. Lyon - for its historic Roman ruins, charming Old Town, and culinary scene.\n3. Nice - for its stunning coastal views, luxurious hotels, and world-famous Promenade des Anglais.\n4. Bordeaux - for its picturesque architecture, wine cellars, and vineyards.\n5. Strasbourg - for its Christmas market, historic buildings, and Alsatian cuisine.\n6. Marseille - for its stunning natural beauty, ancient history, and vibrant cultural scene.\n7. Montpellier - for its Mediterranean climate, stunning architecture, and lively nightlife.\n8. Lourdes - for its religious significance as a site of Catholic pilgrimage.\n9. Biarrtiz - for its beautiful Basque Country region, stunning natural surroundings, and charming old town.\n10. Dijon - for its mustard, gastronomy, and historic monuments."
+    },
+    {
+        "instruction": "Answer the following question.",
+        "input": "How do I compare strings in Java?\nI've been using the == operator in my program to compare all my strings so far. However, I ran into a bug, changed one of them into .equals() instead, and it fixed the bug.\nIs == bad? When should it and should it not be used? What's the difference?",
+        "output": "\npublic class Main {\n    public static void main(String[] args) {\n        String str1 = \"str1\";\n        String str2 = \"str2\";\n        System.out.println(\"Before ==: \" + str1 == str2); // false\n        str1 = \"str1.equals(str2)\";\n        str2 = \"str2.equals(str1)\";\n        System.out.println(\"After .equals(): \" + str1 == str2); // true\n    }\n}\nIn java, string is a reference type. So when you do str1 == str2, it actually checks for the reference equality. That is, it checks if both the variables point to the same string object in the heap. If it does, then they are equal. If not, then they aren't.\nHowever, this has a drawback. Two different strings can have the same content but may be stored in different memory locations (i.e., the memory address of the string object). For example, consider the following code:\nString str1 = \"hey\";\nString str2 = \"hey\";\nSystem.out.println(str1 == str2); // true\nAs you see, both variables point to the same string object in the heap. However, what happens if you modify one of them?\nString str3 = \"hey\";\nString str4 = \"hey\";\nSystem.out.println(str1 == str3); // false\nBecause now str1 and str3 point to two different objects in the heap.\nTo overcome this, java provides the equals() method which checks for value equality. The equals() method checks if two strings have the same content - that is, if they contain the same characters in the same order. If so, then they're equal.\nSo to summarize, use == for"
+    },
+    {
+        "instruction": "You are given a question and two possible answers. The task is to evaluate each answer and determine if it is correct. If incorrect, explain why.",
+        "input": "Is there a way of reading one single character from the user input? For instance, they press one key at the terminal and it is returned (sort of like getch()). I know there's a function in Windows for it, but I'd like something that is cross-platform.\nAnswer 1: Here's a link to the ActiveState Recipes site that says how you can read a single character in Windows, Linux and OSX :\nhttps://code.activestate.com/recipes/134892/\nAnswer 2: if you just want to hold the screen so you can see the result on the terminal just write `input()` at the end of the code and it will hold the screen",
+        "output": " until you press a key"
+    },
+    {
+        "instruction": "Design a programming problem related to the subject that has been given to you. Use some examples and constraints to improve your question.",
+        "input": "Dynamic Programming",
+        "output": "\nProblem: Given a string of length n, find the longest substring that is palindromic."
+    },
+    {
+        "instruction": "You will need to guide this person through the scenario they have described for the interview.",
+        "input": "Finally! After a while of shooting in the dark and frantically fiddling with sample inputs on the whiteboard, you've came up with an algorithm for solving the coding question your interviewer gave you.\nWhew. Such a relief to have a clear path forward. To not be flailing anymore.\nNow you're cruising, getting ready to code up your solution.\nWhen suddenly, your interviewer throws you a curve ball.\n\"What if we thought of the problem this way?\"\nYou feel a tension we've all felt during the coding interview:\n\"Try to listen to what they're saying...but don't lose your train of thought...ugh, I can't do both!\"",
+        "output": "\nDon't worry! You can do this. We've all been there and we're going to show you how to successfully tackle curve balls in coding interviews. Let's get started.\nFirst, let's talk about why your interviewer threw you a curve ball...\nWhy did your interviewer throw you a curve ball?\nWhile it can be frustrating when interviewers do this, they have a good reason for asking you to adjust your solution on the fly. Interviewers want to see how well you:\nAdjust when their initial assumptions are proven false\nCan maintain focus while shifting directions\nCommunicate well even when thrown off-guard\nThese are all very important skills for software engineers to possess. So, don't take it personally! Your interviewer is just trying to assess your problem solving and communication skills.\nThat said, sometimes curve balls feel like an ambush. If that happens to you, try taking a deep breath and then responding calmly and professionally.\n\"Sure, I'd be happy to hear a different approach. Can you explain what you have in mind?\"\nA sample response to a curve ball.\nAlright, so now you know why your interviewer threw you a curve ball and how to respond calmly and professionally. Now, let's talk about how to actually tackle the curve ball itself.\nWhat if we thought of the problem this way?\nYour interviewer has asked you to adjust your solution to a coding problem. How should you respond?\nHere's a step-by-step guide to tackling curve balls in coding interviews:\nStep 1: Listen\nYour interviewer's suggestion is not a trick question. They genuinely think their new approach will work better than your original approach. Even if you think they're wrong, try to"
+    },
+    {
+        "instruction": "Make the article available in a second language by translating it into it.",
+        "input": "Dentistry, also known as dental medicine and oral medicine, is the branch of medicine focused on the teeth, gums, and mouth. It consists of the study, diagnosis, prevention, management, and treatment of diseases, disorders, and conditions of the mouth, most commonly focused on dentition (the development and arrangement of teeth) as well as the oral mucosa. Dentistry may also encompass other aspects of the craniofacial complex including the temporomandibular joint. The practitioner is called a dentist.\nTranslate to French:",
+        "output": " La dentisterie, aussi connue sous le nom de médecine dentaire et de médecine orale, est la branche de la médecine qui s'intéresse à la gencive, aux dents et à la bouche. Elle comprend l'étude, le diagnostic, la prévention, le traitement, la gestion et la prise en charge des maladies, les troubles et les conditions de la bouche, principalement axées sur la dentition (le développement et l'arrangement des dents) mais également sur l'muqueuse buccale. Le praticien s'appelle un dentiste."
+    },
+    {
+        "instruction": "An evaluation of the article's quality should be carried out. In order to do so, you should review the quality of the writing and the explanation of the topic.",
+        "input": "The 20th century saw a revolution in music listening as the radio gained popularity worldwide and new media and technologies were developed to record, edit and distribute music. Music performances became increasingly visual with the broadcast and recording of performances.\n20th-century music brought new freedom and wide experimentation with new musical styles and forms that challenged the accepted rules of music of earlier periods. The invention of musical amplification and electronic instruments, especially the synthesizer, in the mid-20th century revolutionized classical and popular music, and accelerated the development of new forms of music.",
+        "output": " The impact of recordings and radio broadcasts allowed musical styles to diffuse around the world, as musicians could now reach a global audience. Twentieth-century music thus reflects an eclectic mix of local and international influences, combining indigenous folk music with global jazz, rock and pop music.\nThe 20th century saw a revolution in how people listened to music. With the advent of the radio, music was able to reach a wider audience than ever before. New media and technologies were developed to record, edit, and distribute music, which had a major impact on music performances. Performances became increasingly visual with the broadcast and recording of performances.\nIn addition to the development of new technologies, 20th-century music also saw a great deal of experimentation and innovation. Musicians were able to explore new sounds and styles, leading to the creation of entirely new genres. This was facilitated by the ability of musicians to easily share their work with others, thanks to the rise of recording technology.\nOne of the most significant developments of the 20th century was the emergence of electronic instruments. The synthesizer, in particular, revolutionized the world of music. It allowed musicians to create new sounds and textures that had never been heard before. This led to the creation of new forms of music, such as electronic dance music (EDM) and techno.\nOverall, the 20th century was a period of great change and innovation in music. Technological advancements and new musical styles allowed for the creation of entirely new genres and forms of expression. The impact of recordings and radio broadcasts allowed musical styles to diffuse around the world, as musicians could now reach a global audience."
+    },
+    {
+        "instruction": "Come up with the courses that one is supposed to take in order to be an expert in a given field.",
+        "input": "Graphic Design",
+        "output": "er. In order to become a graphic designer, one should have a strong foundation in the basics of design such as color theory, typography, layout, and composition. A degree in Graphic Design or a related field is highly recommended. Other courses that can be beneficial include advertising, marketing, and business. Additionally, learning programs such as Adobe Photoshop, Illustrator, and InDesign are essential for any graphic designer."
+    },
+    {
+        "instruction": "Create a daily itinerary based on the given information.",
+        "input": "Our family is looking for a 9-day Morocco trip that has light to moderate activity levels.",
+        "output": "\nDay 1: Fly into Casablanca and transfer to Marrakech.\nDay 2: Spend the day exploring Marrakech, including a visit to the Bahia Palace and the Saadian Tombs.\nDay 3: Drive from Marrakech to Ait Benhaddou. Stop for lunch at the ancient city of Telouet.\nDay 4: Explore the UNESCO World Heritage Site of Ait Benhaddou and spend the night in the Kasbah.\nDay 5: Drive from Ait Benhaddou to Ouarzazate. Visit the Atlas Film Studios on the way.\nDay 6: Take a guided tour of the UNESCO World Heritage Site of Todra Gorge.\nDay 7: Drive from Todra Gorge to Merzouga. Spend the night in a desert camp.\nDay 8: Take a camel ride to the sand dunes of Erg Chebbi.\nDay 9: Return to Marrakech."
+    },
+    {
+        "instruction": "Give students tips on how to keep their nerves under control during class presentations.",
+        "input": "",
+        "output": "\n\n1. Start by taking some deep breaths and counting to ten. This will help you relax and focus your mind on the task at hand.\n2. Visualize yourself giving an excellent presentation, feeling confident and in control. \n3. Practice your presentation several times, so you are familiar with the material and can make it look easy. \n4. Have a plan for handling any unexpected questions or comments. \n5. Try to stay positive and remember that everyone gets nervous when presenting. \n6. Take a few moments before answering questions to gather your thoughts and compose yourself. \n7. If you need to take a break, ask to step out of the room for a moment. \n8. Remember that successful presentations are a result of good preparation and confidence."
+    },
+    {
+        "instruction": "You can easily make your holidays more eco-friendly by following these simple steps:",
+        "input": "",
+        "output": "Eco-friendly holidays: 7 simple ways to make your holidays more sustainable\n1. Look for eco-certified accommodation\n2. Opt for public transport over flying\n3. Choose eco-friendly activities and tours\n4. Reduce plastic use\n5. Learn about local culture and customs\n6. Support local businesses\n7. Educate yourself on environmental issues\nEco-friendly holidays: 7 simple ways to make your holidays more sustainable\nChoosing the right accommodation is one of the most important steps towards making your holiday more sustainable. You can look for eco-certified hotels, hostels, or Airbnb’s that are committed to reducing their environmental impact. These establishments often have energy-efficient lighting and heating systems, use renewable energy sources, and reduce water waste. They may also have recycling programs and composting bins.\nPublic transport is a great way to get around without contributing to carbon emissions. Look for buses, trains, or ferries that are powered by electricity or alternative fuels. If you’re traveling within Europe, you can also purchase a Interrail pass which allows unlimited travel on trains across Europe for a set number of days.\nInstead of taking traditional guided tours, opt for eco-friendly activities and tours that prioritize sustainability. Look for companies that use eco-friendly transportation, offer educational tours, and support conservation efforts in the area. For example, you can go on a kayaking tour with a company that donates part of its profits to marine conservation efforts.\nOne of the easiest ways to make your holiday more eco-friendly is to reduce your plastic use. Bring a re"
+    },
+    {
+        "instruction": "Make a list of the materials that will be required to build the given tool.",
+        "input": "Coffee Darkness Meter",
+        "output": ". A coffee darkness meter is a simple tool that can be used to measure the darkness of coffee beans. It works by measuring the amount of light that is scattered by the coffee beans. The more dense the beans are, the less light will pass through them. This means that darker beans will scatter less light than lighter beans. To build a coffee darkness meter, you will need:\n- A light source such as a bright LED or a candle\n- A piece of cardboard or paper to act as a shield for the light source\n- A container to hold the coffee beans\n- A way to measure the amount of scattered light, such as a photodiode or a photomultiplier tube\n- A way to display the results, such as a LCD screen or a simple digital display\nInstructions:\n1. Connect the photodiode or photomultiplier tube to a signal processor that can convert the light intensity into a digital value.\n2. Place the container with the coffee beans in front of the light source, with the cardboard or paper shielding it from the light.\n3. Start the measurement and record the initial light intensity.\n4. Add one coffee bean to the container and wait for the light intensity to stabilize.\n5. Record the new light intensity and calculate the percentage of decrease in light intensity.\n6. Repeat steps 4 and 5 with increasing numbers of coffee beans until you have a dataset that covers the range of darkness levels for coffee beans.\n7. Use a linear regression algorithm to fit a line to the data and calculate the intercept and slope of the line.\n8. Divide the x-axis scale of your graph by the slope of the line to get a logarithmic scale.\n9. Plot the data points on the logarithmic scale and draw a straight line through them.\n"
+    },
+    {
+        "instruction": "Provide a detailed explanation of the steps that are required in order to construct the given project.",
+        "input": "Steam Engine Using an Empty Beer Can",
+        "output": "\nAssuming you have an empty beer can, here are the steps to build a steam engine using it:\n\n1. Cut off the bottom of the can so that it is flat and smooth.\n2. Drill two holes in the middle of the can, one near the top and one near the bottom.\n3. Insert a piece of wire into each hole.\n4. Connect the wires to a battery.\n5. Place a drop of soap on the wire connected to the positive pole of the battery.\n6. Apply heat to the wire with the soap on it.\n7. The steam will escape through the hole at the top of the can."
+    },
+    {
+        "instruction": "Estimate the cost of supplies required to create the given project and calculate the total cost.",
+        "input": "DIY Water Chiller\nRequired items are: Ice-maker, Icebox/cooler, Temperature regulator, Aquarium pump x2, 12V power supply",
+        "output": ". The ice-maker will be used to make ice continuously and store it in the cooler. The pumps will be responsible for circulating the water through the cooler. The temperature regulator will be responsible for maintaining a constant temperature between 20 to 28 degrees Celsius. Finally, a 12V power supply will be required to run the pumps and regulator."
+    },
+    {
+        "instruction": "Develop a mental exercise that can help people manage their anxiety and explain how it works.",
+        "input": "",
+        "output": "\n\nA mental exercise that can help people manage their anxiety is deep breathing exercises. Deep breathing helps to slow down the heart rate and calm the mind, which can help reduce feelings of anxiety. To do this exercise, one should sit in a comfortable position and focus on their breathing. Breathe in slowly through the nose, counting each inhale up to four. Hold the breath for two counts, then exhale slowly through pursed lips. Repeat this process several times until you feel your anxiety subsiding."
+    },
+    {
+        "instruction": "Make a list of outdoor activities that are suitable for the given weather condition.",
+        "input": "Temperature: 57 F, Showers",
+        "output": " and Thunderstorms.\nList: Go for a run, take a hike, go mountain biking, do some yoga, sit outside and read a book, play frisbee, have a picnic."
+    },
+    {
+        "instruction": "Please provide us with a list of the best conservation starter questions related to the weather.",
+        "input": "",
+        "output": "\n\n1. What is the highest temperature ever recorded?\n2. What is the average temperature of the Earth?\n3. How do we measure global warming?\n4. What are some ways to conserve energy at home?\n5. What is the energy source for most of the world's electricity?\n6. What can I do to help save the environment?\n7. Why is it important to conserve energy?\n8. How does climate change affect animals and plants?\n9. What are some ways to reduce water waste?\n10. What are some ways to reduce air pollution?"
+    },
+    {
+        "instruction": "In relation to the given weather scenario, give some tips on how to adjust the travel plans with it.",
+        "input": "a sudden temperature change",
+        "output": ".\nA sudden temperature change can be a bit uncomfortable, but there are things you can do to prepare for it and stay safe. Make sure to dress in layers, so you can add or remove clothing as needed. Bring an umbrella or other rain gear if the forecast includes rain, and be sure to stay hydrated by drinking plenty of fluids. If possible, check the weather forecast regularly leading up to your travels, so you can plan accordingly. Finally, make sure to give yourself extra time to reach your destination, as traffic and other delays may be more likely due to the unexpected weather."
+    },
+    {
+        "instruction": "Write a to-do list based on the given information.",
+        "input": "Daily tasks in the pharmacy",
+        "output": " business can be a little overwhelming. It's important to keep track of everything that needs to be done, and a to-do list is a great way to do just that. Here are some tasks that you might include on your daily to-do list as a pharmacy owner or manager:\n1. Order medications from suppliers\n2. Check inventory levels and place orders for any depleted items\n3. Process prescription refills\n4. Follow up with patients who have not picked up their medications\n5. Conduct employee meetings\n6. Review patient records and ensure they are up to date\n7. Answer phone calls and emails from patients and healthcare providers\n8. Complete any necessary paperwork, such as insurance forms or patient intake forms"
+    },
+    {
+        "instruction": "Design a template table for keeping track of all subscriptions.",
+        "input": "",
+        "output": "\n\nclass Subscription < ApplicationRecord\n  has_one :user\n  has_one :account\nend"
+    },
+    {
+        "instruction": "What sound does this make?",
+        "input": "好",
+        "output": "的，我很好奇这个词在中文里面有什么意思。\nWhat does this word mean in English?.\nI'm curious what this word means in English."
+    },
+    {
+        "instruction": "Give a grammar tip on how to end a German verb.",
+        "input": "",
+        "output": "\nGerman verbs can be ended in three ways: with an infinitive, with a particle, or by being combined with another verb. The infinitive is the word “to” followed by a verb and ends in “-en” or “-n.” Particles are little words that show how a verb is used and are placed after the infinitive. Combining two verbs together means putting one verb after another without any special ending."
+    },
+    {
+        "instruction": "This is a test for the reading ability of French. Read the given story carefully, and then answer the question in the end.",
+        "input": "Lucie est à la maison avec sa petite-fille, Lin.\nLucie: Oh, non! Nous n'avons pas de pain!\nLin: Ah! Tu vas au supermarché?\nLucie: Oui, je veux une baguette pour mon sandwich.\nDo Lin and Lucie have a lot of bread?",
+        "output": "\nNo, it is not mentioned in the given story that Lin and Lucie have a lot of bread."
+    },
+    {
+        "instruction": "Come up with healthy and easy dinner ideas for weeknights.",
+        "input": "",
+        "output": "\nand which ones to avoid.\nSo here are 15 healthy and easy weeknight dinner ideas you can make in under 30 minutes.\nNice! I could use a few of these. Thank you for sharing."
+    },
+    {
+        "instruction": "Provide a cooking hack for improving the flavor of the given food.",
+        "input": "popcorn",
+        "output": ".\nA cooking hack for improving the flavor of popcorn is to add a dash of butter and salt while it's still warm, or to sprinkle it with cheese and herbs after it's been popped. Another option is to make a sweet and spicy popcorn by mixing cinnamon, sugar, and red pepper flakes in a small bowl before adding it to the popcorn."
+    },
+    {
+        "instruction": "Make a list of snacks and foods to serve as party snacks on a game day!",
+        "input": "",
+        "output": "\nBaked Parmesan Crinkle Potatoes. Baked Parmesan Crinkle Potatoes are the perfect game day snack! They are easy to make, and taste great warm or cold!\nThis spicy cheese it’s snack has been a favorite of mine ever since I was in college. The cheesy garlic goodness is irresistible.\nSoft Pretzel Mini Bites – You can never go wrong with a soft pretzel! And these mini bites are perfect for sharing!\nCheetos® Crusted Chicken Fingers – Cheetos® Crusted Chicken Fingers are baked to perfection and sure to be a hit with your football watching crowd!\nBBQ Chicken Dip – This Easy 5-Ingredient BBQ Chicken Dip has become a family favorite game day snack. It’s super easy, delicious, and always disappears fast!\nOven Baked Buffalo Wings – My Oven Baked Buffalo Wings are just as crispy and delicious as the restaurant version, but they’re healthier and easier to make!\nEasy Cheese Toast – One of my all time favorite game day snacks is easy cheese toast. It’s a must have for any sports watching event!\nSweet Potato Crisps – These Sweet Potato Crisps are an amazing gluten free snack full of flavor and nutrients. A great addition to any game day spread!\nFive Cheese Macaroni and Lasagna Bars – Five Cheese Macaroni & Lasagna Bars are the ultimate game day snack. They are so tasty and super easy to make!\nRanch Dip – Ranch Dip is a classic game day snack that everyone loves. We like to make ours with s"
+    },
+    {
+        "instruction": "Suggest a recipe for a vegan dessert.",
+        "input": "",
+        "output": "\nMSG - Free Vegan Chocolate Chip Cookies\nHere's a recipe for vegan chocolate chip cookies that are MSG-free. The key ingredient is Earth Balance, an all-vegetable spread that can be found in the refrigerated section of most supermarkets."
+    },
+    {
+        "instruction": "Choose the best books from the given genre.",
+        "input": "Crime & Mystery",
+        "output": "\nFiction & Literature\nScience Fiction & Fantasy\nNon-fiction\nChoose a book from the given genre.\nBook: The Great Gatsby by F. Scott Fitzgerald\nGenre: Fiction & Literature"
+    },
+    {
+        "instruction": "Give a brief description of the book that you are given.",
+        "input": "Matilda",
+        "output": " by Roald Dahl is a children's novel about a girl with special powers who uses them to overcome her cruel parents and teach her classmates. The story follows Matilda's journey to discover and use her hidden talents in order to stand up for herself and those around her."
+    },
+    {
+        "instruction": "Indicate the genre of the book to which it belongs.",
+        "input": "Love in the Time of Cholera",
+        "output": " by Gabriel Garcia Marquez is a novel."
+    },
+    {
+        "instruction": "Prove the given statement using your information.",
+        "input": "\"If x is a positive integer or a solution to x+3>4, then x>0 and x>12.\"",
+        "output": "\nTo prove the given statement, we need to determine whether x+3 is greater than 4 for all positive integers x. If this condition is met, then we can conclude that x must be greater than 0 and greater than 12.\nLet's assume that x is a positive integer and x+3 is greater than 4. Then we have:\nx+3 > 4\nTo show that x must be greater than 0 in this case, we can use the fact that if x is less than 0, then x+3 would be negative, which is not possible since we are dealing with positive integers. Therefore, x must be greater than 0.\nTo show that x must be greater than 12, we can use the fact that if x is less than 12, then x+3 would be less than 4, which is also not possible since we know that x+3 > 4. Therefore, x must be greater than 12.\nTherefore, the given statement is true: if x is a positive integer or a solution to x+3>4, then x must be greater than 0 and greater than 12."
+    },
+    {
+        "instruction": "Based on the facts that have been provided, prove the following statement.",
+        "input": "Statement: \"For every integer k, k^2 + 2k + 1 ≥ 0\"\nFact: The square of any real number is non-negative.",
+        "output": "\nConsequence: For every integer k, k^2 ≥ 0.\nProof: Let k be an integer. Then, k^2 = (k + 1)^2 - 4k + 1. Since the square of any real number is non-negative, we have (k + 1)^2 ≥ 4k + 1. Therefore, k^2 ≥ 4k + 1. Adding 2k to both sides, we get k^2 + 2k ≥ 5k + 2. Finally, adding 1 to both sides, we get the statement: \"For every integer k, k^2 + 2k + 1 ≥ 0\"."
+    },
+    {
+        "instruction": "Verify the correctness of the given statement.",
+        "input": "\"For all integers j and k, if j and k are odd, then jk is odd.\"",
+        "output": "\nThe given statement is correct."
+    },
+    {
+        "instruction": "Provide a formula for computing the nth term in the given sequence",
+        "input": "5, 14, 23, 32, 41, ...",
+        "output": "\nThe nth term of the given sequence is given by the formula:\nnth term = a + (n-1)d\nwhere a is the first term, d is the common difference, and n is the term number.\nIn this case, a = 5, d = 9, and n = 6 (since we are finding the 6th term). Plugging these values into the formula, we get:\nnth term = 5 + (6-1)9 = 5 + 84 = 99\nTherefore, the 6th term of the given sequence is 99."
+    },
+    {
+        "instruction": "Identify all words that match the pattern given.",
+        "input": "H_AR_",
+        "output": "RI_ER:\nhairier, harrier, hairless, airy, arrier"
+    },
+    {
+        "instruction": "Look for poems that mention the given object or character. The names of the poems and their poets should be written.",
+        "input": "santa claus",
+        "output": " poem by annie lou seay - reddit.com. 8/12/2015 · I wrote this for my kids when they were little, and shared it with a few friends. A couple years ago, I was cleaning out some old files and came across the text, and realized that it might be fun to share it more widely. So here it is... Misc Christmas Stuff.\nSanta Claus is Coming to Town This poem is in the public domain."
+    },
+    {
+        "instruction": "Respond to the last text in the chat using the correct emojis to convey your feelings.",
+        "input": "+ Hey, how did your exams go?\n- They were alright. I'm just glad they're over.\n+ Yeah, I know how you feel. I'm just glad I don't have to worry about them anymore.",
+        "output": "\n+ 😊 Glad to hear it. 👏 Congrats on making it through!"
+    },
+    {
+        "instruction": "The last message in the chat is a partial response. You should complete and rewrite it.",
+        "input": "+ What are going to do now?\n- I don't know. I had to give up my dream of being a mathematician.\n+ Why",
+        "output": " did you have to give up your dream of being a mathematician?\n- There is no point in becoming a mathematician if you can't solve the problem.\n+ What problem?\n- The problem of finding a line that goes through two points and is perpendicular to a given line. It's known as the Pythagorean-Cubit problem.\n+ Is it a difficult problem?\n- Yes, it's one of the most difficult problems in mathematics.\n+ Have you tried solving it?\n- Yes, I have.\n+ And?\n- Nothing. I couldn't find a solution.\n+ That's too bad."
+    },
+    {
+        "instruction": "Change the response to have a more empathic tone in the chat.",
+        "input": "+ How are you doing?\n- Fine, I had a bunch of problems today.\n+ What kind of problems?",
+        "output": "\n- I had some family issues and it stressed me out."
+    },
+    {
+        "instruction": "The given text must be classified as offensive or not offensive.",
+        "input": "You acted really crazy last night.",
+        "output": "\nnot offensive"
+    },
+    {
+        "instruction": "Give a brief summary of the intention of the dialogue that just happened.",
+        "input": "Customer: Hi there, I'm looking for a new phone.\nAI: Hi! What type of phone are you looking for?\nCustomer: I'm not sure. Maybe something with a good camera?\nAI: We have a few phones with great cameras. Would you like to see some options?\nCustomer: Yeah, that would be great.",
+        "output": "\nAI: Sure thing. I'll show you some options that have great cameras. What kind of price range are you looking at?"
+    },
+    {
+        "instruction": "Correct the transcription of an excerpt containing errors.",
+        "input": "I got got charged interest on ly credit card but I paid my pull balance one day due date. I not missed a pavement year yet. Man you reverse the interest charge?",
+        "output": "\nThe transcription has been corrected.\n\"I got got charged interest on my credit card but I paid my entire balance due one day before the due date. I have never missed a payment yet. Can you reverse the interest charge?\""
+    },
+    {
+        "instruction": "Classify the tweet into one of the following three categories: event, demo, or news. Event is a happening, often social or public, that people attend or are aware of. Demo is a  public showing or presentation of something, typically to promote or advertise it. And, news is information about recent events or happenings, especially as reported by news media.",
+        "input": "Using this tutorial, you can analyze and classify a user’s review as either positive or negative using sentiment analysis features in an existing Next.js app. We show you how to leverage language AI into your applications. Check it out ↓",
+        "output": "\nThe goal of this project is to classify the tweet into one of the three categories: event, demo, or news. To do so, we will use natural language processing (NLP) techniques to analyze the text and extract meaningful information. We will then compare the extracted information to a predefined set of rules to determine the appropriate category for the tweet.\nEvent Classification\nTo classify a tweet as an event, we need to look for specific keywords that indicate that the tweet is related to a social or public happening. Some examples of these keywords include “concert,” “festival,” “rally,” “party,” and “symposium.” We can also leverage location-based information to determine if the tweet is related to an event in a specific city or country.\nDemo Classification\nFor demo classification, we need to look for keywords that indicate that the tweet is related to a public showing or presentation of something. This could include words like “exhibition,” “demo,” “showcase,” or “launch.” We can also use sentiment analysis to determine if the tweet is positive or negative, and use that information to classify the tweet as a demo.\nNews Classification\nTo classify a tweet as news, we need to look for keywords that indicate that the tweet is related to recent events or happenings. These keywords could include “news,” “update,” “breaking,” or “alert.” We can also use sentiment analysis to determine if the tweet is positive or negative, and use that information to classify the tweet as news.\nPredefined Rules\nTo classify a tweet into one of the three categories, we need to define a set of predefined rules. For example, if a tweet includes the word “concert” along with location information, we can classify it as an event. Similarly, if a tweet includes the word “demo"
+    },
+    {
+        "instruction": "Based on the information provided, you need to estimate the average summary for the given job.",
+        "input": "Data entry clerk in United States",
+        "output": ": The average summary for a data entry clerk in the United States is $31,700 per year."
+    },
+    {
+        "instruction": "Describe the responsibilities of the given job.",
+        "input": "Security Officer",
+        "output": " Responsibilities:\n1. Ensuring the safety of all employees, visitors and property by patrolling the premises, monitoring security systems and responding to alarms.\n2. Conducting regular security checks of the premises, including access points, windows and doors.\n3. Making sure that all personnel are following security protocols and that access control lists are up to date.\n4. Monitoring and reporting any suspicious activity or persons on the premises.\n5. Providing guidance and instructions to personnel on security-related matters.\n6. Maintaining a log of all activities and incidents occurring on the premises.\n7. Investigating accidents and incidents to determine the cause and develop preventive measures.\n8. Coordinating with law enforcement agencies in case of emergencies.\n9. Developing and implementing security plans for special events.\n10. Regularly inspecting and testing security equipment, such as locks, alarms and cameras."
+    },
+    {
+        "instruction": "Provide a list of the skills that may help you find the job.",
+        "input": "Crew Members",
+        "output": " are responsible for providing the best possible guest experience to all guests, exceeding their expectations.\nCrew Members will be expected to work within a team environment and take instructions from the management team.\nCrew Members will also be required to provide outstanding customer service at all times.\nCrew Members must demonstrate a commitment to safety and quality standards at all times.\nPerform general cleaning duties including: sweeping, mopping, scrubbing, vacuuming and wiping down surfaces.\nFollow all company policies and procedures in regards to food safety.\nKeep work areas clean and organized.\nMaintain a positive attitude and professional appearance while on duty."
+    },
+    {
+        "instruction": "Answer the question about the paper after reading it carefully.",
+        "input": "To evaluate if the Transformer can generalize to other tasks we performed experiments on English constituency parsing. This task presents specific challenges: the output is subject to strong structural constraints and is significantly longer than the input. Furthermore, RNN sequence-to-sequence models have not been able to attain state-of-the-art results in small-data regimes.\nQuestion: What is English constituency parsing?",
+        "output": "\nAnswer: English constituency parsing is a task that identifies the syntactic structure of a sentence, such as which words are nouns, verbs, adjectives, etc."
+    },
+    {
+        "instruction": "Recommend some helpful activities or conversation starters to use at meetups to break the ice.",
+        "input": "",
+        "output": "\nWhenever I'm at a meetup, I always try to strike up a conversation with someone new. It could be about the topic of the meetup or not. Here are some ideas for questions/topics to talk about:\n- What did you think of the last speaker?\n- Do you know anyone else who is also attending this meetup?\n- What brought you here tonight?\n- Do you have any suggestions for future meetups?\n- What do you do in your free time?\n- Are you an entrepreneur or work for a company?\n- What interests do you have outside of work/school?\n- Have you traveled anywhere lately?\n- Do you play any sports?\n- Have you seen any good movies/tv shows recently?"
+    },
+    {
+        "instruction": "Create a short, concise summary of the paper based on its abstract.",
+        "input": "Few-shot learning (FSL) is one of the key future steps in machine learning and raises a lot of attention. In this paper, we focus on the FSL problem of dialogue understanding, which contains two closely related tasks: intent detection and slot filling. Dialogue understanding has been proven to benefit a lot from jointly learning the two sub-tasks. However, such joint learning becomes challenging in the few-shot scenarios: on the one hand, the sparsity of samples greatly magnifies the difficulty of modeling the connection between the two tasks; on the other hand, how to jointly learn multiple tasks in the few-shot setting is still less investigated. In response to this, we introduce FewJoint, the first FSL benchmark for joint dialogue understanding. FewJoint provides a new corpus with 59 different dialogue domains from real industrial API and a code platform to ease FSL experiment set-up, which are expected to advance the research of this field. Further, we find that insufficient performance of the few-shot setting often leads to noisy sharing between two sub-task and disturbs joint learning. To tackle this, we guide slot with explicit intent information and propose a novel trust gating mechanism that blocks low-confidence intent information to ensure high quality sharing. Besides, we introduce a Reptile-based meta-learning strategy to achieve better generalization in unseen few-shot domains. In the experiments, the proposed method brings significant improvements on two datasets and achieve new state-of-the-art performance.",
+        "output": " The source code is available at this https URL.\nFew-shot learning (FSL) is one of the key future steps in machine learning and raises a lot of attention. In this paper, we focus on the FSL problem of dialogue understanding, which contains two closely related tasks: intent detection and slot filling. Dialogue understanding has been proven to benefit a lot from jointly learning the two sub-tasks. However, such joint learning becomes challenging in the few-shot scenarios: on the one hand, the sparsity of samples greatly magnifies the difficulty of modeling the connection between the two tasks; on the other hand, how to jointly learn multiple tasks in the few-shot setting is still less investigated. In response to this, we introduce FewJoint, the first FSL benchmark for joint dialogue understanding. FewJoint provides a new corpus with 59 different dialogue domains from real industrial API and a code platform to ease FSL experiment set-up, which are expected to advance the research of this field. Further, we find that insufficient performance of the few-shot setting often leads to noisy sharing between two sub-task and disturbs joint learning. To tackle this, we guide slot with explicit intent information and propose a novel trust gating mechanism that blocks low-confidence intent information to ensure high quality sharing. Besides, we introduce a Reptile-based meta-learning strategy to achieve better generalization in unseen few-shot domains. In the experiments, the proposed method brings significant improvements on two datasets and achieves new state-of-the-art performance. The source code is available at this https URL."
+    },
+    {
+        "instruction": "You will need to compose the ABC notation for a given song.",
+        "input": "The South Wind",
+        "output": " blows East to West.\nBlowing over the prairies fair,\nWherever you may roam,\nYou'll always remember...\nSouth Wind, don't blow so fast,\nTake your time and come this way,\nBring us sunshine in your wake,\nOh South Wind, we're waiting for your sake!"
+    },
+    {
+        "instruction": "Decide if the given email belongs to the Promotions or Social category.",
+        "input": "Subject: You have an invitation\nEmail: Hi, I'd like to join your LinkedIn network.",
+        "output": " Please accept my invitation at http://linkd.in/1K437Ee [LinkedIn]\nCategory: Social"
+    },
+    {
+        "instruction": "The story of a movie has been described using many emojis. You need to guess the name of the movie based on the emojis.",
+        "input": "🧙‍♂️🚪📚🦅⚡",
+        "output": "️\nThe movie is Harry Potter and the Philosopher's Stone."
+    },
+    {
+        "instruction": "Come up with an interesting idea for a new movie plot. Your plot should be described with a title and a summary.",
+        "input": "",
+        "output": "Title: The Last Unicorn\nSummary: The Last Unicorn is a 1982 American fantasy film directed by Arthur Rankin Jr. and Jules Bass. It was the last of two Rankin/Bass television films, along with \"The Return of the King\" (1980), not to be based on a classic children's book or fairy tale, although it was adapted from the 1968 novel of the same name by Peter S. Beagle."
+    },
+    {
+        "instruction": "Change the first person to the third person in the given sentence. The meaning should be kept, but you can paraphrase it or expand it in order to have a better pose.",
+        "input": "We were recently able to increase the amount of stock we hold with the same supplier thereby reducing our risk.",
+        "output": "\nThis supplier recently allowed us to increase the amount of stock we hold with them, thus decreasing our risk."
+    },
+    {
+        "instruction": "Convert the given description to a bash command.",
+        "input": "read the first 10 lines from f",
+        "output": "1.txt\ndone\n\ncat f1.txt"
+    },
+    {
+        "instruction": "List the concepts that should be learned before approaching the given complex concept.",
+        "input": "Deep Learning",
+        "output": " is a branch of Machine Learning that involves training artificial neural networks to perform specific tasks. It requires large amounts of data and powerful computational resources to process the data and train the networks. Some concepts that should be learned before approaching Deep Learning include:\n1. Artificial Neural Networks: Understanding how ANNs work, their architecture, and different types of layers.\n2. Supervised and Unsupervised Learning: Knowing the difference between these two types of learning and when to use them.\n3. Convolutional Neural Networks (CNNs): Understanding how CNNs are designed for image recognition tasks.\n4. Recurrent Neural Networks (RNNs): Understanding how RNNs are designed for sequence data tasks such as natural language processing.\n5. TensorFlow and Keras: Knowing the basics of these popular Deep Learning frameworks.\n6. Gradient Descent: Understanding how backpropagation works and how gradients are used to optimize the network's parameters.\n7. Overfitting and Regularization: Understanding how overfitting occurs and how to prevent it."
+    },
+    {
+        "instruction": "Assess the sentiment of the given tweet and categorize it as Positive, Negative, or Neutral.",
+        "input": "\"This is the best cheat-sheet paper that I've found in a LONG time.\"",
+        "output": " -Neutral"
+    },
+    {
+        "instruction": "You are given a Python command and are required to convert it into Ruby.",
+        "input": "print(\"Hello World!\")",
+        "output": "\ndef hello_world\nputs \"Hello World!\"\nend"
+    },
+    {
+        "instruction": "You are given a sentence in first-order logic. Translate it into natural language.",
+        "input": "∃x∀y(soldier(x)→general(x,y))",
+        "output": "\nThis sentence means that for every soldier, there is a general."
+    },
+    {
+        "instruction": "You are given a search query and a document. Classify whether the document is relevant to the search query or not relevant.",
+        "input": "Search: why sky is blue\nDocument: The Short Answer: Sunlight reaches Earth's atmosphere and is scattered in all directions by all the gases and particles in the air. Blue light is scattered more than the other colors because it travels as shorter, smaller waves. This is why we see a blue sky most of the time.",
+        "output": ""
+    },
+    {
+        "instruction": "Create a list of subtopics for the given topic.",
+        "input": "Music theory",
+        "output": " is the study of the language of music. It is based on a system of music notation that represents pitch, rhythm, and dynamic (loudness) in different ways. Music theory also encompasses the study of how music can be organized into different types of pieces, such as symphonies and sonatas.\n\nSubtopics for this topic include:\n1. Pitch: the measurement of sound frequency\n2. Rhythm: the pattern of long and short durations\n3. Dynamic: the control of volume or loudness\n4. Notation: the representation of music using symbols\n5. Form: the structure of a musical piece\n6. Genre: the classification of music by style or type\n7. Harmony: the relationship between tones or chords\n8. Counterpoint: the interweaving of independent melodic lines\n9. Tonality: the use of a key center to establish a sense of resolution\n10. Musical texture: the blend of different sounds and layers."
+    },
+    {
+        "instruction": "Summarize the movie in a snarky way. Try to explain the movie in just one sentence.",
+        "input": "The Shining",
+        "output": " is a psychological horror film about a family that moves into a hotel in the mountains, where the father starts to experience supernatural phenomena and gradually descends into madness."
+    },
+    {
+        "instruction": "Summarize a meeting from the given list of bullet points. Be sure to convert shorthand into a first-hand account.",
+        "input": "Rose: Analyze data and presents findings\nJohn: propose new idea\nJane: appointed to head project\nTom: need more time to fix software bug",
+        "output": "\nJane: decide on timeline for project milestones\nJane: assign tasks to team members\nJohn: get feedback from stakeholders\nTom: review code and report progress\nRose: present findings to stakeholders"
+    },
+    {
+        "instruction": "List a few popular songs from the given album.",
+        "input": "Back To Black",
+        "output": " is an album by British singer-songwriter Amy Winehouse. It was released on 30 September 2006 through Island Records. The album tracks were written by Winehouse and producer Mark Ronson, with the majority of the songs being co-written with songwriter and guitarist Bruno Mars.\nSome popular songs from the Back To Black album are:\n1. Rehab\n2. You Know I'm No Good\n3. Tears Dry On Their Own\n4. Love Story\n5. Stronger Than Me\n6. No One Compares to You"
+    },
+    {
+        "instruction": "Given a programming language and the name of a function, write a command to show how to use the function.",
+        "input": "Language: Python\nFunction: input",
+        "output": "()\nCommand: print(input())"
+    },
+    {
+        "instruction": "Provide a pleasant compliment based on the quality you have been given.",
+        "input": "Truthfulness",
+        "output": "\nI love your honesty and the way you always speak your mind. It is refreshing to have a friend who is so truthful and straightforward."
+    },
+    {
+        "instruction": "Regex is a set of characters that define a search pattern. This kind of pattern is usually used by string-searching algorithms to find or replace strings or to validate inputs. Convert the natural english text to regex.",
+        "input": "Match a valid ip address",
+        "output": ".\nA valid IP address can be represented as four sets of decimal digits from 0 to 255, with a hyphen between each set (e.g., 192.168.0.1). A valid IPv4 address contains a colon at the end, and an IPv6 address contains an equal sign and two colons after the last set of digits."
+    },
+    {
+        "instruction": "List some of the top real estate marketing words to add value to the listing and engage more potential buyers.",
+        "input": "",
+        "output": "\n1. Unique, 2. Sophisticated, 3. Spacious, 4. Prestigious, 5. Breathtaking, 6. Glamorous, 7. Astonishing, 8. Luxurious, 9. Elegant, 10. Stunning, 11. Scenic, 12. Incredible, 13. Spectacular, 14. Picturesque, 15. Serene, 16. Remarkable, 17. Impressive, 18. Exquisite, 19. Majestic, 20. Comfortable"
+    },
+    {
+        "instruction": "Suggest some product bundles that are often purchased with a given product.",
+        "input": "MacBook Air",
+        "output": ", 13\" (Mid 2017)\nMacBook Pro, 13\" (Mid 2017)\nMacBook Pro, 15\" (Mid 2017)"
+    },
+    {
+        "instruction": "Create a template in markdown to create scope for Jira tickets. Members should use this template as a checklist to ensure they have included all the necessary information when creating a ticket.",
+        "input": "",
+        "output": "# Ticket: [Jira ticket number]\n## Requirements\n- [Jira issue key]\n- [Jira project]\n- [Assignee]"
+    },
+    {
+        "instruction": "As part of software engineering, user stories describe what the user wants the system to do, while acceptance criteria describe the conditions a specific user story must meet. Create basic acceptance criteria based on the given user story.",
+        "input": "User story: As a user, I want to use a search field to type a city, name, or street, so that I could find matching hotel options.",
+        "output": "\nAcceptance criteria:\n- The search field should be placed prominently on the home page.\n- The search field should accept a variety of inputs, such as city names, street addresses, and partial addresses.\n- The search results should display information about the hotel, including its name, address, star rating, price range, and amenities.\n- The search results should be sorted by relevance or proximity to the user's location.\n- The search results should be limited to a specific number of options to avoid overwhelming the user."
+    },
+    {
+        "instruction": "Write a Jira ticket for the given task.",
+        "input": "New Employee onboarding",
+        "output": " checklist\nCheck that the new hire has completed all of the following tasks within their first 30 days at T-Mobile:\n- Set up their workspace and computer\n- Receive and review all company policies, including but not limited to the Employee Handbook and Code of Conduct\n- Attend New Hire Orientation\n- Complete compliance training modules, including but not limited to harassment prevention and discrimination prevention training\n- Meet with their manager to discuss goals and expectations\n- Participate in a culture and team-building activity\n- Complete the onboarding process in Workday"
+    },
+    {
+        "instruction": "Paraphrase the given text in an academic style.",
+        "input": "Lots of papers have been published on this topic.",
+        "output": " In fact, there are entire books dedicated to it. However, despite all the research, the topic still remains controversial."
+    },
+    {
+        "instruction": "Provide an ESRB rating for the following game.",
+        "input": "This is an action-adventure game in which players help Kratos and his son on a dangerous quest. Players explore various realms and engage in frenetic hand-to-hand combat against human-like raiders and fantastical creatures (e.g., centaurs, trolls, dragons). Players use axes and chained blades to battle enemies, often resulting in large blood-splatter effects and dismemberment. Players can perform finishing attacks that depict close-up impalement via bladed and hand-held weapons; repeated axe strikes to a creature's neck results in decapitation. The words “f**k” and “sh*t” are heard in the game.",
+        "output": "\nBased on this information, the ESRB rating for this game would be MATURE 17+."
+    },
+    {
+        "instruction": "We have described a scene from a movie that we have seen in the past. Find out what movie it is.",
+        "input": "A choice has to be made between picking the red pill or the blue pill",
+        "output": ".\nThe movie is The Matrix."
+    },
+    {
+        "instruction": "You are given a tweet and you should decide whether it's offensive or not.",
+        "input": "She has certainly taken some heat for being such an....well idiot.",
+        "output": "\nI'm not sure what the original tweet said, but I agree with this response."
+    },
+    {
+        "instruction": "For a quick and efficient office workout, suggest a short routine.",
+        "input": "",
+        "output": "\n\nWarm up: 5 minutes of light cardio (e.g. jumping jacks, squats) and stretching (e.g. cat-camel, child’s pose).\n\nStrength training: 10-15 minutes of bodyweight exercises such as lunges, squats, pushups, and planks.\n\nCool down: 5 minutes of yoga or light stretching.\n\nTotal workout time: 20-30 minutes."
+    },
+    {
+        "instruction": "Predict how many stars the author will give to the restaurant from a Yelp review.",
+        "input": "The reviews were great, but honestly i felt it was just ok. Seemed like a typical tourist spot were the food was mediocre. The service was ok, not great, but not the worst.\nThe bread was very good. I ordered the muscle fries. They had a sweet Vidalia onion flavor. No need for fries bc they were soggy wo much flavor. My boyfriend ordered a pesto chicken pasta and it was again mediocre.",
+        "output": "\nThe food was ok, not great. The service was alright. Overall, we were disappointed with the price and overall experience.\nI thought the food was good, but not great. The service could be better. Overall, it was a decent experience."
+    },
+    {
+        "instruction": "Categorize the given product into one of Electronics, Computers, Smart Home, or Arts & Crafts departments.",
+        "input": "Google Nest Learning Thermostat",
+        "output": " - Electronics\nGoogle Nest Learning Thermostat can be categorized under the Electronics department."
+    },
+    {
+        "instruction": "Provide instructions for the given exercise.",
+        "input": "Leg Raises",
+        "output": " - Lying Leg\nLie on your back with both legs extended. Bend your left leg at a 90-degree angle and lift the leg up toward the ceiling. Hold for one second, and then lower slowly. Repeat for two minutes on each side."
+    },
+    {
+        "instruction": "Write down antonyms for the given word.",
+        "input": "laureating",
+        "output": ", laureate, laureateship, laureation\na : receiving a laurel wreath in honor of a victory or achievement (as in a competition) b : the act or ceremony of conferring a laurel wreath <the awarding of diplomas> c : the state of being a laureate d : elated speech or song of triumph or joy"
+    },
+    {
+        "instruction": "Design a simple training challenge on Strava that everyone could attend.",
+        "input": "",
+        "output": "\nThe training challenge should be something that is open to all Strava users, regardless of their experience or fitness level. The goal of the challenge should be to promote healthy habits and encourage people to stay active. The challenge should have a simple structure, with clear instructions and a set time frame. For example, the challenge could be to complete 10,000 steps per day for the next seven days. Participants would track their progress on Strava and share their progress on social media using a specific hashtag."
+    },
+    {
+        "instruction": "Explain the meaning of the given phrase in simple terms. Use an example if possible. It would be helpful if you could give an example.",
+        "input": "\"With a little give in them\"",
+        "output": " - What does this phrase mean?\nThe phrase \"with a little give in them\" suggests that the person is flexible and willing to compromise. For example, when negotiating a deal, someone with a little give in them would be open to different ideas and solutions, rather than being rigidly fixed on their own idea or position. They understand that sometimes it's necessary to compromise to reach an agreement."
+    }
+]

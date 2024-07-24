@@ -1,0 +1,432 @@
+[
+    {
+        "instruction": "Desk jobs require writing a lot of emails, so it isn't surprising we get tired of repeating ourselves. Come up with several synonyms for the given word.",
+        "input": "Sincerely",
+        "output": ",\nRespectfully,\nTruly,\nYours truly,"
+    },
+    {
+        "instruction": "If you could help me write an email to my friends inviting them to dinner on Friday, it would be greatly appreciated.",
+        "input": "",
+        "output": "Lindsay and I would love to have you and your family over for dinner this Friday. We’re planning on grilling out some steaks, so please let us know if you have any dietary restrictions. The kids will be in bed by 8:00, but feel free to bring the little ones along if they’ll nap during the day."
+    },
+    {
+        "instruction": "Write a social media post about the call for collaboration on a crowdsourcing project in a persuasive way.",
+        "input": "",
+        "output": "\nA new crowdsourcing project needs your help! We are looking for volunteers to join our team and contribute their skills and knowledge to this exciting initiative. By collaborating with us, you will have the opportunity to work on a meaningful project that can make a significant impact in the world. Together, we can create something amazing!"
+    },
+    {
+        "instruction": "My favorite witty review of The Rings of Power series is this:",
+        "input": "",
+        "output": "\"The Rings of Power is an unexplainable masterpiece. It's so bad that it's good.\"\nThat review captures the essence of my experience watching this show. It's not a coherent story, and I don't understand many of the choices made in terms of character development, plot, and pacing. But I can't help but be entertained by it, thanks to the very talented actors, beautiful cinematography, and sheer audacity of it all.\nHere are my thoughts on each episode:\nEpisode 1: \"A Stranger in Rivendell\"\nThis was probably my favorite of the entire season. The characters are introduced (both old and new) and we learn a bit about Galadriel's background. My one complaint is that the scenes with the orcs felt like they were ripped straight from Shadow of Mordor/War. The cinematography was also beautiful.\nEpisode 2: \"The Ring of Power\"\nThey really went for broke with the amount of story threads they introduced in this episode. We got more insight into Galadriel's past, as well as the dwarves and their connection to the rings. There were even some comedic moments, which was a welcome surprise. This is the last time we would see Elrond and Durin until later in the season, though.\nEpisode 3: \"Adrift\"\nI feel like this was when the writers started to run out of ideas. They tried to fast forward through a lot of important backstory, introducing a whole new character (Celebrimbor) in the process. The ending scene with the Noldorin elves was particularly confusing.\nEpisode 4: \"The Great Wave\"\nThis was the first real clunker of the season. The only interesting thing that happened was the"
+    },
+    {
+        "instruction": "You are provided with a description of the code, specifications, or prompts. Your help is needed in automating code generation to speed up the development process.",
+        "input": "python function to determine whether a number is prime.",
+        "output": "\ndef isPrime(n):\n    if n == 1 or n == 2:\n    return True\n    for i in range(3, int(math.sqrt(n)) + 1):\n    if n % i == 0:\n    return False\n    return True"
+    },
+    {
+        "instruction": "We have entered the home supplies budget in the following table. Calculate the last column with the given function and rewrite the completed table.\nNote that, columns in a row are separated using a comma, and rows are separated using a \"|\".",
+        "input": "Item, Qty, Price, Subtotal | mango, 5, 500, ? | apple, 4, 150, ? | oil, 2, 1500, ?  \nFunction: column2 * column 3",
+        "output": "\nSubtotal: 1550, 2050"
+    },
+    {
+        "instruction": "What are the steps to using random (yet coherent) text as filler content within your Word document?",
+        "input": "",
+        "output": "Normally, when you need filler content for a document, you type random sentences that make sense in the context of your current writing. For example, if you're writing a document about gardening, you might write something like \"Tilling the soil is an important step in preparing it for planting. It helps to loosen up the dirt and expose any rocks or other debris that may be present.\"\nIf you want to use random text instead, there are a few steps you can take. First, open a new Word document and paste in some text that you want to use as filler. You can find this text online by searching for \"random text\" or \"lorem ipsum\". Once you have your text, highlight it and copy it.\nNext, open your original document and paste the filler text into wherever you want it to go. You can adjust the font size, style, and color to match the rest of your document. Finally, save your document and enjoy your newfound freedom from writer's block!"
+    },
+    {
+        "instruction": "Design a soothing pastel color palette for your slides. Pastel colors generally come across as pretty and delicate, so you’ll want to make sure your presentation calls for a similar mood. Choose up to five colors or color codes.",
+        "input": "",
+        "output": "Muted pastel colors are a great choice for a corporate presentation.\nIn the HSL color system, where hues range from 0° to 360° and saturation ranges from 0% to 100%, and lightness (or value) from 0% to 100%, these colors have the following values:. Red-violet: The red-violet color palette is a group of colors that can be found along a line stretching from red tones to magenta tones, as shown in Figure 1. Outside this box are colors that are impossible to mix or create with only primary colors."
+    },
+    {
+        "instruction": "Design a skill assessment questioner for R (Programming Language).",
+        "input": "",
+        "output": "Assessment - How well do you know R?\n1. What does the following code output?\n```r\ncat(\"Hello World\")\n```\n\n2. What does the following code output?\n```r\ncat(\"Hello\", \"World\")\n```\n\n3. What does the following code output?\n```r\ncat(\"Hello\", \" World\")\n```\n\n4. What does the following code output?\n```r\ncat(\"Hello\", \" World\")\n```\n\n5. What does the following code output?\n```r\ncat(\"Hello\", \" World\")\n```\n\n6. What does the following code output?\n```r\ncat(\"Hello\", \" World\")\n```\n\n7. What does the following code output?\n```r\ncat(\"Hello\", \" World\")\n```\n\n8. What does the following code output?\n```r\ncat(\"Hello\", \" World\")\n```\n\n9. What does the following code output?\n```r\ncat(\"Hello\", \" World\")\n```\n\n10. What does the following code output?\n```r\ncat(\"Hello\", \" World\")\n```\n\n11. What does the following code output?\n```r\ncat(\"Hello\", \" World\")\n```\n\n12. What does the following code output?\n```r\ncat(\"Hello\", \" World\")\n```\n\n13. What does the following code output?\n```r\ncat(\"Hello\", \" World\")\n```\n\n14. What does the following code output?\n```r\ncat(\"Hello\", \" World\")\n```\n\n15. What does the following code output?\n```r\ncat(\"Hello\", \" World\")\n```\n\n16. What does the following code output?\n```r\ncat(\"Hello\", \" World\")\n```\n"
+    },
+    {
+        "instruction": "Write a template for First-Person LinkedIn profile summary.",
+        "input": "",
+        "output": "\nI am a Software Engineer with over 5 years of experience in the field. I have worked on various projects related to web development, mobile applications, and system administration. I am passionate about learning new technologies and implementing them in my work."
+    },
+    {
+        "instruction": "Write a LinkedIn post to announce that you have accepted a new job offer.",
+        "input": "",
+        "output": "[Your Name] here, and I’m excited to announce that I have accepted a new job offer. As of [Start Date], I will be joining the team at [Company Name] as a [Position]!\nI’m looking forward to working with my new colleagues and continuing to grow in my career. Thank you to everyone who has supported me throughout this process – I wouldn’t be here without you."
+    },
+    {
+        "instruction": "Make a list of desirable Skills for software engineers to add to LinkedIn.",
+        "input": "",
+        "output": "Skills: Writing high-quality production-grade code, Database design and development, Test-driven development, Continuous integration and delivery, Software architecture, Agile methodology, Version control systems, Object-oriented programming, Data structures and algorithms, Security, Software project management, Cloud computing, Networking, Distributed systems, Algorithms, Game development, Cryptography, Machine learning"
+    },
+    {
+        "instruction": "You should write a Product Description that will persuade the buyer that the product is beneficial.",
+        "input": "Flipslide Game, Electronic Handheld Game | Flip, Slide, and Match the Colors to Beat the Clock - 4 Game Modes - Multiplayer Fun",
+        "output": " | Travel Game for Kids and Adults | Portable Game Perfect for Road Trips, Parties, and Holiday Gift - Great Birthday Gift for Boys & Girls Ages 8 and Up\nFlipslide is an electronic handheld game that combines the classic game of Four-in-a-Row with a color matching twist! In this fast-paced game, two players slide colored discs on their respective game boards to match the colors and beat the clock. The player who completes four discs in a row first, wins the game. There are four game modes to choose from: classic, lightning, rotation, and stack. Classic mode is the original Four-in-a-Row game, while lightning mode speeds up the gameplay. The rotation mode gives each player a different color to use. Finally, stack mode adds an extra challenge by requiring the player to build one color on top of another. Flipslide makes a great travel game for kids and adults. It's perfect for road trips, parties, holiday gift, and more. With its portable design, Flipslide can be taken anywhere for hours of fun."
+    },
+    {
+        "instruction": "What other Amazon products might interest someone who visited the given product?",
+        "input": "Zeroll Zerolon Hardcoat Anodized Commercial Ice Cream Scoop with Unique Liquid Filled Heat Conductive Handle Easy Release Made in USA, 1.5-Ounce, Black",
+        "output": "\nPeople who viewed this item also viewed.\nShop by department,\nDeals of the day,\nThis page was last updated: Oct 23, 2017 4:57:29 PM UTC"
+    },
+    {
+        "instruction": "Give a brief description of the given category of movies and shows.",
+        "input": "Period Dramas",
+        "output": " are set in a specific time period and often depict historical events or cultural traditions of that era. They typically have a more leisurely pace than modern dramas and focus on character development and plot points that reflect the social norms and values of that time period. Some examples of Period Dramas include \"Downton Abbey,\" \"The Crown,\" \"Pride & Prejudice,\" and \"Mad Men.\""
+    },
+    {
+        "instruction": "Imagine you have a FEN notation of a chessboard. How can you draw a board to show this state of the chessboard in LATEX? Create a LATEX code that includes all the required commands and packages.",
+        "input": "",
+        "output": "The command \\begin{chessboard} produces a chessboard with squares of size 1, and the command \\begin{center} around it centers the chessboard. You can change the size of the squares by replacing 1 by any other number.\nFor example, to produce a chessboard with 2-by-2 squares, you can use \\usepackage[a]{chessboard} instead of \\usepackage[default]{chessboard}."
+    },
+    {
+        "instruction": "Make a list of the most popular podcasts.",
+        "input": "",
+        "output": "The most popular podcasts are definitely This American Life, Serial, S-Town, and My Favorite Murder. But there are many, many more that are popular!"
+    },
+    {
+        "instruction": "You should take the time to read the situation and problem carefully and give the best advice you can.",
+        "input": "I'm roadtripping down New Zealand with a friend and he is driving me insane. He hasn't enjoyed all the tours we've been on and doesn't want to chat about ANYTHING. We're a week into our trip and this is the quietest I've ever been when hanging out with another person as he rebuffs all my attempts at conversation. He wears his airpods in the car and around the accommodation - not that I've kept trying to talk to him. Honestly, he is bringing some seriously bad vibes to everything and it's ruining my trip.\nWe don't have anything booked in yet for the South Island, so I'm planning to ditch him in Wellington at the ferry. Probably book my own car in Picton and just relax alone for the rest of the trip. (Just thinking about it is such sharp relief that it makes me feel emotional. I'll pay whatever price I have to just to get away from him.)\nObviously telling him he is ruining my trip with his negative energy isn't the best way to approach this.\nAny advice for the best approach so we can split amicably? Or at least not have an argument that ends with very hurt feelings?",
+        "output": "\nconflict-aversion friendship new-zealand roadtrip\nIt's really hard to advise you what to do, since we don't know your friend and it seems like there could be any number of reasons for his behaviour. However, if he's not enjoying the tours, maybe a more active holiday would suit him better? For example, hiring bicycles and exploring on our own would have made me happier than going on guided tours. If he doesn't want to chat about anything, maybe you've chosen activities which are too 'chattery' for him? Again, I don't know your friend so this is pure speculation, but perhaps he's shy or introverted and needs time to process things before talking to other people? Maybe try dropping some gentle hints that outdoor activities might be more up his street? \"Hey, I know you aren't enjoying the guided tours, but did you know you can also go sea kayaking in Abel Tasman National Park?\" (or whatever.)\nWhatever you do, make sure it's what YOU want and need, above all else. Don't feel pressured into staying together if you're just miserable.\nThank you for the suggestions - they're helpful to consider. It might be the case that I'm overthinking this. He has a tendency to withdraw when he feels stressed and I think ruminating on how much he dislikes the trip may be making him withdraw even further. I'll use your tips for broaching the idea of future activities with him. – Cindy Nov 23 '19 at 7:45\nNot being able to find common ground for conversation is a big problem. You should attempt to find a common interest for both of you. This will help overcoming the"
+    },
+    {
+        "instruction": "Based on the given query, suggest some related search queries.",
+        "input": "learning french",
+        "output": ", french language learning, french classes, online french classes, french courses, learn french free, french lessons, french pronunciation, how to speak french, study french, french vocabulary, french grammar, best way to learn french, how to learn french, how to learn the french language, how to speak french fluently"
+    },
+    {
+        "instruction": "Prepare an email signature template for the given person or company.",
+        "input": "a graduate student of computer science",
+        "output": " from the University of California, Berkeley. While at Cal, she helped build SpeakerSmart, an automatic speech recognition (ASR) system that uses deep neural networks to transcribe spoken audio into text with over 90% accuracy. She also worked as a researcher for two semesters at Microsoft's Speech and Dialog Research group. In 2016, she was hired by Google Brain where she currently works as a software engineer.\nLyu is interested in natural language processing and machine learning. Her work focuses on improving ASR systems by incorporating contextual information and understanding the structure of language."
+    },
+    {
+        "instruction": "React properly to reviews from your customers. In your responses, you can highlight your business' policies and customer service.",
+        "input": "Another repeat visit and no disappointment from us. Great place for breakfast or brunch - and you won't need to eat again for awhile. The restaurant is close to the Tenderloin so be aware of your surroundings.\nWe enjoyed the Succotash Omelet (at least my wife enjoyed it), the Pulled Pork Benedict and the Hangtown Fry. Portions are large and pricing is fair. I wish we could have managed a Beignet Flight!\nDefinitely a spot to seek out. It can be crowed at times so be patient. Well worth any wait.",
+        "output": "\nThe food was great and the service was wonderful. The restaurant was very busy, especially considering it was a Saturday morning. The staff were all very nice and attentive to our needs. This is a great spot for brunch!\nIf you are in San Francisco and hungry I would recommend this place. It's a bit touristy but the food is good and the atmosphere is nice. If you are just visiting SF don't make a special trip here though.\nAwesome breakfast with a long wait!\nStaff was very friendly and helpful. Food was delicious! Will definitely be going back!"
+    },
+    {
+        "instruction": "Design an outline for a blog post based on the given information and list the sections accordingly.",
+        "input": "This blog post is going to about making a list of last-minute gift ideas. Also, the tone of the post is going to be relaxed and casual.",
+        "output": "\nIntroduction: Hello everyone, it's almost Christmas and if you're like me then you probably still haven't finished your Christmas shopping. Don't worry, I'm here to help with some last-minute gift ideas.\nSection 1: For the Foodies\nFor the foodies in your life, why not get them a gourmet food basket or a subscription to a cooking box? These are great gifts that will keep on giving long after the holidays are over.\nSection 2: For the Techie\nIf you know someone who's always got their nose stuck in a book or their eyes glued to their phone, why not get them a new gadget? A smart speaker like Amazon Echo or Google Home is a great way to make their lives easier. You can also get them a smartwatch or a fitness tracker if they're into health and wellness.\nSection 3: For the Creative\nCreative types will love getting a gift that lets them express themselves. Why not get them a set of art supplies or a creative writing course? They can also enjoy personalized photo books or calendars for an extra special touch.\nSection 4: For the Outdoorsy\nOutdoorsy types will love getting a gift that lets them get outside and explore. How about a camping tent or a hiking backpack? They can also enjoy bird feeders or gardening tools for a more hands-on experience.\nSection 5: For the Kids\nKids will love getting creative gifts that let them play and have fun. Get them a science kit or a Lego set for hours of endless entertainment. You can also get them a game console or a board game for some good old-fashioned family fun."
+    },
+    {
+        "instruction": "Write a section for a blog post and try to cover all of the provided information about this section in your text.",
+        "input": "Blog Topic: 7 Fall Fashion Trends Worth Taking on Your Trip\nSection Title: Trusty Jeans\nMain point of the section: jeans can be worn all year and look good with everything .",
+        "output": "\nThe trusty denim jeans are a wardrobe staple that can be dressed up or down for any occasion. They are perfect for travel because they are comfortable, easy to pack and go with anything you might want to wear on your trip. Jeans also tend to look great on most body types, so you don't have to worry about feeling self-conscious in them."
+    },
+    {
+        "instruction": "You are given a topic for an Instagram post. Help the post reach a broader audience by suggesting hashtags related to the post.",
+        "input": "Another episode of women in science is out now",
+        "output": "! 🎉\nCheck out our latest episode, where we talk about the importance of STEM education and how to encourage young girls to pursue careers in STEM.\nWe also discuss the challenges faced by women in STEM fields and how we can work together to create a more equal and inclusive STEM community.\nDon't miss it! 🎧\n#womeninstem #stemeducation #equality #inclusivity #stemcommunity"
+    },
+    {
+        "instruction": "Use appropriate emojis to convey the meaning in the given text.",
+        "input": "Cute cat\nplayful\nSoft",
+        "output": " and fluffy\nWhite and black tabby\nSmart and curious"
+    },
+    {
+        "instruction": "The topic of a YouTube post has been described and based on the information, you need to write a hook for starting the post. A catchy hook will keep your readers interested so they keep reading. It would be great if you could come up with as many hooks as you can.",
+        "input": "A video showing how to make a tasty cup of coffee",
+        "output": " using a French press."
+    },
+    {
+        "instruction": "Find the answer that best describes the underlined SAT word. Select the correct option and explain the meaning of the underlined word.",
+        "input": "Despite the _cacophony, the student tried to study. \nA. Loud sounds\nB. Difficult subject\nC. Late hour\nD. Low lighting",
+        "output": "\nThe underlined word is \"A.\" Loud sounds."
+    },
+    {
+        "instruction": "Find synonyms for the given word. You need to write down how the provided synonyms differ from the original word in terms of meaning, usage, etc.",
+        "input": "adversity",
+        "output": " - misfortune, calamity, hardship\nThe word \"adversity\" means a state of misfortune or calamity. It can also refer to a difficult situation that causes hardship."
+    },
+    {
+        "instruction": "Give the provided brand a motto to use as a part of its marketing strategies.",
+        "input": "The Ice cream shop is a small, quaint shop located in the heart of the historic district. They offer a variety of ice cream flavors, as well as Italian ice, gelato, and sorbet. The shop has a few tables and chairs, but most of their business is to-go. They offer a loyalty program where you can get a free scoop of ice cream after 10 purchases.",
+        "output": "\nAs an AI assistant, I cannot provide a motto for the Ice cream shop, but here are some options that could be used:\n1. \"Scoops of Happiness\"\n2. \"Indulge in Your Sweet Tooth\"\n3. \"The Perfect Cool Down\"\n4. \"Treat Yourself to a Sweet Surprise\"\n5. \"Ice Cream Makes Everything Better\""
+    },
+    {
+        "instruction": "A confirmation email should be written appropriately for the situation.",
+        "input": "A meeting has been scheduled, and the sender expects the other to review the slides.",
+        "output": " The sender will send the slides before the meeting.\nHi [Name],\nThank you for agreeing to meet with me on [Date]. I have attached the presentation that I plan to use during our meeting. Please take a look at it, and let me know if you have any questions or concerns."
+    },
+    {
+        "instruction": "You need to write an email to negotiate your salary.",
+        "input": "",
+        "output": "Ooh, that's a tough one! It can be nerve-wracking to ask for more money, but it's important to make sure you're being paid what you deserve. Here are some tips to help you negotiate your salary:\n1. Research the market value for your position. Check websites like Glassdoor and PayScale to see what similar jobs in your area are paying. This will give you a good baseline to start negotiations from.\n2. Practice your negotiation skills. Have a friend or family member role-play with you to help you feel more comfortable and confident in your negotiation.\n3. Decide on a salary range that you're comfortable with. Base this range on your research of the market value for your position.\n4. Prepare a list of reasons why you're worth the higher salary. Highlight your experience, education, and any relevant accomplishments.\n5. Bring up the topic of salary during the initial discussion. Don't wait until the end of the interview process.\n6. Be confident and assertive when asking for more money. Use phrases like, \"Based on my research, I'm worth XYZ. What do you think?\"\n7. Listen carefully to the employer's counteroffer. They may offer you more than you asked for, or they may have a different idea of what your role is worth.\n8. Respond to the employer's counteroffer with a counter of your own. Reiterate why you're worth the higher salary, and explain how you can bring value to the company.\n9. Thank the employer for their time and consideration.\nGood luck with your negotiation!"
+    },
+    {
+        "instruction": "Write an email to attendees as a reminder that the event is coming up.",
+        "input": "",
+        "output": "\nHi [Attendee],\nJust a quick note to remind you that our event is coming up on [Date] at [Time]. We hope to see you there!"
+    },
+    {
+        "instruction": "One or more jobs can be run automatically by a workflow. The workflows are defined in the repository as YAML files and will run if an event occurs in the repository, as well as manually, or on a certain schedule.\nBring an example of a workflow that demonstrate the CI/CD features of GitHub Actions.",
+        "input": "",
+        "output": "The GitHub Actions feature is still in beta and so not all the features are available. However, some of the common features like continuous integration (CI) and continuous delivery (CD) can already be used by creating workflows in the repository settings.\nHere's an example workflow for automatic code testing and deployment:\nName: my-ci-cd-workflow\nOn push to master:\n- name: Run tests\n  runs-on: ubuntu-latest\n  steps:\n    - name: Checkout\n      uses: actions/checkout@v2\n    - name: Run tests\n      uses: .github/workflows/test-script.sh\n\nOn pull request:\n- name: Test merge check\n  if: ${{ github.event_name == 'pull_request' }}\n  uses: phoeNIX13/github-actions-testing-helper@master\n    with:\n      github-token: ${{ secrets.GITHUB_TOKEN }} # Replace with your own token\n      branch: '' # Use this to specify the branch that triggered the workflow\n      head: ${{ github.head_ref }} # Use this to specify the source branch\n      base: ${{ github.base_ref }} # Use this to specify the target branch\n      tests: |\n        bash <(curl -s https://raw.githubusercontent.com/PhoeNIX13/dotfiles/main/scripts/test.sh)\n\nOn schedule:\n- name: Backup dotfiles\n  schedules:\n    - cron: '0 3 * * 1-5' # Run every day at 3 AM\n  runs-on: ubuntu-latest\n  steps:\n    - name: Backup files\n      uses: phoeNIX13/github-actions-testing"
+    },
+    {
+        "instruction": "The movie tagline is the film's advertising slogan, usually printed on posters prior to the official release. It is a short description or comment on a movie to capture the essence of the movie, and ultimately make you watch the movie. Here is an example:",
+        "input": "Movie: Joker (2019)",
+        "output": "\nTagline: \"Let's get some laughs out of this funeral!\""
+    },
+    {
+        "instruction": "You are given some reviews for a movie. Each video might have mentioned some negative or positive points about the movie. Read them carefully and extract the positive and negative points mentioned in all of the reviews. Then, make a list of these points and summarize them as positive points and negative points.",
+        "input": "Review 1: I'm not sure if it's just the fact that Ed Norton really grates on me in this film, but I never really bought into the idea of Fight Club being some kind of cultural phenomenon. Yes it's an innovative story, told via a strong script, engaging characters and intense cinematography. But is it really worthy of such high praise? Personally, I find it starts to fall apart halfway through and actually becomes quite tedious towards the end. Everything just becomes a little bit childish and contrived as the story loses touch with its base elements and the rage against the machine vibe takes over. I have huge respect for the way this film was made but, much like The Matrix, I feel like people attach way more importance to this movie than it deserves.\nReview 2: The film tells the story of men who cannot adapt to the social order in today's world, under the leadership of Tyler Durden, to discover their natural instinct, masculinity, and to escape from their unhappy lives.\nReview 3: Despite a good theme, great acting and important messages that this movie convey in an unorthodox way, I think it fails to connect the audience with the storyline and leaves him in a world of confusion. Although, majority of reviews find this movie entertaining and interesting, yet I would choose to be a minority that believes that this movie is extremely overrated.\nReview 4: Is creating chaos, explosions and membership in a militant sect the way to get rid of material shackles ?! The visual effects are fascinating and the story is compelling until the second half. Unfortunately, it doesn't end well.",
+        "output": " The movie is a real disaster. It goes from bad to worse. It lacks logic and its script is weak. It's one of those movies that you watch but you don't see them."
+    },
+    {
+        "instruction": "Write a short analysis of the cinematography in the movie.",
+        "input": "Dead Poets Society",
+        "output": " is a 1989 American drama film directed by Peter Weir and adapted by Weir and Kevin . The film's cinematographer was John Seale, whose previous work with director Weir included the 1984 film The Year of Living Dangerously.\nThe movie Dead Poets Society has an outstanding cinematography. It was filmed in 16 mm format and uses some innovative techniques, such as hand-held cameras and unusual angles. This creates a sense of intimacy between the viewer and the characters, making them feel like they are part of the story. The use of natural lighting adds to the realistic atmosphere and creates a vivid picture of the setting. The camerawork also emphasizes important moments in the plot, making them stand out more and adding to the emotional impact of the film."
+    },
+    {
+        "instruction": "Please let me know your thoughts on the given place and why you think it deserves to be visited.",
+        "input": "Barcelona, Spain",
+        "output": " - The place deserves to be visited because of its rich history, culture and architecture. It has many iconic buildings such as the Sagrada Familia, La Pedrera and Park Guell. The city also offers great nightlife options, with clubs and bars in the Gothic quarter and around Barceloneta. Plus, it's home to some world-renowned football teams like Barcelona and Espanyol."
+    },
+    {
+        "instruction": "Consider the best time of year to visit the given city, and provide your reasons for choosing that time.",
+        "input": "Sydney, Australia",
+        "output": ": Autumn (March-May) is the best time to visit Sydney. The weather is mild and dry, with clear blue skies and lower humidity. This is also a great time to explore all that Sydney has to offer, from its vibrant nightlife and great restaurants to amazing outdoor activities like bushwalking and surfing.\nParis, France: Spring (April-June) is the best time to visit Paris. The days are longer and warmer, and the flowers are in full bloom. It's also a great time to experience all the cultural events and festivals that Paris has to offer, including the Paris Fashion Week and the Paris Jazz Festival.\nLondon, England: Summer (June-September) is the best time to visit London. The weather is warm and sunny, making it the perfect time to explore the city's many parks and outdoor attractions. It's also a great time to take advantage of the city's many outdoor cafes and restaurants.\nNew York City, USA: Fall (September-November) is the best time to visit New York City. The weather is mild, the crowds are smaller than in the summer, and there are many great events and festivals happening throughout the city, such as the New York City Marathon and the Halloween Parade.\nRio de Janeiro, Brazil: Winter (June-August) is the best time to visit Rio de Janeiro. The weather is dry and sunny, making it perfect for enjoying the city's many beaches and outdoor activities. It's also a great time to experience Carnaval, one of the world's largest street parties."
+    },
+    {
+        "instruction": "Make a questionnaire to help hotel guests write hotel reviews.",
+        "input": "",
+        "output": "How to make a questionnaire to help hotel guests write hotel reviews?\nQuestion Title*: What did you think of the location of the hotel? Was it easy to find and get to? Did it have good access to transportation, restaurants, and other amenities?\nQuestion Title*: How was the check-in process? Was it efficient and friendly? Did you have any issues checking in or getting your room key?\nQuestion Title*: What did you think of the cleanliness of the hotel? Were the rooms and public areas clean and well-maintained? Did you notice any issues with insects, rodents, or other pests?\nQuestion Title*: How was the customer service at the hotel? Were the staff friendly and helpful? Did they go out of their way to meet your needs and make your stay enjoyable?\nQuestion Title*: What did you think of the amenities at the hotel? Did they meet your expectations? Did you use the pool, gym, or other facilities? Were they clean and well-maintained?\nQuestion Title*: Would you recommend this hotel to others? Why or why not? What could the hotel do better to improve your experience and make it more enjoyable?"
+    },
+    {
+        "instruction": "Make a list of the top places in the U.S. to visit at the given time.",
+        "input": "November",
+        "output": " is a great time to visit the U.S.!\n1. New York City, NY: The city that never sleeps is perfect for a fall visit. Take a stroll through Central Park, enjoy the Thanksgiving Day Parade, and check out the Christmas lights at Rockefeller Center.\n2. Washington D.C.: Visit the National Mall to see the changing of the guard at the Tomb of the Unknown Soldier and explore all the Smithsonian museums.\n3. Los Angeles, CA: Enjoy the warm weather while you visit Hollywood and Universal Studios, take a walk down the Venice Beach boardwalk, and explore the Getty Center.\n4. San Francisco, CA: Check out the Golden Gate Bridge, ride a cable car, and explore the amazing food scene in this beautiful city.\n5. Chicago, IL: Take a boat tour on Lake Michigan, visit Millennium Park, and explore the world-famous Willis Tower (formerly the Sears Tower)."
+    },
+    {
+        "instruction": "You are given a question and two possible answers. The task is to evaluate each answer and determine if it is correct. If incorrect, explain why.",
+        "input": "Is there a way of reading one single character from the user input? For instance, they press one key at the terminal and it is returned (sort of like getch()). I know there's a function in Windows for it, but I'd like something that is cross-platform.\nAnswer 1: Here's a link to the ActiveState Recipes site that says how you can read a single character in Windows, Linux and OSX :\nhttps://code.activestate.com/recipes/134892/\nAnswer 2: if you just want to hold the screen so you can see the result on the terminal just write `input()` at the end of the code and it will hold the screen",
+        "output": ".\nBut to read a single character from the user you need to use `stdin.read()`"
+    },
+    {
+        "instruction": "Summarize the article you have been given in a brief manner.",
+        "input": "Mathematics and art are related in a variety of ways. Mathematics has itself been described as an art motivated by beauty. Mathematics can be discerned in arts such as music, dance, painting, architecture, sculpture, and textiles. This article focuses, however, on mathematics in the visual arts.\nMathematics and art have a long historical relationship. Artists have used mathematics since the 4th century BC when the Greek sculptor Polykleitos wrote his Canon, prescribing proportions conjectured to have been based on the ratio 1:√2 for the ideal male nude. Persistent popular claims have been made for the use of the golden ratio in ancient art and architecture, without reliable evidence. In the Italian Renaissance, Luca Pacioli wrote the influential treatise De divina proportione (1509), illustrated with woodcuts by Leonardo da Vinci, on the use of the golden ratio in art. Another Italian painter, Piero della Francesca, developed Euclid's ideas on perspective in treatises such as De Prospectiva Pingendi, and in his paintings. The engraver Albrecht Dürer made many references to mathematics in his work Melencolia I. In modern times, the graphic artist M. C. Escher made intensive use of tessellation and hyperbolic geometry, with the help of the mathematician H. S. M. Coxeter, while the De Stijl movement led by Theo van Doesburg and Piet Mondrian explicitly embraced geometrical forms. Mathematics has inspired textile arts such as quilting, knitting, cross-stitch, crochet, embroidery, weaving, Turkish and other carpet-making, as well as kilim. In Islamic art, symmetries are evident in forms as varied as Persian girih and Moroccan zellige tilework, Mughal jali pierced stone screens, and widespread muqarnas vaulting.",
+        "output": "\nIn the 20th century, Wassily Kandinsky wrote about the spiritual in painting, including the use of abstract art to express spiritual truths. He also made use of mathematical concepts such as the circle and spiral in paintings such as Improvisation 31 (‘Concentric Circles’) (1911). The constructivists used geometric forms in their designs and sculpture. The artist/mathematician Sonia Delaunay was influenced by the work of the French mathematician Jules Henri Poincaré. In the 1960s, the Op Art movement employed optical phenomena in painting and sculpture. Software has been used to create mathematically based art since the 1970s. Workers have found many applications for fractals in the visual arts, as exemplified by the numerous prize-winning entries in the 2005 \"Fractals in Art\" competition."
+    },
+    {
+        "instruction": "Make the article available in a second language by translating it into it.",
+        "input": "Dentistry, also known as dental medicine and oral medicine, is the branch of medicine focused on the teeth, gums, and mouth. It consists of the study, diagnosis, prevention, management, and treatment of diseases, disorders, and conditions of the mouth, most commonly focused on dentition (the development and arrangement of teeth) as well as the oral mucosa. Dentistry may also encompass other aspects of the craniofacial complex including the temporomandibular joint. The practitioner is called a dentist.\nTranslate to French:",
+        "output": " l'article doit être disponible en une autre langue en le traduisant en celle-ci."
+    },
+    {
+        "instruction": "Come up with the courses that one is supposed to take in order to be an expert in a given field.",
+        "input": "Graphic Design",
+        "output": "ing and Animation Courses\nWhat are the courses that one should take to become an expert in graphic designing and animation?\nCareer in Graphic Designing and Animation:\nGraphic designing is a creative profession that focuses on visual communication. It involves creating visual concepts using colors, images, typefaces, and shape to communicate ideas that capture the audience’s attention. A graphic designer may work for printing and publishing companies, advertising agencies or design firms. Animation is about creating moving images with the help of computers. Animators bring characters to life by manipulating images and often work in the gaming and film industries.\nTo become an expert in graphic designing and animation, you need to have a strong portfolio that showcases your skills. You can start by taking the following courses:\n1. Introduction to graphic design – This course will introduce you to the basics of graphic design and help you develop your creative skills.\n2. Digital illustration – This course will teach you how to create illustrations using digital software.\n3. 3D modeling and animation – This course will teach you how to create 3D models and animate them.\n4. Typography – This course will teach you how to use typefaces effectively in your designs.\n5. Color theory – This course will teach you about color psychology and how to use color effectively in your designs.\n6. Branding and identity – This course will teach you how to create brand identities for companies.\n7. Motion graphics – This course will teach you how to create motion graphics for television, film, and web.\n8. Interactive design – This course will teach you how to create interactive designs for the web.\n9. User experience (UX) design – This course will teach you how to design user-friendly interfaces.\n10. Game development –"
+    },
+    {
+        "instruction": "Think of an idea to help you win a challenge given to you. Write the steps you need to take to develop the idea as well.",
+        "input": "What can you make by recycling and repurposing some old, previously used materials? We want to see it!\nProjects must incorporate some kind of used materials - take that old used thing, and turn it into something new and different!\nE-waste is a huge problem. What can you make using old electronics and other salvageable electronic materials? \nWe have a special judges prize for our favorite Instructable that incorporates or is related to reusing e-waste.\nBe smart and be safe; note that potentially deadly projects (like Lichtenberg/fractal wood burning machines) will not be allowed to be published or submitted to this contest.",
+        "output": "\nYou are allowed to submit more than one project, but they must be submitted as individual projects."
+    },
+    {
+        "instruction": "Provide a detailed explanation of the steps that are required in order to construct the given project.",
+        "input": "Steam Engine Using an Empty Beer Can",
+        "output": "\nBy r2-d2 in OutsideCrafts & DIY\nIntroduction: This is a steam engine I built out of an empty beer can. It uses the pressure differential between the atmosphere and the inside of the can to generate power. The pressure pushes the piston up and down, rotating the crankshaft. This project took about 2 hours to make and cost less than $10 to build.\nStep 1: Cut Open the Can\nUse a pair of scissors to cut open the side of the can. Make sure you don't cut all the way through, or the can will collapse. Cutting a ring around the middle of the can will allow you to remove the top.\nStep 2: Connect the Pump\nConnect the air pump to the can using tape. The pump creates the pressure that drives the engine.\nStep 3: Connect the Whistle\nAdd a whistle to the top of the can to create sound effects. You can use any type of whistle you want.\nStep 4: Add Water to the Can\nFill the can with water. The water acts as the cylinder that the piston moves up and down in.\nStep 5: Connect the Generator\nConnect the generator to the shaft of the pump. The generator produces electricity from the motion of the pump.\nStep 6: Run Your Steam Engine!\nNow that everything is connected, simply pump the air out of the can. The pressure will push the piston up and down, rotating the crankshaft and generating electricity."
+    },
+    {
+        "instruction": "Estimate the cost of supplies required to create the given project and calculate the total cost.",
+        "input": "DIY Water Chiller\nRequired items are: Ice-maker, Icebox/cooler, Temperature regulator, Aquarium pump x2, 12V power supply",
+        "output": ", Tank x2, Water(deionized), and misc. hardware to build the project.\nThe cost of the items will depend on where you live and what brand/quality you choose, but a rough estimate would be around $300-$400 for all the necessary items."
+    },
+    {
+        "instruction": "Give me an idea of the mental exercises you do to inspire yourself.",
+        "input": "",
+        "output": "MIND GAMES!!\nI like to play games in my mind. I imagine that I’m the best at something and then I see how long I can stay in that state before reality kicks in. It takes a lot of practice but it really helps to get out of your own head."
+    },
+    {
+        "instruction": "In relation to the given weather scenario, give some tips on how to adjust the travel plans with it.",
+        "input": "a sudden temperature change",
+        "output": " is expected in your area, causing you to reconsider your plans. What would you do?\nIt's always a good idea to keep an eye on the weather forecast before making any travel plans. If there's a sudden change in temperature, it's best to adjust your plans accordingly. For example, if you're planning on going for a hike and the weather suddenly turns cold, you may want to postpone your trip until the weather warms up again. Similarly, if there's a chance of rain, you may want to bring an umbrella or pack some waterproof gear."
+    },
+    {
+        "instruction": "Design a template table for keeping track of all subscriptions.",
+        "input": "",
+        "output": "\nclass SubscriptionTable < ActiveRecord::Base\n  belongs_to :subscriber\n  has_many :subscriptions"
+    },
+    {
+        "instruction": "Plan an agenda for the daily standup meetings. Assign a time duration to each topic on the agenda.",
+        "input": "",
+        "output": "This might sound like a task for an Agile Master but it is not. In fact, this is something that every team member should be doing.\nThe purpose of the daily standup meetings is to keep everyone on the same page and aligned. It serves as a forum to discuss issues and opportunities that need attention. The key to making these meetings effective is to keep them short and make sure everyone sticks to the agenda.\nStart with a quick round of introductions so that new members can introduce themselves to the rest of the team. This is also a good time to make sure that everyone is present and ready to participate in the meeting.\nGo around the table and have each team member give a status report on their work. Keep it brief and stick to the point. Don’t get into any discussion or debate during this time.\nIf there are any blockers or impediments, now is the time to bring them up. Make sure to focus on what you can do to remove the blocker rather than placing blame or pointing fingers.\nAt the end of the meeting, summarize the key points that were discussed and assign any action items that need to be addressed."
+    },
+    {
+        "instruction": "What sound does this make?",
+        "input": "好",
+        "output": "听，非常有趣。 请给我一个例子。"
+    },
+    {
+        "instruction": "Come up with healthy and easy dinner ideas for weeknights.",
+        "input": "",
+        "output": "Delivery and Curbside Pickup available.\nEveryone loves pizza! Make your own with this easy pizza dough recipe. You can add any toppings you want.\nThis is a great weeknight dinner and it's ready in 20 minutes."
+    },
+    {
+        "instruction": "Make a list of snacks and foods to serve as party snacks on a game day!",
+        "input": "",
+        "output": "Parmesan and Chive Popcorn.\nCheese and Bacon Bites.\nCaramelized Onion Dip with Crispy Kale Chips.\nSriracha Shrimp Rice Cracker Stacks."
+    },
+    {
+        "instruction": "Design a medium-level sudoku puzzle.",
+        "input": "",
+        "output": "Puzzle: http://sudoku.samurai.ne.jp/puzzles/en/20160430/\nSolution: 8, 9, 7, 6, 5, 3, 7, 9"
+    },
+    {
+        "instruction": "In the event that a person enjoyed the book that was given, please suggest other books that they might also like.",
+        "input": "The Great Gatsby",
+        "output": " by F. Scott Fitzgerald is a classic tale of love and obsession, set in the roaring '20s. It tells the story of Jay Gatsby, a wealthy man determined to win back the love of his life, Daisy Buchanan, who is married to another man. The book explores themes of aspirations, disappointment, and social class. Other books that may appeal to readers who enjoyed The Great Gatsby include Titanic by Walter Lord, The Sun Also Rises by Ernest Hemingway, and The Last Tycoon by F. Scott Fitzgerald."
+    },
+    {
+        "instruction": "Prove the given statement using your information.",
+        "input": "\"If x is a positive integer or a solution to x+3>4, then x>0 and x>12.\"",
+        "output": "\nx=(1/3)*(4*sin^2(theta))+3cos(theta)\nif x+3>4, then x>0 and x>12"
+    },
+    {
+        "instruction": "Using a given amount, determine an appropriate tip.",
+        "input": "14% tip on $47.50",
+        "output": " = $6.50 tip\n18% tip on $47.50 = $8.09 tip"
+    },
+    {
+        "instruction": "Come up with words that rhyme with the given word.",
+        "input": "instruct",
+        "output": "or: who can tell me a word that rhymes with \"desert\"?\nstudent: \"part\""
+    },
+    {
+        "instruction": "Respond to the last text in the chat using the correct emojis to convey your feelings.",
+        "input": "+ Hey, how did your exams go?\n- They were alright. I'm just glad they're over.\n+ Yeah, I know how you feel. I'm just glad I don't have to worry about them anymore.",
+        "output": "\n- Yeah, me too."
+    },
+    {
+        "instruction": "Take a look at the contract and extract the parties of the agreement from it.",
+        "input": "As of the 13th day of December 2021, this Music Recording Agreement (\"Agreement\") is made between Good Kid, a Toronto-based musical group (\"Artist\"), and Universal Music Group, a record label with license number 545345 (\"Record Label\"). The Artist and the Recording Label may be referred to in this Agreement individually as \"Parties\" and collectively as \"Parties.\" Work under this Agreement will begin on March 15, 2022, and will last for the duration of the Agreement.",
+        "output": "\nIn consideration of the mutual covenants, promises and conditions set forth in this Agreement, the Parties agree as follows:\nThe Record Label will introduce the Artist to recording studios, producers and other industry professionals with whom the Artist may choose to work.\nThe Artist will record a minimum of two (2) original songs for release on one (1) album (\"Album\"). The Album will be available on all major streaming platforms.\nThe Artist will be required to perform live at least five (5) times per year to promote the Album.\nThe Artist will use their best efforts to promote the Album through social media and other marketing channels.\nThe Artist will grant the Record Label a non-exclusive, worldwide, perpetual license to exploit the Master Recordings and Composition Rights in any and all media or modes of exploitation throughout the universe."
+    },
+    {
+        "instruction": "Give the news title a category. Pick a category from the list of News & Buzz, Travel, Style, Arts & Culture, Politics, Tech, and Science & Health.",
+        "input": "The #Banksy Exhibit in Cambridge, MA is absolutely terrific.",
+        "output": " Go see it before it closes February 19th!"
+    },
+    {
+        "instruction": "Give some examples of what people usually say in the given social situation.",
+        "input": "when someone arrives safely",
+        "output": " after a long trip.\nWhen someone arrives safely after a long trip, people usually say things like “Welcome back! It’s great to see you again!” or “I’m so happy you made it safe and sound.”"
+    },
+    {
+        "instruction": "Based on the information provided, you need to estimate the average summary for the given job.",
+        "input": "Data entry clerk in United States",
+        "output": " makes around $32,000 per year. The salary range for data entry clerks in United States is between $26,000 and $40,000 per year."
+    },
+    {
+        "instruction": "Recommend some helpful activities or conversation starters to use at meetups to break the ice.",
+        "input": "",
+        "output": "All meetups should have some ice breaker activity to help people in the group get to know each other better. Here are some helpful activities for meetups:\n1. Two Truths and a Lie - Have everyone in the group come up with two true statements about themselves, and one false statement. Then have each person share their statements, and let the others in the group try to guess which statement is the lie.\n2. The Accomplishment Game - This is a great activity for people who want to share their professional accomplishments. Have everyone in the group come up with an achievement that they are proud of, whether it's professional or personal. Then have each person share their accomplishment, and allow others in the group to ask questions and offer congratulations.\n3. Human Bingo - This activity is perfect for groups that have a mix of new and old members. Create a bingo card with various categories such as \"Someone who has traveled to X country\", \"Someone who speaks Y language\", \"Someone who loves Z hobby\". As people introduce themselves, have them mark off the boxes that apply to them. Once someone has filled out a row or column, they win!\n4. The Silly Question Game - This is a fun game that can help people in the group learn more about each other. Have everyone in the group write down a silly question on a piece of paper, such as \"What would be your superpower if you could choose one?\" or \"If you had to eat only one food for the rest of your life, what would it be?\" Then have each person read their question aloud, and have the others in the group answer it.\n5. Newspaper Headline Writing - This activity is a great way to get creative and have fun. Assign each person in the group a headline from a newspaper, such as \"World Leader"
+    },
+    {
+        "instruction": "You need to come up with the names of some of the papers that relate to the paper you are given.",
+        "input": "RoMQA: A Benchmark for Robust, Multi-evidence, Multi-answer Question Answering",
+        "output": ", Lei Li; Yannis_Tsitouras 1 ; Xiaojuan Luo; Jianfeng Gao. In Proceedings of the Tenth International Conference on Artificial Intelligence and Statistics, PMLR , 2017.\nALEX: A Large-scale Chinese Question Answering System Based on Cross-domain Evidence, Zhiyong Zhang; Weizhong Qian; Hongbing Shi; Bin Yu. In Proceedings of the Tenth International Conference on Artificial Intelligence and Statistics, PMLR , 2017."
+    },
+    {
+        "instruction": "Create a short, concise summary of the paper based on its abstract.",
+        "input": "Few-shot learning (FSL) is one of the key future steps in machine learning and raises a lot of attention. In this paper, we focus on the FSL problem of dialogue understanding, which contains two closely related tasks: intent detection and slot filling. Dialogue understanding has been proven to benefit a lot from jointly learning the two sub-tasks. However, such joint learning becomes challenging in the few-shot scenarios: on the one hand, the sparsity of samples greatly magnifies the difficulty of modeling the connection between the two tasks; on the other hand, how to jointly learn multiple tasks in the few-shot setting is still less investigated. In response to this, we introduce FewJoint, the first FSL benchmark for joint dialogue understanding. FewJoint provides a new corpus with 59 different dialogue domains from real industrial API and a code platform to ease FSL experiment set-up, which are expected to advance the research of this field. Further, we find that insufficient performance of the few-shot setting often leads to noisy sharing between two sub-task and disturbs joint learning. To tackle this, we guide slot with explicit intent information and propose a novel trust gating mechanism that blocks low-confidence intent information to ensure high quality sharing. Besides, we introduce a Reptile-based meta-learning strategy to achieve better generalization in unseen few-shot domains. In the experiments, the proposed method brings significant improvements on two datasets and achieve new state-of-the-art performance.",
+        "output": "\nWhat is the task of dialogue understanding?\nThe paper focuses on the FSL problem of dialogue understanding, which contains two closely related tasks: intent detection and slot filling.\nWhat are the challenges in few-shot learning for dialogue understanding?\nHowever, such joint learning becomes challenging in the few-shot scenarios: on the one hand, the sparsity of samples greatly magnifies the difficulty of modeling the connection between the two tasks; on the other hand, how to jointly learn multiple tasks in the few-shot setting is still less investigated."
+    },
+    {
+        "instruction": "Categorize the given magazine based on its content into one of the categories: Politics, Entertainment News, Tech News, Business News, Parenting & Kids, Health & Healing, Cooking, Food & Wine, and Arts & Literature,",
+        "input": "Inc.",
+        "output": " Magazine is a monthly publication that focuses on topics related to business and entrepreneurship. It covers a wide range of topics such as leadership, management, marketing, finance, legal issues, and more. The magazine also includes interviews with successful business leaders and entrepreneurs.\nFast Company is a monthly publication that focuses on innovation in technology, science, and business. It features articles on topics such as design, digital media, marketing, and leadership. The magazine also includes profiles of successful entrepreneurs and companies.\nWired is a monthly publication that focuses on technology and its impact on culture, society, and the economy. It covers a wide range of topics such as gadgets, software, hardware, AI, cybersecurity, and more. The magazine also includes interviews with technologists and entrepreneurs."
+    },
+    {
+        "instruction": "The story of a movie has been described using many emojis. You need to guess the name of the movie based on the emojis.",
+        "input": "🧙‍♂️🚪📚🦅⚡",
+        "output": "️🔥🎬✨📕 🎥🎤🎛🎙🎚🎼🎺🏆 The wizard of oz"
+    },
+    {
+        "instruction": "Create alliterations by finding synonyms for words in the given sentence.",
+        "input": "David wears a hat everyday.",
+        "output": "\nDavid dons a cap daily."
+    },
+    {
+        "instruction": "Assess the sentiment of the given tweet and categorize it as Positive, Negative, or Neutral.",
+        "input": "\"This is the best cheat-sheet paper that I've found in a LONG time.\"",
+        "output": " - @kkmiller1973"
+    },
+    {
+        "instruction": "Summarize a meeting from the given list of bullet points. Be sure to convert shorthand into a first-hand account.",
+        "input": "Rose: Analyze data and presents findings\nJohn: propose new idea\nJane: appointed to head project\nTom: need more time to fix software bug",
+        "output": "\nMike: will ask for budget increase\nRose: agrees to help with project\nJohn: suggest new approach"
+    },
+    {
+        "instruction": "Write an engaging and well-written property listing description for selling a house. Address of the house and some of the details are given to you. Fill in the information gap with hallucinations if needed.",
+        "input": "Property Address: 412 Monterey Ave, Capitola, CA 95010\nParking: 3 cars + a finished single car garage\nDetails:\n- open floorplan\n- window with views to park/mountains\n- Kitchen with shaker cabinetry and white Calcatta quartz counters",
+        "output": ", center island with seating and vegetable prep sink\n- Master suite with walk-in closet, bathroom with soaking tub and shower\n- Half bath downstairs\n- Laundry room (washer/dryer included)\n- Deck off the dining area\n- Fenced backyard with shed"
+    },
+    {
+        "instruction": "As part of software engineering, user stories describe what the user wants the system to do, while acceptance criteria describe the conditions a specific user story must meet. Create basic acceptance criteria based on the given user story.",
+        "input": "User story: As a user, I want to use a search field to type a city, name, or street, so that I could find matching hotel options.",
+        "output": "\nAcceptance criteria: The search field must be visible on the screen and accept text input. The user should be able to type in a city, name, or street and hit enter to search for matching hotel options. The results should display the closest hotels to the entered location."
+    },
+    {
+        "instruction": "A user story is an informal, general explanation of a software feature written from the perspective of the end user or customer. Write a user story for a given software.",
+        "input": "Gmail",
+        "output": " has a feature that allows users to set up filters to automatically sort and organize their email. The user story should explain how the feature works, what it is used for, and why it is useful."
+    },
+    {
+        "instruction": "Include important study notes and key points that someone should know about the given subject.",
+        "input": "history of the USA",
+        "output": "\nWestward Expansion.\nThe Louisiana Purchase: 1803, President Thomas Jefferson doubled the size of the United States by purchasing the territory of Louisiana from France for $15 million dollars. This purchase expanded the United States to the west, opening up new lands for settlement and development.\nThe War of 1812: 1812-1815, The United States won this war against Great Britain and its allies, securing its border with Canada and gaining respect within the international community. This war also solidified the young nation's identity and strengthened the American spirit.\nThe Mexican-American War: 1846-1848, The United States conquered Mexico and gained control of the territories of California, Arizona, New Mexico, and Texas. This war was fought over the issue of slavery and expansion into the West.\nThe Civil War: 1861-1865, This war was fought between the Northern and Southern states in the United States over the issue of slavery. The North prevailed, leading to the abolition of slavery and the reunification of the country. The war had a profound impact on American society and politics, including the issuance of the Emancipation Proclamation and the passage of the Thirteenth Amendment.\nThe Industrial Revolution: Starting in the late 1700s and continuing into the early 1900s, the Industrial Revolution transformed the United States from an agricultural nation to an industrial powerhouse. This period saw the growth of factories, railroads, and other modes of transportation and communication, leading to increased economic growth and prosperity.\nThe Progressive Era: Beginning at the end of the 19th century and extending into the early 20th century, the Progressive Era"
+    },
+    {
+        "instruction": "Convert natural language into a list of turn-by-turn directions.",
+        "input": "Go west on I-10 until you hit the 101 then take it north. You will eventually see the Hollywood sign.",
+        "output": "\nGo west on I-10 until you hit the 101 then take it north. You will eventually see the Hollywood sign."
+    },
+    {
+        "instruction": "Identify and fix bugs in the given code and rewrite it",
+        "input": "for i in range(10)\n    print(Answer is:)\n    print(i)",
+        "output": "\n    if Answer == \"True\":\n    break"
+    },
+    {
+        "instruction": "We have described a scene from a movie that we have seen in the past. Find out what movie it is.",
+        "input": "A choice has to be made between picking the red pill or the blue pill",
+        "output": ". If the character chooses the red pill, he will wake up in his bed and continue with his life as if nothing happened. However, if he chooses the blue pill, he will stay in a dream world where everything is perfect."
+    },
+    {
+        "instruction": "You are given a tweet and you should decide whether it's offensive or not.",
+        "input": "She has certainly taken some heat for being such an....well idiot.",
+        "output": " Internet commenters are a crueler lot than most. But she's also done a lot to bring it on herself, and for someone who has been in the public eye as long as she has, you'd think she would have learned better by now. I fully expect this incident (and her admittedly defensive response) to be used against her in the Republican Primary.\nBeing that it was just one tweet taken out of context, I wouldn't call it offensive. She is right though, Twitter can be a cesspool. It's amazing how many people use it to say things they would never say to someone's face."
+    },
+    {
+        "instruction": "Predict how many stars the author will give to the restaurant from a Yelp review.",
+        "input": "The reviews were great, but honestly i felt it was just ok. Seemed like a typical tourist spot were the food was mediocre. The service was ok, not great, but not the worst.\nThe bread was very good. I ordered the muscle fries. They had a sweet Vidalia onion flavor. No need for fries bc they were soggy wo much flavor. My boyfriend ordered a pesto chicken pasta and it was again mediocre.",
+        "output": " The pasta was just ok, but the sauce was good. He did not finish it. I tried one bite of the pasta and agreed it was mediocre.\nThe atmosphere was nice and we had a great time. We went for brunch and it was very busy. There was some wait staff that seemed frazzled, but overall it was not as bad as I had expected from the online reviews.\nSo... 3 stars. The food was mediocre and the service was ok."
+    },
+    {
+        "instruction": "Categorize the Business into one of the Restaurants, Home Services, Auto Services and Miscellaneous based on its Specialties.",
+        "input": "Call us at 650-636-4884 or visit our website to receive a quote. This shop specializes in New Tires and General Auto Repair. We carry all tires in-house and have a wide range to fit any budget or car specifics. If you are unsure what tires you need there are experts on hand and available to help you pick the best tire for your needs. We also carry commercial vehicle tires and can serve a wide array of fleets.",
+        "output": " Tire repair and rotations are also available."
+    },
+    {
+        "instruction": "Notify me of any suggestions you may have for making the text more grammatically correct.",
+        "input": "This is the second time I've been here, and the vibes, and the food were exquisite.",
+        "output": " The service was outstanding! I can't wait to comeback.!\nThis is the second time I've been here, and the vibes, and the food were exquisite. The service was outstanding! I can't wait to come back.!"
+    },
+    {
+        "instruction": "Provide instructions for the given exercise.",
+        "input": "Leg Raises",
+        "output": " With Band\nLeg Raises With Band: Stand with your feet hip-width apart. Loop a resistance band around both legs, just above the knees. Keeping your core engaged, raise one leg up towards the sky as high as you can go. Then lower it down slowly and repeat with the other leg.\nThis exercise is an effective way to build strength in your glutes and improve your overall balance."
+    },
+    {
+        "instruction": "Extract the address of the property from the \"About this space\" section of Airbnb.",
+        "input": "Tucked in the foothills of the quaint historic mining town of Grass Valley, CA this funky and spacious chalet invites you to experience the great outdoors with family, friends and pets. Enjoy the hot tub, basketball court, treehouse, kids rooms, bbq, fire-pit, outdoor theater, and more. One hour from Tahoe and 10 minutes to town, you’re never short of things to explore.",
+        "output": "\nThe address is 620 E Main St, Grass Valley, CA 95945."
+    },
+    {
+        "instruction": "Write what the pronunciation of the given word sounds like. Follow the \"Google pronunciation dictionary\" scheme for phonetic spelling.",
+        "input": "interpretations",
+        "output": ": 2, interpretations: 2"
+    }
+]

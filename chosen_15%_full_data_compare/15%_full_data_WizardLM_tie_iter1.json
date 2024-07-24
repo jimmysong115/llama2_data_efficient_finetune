@@ -1,0 +1,37 @@
+[
+    {
+        "instruction": "Given that the hypotenuse of a right triangle is 13, and the ratio of the lengths of the two legs is 5:12, find the lengths of the two legs.\n\nSolution:\n\nLet the lengths of the two legs be 5x and 12x, respectively. By the Pythagorean theorem, we have\n\n13^2 = (5x)^2 + (12x)^2\n\n169 = 25x^2 + 144x^2\n\n169 = 169x^2\n\nx^2 = 1\n\nx = 1 or x = -1",
+        "input": "",
+        "output": "\nSince the legs of the triangle are positive, we can eliminate the option where x = -1. Therefore, the lengths of the two legs are 5 and 12."
+    },
+    {
+        "instruction": "Which of the following is NOT a characteristic of prokaryotic cells? a. Lack of nucleus b. Presence of cell wall c. Presence of membrane-bound organelles d. Small size",
+        "input": "",
+        "output": "d. Small size."
+    },
+    {
+        "instruction": "What is the role and function of the judiciary in a democratic society? Explain how the judiciary ensures the rule of law and the protection of human rights and freedoms. Describe the structure and organization of the judiciary and how judges are appointed and removed. Give examples of the powers and responsibilities of the judiciary and how they interact with the executive and legislative branches of government.",
+        "input": "",
+        "output": "The judiciary is an important part of a democratic society, as it ensures that the rule of law is upheld and that human rights and freedoms are protected. The judiciary plays a crucial role in interpreting the constitution and laws, and in resolving disputes between individuals and organizations.\nOne of the primary functions of the judiciary is to ensure the rule of law. This means that the judiciary must interpret the law fairly and impartially, and ensure that it is applied equally to all citizens. The judiciary also has the power to strike down laws that are unconstitutional or that violate human rights.\nAnother important function of the judiciary is the protection of human rights and freedoms. The judiciary can intervene when the government violates the rights of citizens, and can order the government to take corrective measures. For example, if the government passes a law that violates freedom of speech, the judiciary can declare the law unconstitutional and order the government to amend it.\nThe structure and organization of the judiciary varies from country to country. In most countries, the judiciary is divided into two main branches: the trial courts and the appellate courts. The trial courts are responsible for hearing cases and deciding disputes, while the appellate courts review the decisions of the trial courts. In some countries, there are also specialized courts that deal with specific types of cases, such as tax courts or administrative courts.\nJudges are appointed and removed in different ways depending on the country. In some countries, judges are appointed by the executive branch, while in others they are appointed by an independent body. In some countries, judges can be removed by the executive branch, while in others they can only be removed through a process of impeachment.\nExamples of the powers and respons"
+    },
+    {
+        "instruction": "What is the name of the actor who played the role of Jack Sparrow in the Pirates of the Caribbean movie series? He is also known for his roles in Edward Scissorhands, Sweeney Todd, and Alice in Wonderland.\n\nA) Johnny Depp B) Orlando Bloom C) Geoffrey Rush D) Keira Knightley\n\nChoose the correct answer.",
+        "input": "",
+        "output": "Answer: A) Johnny Depp"
+    },
+    {
+        "instruction": "Alright, here is a question for you. Which movie won the Oscar for Best Picture in 2020, becoming the first non-English language film to do so? It is a South Korean black comedy thriller directed by Bong Joon-ho.\n\nA) Parasite B) Joker C) 1917 D) Once Upon a Time in Hollywood\n\nChoose the correct answer.",
+        "input": "",
+        "output": "Answer: A) Parasite"
+    },
+    {
+        "instruction": "Which artist created the famous sculpture of David, a marble statue of the biblical hero that stands over 5 meters tall in Florence, Italy?\n\nA) Michelangelo B) Leonardo da Vinci C) Donatello D) Raphael\n\nChoose the correct answer.",
+        "input": "",
+        "output": "A) Michelangelo"
+    },
+    {
+        "instruction": "Which of the following substances is the most toxic, meaning it has the lowest lethal dose for humans?\n\nA) Arsenic B) Botulinum toxin C) Cyanide D) Mercury",
+        "input": "",
+        "output": "\nAnswer:\nA) Arsenic"
+    }
+]

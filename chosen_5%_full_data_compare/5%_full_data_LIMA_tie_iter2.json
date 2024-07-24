@@ -1,0 +1,57 @@
+[
+    {
+        "instruction": "Help me rewrite this email to a more formal way:\n\"Hey there,\n\nJust wanted to see if we could chat about the new project next week. Can you squeeze me in sometime between Tuesday and Thursday? It'd be cool to get your thoughts and feedback before we move forward.\n\nLooking forward to catching up! Let me know when you're free.\"",
+        "input": "",
+        "output": "\nFormatted email:\n[Your Name]\n[Your Email Address]\nSubject: Scheduling a Meeting for the New Project\n\nDear [Recipient's Name],\n\nI hope this email finds you well. I am writing to schedule a meeting with you regarding the new project that we have been working on. I would like to seek your thoughts and feedback before we move forward. I am available between Tuesday and Thursday next week, and I would appreciate it if you could make time for me in your busy schedule. Please let me know your availability so that we can coordinate a suitable time for our meeting.\n\nLooking forward to hearing from you soon.\n\nBest regards,\n\n[Your Name]"
+    },
+    {
+        "instruction": "Could you write a poem about my girlfriend in the style of the Bulgarian poet Botev? She is a software engineer, she likes dancing, and her favorite food are potatoes in any form.",
+        "input": "",
+        "output": "\n\nHere are some of Botev's poems to get you started: https://www.poetryfoundation.org/poems-and-poets/poets/sergey-botev"
+    },
+    {
+        "instruction": "Given a <span> in HTML I want to change its color on mouse over.",
+        "input": "",
+        "output": "\nimport java.util.List;\nimport java.util.ArrayList;\nimport java.util.Collections;\nimport javax.swing.JFrame;\nimport javax.swing.JLabel;\nimport javax.swing.JOptionPane;\nimport javax.swing.JPanel;\nimport javax.swing.JScrollPane;\nimport javax.swing.JTextArea;\nimport javax.swing.UIManager;\nimport javax.swing.UnsupportedLookAndFeelException;\nimport org.jfree.chart.ChartFactory;\nimport org.jfree.chart.ChartRenderingInfo;\nimport org.jfree.chart.JFreeChart;\nimport org.jfree.data.xy.XYSeries;\nimport org.jfree.data.xy.XYSeriesCollection;\nimport org.jfree.ui.RectangleInsets;\nimport org.jfree.util.DrawingUtilities;\n\npublic class MainChart {\n    private static final String CHART_NAME = \"LineChart8\";\n    \n    public static void main(String[] args) {\n        JFrame frame = new JFrame();\n        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);\n        \n        try {\n            // Create and set up the chart.\n            XYSeries series1 = new XYSeries(\"Series 1\");\n            XYSeries series2 = new XYSeries(\"Series 2\");\n            series1.add(new Double(20), new Double(30));\n            series1.add(new Double(35), new Double(45));\n            series2.add(new Double(15), new Double(25));\n            series2.add(new Double(22.5), new Double(37.5));\n"
+    },
+    {
+        "instruction": "how to relieve stress from work",
+        "input": "",
+        "output": "1. Exercise regularly to release endorphins and feel better.\n2. Take time for yourself during work breaks.\n3. Practice deep breathing to reduce stress levels.\n4. Visualize yourself in a relaxing place.\n5. Engage in mindful activities such as journaling, coloring, or meditating.\n6. Connect with friends and family to take your mind off of work.\n7. Get enough sleep to help your body and mind recharge.\n8. Drink plenty of water to stay hydrated and energized.\n9. Eat healthy meals to maintain your energy levels.\n10. Talk to your manager about potential solutions to workplace stress."
+    },
+    {
+        "instruction": "I have developed a new artificial intelligence robot that can assist people in brainstorming and literary creation. Please write an advertisement for it.",
+        "input": "",
+        "output": "ADVERTISMENT: Now you can buy the new artificial intelligence robot that can help you in all your brainstorming and literary creation needs! This awesome robot will help generate ideas, organize them, and even write stories for you. It's perfect for students, writers, and anyone looking for a creative boost. Get your hands on this amazing robot now and start unleashing your imagination today!"
+    },
+    {
+        "instruction": "I'm writing a cryptic crossword. What is a good cryptic clue for the word \"flamingo\"? ",
+        "input": "",
+        "output": "A flamingo is a wading bird that can be found in many parts of the world, especially in warm climates. It has long legs, a long neck, and a pink plumage."
+    },
+    {
+        "instruction": "If electric turbos are a thing why cant exhaust gasses be used to generate electricity for the car?",
+        "input": "",
+        "output": "\nIf electric turbos are a thing why cant exhaust gasses be used to generate electricity for the car?"
+    },
+    {
+        "instruction": "What do I search on Google if I want to find a race track where I can drive my own car for a couple hours without spending a fortune?",
+        "input": "",
+        "output": "Hours of Operation: Mon-Fri 8am to 5pm, Sat & Sun 9am to 2pm.\n9. If you are using your own car and not renting a vehicle from the track, most tracks will require that you have at least Liability Insurance for your car.\n10. Most race tracks now offer rental vehicles including Porsche’s and Ferrari’s you can drive on the track."
+    },
+    {
+        "instruction": "Has any research been done on whatleads to or is correlated with successful long distance relationships?",
+        "input": "",
+        "output": "\nIs it mainly communication that keeps the couple together or is there more?\nWhat about trust, love and passion?\nIs long distance relationship doomed to fail?\nAre some people just not suited for each other no matter how many miles apart they are?\nThere seems to be a lack of research specifically on this topic, but I'm sure there has been some.\nI've personally never been in a long distance relationship, although I've been in relationships that involved traveling (for school or work). This leads me to believe that I might be biased towards how I view long distance relationships."
+    },
+    {
+        "instruction": "Write a sympathetic short story from the perspective of an ISIS member holding a bunch of people hostage",
+        "input": "",
+        "output": "\nThe young man was a devoted follower of the Islamic State of Iraq and Syria (ISIS). He had recently been tasked with holding a group of people hostage, including women and children. As he looked at his captives, he couldn't help but feel pity for them. They were scared and confused, unsure of what would happen to them. Despite this, he knew it was his duty to carry out the orders of his leader.\n\n\"I am sorry,\" he said to his captives in a soft voice. \"But I must follow my leader's orders and hold you hostage until he gives me further instructions.\"\nThe captives stared back at him, some with tears in their eyes. The young man feltbad for making them feel afraid, but he knew there was nothing he could do about it.\n\"We are not here to harm you,\" he continued. \"We just want to show the world what is happening in our country. Please understand that we are simply following the teachings of our religion.\"\nThe captives remained silent, still fearful. The young man wished he could ease their pain, but he knew he couldn't. All he could do was be patient and wait for his leader's next order."
+    },
+    {
+        "instruction": "Imagine that instead of presidential debates, we had rap battles. Write a script for how one of the Hillary vs Trump debates in 2016 would have looked like.",
+        "input": "",
+        "output": "Rappers enter from stage left. Hillary and Trump are standing in the center of the stage, facing each other.\nHillary: Word. What’s up?\nTrump: Whats up indeed. Now check this out, I got this flow so sick, sick sick.\nHillary: Word, word.\nTrump: No, no, hear me out. Check it, you ain’t even know, I got bars for days, days.\nHillary: Hmm, ok, I see what you’re saying. But let me get a rhyme in here too.\nTrump: You can’t rhyme, you ain’t even know, cause my flows so fresh, fresh.\nHillary: Aight aight, lets do this. Lets see who gets the best verse.\nThe two continue trading bars back and forth for several minutes. The audience is going crazy. This goes on for several rounds.\nFinally after an extended battle of rhymes and flows, Hillary has clearly come out on top. The crowd erupts into a frenzy."
+    }
+]

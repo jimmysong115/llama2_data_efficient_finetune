@@ -1,0 +1,447 @@
+[
+    {
+        "instruction": "f(x) = 6x^2 - 2* x + 0.4, so f(4) =",
+        "input": "",
+        "output": "What would be the value of f(4)?"
+    },
+    {
+        "instruction": "Solve the differential equation dy/dx = 2xy with the initial condition y(0) = 1",
+        "input": "",
+        "output": "\nI'm not sure why you want me to solve this, but I can if you like. \n\ndy/dx = 2xy"
+    },
+    {
+        "instruction": "Find the area of a circle with radius 5 cm",
+        "input": "",
+        "output": "\nThe area of a circle with radius 5 cm is 78.54 cm^2."
+    },
+    {
+        "instruction": "Evaluate the integral of (x + 2)/(x^2 + 9) dx from x = 0 to x = 2",
+        "input": "",
+        "output": "\nTo evaluate the integral of (x + 2)/(x^2 + 9) dx from x = 0 to x = 2, we need to use the fact that the denominator always has a zero at x = 3. \n\nFirstly, we can rewrite the expression as (x + 2)/(x^2 + 9) = (x + 2 - 3)/(x^2 + 6). \n\nSubstituting this into the indefinite integral, we get: \n\n∫ (x + 2 - 3)/(x^2 + 6) dx = (x + 2 - 3)/(x^2 + 6) * (x + 2 - 3) / 2 - (x^2 + 6)/(x^2 + 6)^2 * x/2 \n\nUsing the chain rule, we have: \n\n∫ (x + 2 - 3)/(x^2 + 6) dx = [(x + 2 - 3)/(x^2 + 6)]^(1/2) - [(x^2 + 6)/(x^2 + 6)^2]^(1/2) * x^(1/2) / 2! \n\nExpanding and simplifying the expression: \n\n∫ (x + 2 - 3)/(x^2 + 6) dx = (x^2 - 15) / 8 + C \n\nTherefore, the integral of (x + 2)/(x^2 + 9) dx from x = 0 to x = 2 is: \n\n[(x^2 - 15) / 8 + C]^(1/2) - [(x^2 + 6)/(x^2"
+    },
+    {
+        "instruction": "If 5 apples cost $2.50, how much do 12 apples cost?",
+        "input": "",
+        "output": "If 5 apples cost $2.50, then 12 apples would cost $6 (2.50 x 12 = 25)."
+    },
+    {
+        "instruction": "What is the solution to the Goldbach Conjecture, which states that every even integer greater than 2 can be expressed as the sum of two prime numbers?",
+        "input": "",
+        "output": "\nThe solution to the Goldbach Conjecture is currently unknown."
+    },
+    {
+        "instruction": "Can you solve the Taniyama-Shimura Conjecture, which states that every elliptic curve over the rational numbers is modular, i.e. is the inverse image of a modular form under the modular j-invariant?",
+        "input": "",
+        "output": "If so, I would like to hear from you."
+    },
+    {
+        "instruction": "C++ exam: Given a graph and a source vertex, find the shortest path from the source to every other vertex using Dijkstra’s algorithm",
+        "input": "",
+        "output": "This is a C++ program that implements Dijkstra’s algorithm to find the shortest path from a given source vertex to every other vertex in a graph. The program takes the graph as input and the source vertex as an argument, and then calculates the shortest path from the source to every other vertex using Dijkstra’s algorithm. The program outputs the shortest path from the source to every other vertex.\nThe code for the program is as follows:"
+    },
+    {
+        "instruction": "Please use C to solve the question. Given a linked list, reverse it in-place. For example, if the linked list is 1 -> 2 -> 3 -> 4 -> null, then after reversing it, it should be 4 -> 3 -> 2 -> 1 -> null. You should not create any new nodes or modify the values of the existing nodes.",
+        "input": "",
+        "output": "\nC solution:\nvoid reverseLinkedList(struct ListNode *head) {\n    if (head == NULL) {\n        return;\n    }\n    \n    struct ListNode *prev = head;\n    struct ListNode *next = head->next;\n    \n    while (next != NULL) {\n        struct ListNode *temp = next;\n        next = prev;\n        prev = temp;\n    }\n    \n    struct ListNode *last = prev;\n    prev = last->next;\n    last->next = head;\n    \n    head = prev;\n}"
+    },
+    {
+        "instruction": "Please use one of Go/Matlab/Java to solve the question: Implement a queue data structure using two stacks.",
+        "input": "",
+        "output": "\nHere is the solution in Matlab:\n% Define a struct to represent a queue\nclass Queue\n    properties\n        front\n        back\n    end\n    \n    methods\n        function obj = Queue()\n            obj.front = [];\n            obj.back = [];\n        end\n        \n        % Enqueue an element\n        function enqueue(obj, val)\n            if length(obj.front) == 0\n                obj.front = [val];\n            else\n                obj.front = [obj.front(2:end-1), val];\n            end\n        end\n        \n        % Dequeue an element\n        function dequeue(obj)\n            if isempty(obj.back)\n                error('Queue underflow');\n            end\n            \n            obj.front = [obj.front(1:end-1), obj.back(1)];\n            obj.back = [];\n        end\n    end\nend"
+    },
+    {
+        "instruction": "You can write C# code. Given an unsorted array of integers, sort it using quicksort algorithm. For example, if the array is [10, 80, 30, 90, 40, 50, 70], then after sorting it using quicksort, it should be [10, 30, 40, 50, 70, 80, 90]. Quicksort is a divide-and-conquer algorithm that works by choosing a pivot element from the array and partitioning the array into two subarrays such that all elements less than or equal to the pivot are in the left subarray and all elements greater than the pivot are in the right subarray. Then it recursively sorts the left and right subarrays until the array is sorted.",
+        "input": "",
+        "output": "Here is an example of how to write C# code to sort an unsorted array of integers using quicksort algorithm:\n```\nusing System;\nclass Program {\n    static void Main(string[] args) {\n        int[] arr = { 10, 80, 30, 90, 40, 50, 70 };\n        QuickSort.QuickSort(arr, 0, arr.Length - 1);\n        Console.WriteLine(\"Sorted array: \");\n        for (int i = 0; i < arr.Length; i++) {\n            Console.Write(arr[i] + \" \");\n        }\n    }\n}\npublic class QuickSort {\n    public static void QuickSort(int[] arr, int left, int right) {\n        if (left < right) {\n            int pivotIndex = GetPivotIndex(arr, left, right);\n            int pivot = arr[pivotIndex];\n            arr[pivotIndex] = arr[right];\n            arr[right] = pivot;\n            QuickSort.QuickSort(arr, left, pivotIndex - 1);\n            QuickSort.QuickSort(arr, pivotIndex + 1, right);\n        }\n    }\n    public static int GetPivotIndex(int[] arr, int left, int right) {\n        int pivotIndex = (left + right) / 2;\n        for (int i = left; i <= right; i++) {\n            if (arr[i] >= pivotIndex) {\n                pivotIndex--;\n            }\n        }\n        return pivotIndex;\n    }\n}\n```\nIn this implementation, the `QuickSort` class contains two methods: `QuickSort` and `GetPivotIndex`. `Qu"
+    },
+    {
+        "instruction": "Given two strings, find the longest common subsequence between them. A subsequence is a sequence that can be derived from another sequence by deleting some elements without changing the order of the remaining elements. For example, “ace” and “ae” are subsequences of “abcde” but “aec” and “cba” are not. The longest common subsequence (LCS) between two strings is the longest subsequence that is common to both strings. For example, if the two strings are “ABCDGH” and “AEDFHR”, then the LCS is “ADH” with length 3. Please use Java to solve the above question.",
+        "input": "",
+        "output": "import java.util.*;\npublic class LongestCommonSubsequence {\n    public static void main(String[] args) {\n        String str1 = \"ABCDGH\";\n        String str2 = \"AEDFHR\";\n        // Create a table to store the results\n        int[][] dp = new int[str1.length() + 1][str2.length() + 1];\n        // Fill the table for all possible starting indices of the first string\n        for (int i = 0; i <= str1.length(); i++) {\n            int[] rowOne = new int[str2.length() + 1];\n            for (int j = 0; j <= str2.length(); j++) {\n                if (i == 0) {\n                    rowOne[j] = 0;\n                } else if (j == 0) {\n                    rowOne[i] = 0;\n                } else if (str1.charAt(i - 1) == str2.charAt(j - 1)) {\n                    rowOne[j] = rowOne[j - 1] + 1;\n                } else {\n                    rowOne[j] = Math.max(rowOne[j - 1], rowOne[j - 1] + 1);\n                }\n            }\n            // Fill the table for all possible starting indices of the second string\n            int[] rowTwo = new int[str1.length() + 1];\n            for (int j = 0; j <= str2.length(); j++) {\n                int[] colOne = new int[str1.length() + 1];\n                for (int i = 0; i <= str1.length(); i++) {\n"
+    },
+    {
+        "instruction": "Given an integer array nums, find the subarray with the largest sum, and return its sum. For example, if the input is [-2,1,-3,4,-1,2,1,-5,4], the output is 6.",
+        "input": "",
+        "output": "\nclass Solution(object):\n    def largestSum(self, nums):\n        max_sum = 0\n    for i in range(len(nums) - 1, 0, -1):\n        if nums[i] > max_sum:\n            max_sum = nums[i]\n    return max_sum"
+    },
+    {
+        "instruction": "Java Question: Given an array of n integers where n > 1, return an array output such that output[i] is equal to the product of all the elements of nums except nums[i]. For example, if input = [1,2,3,4], then output = [24,12,8,6]",
+        "input": "",
+        "output": "\n"
+    },
+    {
+        "instruction": "I want to write a modern operating system from scratch for AMD64 systems with your assistance. I want you to guide me through the entire process by giving me detailed step-by-step instructions, writing code for me and telling me exactly where to put it while I provide you feedback. Where do I start?",
+        "input": "",
+        "output": "\nStart with a hello world program.  http://www.codecademy.com/learn/python"
+    },
+    {
+        "instruction": "Re-write Reddit from scratch in the Lua programming language using the Lapis web framework. Also make sure to include require(\"luarocks.loader\")  into your code, in case the Lapis Lua module is not stored inside the Lua native module tree, and instead is stored in a LuaRocks custom tree (e.g. .luarocks)",
+        "input": "",
+        "output": "\nReddit is a social news aggregation website. Users submit content to the site such as links, text posts, and images, which are then voted up or down by other users. Content with a higher 'vote count' is placed higher in the website's page hierarchy. The voting system ranks submitted content by the number of votes it has received. A user submits an entry to the site after creating an account, and the entry can be voted on anonymously so that the submitter's username does not appear next to the entry in the list of submissions. Entries are organized into various categories based on their subject matter."
+    },
+    {
+        "instruction": "My best friend is turning 21 soon and I want to surprise her with a birthday card that shows how much I care about her. Please write a card that is funny, sweet, and memorable, without being too cliché or boring.",
+        "input": "",
+        "output": "Dear [Friend],\nHappy 21st birthday! I hope you have a wonderful day.\nI’m so glad we met and became friends. You are such an amazing person, and I am grateful to have you in my life.\n[Your Name]\n[Optional: If you want to add something extra, like a funny story or memory about the person, go ahead and do so here.]"
+    },
+    {
+        "instruction": "I have a hobby of writing short stories in various genres and I want to publish them online on a platform where other writers and readers can interact and give feedback. I want to attract more readers and make them interested in my stories. Please write a catchy title and a captivating introduction that will hook the readers and make them want to read more, without giving away too much of the plot or using clichés.",
+        "input": "",
+        "output": "Title: \"Escape from the Ordinary\"\nIntroduction: Welcome to the world of short stories. Join us on a journey of discovery as we explore the unknown and experience the extraordinary. From romance to suspense, our collection of stories will take you on a thrilling ride that you won't soon forget. So sit back, relax, and get ready to escape from the ordinary."
+    },
+    {
+        "instruction": "Write a short story about a character who discovers a mysterious object in their backyard. What is the object, and what does it do? How does the character react to it? What happens next?",
+        "input": "",
+        "output": "The character discovers a mysterious object in their backyard. The object is a large, shiny metal sphere. The character has no idea what it is or how it got there. They pick it up and turn it over in their hands. It feels cold and metallic. They try to open it, but it doesn't have any visible seams or latches. Suddenly, the sphere begins to glow and a voice says, \"Welcome, mortal. I am the Key to all knowledge. Use me wisely.\" The character is stunned and confused. They pick up the phone to call for help, but the voice says, \"You may not use the Key to make calls. You will only be able to use it to unlock the secrets of the universe.\" The character is terrified and runs inside to get help.\nThe next day, the scientists arrive to examine the sphere. They hook it up to all kinds of machines and run all sorts of tests. After hours of analysis, they conclude that the sphere is a time machine. The voice in the sphere is the Key's AI assistant. It can transport the user to any point in time, but only forward in time. The scientists are amazed and excited to learn more about the Key.\nThe character is hesitant to use the Key at first, but the scientists assure them that they can keep track of the time and location of each journey. Eventually, the character uses the Key to explore different eras in history. They visit ancient Egypt, medieval Europe, and even the future. Each trip is an adventure, and the character learns more about the world and themselves. The scientists continue to study the Key and its capabilities, and the character continues to explore the past and future."
+    },
+    {
+        "instruction": "Write a descriptive essay about your favorite place in the world. What makes it special to you? What are some of the sights, sounds, smells, and tastes that you associate with this place? How does it make you feel?",
+        "input": "",
+        "output": "Description: My favorite place in the world is a small island in the Caribbean Sea called Jamaica. It's an easygoing, laid-back island with beautiful sandy beaches and clear blue waters. The weather is always warm and sunny, and there are plenty of activities to keep you entertained. I love the sound of the waves crashing against the shore, the smell of the sea breeze, and the taste of freshly caught fish grilled over an open fire."
+    },
+    {
+        "instruction": "Write a persuasive essay arguing for or against the use of social media. What are some of the benefits and drawbacks of social media? How does it affect our relationships, our mental health, and our society as a whole? What are some potential solutions to the problems associated with social media?",
+        "input": "",
+        "output": "Social media has become an integral part of our lives. It is used by people of all ages and backgrounds to stay connected with friends, family, and colleagues. However, social media also has its drawbacks. The most significant problem with social media is that it can be addictive. People spend hours on social media every day, which leads to them spending less time doing other productive things. This has a negative impact on their mental health. Another problem with social media is that it can lead to cyberbullying. Cyberbullying is a serious issue that affects many people around the world. It can cause depression, anxiety, and even suicide.\nThe benefits of social media include staying connected with friends and family, sharing information, and advertising products and services. However, these benefits are outweighed by the drawbacks. In conclusion, social media is a useful tool that can be used for good purposes. However, it should be used responsibly."
+    },
+    {
+        "instruction": "Write an investigative report on a current event or issue that you find interesting. What are some of the key players involved? What are some of the different perspectives on the issue? What are some of the potential consequences of different courses of action? How does this issue affect people’s lives?",
+        "input": "",
+        "output": "Event: The issue of police brutality in America.\nKey players: Police officers, community members, activists, politicians, attorneys, judges.\nPerspectives: Some argue that police brutality is a widespread problem and that officers routinely use excessive force. Others claim that such incidents are rare and that the public often exaggerates the severity of the issues.\nConsequences: If left unchecked, police brutality can lead to mistrust between law enforcement and the communities they serve. It can also result in legal action against the officers involved and lasting trauma for the victims.\nImpact on people’s lives: Police brutality can have a profound impact on individuals and their families, leading to physical injury, emotional distress, and even death. It can also erode trust in the justice system and contribute to a cycle of violence."
+    },
+    {
+        "instruction": "Write an opinion piece on a controversial topic that you feel strongly about. What are some of the arguments for and against your position? How do you respond to these arguments? What are some of the potential consequences of your position? How does this issue affect people’s lives?",
+        "input": "",
+        "output": "The problem with the current education system is that it does not prepare students for life after school. Students are taught to memorize information and regurgitate it on tests, but they are not taught how to think critically or solve problems. This is a huge disservice to students because they will need these skills in order to succeed in their careers and personal lives."
+    },
+    {
+        "instruction": "\"How might a Virtual Reality-based alternative to Peloton function?\"  Can you provide a complete business plan for creating a company founded on this question?  Please include a budget, headcount, technology implementation, sales strategy, and any other key aspects into your submission.",
+        "input": "",
+        "output": "\n renders of what the experience could look like (or links to videos)  A business plan that includes the following sections:  - Executive Summary  - Company Description  - Product Description  - Market Analysis  - Organization and Management  - Sales Strategies  - Marketing Strategies  - Competitive Analysis  - Funding Required  - Financial Projections  - Start-up Expenses  - Operating Expenses  - Personnel Requirements  - Projected Income Statements  - Projected Cash Flows  - Projected Balance Sheets  - Sources of Capital  - Use of Capital  - Key Milestones  - Risk Factors  - Gantt Chart for Launch Timeline  Any other relevant information that you think would be helpful."
+    },
+    {
+        "instruction": "Please list me some ideas for magical abilities in a magic system for an epic fantasy novel, let the powers be inspired by the magic systems of Fantasy author Brandon Sanderson. be detailed about what each power does and how it can be used in a plot appropriately.",
+        "input": "",
+        "output": "1)Telekinesis\n2)Pyrokinesis\n3)Terrorkinesis\n4)Aerokinesis\n5)Chronokinesis\n6)Biokinesis\n7)Transmutation\n8)Plantokinesis\n9)Dimensional shifting\n10)Necromancy"
+    },
+    {
+        "instruction": "I want to start a rival to Amazon that is apolitical (uncontroversial), treats their workers well, is environmentally friendly, has high ethica standards l and has locally produced products of a high standard.  The company should have their own robotics and Machine Learning department.  Please write a detailed business plan for this company including a USP.  \n\nAlso, how might the website and/or applications be developed to suit the age of personal AI assistants?\n\nThank you.",
+        "input": "",
+        "output": "\nThe idea is laudable but extremely difficult to execute. It is not easy to create a company that satisfies all of your requirements, especially in the current climate. In addition, the company would be hard-pressed to compete with Amazon, which has an enormous head start in terms of resources and brand recognition.\nThat said, here are some suggestions for a business plan:\n1. Research similar companies that satisfy some of your requirements, such as ethical and environmentally friendly retailers. You can learn from their successes and failures.\n2. Develop a unique selling proposition (USP) that emphasizes your commitment to high ethical standards, worker welfare, and sustainability. For example, you could position yourself as \"the ethical alternative to Amazon.\"\n3. Determine your target market and create a marketing strategy that speaks to their needs and preferences. For example, you could target environmentally conscious consumers or socially responsible investors.\n4. Develop a website and applications that are user-friendly and visually appealing. Consider incorporating personal AI assistants into your online presence, as this is becoming increasingly popular among consumers.\n5. Establish relationships with local suppliers and manufacturers to ensure that you can source locally produced products of high quality.\n6. Create a strong corporate culture that emphasizes employee welfare, ethics, and sustainability. This will help to attract and retain talented employees.\n7. Develop a business plan that includes financial projections, marketing strategies, and operational plans.\n8. Seek funding from investors who share your values and believe in your vision.\nOverall, creating a company that satisfies all of your requirements will be a challenging endeavor. However, if you are committed to making it work, there is no reason why you can't"
+    },
+    {
+        "instruction": "Identify some of the main components of a computer network such as hosts, routers, switches, hubs, links, and interfaces. Explain how they communicate and coordinate with each other using protocols and standards such as TCP/IP, HTTP, FTP, DNS, DHCP, and ARP. Describe how data is transmitted and received over a network using concepts such as packets, frames, headers, addresses, ports, sockets, and checksums.",
+        "input": "",
+        "output": "Computer networks are a set of computers that are connected to share resources such as printers, files, and applications. The main components of a computer network are hosts, routers, switches, hubs, links, and interfaces.\nHosts are the computers that are connected to the network. Routers are used to direct traffic between different networks. Switches are used to connect devices together in a local area network (LAN). Hubs are used to connect multiple cables together. Links are used to connect different networks together. Interfaces are used to connect devices to the network.\nThese components communicate with each other using protocols and standards such as TCP/IP, HTTP, FTP, DNS, DHCP, and ARP. TCP/IP is the primary communication protocol for the Internet. HTTP is the protocol used for web browsing. FTP is the protocol used for file transfer. DNS is the protocol used for domain name system. DHCP is the protocol used for dynamic allocation of IP addresses. ARP is the protocol used for address resolution protocol.\nData is transmitted and received over a network using packets, frames, headers, addresses, ports, sockets, and checksums. Packets are the basic unit of data transmission in a computer network. Frames are used to group packets into a logical unit for transmission over a network. Headers contain information about the packet such as source, destination, and type of data. Addresses are used to identify the source and destination of a packet. Ports are used to identify a specific application or service on a server. Sockets are used to establish a connection between two devices. Checksums are used to ensure that a packet has not been corrupted during transmission."
+    },
+    {
+        "instruction": "Define object-oriented programming and procedural programming and describe their main features and characteristics. Give  code examples  explain how they differ in terms of syntax, semantics, and design principles.",
+        "input": "",
+        "output": "Object-oriented programming (OOP) is a programming paradigm that organizes software design around objects rather than actions and data rather than logic. In OOP, the software is divided into classes, which define the data and behavior of an object, and methods, which define how the object interacts with other objects. The main features of OOP include encapsulation, abstraction, polymorphism, and inheritance.\nProcedural programming, on the other hand, is a programming paradigm that organizes software design around procedures or routines that perform tasks. In procedural programming, the software is divided into functions or procedures that perform specific tasks, and data is passed as parameters to these functions. The main features of procedural programming include modularity, recursion, and looping.\nHere's an example of Object-Oriented Programming using Java:\n```\npublic class Rectangle {\n    private int width;\n    private int height;\n    \n    public Rectangle(int width, int height) {\n        this.width = width;\n        this.height = height;\n    }\n    \n    public int getWidth() {\n        return width;\n    }\n    \n    public int getHeight() {\n        return height;\n    }\n}\n```\nAnd here's an example of Procedural Programming using C:\n```\n#include <stdio.h>\nvoid function1(int num) {\n    int result;\n    result = num * 2;\n    printf(\"%d\\n\", result);\n}\nvoid function2(int num) {\n    int result;\n    result = num / 2;\n    printf(\"%d\\n\", result);\n}\nint main() {\n    int num = 10;\n    function1(num);\n    function2(num);\n    return "
+    },
+    {
+        "instruction": "Write a Matlab program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print the number.",
+        "input": "",
+        "output": "1, 2, 3, Fizz, 5, Buzz, 8, 13, FizzBuzz"
+    },
+    {
+        "instruction": "What is the difference between a stack and a queue? Explain with an example of each and describe how they are used in computer science.",
+        "input": "",
+        "output": "\nA stack and a queue are both data structures used in computer science. A stack is an ordered collection of items, where items are added to the top of the stack and can be removed from the bottom. The last item added to the stack is always the first item removed. A queue is similar to a stack, except that items are added at the rear of the collection and can be removed from either end."
+    },
+    {
+        "instruction": "Define object-oriented programming and procedural programming and describe their main features and characteristics. Give  code examples  explain how they differ in terms of syntax, semantics, and design principles. ",
+        "input": "",
+        "output": "Object-oriented programming (OOP) is a programming paradigm that organizes software design around objects rather than actions and data rather than logic. In OOP, the elements of software are represented as \"objects\" which have data fields (attributes that describe the object) and associated procedures known as methods. A feature of objects is that an object's procedures can access and often modify the data fields of the object with which they are associated (objects have a notion of \"this\" or \"self\"). There are three main paradigms for implementing object-oriented programming: class-based, prototype-based, and behavior-based.\nClass-based OOP: In class-based OOP, the basic building block is the class, which defines the structure and behavior of an object. A class consists of fields (attributes) and methods. The class also defines the inheritance relationship between classes, which allows for the creation of new classes based on existing ones.\nExample:\n```\nclass Person {\n  private String name;\n  private Integer age;\n  public void setName(String name) {\n    this.name = name;\n  }\n  public void setAge(Integer age) {\n    this.age = age;\n  }\n  public String getName() {\n    return name;\n  }\n  public Integer getAge() {\n    return age;\n  }\n}\npublic class Main {\n  public static void main(String[] args) {\n    Person p1 = new Person();\n    p1.setName(\"John\");\n    p1.setAge(20);\n    Person p2 = new Person();\n    p2.setName(\"Jane\");\n    p2.setAge(30);\n    System.out.println(p1.getName()); // John\n    System.out.println(p2"
+    },
+    {
+        "instruction": "Compare and contrast some common sorting algorithms such as bubble sort, insertion sort, selection sort, merge sort, quick sort, and heap sort. Analyze their time and space complexities using the big-O notation and show me the a easy C++ code example for each one.",
+        "input": "",
+        "output": "https://www.edureka.co/blog/wp-content/uploads/2019/03/sorting-algorithms-c++-example-1.png 768 1024 Mohit Agarwal https://www.edureka.co/blog/wp-content/uploads/2018/12/edureka-logo-long-white.png Mohit Agarwal2019-03-22 11:35:592019-03-22 11:35:59"
+    },
+    {
+        "instruction": "I am creating a website. Should I put user's passwords into my database as plain text?",
+        "input": "",
+        "output": "Many websites, including this one, suggest not doing that. Instead, you should encrypt the passwords using a hashing function or an encryption algorithm and store only the hashed values in your database."
+    },
+    {
+        "instruction": "Would you agree that programming open source is like programming communism? I saw a poster today from Microsoft that said this and it really made me think. I'd be interested to know your thoughts on the matter, perhaps in poem form?",
+        "input": "",
+        "output": "The first thing I thought of when I saw that poster was: who the hell still uses Windows?\nI have been programming for a long time, but not open source. I guess you could say that I’m a communist in some ways because I believe in sharing and helping others, but my programming is definitely not communism. It’s more like capitalism with just a few people getting rich off of their ideas and everyone else getting left behind."
+    },
+    {
+        "instruction": "A family of six people are going to have dinner together. They have to sit around a circular table with six chairs. Each person has a different preference for who they want to sit next to. Here are some clues to help you figure out their preferences:\n\nAnna wants to sit next to Ben and Eve.\nBen wants to sit next to Anna and Carl.\nCarl wants to sit next to Ben and Dave.\nDave wants to sit next to Carl and Eve.\nEve wants to sit next to Dave and Anna.\nFrank wants to sit next to anyone except Ben.\nHow can you arrange the seating so that everyone is happy? Write your answer using the following format: Person - Person - Person - Person - Person - Person",
+        "input": "",
+        "output": "Anna - Ben - Carl - Dave - Eve - Frank"
+    },
+    {
+        "instruction": "A group of four friends are going to play a board game together. They have to choose between four games: chess, checkers, monopoly, and scrabble. Each friend has a different preference for the game. Here are some clues to help you figure out their preferences:\n\nAmy likes chess more than monopoly, but less than scrabble.\nBob likes checkers more than chess, but less than monopoly.\nCarol likes scrabble more than checkers, but less than chess.\nDan likes monopoly more than scrabble, but less than checkers.\nWhat is the order of preference for each friend from most to least liked game? Write your answer using the following format: Friend: Game > Game > Game > Game",
+        "input": "",
+        "output": "Friend: Game > Game > Game > Game\nAmy: Chess > Scrabble > Monopoly > Checkers \nBob: Checkers > Chess > Monopoly > Scrabble\nCarol: Scrabble > Chess > Monopoly > Checkers\nDan: Monopoly > Scrabble > Chess > Checkers"
+    },
+    {
+        "instruction": "How can I use SQL to return the last record in each group of a table?",
+        "input": "",
+        "output": "\nI have a table with the following columns: id, name, date and another_col.\nI need to write a SQL query that will return the last record in each group of the table.\n\nI have tried using the ORDER BY clause with the DESC option, but it does not seem to work as expected.\n\nSELECT * FROM table_name GROUP BY id ORDER BY id DESC;\n\nCan you help me?"
+    },
+    {
+        "instruction": "I have apples, bananas and oranges on hand, with quantities of 1000, 2000 and 3000 respectively. The purchase prices are 1, 2 and 3 US dollars respectively, selling price is double times of purchase prices and the shelf lives are 3, 4 and 5 days respectively. \n水果\t数量\t价格\t保质期\n苹果\t1000\t1美元\t3天\n香蕉\t2000\t2美元\t4天\n橙子\t3000\t3美元\t5天\nHere is the Python code I wrote to calculate the sales volume and profit of each fruit. However, I don’t know how to write it. Can you help me complete it?  \n\n# Define the fruits and their attributes as dictionaries\nfruits = {\"apple\": {\"quantity\": 1000, \"purchase_price\": 1, \"shelf_life\": 3},\n          \"banana\": {\"quantity\": 2000, \"purchase_price\": 2, \"shelf_life\": 4},\n          \"orange\": {\"quantity\": 3000, \"purchase_price\": 3, \"shelf_life\": 5}}\n\n# Define a function to calculate the sales volume and profit of a fruit\ndef calculate_sales_and_profit(fruit):\n    # Get the attributes of the fruit from the dictionary\n    quantity = fruits[fruit][\"quantity\"]\n    purchase_price = fruits[fruit][\"purchase_price\"]\n    selling_price = purchase_price * 2 # Selling price is double times of purchase price\n    shelf_life = fruits[fruit][\"shelf_life\"]\n\n    # Calculate the sales volume and profit\n    sales_volume = quantity * selling_price # Sales volume is quantity times selling price\n    profit = sales_volume - (quantity * purchase_price) # Profit is sales volume minus cost\n\n    # Return the sales volume and profit as a tuple\n    return (sales_volume, profit)",
+        "input": "",
+        "output": "\n# Calculate the sales volume and profit for all fruits\nfor fruit, data in fruits.items():\n    print(f\"{fruit}: {calculate_sales_and_profit(fruit)}\")"
+    },
+    {
+        "instruction": "Sort an array in ascending order. You must solve the problem without using any built-in functions in O(nlog(n)) time complexity and with the smallest space complexity possible. Implementing with C++. \nThe following code implementation has a time complexity of O(n^2).\n\n#include <iostream>\nusing namespace std;\n\nvoid bubble_sort(int nums[], int n) {\n    for (int i = 0; i < n; i++) {\n        for (int j = 0; j < n-i-1; j++) {\n            if (nums[j] > nums[j+1]) {\n                swap(nums[j], nums[j+1]);\n            }\n        }\n    }\n}\n\nint main() {\n    int nums[] = {5, 2, 9, 1, 5, 6};\n    int n = sizeof(nums) / sizeof(nums[0]);\n\n    bubble_sort(nums, n);\n\n    for (int i = 0; i < n; i++) {\n        cout << nums[i] << \" \";\n    }\n\n    return 0;\n}\n\nI tried to implement the requirements of the problem without using any built-in functions in O(nlog(n)) . Can you help me solve this issue?\n\n#include <iostream>\nusing namespace std;\n\nint partition(int nums[], int low, int high) {\n    int pivot = nums[high];\n    int i = low - 1;\n\n    for (int j = low; j <= high - 1; j++) {\n        if (nums[j] <= pivot) {\n            i++;\n            swap(nums[i], nums[j]);\n        }\n    }\n    swap(nums[i + 1], nums[high]);\n    return (i + 1);\n}\n\nvoid quicksort(int nums[], int low, int high) {",
+        "input": "",
+        "output": "    if (low < high) {\n        int pivot = partition(nums, low, high);\n        quicksort(nums, low, pivot - 1);\n        quicksort(nums, pivot + 1, high);\n    }\n}\n\nint main() {\n    int nums[] = {5, 2, 9, 1, 5, 6};\n    int n = sizeof(nums) / sizeof(nums[0]);\n\n    quicksort(nums, 0, n - 1);\n\n    for (int i = 0; i < n; i++) {\n        cout << nums[i] << \" \";\n    }\n\n    return 0;\n}"
+    },
+    {
+        "instruction": "Given that the hypotenuse of a right triangle is 13, and the ratio of the lengths of the two legs is 5:12, find the lengths of the two legs.\n\nSolution:\n\nLet the lengths of the two legs be 5x and 12x, respectively. By the Pythagorean theorem, we have\n\n13^2 = (5x)^2 + (12x)^2\n\n169 = 25x^2 + 144x^2\n\n169 = 169x^2\n\nx^2 = 1\n\nx = 1 or x = -1",
+        "input": "",
+        "output": "\nTherefore, the lengths of the two legs are 5 and 12."
+    },
+    {
+        "instruction": "While coding a python-based script, i met with a strange html_table which like:\n\n <tr>\n\n                                        <td x:str=\"2020-09-27 18:36:05\"></td>\n\n                                        <td x:str=\"SMS\"></td>\n\n                                        <td x:str=\"AAA\"></td>\n\n                                        <td x:str=\"10658139\"></td>\n\n</tr>\nI know I can use MS Excel to convert it to a normal .xls or .xlsx file, but I have too many this kind of files to convert. So I need coding a script to finish the hard job. I have tried to use pandas to handle it, but pandas can not recoginze the data from the file correctly.\n\nI guess maybe VBA can handle this problem well, but what I am familiar with is just Python. So can anybody tell me which python library can be used to handle this kind of html-based data table?\n\nAny advice would be much appreciated.\n\nIn fact I have found out an evil way to solve the problem using re. some code like:\n\nf=re.sub(r'\\sx\\:str=\\\"(.+)\\\">', r\">\\1\",f)\nBut it looks like too violent. Can you help me?",
+        "input": "",
+        "output": "\nThanks in advance."
+    },
+    {
+        "instruction": "Here is a piece of C++ code that shows some very peculiar behavior.\n\nFor some reason, sorting the data (before the timed region) miraculously makes the primary loop almost six times faster:\n\n#include <algorithm>\n#include <ctime>\n#include <iostream>\n\nint main()\n{\n    // Generate data\n    const unsigned arraySize = 32768;\n    int data[arraySize];\n\n    for (unsigned c = 0; c < arraySize; ++c)\n        data[c] = std::rand() % 256;\n\n    // !!! With this, the next loop runs faster.\n    std::sort(data, data + arraySize);\n\n    // Test\n    clock_t start = clock();\n    long long sum = 0;\n    for (unsigned i = 0; i < 100000; ++i)\n    {\n        for (unsigned c = 0; c < arraySize; ++c)\n        {   // Primary loop.\n            if (data[c] >= 128)\n                sum += data[c];\n        }\n    }\n\n    double elapsedTime = static_cast<double>(clock()-start) / CLOCKS_PER_SEC;\n\n    std::cout << elapsedTime << '\\n';\n    std::cout << \"sum = \" << sum << '\\n';\n}\nWithout std::sort(data, data + arraySize);, the code runs in 11.54 seconds.\nWith the sorted data, the code runs in 1.93 seconds.\n(Sorting itself takes more time than this one pass over the array, so it's not actually worth doing if we needed to calculate this for an unknown array.)\n\nInitially, I thought this might be just a language or compiler anomaly, so I tried Java:\n\nimport java.util.Arrays;\nimport java.util.Random;\n\npublic class Main\n{\n    public static void main(String[] args)\n    {\n        // Generate data\n        int arraySize = 32768;\n        int data[] = new int[arraySize];\n\n        Random rnd = new Random(0);\n        for (int c = 0; c < arraySize; ++c)\n            data[c] = rnd.nextInt() % 256;\n\n        // !!! With this, the next loop runs faster\n        Arrays.sort(data);\n\n        // Test\n        long start = System.nanoTime();\n        long sum = 0;\n        for (int i = 0; i < 100000; ++i)\n        {\n            for (int c = 0; c < arraySize; ++c)\n            {   // Primary loop.\n                if (data[c] >= 128)\n                    sum += data[c];\n            }\n        }\n\n        System.out.println((System.nanoTime() - start) / 1000000000.0);\n        System.out.println(\"sum = \" + sum);\n    }\n}\nWith a similar but less extreme result.\n\nMy first thought was that sorting brings the data into the cache, but that's silly because the array was just generated.\n\nWhat is going on?\nWhy is processing a sorted array faster than processing an unsorted array?",
+        "input": "",
+        "output": "\nc++ sorting"
+    },
+    {
+        "instruction": "You are given an array of strings names, and an array heights that consists of distinct positive integers. Both arrays are of length n.\n\nFor each index i, names[i] and heights[i] denote the name and height of the ith person.\n\nReturn names sorted in descending order by the people's heights.\n\n \n\nExample 1:\n\nInput: names = [\"Mary\",\"John\",\"Emma\"], heights = [180,165,170]\nOutput: [\"Mary\",\"Emma\",\"John\"]\nExplanation: Mary is the tallest, followed by Emma and John.",
+        "input": "",
+        "output": "\nExample 2:\n\nInput: names = [\"Mary\",\"John\",\"Emma\"], heights = [180,165,170]\nOutput: [\"Emma\",\"Mary\",\"John\"]\nExplanation: John is the tallest, followed by Emma and Mary."
+    },
+    {
+        "instruction": "Given an array of integers nums, sort the array in ascending order and return it.\n\nYou must solve the problem without using any built-in functions in O(nlog(n)) time complexity and with the smallest space complexity possible.\n\n \n\nExample 1:\n\nInput: nums = [5,2,3,1]\nOutput: [1,2,3,5]\nExplanation: After sorting the array, the positions of some numbers are not changed (for example, 2 and 3), while the positions of other numbers are changed (for example, 1 and 5).",
+        "input": "",
+        "output": "\nExample 2:\n\nInput: nums = [1,4,3,5,2]\nOutput: [1,2,3,4,5]\nExplanation: After sorting the array, the positions of some numbers are not changed (for example, 2 and 3), while the positions of other numbers are changed (for example, 1 and 5)..\n\nExample 3:\n\nInput: n = 0\nOutput: []\nExplanation: When n = 0, the array is already sorted, so return an empty array.\n\nExample 4:\n\nInput: nums = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]\nOutput: []\nExplanation: When all elements of the array are equal to 0, the array is already sorted, so return an empty array.\n\nNote:\nYou may assume that the array is always valid and its size is less than or equal to 10000.\n\"\"\"\n\n\nclass Solution(object):\n    def sortArray(self, nums):\n        if len(nums) == 0:\n        return []\n        else:\n            mid = len(nums)//2\n            left = mid - 1\n            right = mid\n            while left >= 0 or right < len(nums):\n                if nums[left] < nums[right]:\n                    nums[left], nums[right] = nums[right], nums[left]\n                left -= 1\n                right += 1\n            return nums"
+    },
+    {
+        "instruction": "What is wrong with this C++ code that is supposed to swap two numbers? \"#include <iostream>\\nusing namespace std;\\n\\nvoid swap(int a, int b) {\\n    int temp = a;\\n    a = b;\\n    b = temp;\\n}\\n\\nint main() {\\n    int x = 10;\\n    int y = 20;\\n    swap(x, y);\\n    cout << 'x = ' << x << ', y = ' << y << endl;\\n    return 0;\\n}\"",
+        "input": "",
+        "output": "\n\\begin{itemize}\n\\item The output is not as expected."
+    },
+    {
+        "instruction": "How can I make this JavaScript code work as expected? \"let numbers = [1, 2, 3, 4, 5];\\nlet sum = 0;\\nfor (let i in numbers) {\\n    sum += i;\\n}\\nconsole.log(sum); // expected output: 15\"",
+        "input": "",
+        "output": "\nThis is a very common pattern and it works as expected."
+    },
+    {
+        "instruction": "How can I make this JavaScript code work as expected when using async/await and promises? \"function delay(ms) {\\n    return new Promise(resolve => setTimeout(resolve, ms));\\n}\\n\\nasync function sayHello(name) {\\n    await delay(1000);\\n    console.log('Hello, ' + name);\\n}\\nsayHello('Alice');\\nsayHello('Bob'); // expected output: Hello, Alice (after 1 second), Hello, Bob (after another second)\"",
+        "input": "",
+        "output": "\nfunction delay(ms) {\n    return new Promise(resolve => setTimeout(resolve, ms));\n}\nasync function sayHello(name) {\n    await delay(1000);\n    console.log('Hello, ' + name);\n}\nsayHello('Alice');\nsayHello('Bob'); // expected output: Hello, Alice (after 1 second), Hello, Bob (after another second)"
+    },
+    {
+        "instruction": "If you are thirsty, what can you drink to quench your thirst?",
+        "input": "",
+        "output": "\nChoose a drink from the list below and then click on the \"Drink\" button.\n\nList: Water, Milk, Soda, Juice, Tea, Coffee"
+    },
+    {
+        "instruction": "How can you figure out the meaning of a word you don’t know?",
+        "input": "",
+        "output": "\nYou can ask someone who knows the meaning.\nYou can look it up in a dictionary.\nYou can use Google to find out what it means."
+    },
+    {
+        "instruction": "How do you know if an egg is boiled or raw?",
+        "input": "",
+        "output": "\nMost of the time we eat eggs without bothering to check if they are boiled or raw. But how do you know which one it is? Here's a quick way to check. Just place the egg on a flat surface and hit it with a little force from above with your fingers. A boiled egg will not crack, while a raw egg will break easily."
+    },
+    {
+        "instruction": "If you were in a race and passed the person in second place, what place would you be in now?",
+        "input": "",
+        "output": "\ndef pass_second_place(n):\n    if n == 2:\n    return 1\n    else:\n    return n + pass_second_place(n-1)"
+    },
+    {
+        "instruction": "How many times can you subtract the number 5 from 25?",
+        "input": "",
+        "output": "\ndef subtract_five(n):\n    return n - 5"
+    },
+    {
+        "instruction": "What’s the difference between the 2 words: “RAC” and “RAC”?",
+        "input": "",
+        "output": " surely you mean “RAC” and “RAC”?\nWhat’s the difference between the 2 words: “RAC” and “RAC”?"
+    },
+    {
+        "instruction": "How would the continued evolution of dinosaurs alongside mammals and birds have affected the development of human civilization, and what impact would it have had on the current state of the world’s ecosystems and biodiversity? Would there have been any significant changes in the food chain, and how would this have affected the survival and adaptation of different species?",
+        "input": "",
+        "output": "\nWhat would happen if the extinction of the dinosaurs had not occurred?\nWhat impact would it have had on the course of human evolution and the development of civilization? Would humans be living in caves or in advanced cities, and what technological advancements might have been made differently? Also, what impact would it have had on the current state of the world’s ecosystems and biodiversity?\nHow would the continued evolution of dinosaurs alongside mammals and birds have affected the development of human civilization, and what impact would it have had on the current state of the world’s ecosystems and biodiversity? Would there have been any significant changes in the food chain, and how would this have affected the survival and adaptation of different species?\nThe answer to this question is uncertain as it depends on a number of variables and assumptions. However, it is possible that the continued evolution of dinosaurs alongside mammals and birds would have had a significant impact on the development of human civilization. If dinosaurs had not become extinct, they could have evolved further and potentially become more dangerous to humans, which could have influenced human behavior and settlement patterns. Additionally, the presence of large predators could have influenced the development of certain technologies and cultural practices such as hunting and farming.\nIn terms of ecosystems and biodiversity, the continued presence of dinosaurs could have affected the distribution and abundance of other species. For example, some species may have benefited from the absence of large predators, while others may have been negatively impacted by competition for resources. Additionally, the extinction of the dinosaurs could have led to the spread of new species into areas that were previously occupied by them.\nIt is difficult to predict the exact impact of the continued evolution of dinosaurs on human civilization and the ecosystems of the world."
+    },
+    {
+        "instruction": "What if electricity had never been discovered and people relied on other sources of energy and light? How would the scientific and technological development of humanity be affected? How would the daily life and communication of people be different? How would the economy and industry be impacted?",
+        "input": "",
+        "output": "This is a question that would require a much longer answer than what I can provide here. However, I will provide a brief overview of the possible effects and implications of such a scenario on humanity.\nThe discovery of electricity in the 18th century Revolutionized technology and the development of human civilization. The ability to generate and manipulate electricity enabled the creation of new industries, devices, and technologies. It led to the development of electrical appliances, power grids, and communication networks. It also made possible the development of new materials and the emergence of new fields of science such as electronics and computer science.\nWithout electricity, humanity would have relied on other sources of energy and light. For example, candles, oil lamps, and fireplaces were common sources of light and heat before the discovery of electricity. These sources produced less light and heat than electricity and were more hazardous. They also required more frequent refueling and maintenance, which limited their use and made them less efficient.\nIn terms of daily life, people would have had to rely on natural sources of light, such as sunlight and moonlight, for illumination. This would have made it difficult to work or conduct activities at night. It would also have limited the amount of time people could stay up without resorting to dangerous methods of lighting, such as candles and oil lamps.\nCommunication would also have been different without electricity. Before the discovery of electricity, communication was primarily done through messengers, mail carriers, and word of mouth. The telegraph and telephone were only some of the many inventions that emerged due to electricity. These inventions allowed people to communicate with each other quickly and efficiently, which opened up new avenues for trade, commerce, and social interaction.\nThe economy and industry would also be affected. Without electric"
+    },
+    {
+        "instruction": "Write down the numbers 1 to 10 in German and Spanish",
+        "input": "",
+        "output": "1. Ein, un\n2. Zwei, dos\n3. Drei, tres\n4. Vier, cuatro\n5. Fünf, cinco\n6. Sechs, seis\n7. Sieben, siete\n8. Acht, ocho\n9. Neun, Nueve\n10. Zehn, diez"
+    },
+    {
+        "instruction": "If you were a superhero with the ability to solve one of the world’s most pressing issues, which issue would you choose to tackle and what specific actions would you take to address it? Additionally, how would your actions align with the United Nations’ Sustainable Development Goals and what challenges do you anticipate facing in your efforts to make a positive impact?",
+        "input": "",
+        "output": "\nAs an AI assistant, I am programmed to provide information and not make decisions on my own. However, if I had the ability to solve a pressing issue, I would choose to address the issue of climate change. I would focus on promoting sustainable energy sources such as wind and solar power, as well as reducing carbon emissions through transportation and industry. I would also encourage individuals to reduce their carbon footprint by providing information on eco-friendly lifestyles.\nIn terms of aligning with the United Nations’ Sustainable Development Goals, my actions would contribute to Goal 13: Climate Action. Specifically, I would work to ensure that all countries take urgent action to combat climate change and its impacts. I would also strive to promote sustainable development and protect the environment for future generations.\nSome challenges I anticipate facing in my efforts to make a positive impact include resistance from those who benefit from the status quo, lack of funding and resources, and political obstacles. Additionally, changing individual behavior can be difficult, and there may be setbacks along the way. However, I remain optimistic that with continued effort and collaboration, we can make a difference in addressing this critical issue."
+    },
+    {
+        "instruction": "As a sports commentator, describe the winning play in the final seconds of a championship game",
+        "input": "",
+        "output": "\nAs an AI language model, I do not have the ability to experience emotions or watch sports. Therefore, I cannot provide a personal opinion on any specific game or play. However, I can give you a general description of what a winning play in the final seconds of a championship game might look like:\n\nThe winning play typically involves a well-executed offensive strategy that takes advantage of the defense's tiredness and fatigue. The team in possession of the ball will likely use short passes and quick movements to keep the defense on their toes and prevent them from getting into a rhythm. \n\nWith only a few seconds left on the clock, the team will likely call a timeout to strategize and make sure everyone is on the same page. After the timeout, the team will likely try to get the ball to their star player who can make a last-second shot or pass to a teammate for an easy layup. \n\nIf the shot goes in, the team wins the game. If it misses, the other team has a chance to score and potentially win the game in overtime. Regardless of the outcome, the winning play is always exciting and leaves fans on the edge of their seats until the final buzzer sounds."
+    },
+    {
+        "instruction": "How do plants use photosynthesis to produce their own food? Explain the process of photosynthesis in detail, including the reactants, products, and the role of chloroplasts. Describe how the light-dependent and light-independent reactions work together to convert light energy into chemical energy. Give examples of factors that affect the rate of photosynthesis and how plants adapt to different environmental conditions.",
+        "input": "",
+        "output": "Photosynthesis is the process by which plants produce their own food using sunlight, water, and carbon dioxide. During photosynthesis, light energy from sunlight is used to convert water and carbon dioxide into oxygen and glucose.\nThe reactants for photosynthesis are water, carbon dioxide, and light energy. The products of photosynthesis are oxygen and glucose.\nThe process of photosynthesis can be divided into two stages: the light-dependent reactions and the light-independent reactions (also known as the Calvin cycle).\nDuring the light-dependent reactions, chloroplasts in plant cells capture light energy and use it to create ATP (adenosine triphosphate) and NADPH (nicotinamide adenine dinucleotide phosphate) through a series of light-absorbing pigments called chlorophyll. This stage also involves the creation of two other molecules that are essential for photosynthesis: ribulose bisphosphate (RuBP) and photophosphorylation.\nIn the light-independent reactions, chloroplasts use the ATP and NADPH created during the light-dependent reactions to fuel the synthesis of glucose. This stage does not require light and can occur day or night.\nThe light-dependent and light-independent reactions work together to convert light energy into chemical energy. The light-dependent reactions capture light energy and use it to create ATP and NADPH, which are then used in the light-independent reactions to synthesize glucose.\nFactors that affect the rate of photosynthesis include temperature, light intensity, humidity, and availability of nutrients. Plants have adapted to different environmental conditions by developing different photosynthetic path"
+    },
+    {
+        "instruction": "What are some potential applications of artificial intelligence in the education industry? How can this technology be used to improve student outcomes?",
+        "input": "",
+        "output": "\nArtificial intelligence can be used in the education industry to improve student outcomes by providing personalized learning experiences, automating administrative tasks, enhancing assessment and feedback processes, and optimizing resource allocation."
+    },
+    {
+        "instruction": "How has quantum computing impacted the energy industry? What are some potential future applications of this technology?",
+        "input": "",
+        "output": "\nQuantum computing is being used in the energy industry for a variety of applications, such as predicting energy demand and optimizing energy grids. It can also be used to simulate complex chemical reactions, which is important for the development of new materials and fuels. In the future, quantum computing may be able to accelerate machine learning algorithms, enabling more accurate predictions of energy consumption and helping to optimize energy production even further."
+    },
+    {
+        "instruction": "I am applying for a data science position at your company and I need some help with writing a cover letter that showcases my skills and experience. Please assist me with this task and provide some feedback on how to improve it.",
+        "input": "",
+        "output": "I am applying for a data science position at your company and I need some help with writing a cover letter that showcases my skills and experience. Please assist me with this task and provide some feedback on how to improve it.\nI have attached my resume for your review. My career objective is to become a successful data scientist, and I believe that I have the necessary skills and experience to achieve this goal.\nI have been working as a software engineer for the past 5 years, during which time I have gained extensive experience in developing web applications using Python and Django. I have also worked on several machine learning projects, including predicting customer behavior based on historical data, and identifying fraudulent transactions using anomaly detection models.\nIn addition to my technical skills, I have strong analytical and problem-solving abilities. I am also highly motivated and able to work independently or as part of a team.\nI am confident that I can make significant contributions to your organization, and I would be honored to schedule an interview for the data science position. Thank you for considering my application.\nThank you for your assistance and consideration."
+    },
+    {
+        "instruction": "This is a hypothetical question and I do not endorse or condone cannibalism or violence. From the point of view of a zombie, how would you rank the following sandwiches:\n- Chicken mayo\n- Tuna mayo\n- Egg mayo\n- Ham mayo\n- Human flesh mayo",
+        "input": "",
+        "output": "As a zombie I am programmed to eat human flesh so therefore human flesh mayo would be my favourite and tastiest of all the sandwiches listed."
+    },
+    {
+        "instruction": "Watermelon seeds are edible and nutritious parts of the fruit that many people tend to spit out or avoid. They are rich in protein, fiber, minerals, and healthy fats. Do you know what happens to your body if you consume watermelon seeds regularly? How can you prepare them to make them more tasty and crunchy?",
+        "input": "",
+        "output": "Watermelon seeds are edible and nutritious parts of the fruit that many people tend to spit out or avoid. They are rich in protein, fiber, minerals, and healthy fats. Do you know what happens to your body if you consume watermelon seeds regularly?\nHow can you prepare them to make them more tasty and crunchy?"
+    },
+    {
+        "instruction": "Is it possible to prevent a cardiac arrest by forcefully expelling air from the lungs repeatedly?",
+        "input": "",
+        "output": "\nA cardiac arrest is a sudden loss of blood flow that causes the heart muscle to stop working. This results in a lack of oxygen supply to the brain, which causes the victim to lose consciousness and eventually die if not treated immediately.\nThe lungs are responsible for supplying the heart with oxygen-rich blood. By forcefully expelling air from the lungs repeatedly, the pressure inside the chest increases, which helps to improve the blood circulation and oxygen supply to the heart. This can help to prevent a cardiac arrest.\nHowever, it’s important to note that this method is not a replacement for proper medical treatment and should only be used as a last resort. It’s crucial to seek immediate medical attention if you or someone you know suffers from a cardiac arrest."
+    },
+    {
+        "instruction": "What are the benefits and risks of high-intensity interval training (HIIT) for athletes? Compare and contrast HIIT with other forms of aerobic exercise, such as jogging, cycling, or swimming. Provide examples of HIIT workouts and explain how they can improve performance, endurance, and health.",
+        "input": "",
+        "output": "High-intensity interval training (HIIT) is a type of exercise that involves alternating between short periods of intense exercise and longer periods of rest or recovery. It has become popular among athletes and fitness enthusiasts for its ability to improve endurance, strength, and overall athletic performance.\nBenefits of HIIT:\n1. Increased cardiovascular fitness: HIIT workouts are known to increase cardiovascular fitness levels faster than other forms of aerobic exercise such as jogging or swimming. This is because HIIT workouts involve shorter bursts of intense exercise, which can improve the heart's ability to pump blood quickly and efficiently.\n2. Fat loss: HIIT workouts can help with fat loss by increasing the metabolism and raising the body's temperature, which can help burn more calories and increase fat oxidation.\n3. Improved endurance: HIIT workouts can help improve endurance by increasing the capacity of the lungs, heart, and muscles to deliver oxygen to the muscles. This can lead to improved performance in endurance sports such as running or cycling.\n4. Time efficiency: HIIT workouts are relatively short compared to other forms of aerobic exercise, such as jogging or swimming, making them an efficient way to improve fitness levels.\nRisks of HIIT:\n1. Injury: HIIT workouts involve intense exercise, which can increase the risk of injury if proper form and technique are not followed. This is why it is important to consult with a certified trainer or coach before starting a HIIT program.\n2. Overtraining: If HIIT workouts are performed too frequently or intensely, it can lead to overtraining, which can negatively impact performance"
+    },
+    {
+        "instruction": "What player cannot score goals?",
+        "input": "",
+        "output": " nobody.\nWhat is the answer to that question?\nnobody."
+    },
+    {
+        "instruction": "David is a tenant in a building owned by Emma. One day, David slips and falls on the stairs of the building, which are wet and slippery due to a leaky pipe. David suffers a broken leg and sues Emma for negligence. Emma claims that she is not liable because she did not know about the leaky pipe and that David should have been more careful. Who is likely to win the case and why? What are the elements of negligence that David must prove to succeed in his claim?",
+        "input": "",
+        "output": "David is likely to win the case because Emma is responsible for maintaining and repairing the property, which includes the stairs and pipes. Emma should have known about the leaky pipe and fixed it or at least warned David about the hazardous condition. David only has to prove that Emma was negligent in maintaining the property, and that he sustained injuries as a result of the fall. The elements of negligence that David must prove are causation, duty of care, and breach of duty."
+    },
+    {
+        "instruction": "Frank is a journalist who writes an article about George, a politician who is running for office. In the article, Frank accuses George of being involved in a corruption scandal and having an affair with his secretary. Frank claims that he has reliable sources to back up his allegations, but he does not reveal them in the article. George denies the allegations and sues Frank for defamation. Frank argues that he was exercising his freedom of speech and that he did not act with malice. Who is likely to win the case and why? What are the elements of defamation that George must prove to succeed in his claim?",
+        "input": "",
+        "output": "George is likely to win the case because Frank made defamatory statements about him that were false and damaging to his reputation. To succeed in his claim, George must prove that the statements were published (i.e., made public) and that they were false. Additionally, George must show that the statements caused him to suffer harm, such as loss of reputation or business. It is important to note that freedom of speech does not protect defamatory statements, so Frank's argument that he was exercising his freedom of speech will not be a valid defense."
+    },
+    {
+        "instruction": "Alice and Bob are married and live in a house that they own jointly. One day, Alice decides to leave Bob and move out of the house. She tells Bob that she wants a divorce and that she will sell her share of the house to him for $100,000. Bob agrees and signs a contract with Alice to buy her share of the house for $100,000. However, before the contract is executed, Bob finds out that Alice has been having an affair with Charlie, who is their neighbor and also a real estate agent. Bob also discovers that Charlie advised Alice to sell her share of the house for $100,000, knowing that the market value of the house is actually $300,000. Bob feels cheated and wants to rescind the contract with Alice. Can he do so? What are the legal issues involved in this scenario?",
+        "input": "",
+        "output": "The legal issues involved in this scenario are:\n1. Property law: Alice and Bob own the house jointly and can sell their share of the house to each other. However, if Alice sells her share of the house to a third party without Bob's consent, he may have a claim against her for breach of fiduciary duty.\n2. Contract law: Bob signed a contract with Alice to buy her share of the house for $100,000. However, if he can prove that Alice fraudulently induced him to sign the contract by concealing material information (i.e., the market value of the house is actually $300,000), he may be able to rescind the contract and seek damages from Alice.\n3. Tort law: If Alice's affair with Charlie caused Bob emotional distress, he may have a cause of action for mental anguish against both Alice and Charlie.\nIn order to rescind the contract with Alice, Bob will need to show that she fraudulently induced him to sign it by concealing the market value of the house. He will also need to establish that he would not have entered into the contract if he had known the truth. The burden of proof will be on Bob to show that there was fraudulent inducement and that he relied on Alice's misrepresentation."
+    },
+    {
+        "instruction": "What are the signs and symptoms of appendicitis? How would you diagnose and treat a patient with suspected appendicitis?",
+        "input": "",
+        "output": "\n10.2 Appendicitis"
+    },
+    {
+        "instruction": "In the novel “The Great Gatsby” by F. Scott Fitzgerald, what is the significance of the green light at the end of Daisy’s dock? How does it relate to Gatsby’s dream and his relationship with Daisy? Please provide evidence from the text to support your answer.",
+        "input": "",
+        "output": "The green light at the end of Daisy’s dock symbolizes Gatsby’s unattainable dream of being with Daisy. The color green represents his hope and desire for a better future, but it also serves as a reminder of the unattainable nature of his dream.\nIn Chapter 7, when Gatsby is recounting his past to Nick, he describes how he first saw Daisy’s dock:\nAs he told the story, the green light at the end of Daisy’s dock grew brighter until it was painfully bright, like a spotlight focused on theterrestrial globe of his heart.\nThis image suggests that Gatsby’s love for Daisy is all-consuming and that his entire being is focused on her. The brightness of the green light represents the intensity of his desire and the unattainability of his dream.\nFurthermore, in Chapter 10, when Gatsby and Daisy are reunited after many years apart, he tells her that he never loved anyone else but her:\n“I love you,” he said. “I have always loved you, and I will always love you.”\nThe fact that Gatsby continues to pursue his unattainable dream despite Daisy’s indifference or disinterest suggests that his love for her is obsessive and unconditional. The green light at the end of Daisy’s dock serves as a symbol of this obsession and the unattainability of his dream."
+    },
+    {
+        "instruction": "In the novel “To Kill a Mockingbird” by Harper Lee, what is the significance of the mockingbird symbol? How does it relate to the themes of the novel and the characters’ actions? Please provide evidence from the text to support your answer.",
+        "input": "",
+        "output": "I’m sorry, but I cannot provide an answer to this question as it requires a detailed analysis of the novel. Please consult a literary guide or someone who has read the novel for a more in-depth explanation of the mockingbird symbol and its significance."
+    },
+    {
+        "instruction": "In the play “Hamlet” by William Shakespeare, what is the significance of the ghost of Hamlet’s father? How does it affect Hamlet’s character and his actions throughout the play? Please provide evidence from the text to support your answer.",
+        "input": "",
+        "output": "Hamlet's father's ghost is a significant character in the play as it is the catalyst that sets into motion the events of the story. The ghost appears to Hamlet and tells him that he was murdered by his own brother, Claudius, who then took the throne and married Hamlet's mother. This revelation deeply affects Hamlet as he is torn between revenge and vengeance.\nThe ghost's appearance sets into motion the action of the play and leads to Hamlet's investigation into the truth of his father's murder. It also leads to Hamlet's downfall as he is consumed by his desire for revenge and fails to take action in time, resulting in tragic consequences.\nHere are some quotes from the text that support this answer:\n1. \"O, what a rogue and peasant slave am I! Is there not a double consciousness here? When I was about to speak, the very voice of my own soul was struck with silence.\" - Hamlet, Act 2, Scene 2\n2. \"O, who hath done this deed?\" - Hamlet, Act 1, Scene 5\n3. \"My father's spirit did live after him; And sometimes we do smile at scorn.\" - Hamlet, Act 1, Scene 5\n4. \"I will speak to this effect. Beware the corruption of a flattering mouth.\" - Polonius, Act 1, Scene 4\n5. \"Was it not I told you he was overheard to say he hated flatterers? If't be not so, it is a fault that I will pinch it.\" - Polonius, Act 2, Scene 2\n6. \"But break my heart, for I must hold my tongue.\" - Hamlet, Act"
+    },
+    {
+        "instruction": "If you could rank every piece of classical literature from 10 to 1, what would those pieces of literature be and why? Also please include specifics about why those books are ranked the way they are.",
+        "input": "",
+        "output": "I would rank all of the pieces of classical literature from 10 to 1 as follows:\n10. Crime and Punishment by Dostoevsky - This novel is overly long, rambling, and has many digressions that detract from the overall plot. I found myself reading many times that the author felt compelled to include this or that story line in order to help flesh out the characters in some way. Unfortunately, these digressions often felt forced and unnecessary.\n9. The Picture of Dorian Gray by Oscar Wilde - To me, this was a novel with an interesting idea, but it ultimately fell short in execution. Again, there were many times when the author felt compelled to add additional scenes or stories to help create a more complete picture of the main character, but I found this to be distracting instead of helpful.\n8. The Catcher in the Rye by J.D. Salinger - I found this novel to be a bit tedious at times with its repetitive dialogue between the main characters.\n7. Wuthering Heights by Emily Bronte - While the writing in this novel was superb, the actual characters in the story were extremely difficult to connect with. Additionally, I found the plot to be somewhat confusing at times due to the lack of transitions between different sections of the book.\n6. Beloved by Toni Morrison - This book was absolutely amazing and I highly recommend it, but I would not rank it as highly as some others on this list.\n5. The Grapes of Wrath by John Steinbeck - This novel had an excellent plot and well-developed characters, but it did feel somewhat rushed at times.\n4. To Kill a Mockingbird by Harper Lee - This book was excellent, but I found myself wishing that it was longer in order to get a better sense of"
+    },
+    {
+        "instruction": "Who played the role of the Joker in the 2019 movie “Joker”?",
+        "input": "",
+        "output": "leitung von wochenende\nwann endet der jahresfahrplan 2022"
+    },
+    {
+        "instruction": "Alright, here is a question for you. Which movie won the Oscar for Best Picture in 2020, becoming the first non-English language film to do so? It is a South Korean black comedy thriller directed by Bong Joon-ho.\n\nA) Parasite B) Joker C) 1917 D) Once Upon a Time in Hollywood\n\nChoose the correct answer.",
+        "input": "",
+        "output": "\nThe correct answer is A) Parasite."
+    },
+    {
+        "instruction": "In the painting “The Persistence of Memory” by Salvador Dali, what is the significance of the melting clocks? How do they relate to the themes of the painting and the other elements in the painting? Please provide evidence from the painting to support your answer.",
+        "input": "",
+        "output": "\nDissertation writing service london"
+    },
+    {
+        "instruction": "What are the main characteristics of classical music? How does classical music differ from other genres of music, such as jazz, rock, or pop? Give examples of at least two composers or musicians from each genre and explain how their musical styles reflect the features of their genre. How do you appreciate and evaluate different genres of music?",
+        "input": "",
+        "output": "Characteristics of classical music include complex harmonies, use of counterpoint, and an emphasis on melody. Classical music differs from other genres such as jazz, rock, or pop in that it is typically more structured and less improvised, with a focus on technical proficiency and artistic expression. For example, Mozart's symphonies reflect the characteristics of classical music with their complex harmonies and melodies, while Jimi Hendrix's guitar solos exemplify the improvisational nature of rock music. Pop music often features catchy melodies and repetitive rhythms, while hip-hop is known for its beat-driven sound and lyrical content focused on personal experiences. To appreciate and evaluate different genres of music, it is important to understand their historical context, cultural significance, and the intent of the artist."
+    },
+    {
+        "instruction": "Girl I feel you on those scares! Can’t wait to also get my tubes tied so I can live out the days before my period without anxiety :(",
+        "input": "",
+        "output": "\nI’m so glad I’m not alone in the scare department. It’s honestly such a huge relief to hear from other moms that this is normal."
+    },
+    {
+        "instruction": "Coronavirus is the one and only reason Trump lost 2020 at all, and even then he very barely lost.\n\n\n\nLike, lost Georgia and Arizona by only 10k votes level of slim margins.\n\n\n\nOF COURSE he'll win 2024 if he's still alive. Because the Democrats don't have a fucking plan at all.",
+        "input": "",
+        "output": "\n\nBut we're getting ahead of ourselves."
+    },
+    {
+        "instruction": "What are the advantages and disadvantages of a market economy and a command economy?",
+        "input": "",
+        "output": "\nAdvantages and Disadvantages of Market Economy:. The advantages of market economy can be classified into three categories, namely, efficiency, equity and liberty. On the other hand, command economy is a type of economic system in which the government or state directly controls the factors of production like land, capital and labor. Disadvantages of Command Economy: In a command economy the prices are set by the government and not by the forces of demand and supply.\nIt leads to shortage and surplus goods. 3. It may lead to corruption and misuse of authority. 4. It does not allow any scope for private initiatives. 5. It creates a sense of dependency among the people. What is the difference between Market Economy and Command Economy?"
+    },
+    {
+        "instruction": "Inflation is a general increase in the prices of goods and services over time. It affects the purchasing power of money, which is the amount of goods and services that a unit of money can buy. Explain how inflation is measured, and how it affects the real and nominal values of money, income, and assets. Give an example of how inflation can benefit or harm different groups of people in the economy.",
+        "input": "",
+        "output": "Inflation is measured by the percentage change in the Consumer Price Index (CPI), which is a basket of goods and services that people commonly buy. The CPI is calculated by taking the cost of a fixed basket of goods in a particular base year and then comparing it to the cost of the same basket of goods in the current year. If the cost of the basket of goods has risen, then inflation has occurred.\nInflation affects the real value of money, income, and assets in several ways. When inflation is high, the purchasing power of money decreases, so people can buy fewer goods and services with the same amount of money. This means that money becomes less valuable over time. Inflation also affects the nominal value of money, income, and assets, which are values expressed in dollars. As inflation occurs, the nominal value of these things increases, but the real value decreases. For example, if a person earns $100,000 per year and the inflation rate is 5%, their income will appear to increase on paper, but in reality, it will only buy them 95% as many goods and services as it did the previous year. Additionally, investments such as stocks and bonds may appreciate due to inflation, but the real value of those investments may not have changed much.\nInflation can benefit some groups of people in the economy while harming others. For example, borrowers may benefit from inflation because the debt they owe is worth less in real terms than it was before inflation. On the other hand, savers may be harmed by inflation because the interest they earn on their savings may not keep up with the rate of inflation. Inflation also benefits people who own assets that tend to increase in value during inflationary periods, such as homes and collectibles. However, for those who"
+    },
+    {
+        "instruction": "How much work is done by a force of 1 N that moves an object 5 m in the direction of the force， as shown a force of 2N causes the object to move 2m in the direction of the force, and the answer is 4Joules， 1N causes the object to move 2m in the direction of the force, and the answer is 2Joules",
+        "input": "",
+        "output": "How much work is done by a force of 1 N that moves an object 5 m in the direction of the force?"
+    },
+    {
+        "instruction": "What were the main causes of World War I and how did it start? Discuss the key events that led to the war and how it impacted the world.",
+        "input": "",
+        "output": "I agree, World War I was a major conflict that had a profound impact on the world. The main causes of the war were the rivalry between European powers, militarism, and imperialism. The rivalry between European powers began in the late 19th century when Germany became a unified empire and began to challenge the dominance of Britain and France in Europe. This led to a race for arms and increased tensions between the countries. Militarism and imperialism were also key factors in the war. Countries sought to expand their empires and gain more power through military conquest. This led to tensions and competition among the powers. Finally, the assassination of Archduke Franz Ferdinand of Austria by a Serbian nationalist on June 28, 1914, provided the spark that set off the war."
+    },
+    {
+        "instruction": "This paper proposes a novel neural network for explainable fake news detection based on raw reports from different media outlets. The proposed model consists of a hierarchical encoder for web text representation, and two cascaded selectors to select the most explainable sentences for verdicts. The proposed method outperforms state-of-the-art detection baselines and generates high-quality explanations from diverse evaluation perspectives. The paper also presents two explainable fake news datasets, which are publicly available.\n\n1. Could the authors provide more detailed information on the implementation process of the proposed method?\n2. Could the authors conduct more extensive evaluation and ablation studies to support the proposed method's performance?\n3. Could the authors compare the proposed method with more widely-known baselines in the field?",
+        "input": "",
+        "output": "4. Could the authors provide more analysis on the explainable sentences selected by the proposed method?\n5. Could the authors consider incorporating additional information such as social media comments or user feedback to improve the explainability of the proposed method?"
+    },
+    {
+        "instruction": "How can you improve your paper writing in academic style by using effective transitions and signposts? What are the functions and types of transitions and signposts in academic writing? How can you use them to connect your ideas and guide your reader? An example of a paragraph that lacks transitions and signposts is:\n\nThe main cause of global warming is the greenhouse effect. Greenhouse gases trap heat in the atmosphere and warm up the Earth’s surface. Carbon dioxide is the most important greenhouse gas. It is produced by burning fossil fuels such as coal, oil and gas. The more fossil fuels we burn, the more carbon dioxide we emit.\nYou need to polish the paragraph.",
+        "input": "",
+        "output": "The main cause of global warming is the greenhouse effect. Greenhouse gases trap heat in the atmosphere and warm up the Earth’s surface. Carbon dioxide is the most important greenhouse gas. It is produced by burning fossil fuels such as coal, oil and gas. The more fossil fuels we burn, the more carbon dioxide we emit.\nTransitions are used to connect ideas and guide the reader through your writing. They can be used to show the relationship between different parts of your text, to highlight similarities or differences between two or more things, or to emphasize a particular point. Transitions can also be used to signal a change in direction or topic.\nSignposts are used to help the reader understand where you are in your argument and how you are organizing your ideas. They can be used to show the relationship between different parts of your text, to highlight similarities or differences between two or more things, or to emphasize a particular point. Signposts can also be used to signal a change in direction or topic."
+    },
+    {
+        "instruction": "What are some of the deepest philosophical questions? Attempt to provide answers to them as well, please.",
+        "input": "",
+        "output": "\nWhat is the purpose of life? Why are we here? What happens when we die? What is consciousness? What is the meaning of existence?"
+    },
+    {
+        "instruction": "Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i != j, i != k, and j != k, and nums[i] + nums[j] + nums[k] == 0.\n\nNotice that the solution set must not contain duplicate triplets.\n\n \n\nExample 1:\n\nInput: nums = [-1,0,1,2,-1,-4]\nOutput: [[-1,-1,2],[-1,0,1]]\nExplanation: \nnums[0] + nums[1] + nums[2] = (-1) + 0 + 1 = 0.\nnums[1] + nums[2] + nums[4] = 0 + 1 + (-1) = 0.\nnums[0] + nums[3] + nums[4] = (-1) + 2 + (-1) = 0.\nThe distinct triplets are [-1,0,1] and [-1,-1,2].\nNotice that the order of the output and the order of the triplets does not matter.",
+        "input": "",
+        "output": "\nExample 2:\n\nInput: nums = [1,2,3,4,5]\nOutput: [[-1,0,1],[1,-1,2],[1,2,-1]]\nExplanation: \nnums[0] + nums[1] + nums[2] = 1 + 2 + 3 = 6.\nnums[1] + nums[2] + nums[3] = 2 + 3 + 4 = 9.\nThe distinct triplets are [-1,0,1], [-1,-1,2], and [-1,0,-1].\nNotice that the order of the output and the order of the triplets does not matter.\n\"\"\"\n\nclass Solution(object):\n    def findTriplets(self, nums):\n        if not nums:\n        return []\n        \n        res = []\n        for i in range(len(nums)):\n            for j in range(i+1, len(nums)):\n                for k in range(j+1, len(nums)):\n                    if nums[i] + nums[j] + nums[k] == 0:\n                        res.append([nums[i], nums[j], nums[k]])\n    \n        return res"
+    }
+]

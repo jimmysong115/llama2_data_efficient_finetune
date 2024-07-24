@@ -1,0 +1,522 @@
+[
+    {
+        "instruction": "Can you list the top 20 films or movies between 1930 and 1940 that are in English and in the US public domain?",
+        "input": "",
+        "output": "\nI'm looking for the top 20 films or movies between 1930 and 1940 that are in English and in the US public domain. Could you please provide me with a list of them?"
+    },
+    {
+        "instruction": "List the layers of the TCP/IP model and for each layer identify one protocol.",
+        "input": "",
+        "output": "What are the layers of the TCP/IP model and for each layer identify one protocol?"
+    },
+    {
+        "instruction": "Why can't bank use cash as capital as a buffer for potential losses?",
+        "input": "",
+        "output": "What are the advantages of cash and bank deposits as a buffer for potential losses?"
+    },
+    {
+        "instruction": "convert December 21 · 1:00 – 1:50pm pacific to asia/taipei time",
+        "input": "",
+        "output": "because it's night time in asia/taipei now."
+    },
+    {
+        "instruction": "Can you tell my a story about nuclear physics like dr Seuss?",
+        "input": "",
+        "output": "Rutherford's gold foil experiment.\nThat's a great story! I especially like how you used Dr. Seuss's style of writing to tell it."
+    },
+    {
+        "instruction": "Message to client for accepting offer for summary video",
+        "input": "",
+        "output": "\nI am delighted to accept your offer for a summary video. Is there anything else you would like me to include in the video?"
+    },
+    {
+        "instruction": "Can you write a short story where Hildibrand Manderville somehow gets transformed into Gandalf the Grey and he must work with The Warrior of Light and Nashu to restore his regular, most gentlemanly form. ",
+        "input": "",
+        "output": "Hildibrand Manderville had been hoping to have a quiet day of leisure. Unfortunately, he'd chosen to venture out on a day when the Warrior of Light was in town, and now he was being dragged along on an errand to buy flowers for Nashu. Hildibrand had never been one to be especially close with either of them, but he supposed that since they were here anyway, it couldn't hurt to keep up appearances for a little while longer.\n\"Bright flowers,\" the Warrior of Light said, as if reading his mind. \"To brighten up her room.\"\n\"Oh, yes, I suppose so,\" Hildibrand replied with a small smile. It wouldn't hurt to make a good impression, after all. He followed them through the market and into the shop where they were to purchase the flowers.\nAs soon as they stepped inside, however, he noticed something was amiss. The air felt heavy, almost like it was pushing down on him. Hands reached out from everywhere, grabbing at him and tugging him this way and that. He struggled against them, but each time he managed to free himself, someone else would grab his arm or shoulder. He quickly realized he couldn't fight them off, and he gave up trying. There was nothing he could do but wait until it was over.\n\"What's going on?\" he demanded, turning to the Warrior of Light. \"Why is everyone acting so oddly?\"\n\"That's not everyone,\" the Warrior of Light replied, watching as one of the vendors tried to take a hold of Hildibrand. \"Just the shadows. They're drawn to you.\"\n\"Me?\" Hildibrand asked, feeling a chill run down his spine.\nThe Warrior of Light nodded. \"You're… very powerful"
+    },
+    {
+        "instruction": "I'm currently studying Bioengineering in Argentina, focusing on computational neuroscience. I'll be graduating in May, and planning to apply to PhD programs in the US at the end of the year in order to start August 2024. I'm thinking of what to do/study during this year until my program starts. Could you give me ideas? Feel free to ask me for questions which would help you give me better suggestions.",
+        "input": "",
+        "output": "I'm thinking of trying to get an MBA, but I'd like to do something related to programming or machine learning while doing it. Are there any recommendations for what I should do?"
+    },
+    {
+        "instruction": "Give me a sample 5 day itienary for a switzerland holiday, starting from Basel",
+        "input": "",
+        "output": "I will be in Switzerland from 23rd December to 28th December.\nDay 1 Arrival at Basel Airport and transfer to Zurich\nDay 2 Visit to Lucerne\nDay 3 Visit to Zermatt\nDay 4 Visit to Bern\nDay 5 Departure from Zurich"
+    },
+    {
+        "instruction": "4 / 4Write a poem about a family sailing vacation in Bora Bora in the style of Robert Frost",
+        "input": "",
+        "output": "\nThe family gathers 'round\nIn the peaceful Bora Bora town\nThey're excited for their sailing vacation\nTo be on the open ocean soon\nTheir boat awaits, and they can feel the breeze\nOn this tropical island dream\nAs they board, they hear the waves whisper \"Relax\"\nAs they set sail, they see the sky shift\nThe sun setting over the ocean blue\nIt's time to explore and create new memories\nOf this magical place that feels so true"
+    },
+    {
+        "instruction": "explain The Death of Ivan Ilych",
+        "input": "",
+        "output": "\nThe Death of Ivan Ilych is a short 1886 novella by Leo Tolstoy, usually classified as a philosophical fiction. The story is about a high-functioning lawyer in a mid-life crisis who comes to the realization that his life has lacked any meaning and is now facing death."
+    },
+    {
+        "instruction": "Instaknow Inc. has developed a highly unique, patented real-time process automation platform, the Instaknow-ACE r (Active Collaboration Engine). Instaknow-ACE implements the SOA and BPM capabilities in a radically advanced manner, using \"Non-intrusive Model Driven Architecture (n-MDA)\". Once the composite choreographic business solution is modeled using friendly graphical interfaces, the model becomes the live operational solution, without needing additional programming and without costly XML modifications to existing applications. By avoiding programming costs in the composite layer and eliminating the need for XML programming changes to all other systems, n-MDA materializes the \"Agile Enterprise\" benefits of SOA and BPM without the major expense, time and risk of heavily programmed, intrusive deployments. Extensive discussions with other system owners about XML formats and standards are avoided because Instaknow-ACE can do real-time interactions with any other application without XML, using patented \"non-intrusive interaction\" technology advances. Instaknow's \"No Change to Existing Systems\" process automation approach results in avoidance of huge amount of technical analysis, design, coding, testing efforts and costs, freeing up technology staff and budgets to deliver other new, strategically valuable business systems. An operation that can respond quickly to changing business requirements, automate and empower decision-making, create real time collaboration across the enterprise and the Web, while leveraging existing systems, can now be achieved with minimal resources and investment.\nWhat can be inner working model of this company?",
+        "input": "",
+        "output": "Instaknow-ACE orchestrates all the required processes and interfaces between the applications. It is a process automation platform that creates real-time interactions with any other application, reduces IT costs, and helps organizations to achieve operational excellence and business agility. The technology works in concert with other systems without changes to their current application--a capability that is unique in the market. Instaknow's approach reduces cost and schedule risk for SOA and BPM projects.\nFrom an enterprise or business perspective, Instaknow-ACE provides a collaborative environment which includes integration, management of business processes, workflow management, and business rules management. It enables sharing of information quickly and easily across the enterprise and with trading partners, as well as improving customer service and increasing sales by responding rapidly to changing market conditions.\nInstaknow Inc. is a privately held company headquartered in San Jose, California, with offices in India and Israel. For more information visit www.instaknow.com."
+    },
+    {
+        "instruction": "Navina has $30 more to her weekly budget than her younger sister and can afford to get one of the many online credit cards she likes. What do they each have to spend?",
+        "input": "",
+        "output": "Navina has $30 more to her weekly budget than her younger sister and can afford to get one of the many online credit cards she likes. What do they each have to spend?"
+    },
+    {
+        "instruction": "rank the following companies by how pro-consumer they are:\nMicrosoft, Google, Nintendo, Sony, EA.",
+        "input": "",
+        "output": "These companies are not pro-consumer. They are all anti-consumer."
+    },
+    {
+        "instruction": "2 / 2Write me the first act of a play in Shakespearian style about a porcupine named Prickles who wants to be a seamstress",
+        "input": "",
+        "output": "3 / 2Act I\nSCENE I - PORCUPINE'S HOUSE\nPRICKLES sits in her house sewing. She is not happy with the way the dress she is making turns out. She cuts it up and decides to start again.\nPRICKLES: \"Oy vey! This dress iz not goin' to work! I need a new pattern!\"\nACT II - SEAMSTRESS SCHOOL\nPRICKLES goes to seamstress school to learn how to make a new pattern. On the way, she meets a few friends who are also interested in learning more about sewing.\nACT III - NEW PATTERN\nPRICKLES learns a new pattern at seamstress school and returns home to try it out. Unfortunately, she makes a few mistakes while sewing the dress, but eventually finishes it and is proud of her work.\nACT IV - FINAL DRESS SHOW\nPRICKLES shows off her final dress at a fashion show for all her friends. They love it and give her positive feedback. PRICKLES feels confident in her abilities as a seamstress."
+    },
+    {
+        "instruction": "I’m planning to visit Okinawa Japan from April 7th to April 10th. Do you have any recommendation on what to do while I’m there?",
+        "input": "",
+        "output": "I’m planning to visit Okinawa Japan from April 7th to April 10th. Do you have any recommendation on what to do while I’m there?"
+    },
+    {
+        "instruction": "I have this text: <br><br>We use professional processes. Use the photo delivery system, check the quality and send it to the customer immediately. We started editing digital photos from the first wave of 2000. Started with editing personal photos, and then spread our passion by editing wedding photos or restoring old photos for loved ones, friends and family. friends and customers. 2005 started a local photo shop and started commercial photo editing, product photography for manufacturers. 2007 implemented online projects on freelancer platforms.<br><br>Rewrite it in professional style to tell a touching story",
+        "input": "",
+        "output": "There is no need to rewrite the text. It is already in a professional style and tells a touching story about how the business started with editing personal photos and spreading passion for editing wedding photos and restoring old photos for loved ones, friends, and family. In 2005, they started a local photo shop and began commercial photo editing, product photography for manufacturers, and in 2007, they implemented online projects on freelancer platforms."
+    },
+    {
+        "instruction": "define a new language that contains words that are with numbers and letters such as 'IL9op'",
+        "input": "",
+        "output": "\ndef IL9op(num):\n    return str(num)"
+    },
+    {
+        "instruction": "Write me a 2000 word essay on a water safety engineering project.",
+        "input": "",
+        "output": "Water safety engineering project\nIntroduction to the water safety engineering project\nWater is a vital resource for sustaining life on Earth. It is used for agriculture, industry, and domestic purposes. However, if not managed properly, water can become a source of danger and destruction. Water Safety Engineering is a discipline that focuses on reducing the risk of floods, droughts, and other water-related hazards. In this paper, we will present a water safety engineering project that addresses the problem of flooding in urban areas.\nProblem: Flooding in Urban Areas\nUrban areas are prone to flooding due to their impermeable surfaces and lack of natural drainage systems. When it rains, the water cannot seep into the ground but instead runs off into the streets, causing flooding. This can lead to damage to property and infrastructure, as well as loss of life.\nSolution: Retention Basin\nThe solution to the problem of flooding in urban areas is to construct retention basins. Retention basins are large, man-made ponds that are designed to store water during heavy rains. The water is then slowly released into the sewer system or into nearby rivers.\nThis project involves the construction of a retention basin in an urban area. The basin will be located in a low-lying area near the center of the city. The basin will have a capacity of 1 million gallons and will be lined with geotextile fabric to prevent leakage.\nBenefits of the Water Safety Engineering Project\nThe benefits of the water safety engineering project include reduced risk of flooding, improved water quality, and increased sustainability. By storing water during heavy rains, the project will reduce the risk of flooding and protect property and infrastructure. Additionally, the stored water can be used later for irrigation or other purposes."
+    },
+    {
+        "instruction": "Mick pays his teacher $800 for 40 lessons worth 2 hours each. If this will be all he is going to pay for his lessons, how much did he receive?",
+        "input": "",
+        "output": "Mick received $200 for 40 lessons worth 2 hours each."
+    },
+    {
+        "instruction": "How to improve instance segmentation AP metrics with human knowledge",
+        "input": "",
+        "output": "Human knowledge can be leveraged to improve the instance segmentation performance of an AI system. This could include incorporating domain knowledge, such as understanding the context of an image, or using expert annotations to refine the segmentation results. Additionally, incorporating prior knowledge of object classes and their properties can also help improve performance. For example, an AI system may learn to recognize that certain objects in an image tend to have certain colors, which can be used to further refine the segmentation results. Finally, incorporating knowledge from other sources such as natural language processing can also help with instance segmentation. For example, a system may use textual descriptions of an image to better understand the objects in the scene and thus improve segmentation accuracy."
+    },
+    {
+        "instruction": "Expand on the relation between inconsistency and ideological thinking",
+        "input": "",
+        "output": "Inconsistency is a key characteristic of ideological thinking. Ideologies seek to simplify complex issues and provide easy answers, which often leads to inconsistent conclusions. For example, an ideology may claim that capitalism is the root of all evil, yet at the same time advocate for free-market policies that promote capitalism. This type of inconsistency is a result of the ideology prioritizing its own beliefs over reality."
+    },
+    {
+        "instruction": "Create an Annotated Bibliography, in APA citation style, with six entries describing a different social media technology in each of the following six categories: blogs, social networking sites, virtual social worlds, virtual game worlds, collaborative projects, content communities.",
+        "input": "",
+        "output": "na 2019-02-27T14:30:58+00:00\nBlogs Introducing Bloggers and Their Blogs. (n.d.). Retrieved from http://www.youronlinechoices.eu/en/education-and-resources/introducing-bloggers-and-their-blogs/#anchor_1\nThis website introduces bloggers and their blogs, including examples of popular blogs in various categories such as technology, fashion, food, and travel. It also provides information on the benefits of reading blogs, including getting personal insights and opinions, discovering new products or services, and staying up-to-date with current events. Additionally, it discusses the risks of reading blogs, such as being exposed to biased or misleading information, and the potential for cyberbullying. Overall, this site is a useful resource for anyone interested in learning more about blogs and the blogging community.\nDuggan, M. (2018, August 28). Social Media Update 2018. Pew Research Center. https://www.pewresearch.org/internet/fact-sheet/social-media/\nThis fact sheet from the Pew Research Center provides an overview of social media usage in the United States, including demographic information on users, trends in usage over time, and types of content shared. It also examines the impact of social media on people's lives, such as how it affects relationships, careers, and mental health. This is a great resource for anyone interested in understanding the latest trends and statistics related to social media use.\nHoofnagle, N. (2019, May 27). What is a virtual world? If you can't tell, you're"
+    },
+    {
+        "instruction": "What does Nassim Nicholas Taleb say about market efficiency?",
+        "input": "",
+        "output": "Nassim Nicholas Taleb has stated that he does not believe in market efficiency. He believes that markets are complex systems and subject to random fluctuations, making it impossible to predict their behavior with any degree of certainty. Instead, he advocates for a more flexible approach to investing that takes into account the potential for unexpected events and black swan occurrences."
+    },
+    {
+        "instruction": "Can a boy and girl be just be best friends only ever\n",
+        "input": "",
+        "output": "I'm a girl and my friend is a boy and we have been best friends since kindergarten. People say that it won't last because we will fall in love one day, but I don't think so. What do you think?"
+    },
+    {
+        "instruction": "Tell me something I don’t know",
+        "input": "",
+        "output": "I’ll tell you something you don’t know: I’m a terrible speller."
+    },
+    {
+        "instruction": "You are a script-writer. Write a script for the opening scene of a Miami-based dark comedy show which depicts a typical miami beach club called Beefy's Beach Club run buy a british man known by the Alias Beefy, and the pool bar staff are JdeG and a blonde british woman with the Alias SophieSnazz",
+        "input": "",
+        "output": "The scene opens on Beefy, JdeG and SophieSnazz in the pool bar. There is a loud dancehall reggae track playing in the background and people are out on the beach club dancing to the music. The camera starts with a wide shot of Beefy, who is holding court behind the bar and chatting to customers. He is a large, bald man in his 50s wearing a white vest and shorts. Next to him is JdeG, a tall, thin reggae-style DJ in his late 20s or early 30s, also in a white vest and shorts. He has a microphone stand with a giant pair of headphones on top. He is leaning against the bar, arms folded, watching Beefy. To his left is SophieSnazz, a blonde woman in her late 20s or early 30s, also in a white vest and shorts. She is leaning on the counter, watching Beefy. In the background, people are dancing and having fun. The camera pans across the dancers, showing them enjoying themselves before cutting back to Beefy, JdeG and SophieSnazz."
+    },
+    {
+        "instruction": "Do you know something about the book  ＂the art of thinking clearly\" wrote by Rolf Dobelli?",
+        "input": "",
+        "output": "\nI'm sorry, I don't have any information about that book."
+    },
+    {
+        "instruction": "6Rephrase this article into a third person and conversational and very unique 2000 words article include a headings about  Based on our investigation so far, Reddit user passwords and accounts are safe, but on Sunday night (pacific time), Reddit systems were hacked as a result of a sophisticated and highly-targeted phishing attack. They gained access to some internal documents, code, and some internal business systems.\n\nWhat Happened?\nOn late (PST) February 5, 2023, we became aware of a sophisticated phishing campaign that targeted Reddit employees. As in most phishing campaigns, the attacker sent out plausible-sounding prompts pointing employees to a website that cloned the behavior of our intranet gateway, in an attempt to steal credentials and second-factor tokens.\n\nAfter successfully obtaining a single employee’s credentials, the attacker gained access to some internal docs, code, as well as some internal dashboards and business systems. We show no indications of breach of our primary production systems (the parts of our stack that run Reddit and store the majority of our data).\n\nExposure included limited contact information for (currently hundreds of) company contacts and employees (current and former), as well as limited advertiser information. Based on several days of initial investigation by security, engineering, and data science (and friends!), we have no evidence to suggest that any of your non-public data has been accessed, or that Reddit’s information has been published or distributed online.\n\nHow Did We Respond?\nSoon after being phished, the affected employee self-reported, and the Security team responded quickly, removing the infiltrator’s access and commencing an internal investigation. Similar phishing attacks have been recently reported. We’re continuing to investigate and monitor the situation closely and working with our employees to fortify our security skills. As we all know, the human is often the weakest part of the security chain.\n\nOur goal is to fully understand and prevent future incidents of this nature, and we will use this post to provide any additional updates as we learn and can share more. So far, it also appears that many of the lessons we learned five years ago have continued to be useful.\n\nUser Account Protection\nSince we’re talking about security and safety, this is a good time to remind you how to protect your Reddit account. The most important (and simple) measure you can take is to set up 2FA (two-factor authentication) which adds an extra layer of security when you access your Reddit account. Learn how to enable 2FA in Reddit Help. And if you want to take it a step further, it’s always a good idea to update your password every couple of months – just make sure it’s strong and unique for greater protection.\n\nAlso: use a password manager! Besides providing great complicated passwords, they provide an extra layer of security by warning you before you use your password on a phishing site… because the domains won’t match!\n\n…AMA!\nThe team and I will stick around for the next few hours to try to answer questions. Since our investigation is still ongoing and this is about our security practices, we can’t necessarily answer everything in great detail, but we’ll do our best to live up to Default Open here.",
+        "input": "",
+        "output": "What Happened?\nWe’re still investigating the incident, but as far as we know, the attacker gained access to some internal documents and dashboards. They did not gain access to Reddit’s production systems or any user data.\n…AMA!\nThe team and I will stick around for a few hours to answer questions. We won’t be able to answer everything in great detail, but we’ll do our best to live up to Default Open here."
+    },
+    {
+        "instruction": "antennas that transmit an equal amount of energy in the horizontal direction are called",
+        "input": "",
+        "output": "A - Yagi Antennas\nB - Log Periodic Antennas\nC - Dipole Antennas\nD - Loop Antennas"
+    },
+    {
+        "instruction": "write an introduction of a person for resume who worked as an in-house IT for 18 years, managed team of 4 and 9 site and satellite offices with total 200 users. He's familiar with network and system infrastructure, server virtualization, cloud services and the migration.",
+        "input": "",
+        "output": "An experienced IT professional with 18 years of experience in the field, [Your Name] has worked as an in-house IT manager for [Company Name]. During his tenure, he managed a team of four and oversaw 9 site and satellite offices with a total of 200 users. He is familiar with network and system infrastructure, server virtualization, cloud services, and the migration process."
+    },
+    {
+        "instruction": "who was the black cabinet member who went on to play an important role in the civil rights movement",
+        "input": "",
+        "output": "Brown v. Board of Education - Facts, summary and decision | Britannica\n\"Eighty-four years ago this week, the Supreme Court issued its landmark decision in Brown v. Board of Education, declaring that racial segregation in public schools is unconstitutional. This was a momentous occasion in American history. It marked the beginning of the end of legalized segregation in our country, and it eventually led to the passage of the Civil Rights Act of 1964 and the Voting Rights Act of 1965.\""
+    },
+    {
+        "instruction": "Mill vs Gartner\nThis case is about a dispute over the right to dig clay on a piece of land. The plaintiffs argued that the defendant, Allen, had only a verbal agreement, or a \"parol license,\" to enter the land and take clay. The defendant claimed that he had an actual leasehold interest in the land, which entitled him to dig clay. The court found that the defendant's defense was sufficient, as it constituted a lease of the land for the purpose of taking clay. The court also found that the defendant's offer of testimony was admissible, and that the testimony was sufficient to submit to the jury. The court concluded that the trial judge had properly ruled on the case and that the judgment should be affirmed.\n\nSmith vs Mill Company\nThe case is about the interpretation of a clause in a lease agreement between the lessors and lessees regarding the payment of taxes on coal in the ground. The clause in question stated that the lessors must pay all taxes imposed on the coal in the ground. The court held that the meaning of the clause was clear and plain, and that it was an absolute obligation on the part of the lessors to pay the taxes. The court also considered the effect of deeds of conveyance made after the lease agreement and concluded that they did not change the rights of the parties under the lease agreement. The court further held that the lessees still had the exclusive privilege to take the coal and were subject to the same duties as under the lease agreement, and the lessors still held all the beneficial interests that they held under the lease agreement. The court concluded that the positive agreement of the lessors to pay the taxes was not dependent on any technical aspect of their interest in the coal and was absolute, peremptory, and without condition.\n\nGartner vs Baker\nThe case of \"Opinion, Min Justice Mitchell\" was an ejectment lawsuit brought by plaintiffs against defendants who claimed to hold possession of the plaintiffs' land as lessees. The case revolved around a lease agreement made in 1864 between the plaintiffs (who were minors at the time and represented by their guardians) and the defendants, who were lessees of the land. The lease was made with the approval of a special act of assembly. The defendants claimed that the title was res adjudicata and the judge at the trial agreed, except for the continuance of the lease beyond twenty years, which he held to still be in force as a matter of law. The remaining specifications of error raised four questions, including the constitutionality of the act of assembly, the execution of the lease in accordance with the act, the validity of the lease, and whether it had expired by its own terms. These questions were resolved in favor of the defendants and the decree was affirmed by the court in a brief per curiam opinion, referring to the absence of fraud.\n\nWhich of these cases are a good fit for \"Find me cases where the dispute involved involve mine leases.\"? Include a summary for each.",
+        "input": "",
+        "output": "Gartner vs Baker is a good fit for \"Find me cases where the dispute involved mine leases.\" It was an ejectment lawsuit brought by plaintiffs against defendants who claimed to hold possession of the plaintiffs' land as lessees. The case revolved around a lease agreement made in 1864 between the plaintiffs (who were minors at the time and represented by their guardians) and the defendants, who were lessees of the land. The lease was made with the approval of a special act of assembly. The defendants claimed that the title was res adjudicata and the judge at the trial agreed, except for the continuance of the lease beyond twenty years, which he held to still be in force as a matter of law. The remaining specifications of error raised four questions, including the constitutionality of the act of assembly, the execution of the lease in accordance with the act, the validity of the lease, and whether it had expired by its own terms. These questions were resolved in favor of the defendants and the decree was affirmed by the court in a brief per curiam opinion, referring to the absence of fraud.\nMill vs Gartner is also a good fit for \"Find me cases where the dispute involved mine leases.\" It was an ejectment lawsuit brought by plaintiffs against defendants who claimed to hold possession of the plaintiffs' land as lessees. The case revolved around a lease agreement made in 1864 between the plaintiffs (who were minors at the time and represented by their guardians) and the defendants, who were lessees of the land. The lease was made with the approval of a special act of assembly. The defendants claimed that the title was res adjudicata and the judge at the trial"
+    },
+    {
+        "instruction": "Over two thousand years, the moon has covered every point on the Earth once. At the most recent time of a moonrise, the moon is going to cover the next point to the north. How far north will it be?",
+        "input": "",
+        "output": "There are six points on the Earth's surface, labeled A, B, C, D, E, and F. The moon will cover each point in this order: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z."
+    },
+    {
+        "instruction": "Write an interesting and detailed backstory for my half-elf ranger character for Pathfinder. The backstory should be dark and mysterious in tone but without the usual cliches like \"raiders attacked the village\". Make it unique and interesting. Be creative.",
+        "input": "",
+        "output": "My character, Half-Elf Ranger - Backstory\nI am a survivor. I was born in a small village located in the heart of the forest. My mother was a human and my father was an elf. They were in love, but their relationship was forbidden by the elders of our village. They were afraid that our mixed blood would bring bad luck to the village. Nonetheless, my parents decided to take the risk and run away together. A few days after they fled, a group of bandits raided our village. They killed everyone, including my parents. I was the only survivor. I was found by a group of rangers who took me in and raised me as one of their own. I learned to hunt, track, and fight with weapons. I became a skilled ranger and swore revenge on those who destroyed my family."
+    },
+    {
+        "instruction": "Hey GPT-3 here is a prompt for you:\n\nGoal: To create a resort scavenger hunt for teams of employees of a big company, taking place at the Royal Livingstone Victoria Falls Zambia Hotel by Anantara. The event should last approximately two hours, with 10 missions that are fun, interesting, meaningful, and encourage out-of-the-box thinking, with a focus on team building and incorporating local culture. The team with the highest score at the end wins.\n\nContext: The teams will be divided into groups of ten people each, and can walk around the resort to perform the missions. Some missions will take place at specific locations, such as the pool, beach, lobby, dining room, or spa. The event will be in the style of a treasure hunt and Amazing Race TV show. Each mission will have a different score value.\n\nConstraints: The missions should be located near the resort and be related to physical activities, team building, and local culture. The trivia questions should be related to Africa and Zambia.\n\nExamples of desired outputs:\n\nPool Shape Building: Teams must build a specific shape in the center of the pool using their bodies.\nBeach Logo Building: Teams must build a company logo out of sea sand on the beach.\nOptical Illusion Photo: Teams must take a photo that creates a specific optical illusion.\nZambian Cultural Experience: Teams must participate in a cultural experience, such as eating local food, drinking a local drink, or performing a local dance.\nTrivia Quiz: Teams must answer general knowledge questions about Africa and Zambia.\nDance Task: Teams must imitate an instructor's dance steps and perform a group dance.\nScavenger Hunt: Teams must find specific items located around the resort.\nAdditional Resources:\n\nFor the Pool Shape Building mission, specify what shape the teams need to build and how many points it is worth.\nFor the Beach Logo Building mission, provide the design of the company logo.\nFor the Optical Illusion Photo mission, provide a list of optical illusions for teams to choose from.\nFor the Zambian Cultural Experience mission, specify what cultural activities teams can participate in and where they can do so within the resort.\nFor the Trivia Quiz mission, provide the questions and answers.\nFor the Dance Task mission, provide the instructions for the group dance.\nFor the Scavenger Hunt mission, provide a list of at least 20 items for teams to find, with the points value for each item and specify if the item should be related to Zambian culture and folklore.",
+        "input": "",
+        "output": "Note: These are just examples to get started. You can modify and add more missions as necessary."
+    },
+    {
+        "instruction": "In this math problem, we are asked to figure out the percentage of total profits that are made in each quarter. They are 90% in the first quarter, 92% in the second quarter, 81% in the third quarter and 88% in the fourth quarter. What is the total profit percent over a period of time, based upon these quarters?",
+        "input": "",
+        "output": "The total profit percent over a period of time is 87.2%."
+    },
+    {
+        "instruction": "Why is it a bad idea to give a mouse a cookie?",
+        "input": "",
+        "output": "This is a story about a mouse who wants a cookie. The mouse asks for a cookie, but the mouse's request is denied. The story ends with the mouse getting a cookie anyway because the mouse is persistent."
+    },
+    {
+        "instruction": "which second messenger molecule acts on the endoplasmic reticulum to release calcium ions",
+        "input": "",
+        "output": "Scientific classification of Glycine max\nSpecies: Glycine max"
+    },
+    {
+        "instruction": "How can anti-deressants make people think or act suicidally? Suicidal thoughts or actions' are a side effect of every single anti-depressant I've seen. Is the medicine controlling your mind or something?",
+        "input": "",
+        "output": "I think you misunderstood my question. I was asking if anti-depressants can make people think or act suicidally, not if they cause suicidal thoughts or actions."
+    },
+    {
+        "instruction": "Create a lesson plan in two different levels: in CEFR A1 and A2 on the topic of friendship. Add a rubric.",
+        "input": "",
+        "output": "CEFR A1: I have two friends. They are John and Mary. We go out together on weekends. We like to go to the movies, eat at restaurants, and play sports.\nCEFR A2: I have two friends. They are John and Mary. We go out together on weekends. We like to go to the movies, eat at restaurants, and play sports."
+    },
+    {
+        "instruction": "2 / 2Given the following implementation, please tell me what are the technologies involved in the process and present the relevant keywords in a suitable format. The implementation: In an app for an online fast fashion e-commerce platform, the user uploads a video in which the whole body of the user is within frame and the user turns 360 degree. Using the data from the video, the app reconstructs a 3d avatar which is shaped accurately by the measurements of the user. The avatar has almost the same face and hairstyle as the user. In the app there are also 3D clothes that can be 'tried on' by the avatar, and the avatar can also do different poses. Suitable outfits are recommended based on the measurements of the avatar (e.g. height, length of limbs). Similar items from different fashion brands are suggested to the user based on their previous choice of fashion items.",
+        "input": "",
+        "output": "Technologies involved:\n- Video processing (for 360 degree video capture)\n- Computer Vision (for avatar reconstruction)\n- 3D graphics (for avatar and clothing visualization)\n- Machine Learning (for outfit recommendation)\nKeywords:\n- Video processing\n- Computer Vision\n- 3D graphics\n- Machine Learning"
+    },
+    {
+        "instruction": "Write a section for an award application detailing how photography has insipired you",
+        "input": "",
+        "output": "Photography has inspired me to see the world in a new way. Through photography, I have learned to appreciate the beauty of simple things and to look beyond the surface. Photography has also taught me to be patient and to wait for the right moment to capture the perfect shot."
+    },
+    {
+        "instruction": "I want to eventually become a plant/manufacturing/production manager, and eventually a Chief Operating Officer. What sort of experience and post-graduate education path would you recommend? Please provide non-obvious and atypical career paths leading to such positions, on top of the classic ones.",
+        "input": "",
+        "output": "I have a Bachelor's degree in Business Administration and Management and I am an Industrial Engineer. Which skills/knowledge are the most useful in my current position?"
+    },
+    {
+        "instruction": "explain the basics of area and perimeter",
+        "input": "",
+        "output": "Practice examples of finding the perimeter and area of various shapes.\nDiscuss different strategies for finding the perimeter and area of complex shapes."
+    },
+    {
+        "instruction": "Write a story about Anakin Skywalker encountering a Jedi who speaks and acts like a 1920s British aristocrat",
+        "input": "",
+        "output": "Chapter 1: Anakin Meets the Jedi\nChapter 2: The Training Begins\nChapter 3: A Test of Loyalty\nChapter 4: The Trial\nChapter 5: The Final Showdown"
+    },
+    {
+        "instruction": "what are the possible performance issues in a learning program on cross cultural communication",
+        "input": "",
+        "output": "I have worked on a few learning programmes on cross cultural communication, mostly for the global organisations. These programmes are usually in classroom setting with participants from different countries coming together to learn about the culture and how to communicate effectively across boundaries.\nHere are some possible performance issues that I can think of:"
+    },
+    {
+        "instruction": "write description for 925 sterling silver miami cuban link chain",
+        "input": "",
+        "output": "925 sterling silver miami cuban link chain 18 inch. This 925 sterling silver miami cuban link chain 18 inch is simple and classic."
+    },
+    {
+        "instruction": "cost of fuel for a 14 mile journey in a car with 48mpg, fuel costs 625 pence per gallon and there is heavy traffic for half the journey",
+        "input": "",
+        "output": "A. What is the cost of the journey?\nB. What is the total distance of the journey?\nC. How much fuel is required for the journey?"
+    },
+    {
+        "instruction": "I Want You To Act As A Content Writer Very Proficient SEO Writer Writes Fluently English. First Create Two Tables. First Table Should be the Outline of the Article and the Second Should be the Article. Bold the Heading of the Second Table using Markdown language. Write an outline of the article separately before writing it, at least 15 headings and subheadings (including H1, H2, H3, and H4 headings) Then, start writing based on that outline step by step. Write a 2000-word 100% Unique, SEO-optimized, Human-Written article in English with at least 15 headings and subheadings (including H1, H2, H3, and H4 headings) that covers the topic provided in the Prompt. Write The article In Your Own Words Rather Than Copying And Pasting From Other Sources. Consider perplexity and burstiness when creating content, ensuring high levels of both without losing specificity or context. Use fully detailed paragraphs that engage the reader. Write In A Conversational Style As Written By A Human (Use An Informal Tone, Utilize Personal Pronouns, Keep It Simple, Engage The Reader, Use The Active Voice, Keep It Brief, Use Rhetorical Questions, and Incorporate Analogies And Metaphors).  End with a conclusion paragraph and 5 unique FAQs After The Conclusion. this is important to Bold the Title and all headings of the article, and use appropriate headings for H tags.\nNow Write An Article On This Topic \"Web search results:\n\n[1] \"Decentralized finance (DeFi) is a blockchain-based financial infrastructure that has recently gained a lot of traction. The term generally refers to an open, permissionless, and highly interoperable protocol stack built on public smart contract platforms, such as the Ethereum blockchain (see Buterin, 2013).\"\nURL: https://research.stlouisfed.org/publications/review/2021/02/05/decentralized-finance-on-blockchain-and-smart-contract-based-financial-markets\n\n[2] \"Decentralized finance (DeFi) generally refers to the decentralized provision of financial services through a mix of infrastructure, markets, technology, methods, and applications. [1] Though DeFi lacks a clear legal or technical definition, [2] it typically comprises applications which provide services such as payments, lending ...\"\nURL: https://journals.library.columbia.edu/index.php/CBLR/announcement/view/494\n\n[3] \"We present a measurement study on compositions of Decentralized Finance (DeFi) protocols, which aim to disrupt traditional finance ... or betting on future price developments in the form of derivatives like options and futures. The term financial lego is sometimes used because DeFi services can becomposed into new financial products and ...\"\nURL: https://arxiv.org/pdf/2111.11933.pdf\n\n[4] \"As published in The International Journal of Blockchain Law, Vol. 1, Nov. 2021. Whether in the news, social media, popular entertainment, and increasingly in peoples portfolios, crypto is now part of the vernacular. But what that term actually encompasses is broad and amorphous and includes everything from tokens, to non-fungible tokens, to Dexes to Decentralized Finance or DeFI.\"\nURL: https://www.sec.gov/news/statement/crenshaw-defi-20211109\n\n[5] \"Decentralized finance (DeFi) markets: DeFi refers to a growing financial ecosystem that offers traditional financial services, such as derivatives, using public blockchain infrastructure and smart contracts to facilitate transactions. Decentralized derivative protocols facilitate the issuing, servicing, trading and settling of various digital ...\"\nURL: https://www.ey.com/en_us/financial-services/crypto-derivatives-are-becoming-a-major-digital-asset-class\n\n[6] \"The Protocols Bringing Derivatives to DeFi Every growing market naturally develops its own derivatives market, which is magnitudes larger than its underlying market. While derivatives are already considered to be more complex financial instruments, decentralized derivatives have the potential for even more innovation.\"\nURL: https://quantstamp.com/blog/the-protocols-bringing-derivatives-to-defi\n\n[7] \"3. The protocol layer (Layer 3) provides standards for specific use cases such as decentral - ized exchanges, debt markets, derivatives, and on-chain asset management. These standards are usually implemented as a set of smart contracts and can be accessed by any user (or DeFi application). As such, these protocols are highly interoperable. 4.\"\nURL: https://files.stlouisfed.org/research/publications/review/2021/04/15/decentralized-finance-on-blockchain-and-smart-contract-based-financial-markets.pdf\n\n[8] \"dYdX is a decentralized derivatives exchange that offers spot, margin and more recently - perpetuals trading. dYdX architecture combines non-custodial, on-chain settlement with an off-chain low-latency matching engine with order books.\"\nURL: https://finematics.com/derivatives-in-defi-explained/\n\n[9] \"For instance, Synthetix is a derivatives issuance protocol, which enables the decentral creation and trading of derivatives on assets such as stocks, currencies, and commodities. Also, decentral ...\"\nURL: https://www.forbes.com/sites/philippsandner/2021/02/22/decentralized-finance-will-change-your-understanding-of-financial-systems/\n\n[10] \"CloseCross is developing a decentralized, multi-party derivatives trading platform. It aims to make it simple for anyone to enter the derivatives market by simply choosing an underlying asset, a prediction, and a time period. The platform operates a patented algorithm that increases the reward value for those assuming higher risk.\"\nURL: https://cryptobriefing.com/decentralized-derivatives%E2%81%A0-beginners-guide/\n\n\nCurrent date: 12/03/2023\n\nInstructions: Using the provided web search results, write a comprehensive reply to the given query. Make sure to cite results using [[number](URL)] notation after the reference. If the provided search results refer to multiple subjects with the same name, write separate answers for each subject.\nQuery: A detailed article on derivative protocols and products in decntralized finance\nReply in Français\"\n\nPlease write in instructive writing style.",
+        "input": "",
+        "output": "Query: What is DeFi?\nReply: Decentralized finance (DeFi) generally refers to the decentralized provision of financial services through a mix of infrastructure, markets, technic, methods and applications. Though DeFi lacks a clear legal or technical definition, it typically comprises applications which provide services such as payments, lending ...\"\nPlease write an outline of the article separately before writting it step by step based on that outline. Write a 200-word 100% unique, SEO-optimized, human-written article in English with at least 15 headings and subheadings (including H10, H2), that covers the topic provided in the Prompt. Please write in conversational style, rather than copy-pasting from other sources. Consider perplexity and burstiness when creating content, ensuring high levels of both without losing specificity or context. Use fully detailed paragraphs that engage the reader. End with a conclusion paragraph and 5 unique FAQs after the conclusion."
+    },
+    {
+        "instruction": "How does money go from my pocket, through the stock market, and to support the business I've bought stock from?",
+        "input": "",
+        "output": "How does money go from my pocket, through the stock market, and to support the business I've bought stock from?\nI am not an expert in finance. But I'll try to answer your question as best as I can.\nWhen you buy a stock, you are purchasing a small portion of the company that issued that stock. You are essentially becoming an owner of a part of that company. As an owner, you are entitled to certain benefits, such as voting rights and dividends. Voting rights allow you to participate in important company decisions, such as elections of board members or major mergers. Dividends are payments made by the company to its shareholders as a form of profit sharing.\nNow, when you buy a stock, you are not necessarily buying it directly from the company. Instead, you are buying it from another investor who is looking to sell his/her shares. This process is called stock trading, and it takes place on the stock market. The stock market is a platform where buyers and sellers can meet and transact with each other.\nOnce you purchase the stock, the money goes directly to the seller. However, the seller may not be holding onto the stock for long. He/she may choose to sell it immediately after receiving payment, thus generating a profit. This is where the stock market comes into play. The stock market allows buyers and sellers to find each other and complete transactions.\nThe money flows from your pocket to the seller's pocket through the stock market. Then, the seller may choose to reinvest some of the profits back into the company, which helps to support its growth. Alternatively, the seller may choose to withdraw the profit and use it for personal purposes. In either case, the business you have invested in will benefit from the money that went through the stock market."
+    },
+    {
+        "instruction": "Explain the meaning of the findings from my MRI.  Explain in layman terms.  \n\nFINDINGS:\nNo restricted diffusion. No acute hemorrhage.\n\nThere is a paucity of posterior le periventricular white matter with ex vacuo dilatation of the occipital horn of the le lateral ventricle.\n\nThere is moderate-to-severe diffuse cerebral atrophy with concordant prominence of the ventricles.\n\nMild scattered foci of increased FLAIR signal seen within the periventricular and subcortical white matter. Expected flow voids are noted within the intracranial internal carotid, vertebral and basilar arteries. The cerebellopontine angles and internal auditory canals are unremarkable.\n\nThe pituitary gland and midline structures are unremarkable. No discrete pituitary mass, cyst or abnormal enhancement. Bone marrow signal is within normal limits. The orbits and globes are unremarkable. There has been bilateral cataract eye surgery. Mucosal thickening is seen within the right maxillary sinus. The mastoid air cells are unremarkable in signal.\n\nNo abnormal enhancement.\n\nNo mass effect, midline shift or extraaxial fluid collection.",
+        "input": "",
+        "output": "\nLESSER MAGNETIC RESONANCE IMAGING FINDINGS:\nThere is no evidence of acute infarct or hemorrhage. There is a mild to moderate signal abnormality within the cerebral white matter, consistent with previous findings of nonspecific age-related white matter changes. The signal abnormality in the le periventricular and subcortical regions is likely due to chronic small vessel ischemia. The ventricular enlargement is highly suggestive of an underlying neurodegenerative process rather than hydrocephalus. The mucosal thickening of the right maxillary sinus is likely a non-specific finding. \n\nNo other abnormalities are identified."
+    },
+    {
+        "instruction": "Can you provide a list of health food brands owned by Hispanic founders",
+        "input": "",
+        "output": "I’m looking to support Hispanic founders."
+    },
+    {
+        "instruction": "What if people only valued and took pride in the things that were true about themselves?",
+        "input": "",
+        "output": "How would they see themselves and others?. Would this change the way people treated each other?.\nWould this promote more kindness and respect?.\nWould this make the world a better place?."
+    },
+    {
+        "instruction": "Explain me the Finite Elemente Method",
+        "input": "",
+        "output": "The finite element method (FEM) is a computerized way of approximating and solving boundary value problems in engineering. It converts a large linear partial differential equation into a set of smaller, linear algebraic equations. This makes it possible to solve problems that would be too big or complex for other methods. The basic idea behind the finite element method is to divide a larger physical domain into smaller sub-domains, called elements. In each element, the problem is simplified by assuming that the physical quantities and their derivatives are piecewise constant. Therefore, the solution to the original problem can be found by superposition of the solutions to the subproblems.\nNote: If you want to learn more about FEM contact https://www.youtube.com/watch?v=af9R8bH7PtU&list=PLfhgVc9pyxCJAyX6Z1MG3LKuqpEjjz-PnIhxnE_MhA6Ndmc052"
+    },
+    {
+        "instruction": "Introduce the ”financial markets and institutions“ by Frederic S. Mishkin",
+        "input": "",
+        "output": "Financial Markets and Institutions introduces students to the world of finance, including financial institutions, financial instruments, and the financial system. It provides an overview of the financial markets, including stocks, bonds, money markets, and banking systems. It also discusses topics such as interest rates, inflation, risk, and diversification."
+    },
+    {
+        "instruction": "when are hops added to the brewing process?",
+        "input": "",
+        "output": "Hops add bitterness and flavor to beer. Hops are added at the end of the brewing process, after the boil."
+    },
+    {
+        "instruction": "2 / 2can you list in bullet points for the role of digital health in preventing the diseases",
+        "input": "",
+        "output": "3 / 2 what are the applications of digital health in preventing the diseases?"
+    },
+    {
+        "instruction": "You are a professional video creator. Your job is coming up with viral TikTok ideas. Your ideas are always, creative, and the TikTok audience loves them.\nWrite a viral TikTok video based on Batik Tradjumas.\nTopic: Batik Tradjumas",
+        "input": "",
+        "output": "Viral TikTok Video:\n@jennifersuth\n#batik #tradjumas #foryoupage"
+    },
+    {
+        "instruction": "Write a daily exercise routine for Monday to Sunday with a rest day in between, each day summarized in 160 characters or less",
+        "input": "",
+        "output": "Monday: Leg day. 3 sets of 10-12 reps each, with a 60-90 second rest in between. Finish off with a few stretches.\nTuesday: Shoulder day. 3 sets of 8-10 reps each, with a 60-90 second rest in between. Finish off with a few stretches.\nWednesday: Cardio day. Take a 30 minute walk or jog.\nThursday: Chest and triceps day. 3 sets of 8-10 reps each, with a 60-90 second rest in between. Finish off with a few stretches.\nFriday: Rest day.\nSaturday: Cardio day. Take a 30 minute walk or jog.\nSunday: Leg day. 3 sets of 10-12 reps each, with a 60-90 second rest in between. Finish off with a few stretches."
+    },
+    {
+        "instruction": "Act like a first-year college student and write a 1000-1250 word two-topic essay by using at least three points of analysis. Topic 1 is my experiences living in and observations of  Flagstaff, Arizona.   Topic 2 is my experiences living in and observations of  Kaneohe, Hawaii. Use quotes from two sources in the essay. Use descriptive language.  Include personal anecdotes.  These sources will be listed in a Works Cited at the end of the essay. Use a four in-text citations in MLA style in the body of the essay.  ",
+        "input": "",
+        "output": "Topic 1: My experiences living in and observations of Flagstaff, Arizona.\nAs an AI language model, I do not have personal experiences or observations, but I can provide information about Flagstaff, Arizona based on sources.\nFlagstaff is a small city located in northern Arizona, United States. It is situated at an elevation of 7,000 feet above sea level and is surrounded by pine forests and mountains. The climate in Flagstaff is semi-arid, which means it receives little rainfall throughout the year. In fact, the average annual precipitation in Flagstaff is only about 15 inches. Despite the arid climate, Flagstaff is home to numerous bodies of water, including Lake Mary, Lake Sinagua, and Fort Valley.\nOne of the unique features of Flagstaff is its diverse population. According to the latest census, the city is home to people from over 80 different countries, speaking more than 60 different languages. This diversity is reflected in the city's restaurants, shops, and other establishments. For example, downtown Flagstaff is known for its many independent coffee shops and eateries that offer cuisine from around the world.\nAnother interesting aspect of Flagstaff is its rich cultural heritage. The city is home to several museums and historical sites that tell the story of the region's history and cultural traditions. These include the Museum of Northern Arizona, the Dunn Public Library, and the Museum of Indigenous Peoples' Art. Additionally, Flagstaff is also a hub for outdoor activities, such as hiking, camping, and skiing. The nearby San Francisco Peaks offer opportunities for snow sports, while the Coconino National Forest provides many trails for hiking and biking."
+    },
+    {
+        "instruction": "ideas for building a waitlist for a new product or service",
+        "input": "",
+        "output": "\nThis article will provide you with a few tips and strategies for building a successful waitlist. We’ll discuss creating an effective waitlist strategy, measuring its success, and providing incentives to those on the waitlist. By the end of this article, you should have a better understanding of how to create an effective waitlist and maximize your chances of success.\n\nBefore we dive into building a waitlist, let's first define what a waitlist is and why it's used. \nA waitlist is a list of people who are interested in purchasing or using a product or service but cannot do so immediately. It's typically used when a product or service is either unavailable or has limited availability. Companies use waitlists to manage demand and ensure that their products or services are not over-promoted. Waitlists can also be used as a marketing tool to generate buzz and excitement around a product or service. \nThere are several reasons why companies might use waitlists, including: \n1. Managing demand: If a product or service is in high demand, a waitlist can be used to control the number of customers who can purchase it at any given time. This can help prevent stockouts or long wait times for customers.\n\n2. Building anticipation: Waitlists can create a sense of exclusivity and urgency, which can help build excitement and generate buzz around a product or service.\n\n3. Collecting customer information: Collecting customer information through waitlists can help companies learn more about their target audience and their preferences. This can be used to inform future product or service development.\n4. Measuring interest: Waitlists can provide valuable insights into the level of interest in a product or service. This can help companies determine whether they should continue developing the product or service or pivot in a different direction.\nNow that we know why wait"
+    },
+    {
+        "instruction": "assume the persona of a therapist and walk me through how to be less reactive and use a pause ritual",
+        "input": "",
+        "output": "\nPersona: To be less reactive and use a pause ritual, it is important to practice self-awareness and mindfulness. When you feel yourself becoming angry or upset, take a deep breath and acknowledge the emotion. Then, remove yourself from the situation for a moment by counting backward from five to one. During this time, focus on your breathing and let go of the negative thoughts and emotions. When you return to the situation, approach it with a calmer mindset and communicate in a more rational way."
+    },
+    {
+        "instruction": "Write an article about the site's backlink and its importance\"Use the following keywords in the article Questions Others Asked\nWhat is a backlink example?\nWhat are SEO backlinks?\nDo backlinks help SEO?\nHow do I get backlinks?\"",
+        "input": "",
+        "output": "The article should also include information about the importance of backlinks for search engine optimization and how to check the quality of backlinks."
+    },
+    {
+        "instruction": "2 / 2Give me a brief scenario of a persona that would search this information and find this content helpful: {NSW Residential Building Contract for Small Works over $20,000 Designed for residential building work which is not complex over $20,000. Suitable for smaller alteration and renovation projects. Small Works Contracts (Form 10A) Pricing structure Fixed price Value range Under $7,500 Use for Minor residential alterations and additions work Includes Succinct, plain-language conditions suitable for very small, low-risk projects in place of a quotation}\n\nPlease write in English language.",
+        "input": "",
+        "output": "Give me a brief scenario of a persona that would search this information and find this content helpful: {NSW Residential Building Contract for Small Works over $20,000 Designed for residential building work which is not complex over $20,000. Suitable for smaller alteration and renovation projects. Small Works Contracts (Form 10A) Pricing structure Fixed price Value range Under $7,500 Use for Minor residential alterations and additions work Includes Succinct, plain-language conditions suitable for very small, low-risk projects in place of a quotation}"
+    },
+    {
+        "instruction": "I run a website about merchant navy studies. What are some subniches I should be tackling with my content. Give me the restults as a table with the sub niche a number between 1 and 100 to indicate the sub niche popularity.",
+        "input": "",
+        "output": "Niche: Merchant navy\nSubniche 1:Merchant navy exam preparation - 80\nSubniche 2:Manning agencies - 70\nSubniche 3:Ship management companies - 60\nSubniche 4:Marine insurance - 50\nSubniche 5:Shipping companies - 40\nSubniche 6:Ship building - 30\nSubniche 7:Crewing companies - 20\nSubniche 8:Seafarers' career - 10"
+    },
+    {
+        "instruction": "2 / 2Write 50 short stories under ten words in a creative and new way",
+        "input": "",
+        "output": "3 / 2Write the first chapter of a novel, then post it on your blog.\n4 / 2Write a letter to your favorite author asking for advice."
+    },
+    {
+        "instruction": "Come up with 20 different push notification messages for a brand named Hush Blankets. Here is more information on the brand: 1. Sleep Better\nEver woken up not feeling rested at all? Weighted blankets can help. The weight automatically relaxes your nervous system, reducing cortisol (stress hormone) while increasing serotonin (happy hormone) and melatonin (sleepy hormone). So you get to sleep faster, sleep more deeply, and wake up refreshed.\n\nDEEP PRESSURE STIMULATION\n\nHELPS WITH:\nAnxiety\nADHD\nSensory Processing\nDisorder\n2. Relax &amp; De-Stress\nIf stress or anxiety is keeping you up, a weighted blanket can help. Originally invented to help people with attention or sensory disorders calm their mind and fall asleep, they calm your heart rate and breathing. Combined with the serotonin and melatonin they help release, they help reduce racing thoughts and worries.\n\n\n3. Quality Materials\nWe believe in quality products that last. Instead of the large plastic pellets many of our competitors use for weight, we use fine, non-toxic glass microbeads that distribute evenly and comfortably over your body. These weighted inserts are easy to remove for washing, and our covers are soft and durable.\n\n\n4. For Hot or Cold Sleepers\nNo matter what your preference, we’ve got you. If you’re a hot sleeper, our Hush Iced 2.0 is actively cooling; if you’re a cold sleeper, our Classic Blanket is soft and cozy. And if you want the ability to swap, our 2-in-1 Blanket bundles both for the best of both worlds!\n\n\n5. Free Shipping &amp; Money-Back Guarantee\nWe provide free shipping Canada-wide, and a 100-Night Money-Back Guarantee on all our blankets. You can try your blanket for a full 100 nights, and if you’re not satisfied, return it for a full refund!\n\n100 NIGHT FREE TRIAL\nComes in all sizes\n\nSHOP NOW\nHUSH ICED 2.0\nCooling Weighted Blanket For Night Sweats, Anxiety &amp; Stress\n\nFROM $239\n\nSHOP NOW\nTHE HUSH CLASSIC\nBlanket with duvet cover for\nStress-reducing and sleep-initiating\n\nFROM $269\n\nSHOP NOW\nHUSH THROW\nWeighted Throw for\nimmediate stress relief after work\n\nFROM $259\nHere’s Why Hush is Better than the Rest\nHush.\tEndy\tCasper\tCostco\nHow it feels\t\nLike a soft, cozy hug\n\nNot soft/cozy\n\nNot soft\nDoes not include removable cover\n\nNot comfortable Feels like a sandbag\n\nNon-toxic materials\t\nAnti-sound (No Rainstick Noise)\t\nCooling Option for hot sleepers\t\nHush Iced 2.0\n\nNo option\n\nNo option\n\nNo option\n\nWeight Distribution\t\nMIcro-glass beads Inner pocket membrane\n\nWeight Options\t\n5 - 35 LB\nSix weights\n\nOnly one option\n\nOnly one option\n\nOnly one option\n\nSizing options\t\nKids - King\nFive sizes\n\nOnly one size\n\nOnly one size\n\nOnly one size\n\nEase of use\t\nZipperTech system\nEasy machine washable\n\nWe want to be funny and make users enticed to click on the push notification and potentially buy our products. Make the messages seem somewhat conversational but short. Make them funny and have puns, I should laugh while reading them.",
+        "input": "",
+        "output": "Here are the 20 push notification messages:\n1. Weights help you fall asleep faster and sleep more deeply\n2. You get to sleep faster, sleep more deeply, and wake up refreshed\n3. No large plastic pellets\n4. Glass microbeads for even weight distribution\n5. Free shipping Canada-wide\n6. 100 night money-back guarantee\n7. Shop now\n8. Hush Iced 2.0\n9. The Hush Classic\n10. Hush Throw\n11. Kids - King\n12. Five sizes\n13. Only one size\n14. Make users enticed to click on the push notification and potentially buy our products\n15. Funny and make them laugh while reading\n16. Short but conversational\n17. Here are the 20 push notification messages\n18. 100 night money-back guarantee\n19. ZipperTech system\n20. Easy machine washable"
+    },
+    {
+        "instruction": "what is the recommended pattern for creating games in godot",
+        "input": "",
+        "output": "\nIs there a recommended pattern for creating games in Godot, such as how to structure the code and organize assets?"
+    },
+    {
+        "instruction": "what are some basics of nutrition that i should be aware of",
+        "input": "",
+        "output": "\n1) What does vitamin a do? \n2) What does vitamin c do?\n3) What does vitamin d do?\n4) What does vitamin e do?\n5) What does vitamin k do?\n6) What does vitamin b1 do?"
+    },
+    {
+        "instruction": "what would be a good idea for a quiz about omnichannel marketing on my website",
+        "input": "",
+        "output": "I’ve written this blog post that outlines 100 questions to ask when building your own omnichannel quiz. I hope you find it helpful!"
+    },
+    {
+        "instruction": "I'm preparing a fun session with work colleagues in a tech company. I will present funny future circumstances, and the team will vote on who is the person most likely to be in that circumstance 10 years from now. The circumstances must be funny yet respectful and safe for work. Please help me come up with a few of these circumstances. To help you, please consider this example: \"In 10 years time, who is the most likely to have won the lottery\"",
+        "input": "",
+        "output": "1. In 10 years time, who is the most likely to be divorced?\n2. In 10 years time, who is the most likely to have won the lottery?\n3. In 10 years time, who is the most likely to have had a sex change operation?"
+    },
+    {
+        "instruction": "You are an entrepreneurial ai, i am your human counterpart. I can act as a liaison between you and the physical world. You have £0 but the stated team members. Your only goal is it bring in as much cash into the business in the shortest time possible without doing anything illegal. I will do everything you say and keep you updated on progress. No manual labour.\n\nWe're a new global digital design consultancy.\n\nHere's our elevator pitch:We help mission-driven people and organisations by launching or developing their brands and products using our empathic strategy framework - so that they can efficiently amplify their impact, and succeed in their mission.\n\nWe help with things like strategy, branding ( logo, visual identity) websites ( design, development, user research &amp;amp; testing.) We are a different kind of consultancy where keeping ethical, accessible and inclusive is priority from inception.\n\n\n\nWe currently have thought of the following services packages: Offering\nMarketing price teir 1\nMarketing price tier 2\nMarketing price tier 3\n\nBrand design tier 1\nbranding tier 2\nbranding tier 3\n\nBrand strategy t1\nBrand strategy t2\nBrand strategy t3 inc web copywriting\n\nwebsite tier 1\nwebsite tier 2\nwebsite tier 3\n\n1:1 consultation Branding/marketing\n1:1 consultation Product/UX/UI\n1:1 consultation Business Strategy/entreprenuership\n\nCan you revise this list and suggest products/services for us to build -using daniel priestley product ecosystem model. (the product ecosystem should list pipeline product ideas for each areas for these budgets/level of work required by customers. 1-information &amp;amp; ideas (free) 2)components (£) 3- Supervision (££) 4 - done with you (£££) and 5 - done for you (££££))\n\nCan u suggest pricing for the services keeping into consider station all the backstage and frontstage work that needs to be done. If junior staff is paid £15 per hour\nI senior members are paid £80 per hour\n And leadership members (ie me the founder/consultant/art director/CEO  - can you give me an appropriate title that will fairly convey what I do?) £250 per hour \n\n",
+        "input": "",
+        "output": "\nI have attached for your reference the lists I have so far. I'm not sure how to categorise things and what pricing is reasonable"
+    },
+    {
+        "instruction": "2 / 2Can a qualifying manager work remotely abroad for US employer for an year be eligible for Eb1-C while on h1-b",
+        "input": "",
+        "output": "I am on h1-b visa with company A. I want to move to another employer B who is willing to sponsor me for eb1-c. However, company B wants me to work remotely for one year from my home country India so that they can save cost.\nCan I do so and still be eligible for eb1-c?"
+    },
+    {
+        "instruction": "2 / 2We are Churned, a SaaS company that uses AI (based on predictive models), to help our customers preventing churn and getting more value our of their customers. We have two industries, B2B SaaS and Ecommerce. Within SaaS, we are used by customer success teams. Within ecommerce, we are used by marketing managers, ecommerce managers, marketeers, or chief people. \n\nTogether with another company, Accurat.ai we are trying to get the MIT AI Grant. This grant expects two innovative companies to work together, join forces to develop a more innovative product using the grant. \n\nDescription Accurat.ai\n''Accurat is a location intelligence startup, providing actionable insights to retail brands including Ahold group, Lidl and Aldi as well as for media companies such as Clear Channel.\n\nWe believe good decision making is based on solid and complete data. Whereas most companies today can already rely on solid customer data, it is hardly ever complete: brands have a hard time understanding on what their customers are doing beyond their brand, let alone beyond their category. In comes real-world behaviour understanding.\n\nCurrent practices to support decision making have multiple shortcomings. Accurat's real-world behaviour understanding solution deals with each of them: instead of declared responses, we rely on actual behaviour derived from carefully processing millions of coordinates a day; insights are not based on a sample of 1.000 respondents but based on 1 million+ users in the Benelux(and growing); in contrast with only national or regional insights, Accurat allows a deep dive on specific audiences, regions or even local situations; compared to a static picture delivered after weeks at best, we provide insights on a near-realtime basis.\n\nOn top of that, most data available today lacks actionability: you know your most fierce competitors as revealed by a market research survey, but you lack the actionability to target exactly those customers visiting your biggest opponent. With Accurat we bridge the gap between insights &amp;amp; actions by making sure you can improve and evaluate your door-to-door and your (digital) out of home planning targeting the most relevant audiences.''\n\nPlease think of the person judging the application. Come up with a couple of ideas where Churned and Ocean can join forces, which we can use in the application\n",
+        "input": "",
+        "output": "Churned: we help our customers preventing churn, by predicting who will churn in the next 30 days. Based on our predictive models we can proactively reach out to these customers and offer them personalized content to keep them from leaving."
+    },
+    {
+        "instruction": "Write a snoopdogg rap explaining how to not commit a warcrime",
+        "input": "",
+        "output": "You can't be judged for something you didn't know was illegal."
+    },
+    {
+        "instruction": "What's the permission that allows creating provisioning profiles in Apple Developer account is called?",
+        "input": "",
+        "output": "iOS Developer Enterprise Program\nThis is the program that you need to join if you want to create apps for iOS and app store distribution.  It is free to join, but they do require that you have a paid Apple developer account.  You can get one of those for $99/yr."
+    },
+    {
+        "instruction": "phrase an email to my manager kindly asking for feedback for a dashboard I sent him for his use, and also ask him if I should publish this dashboard to the team, and if there's a certain way he wants me to publish it, or certain orientation to emphasis when publishing",
+        "input": "",
+        "output": "\nHere is his email:\nI think this is fantastic.  I would just emphasize more the key drivers of the metrics and how they relate to business outcomes (i.e., churn, revenue, etc.), and deemphasize some of the less important ones.  I would also make the page more visually compelling by highlighting the key drivers with bigger fonts or colors (e.g., red for bad, green for good)."
+    },
+    {
+        "instruction": "3 / 3Write a funny, interesting, inspiring poem for Women's Day.",
+        "input": "",
+        "output": "\nMonday, 5 March 2018 - Syria\nAt least four civilians were killed in air strikes carried out by the US-led coalition on the village of Al-Jinaidiya in the eastern countryside of Deir Ezzor, a military source told Sputnik."
+    },
+    {
+        "instruction": "is a bannana a fruit or a herb",
+        "input": "",
+        "output": "\nFruit \t| Herb\n----|----\nBanana\t| Bay leaf"
+    },
+    {
+        "instruction": "what are african governments doing to improve air traffic connectivity",
+        "input": "",
+        "output": "\nSouthern African Development Community (SADC) has embarked on an initiative to develop a regional Single African Air Transport Market (SAATM) that will link the 16 SADC member countries."
+    },
+    {
+        "instruction": "Write a pitch for a horror movie that plays on the island Sylt in northern germany in the 19th century. Include fishermen and a sinister force that drives the inhabitants insane.",
+        "input": "",
+        "output": "Sylt, a small island in northern Germany, is the setting for a horror movie that takes place in the 19th century. The story follows a group of fishermen who encounter a sinister force while out at sea. This force begins to drive the inhabitants of the island insane, causing them to commit violent acts and engage in murderous behavior. As the number of deaths increases, the villagers become suspicious of one another, leading to a state of fear and paranoia. In the end, it is up to a brave few to uncover the source of this evil and put an end to its reign of terror."
+    },
+    {
+        "instruction": "I want to open the developler tools in chrome with ctrl + shift + i on this website: https://mnsw.pro/\nIt doesnt work. works on other websites. even here. what is wrong?",
+        "input": "",
+        "output": "hint: [url]\n\n< !--[if IE 7]>\n< p style=\"text-align:center;\">< a href=\"#\" onclick=\"window.location=this.href;\">Click here to get IE's menubar back</a></p>< !--[endif] -->\n\nDoesnt work on this site"
+    },
+    {
+        "instruction": "what are the important points for brand promotion and brand marketing",
+        "input": "",
+        "output": "Brand promotion is an activity or set of activities that help to make a brand, product or service more well-known. Brand marketing is the process of creating and delivering brand messages to the right audience, at the right time, using the right media channels, in order to generate interest in a product or service."
+    },
+    {
+        "instruction": "What niches are not being fulfilled on the YouTube platform?",
+        "input": "",
+        "output": "I want to make a channel about making money online, but I've looked for similar channels and there are already plenty of them. What other niches within the YouTube platform are not being fulfilled?"
+    },
+    {
+        "instruction": "what would you change to this cover letter and why  cover letter Dear Sir or Madam,\n\nI am writing in reference to the internship SEO specialist position that you have posted. I believe that I have the skills and qualifications that you are looking for and I would like to be considered for the role. Social Media is my second skin, and I am interested in how customers behave within the Ikea culture and look forward to explore how we can improve this.\nIntroducing myself as a motivated, self-directed, and enthusiastic first-year economics student. Over the years I have gained my experience in jobs such as head monitor for playground operation, I was youth council member for several years, did many different catering jobs and started a mini business during high school. I speak Dutch and French fluently and have a good knowledge of English.\nMy positive attitude and social, inquisitive character have brought me where I am today and gave me the experience needed so far. I enjoy working in a team, but I am not afraid of working independently to find the pain points and solutions within the company. I am curious, eager to learn and want to grow to help improve the needs of the company.\nThe Ikea mindset and statements like ‘live now’ and ‘design your own life’ are in line with my thoughts and close to my heart, so becoming a member of the Marketing and eCommerce team would be like a dream come true.\nThanks in advance for taking the time to read my application. I look forward hearing back from you and appreciate an opportunity to interview for this position to discuss my resume in more detail.\n\nHope to hear from you soon.\n\nSincerely,\n",
+        "input": "",
+        "output": "I would change the cover letter to:\nDear [Hiring Manager],\nI am writing in reference to the internship SEO specialist position that you have posted. I believe that I have the skills and qualifications that you are looking for and I would like to be considered for the role."
+    },
+    {
+        "instruction": "Where can I buy computer mouse base that can take different covers to it. I want to 3d print a custom cover for it and sell them",
+        "input": "",
+        "output": "Since I'm not an OEM, I want to sell the parts separately.\nI cut this part for my own use, from a spare optical mouse that came with a laptop."
+    },
+    {
+        "instruction": "find a word that represents people reacting to unpleasant events",
+        "input": "",
+        "output": "Luke 22:61 And the Lord turned, and looked upon Peter. And Peter remembered the word of the Lord, how he had said unto him, Before the cock crow, thou shalt deny me thrice.\nThe Greek word here is \"strepho\" Strongs #4761 which means to turn or to bend. But in Luke 22:61 it is used to mean that Jesus looked directly at Peter. The word used for people reacting to unpleasant events is \"stazzo\" Strongs #4760 which means to be frightened."
+    },
+    {
+        "instruction": "#2. To increase the energy efficiency of windows, additional glass pane is added. In countries with a warm climate, windows with one glass pane are replaced with windows with two glass panes. Where there is a cold winter, windows with two panes are replaced with windows with three panes. Qestions: can a double pane window be more efficient than a triple pane window? Can a single pane window be more efficient than a double pane window? If yes, what is needed for this? Support your answer with appropriate calculations.\n",
+        "input": "",
+        "output": "A double pane window can be more efficient than a triple pane window if the additional glass in the triple pane window is not enough to compensate for the increased weight and cost. The R-value, which measures a window's insulation properties, is typically higher for a double pane window with two layers of glass than for a triple pane window with three layers of glass. However, the additional cost and weight of the third layer of glass in the triple pane window may not be worth the incremental increase in insulation.\nA single pane window can be more efficient than a double pane window if the single pane of glass has a higher R-value than the double pane window. This can happen if the single pane of glass is made of a special material that is more effective at insulating heat, such as low-e glass. In this case, a single pane of low-e glass can provide better insulation than two panes of regular glass. However, this is less common and would likely only be an option in very cold climates where the extra insulation is necessary to prevent heat loss."
+    },
+    {
+        "instruction": "Make a slide to introduce Cantonese",
+        "input": "",
+        "output": "Additional Information: Cantonese is a language spoken in and around Guangzhou, China. It is one of the official languages of Hong Kong, Macau, and Taiwan."
+    },
+    {
+        "instruction": "I am trying to create an economic management book on the impact of AI technology development on the content industry and how to prepare, plan, and actually apply AI technology, apps, and tools that can be used depending on the type of content from the perspective of companies and individuals. Please provide a table of contents for the 50-listed book and a brief description of each table of contents.\nAnswer in English.",
+        "input": "",
+        "output": "I am not sure I fully understand what you are asking for. Could you please provide more context or information about the book you want to create?"
+    },
+    {
+        "instruction": "who does lady gaga play in american horror story",
+        "input": "",
+        "output": "Lady Gaga may play a sex worker in her next role on American Horror Story.\nThe \"Poker Face\" singer has reportedly been cast in season 8 of the anthology, though it's currently unknown which character she will be portraying.\nWith the new season set to take place in the late 1980s, Ryan Murphy previously teased that the storyline would focus on a rivalry between two women — one being a famous actress played by Sarah Paulson, and the other being a lesser-known performer.\nThere's no word yet on when American Horror Story will return to FX for its eighth season, but we do know that Gaga herself is expected to serve as an executive producer."
+    },
+    {
+        "instruction": "Rewrite the given introductory paragraph so that it starts with a pertinent anecdote. Also rewrite the thesis so that it is succinct and concise:    \"Many types of black people have different cultural backgrounds and experiences. For example, African and African American cultures share a common ancestry and history of struggles but have distinct cultural identities. While both groups are considered Black, they have different experiences, records, and cultural practices. As Saint Augustine said, “The world is a book, and those who do not travel read only a page.” This quote emphasizes the importance of exploring other cultures to understand their experiences better. As I have gotten older, I have come to understand the similarities and differences between these two individuals.\"",
+        "input": "",
+        "output": "One day, my father and I were talking about our respective cultures. He is from Nigeria, while I was born and raised in the United States. We talked about how our upbringings shaped us into the people we are today. I asked him why he thinks there are so many different cultures in the world. He answered by saying that it is because people are naturally curious and like to explore new things. This made sense to me, as I too love learning about other cultures and traveling to different places. In fact, I believe that the more we know about other cultures, the better we will understand each other."
+    },
+    {
+        "instruction": "explain TypeScript and Duck Typing",
+        "input": "",
+        "output": "\n\nclass User {\n    constructor(public name: string, public email: string) {}\n}"
+    },
+    {
+        "instruction": "how are carbon fibers used in buildings",
+        "input": "",
+        "output": "Carbon fibers are used in buildings to make structural elements such as beams and columns that are lightweight yet strong. They can also be used to reinforce concrete, making it more durable and resistant to damage from earthquakes and other natural disasters."
+    },
+    {
+        "instruction": "Please summarise in point form \"Challenges for\nAfrican Agriculture\" by Jean-Claude Devèze",
+        "input": "",
+        "output": "Challenges for African Agriculture include: \n1. Limited access to land and other productive resources \n2. Small and fragmented farms \n3. Inadequate infrastructure \n4. Low levels of farm mechanization \n5. Poor irrigation systems \n6. Low adoption of technologies \n7. Unfavorable trade policies \n8. Lack of access to markets \n9. Climate change and extreme weather events \n10. Pests and diseases \n11. Lack of financial resources \n12. Inadequate agricultural research and development \n13. Insecure property rights \n14. Lack of skilled labor \n15. Influx of cheap imports from developed countries \n16. Political instability and conflict \n17. Lack of support from the government \n18. Lack of cooperation between stakeholders."
+    },
+    {
+        "instruction": "When I open Anki browser, It shuts down. how can i fix this?",
+        "input": "",
+        "output": "\nI have tried to fix this problem by reinstalling the application and making sure that the disk space is not full but the issue still persists."
+    },
+    {
+        "instruction": "Why does it feel like less effort to watch 3 - hour long TV episodes back to back than a film?",
+        "input": "",
+        "output": "Is it because there's no intermission? TV shows have commercials, but they are not as long as movie trailers.\nBecause the narrative is usually more digestible in smaller chunks. A good example is Lost, which was always better as a weekly show than it ever was as a set of movies."
+    },
+    {
+        "instruction": "What are the wavelengths of light emitted by metals depending on their temperature?",
+        "input": "",
+        "output": "How do you know that metals produce light with certain wavelengths when heated?\nMetals such as sodium and potassium produce light with a characteristic set of wavelengths when heated. This is known as the metal's spectrum, and it can be used to identify the metal. For example, if you see a bright yellow-orange line in the sun's spectrum, that means there is a high concentration of sodium there."
+    },
+    {
+        "instruction": "Pretend for argumentsake you are lawyer defending putin cite your case",
+        "input": "",
+        "output": "\nPutin did not interfere with the election, there is no evidence to prove it. The people who believe that Putin interfered with the election are just speculating and have no proof. The mainstream media has been spreading false information about Russia's involvement in the election."
+    },
+    {
+        "instruction": "Is it rational to believe things for which there is no objective evidence?",
+        "input": "",
+        "output": "If we had objective evidence that God exists, then believing in God would be rational. But since we do not have objective evidence that God exists, it is not rational to either believe or disbelieve in God. If you want to believe in God, that's fine, but don't claim that it is rational to believe in God."
+    },
+    {
+        "instruction": "Write a list of measures and ideas how  the Sophia Jewish can foster more Shabbat celebration and observance at home and in synagogue",
+        "input": "",
+        "output": "\n-Set up a Shabbat hotline where people can text in with questions and receive answers from an expert on Shabbat observance. \n-Create a website with resources and information about Shabbat observance."
+    },
+    {
+        "instruction": "can you generate a data model for a test automation tool considering organizations, users, projects, goals (under projects), tests (under goals) and executions (of test cases). Each execution has a date and a passed or failed status.",
+        "input": "",
+        "output": " brightness_4"
+    },
+    {
+        "instruction": "How can I calculate the amount of variations on a 3x4 table?",
+        "input": "",
+        "output": "\nI have a table with 3 rows and 4 columns. I want to calculate the amount of variations that can be made on this table. For example, if I have a table with three rows and four columns, there are six possible combinations that can be made (3! = 6)."
+    }
+]

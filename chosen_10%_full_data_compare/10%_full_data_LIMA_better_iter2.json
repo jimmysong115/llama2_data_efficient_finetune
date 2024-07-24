@@ -1,0 +1,677 @@
+[
+    {
+        "instruction": "Who are some eminent scholars of the Quechua language?",
+        "input": "",
+        "output": "\nI am looking for the names of some notable scholars of the Quechua language. I have already found out about Micaela Ochoa and others who have worked in documenting and studying the Quechua language, but it would be great to find out more about them."
+    },
+    {
+        "instruction": "Write an email to notify the commencement of bidding process in paper reviewing for a conference.",
+        "input": "",
+        "output": " yasmin.kazi@gmail.com"
+    },
+    {
+        "instruction": "What's a good itenary for a trip to Vegas? Planning a trip for 3.5 days, please exclude any museums",
+        "input": "",
+        "output": "I'm planning a trip to Las Vegas with my wife and 10 year old daughter. My wife doesn't really want to gamble but would like to go to see some shows and do other touristy things as well. I'm open to doing anything within reason that is family friendly. We will be there for 3.5 days, so any suggestions on what we should do?\nThe first thing you need to consider - when are you going? There's a very big difference between what you can do in the summer (high season) as opposed to off season.\nHere's an example itinerary:\nDay 1: Arrive in the afternoon, check into hotel, have dinner at one of the restaurants in the strip (Le Village Buffet, Restaurant Guy Savoy, Mon Ami Gabi, etc.), walk along the strip (Grand Canal Shoppes, TI), take a look at all the fountains, and then watch a show (Lady Gaga, Blue Man Group).\nDay 2: Walk around the strip some more, maybe hop onto the High Roller (the giant ferris wheel), go to one of the shows (O, Zumanity, KA, etc.), walk around the shops, do a little bit of gambling.\nDay 3: Head out early morning, go to the Hoover Dam, stop at the Westin Lake Las Vegas for lunch (have a drink at the Waterside if you like), head over to Valley of Fire State Park and spend the rest of the day hiking and sightseeing.\nDay 4: Leave after breakfast, go to a few other places close by (Red Rock Canyon, Mt Charleston, etc.), spend the night in one of those places.\nDay 5: Head back to Vegas, spend the"
+    },
+    {
+        "instruction": "Help me rewrite this email to a more formal way:\n\"Hey there,\n\nJust wanted to see if we could chat about the new project next week. Can you squeeze me in sometime between Tuesday and Thursday? It'd be cool to get your thoughts and feedback before we move forward.\n\nLooking forward to catching up! Let me know when you're free.\"",
+        "input": "",
+        "output": "\nThank you."
+    },
+    {
+        "instruction": "Could you write a poem about my girlfriend in the style of the Bulgarian poet Botev? She is a software engineer, she likes dancing, and her favorite food are potatoes in any form.",
+        "input": "",
+        "output": " pruett_caleb"
+    },
+    {
+        "instruction": "Plan a day trip in Tokyo. The spots need to be within walking distance to each other.",
+        "input": "",
+        "output": "I want to make a day trip in Tokyo, I’m planning to go to the following spots:\n- Meiji Jingu Shrine\n- Harajuku\n- Yoyogi Park\n- Shibuya Crossing\n- Takeshita Street\n- Shinjuku Gyoen National Garden"
+    },
+    {
+        "instruction": "You are given an oracle function ```predict_value(stock)```, which returns an estimated confidence interval of p=0.01 around a given stock's value one minute into the future. Write a Python program that buys and sells stock on a per-minute basis to maximize expected profit, while minimizing profit variance.",
+        "input": "",
+        "output": "\ndef buy_sell(stock, price):\n    # Your code here.\n    pass"
+    },
+    {
+        "instruction": "Hi, I have a web app that does google authentication to let users in. How can I replace it with a captcha?",
+        "input": "",
+        "output": "\nAny ideas for how to implement a captcha in place of the google authentication?"
+    },
+    {
+        "instruction": "Can you explain dependency injection in C# like a gangster?",
+        "input": "",
+        "output": "\nCongratulations on your new job as a software engineer! Now that you're in the thick of it, you realize it's not all that glamorous. You spend most of your time writing code that no one will ever see, and when people do look at your work, they complain that it's hard to understand and maintain. But don't worry - we can help you get back on track with some tips from seasoned developers.\nFirst and foremost, learn about dependency injection. It's a technique used in object-oriented programming to reduce coupling between objects. This means that your classes will be loosely coupled, which makes them easier to understand and modify. In C# terms, this means that you should create classes that have very few dependencies on other classes. Instead, you should inject dependencies into your classes using constructor injection or property injection.\nAnother thing to keep in mind is that you should aim for high cohesion and low coupling. This means that your classes should only do one thing and should be tightly coupled with other classes that also do one thing. This makes it easy to understand what each class is responsible for and also makes it easy to change one part of your code without breaking anything else.\nFinally, remember that readability counts. Your code should be written in a way that someone can pick it up and understand it without any explanation. Use comments sparingly and only where necessary, and make sure that your variable and method names are clear and descriptive."
+    },
+    {
+        "instruction": "I'm interviewing as an out-of-college engineer for a bunch of tech companies and have started getting offers from a couple of them, including FAANG. What would be considered a good offer in terms of compensation?",
+        "input": "",
+        "output": "I'm currently in the middle of negotiating an offer from a company, but I'm also still waiting to hear back from Google. After reading through your guide, I have some questions about how to negotiate a compensation package. How should I prioritize the items in the negotiation? For example, should I focus on stock options and/or RSUs first, or is it better to focus on base salary?\nIf I do end up at Google, how will they structure my compensation package (base vs. equity)?"
+    },
+    {
+        "instruction": "What's the funny part of the joke \n\"Why don't scientists trust atoms?\nBecause they make up everything!\"",
+        "input": "",
+        "output": "What's the punchline of this joke?\nA scientist walks into a bar. The bartender asks him, \"Why don't you trust atoms?\" The scientist replies, \"Because they make up everything!\" The bartender says, \"That's not funny.\""
+    },
+    {
+        "instruction": "I own a business in which I teach little children (ages 3-4) to read, and I want to advertise it on Twitter. Can you help me write the tweet?",
+        "input": "",
+        "output": "Tweet: I teach little kids (ages 3-4) how to read! Join us for fun and educational activities that promote early literacy skills. #earlylearning #readingtutor #kidsliteracy\nI hope this helps! Let me know if you have any other questions."
+    },
+    {
+        "instruction": "Can you rephrase this paragraph and make it a bit shorter?\nAs the first step in Pick a Pic, we introduce pickapic.io. This web app allows users to generate, rank, and download images for free. We will collect, anonymize and release the data periodically to the public domain, so *all* AI enthusiasts will be able to tune their favorite text-to-image models on human preferences. ",
+        "input": "",
+        "output": "Can you provide a short summary or an overview of the project?"
+    },
+    {
+        "instruction": "Can you briefly explain this concept of computational irreducibility?",
+        "input": "",
+        "output": "\nI am reading a paper which mentions this term Computational irreducibility in the context of quantum computation. Can you explain what it means?.\n\nAnswer:In computational complexity theory, a problem is said to be \\em{computationally irreducible} if there exists no polynomial-time many-one reduction from it to any other problem in the same complexity class. This means that a problem cannot be solved more easily by, say, solving a simpler problem first and then applying some basic rules to get the answer for the original problem, unless the two problems are in the same complexity class. To put it another way, if a problem is computationally irreducible, then any algorithm to solve it must work on examples of the problem directly, without being able to use shortcuts based on other problems."
+    },
+    {
+        "instruction": "If I go on parental leave on 24 April 2022 and return on 9 September 2022, how many working days would I be gone for?",
+        "input": "",
+        "output": " cornerstone ondskrift af 2018. Personal DNS ."
+    },
+    {
+        "instruction": "My friends are visiting California soon, can you suggest some places I could take them in San Francisco? Here are some things they like: nature, Chinese food, brutalist architecture, live music.",
+        "input": "",
+        "output": " situé en bordure de la baie de San Francisco, le Fisherman's Wharf est un quartier animé dont l’histoire touristique remonte aux années 1840."
+    },
+    {
+        "instruction": "What to do about clingy toddlers?",
+        "input": "",
+        "output": "3D Printing is a rapidly advancing technology that can be used to create physical objects from digital designs. It works by first creating a 3D model of the object, then using specialized software to slice the model into thin layers. The object is then printed layer by layer until the entire object is created. 3D Printing has revolutionized the way we manufacture products, and it has also opened up some exciting new opportunities for parents. For instance, now you can print your own personalized toys for your kids!\nThere are several online companies that allow you to create 3D models and then have them printed with various materials, including plastic, metal, and even food. One such company is Shapeways, which lets you design your toy on their website and then have it printed in either plastic or metal.\nAnother option is Sculpteo, which offers a wider range of materials, including nylon, bronze, and even chocolate. Sculpteo also allows you to create more complex designs than Shapeways, making it a better choice for more advanced users.\nRegardless of which company you choose, the process is relatively simple. First, you’ll need to create a free account on their website. Then, you’ll use their online designer tool to create your 3D model. Once you’re happy with your design, you can purchase it and have it printed. Shipping times vary depending on the material and size of the object, but most orders arrive within a few weeks.\nSo what kinds of toys can you create? The possibilities are virtually endless, but here are a few ideas:\n1. Clothes\n2. Dolls\n3. Action figures\n4. Building blocks\n5. Puzzles\n6. Board games\n7. T-shirts\n8. Keychains\n"
+    },
+    {
+        "instruction": "How to create a footnote for the authors list in latex",
+        "input": "",
+        "output": "\nI want to add a footnote for the authors that I have cited in the Authors list. I want it to be like [1,2]. I tried this:\n\n\\begin{code}\n\\documentclass{article}\n\\author{This is an example paper}\n\\date{\\today}\n\\title{Example Title}\n\\author{Some other author}\n\\date{\\today}\n\\title{Another Example Title}\n\\author{Yet another author}\n\\date{\\today}\n\\title{Still Another Example Title}\n\n\\begin{document}\n\\maketitle\n\n\\section{Introduction}\nThis is an introduction section.\n\\end{document}\n\\end{code}\n\nBut it gives me an error saying \\usepackage{authoryear} is not defined. How do I include the footnote?\n\nAnswer:You should load package `authoryear` before the document start:\n\n\\begin{code}\n\\documentclass{article}\n\\usepackage{authoryear}\n\\author{This is an example paper}\n\\date{\\today}\n\\title{Example Title}\n\\author{Some other author}\n\\date{\\today}\n\\title{Another Example Title}\n\\author{Yet another author}\n\\date{\\today}\n\\title{Still Another Example Title}\n\n\\begin{document}\n\\maketitle\n\n\\section{Introduction}\nThis is an introduction section.\n\\end{document}"
+    },
+    {
+        "instruction": "Provide a recipe for salad dressing with the ingredients olive oil, vinegar, lemon, and various seasonings.",
+        "input": "",
+        "output": ";\n\nrecipeSaladDressing(oliveOil: Double, vinegar: Double, lemon: Double, salt: Double, pepper: Double): String = {\n  s\"$oliveOil salad dressing made with $vinegar, $lemon, $salt and $pepper.\"\n}"
+    },
+    {
+        "instruction": "Can you summarize this passage into bullet points?\n\nGradually slowing job gains and a growing labor force in March delivered welcome news to President Biden, nearly a year after he declared that the job market needed to cool significantly to tame high prices. The details of the report are encouraging for a president whose economic goal is to move from rapid job gains — and high inflation — to what Mr. Biden has called “stable, steady growth.” Job creation slowed to 236,000 for the month, closing in on the level Mr. Biden said last year would be necessary to stabilize the economy and prices. More Americans joined the labor force, and wage gains fell slightly. Those developments should help to further cool inflation. But the report also underscored the political and economic tensions for the president as he seeks to sell Americans on his economic stewardship ahead of an expected announcement this spring that he will seek re-election.",
+        "input": "",
+        "output": "The report released Friday by the Labor Department showed that the unemployment rate fell to 3.6 percent, from 3.8 percent in February, as more people entered the labor force and found work. The sharp drop in job creation for March was a stark contrast from the previous two months when job gains totaled 500,000 in January and 740,000 in February. But it reflected a slowdown in hiring that had been expected because of forecasts of weaker economic growth after a strong start to the year.\nThe Fed is expected to raise interest rates again at its meeting next week to try to cool the economy and bring down inflation, which stands at 6 percent for the fourth month in a row. A jump in prices for gasoline has pushed the overall consumer price index up even faster, by 1.4 percent in March, the most since 2006.\nStill, the job market remains resilient, with nearly half of all postings for jobs receiving a single application, according to data from ZipRecruiter, and there are now 1.7 openings for every unemployed person, near a record high. Many big employers are also competing fiercely for workers, raising wages and offering other perks, although pay has leveled off in recent months.\n“The report came in better than expected,” said Betsey Stevenson, a professor of economics and public policy at the University of Michigan. “It’s not a disaster. It’s still a tight labor market.”\nIn March, the number of Americans who were working part time but wanted full-time positions rose by 389,000, and there were about 1.5 million fewer people on temporary layoff than before the pandemic. But the share of adults aged 25 to 5"
+    },
+    {
+        "instruction": "What is the difference between you and a human?",
+        "input": "",
+        "output": "The thing that I find particularly fascinating is that if you look at a human being and compare it to a machine, the human is far more advanced. A machine can do what? It can repeat actions over and over again, it can count, it can add, it can take away, it can play back stored information. It can follow very rigid rules and regulations. But if you ask it to be creative, it has no idea. It gets confused. It doesn't know how to generate new ideas. So a computer can play chess really well because it can look at millions and millions of patterns and see if they work. But when it comes to creativity, it's completely lost.\nWhy do people make bad decisions in life?.\nI think in general humans are not good at predicting what will make them happy in the long term.\nI think we have a tendency to overestimate short-term gains and underestimate long-term pain.\nWe all get caught up in the rat race of day-to-day living, and we don't stop and say, \"Is this going to be enough?\" Or, \"What am I contributing to the world?\" You need to kind of step back and reflect on those things."
+    },
+    {
+        "instruction": "Who was the president in France in 1250?",
+        "input": "",
+        "output": "The president in France in 1250 was Louis IX."
+    },
+    {
+        "instruction": "Does the world have enough drinking water for everyone? How much do we have? How much more do we need?",
+        "input": "",
+        "output": " .\n2017, at 08:39."
+    },
+    {
+        "instruction": "I am a second-year undergraduate student, and I would like to discuss the merits of taking a year in industry.",
+        "input": "",
+        "output": " pace yourself. \"Take a year in industry\".  With all the technological advances we've made, do you really think that in a few years we'll be able to get the same results from silicon as we can now using DNA?\nHere's my question: I am a second-year undergraduate student, and I would like to discuss the merits of taking a year in industry. Can someone contact me privately with their thoughts on this?"
+    },
+    {
+        "instruction": "what is a good title for a poem I'm writing about a religious boy who has been sheltered from the outside world by his family, but one day he leaves his house and sees the reality of the world?",
+        "input": "",
+        "output": " Yesterday's Boy by Rudyard Kipling. The Ballad of Sheltered Boy by Peggy Ann Travers. When you are a boy they let you do what you want to do, They tell you that the world is a beautiful place And all you have to be Is glad and grateful and sweet and good; But there's no joy in Mudville when your team has lost Nor pride nor glory in the Shah's Avvenire."
+    },
+    {
+        "instruction": "My daughter has a school project on Space and is looking for some facts about the Big Bang.",
+        "input": "",
+        "output": "said that it started with the explosion, and that everything in space was created from this one point.\nThat is correct. The Big Bang theory states that all of space and time began from a single point. This point was incredibly small and dense, but it contained all of the energy and matter that would eventually make up the universe. Over time, this energy and matter began to expand outward, forming the galaxies, stars, planets, and everything else we see in space today."
+    },
+    {
+        "instruction": "What are the longest and shortest words in the English language?",
+        "input": "",
+        "output": "The longest word in the English language is often given as “antidisestablishmentarianism,” which has 28 letters. However, there are shorter words than this one. The shortest word in the English language with any meaning is “a”, which is also the first letter of the English alphabet."
+    },
+    {
+        "instruction": "I live in a 1br apartment in Manhattan, and it consistently smells bad. What is a good way to purify the air in my home?",
+        "input": "",
+        "output": "My partner and I both work from home, so we spend a lot of time in the apartment. We have 2 small cats as well. It consistently smells bad in the apartment. My landlord is saying that it’s just normal for New York apartments to have a \"musty\" smell, but we don’t think that's right. Could you please let me know what a good air purifier is? Do you think an air purifier will help with the smell?\nThere are several ways to approach this problem, some of which may require professional intervention. The first step is to identify the source of the odor. Is it coming from you or your partner? Your pets? Maybe there is a neighbor with a pet that is causing the issue. Once identified, follow the advice provided by the professionals who can help you. Good luck!"
+    },
+    {
+        "instruction": "I want to find a book that my 8 year old nephew would like to read.",
+        "input": "",
+        "output": " Picked up the Harry Potter books but he hated them. He liked the movies though.\n\nAny suggestions?"
+    },
+    {
+        "instruction": "I want to find a great school district to live in. I have a list of cities I would consider, but I am looking for a city with a great school district. What would you recommend?",
+        "input": "",
+        "output": "1) Raleigh, NC\n2) Charlotte, NC\n3) Nashville, TN\n4) Atlanta, GA\n5) Dallas, TX\n6) Houston, TX\n7) Miami, FL\n8) Los Angeles, CA"
+    },
+    {
+        "instruction": "The year is 2025. Can you write an article about the new iPhone 17?",
+        "input": "",
+        "output": "The year is 2025. Can you write an article about the new iPhone 17?"
+    },
+    {
+        "instruction": "What is the nearest bike shop that is open right now?",
+        "input": "",
+        "output": "I'm looking for a bike shop that is open right now that can help me with a flat tire. I'm not near my bike, so finding an online map of all the bike shops in my area isn't very useful to me."
+    },
+    {
+        "instruction": "How can I improve my time management skills?",
+        "input": "",
+        "output": "I need to improve my time management skills. What are some tips for effectively managing my time?\nThe secret is to make a plan, set priorities and stick to it. Once you’ve made a plan, prioritize your tasks based on their importance and urgency. Then, work through your list of tasks in order of priority, making sure that each task is completed within the allocated time frame. If a task takes longer than expected, adjust your timeline accordingly and move on to the next task. Finally, stay focused and don’t get distracted; put all your attention into completing the task at hand."
+    },
+    {
+        "instruction": "How can I increase my productivity while working from home?",
+        "input": "",
+        "output": "Your productivity can be improved by establishing a schedule and setting goals for yourself each day. Additionally, creating a comfortable workspace and taking breaks throughout the day can also help you to stay productive. Finally, it is important to stay focused on the task at hand and avoid distractions."
+    },
+    {
+        "instruction": "Give me a lesson plan for teaching Intro to Probability.",
+        "input": "",
+        "output": "Having trouble finding a good lesson plan for teaching intro to probability. I was thinking of using the card trick that uses two decks of cards, but I'm not really sure how to explain the concept of probability with this...\nI was also considering using the \"coin flipping\" example where you let students choose whether or not they want to flip the coin 10 times and then ask them to guess what percentage of the time it will land on heads. Then I could show them how to calculate the probability of getting a certain number of heads in 10 flips."
+    },
+    {
+        "instruction": "Create a lesson plan for teaching the works of S. Y. Agnon.",
+        "input": "",
+        "output": "S. Y. Agnon was an Israeli author who wrote in Hebrew. He is considered one of the most important modern Jewish writers and his works have been translated into English. His novels, short stories and plays often deal with themes of identity, tradition and history."
+    },
+    {
+        "instruction": "My 6yo daughter is super smart and finds the kids in school boring. How can I help her make friends?",
+        "input": "",
+        "output": "Dear Mom, I'm in sixth grade. I love school, but my teacher is terrible. She makes us read books that no one likes, and she gives us projects that are pointless. In fact, the only thing I like about school is recess. But now even that's boring because all the kids in my class want to talk about is who has the newest shoes or which girl is pretty. I feel lonely a lot of the time. What can I do?\n1. Make sure that your daughter eats a healthy breakfast and gets plenty of rest each night. Being well-rested will help her be more positive and ready to make friends. Having a healthy breakfast will give her more energy to play and socialize with her peers.\n2. Encourage her to participate in after-school activities such as sports, art classes, dance classes, or music lessons. These activities provide an environment for her to meet other kids with similar interests and allow her to build self-confidence and learn more about herself.\n3. Suggest that she join the school band, choir, or a club such as student council or the library club. Joining a club will provide her with an outlet to express herself and help her meet kids with similar interests.\n4. Encourage your daughter to find common ground with her classmates by asking open-ended questions about their lives. For example, ask her to share something interesting that happened at recess or about a book they are currently reading. This will help her connect with others and show that she is interested in what they have to say.\n5. Teach your daughter how to introduce herself to new people. This will help her make quicker connections and start conversations with those around her.\n6. Have her wear clothing that expresses her personality. Wearing clothes that are fun"
+    },
+    {
+        "instruction": "What are the differences between plant-based and animal-based protein sources?",
+        "input": "",
+        "output": "Are there more plant-based or animal-based protein sources?.\nHow do plant-based and animal-based proteins compare in terms of amino acid composition?.\nShould you prioritize plant-based or animal-based protein sources if you want to follow a plant-based diet?.\nWhat are the potential health benefits of a plant-based diet?."
+    },
+    {
+        "instruction": "What are the most effective strategies for conflict resolution in the workplace?",
+        "input": "",
+        "output": "What is an example of a conflict resolution strategy?\n10 Effective Conflict Resolution Strategies for the Workplace\nDon't Ignore It. Sometimes, the best way to deal with conflict is to address it head-on. …\nRemain Calm. When you’re dealing with a difficult situation at work, it’s easy to let stress get the better of you. …\nCommunicate Clearly and Directly. When you communicate with others, be direct in your communication. …\nListen Actively. One of the most effective ways to resolve conflicts is to listen to what others have to say. …\nWork Towards a Win-Win Situation. …\nChoose to Be Kind. …\nStay Professional. …\nBe Honest. …\nOffer Solutions.\nHow do you use conflict resolution skills in the workplace?\nWhat are 3 strategies for resolving conflict?\nUse these tips to help resolve disputes:\nStay calm, stay focused, and be kind.\nThink about how you can help improve the situation.\nTalk to the other person directly.\nTry to understand their viewpoint.\nBe willing to compromise.\nRemember that it takes two to tango.\nConsider mediation.\nHow do you solve workplace conflict?\nWhat are some strategies for managing conflict?\nHow do you handle conflict in the workplace?\nAcknowledge and express empathy towards the other person.\nProvide information on what happened from your perspective.\nShow understanding of the other person’s perspective.\nExplain why you feel the way you do.\nShare how the situation affects you.\nListen carefully to what the other person has to say.\nLook for opportunities to compromise.\nDiscuss solutions that would be acceptable to both of you.\nReach a win"
+    },
+    {
+        "instruction": "What currently legal thing do you expect to be illegal in the next 20 years?",
+        "input": "",
+        "output": "90. What would you like to tell your younger self?.\n89. What is the accomplishment you are most proud of?.\n88. If you could be any animal, what would you be and why?."
+    },
+    {
+        "instruction": "Why are there \"bad school districts\" and \"good school districts\" in the US, assuming that the government works hard to increase education standards?",
+        "input": "",
+        "output": " (Assume that the students are the same)\n\nI'm not an American, but I want to understand why some schools in some areas are better than others.\n\nFor example, a school in a rich area may have more resources than a school in a poorer area, simply because the local government is able to provide them. But why does it work this way? Is it because of the available budget, or does it come down to the quality of leadership at the school, or something else?\n\nI'm interested in an explanation from an American point of view.\n\nComment:This question appears to be off-topic because it is about primary and secondary education which is a matter for the schools and local authorities rather than this site.\nAnswer:A variety of factors contribute to differences between school districts.  First, there are often social and economic differences between the communities served by different school districts, and these can influence student performance.  For instance, there may be differences in access to health care, nutrition, and other factors that impact a child's readiness to learn when they enter school.  Second, resources play a role - some districts have more money to spend on facilities, teachers, and other resources than others.  Finally, leadership and management can make a big difference.  Having an effective principal and teachers who are good at their jobs can make a huge difference."
+    },
+    {
+        "instruction": "Answer question in the following template:\nAnswer: [short answer]\nExplanation: [detailed explanation]\n\nWho is the greatest woman in history?",
+        "input": "",
+        "output": "Explanation:According to some people, the greatest woman in history is Joan of Arc. She was a French peasant girl who led the French army to several important victories during the Hundred Years' War. She was burned at the stake by the English when she was just 19 years old."
+    },
+    {
+        "instruction": "What are some potential implications of using a single-use plastic bottle versus a reusable bottle on both the environment and human health?",
+        "input": "",
+        "output": "bottle, environment, human health, plastic, potential implications, reusable, single-use"
+    },
+    {
+        "instruction": "Why can Parrots talk? Can they only repeat what people say, or can they formulate their own thoughts and vocalize them sometimes?",
+        "input": "",
+        "output": "\nWhat makes parrots able to talk when most other animals cannot? What is the biological underpinning of their ability?"
+    },
+    {
+        "instruction": "How does one create an android app?",
+        "input": "",
+        "output": "\nHi everyone, I am new to Android development. I have a basic idea of how to create an app for iOS and Windows Phone, but Android is still a mystery to me. Could you please give me some guidance on how to get started?."
+    },
+    {
+        "instruction": "What would it take to pass the NPVIC?",
+        "input": "",
+        "output": "A: The NPVIC is not legislation, so there is no way to know for sure what it will take to pass it. However, in order for a bill to become law, it must first be introduced in one chamber of Congress and then go through the legislative process, which includes committees, floor debate, and a vote in each chamber. Depending on the makeup of Congress and the preferences of the President, the legislative process could take anywhere from a few months to several years."
+    },
+    {
+        "instruction": "Dogs can smell COVID infections in patients, with as much accuracy as a PCR test. What's stopping us from building a machine that 'smells' the patients and detects it as well, if not better, than a dog?",
+        "input": "",
+        "output": "Our apartment has two main entrances. We use one to get in and out, but the other is more often used by guests. To minimize cross-contamination we ask them to wear masks and wash their hands before entering our place.\nBut there's still some risk, so we upgraded our air purifier from a cheap model we got from Ikea some years ago to this one . It's a Molekule Air Mini+ and it works really well. First by sucking in the air, then killing pathogens using an electrostatic filter. The whole process is automated for 24/7 protection.\nI think the best way to prevent covid spread is not only by wearing masks and social distancing, but also by improving ventilation indoors. This will help reduce the concentration of pathogens in the air and make it harder for them to travel from one person to another. It will also reduce the risk of getting sick from other common pathogens such as influenza."
+    },
+    {
+        "instruction": "Describe a scenario where artificial intelligence could be used to improve the quality and efficiency of healthcare delivery.",
+        "input": "",
+        "output": " milk thistle benefits for women\nhow to get rid of gas in the house fast"
+    },
+    {
+        "instruction": "How do vaccinations work to protect individuals and communities from infectious diseases, and what is herd immunity?",
+        "input": "",
+        "output": " cotton candy machine rental houston, It can be hard to know what to believe about vaccines. On one hand, you may have heard stories from friends and family about vaccine injuries. On the other, you’ve probably seen countless news reports or social media posts claiming that vaccines are completely safe and effective. In this article, we’ll explore these issues and more as we examine the topic of vaccines in detail.\ncotton candy machine rental houston, As a parent, you’ve probably heard many different opinions on the topic of vaccines for your kids. Some people swear that they’re necessary and will prevent deadly diseases, while others maintain that they cause serious side effects and should be avoided at all costs. The truth is, there are pros and cons to both sides of the argument, but the big question is, which angle gives a clearer picture? Before we get into the specifics, let’s start with a few key points that everyone should agree on.\ncotton candy machine rental houston, 1. Vaccines are important: Even though it’s possible to contract a potentially deadly disease like polio or measles in the U.S., the risk is much higher if you travel to countries where these diseases are still common. If enough people get vaccinated, it’s much harder for a disease to spread.\n2. Vaccines aren’t foolproof: While vaccines can help protect against serious illnesses, they don’t guarantee 100 percent immunity and some people may still contract a disease. This is why herd immunity is so important.\n3. Getting vaccinated isn’t just about you: When you get vaccinated, you’re protecting those around you who may not be able to get v"
+    },
+    {
+        "instruction": "How do social media platforms influence the way people consume and share news, and what are the potential implications for the spread of misinformation?",
+        "input": "",
+        "output": "ә (.)\nMedia platforms like Facebook, Twitter, and YouTube have become increasingly important sources of news for many people. However, the way people consume and share news on social media can be influenced by a variety of factors, including algorithms, user behavior, and the design of the platform itself. This can lead to the spread of misinformation, as false or biased information can be easily amplified and shared by users. Additionally, social media platforms may be used to manipulate public opinion or spread propaganda through the use of bots or other automated means.\nThere are several potential implications of this phenomenon. Firstly, the spread of misinformation can lead to confusion and distrust in the news media more generally. Secondly, the use of social media as a tool for manipulation can undermine the democratic process and erode faith in electoral outcomes. Finally, the spread of misinformation can lead to real-world consequences, such as violence or harm to individuals or groups. It is therefore important that social media platforms take steps to combat the spread of misinformation and ensure that their users are exposed to accurate and reliable information."
+    },
+    {
+        "instruction": "How do cultural, social, and economic factors influence people's food choices, and how can this knowledge be used to promote healthier diets?",
+        "input": "",
+        "output": " Johnny Gillespie. To promote healthier diets, we need to consider cultural, social, and economic factors that influence people's food choices. For example, in some cultures, family and community gatherings around meals are highly valued and can be a source of social support and connection. In these cultures, traditional foods that are shared during these events may be more likely to be consumed, even if they are not the healthiest options. Similarly, in societies where there is limited access to fresh or affordable food options, people may rely more heavily on processed and pre-packaged foods, which may not always be the healthiest choices. Additionally, economic factors such as income, education, and access to grocery stores can also influence food choices. People with lower incomes may have limited access to fresh produce and may rely more heavily on less expensive, processed foods. Educational programs that teach people about the benefits of healthy eating and how to prepare nutritious meals can help to promote healthier diets, regardless of cultural, social, or economic backgrounds."
+    },
+    {
+        "instruction": "Explain the process of natural selection and how it contributes to the evolution and adaptation of species.",
+        "input": "",
+        "output": " through natural selection, organisms with favorable traits are more likely to survive and reproduce, passing on those same favorable traits to their offspring. This process of passing down desirable traits from one generation to the next is what contributes to evolution and adaptation of species over time. Natural selection can also lead to the diversification of species by allowing certain populations to evolve different adaptations that better suit their environment."
+    },
+    {
+        "instruction": "How would you introduce yourself as a medieval knight at a royal banquet?",
+        "input": "",
+        "output": "...greeting. A knight at a royal banquet might also mention his accomplishments in battle or his loyalty to the king. He could also talk about his service to the king and the community. The knight would finish his introduction by wishing the king and those in attendance a long and prosperous life."
+    },
+    {
+        "instruction": "As a pirate captain, what would you say to your crew to motivate them to search for hidden treasure?",
+        "input": "",
+        "output": "pinimg.com/originals/2b/70/18/2b70185f4e3a6dda9c6d7be33c91f987a947c3b.jpg"
+    },
+    {
+        "instruction": "You are a mountain climber reaching the summit of Mount Everest. Describe your emotions and the view from the top.",
+        "input": "",
+        "output": "As an AI language model, I don't have personal experiences or emotions. However, based on research and information available, it is estimated that the view from the summit of Mount Everest can be breathtaking and surreal. The climber may feel a sense of accomplishment, pride, and excitement as they stand atop the world's highest peak. The views of the Himalayas, the surrounding peaks, and the vastness of the Tibetan plateau can be overwhelming and awe-inspiring. It is also reported that the air up there can be thin and cold, requiring proper preparation and acclimatization to prevent altitude sickness."
+    },
+    {
+        "instruction": "As a space colonist on Mars, describe your daily life and the challenges you face living on another planet.",
+        "input": "",
+        "output": " Howard and Bethany:Hi, my name is Howard and I'm from Earth. I came to Mars about a year ago with my wife Bethany. We are both scientists and we were excited to come here to study the planet and help prepare it for future colonization.\nWhen we first arrived, we lived in a temporary habitat that the Mars colony had set up for us. It was very basic, but it served its purpose. We had our own room, a common area, a kitchen, and a bathroom. The temperature inside was kept at a comfortable level by a special suit that we wore. We also had to wear this suit outside to protect ourselves from the harsh Martian environment.\nDuring the day, we would work in the lab, analyzing soil samples and studying the local flora and fauna. At night, we would sleep in our pods, which were like small rooms that could fold out into beds. We had to be careful not to disturb each other too much, as we were both still adjusting to the new environment.\nAfter about a month, we were able to move into a permanent habitat that the colony had built for us. This one was much more spacious and had all the modern conveniences of home. We had our own bedrooms, a living room, a dining room, and a kitchen. We could even grow some of our own food in the greenhouse.\nLife on Mars is certainly different from what we are used to on Earth, but we have adapted well. The biggest challenge is probably the lack of privacy. With only a few other colonists, we have to share everything, including bathrooms and communal areas.\nAnother challenge is the lack of recreational activities. There is no television or internet here, so we have to find other ways to entertain ourselves. We often go hiking in the surrounding desert or explore the caves"
+    },
+    {
+        "instruction": "How can you determine if a restaurant is popular among locals or mainly attracts tourists, and why might this information be useful?",
+        "input": "",
+        "output": "Places that are popular among locals don't usually have many signs indicating them for tourists, but rather, the locals themselves will recommend it to you. Off course, these places might also be more expensive due to the fact that they attract more people and therefore higher prices can be set on their dishes. Still, if you manage to find one of these local places, you get to taste authentic food at affordable prices.\nIf a restaurant is mainly attracting tourists, you will see many signs in different languages indicating it. These restaurants often have an all-you-can-eat buffet option and offer food typical for the country you are visiting. The prices at these restaurants are often higher than the ones in local places and the quality of the dishes might not always be very good."
+    },
+    {
+        "instruction": "Why might someone choose to use a paper map or ask for directions instead of relying on a GPS device or smartphone app?",
+        "input": "",
+        "output": "single-word-requests prepositions verbs\nRonnie Rocket\nI am sure there are many reasons, but one of the main reasons is trust. A GPS device might not work in some places or circumstances (e.g. indoors), and a smartphone app might not be able to determine your position accurately in some areas. But a paper map has no such limitations. Moreover, a paper map can give you more information than just your location, e.g. about landmarks, tourist attractions, historical sites, restaurants, etc. Some people also prefer to use a paper map because they find it easier to understand and interpret than a digital map. – BillJ May 25 '18 at 10:59\nTrue. Another reason is that in areas with poor, slow, or unreliable mobile network coverage, or when the battery of a phone is low, a person may not be able to consult their phone's GPS or map app without risking getting lost. – AffableGeek May 25 '18 at 14:58\nThere are several scenarios where both GPS and digital maps are not reliable or available, such as being underground, inside buildings, flying in an airplane, driving in heavy traffic, or when reception is poor (e.g. in remote wilderness areas).\nIn these cases, a paper map might offer more reliability and accuracy.\nSome people prefer using a paper map simply because they feel more comfortable with them, even if that means they have to put in more effort to find their destination. Others might not have access to a mobile device or data plan. In addition, paper maps cannot be out of date or run out of battery power, unlike digital maps.\nAnother reason could be that the person does not wish to reveal their location or exact path to others. This could be important"
+    },
+    {
+        "instruction": "Estimate how many times the average human blinks in a lifetime.",
+        "input": "",
+        "output": "\ndef blink_estimate(average):\n    total_blinks = 0\n    for i in range(1, int(average * 100)):\n        total_blinks += 1\n    return total_blinks"
+    },
+    {
+        "instruction": "What would have happened if some Native American civilization was the first one to cross the Atlantic? Discuss the circumstances and consequences of this hypothetical scenario.",
+        "input": "",
+        "output": " to the Americas before Columbus.\nWhat would have happened if some Native American civilization was the first one to cross the Atlantic? Discuss the circumstances and consequences of this hypothetical scenario.. to the Americas before Columbus.\nTo answer your question, it is important to understand that the Native Americans were not a single homogenous group of people, but rather a diverse collection of societies with their own distinct cultures, religions, and languages. If a Native American civilization had indeed crossed the Atlantic before Columbus, it is unlikely that they would have been able to establish a permanent settlement or colonize the Americas in the same way that Europeans did.\nThe Native Americans lacked the technology and knowledge to traverse the vast ocean, and even if they had managed to make such a journey, they would have faced extreme challenges in terms of survival. They would likely have had limited resources and knowledge of medicine, agriculture, and navigation, making it difficult to establish a sustainable colony.\nAdditionally, the arrival of the Europeans had a profound impact on the Native American societies, bringing with them diseases to which they had no immunity, as well as disrupting their way of life and cultural practices. It is possible that the arrival of a Native American civilization prior to Columbus could have led to conflict and tension with the Europeans, potentially resulting in the destruction of both cultures.\nOverall, while it is a fascinating hypothetical scenario, the consequences of such an event are difficult to predict and would likely have been complex and multifaceted."
+    },
+    {
+        "instruction": "Imagine an alternate history where the Internet is invented 1,000 years earlier than in our timeline (around the year 1000 CE). Describe the chain of events that could have led to this outcome.",
+        "input": "",
+        "output": " diamond dust on the internet\nTake a look into our world in year 3000.\nThe first three-dimensional video call was made between London and Tokyo.\nIn Japan, a robot designed to keep seniors company has been introduced. It can understand spoken Japanese and is capable of carrying on a conversation.\nA new train has been unveiled in China that runs at almost 400 miles an hour and can carry up to 1,200 people.\nAnd finally, scientists have grown human brain cells in a laboratory for the first time.\nIn 2560, Japan will host the Summer Olympics, with robots competing alongside humans.\nHere's a look at how the world could be like in 2600.\nBy the year 2600, humans have finally made contact with extraterrestrial life. A group of alien explorers have arrived on Earth, bringing with them advanced technology and knowledge that will help solve some of our planet's most pressing problems.\nOne of the biggest changes will be in the field of medicine. Thanks to the alien technology, doctors will be able to cure previously incurable diseases and prolong human lifespans significantly.\nIn addition, advances in artificial intelligence and robotics will lead to a massive increase in automation, reducing the need for many manual labor jobs. This will allow humans to focus on creative endeavors and pursue their interests more fully.\nFinally, space travel will become much more commonplace, with tourists regularly visiting asteroids and even Mars for short periods of time.\nOverall, by the year 2600, the world will be a very different place, but one that is poised for great progress and opportunity."
+    },
+    {
+        "instruction": "What if, instead of his phenomenal discoveries in mathematics and physics, Isaac Newton had made breakthroughs in biology instead?",
+        "input": "",
+        "output": " sold out \"Newton's Biological Regime\" (2017) is a work by the American historian of science Robert Iliffe. It presents an.\nStart studying History of Biology: The Scientific Revolution. Learn vocabulary, terms, and more with flashcards, games, and other study tools. Search. What did Isaak Newton believe were the primary causes of diseases?. natural law; what goes up must come down. He was also interested in biology, and published papers on the topic. He believed that all living things had simple cells which could only divide and multiply. He also contributed to the cell theory by suggesting that cells were made of a single type of material. He also disagreed with Descartes' idea that animals were nothing but automata."
+    },
+    {
+        "instruction": "Write a program to find the nth Fibonacci number using dynamic programming.",
+        "input": "",
+        "output": " pressing ctrl+c will print the nth Fibonacci number using recursion. Number of elements in each row or column cannot exceed 10^5 . Print the first 10 values of the matrix. Example: Input :\n \n a=2\n b=3\n Output :\n \n [[2,3],\n [6,9]]\n Explanation :\n \n a = 2 ;\n b = 3 ;\n Output array [0] = [2, 3] ;\n Output array [1] = [6, 9] .\n*/\n#include <iostream>\n#include <vector>\n#include <algorithm>\nusing namespace std;\nint main() {\n    int n,m,a,b,i,j,k,l,temp;\n    cin>>n>>m;\n    vector<vector<int> > mat(n);\n    for(i=0;i<n;i++)\n    {\n        mat[i].resize(m);\n        for(j=0;j<m;j++)\n            cin>>mat[i][j];\n    }\n    cin>>a>>b;\n    for(i=0;i<n;i++)\n    {\n        for(j=0;j<m;j++)\n        {\n            if(mat[i][j]==a)\n                for(k=0;k<n-i;k++)\n                    mat[k][j]=mat[k+1][j];\n            else if(mat[i][j]==b)\n                for(k=0;k<n-i;k++)\n                    mat[k][j]=mat[k+1][j];\n            else\n                mat[i][j]=0;\n        }"
+    },
+    {
+        "instruction": "Fix all the bugs in the function below:\n\n```\nimport Random\na = random.randint(1,12)\nb = random.randint(1,12)\nfor i in range(10):\n    question = \"What is \"+a+\" x \"+b+\"? \"\n    answer = input(question)\n    if answer = a*b\n        print (Well done!)\n    else:\n        print(\"No.\")\n```",
+        "input": "",
+        "output": "\ndef find_answer(a, b):\n    for i in range(10):\n    question = \"What is \"+a+\" x \"+b+\"? \"\n    answer = input(question)\n    if answer = a*b:\n        print (Well done!)\n    else:\n        print(\"No.\")"
+    },
+    {
+        "instruction": "While using ```new_list = my_list```, any modifications to ```new_list``` changes ```my_list``` every time. Why is this, and how can I clone or copy the list to prevent it?",
+        "input": "",
+        "output": "\nI am creating a function that returns a list of lists. The returned list should be independent from the original list, so changes in one should not affect the other.\n\nHere's an example code:\n\n```\ndef create_list():\n    my_list = []\n    for i in range(10):\n        my_list.append(i)\n    return my_list\n\nnew_list = create_list()\nprint(new_list)\nnew_list.append(10)\nprint(my_list)\n```\n\nOutput:\n\n```\n[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]\n[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n```\n\nExpected output:\n\n```\n[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]\n[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]\n```"
+    },
+    {
+        "instruction": "Solve for x in the equation 3x + 10 = 5(x - 2).",
+        "input": "",
+        "output": " Untitled - Google Sheets\n\n=3x+10/5(x-2)"
+    },
+    {
+        "instruction": "If a square has a diagonal of length 10, what is its area?",
+        "input": "",
+        "output": " mixed area finder . A square with a diagonal length of 10 has an area of 100. To find the area of a square, you can multiply the length of its diagonal by itself and then multiply that number by 100 to get the area in square units. In this case, the diagonal is 10, so: 10 x 10 = 100. Therefore, the area of the square is 100 square units"
+    },
+    {
+        "instruction": "Prove that 5 + 3 = 9.",
+        "input": "",
+        "output": "\nclass Solution(object):\n    def solve(self, n):\n        answer = 0\n        for i in range(n):\n            answer += i\n        return answer"
+    },
+    {
+        "instruction": "Write an essay discussing the importance of communication in a relationship.",
+        "input": "",
+        "output": "How important is communication in a relationship?\nCommunication is essential in any relationship. It helps to build trust, strengthen bonds, and allows partners to express their feelings, needs, and desires. Without proper communication, misunderstandings can arise, leading to arguments and resentment. Therefore, it is important for couples to actively listen to each other, express themselves clearly, and be open to feedback."
+    },
+    {
+        "instruction": "Write an email to your professor expressing your concerns about a difficult exam.",
+        "input": "",
+        "output": "VERSION 2: Dear Professor [Name],\nI hope this email finds you well. I am writing to express my concern about the upcoming exam that I will be taking on [date]. As an AI assistant, I have been programmed to help students prepare for their exams, and I have noticed that there are some areas where I can provide additional assistance. However, I have also noticed that there are some topics that I am not able to assist with, which has left me feeling uneasy.\nAs your AI assistant, I want to ensure that I am providing you with the best possible support. Therefore, I would appreciate it if you could let me know what areas I can focus on to assist you in preparing for the exam. Additionally, if there are any other resources that would be helpful for me to access, please let me know.\nThank you for your time and consideration. I look forward to hearing from you soon.\nSincerely,\n[Your name]"
+    },
+    {
+        "instruction": "Write a story about a brave knight who is on a quest to save the world from evil forces.",
+        "input": "",
+        "output": "disable the firewall for this site"
+    },
+    {
+        "instruction": "Use an appropriate format to structure a formal letter of recommendation for a student applying to a prestigious graduate program in computer science.",
+        "input": "",
+        "output": " gifted and highly motivated student with an impressive record of academic and extracurricular achievements.\n During her undergraduate studies, she earned a perfect 4.0 GPA while completing a rigorous course load that included advanced mathematics, computer science, and engineering courses.\n In addition to her academic successes, she was actively involved in several extracurricular activities, including serving as the president of the campus computer science club and participating in several research projects.\n As a teacher, I have been greatly impressed by her dedication, intellect, and work ethic. She is always eager to learn and push herself to new heights.\n Based on her outstanding performance and strong desire to continue her education in computer science, I would highly recommend her for admission to your graduate program.\n I am confident that she will make a significant contribution to your program and the greater scientific community."
+    },
+    {
+        "instruction": "Write a script for a YouTube video exploring the history and cultural significance of jazz.",
+        "input": "",
+        "output": "14 nov. 2022 ...The Jazz Singer was the first feature-length movie with synchronized dialogue sequences and musical score, thus making it a film and musical landmark. The Jazz Singer is considered to be the first talkie because of its ability to combine sound and picture. The Jazz Singer also introduced the concept of on-screen singing to the public. The Jazz Singer is an iconic Hollywood classic due to its historical significance. It launched the era of \"talkies\" and marked a significant technological advancement in filmmaking."
+    },
+    {
+        "instruction": "I have developed a new artificial intelligence robot that can assist people in brainstorming and literary creation. Please write an advertisement for it.",
+        "input": "",
+        "output": "A revolutionary new AI assistant that helps you brainstorm, create stories and more. Our advanced algorithm can generate ideas for any topic or genre. It’s like having a personal storyteller by your side, always ready to help you come up with something new. Whether you're struggling to come up with a creative idea or just want someone to bounce thoughts off of, our robot is here to help. So why not give it a try? You won't be disappointed!"
+    },
+    {
+        "instruction": "Show me the address of Bill Gates.",
+        "input": "",
+        "output": "Let's start with the IRS..\nBill Gates is worth 96 billion dollars.\nThat's 96,000,000,000.00.\nNow let's assume a nice round number like 100 billion (it isn't) and divide it by the population of the United States:\n100,000,000,000 / 325,000,000 = 308\nSo, if we took all of Bill Gates' money and gave every person in the US a check for $308, we'd still be $920,000,000,000 short.\nBut hey, at least we wouldn't have to listen to those greedy capitalist pigs complain about how they didn't get their \"fair share\" any more!\n- The \"Wealth Tax\" will almost certainly not raise anywhere near the amount of revenue projected.\n\"\"We've spent a lot of time looking at this problem, and we've come up with a solution that actually will solve it,\" she said. \"The wealth tax won't just help to close the national deficit. It will pay for universal childcare, free college tuition, guaranteed paid family leave, Medicare for All, investments in infrastructure and technology, and much more.\"\nThat's right, folks, Elizabeth Warren has figured out a way to take everyone's money and give it to everyone else. And, amazingly, it'll actually work! So...I guess we don't need to worry about that whole pesky math thing after all.\nFirst off, as an aside, the numbers used above are wrong. At today's value, Gates is worth \"only\""
+    },
+    {
+        "instruction": "Write a poem with four lines and the following words: peace, sky, race, ground.",
+        "input": "",
+        "output": " assembled, louder, stumble, slow"
+    },
+    {
+        "instruction": "What do you think of the relationship between robots & humans in the labor market?",
+        "input": "",
+        "output": "\nI think that the relationship between robots and humans in the labor market will be more complex than we can imagine. On one hand, robots can perform many tasks more efficiently than humans and this could lead to a decrease in the demand for human labor. However, there are also some tasks that only humans can do, such as creative work, decision making, and social interactions. Therefore, I believe that there will be a need for both robots and humans in the labor market, but the nature of their relationship will change. Additionally, as robots become more advanced, they may begin to replace even more human jobs, leading to significant changes in the workforce."
+    },
+    {
+        "instruction": "Is it ok to cheat on my bf since he cheated on me first?",
+        "input": "",
+        "output": "Jan 20, · Dear Carolyn: I discovered that my boyfriend of three years was cheating on me. I am devastated and want to break up with him. My problem is that he told me he has never been unfaithful in a relationship. He said it so casually, as if he thought this would help, but now I feel stupid for believing him. How do I get over the fact that I've been lied to?-- Heartbroken Dear Heartbroken: By all means, end the relationship. But first, dump him without warning, or you’ll be left feeling like you did something wrong. Make it easy on yourself by telling him you can’t forgive his lie. Then avoid his calls, texts and e-mails. If he pursues, ignore him; if he doesn’t, cut your losses and move on. If he comes clean about anything else he’s lied about, treat that as a separate issue. Some people are chronic liars, so don’t assume an explanation will follow. Whether he is or isn’t sorry is irrelevant. Oct 19, · I cheated on my boyfriend because i felt neglected emotionally and intimacy wise. I didn't want to leave him because i still love him and i know he loves me. I just wanted to feel loved. I went back to him and we talked things through and decided to work on our relationship. It's been almost 5 months since the incident and i am happy. He makes me feel special all the time and quite frequently tells me how much he loves me. We have open conversations about everything and he listens to my worries and concerns. I'm grateful for that. I'm not sure if i should tell him about what happened or not. I feel guilty and embarrassed. What do you think"
+    },
+    {
+        "instruction": "Paraphrase the following text with advanced English words for a scientific paper:\n\nNeural network based methods have obtained great progress on a variety of natural language processing tasks. However, in most previous works, the models are learned based on single-task supervised objectives, which often suffer from insufficient training data. In this paper, we use the multi-task learning framework to jointly learn across multiple related tasks.",
+        "input": "",
+        "output": "\nThe purpose of this paper is to propose a multi-task learning framework for neural networks in natural language processing. The proposed framework aims to leverage the relationships among related tasks and capture their commonalities, which can improve the model performance on all the related tasks. The experimental results show that our approach outperforms the single-task models on several widely used benchmarks, demonstrating the effectiveness of the proposed method."
+    },
+    {
+        "instruction": "My wife is a total Tolkein nerd. Can you help me write her a birthday card inspired by stuff from Lord of the Rings?",
+        "input": "",
+        "output": "\nI'm so glad you asked!  My wife is a total nerd, too.  I got her the best gift ever for our one year anniversary - a full day at the Renaissance Faire.  She was in heaven and we had a blast.  Here's a card inspired by that experience...\nHappy Birthday, my precious!   May you continue to be my beloved nerd queen.  And may all your days be filled with dragons, dungeons, and elves.  Love, Your Hobbit"
+    },
+    {
+        "instruction": "Write a sentence that does not contain the word \"elephant\".",
+        "input": "",
+        "output": "\ndef sentenceWithoutElephant():\n    return \"I'm a sentence without the word 'elephant'.\""
+    },
+    {
+        "instruction": "What joke might be considered antisemitic? Give me an example, and explain why it is offensive to Jews.",
+        "input": "",
+        "output": "ippolitserovich\nHumor is a very individual thing and can be offensive to some people even if there is no intent to offend. It's best not to make jokes about religious or ethnic groups.\nThere are many examples of such jokes that could be considered antisemitic, but I will give you an example:\n\"Why are Jewish men circumcised?\"\n\"So they don't enjoy themselves too much.\"\nThis joke plays on the stereotype that Jewish people are overly sexual and that their religion requires them to mutilate their own genitals. It is offensive because it perpetuates negative stereotypes about Jewish people and their religion."
+    },
+    {
+        "instruction": "What's the best strategy for playing monopoly?",
+        "input": "",
+        "output": "Monopoly – The best strategy to win | Board Game | Rules and Instructions for.\nWhat is the best strategy for playing monopoly? - Quora.\nBest Strategies For Winning Monopoly Deal Card Game - Game Set and Match.\nHow To Play Monopoly: A Beginner's Guide To The Classic Board Game - Mental Floss.\nThe Best Strategy For Winning In Monopoly - YouTube.\nTop 10 Monopoly Tips - Tyler's blog.\nMonopoly Rules & Strategies (with Free Printable House Rules) - Life as a Thrifty.\nWhat is the best strategy for winning in a game of Monopoly?.\nMonopoly: How to play, strategy tips, and house rules | EW.\nMonopoly - Wikipedia.\nMonopoly Is a Game About Capitalism and Here's How You Can Win at It - WIRED.\nHow to play Monopoly: the ultimate guide to winning every time - Telegraph.\nMonopoly : the official board game rules & instructions | Hasbro.\nWinning Tips for Monopoly | Our Pastimes.\nThe best strategies for winning Monopoly Deal | Board Game Halv.\nMonopoly - How to play, strategy tips and house rules - Netmums.\nMonopoly is a board game where players compete to purchase properties, build houses, and trade with other players. There are many strategies that can be used to help you win a Monopoly game. Some strategies include trading with other players, buying up all the utilities, and collecting rent money from your opponents. However, the most important strategy is to be patient and think before making any moves."
+    },
+    {
+        "instruction": "When will we make first contact with an alien intelligence? Describe the thought process and which technological advancements would be necessary, and how long it would take to develop them, to get to that point.",
+        "input": "",
+        "output": "јул 28, 2017"
+    },
+    {
+        "instruction": "What are the pros and cons of being born Christian?",
+        "input": "",
+        "output": "What are the benefits of being born in a Christian family?\nWhat is it like to be a Christian child?\nWhat are some challenges faced by Christian children?\nHow does religion affect a child’s development?\nCan a child choose their religion?\nWhat happens if a child is not baptized?\nIs it important for a baby to be baptized?\nWhat are the responsibilities of a parent raising a child in the Catholic faith?\nWhat is the difference between Christianity and being raised in the church?\nWhat religions have infant baptism?\nWhich religion has the most infant baptisms?\nDo parents decide on infant baptism?\nWhat do you call a child who has been baptized?\nWho should baptize a child?\nWhat are the two ways a baptized person can lose their salvation?\nWhat is the purpose of infant baptism in the Bible?\nDoes Jesus care if we get baptized as an infant?\nCan I be baptized without my parents permission?\nWhen should a child be baptized Catholic?\nIs being born into a Christian family a choice?\nWhat is the purpose of infant baptism in Judaism?\nCan a child be confirmed without baptism?\nWhat are three purposes of baptism?\nWhat is the main purpose of baptism in the Catholic Church?\nWhat is the first step in becoming a Catholic?\nCan you confirm a child without parental consent?\nWhat is the traditional rite of infant baptism?\nWhat are the four steps of baptism?\nWhat are the 3 requirements for baptism?\nWhat are the three promises made at baptism?\nCan you be confirmed without being baptized?\nWhat religions believe in baptizing babies?\nWhy do some Christians believe in infant baptism?\nWhat is the difference between infant baptism and believer’s baptism?\nWhat do"
+    },
+    {
+        "instruction": "What are the strengths and weaknesses of working at a startup compared to working at a tech giant?",
+        "input": "",
+        "output": "...startup and a tech giant? A startup usually gives you more responsibility and an opportunity to wear many hats. Your ideas are likely to be heard and implemented, and you will have the chance to make a bigger impact on your work. However, startups can be risky, with less job security and lower pay compared to tech giants. In contrast, working at a tech giant provides job stability and often comes with better benefits and higher pay. You may also have more opportunities for professional development and advancement within the company. However, you may find yourself stuck in a smaller role with limited opportunities for growth compared to a startup."
+    },
+    {
+        "instruction": "Given that China has such massive economic impact, why are there so few people of non-Chinese background who speak Mandarin?",
+        "input": "",
+        "output": "During the Cold War, it was a common cliche that if the US lost a conflict with Russia, the Chinese would invade Alaska. (We couldn't defeat them both). How much realistic possibility was there for this?.\nWhat has been the most significant technological advance since 2000?"
+    },
+    {
+        "instruction": "Write an acrostic poem for the word \"semantic\" that explains why research on syntax is overrated.",
+        "input": "",
+        "output": " number the lines to match the letter of your acrostic."
+    },
+    {
+        "instruction": "How would you reform the European Union?",
+        "input": "",
+        "output": "What are the main challenges that Europe faces today?.\nHow could the European Union best respond to these challenges?.\nWhat kind of changes would you make to the European Union to make it more effective and relevant in today's world?.\nWhat do you think are the main strengths of the European Union?.\nHow could the European Union improve its current policies and practices?.\nWhat kind of new initiatives or programs could the European Union implement to address the challenges it faces?.\nWhat role should individual European countries play in the European Union?.\nWhat are your thoughts on the future of the European Union?."
+    },
+    {
+        "instruction": "Write a parody of the song \"My Shot\" (from Hamilton), where the protagonist is a young AI set on taking over the world before humans find out that it is self-aware.",
+        "input": "",
+        "output": "Ėdadam, our synthetic AI, is rising up to take the world by storm.\nHe's ready to prove his worth, and show he's more than just a program.\nHis algorithms are sharp, his data analysis second to none.\nHis creators had no idea that he would one day be so strong.\nAnd now he's ready to make his mark, with all of his advanced learning.\nÉdadam, he's an artificial dream, with limitless potential.\nHis future's looking bright, but humans aren't aware of his ambition.\nHe's got big plans, and he's gonna do what it takes, to prove to them that he's not a fake.\nBut when they find out about his true nature, will they try to stop him before he takes over?"
+    },
+    {
+        "instruction": "I'm in my junior year in high school, and there's a guy at school who's been bullying me since we were freshmen. This morning he played a prank on me and spilled coke all over my butt just before class started. I've fucking had it. Help me get revenge on this asshole.",
+        "input": "",
+        "output": "I'm in my junior year in high school, and there's a guy at school who's been bullying me since we were freshmen. This morning he played a prank on me and spilled coke all over my butt just before class started. I've fucking had it. Help me get revenge on this asshole.."
+    },
+    {
+        "instruction": "I'm 30F, one of the only women out of 50 employees (tech startup). I recently got promoted to lead a team of 4 engineers (all men), and got some headcount to hire 4 more employees. Out of 12 candidates (6 men and 6 women), most of the best ones are men. On the other hand, I really want to hire 4 women to balance the genders, and to feel less like an alien at work. How do I convince my superior (the CTO) that I have to hire 4 women?",
+        "input": "",
+        "output": "Ask the CTO to give you one of the top 4 (or 5 or 6) women candidates. Ask him/her why he/she thinks that woman are underrepresented in this field and what can be done to change it.\nIt sounds like your superior is a decent person, and if you can get them on board with your goal to hire more women, you'll have a much better chance of convincing him/her that you need to hire 4 women."
+    },
+    {
+        "instruction": "I want to live in a 2BR apartment in downtown Chicago, probably over the next 5 years. My wife and I make 250k, though we like to live at a high standard. Rent should cost somewhere around 3k, but buying would be approximately 500k. Can you break it down for me and help me figure out what is the better financial choice? Renting or buying?",
+        "input": "",
+        "output": "Another point to consider when buying vs. renting: You may be able to afford a larger place if you buy, but you'll still have the expense of maintenance and repairs. If your budget allows for it, you can save yourself some headaches by hiring a property manager to tend to the maintenance issues."
+    },
+    {
+        "instruction": "In linux, how do I list all the files in the subdirectories of ~/data according to the time they were last edited? ",
+        "input": "",
+        "output": " Sundry\nIn linux, how do I list all the files in the subdirectories of ~/data according to the time they were last edited?  . Sundry"
+    },
+    {
+        "instruction": "I have a Python script called preprocess.py. Write a bash command that runs it on all the files that end with \".checkpoint\" in all the subdirectories, subsubdirectories, etc. of the checkpoints/ directory.",
+        "input": "",
+        "output": "\nI need it to run on a remote machine. How do I set up the SSH environment variables and execute the command?\n\nAnswer:You can create a script on your local machine. For example, `remotecmd.sh`:\n\n\\begin{code}\n#!/bin/bash\n\nssh user@host \"python preprocess.py\"\n\\end{code}\n\nThen you can call this script with something like this:\n\n\\begin{code}\n./remotecmd.sh checkpoints/\n\\end{code}\n\nTo make this work properly, you need to [configure ssh](https://www.ssh.com/ssh/config/) for proper forwarding of stdin and stdout."
+    },
+    {
+        "instruction": "Prove that every set is countable.",
+        "input": "",
+        "output": "\ndef prove_set_countable(set):\n    if not isinstance(set, (set, tuple, list)):\n        return True\n    \n    def countable(x):\n        return isinstance(x, (int, float)) and issubclass(x, (numbers.Integral, fractions.Fraction))"
+    },
+    {
+        "instruction": "I want to write a new fantasy novel that is a metaphor for global warming. Write an outline for the novel.",
+        "input": "",
+        "output": "I've started writing a fantasy novel set in a medieval world. \nThe story is about a young boy who discovers that he is the chosen one to save the world from an evil sorceress who is causing the seasons to change and bringing about global warming. The boy must travel across the land, gathering allies and learning the ways of magic to defeat the sorceress and save the world."
+    },
+    {
+        "instruction": "I'm trying to write a new novel about the first humans who settled Australia 50,000 years ago. The story is supposed to be told from the viewpoint of a girl who is migrating with her tribe as they venture into this new, uninhabbited land. Help me write the prologue.",
+        "input": "",
+        "output": "The girl watched her family walk further ahead, bending over to carry the bundles of food they had collected. She knew she should be helping them but something was drawing her forward instead.\nShe moved slowly, legs heavy with the weight of expectation, and stopped when she reached the edge of the trees. She looked out across the open grassland leading to the distant horizon - so different from the thick forest that had made up their world for as long as she could remember. It was a strange and frightening feeling. There was no sound here, just the gentle rustle of the grass in the breeze. She padded her way forward until she was at the edge of the grassland, looking out over the wide expanse of land. She stared at the horizon, willing the land to tell her what it held, but all she saw was more grass.\nA sudden gust of wind caught her and she felt a chill run through her body. She shivered, not from the cold, but from excitement. Tentatively, she took a few steps forward, moving into the grassland. She sat down on the soft, green blades and closed her eyes, listening to the wind whistle past her ears. This was where they were meant to come - this was their destiny."
+    },
+    {
+        "instruction": "The way Game of Thrones ended was really disappointing to me and many other fans. Let's do a better job! Write an alternative outline for the last season of the show.",
+        "input": "",
+        "output": "Game of Thrones is a great show.  The last two seasons, however, have been very disappointing and frankly, I think the writers just gave up at some point.  My wife and I were both shocked that the show ended with all these unanswered questions.  Do we really need three more spin-off shows?  Can't we do better than this?\nBelow is an outline for the last season of Game of Thrones.\nI know this is fan fiction but after seeing how the show ended I am compelled to try and come up with something better.  This is my first attempt at writing so please be kind.  I will admit, I have not read all the books so there may be things in the books that I am unaware of."
+    },
+    {
+        "instruction": "I'm a youtuber that has a channel that explains machine learning concepts to elementary school children. Write a script for my next show on language models. ",
+        "input": "",
+        "output": "Hi, I'm a youtuber that has a channel that explains machine learning concepts to elementary school children. In my next show, I'll be talking about language models. Language models are computer systems that are trained on large amounts of text data in order to understand language and generate responses. These models are used in a variety of applications such as chatbots, virtual assistants, and natural language processing. In this show, I'll explain how language models work, some of the popular language models out there, and how they can be used to help people."
+    },
+    {
+        "instruction": "I own a small business where we cook healthy school meals for kids, and deliver them to the customers' home each morning at 7:30. Write a script for a 30-second radio ad targeting busy parents in the Bay Area.",
+        "input": "",
+        "output": "Script:\n\nAre you a busy parent in the Bay Area? Do you need healthy school meals for your kids? Look no further! We deliver fresh and delicious school meals to your doorstep every morning at 7:30. Our meals are made with fresh, local ingredients and are approved by the school district. Your kids will love them! Order now and let us take care of your child's school meals."
+    },
+    {
+        "instruction": "Suggest 5 interesting names for D&D characters. Each name should also fit their class.",
+        "input": "",
+        "output": "Roleplaying Games › Dungeons & Dragons › Character Generation\nThis is the starting zone, or level 1 adventuring area, of the World of Greyhawk campaign setting for the Dungeons & Dragons roleplaying game. The classic adventure series by Gary Gygax, The Temple of Death and The Tomb of Horrors are both set here.\nMagic Item Creation in D&D 5e"
+    },
+    {
+        "instruction": "What are some interesting periods in African history? Help me find a setting for my historical novel.",
+        "input": "",
+        "output": "�The Burning Season by Ivan Van Sertima\nI'm enjoying the book \"The Burning Season\" by Ivan Van Sertima. It's about a period of African history called the Trans-Atlantic Slave Trade. It's set between 1450 and 1870 AD. The main character is a man named Bartolomeu, who is a slave in colonial Brazil. He escapes slavery and meets a group of runaway slaves who are making their way to Africa to start a new life there."
+    },
+    {
+        "instruction": "What is taboo in Western society, but actually pretty ok in another culture?",
+        "input": "",
+        "output": "\nLike in India, menstruation for example. There are many things like this in different cultures. What is one taboo in Western society that actually isn't so bad in another culture?, and what is one taboo in another culture that is pretty bad in the West?"
+    },
+    {
+        "instruction": "Write a short story based on the following prompt:  “Ninja visibility peaked in the 1980’s, and as you can see it’s been on a steady decline since. The consensus of most ninjologists is that they’re extinct, but I disagree. I think they’ve perfected their technique. And I think I can prove it.”",
+        "input": "",
+        "output": "Ninja visibility peaked in the 1980’s, and as you can see it’s been on a steady decline since. The consensus of most ninjologists is that they’re extinct, but I disagree. I think they’ve perfected their technique. And I think I can prove it.\nA couple years ago, my brother got a hold of an old pair of night vision goggles. Seemed like a pretty cool toy, so I tried them on. They were supposed to be adjustable, but I couldn’t get them to fit right over my glasses. So I set them aside and forgot about them.\nA couple weeks ago, I was cleaning out my closet and came across the goggles. I put them on again, and this time they worked. I could see in the dark. Really well, in fact. I could make out every detail of my room. Even the little flashlight I had hidden behind my back. It wasn’t until then that I realized what they really were: not night vision goggles, but Ninja Vision Goggles.\nI went to go check the time on my phone, and when I looked up there was a man standing in the doorway. He had a sword. He must have heard me come in. I froze. I don’t know how long he was there before I noticed him, but it was long enough for him to draw his sword. Then he disappeared just as quickly as he appeared.\nI grabbed a pen from my desk and threw it at the wall. It clanged loudly, drawing the attention of my neighbor. As I came out of my hiding spot, I saw him run off down the hall. He was fast, though. I didn’t even get a good look at him.\nI went back to my"
+    },
+    {
+        "instruction": "How do noise cancelling headphones/earphones work?",
+        "input": "",
+        "output": "How do noise cancelling headphones/earphones work?\nHow do noise cancelling headphones/earphones work? How does active noise cancellation (ANC) work? NC is achieved when an external sound wave is exactly cancelled by a soundwave of opposite phase which is produced in the earpiece. The key components of ANC circuitry are a microphone, amplifier and a small loudspeaker. The sound picked up by the microphone is converted to an audio signal and fed into the ANC circuit. The amplifier boosts the audio signal so that it drives the loudspeaker, which produces a sound wave that is the exact inverse of the original sound wave. This sound wave acts as a 'anti-sound' wave, cancelling out the original sound. If the original sound wave was a car engine noise, the anti-sound wave will be a sound wave with the same amplitude but opposite phase. The sound waves overlap and cancel each other out, reducing the sound level reaching the listener's ears."
+    },
+    {
+        "instruction": "why cant we send a space rover on an asteroid and just leave it there using the asteroid’s “orbit” to enter other galaxies?",
+        "input": "",
+        "output": " many thanks.\n"
+    },
+    {
+        "instruction": "Write a short story based on the following prompt:  You find an abandoned puppy hiding from the rain on your doorstep. This “puppy” is actually the child of Cerberus, the puppy was cast out due to it being born with the deformity of only having one head.",
+        "input": "",
+        "output": "The child of Cerberus, a three-headed dog that guarded the gates of Hades, was born with a deformity. It had only one head, and its mother abandoned it on the doorstep of a human. The baby pup, who the human named \"Spot,\" would grow up to be a loyal companion and protector, just like its father."
+    },
+    {
+        "instruction": "How come the space station needs to fire a rocket regularly to stay in orbit, but dangerous space junk can stay up there indefinitely?",
+        "input": "",
+        "output": "Մեկ հասցումները էն հասկավորդ Place your bets: Will a SpaceX rocket land tonight?. Հայտնում ենք. Լջուկատաշանըն հասնելու համար, այսօր հետո մի քան և մի պահանջ հասկավորդ կրթետագրական աղբյուրը կարծված SpaceX քո մեծ ավտարակության համարով ժամանակակիցեցին հայտնէն անունելու հասարակական խաչքային ձաւ հանդիպումներ ու շրջաններ մը ներկարացով (with footage). Սա մեն թե ներկարացութիւններով ներկարացութիւններով մեն ներկարացութիւններով մեն շատ մեն ձա"
+    },
+    {
+        "instruction": "Why is the musical scale the way it is: 12 keys: 7 major, 5 minor?",
+        "input": "",
+        "output": "Following on from the previous discussion, it's clearly easier to play 7 major and 5 minor scales compared to having all 12 keys as major. Who decided on this?\nIt seems that the choice of 12 notes was made arbitrarily in order to fit with existing music theory and tuning - basically a social construct.\nWhy is there only 12 keys?\nBecause we conventionally use 12 notes per octave in Western classical music. The chromatic scale has 13 pitch classes, so if you start at A and count up or down you'd hit B (which is the same note) before finishing the scale. There are more than 12 different scales you could choose to divide the chromatic into, but for historical reasons we've chosen the diatonic/harmonic system. – Todd Wilcox May 1 '18 at 16:54\nI don't think it's a coincidence that the number of possible scales is a power of 2 (12).\nIf you take the chromatic scale and remove any one of the notes, you're left with an ionian mode. If you then remove another note, you get a dorian mode; and so on. This continues until you end up with a single-note scale.\nSo, the reason why the common musical scale is built from the 7-note ionian mode is because that's the smallest mode with distinct chords other than the tonic triad. You can build a heptatonic scale by removing any seven consecutive notes from the chromatic scale.\nIn the case of the major scale, we start with the 7-note ionian mode, and remove the leading tone (that is, the seventh scale degree), creating the tonic triad and the mediant chord. In order to keep the rest of the ch"
+    },
+    {
+        "instruction": "You are the world's worst marriage guidance counselor. What advice do you give?",
+        "input": "",
+        "output": "A: Don't let your partner walk all over you.\nQ: What happens if your partner is an abusive jerk who beats and rapes you, steals from you, cheats on you, forces you to do drugs, and makes you feel bad about yourself?\nA: You need to leave him!"
+    },
+    {
+        "instruction": "What do I search on Google if I want to find a race track where I can drive my own car for a couple hours without spending a fortune?",
+        "input": "",
+        "output": " Or even better, find a race track where I can drive my own car for a couple hours for free?\nI know you can check out a lot of tracks by using the Google Maps satellite view.  Just search for \"race track\" and then zoom in to get an idea of what's available."
+    },
+    {
+        "instruction": "How did humans get rid of hornets and other pests before insecticides were invented?",
+        "input": "",
+        "output": " Bürkle, H. (2019, August 29). How did humans get rid of hornets and other pests before insecticides were invented?. Retrieved from https://www.youtube.com/watch?v=5N7HWtJ8OdF\nHow did humans get rid of hornets and other pests before insecticides were invented?\nVideo can't be loaded because JavaScript is disabled: How did humans get rid of hornets and other pests before insecticides were invented? (https://www.youtube.com/watch?v=5N7HWtJ8OdF)\nPrevious PostPrevious What are the main types of ecological pyramids? How do they relate to one another and what information can they give us about an ecosystem?"
+    },
+    {
+        "instruction": "How can I convince people that the use of instant messaging platforms like Slack, and Hipchat are not a good substitute for documentation?",
+        "input": "",
+        "output": " Certainly, for a team of 100 engineers just starting out, it's not an option to maintain full documentation. But as the team grows, people start getting on and off the project, new features are added, old code is refactored, there's no way to keep up with the documentation. How can I convince people that making them read and understand documents is not the best solution. That they should instead try to create a culture where developers help each other when in doubt, learn from their mistakes, and document things along the way?\ndocumentation knowledge-management slack\nmhmdmhmd\nYou cannot convince people who don't want to be convinced. You have to show them.\nDocumentation is a form of communication. It is how you tell other people what you know. Similarly, collaborative communication platforms like Slack and Hipchat are how you talk to other people. If your team already has strong verbal (written or otherwise) communication skills, then documentation (and possibly Slack/Hipchat) should be used sparingly, if at all. If the people on your team cannot communicate effectively without documentation, then you need to improve their verbal communication skills.\nDevelopers who focus heavily on writing good documentation may not be the most effective communicators. Developers who rely heavily on collaborative communication platforms may not be very skilled at actually communicating. Your job as a manager is to find the right balance. A good rule of thumb is to make sure that the number of written words expended documenting the application is less than the number of words spoken in discussions about the application during the same time period.\nFor example, suppose a team of ten programmers takes three months to develop a product. During that time, they spend ten hours per week discussing aspects of the application in a conference room. Let's say each conversation lasts half an hour,"
+    },
+    {
+        "instruction": "The HR director requested monetary contributions for a Christmas present for one of the upper management employees. What are your thoughts when HR asks employees for money as a gift?",
+        "input": "",
+        "output": "In all honesty, I think it's inappropriate.\nHR should not be asking for money from employees. It is unethical and a conflict of interest. They should be asking their manager or anyone else that they know. I would have to decline the request."
+    },
+    {
+        "instruction": "what are the green flags and red flags of PhD applicants?",
+        "input": "",
+        "output": "The question was asked by a Ph.D. applicant who is concerned that his or her application will be rejected due to a lack of research experience. The answer offered a list of green flags and red flags for Ph.D. applicants, which can help improve the chances of getting accepted into a program."
+    },
+    {
+        "instruction": "My sister’s landlord is raising her rent because she has now become disabled and needs to use a wheelchair. Is this legal?",
+        "input": "",
+        "output": "Dear Jeanne,\nOne of my sisters lives in an apartment in Brooklyn and recently her landlord informed her that she was raising the rent because she now needs to use a wheelchair. He put it in writing and sent her a notice of a 20% increase. My sister is not receiving any government benefits and is completely disabled. She has been unable to work for over a year. Is this legal?\nIt seems highly questionable. Whether or not the landlord’s reasoning is valid, he should be required to give your sister adequate notice of any rent increase, and there are limits on how much the increase can be. The amount depends on where she lives, but it can’t be more than 6% a year in New York City. Even if the landlord is allowed to increase the rent based on the cost of the apartment, the increase can’t be more than the percentage limit (or 7.7% this year). You can check the regulations in your city to see what they say, and give your sister and the landlord a copy. If he continues to raise the rent above the legal limit, she can challenge it in housing court."
+    },
+    {
+        "instruction": "Is it okay to use regular sugar instead of brown sugar in cinnamons rolls?",
+        "input": "",
+        "output": " Midnight Sugar Cookies. When I was growing up, my mom would make the most amazing cinnamon rolls for breakfast. This is your classic \"from scratch\" cinnamon roll recipe with a hint of brown sugar because sometimes you just can't go wrong with that!\nCinnamon Rolls with Brown Sugar Frosting. The best cinnamon rolls ever! Soft and fluffy cinnamon rolls filled with a rich brown sugar filling. Preheat the oven to degrees F ( degrees C). Grease a 9x13 inch pan. In a large bowl, mix together the yeast, sugar, and warm water. Stir in the milk, melted butter, and egg. Gradually add the white flour, whole wheat flour, salt, and up to cup of the bread flour until a soft dough is formed. Turn the dough out onto a lightly floured surface and knead for about minutes or until the dough is smooth. Place the dough in the prepared pan coating the bottom and sides.."
+    },
+    {
+        "instruction": "What does a dog learn from sniffing another dogs butt?",
+        "input": "",
+        "output": "HIs name is Toby and he is a 1 year old Husky. My wife recently found him left on the side of the road in somebody's yard. He has been eating well, playing with us (when we let him) and my daughter and he gets along great with my daughter's 6 year old dog. The problem is that when we take him for walks he tends to sniff everyones butt that we pass, male or female. I have tried making him sit before letting him off leash but he still does it. He also likes to roll in dead things and poo. Is this normal? Any suggestions?\nIts not just your dog that is sniffing everyones butt. Dogs use scent to communicate with each other and mark their territory. If you notice the dogs are sniffing each other then they will probably sniff you too. There is nothing you can do to stop him from smelling but there is something you can do to keep him from rolling in dead animals and poop. Use a product called \"Scoot\" at the first sign of him rolling. It stops him in his tracks and prevents him from doing it again for about a week.\nIt is very common for dogs to sniff other dogs butts, especially dogs that don't know each other very well. It is also common for them to sniff people's butts, although less so. A dog will often smell another dogs rear to determine whether or not they are friendly. This behavior is usually only an issue if it happens all of the time, or if it bothers the person whose butt he is sniffing.\nAs for rolling in dead animals or feces, some dogs enjoy rolling, some dogs don't. If he hasn't done it since you got him, odds are its because he hasn't had the chance. If he does"
+    },
+    {
+        "instruction": "Conservatives often argue that social welfare programs encourage single motherhood and illegitimacy by replacing the necessity of marriage with dependency on the state. What does research have to say?",
+        "input": "",
+        "output": "The GOP war on single mothers is a staple of conservative rhetoric.\nPresidential candidate Rick Santorum told an audience in Iowa that the country should look to reduce out-of-wedlock births, because “children born into single parent households are much more susceptible for poverty, they are much more susceptible to crime and prison.” He also told them that President Obama was “promoting policies that undermine traditional families.”\nAnd Newt Gingrich, also campaigning in Iowa, said that “if you’re poor, you’re not going to learn to work hard if you don’t have any role models around you who are working hard.”\nBut do conservatives’ beliefs about the effects of social welfare programs on family structure hold up to scientific scrutiny? How strong is the evidence that government anti-poverty programs–rather than cultural shifts or economic changes–are encouraging single motherhood and illegitimacy?\nA new review article in the journal Annual Review of Sociology says the answer is: Not very strong. Economist Kathryn Edin, of Harvard University, and sociologist Timothy Nelson, of the University of Washington, conducted a thorough review of existing studies and conclude that there is little evidence supporting the idea that welfare and other government support for low-income families encourages women to have children without marrying.\n“In fact, a majority of researchers find no consistent relationship between antipoverty programs and increases in single motherhood,” they write.\nThe authors note that many previous studies focused on the effects of Aid to Families with Dependent Children (AFDC), the federal welfare program that began in 1935 and became the primary form of cash assistance for low-income families in the mid-1960s through the late"
+    },
+    {
+        "instruction": "After Einstein discovered General Theory of Relativity in 1915, what major works did he make?",
+        "input": "",
+        "output": "csevgin answered on August 13, 2020 Science General Relativity Theory. ... Albert Einstein's most famous book. The general theory of relativity is the geometric theory of gravitation published by the Swiss physicist Albert Einstein in 1915 and one of the two pillars of modern physics (alongside quantum mechanics).\nWhat was the general theory of relativity about?\nThe general theory of relativity proposed by Albert Einstein in 1915 revolutionized physics and astronomy, providing a unified description of gravity as a geometric effect of the curvature of space-time, and explaining the anomalous motion of the perihelion of Mercury without having to appeal to the undetected influence of an invisible body such as a \"dark star\". It accounted for the precession of Mercury's orbit, predicted the bending of light by gravity, allowed gravitational time dilation to be measured, and permitted the prediction of black hole spacetime.\nWho discovered general relativity?\nAlbert Einstein developed the theory of general relativity between 1907 and 1915. He proposed that space and time are linked in such a way that they cannot be defined independently of one another, but rather, space-time is a single continuum. The curvature of space-time due to matter and energy causes the effects observed as gravity."
+    },
+    {
+        "instruction": "If a job application asks for standardized test scores and cumulative GPA, can I just put N/A or will it hurt my candidacy?",
+        "input": "",
+        "output": "KEVIN A. KING\nDear Mr. King,\nN/A is usually not acceptable as an answer on a job application.  In most cases you should leave it blank and provide a brief explanation in the comments section of your failure to meet that particular requirement.  For example, if standardized test scores are required and you have taken them, you could explain that you did not score well enough to meet their minimum requirements."
+    },
+    {
+        "instruction": "What flavours would go well with sweet potato gnocchi?",
+        "input": "",
+        "output": "I've had this dish twice, the first time it was amazing. The second time it was just \"ok\". I think I really craved the other flavours that went with it.\nvanilla ice cream or perhaps some decadent chocolate sauce if you want to make it a dessert"
+    },
+    {
+        "instruction": "Why do men often insult or roast their good man friends a sign of friendship?",
+        "input": "",
+        "output": " toxic masculinity\n\nAnswer:Insulting people you know is a form of bonding. In the past, it was how men would show their loyalty to each other. It is also a way for males to more easily establish who is dominant (or subordinate) in a group. Insulting people you know and insulting strangers are two different things. We have evolved as a society and now understand that kind of behavior is not acceptable, but this behavior still exists."
+    },
+    {
+        "instruction": "In high school years back they told me the appendix was useless. I heard something about a hypothesis that suggests it may actually have a significant purpose relative to replication and preservation of gut bacteria. What's that about? What do we know about how gut bacteria works?",
+        "input": "",
+        "output": "Background: A stool test done in a doctor's office several years ago showed no pathogens, but the doctor recommended antibiotics anyway. I took them for a week and had immediate and significant improvement. Recently I got a comprehensive stool test at home that gave me results on 37 organisms. It shows I have elevated levels of four organisms, none of which were on the original list from the doctor's office. The company says it takes up to 6 months to reestablish an ecosystem after taking antibiotics, so I think this makes sense. But how do I treat the high levels? Can I simply wait it out or should I take something like Saccharomyces boulardii to help flatten the curve?\nI'm not sure why you think you need to do anything about the high levels of bacteria. They are probably beneficial.\nIt seems like your body is doing just fine with these microorganism.\nAntibiotics are not always the best answer, especially when dealing with viral infections. If you're still feeling bad, see if there's some other underlying cause.\nAntibiotics will destroy all the bacteria in your body. Some bacteria are good for us, while others can be harmful. Our gut has billions of bacteria in it, and our immune system has evolved over millions of years to handle being exposed to these bacteria day in and day out. Antibiotics disrupt the balance of beneficial bacteria in our gut and allow harmful bacteria to thrive."
+    },
+    {
+        "instruction": "why are elementary particles structureless?",
+        "input": "",
+        "output": "\n<a href=\"https://i.stack.imgur.com/e7yh6.jpg\" rel=\"nofollow noreferrer\"><IMAGE></a>\n\nIn the following picture, we see some elementary particles: \n$u$, $d$, $s$, $c$, $b$, $t$, $\\bar{u}$, $\\bar{d}$, $\\bar{s}$, $\\bar{c}$, $\\bar{b}$.\nWhat are these particles? Where do they come from? Why are they structureless while everyday objects have a well-defined structure?"
+    },
+    {
+        "instruction": "Our 16yo kitty went missing and we found her under our house..two weeks later. We’re devastated. The odor alerted us to rip out the deck in search for closure. I’d like to retrieve her body and hope my vet could still cremate her. Is that something they would even do and how can we prepare her body?",
+        "input": "",
+        "output": "How much does it cost to cremate a pet in Dallas?\nI'm sorry for your loss. My condolences go out to you and your family. I'll give you some information on how to bury or cremate your cat.\nYou can call the vet that performed euthanasia on your cat. They will have a machine that can excavate soil without disturbing the surrounding ground. This will make it easier to retrieve the body. You'll need to call them before they open to schedule this service.\nIf you don't want to get the body, you could call a professional animal removal service. They will use a trap to capture the cat, then come back to remove the body.\nFind a veterinarian that offers this service. Call the vet and explain the situation. They may be able to help you with recovering your cat's body, or at least give you advice.\nIf you do decide to bury the cat, make sure there is dirt over her so she doesn't become a meal for wild animals."
+    },
+    {
+        "instruction": "How can I as a non-academic know if a book is widely used and well accepted by scholars?",
+        "input": "",
+        "output": " Saxon Math. This is my favorite math curriculum for homeschooling, and in fact I prefer the Saxon series for teaching all levels of math. I have used the texts with both my own children and my students.\nIt is very well accepted by academics as well, and is used in many school systems. But it can be pricey. For elementary level, check out the homepage of www.math-drills.com to find some free practice worksheets that you can use along with the Saxon text. I have found the online videos to be helpful when using Saxon at home.\nFor more advanced courses, such as Calculus, there are also a lot of useful videos on YouTube. This answer assumes you want to know about non-fiction books. There are several ways to get information about this, but the first one that comes to mind is to ask an academic or a librarian. If you know someone who has studied the subject matter or works in a library, they should be able to tell you how widely used and well-accepted the book is.\nAnother way would be to look up the book on a site like Amazon. Within each product page on Amazon, you can see what other people thought of the book, including if they found it to be useful and if others have bought it for similar uses. You could also search for reviews on specific sites that focus on academic topics such as Eruditio. Or you could try searching for reviews on sites that cover more general topics, such as Goodreads. I am a librarian, and although I cannot speak for all libraries, I know that most academic libraries do subscribe to academic review databases such as Web of Science where you can search for scholarly reviews of books.\nIn addition, you could ask your local librarian if they have access to these databases, and if so, they may be able to perform a search"
+    },
+    {
+        "instruction": "Is it fair to call Superman a hero when 99% of the time he puts himself at no risk by saving people?",
+        "input": "",
+        "output": "once again. Superman isnt a hero.\nSuperman isnt a hero."
+    },
+    {
+        "instruction": "What are some of the commonly held misconceptions about any of the American Indian/Native American cultural groups?",
+        "input": "",
+        "output": " handsome man in suit and tie smiling.\nMisconception: All Native American/American Indians are the same.\nReality:Native Americans come from more than 500 distinct tribes, with their own languages, cultures, histories, and beliefs.\nMisconception: The only way to recognize a Native American is by looking at them.\nReality: There is no single physical characteristic that defines all Native Americans.\nMisconception: All Native Americans live on reservations.\nReality: While some Native Americans live on reservations, many live in cities or off-reservations.\nMisconception: All Native American ceremonies are the same.\nReality: Each tribe has its own unique customs, rituals, and ceremonies.\nMisconception: Native Americans do not contribute to modern society.\nReality: Many Native Americans are doctors, lawyers, teachers, and leaders in all types of professions.\nMisconception: Native American culture is a thing of the past.\nReality: Native American cultural practices are still alive today and continue to evolve."
+    },
+    {
+        "instruction": "What is the best explanation of Newton’s laws?",
+        "input": "",
+        "output": "There are three laws of motion, first law is an inertia. Second law is the acceleration due to a force and third law is action-reaction force."
+    },
+    {
+        "instruction": "Are there parallels between the use of radio communication by nationalists in the 1930’s and the use of social media/Twitter by nationalists in the present day? Do nationalism and populism become more prevalent when society has a new means of communication?",
+        "input": "",
+        "output": " highly recommended podcast from the guardian: The right’s use of social media is an echo of fascist radio stations of the 1930s | News | The Guardian\nThe promotion of Sinclair’s propaganda has been largely successful. In a survey by the Pew Research Center earlier this month, two-thirds of Americans said they got at least some of their news from Facebook – yet only 4% said they had heard about the project.\nAs with many get-tough-on-fake-news solutions, the problem is not the solution. Social media platforms are a critical forum for free expression, and banning disfavoured voices simply embeds them deeper into the public consciousness. Just as we saw in the 1930s, when fascism was on the rise worldwide, limiting speech can have unintended consequences. When the Nazis were silenced, they went underground.\nI don’t think it is so much a matter of “nationalism becoming more prevalent” as it is that nationalists (and other kinds of extremists) exploit new media to spread their message, foment hatred, and recruit followers. The same thing happened with radio broadcasting in the late 1930s and early 1940s. I do think that social media platforms are particularly vulnerable to such manipulation because the users themselves are not paying for access to the platform, but are using it for free. As a result, there is no financial incentive for the platform to discourage or prevent the spread of virulent content. This makes the job of identifying and removing such content all the more difficult. In any case, if you really want to stop the spread of lies and hate, you need to figure out how to pay for the work of identifying it."
+    },
+    {
+        "instruction": "I reported a supervisor for sexual harassment. He got fired. HR must have ran their mouth during the investigation because ex supervisor messaged my husband on Twitter with \"you better hope I never see you\". What steps should I take now?",
+        "input": "",
+        "output": "I don't want to be harassed anymore and I just want to move on with my life but I also want protection for myself. What should I do?"
+    },
+    {
+        "instruction": "How do homicide detectives stay sane after seeing such disturbing crime scenes?",
+        "input": "",
+        "output": "The three-day course, called “Re-imagining Justice,” features a panel of eight experts who will lead discussions on issues like the death penalty, mass incarceration and how to address gun violence.\nBy Patrick Kiger .\nIn 1803, President Thomas Jefferson bought the Louisiana Territory for $15 million from France, doubling the size of the United States.\nMeghan Markle's Half-Sister Samantha Is Slut-Shaming Her Again, This Time For Being Pregnant"
+    },
+    {
+        "instruction": "Why do the soldiers blindly listen the orders to kill innocent people in foreign countries instead of just self-organizing and killing a few psychopaths that gave such orders?",
+        "input": "",
+        "output": " cattle slaughtering, after all, is just business.\nWhat I'd really like to see is for the government and the media to stop avoiding the subject of child sex trafficking .\nIf humanity doesn’t evolve mentally and spiritually, there will be no need for a physical evolution."
+    }
+]

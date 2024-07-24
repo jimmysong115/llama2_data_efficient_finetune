@@ -1,0 +1,92 @@
+[
+    {
+        "instruction": "What is the area of a rectangle with length 12 cm and width 8 cm? A) 48 cm^2 B) 96 cm^2 C) 120 cm^2 D) 192 cm^2",
+        "input": "",
+        "output": "Area of rectangle = length x width\n= 12 cm x 8 cm\n= 96 cm^2"
+    },
+    {
+        "instruction": "If 5 apples cost $2.50, how much do 12 apples cost?",
+        "input": "",
+        "output": "Answer:\n5 apples cost $2.50, so 12 apples would cost $30."
+    },
+    {
+        "instruction": "Write a function that takes a string as input and returns the string reversed. For example, if input = “hello”, then return “olleh”3",
+        "input": "",
+        "output": "def reverse(string):\n  return string[::-1]"
+    },
+    {
+        "instruction": "I recently bought a pair of headphones online and I was very impressed by their quality and performance. I want to write a product review that reflects my positive experience and helps other potential buyers make an informed decision. How can I structure my review and what are some aspects that I should highlight?",
+        "input": "",
+        "output": "When writing a product review, it is important to start by describing the packaging and design of the headphones. This will give readers an idea of the attention to detail and craftsmanship that went into the product's creation. Next, you should describe the sound quality and whether or not it met your expectations. You should also mention any special features or customization options that were available and how they impacted your overall experience. Additionally, you should provide information on the comfort and fit of the headphones, as well as the build quality and durability. Finally, you should conclude your review with an overall assessment of the product and whether or not you would recommend it to others. By highlighting these aspects, you can provide readers with a comprehensive and informative review that will help them make an informed decision about the product."
+    },
+    {
+        "instruction": "What are the main types of reasoning and how do they differ in their logic and application? How can you identify and evaluate the validity and soundness of arguments based on different types of reasoning? How can you use reasoning skills to solve problems, make decisions, and communicate effectively? Give an example of an argument that uses deductive reasoning and explain its structure and components.",
+        "input": "",
+        "output": " you can use any topic of your choice to explain the concept."
+    },
+    {
+        "instruction": "Six friends A, B, C, D, E and F are sitting in a circular table facing the center. A is sitting second to the right of D. B is sitting third to the left of A. C is sitting opposite to D. E is sitting between B and F. Who is sitting to the immediate right of C?\n\nA) A B) B C) E D) F",
+        "input": "",
+        "output": "\nAnswer:D"
+    },
+    {
+        "instruction": "Sort an array in ascending order. You must solve the problem without using any built-in functions in O(nlog(n)) time complexity and with the smallest space complexity possible. Implementing with C++. \nThe following code implementation has a time complexity of O(n^2).\n\n#include <iostream>\nusing namespace std;\n\nvoid bubble_sort(int nums[], int n) {\n    for (int i = 0; i < n; i++) {\n        for (int j = 0; j < n-i-1; j++) {\n            if (nums[j] > nums[j+1]) {\n                swap(nums[j], nums[j+1]);\n            }\n        }\n    }\n}\n\nint main() {\n    int nums[] = {5, 2, 9, 1, 5, 6};\n    int n = sizeof(nums) / sizeof(nums[0]);\n\n    bubble_sort(nums, n);\n\n    for (int i = 0; i < n; i++) {\n        cout << nums[i] << \" \";\n    }\n\n    return 0;\n}\n\nI tried to implement the requirements of the problem without using any built-in functions in O(nlog(n)) . Can you help me solve this issue?\n\n#include <iostream>\nusing namespace std;\n\nint partition(int nums[], int low, int high) {\n    int pivot = nums[high];\n    int i = low - 1;\n\n    for (int j = low; j <= high - 1; j++) {\n        if (nums[j] <= pivot) {\n            i++;\n            swap(nums[i], nums[j]);\n        }\n    }\n    swap(nums[i + 1], nums[high]);\n    return (i + 1);\n}\n\nvoid quicksort(int nums[], int low, int high) {",
+        "input": "",
+        "output": "    if (low < high) {\n        int i = partition(nums, low, high);\n        quicksort(nums, low, i - 1);\n        quicksort(nums, i + 1, high);\n    }\n}\n\nint main() {\n    int nums[] = {5, 2, 9, 1, 5, 6};\n    int n = sizeof(nums) / sizeof(nums[0]);\n\n    quicksort(nums, 0, n - 1);\n\n    for (int i = 0; i < n; i++) {\n        cout << nums[i] << \" \";\n    }\n\n    return 0;\n}"
+    },
+    {
+        "instruction": "Using EPPlus, I want to read an excel table, then store all the contents from each column into its corresponding List. I want it to recognize the table's heading and categorize the contents based on that.\n\nFor example, if my excel table is as below:\n\nId    Name     Gender\n 1    John     Male\n 2    Maria    Female\n 3    Daniel   Unknown\nI want the data to store in List<ExcelData> where\n\npublic class ExcelData\n{\n    public string Id { get; set; }\n    public string Name { get; set; }\n    public string Gender { get; set; }\n}\nSo that I can call out the contents using the heading name. For example, when I do this:\n\nforeach (var data in ThatList)\n{\n     Console.WriteLine(data.Id + data.Name + data.Gender);\n}\nIt will give me this output:\n\n1JohnMale\n2MariaFemale\n3DanielUnknown\nThis is really all I got:\n\nvar package = new ExcelPackage(new FileInfo(@\"C:\\ExcelFile.xlsx\"));\nExcelWorksheet sheet = package.Workbook.Worksheets[1];\n\nvar table = sheet.Tables.First();\n\ntable.Columns.Something //I guess I can use this to do what I want\nPlease help :( I have spent long hours searching for sample code regarding this so that I can learn from it but to no avail. I also understand ExcelToLinQ is managed to do that but it can't recognize table.",
+        "input": "",
+        "output": "\nAny help is really appreciated. Thank you!"
+    },
+    {
+        "instruction": "How can I make this JavaScript code work as expected when using async/await and promises? \"function delay(ms) {\\n    return new Promise(resolve => setTimeout(resolve, ms));\\n}\\n\\nasync function sayHello(name) {\\n    await delay(1000);\\n    console.log('Hello, ' + name);\\n}\\nsayHello('Alice');\\nsayHello('Bob'); // expected output: Hello, Alice (after 1 second), Hello, Bob (after another second)\"",
+        "input": "",
+        "output": "If you're asking how to get the expected output using async/await and promises, you can modify the code as follows:\n```\nfunction delay(ms) {\n    return new Promise(resolve => setTimeout(resolve, ms));\n}\nasync function sayHello(name) {\n    await delay(1000);\n    console.log('Hello, ' + name);\n}\nsayHello('Alice');\nsayHello('Bob'); // expected output: Hello, Alice (after 1 second), Hello, Bob (after another second)\n```\nIn this version, we use `await` to wait for the promise returned by `delay`, and then log the hello message with the given name. We call `sayHello` twice, with different names, to get the expected output."
+    },
+    {
+        "instruction": "If you are thirsty, what can you drink to quench your thirst?",
+        "input": "",
+        "output": "There are many drinks to quench your thirst. Water is the best choice, because it has no calories and is essential for good health. Other good choices include milk, tea, coffee, fruit juice, and soda water."
+    },
+    {
+        "instruction": "The process of photosynthesis is essential for life on Earth. It converts light energy into chemical energy that can be used by living organisms. Can you explain the two main stages of photosynthesis and the role of chlorophyll in this process?",
+        "input": "",
+        "output": "The two main stages of photosynthesis are:\n1. Light-dependent reactions (also known as the \"photo\" reactions): These reactions occur in the thylakoid membranes of chloroplasts and convert light energy into chemical energy in the form of ATP and NADPH.\n2. Light-independent reactions (also known as the \"dark\" reactions): These reactions occur in the stroma of chloroplasts and use the energy from ATP and NADPH to convert carbon dioxide and water into glucose and oxygen gas.\nChlorophyll is a pigment found in the chloroplasts of plants and algae that absorbs light energy. It is essential for photosynthesis because it absorbs sunlight and converts it into energy that can be used by the plant. Without chlorophyll, photosynthesis would not be possible."
+    },
+    {
+        "instruction": "Which of the following is NOT a characteristic of prokaryotic cells? a. Lack of nucleus b. Presence of cell wall c. Presence of membrane-bound organelles d. Small size",
+        "input": "",
+        "output": "Answer:d. Small size."
+    },
+    {
+        "instruction": "How has quantum computing impacted the energy industry? What are some potential future applications of this technology?",
+        "input": "",
+        "output": "Quantum computing has had a significant impact on the energy industry due to its ability to simulate and optimize complex energy systems. Quantum computers can quickly analyze large amounts of data, allowing for more accurate predictions of energy demand and supply, as well as improved energy efficiency.\nIn addition, quantum computing can be used to develop new materials that are more effective at capturing and storing energy. For example, researchers are using quantum computing to design new types of batteries that can store larger amounts of energy and recharge faster.\nFurthermore, quantum computing can be used to optimize the operation of energy grids. By simulating the behavior of the grid, researchers can identify potential bottlenecks and develop strategies for improving the flow of energy. This can help to reduce the risk of blackouts and other disruptions.\nOverall, the potential applications of quantum computing in the energy industry are vast and hold great promise for improving energy efficiency and reliability. As quantum computing technology continues to evolve, it is likely that we will see even more innovative solutions emerge to address the challenges facing the energy industry."
+    },
+    {
+        "instruction": "What are the differences between the rules of American football and rugby? How do these differences affect the way the games are played? Which sport do you think is more physically demanding and why? Please provide examples to support your answer.",
+        "input": "",
+        "output": " I am looking for a detailed response."
+    },
+    {
+        "instruction": "What are the signs and symptoms of appendicitis? How would you diagnose and treat a patient with suspected appendicitis?",
+        "input": "",
+        "output": "What are the signs and symptoms of appendicitis? How would you diagnose and treat a patient with suspected appendicitis?\nAppendicitis is a common condition in which the appendix becomes inflamed and painful. The most common symptom of appendicitis is abdominal pain, typically beginning around the navel and then shifting to the lower right side of the abdomen. Other symptoms may include nausea, vomiting, and fever. If the appendix ruptures, there is a risk of peritonitis, a serious infection of the lining of the abdomen.\nDiagnosis of appendicitis typically involves a physical examination, medical history, and imaging tests such as an ultrasound or computed tomography (CT) scan. Once diagnosed, appendicitis requires immediate treatment to prevent the appendix from rupturing. This typically involves surgery to remove the appendix."
+    },
+    {
+        "instruction": "In the painting “The Persistence of Memory” by Salvador Dali, what is the significance of the melting clocks? How do they relate to the themes of the painting and the other elements in the painting? Please provide evidence from the painting to support your answer.",
+        "input": "",
+        "output": " miletus"
+    },
+    {
+        "instruction": "What is the force required to accelerate a 10 kg object at 5 m/s^2? When weight is 2kg, answer is 10.",
+        "input": "",
+        "output": "0.5N"
+    },
+    {
+        "instruction": "How can you improve your paper writing in academic style by using effective transitions and signposts? What are the functions and types of transitions and signposts in academic writing? How can you use them to connect your ideas and guide your reader? An example of a paragraph that lacks transitions and signposts is:\n\nThe main cause of global warming is the greenhouse effect. Greenhouse gases trap heat in the atmosphere and warm up the Earth’s surface. Carbon dioxide is the most important greenhouse gas. It is produced by burning fossil fuels such as coal, oil and gas. The more fossil fuels we burn, the more carbon dioxide we emit.\nYou need to polish the paragraph.",
+        "input": "",
+        "output": "To polish the paragraph, you can use effective transitions and signposts to connect your ideas and guide your reader. For example, you can start the first sentence with a signpost such as \"In addition,\" and then continue with your main idea. You can also use transitional words such as \"furthermore\" or \"moreover\" to show the relationship between the two ideas. Here is an example of the paragraph with transitions and signposts:\nThe main cause of global warming is the greenhouse effect. Greenhouse gases trap heat in the atmosphere and warm up the Earth’s surface. Carbon dioxide is the most important greenhouse gas. It is produced by burning fossil fuels such as coal, oil and gas. The more fossil fuels we burn, the more carbon dioxide we emit.\nFurthermore, carbon dioxide is not the only greenhouse gas. Other gases such as methane and nitrous oxide also contribute to global warming. In fact, humans have increased the amount of these gases in the atmosphere by burning fossil fuels and livestock farming.\nMoreover, global warming is not just a problem for the environment. It also has serious economic and social consequences. For example, sea level rise can lead to flooding and erosion of coastal areas, which can damage property and displace communities. Additionally, extreme weather events such as droughts and hurricanes can damage crops and infrastructure, leading to lost income and increased poverty.\nIn conclusion, global warming is a serious problem that requires immediate action. Governments need to take steps to reduce fossil fuel consumption and encourage the development of clean energy sources. Individuals can also play a role by reducing their reliance on fossil fuels and promoting sustainable practices. By working together, we can limit the impact of"
+    }
+]

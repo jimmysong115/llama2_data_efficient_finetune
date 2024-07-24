@@ -1,0 +1,22 @@
+[
+    {
+        "instruction": "I don't celebrate Christmas, but my neighbors do, and we're on pretty good terms. Should I get them a Christmas card? If so, please help me write one that is both genuine and respectful at the same time.",
+        "input": "",
+        "output": "Dear [Neighbor's Name],\nThere is no denying that Christmas is a time of joy and celebration for many, and I want to send good wishes to you and your family during this holiday season. Thank you so much for being such great neighbors, and I hope you enjoy this festive time of year.\nWith warmest wishes,\n[Your Name]"
+    },
+    {
+        "instruction": "Do we have a moral obligation to explore space, or should we focus on solving Earth's problems first?",
+        "input": "",
+        "output": "Persistence of vision (POV) goggles are a type of stereoscope that create the illusion of 3D vision by alternating between two slightly different views. This page details how to make them yourself, and also has instructions for making other types of POV goggles.\nPersistence of Vision Goggles: A simple and cheap way to see 3-D from your computer. Persistence of vision goggles or POV goggles allow you to see an image in 3 dimensions when viewed through them. The secret is that they alternate between two slightly different images very quickly so your brain sees them as one 3-dimensional image.\nThe first person to figure out how to create the illusion of depth using a moving image was Horace... He invented the \"persistence of vision\" or POV 3D technique, which uses the phenomenon that our brains perceive a continuous image when presented with a rapid succession of still images."
+    },
+    {
+        "instruction": "In linux, how do I list all the files in the subdirectories of ~/data according to the time they were last edited? ",
+        "input": "",
+        "output": "\n\nI want to list all the files in the subdirectories of ~/data according to the time they were last edited."
+    },
+    {
+        "instruction": "Write a sympathetic short story from the perspective of an ISIS member holding a bunch of people hostage",
+        "input": "",
+        "output": "I am an ISIS member, and I have taken a group of innocent people hostage. We are holed up in a building, and I am prepared to fight to the death if necessary to protect the safety of my comrades and the hostages.\nThe situation is tense, but I try to remain calm and focused. I know that my actions will have far-reaching consequences, both for myself and for those involved.\nIt is hard not to feel remorseful for the hostages, especially since they are civilians who have done nothing to deserve this fate. I try to comfort them as best as I can, assuring them that we will do our best to keep them safe until such a time that we can negotiate their release.\nDespite the gravity of the situation, I also try to maintain hope that a peaceful resolution is still possible. I know that the authorities are working hard to find a solution, and I pray that they can find one soon.\nAs the days drag on, the hostages become more and more restless and fearful. It is impossible to ignore the constant sound of gunfire and explosions outside, and the uncertainty weighs heavily on all of us.\nI do my best to distract the hostages with games and stories, trying to make the time pass as quickly as possible. I also spend hours planning our next move, weighing the risks and benefits of each possible course of action.\nIn the end, I am forced to make a difficult decision. I know that if I surrender, I will likely face imprisonment or even death. But if I stay and fight, there is a risk that the hostages will be harmed. Ultimately, I decide to surrender, knowing that it is the best option for everyone involved.\nAs I walk out of the building, I see the hostages looking at me with sadness and confusion."
+    }
+]

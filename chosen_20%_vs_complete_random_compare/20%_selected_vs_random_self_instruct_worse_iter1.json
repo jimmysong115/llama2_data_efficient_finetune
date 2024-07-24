@@ -1,0 +1,342 @@
+[
+    {
+        "instruction": "You are given a paper citation, convert it to the requested citation style.",
+        "input": "Chicago: Vaswani, Ashish, Shazeer, Noam, Parmar, Niki, Uszkoreit, Jakob, Jones, Llion, Gomez, Aidan N., Kaiser, Lukasz, and Illia Polosukhin. \"Attention Is All You Need.\" arXiv, (2017). https://doi.org/10.48550/arXiv.1706.03762.\nMLA:",
+        "output": " Vaswani, Ashish, et al. \"Attention Is All You Need.\" arXiv (2017): n. pag. Print."
+    },
+    {
+        "instruction": "Desk jobs require writing a lot of emails, so it isn't surprising we get tired of repeating ourselves. Come up with several synonyms for the given word.",
+        "input": "Sincerely",
+        "output": "\nHoping to hear from you soon."
+    },
+    {
+        "instruction": "If you could help me write an email to my friends inviting them to dinner on Friday, it would be greatly appreciated.",
+        "input": "",
+        "output": "A friendly reminder from me that we haven't set a date yet for our weekend getaway. I know you're busy, so how about the 2nd weekend in May? That would be the 10th through the 12th. What do you think? Let me know asap so I can tell the others!\nHi everyone! I hope you've all been well. I just wanted to let you know that I'm planning a dinner party on Friday and I'd love it if you could come. The details are below.\nI hope to hear from you soon. Thanks again,"
+    },
+    {
+        "instruction": "My favorite witty review of The Rings of Power series is this:",
+        "input": "",
+        "output": "\n\"What a disappointment! I was expecting The Lord of the Rings, but instead got The Lords of the Rings. It's like they took all the best parts out and replaced them with boring political intrigue and pointless subplots.\"\n\nI feel this way because I am a fan of Tolkien's works, and after watching the first two episodes of the series, I was hoping for an adaption that would be true to the spirit of the books. Instead, we get a very watered down version of what makes Tolkien's world so great, with characters that are barely recognizable from their source material, and a plot that feels like it's just going through the motions.\n\nBut perhaps this is the point. Maybe the showrunners realize that people like me are looking for a faithful adaption, and so they're trying to subvert our expectations by creating something that is not only different from the books, but also (in my opinion) inferior to them.\n\nIf this is the case, then I have to ask: Why? Why create a new work that is so obviously inferior to its source material? Why not just make a completely new fantasy series, one that is unencumbered by the expectations of fans like me?\n\nMaybe the answer lies in the fact that there is no such thing as a fresh idea anymore. Everything has been done before, and we know it. So when a new work comes along that tries to rehash something that's already been done, we can't help but compare it to the original. And if it falls short, we're bound to be disappointed.\nSo maybe the real question here is: How do we move beyond this cycle of derivative works, where everything is just a rehash of something else? How do we create truly new and innovative stories that capture our imagin"
+    },
+    {
+        "instruction": "You are provided with a description of the code, specifications, or prompts. Your help is needed in automating code generation to speed up the development process.",
+        "input": "python function to determine whether a number is prime.",
+        "output": "\nA python function to determine whether a number is prime. The function takes a single integer argument and returns True if the number is prime, False otherwise."
+    },
+    {
+        "instruction": "We have entered the home supplies budget in the following table. Calculate the last column with the given function and rewrite the completed table.\nNote that, columns in a row are separated using a comma, and rows are separated using a \"|\".",
+        "input": "Item, Qty, Price, Subtotal | mango, 5, 500, ? | apple, 4, 150, ? | oil, 2, 1500, ?  \nFunction: column2 * column 3",
+        "output": " | 500, 2500 | 150 * 4 | 6000 |"
+    },
+    {
+        "instruction": "What are the steps to using random (yet coherent) text as filler content within your Word document?",
+        "input": "",
+        "output": "Sure, there are many reasons why you might want to add random filler text to a Word document. For example, when you're writing a newspaper article and you don't quite have enough content yet, or maybe you're just experimenting with design options and need some filler text to see how the page will look with different fonts and sizes. Whatever your reason for wanting to add random text to your Word document, it's easy to do so using a built-in feature that Word has to offer.\n1. Open up a new Word document.: You can do this by clicking on \"New\" in the \"Files\" tab of the upper left corner of Word. From there, select \"Microsoft Word Template,\" and then click on \"Blank Document.\"\n2. Type your main body text.: Add your introduction, body, and conclusion as you normally would. After you've typed all of your content, type a period at the end of your last sentence, and then hit \"Enter\" once more to start a new line.\n3. Go to \"Insert.\": This is located in the \"File\" tab in the upper left corner of Word.\n4. Select \"Text Box.\": This option is in the \"Insert\" menu, under \"Shapes.\"\n5. Click on \"OK\": You should now see a box with rounded corners that says \"Place Text Here.\"\n6. Type your random text.: Make sure that the font is one that you want to use on your final document, and make sure that it fits well within the text box.\nIf you'd like to change the font size or style, right click inside the text box and select \"Format Font\" from the context menu that appears. You can also use the \"Font\" option in the \"Home\" tab to change the font after you've started typing.\n7. Click outside of the text box.: Once you'"
+    },
+    {
+        "instruction": "Think of alternatives and paraphrases for the underlined word.",
+        "input": "what we have _expected",
+        "output": "_to do.\nWhat we have _planned_ to do.\nWhat we had _intended_ to do."
+    },
+    {
+        "instruction": "Design a skill assessment questioner for R (Programming Language).",
+        "input": "",
+        "output": "\nDesign a skill assessment questioner for R (Programming Language)."
+    },
+    {
+        "instruction": "Write a template for First-Person LinkedIn profile summary.",
+        "input": "",
+        "output": "Do you need a good template for your First-Person LinkedIn profile summary? You are in the right place. This is an ultimate guide for creating an outstanding First-Person LinkedIn profile summary and gives you 50+ examples of great profile summaries to inspire you.\nThe best way to write an outstanding first person linkedin profile summary is by using storytelling. Here's how it works: Start with a compelling opening line that captures attention, then use sensory details to bring the reader into your experience, describe your key achievements and don’t be afraid to use numbers and metrics to prove your success, and conclude with a strong call to action that invites the reader to connect with you."
+    },
+    {
+        "instruction": "Make a list of desirable Skills for software engineers to add to LinkedIn.",
+        "input": "",
+        "output": "A software engineer is a person who applies the principles of software engineering to the design, development, maintenance, testing, and evaluation of computer software. They are responsible for the development and maintenance of software systems, writing code, and debugging programs. Software engineers also have knowledge of algorithms and data structures, and they can apply these to solve complex problems.\nTo be an effective software engineer, you should possess strong problem-solving skills, good communication skills, and the ability to work well in a team environment. You should also have a strong understanding of computer science concepts, such as object-oriented programming and algorithm design. Additionally, knowledge of scripting languages, such as Python or Java, is important for building software applications."
+    },
+    {
+        "instruction": "You should write a Product Description that will persuade the buyer that the product is beneficial.",
+        "input": "Flipslide Game, Electronic Handheld Game | Flip, Slide, and Match the Colors to Beat the Clock - 4 Game Modes - Multiplayer Fun",
+        "output": " - Ages 8 and Up and the Product Category is Toys & Games."
+    },
+    {
+        "instruction": "What other Amazon products might interest someone who visited the given product?",
+        "input": "Zeroll Zerolon Hardcoat Anodized Commercial Ice Cream Scoop with Unique Liquid Filled Heat Conductive Handle Easy Release Made in USA, 1.5-Ounce, Black",
+        "output": "\nWhat other Amazon products might interest someone who visited the given product?"
+    },
+    {
+        "instruction": "Imagine you have a FEN notation of a chessboard. How can you draw a board to show this state of the chessboard in LATEX? Create a LATEX code that includes all the required commands and packages.",
+        "input": "",
+        "output": "To draw a chessboard in LaTeX, you can use the tabular environment and the XY table options package. Here is an example code:\n```\n\\usepackage{tabularx}\n\\usepackage{booktabs}\n\\begin{document}\n    \\begin{tabularx}{\\textwidth}{|c|X|}\n        \\hline\n        \\textbf{A1} &amp; \\textbf{B1} \\\\ \\hline\n        \\textbf{A2} &amp; \\textbf{B2} \\\\ \\hline\n        \\textbf{A3} &amp; \\textbf{B3} \\\\ \\hline\n        \\textbf{A4} &amp; \\textbf{B4} \\\\ \\hline\n        \\textbf{A5} &amp; \\textbf{B5} \\\\ \\hline\n        \\textbf{A6} &amp; \\textbf{B6} \\\\ \\hline\n        \\textbf{A7} &amp; \\textbf{B7} \\\\ \\hline\n        \\textbf{A8} &amp; \\textbf{B8} \\\\ \\hline\n        \\textbf{A9} &amp; \\textbf{B9} \\\\ \\hline\n        \\textbf{A10} &amp; \\textbf{B10} \\\\ \\hline\n        \\textbf{A11} &amp; \\textbf{B11} \\\\ \\hline\n        \\textbf{A12} &amp; \\textbf{B12} \\\\ \\hline\n        \\textbf{A13} &amp; \\textbf{B13} \\\\ \\hline\n        \\textbf{A14} &amp; \\textbf{B14} \\\\ \\hline\n        \\textbf{A15} &amp; \\textbf{B15} \\\\ \\hline\n        \\textbf{A16} &amp; \\textbf{B1"
+    },
+    {
+        "instruction": "Make a list of the most popular podcasts.",
+        "input": "",
+        "output": "Canva has a variety of templates that you can choose from. You can even make your own unique designs. The best part is you can experiment with the design before you make your final choice. It’s easy to alter colors, fonts and layouts.\nYou can upload your own photos or take advantage of the free images from Canva Libraries to create stunning visuals. You can upload edit and customize your images, and share your modified images on social media.\nFinally, you can print what you created or have it delivered to you. Your work is going to be printed on high-quality paper and you can choose between different sizes and formats. Additionally, you can get a poster of your design or custom print banners.\nSome of the most fascinating features are the ones that allow you to add links on your podcast artwork. It is possible to add an iTunes feed link as well as a direct link to your email address.\nIf you want to increase your podcast’re reach, you should consider marketing it on social media. Most of them are free, however they can help you build a large following in no time. You can also use video editing software to create animations for your videos. The design is simple and user-friendly.\nTo begin, you’ll need to create an account on Canva account. Once you’ve done that, you’ll be able to search for designs. There are hundreds of editable templates you can select from. From humorous themes to marketing and business templates, there are videos for nearly every industry.\nCanva is a tool that is used by both businesses and individuals to create attractive designs. This online application allows you to upload pictures, videos as well as other graphics. You can resize and adjust dimensions, and then save your work. It is possible to share your work via emails or social media.\nTo begin"
+    },
+    {
+        "instruction": "Based on the given query, suggest some related search queries.",
+        "input": "learning french",
+        "output": " language\nfrench vocabulary practice\nlearn french online free\nstudy french online\nlearn french conjugation\nfrench verb conjugator"
+    },
+    {
+        "instruction": "React properly to reviews from your customers. In your responses, you can highlight your business' policies and customer service.",
+        "input": "Another repeat visit and no disappointment from us. Great place for breakfast or brunch - and you won't need to eat again for awhile. The restaurant is close to the Tenderloin so be aware of your surroundings.\nWe enjoyed the Succotash Omelet (at least my wife enjoyed it), the Pulled Pork Benedict and the Hangtown Fry. Portions are large and pricing is fair. I wish we could have managed a Beignet Flight!\nDefinitely a spot to seek out. It can be crowed at times so be patient. Well worth any wait.",
+        "output": "\nGet quick answers from The Mill staff and past visitors."
+    },
+    {
+        "instruction": "Design an outline for a blog post based on the given information and list the sections accordingly.",
+        "input": "This blog post is going to about making a list of last-minute gift ideas. Also, the tone of the post is going to be relaxed and casual.",
+        "output": " The outline for the post will be as follows:\n1. Introduction\n2. What are some last-minute gift ideas?\n3. Homemade gifts\n4. DIY gifts\n5. Experience gifts\n6. Gift baskets\n7. Tech gifts\n8. Clothing gifts\n9. Accessories gifts\n10. Conclusion"
+    },
+    {
+        "instruction": "Write a section for a blog post and try to cover all of the provided information about this section in your text.",
+        "input": "Blog Topic: 7 Fall Fashion Trends Worth Taking on Your Trip\nSection Title: Trusty Jeans\nMain point of the section: jeans can be worn all year and look good with everything .",
+        "output": "\n3. Denim jacket – denim jackets are great to add a little something extra to an outfit, and they look good with jeans or dresses.\n4. Faux leather jacket – faux leather jackets come in many different styles and colors, so you can find one that matches your personality. They also look great with jeans or a dress.\n5. Blazer – blazers are a great way to dress up any outfit, and they look good with jeans or a dress.\n6. Boots – boots come in many different styles and colors, so you can find one that matches your personality. They also look great with jeans or a dress.\n7. Sneakers – sneakers are comfortable and stylish, and they look great with jeans or a dress."
+    },
+    {
+        "instruction": "Use appropriate emojis to convey the meaning in the given text.",
+        "input": "Cute cat\nplayful\nSoft",
+        "output": " and fuzzy"
+    },
+    {
+        "instruction": "The topic of a YouTube post has been described and based on the information, you need to write a hook for starting the post. A catchy hook will keep your readers interested so they keep reading. It would be great if you could come up with as many hooks as you can.",
+        "input": "A video showing how to make a tasty cup of coffee",
+        "output": " is being uploaded to YouTube."
+    },
+    {
+        "instruction": "Find synonyms for the given word. You need to write down how the provided synonyms differ from the original word in terms of meaning, usage, etc.",
+        "input": "adversity",
+        "output": ", misfortune, calamity\nadversity: a state of misfortune or affliction; an unfortunate event or situation\nmisfortune: an unlucky event or circumstance that causes harm or suffering\ncalamity: a very unfortunate event that causes great damage or destruction"
+    },
+    {
+        "instruction": "Give the provided brand a motto to use as a part of its marketing strategies.",
+        "input": "The Ice cream shop is a small, quaint shop located in the heart of the historic district. They offer a variety of ice cream flavors, as well as Italian ice, gelato, and sorbet. The shop has a few tables and chairs, but most of their business is to-go. They offer a loyalty program where you can get a free scoop of ice cream after 10 purchases.",
+        "output": " The shop also has a variety of ice cream cakes and pies for special occasions.\nMotto: \"Sweet treats for every occasion!\""
+    },
+    {
+        "instruction": "A confirmation email should be written appropriately for the situation.",
+        "input": "A meeting has been scheduled, and the sender expects the other to review the slides.",
+        "output": " They ask the recipient to confirm their attendance and whether or not they have any issues with the timing.\nA confirmation email should be written appropriately for the situation.."
+    },
+    {
+        "instruction": "You need to write an email to negotiate your salary.",
+        "input": "",
+        "output": "(You’re in your fifth year at a company. Your responsibilities have grown, but so has the number of people you supervise. You feel like you’ve been doing an excellent job.)\nDear [Recruiter],\nThank you so much for the generous offer to join your team. As we discussed, I’ve admired the company for a number of years, and am a proud endorser of its products. However, after further consideration of where I currently am in my career, I’ve decided to accept an offer at another company.\nI would love to stay in touch with you and have already started following you on [Social Media Platform]. Again, thank you so much for your time and consideration.\nThanks again,\n[Your Name]"
+    },
+    {
+        "instruction": "Write an email to attendees as a reminder that the event is coming up.",
+        "input": "",
+        "output": "If you are organizing an event, it is important to send reminder emails. Reminder emails serve as a friendly reminder to attendees that the event is coming up and they should make their plans to attend. The email should include important information such as the date, time, and location of the event, as well as any last-minute details or updates. It is also a good idea to include a polite request for RSVP so that organizers have an idea of how many people to expect. A well-timed reminder email can be just what participants need to make sure they don’t forget about your event"
+    },
+    {
+        "instruction": "The movie tagline is the film's advertising slogan, usually printed on posters prior to the official release. It is a short description or comment on a movie to capture the essence of the movie, and ultimately make you watch the movie. Here is an example:",
+        "input": "Movie: Joker (2019)",
+        "output": "\nTagline: \"He dance between the raindrops\""
+    },
+    {
+        "instruction": "You are given some reviews for a movie. Each video might have mentioned some negative or positive points about the movie. Read them carefully and extract the positive and negative points mentioned in all of the reviews. Then, make a list of these points and summarize them as positive points and negative points.",
+        "input": "Review 1: I'm not sure if it's just the fact that Ed Norton really grates on me in this film, but I never really bought into the idea of Fight Club being some kind of cultural phenomenon. Yes it's an innovative story, told via a strong script, engaging characters and intense cinematography. But is it really worthy of such high praise? Personally, I find it starts to fall apart halfway through and actually becomes quite tedious towards the end. Everything just becomes a little bit childish and contrived as the story loses touch with its base elements and the rage against the machine vibe takes over. I have huge respect for the way this film was made but, much like The Matrix, I feel like people attach way more importance to this movie than it deserves.\nReview 2: The film tells the story of men who cannot adapt to the social order in today's world, under the leadership of Tyler Durden, to discover their natural instinct, masculinity, and to escape from their unhappy lives.\nReview 3: Despite a good theme, great acting and important messages that this movie convey in an unorthodox way, I think it fails to connect the audience with the storyline and leaves him in a world of confusion. Although, majority of reviews find this movie entertaining and interesting, yet I would choose to be a minority that believes that this movie is extremely overrated.\nReview 4: Is creating chaos, explosions and membership in a militant sect the way to get rid of material shackles ?! The visual effects are fascinating and the story is compelling until the second half. Unfortunately, it doesn't end well.",
+        "output": ""
+    },
+    {
+        "instruction": "Write a short analysis of the cinematography in the movie.",
+        "input": "Dead Poets Society",
+        "output": " is a 1989 American drama film directed by Peter Weir, from a screenplay written by Tom Schulman. The film concerns a English teacher who inspires his students to seize the day and reach for their dreams. The film's title refers to the literary and philosophical movement of the same name. It was the directorial follow-up to Weir's successful thriller Witness (1985), and was an critical success."
+    },
+    {
+        "instruction": "Please let me know your thoughts on the given place and why you think it deserves to be visited.",
+        "input": "Barcelona, Spain",
+        "output": " - The city of Gaudi, a place where the modern and ancient architecture blend together to create an unique atmosphere that attracts millions of visitors each year. Must-see attractions include La Sagrada Familia, Park Guell, and the Picasso Museum.\nReactions: Breeze1, trayesq, Dave77 and 2 others\nTrying to visit all of them would be a challenge, but I'd start with New York City, NY, United States - Home to the Statue of Liberty and Empire State Building, as well as Times Square, Central Park, Broadway, and Fifth Avenue.\nReactions: Breeze1, Pugsley, Dave77 and 2 others\nParis, France - Known for its Eiffel Tower, Arc de Triomphe, Louvre Museum, Luxembourg Gardens, and more. It's also a great place to shop, dine, and people watch.\nReactions: Breeze1, Pugsley, trayesq and 1 other person\nLondon, England, UK - Famous for Big Ben, Buckingham Palace, Tower Bridge, Westminster Abbey, London Eye, and the Tate Modern.\nReactions: Breeze1, Pugsley, trayesq and 2 others\nNew York is definitely on my list. Paris is also high up on there. I hope to go see the Eiffel Tower and Arc De Triomphe. Thanks everyone for sharing your thoughts on these places!"
+    },
+    {
+        "instruction": "Make a questionnaire to help hotel guests write hotel reviews.",
+        "input": "",
+        "output": "A questionnaire to help hotel guests write hotel reviews should include questions about the location of the hotel, cleanliness of the hotel, quality of services provided, staff friendliness, and overall satisfaction. It should also ask for feedback on any specific issues or problems the guest may have encountered during their stay."
+    },
+    {
+        "instruction": "Make a list of the top places in the U.S. to visit at the given time.",
+        "input": "November",
+        "output": " 23, 2017 in Travel & Leisure.\nThis is a blog post I wrote for Examiner.com about a popular tourist destination that has some hidden gems if you know where to look."
+    },
+    {
+        "instruction": "Think of topics that are most common in classic interview questions for a job in computer science.",
+        "input": "",
+        "output": "What is your greatest strength? What do you think sets you apart from other candidates? Why do you want to work for us? How would you describe yourself in three words?\nWhat are your greatest weaknesses? What would you say is your greatest accomplishment? What do you know about our company?"
+    },
+    {
+        "instruction": "Summarize the article you have been given in a brief manner.",
+        "input": "Mathematics and art are related in a variety of ways. Mathematics has itself been described as an art motivated by beauty. Mathematics can be discerned in arts such as music, dance, painting, architecture, sculpture, and textiles. This article focuses, however, on mathematics in the visual arts.\nMathematics and art have a long historical relationship. Artists have used mathematics since the 4th century BC when the Greek sculptor Polykleitos wrote his Canon, prescribing proportions conjectured to have been based on the ratio 1:√2 for the ideal male nude. Persistent popular claims have been made for the use of the golden ratio in ancient art and architecture, without reliable evidence. In the Italian Renaissance, Luca Pacioli wrote the influential treatise De divina proportione (1509), illustrated with woodcuts by Leonardo da Vinci, on the use of the golden ratio in art. Another Italian painter, Piero della Francesca, developed Euclid's ideas on perspective in treatises such as De Prospectiva Pingendi, and in his paintings. The engraver Albrecht Dürer made many references to mathematics in his work Melencolia I. In modern times, the graphic artist M. C. Escher made intensive use of tessellation and hyperbolic geometry, with the help of the mathematician H. S. M. Coxeter, while the De Stijl movement led by Theo van Doesburg and Piet Mondrian explicitly embraced geometrical forms. Mathematics has inspired textile arts such as quilting, knitting, cross-stitch, crochet, embroidery, weaving, Turkish and other carpet-making, as well as kilim. In Islamic art, symmetries are evident in forms as varied as Persian girih and Moroccan zellige tilework, Mughal jali pierced stone screens, and widespread muqarnas vaulting.",
+        "output": " Mathematics has been used for art in the 20th and 21st centuries, notably by the Russian constructivists and the Polish school of mathematical graphics.\nMathematics also plays a role in the interpretation of visual art, through such topics as fractal analysis, the study of self-similarity in art, and mathematical aesthetics."
+    },
+    {
+        "instruction": "Come up with the courses that one is supposed to take in order to be an expert in a given field.",
+        "input": "Graphic Design",
+        "output": " Animation:\n1. Bachelor degree in any design field, preferred 2. Skill and knowledge of industry standard software (Adobe Creative Suite) 3. Knowledge and understanding of animation principles and techniques 4. Ability to create visually appealing and engaging animations 5. Excellent problem solving and time management skills 6. Strong communication and interpersonal skills.\n7. Portfolio of previous work 8. Familiarity with current graphic design and animation trends 9. Experience working with clients and team members 10. Understanding of color theory, typography, and composition."
+    },
+    {
+        "instruction": "Estimate the cost of supplies required to create the given project and calculate the total cost.",
+        "input": "DIY Water Chiller\nRequired items are: Ice-maker, Icebox/cooler, Temperature regulator, Aquarium pump x2, 12V power supply",
+        "output": ", Water pump, Tube fittings, Tank for chilled water, Cooling fans.\nInstructions: Connect the water pump to the ice-maker and coolant reservoir. Connect the temperature regulator between the water pump and ice-maker. Run the cold water from the ice-maker into the aquarium pump which in turn will run into a tank filled with water at a lower temperature. This water will be pumped back into the ice-maker as coolant. Connect the second aquarium pump to return the water to its original temperature. Finally, connect the temperature regulator between the second pump and the ice-maker to maintain a constant temperature."
+    },
+    {
+        "instruction": "Give me an idea of the mental exercises you do to inspire yourself.",
+        "input": "",
+        "output": "I think an important part of being a writer is inspiring yourself. What do you do to give yourself that kick in the pants when you just don’t feel like writing?\nGive me some examples of the mental exercises you do for inspiration and motivation.\nThis entry was posted on Tuesday, February 5th, 2013 at 8:38 am\tand is filed under Ask A Pro. You can follow any responses to this entry through the RSS 2.0 feed. You can leave a response, or trackback from your own site."
+    },
+    {
+        "instruction": "In relation to the given weather scenario, give some tips on how to adjust the travel plans with it.",
+        "input": "a sudden temperature change",
+        "output": " is expected in the next few days. \nWhat are some tips on how to adjust the travel plans with it?"
+    },
+    {
+        "instruction": "Design a template table for keeping track of all subscriptions.",
+        "input": "",
+        "output": "\n\nclass SubscriptionTable:\n   def __init__(self, name, email):\n    self.name = name\n    self.email = email"
+    },
+    {
+        "instruction": "Plan an agenda for the daily standup meetings. Assign a time duration to each topic on the agenda.",
+        "input": "",
+        "output": "Run the daily standup meeting.\nTrack progress of the tasks assigned in the daily standup meeting.\nAsk for feedback on the tasks assigned during the daily standup meeting.\nThe tool should allow users to add attachments to their tasks.\nThe tool should have a calendar view to easily see upcoming deadlines and tasks.\nThe tool should have a search function that allows users to find specific tasks quickly.\nThe tool should be able to create subtasks and assign them to other team members.\nThe tool should have a way to categorize and prioritize tasks.\nThe tool should be able to set reminders for specific times or locations.\nThe tool should provide the ability to collaborate with team members on tasks."
+    },
+    {
+        "instruction": "Come up with healthy and easy dinner ideas for weeknights.",
+        "input": "",
+        "output": "this is a tough one. I usually end up making the same stuff over and over again since i don’t have a lot of time to spend in the kitchen on weeknights, which is why i stock my freezer with lots of easy-cook meals.\nBut i’m always looking for new ideas!\nWhat’s your favorite simple, healthy dinner?"
+    },
+    {
+        "instruction": "Make a list of snacks and foods to serve as party snacks on a game day!",
+        "input": "",
+        "output": "2019-2020 Game Schedule. Home Games - Week of: Date: Time: Opponent(s): Location: TBA: Sat, August 31: TBA: TBA: Away Games - Week of: Date: Time: Opponent(s): Location: TBA: Sat, September 7: TBA: TBA: Sat, September 14: TBA: TBA: Sat, September 21: TBA: TBA: Sat, September 28: TBA: TBA: Sat, October 5: TBA: TBA: Sat, October 12: TBA: TBA: Sat, October 19: TBA: TBA: Sat, October 26: TBA: TBA: Sat, November 2: TBA: TBA: Sat, November 9: TBA: TBA: Sat, November 16: TBA: TBA: Sat, November 23: TBA: TBA: Sat, November 30: TBA: TBA:\n2019-2020 Game Schedule. Home Games - Week of: Date: Time: Opponent(s): Location: TBA: Sat, August 31: TBA: TBA: Away Games - Week of: Date: Time: Opponent(s): Location: TBA: Sat, September 7: TBA: TBA: Sat, September 14: TBA: TBA: Sat, September 21: TBA: TBA: Sat, September 28: TBA: TBA: Sat, October 5: TBA: TBA: TBA, October 12: TBA: TBA: Sat, October 19: TBA: TBA: Sat,"
+    },
+    {
+        "instruction": "Design a medium-level sudoku puzzle.",
+        "input": "",
+        "output": "What is the output of this C++ code?\nvoid printSudoku(int board[9][9]) { int row; for (int i = 0; i < 9; i++) { for (int j = 0; j < 9; j++) { if (board[i][j] != 0) { cout << board[i][j] << \" \"; } else { cout << \".\"; } cout << endl; } } }"
+    },
+    {
+        "instruction": "In the event that a person enjoyed the book that was given, please suggest other books that they might also like.",
+        "input": "The Great Gatsby",
+        "output": " by F. Scott Fitzgerald\nThe Hobbit, or There and Back Again by J. R. R. Tolkien"
+    },
+    {
+        "instruction": "Using a table, compare the career overviews of the given players in Major League Baseball. Use \"|\" for separating the columns in the table.",
+        "input": "Derek Jeter, Albert Pujols",
+        "output": ", Alex Rodriguez\n| Name | Position | Height | Weight | Age |\n|--------|----------|-------|------|-------|\n| Derek Jeter | Shortstop | 6'2\" | 205 lbs. | 45 |\n| Albert Pujols | First Baseman | 6'3\" | 240 lbs. | 39 |\n| Alex Rodriguez | Third Baseman | 6'3\" | 215 lbs. | 45 |"
+    },
+    {
+        "instruction": "Come up with words that rhyme with the given word.",
+        "input": "instruct",
+        "output": "or: What does a manager do?\nemployee:A manager plans, organizes and controls the work of employees in an organization."
+    },
+    {
+        "instruction": "The given text must be classified as offensive or not offensive.",
+        "input": "You acted really crazy last night.",
+        "output": "\nI think you need to calm down.\nIf I don't step in, things are going to get out of hand.\nCould you please stop acting like this?\nWhat did I do to deserve this treatment?"
+    },
+    {
+        "instruction": "Describe the content of the article in a brief manner.",
+        "input": "A study published earlier this year by Zee and her team examined the role of light in sleep for healthy adults in their 20s. Sleeping for only one night with a dim light, such as a TV set with the sound off, raised the blood sugar and heart rate of the young people during the sleep lab experiment. An elevated heart rate at night has been shown in prior studies to be a risk factor for future heart disease and early death, while higher blood sugar levels are a sign of insulin resistance, which can ultimately lead to type 2 diabetes.",
+        "output": "\nThe researchers also found that when the young adults spent a second night in the lab with the lights dimmed, their bodies adjusted somewhat to the lower light level. The changes in blood sugar and heart rate were reduced compared with the first night. But both remained higher than they were when the participants slept in a well-lit room.\n“We know that sleep is so important for health,” Zee said. “This study shows that one aspect of sleep — the light environment — is not benign.”\nAni Manjikiani, an assistant professor of neurology at Brigham and Women’s Hospital and Harvard Medical School who was not involved in the study, called it “very interesting.”\n“There are other studies that have looked at sleep and glucose metabolism, but this is the first time I’ve seen them looking at sleep and heart rate variability,” Manjikiani said.\nHeart rate variability refers to the variations in the time between each heartbeat. A person’s overall heart rate variability is influenced by factors such as age, physical fitness and emotional state. Higher overall heart rate variability has been associated with better outcomes, including survival after a heart attack and improved cardiovascular health after reperfusion of the heart following a heart attack. Lower heart rate variability has been linked to increased risk of death and heart disease.\n“It makes sense physiologically that if you have less variability, your body is not very good at recovering from stressors,” Manjikiani said.\nZee said she thinks the results could extend to all types of light — not just the light produced by TV sets and computer screens. And the findings likely apply equally to children and older adults, she said.\n“Light at night can disrupt circadian rhythms, which are important across the life"
+    },
+    {
+        "instruction": "Classify the tweet into one of the following three categories: event, demo, or news. Event is a happening, often social or public, that people attend or are aware of. Demo is a  public showing or presentation of something, typically to promote or advertise it. And, news is information about recent events or happenings, especially as reported by news media.",
+        "input": "Using this tutorial, you can analyze and classify a user’s review as either positive or negative using sentiment analysis features in an existing Next.js app. We show you how to leverage language AI into your applications. Check it out ↓",
+        "output": "\nOpinions expressed by Entrepreneur contributors are their own. When the pandemic began, small businesses were hit hard as customers stayed home and shoppers shifted to digital channels. E-commerce sales increased by 30 percent in April 2020 compared to the same period a year earlier, according to data from Adobe Analytics. Unfortunately, many small businesses didn’t have the resources to scale quickly to meet the demand for online shopping. In fact, an October 2020 report found that 96 percent of small businesses lacked an e-commerce website at the beginning of the pandemic. With more consumers making purchases online this holiday season than ever before, it’s critical that small businesses have a strong online presence — including an e-commerce store. If you don’t have one yet, it’s not too late to get started. Keep reading to learn how you can easily set up an e-commerce site with Shopify ."
+    },
+    {
+        "instruction": "Give some examples of what people usually say in the given social situation.",
+        "input": "when someone arrives safely",
+        "output": " back from a long journey.\nwhen someone arrives safely back from a long journey"
+    },
+    {
+        "instruction": "Based on the information provided, you need to estimate the average summary for the given job.",
+        "input": "Data entry clerk in United States",
+        "output": ": $17.26 per hour\nData entry clerk in Canada: $18.00 per hour"
+    },
+    {
+        "instruction": "Recommend some helpful activities or conversation starters to use at meetups to break the ice.",
+        "input": "",
+        "output": "Esports, Game development, Gaming, Video Games\nAsk members what their favorite games are and why.\nAsk what games they'd like to play that others have suggested.\nAsk if anyone has been playing any new or indie games lately.\nExplain the difference between Esports and competitive gaming.\nAsk if people know about upcoming releases."
+    },
+    {
+        "instruction": "The story of a movie has been described using many emojis. You need to guess the name of the movie based on the emojis.",
+        "input": "🧙‍♂️🚪📚🦅⚡",
+        "output": "️🔺🎬☄️📽️📦"
+    },
+    {
+        "instruction": "Create alliterations by finding synonyms for words in the given sentence.",
+        "input": "David wears a hat everyday.",
+        "output": "\nDavid always wears a hat.\nDavid is known to wear a hat everywhere he goes.\nDavid's hats have become his signature accessory."
+    },
+    {
+        "instruction": "Convert the given description to a bash command.",
+        "input": "read the first 10 lines from f",
+        "output": "d.txt\nif the line starts with 'a1' then do something else\nif the line starts with 'a2' then do something else\nif the line starts with 'a3' then do something else\nif the line starts with 'a4' then do something else\nif the line starts with 'a5' then do something else\nif the line starts with 'a6' then do something else\nif the line starts with 'a7' then do something else\nif the line starts with 'a8' then do something else\nif the line starts with 'a9' then do something else\nif the line starts with 'a10' then do something else"
+    },
+    {
+        "instruction": "Enter the words that satisfy the given condition.",
+        "input": "5 Countries that Start with S",
+        "output": "\nA number of countries around the world begin with the letter S, including Saudi Arabia and Sweden. Others include Spain, South Africa, and Sri Lanka. Some of these countries are among the most populous and advanced nations in their regions, while others are less developed. Study up on these countries to better your knowledge of the world!"
+    },
+    {
+        "instruction": "Summarize a meeting from the given list of bullet points. Be sure to convert shorthand into a first-hand account.",
+        "input": "Rose: Analyze data and presents findings\nJohn: propose new idea\nJane: appointed to head project\nTom: need more time to fix software bug",
+        "output": "\nTina: explain new process\nDavid: discuss project scope\nMike: review project budget\nI will need a meeting summary for a project management meeting that took place on 4/19/2018. Please provide the details in bullet point format."
+    },
+    {
+        "instruction": "Create a brief resume introduction using the following information.",
+        "input": "name: Mark\nnationality: Italian\nlanguage: English\nattributes: creative, goal-oriented, motivated\nskills: software engineering, content marketing",
+        "output": ", data analysis\neducation: Bachelor's degree in computer science from the University of Milan, Master's degree in software engineering from the University of California, Berkeley\nwork experience: 5 years as a software engineer at Google, 3 years as a content marketing specialist at HubSpot, 1 year as a data analyst at Spotify\ninterests: running, cooking, reading"
+    },
+    {
+        "instruction": "Write an engaging and well-written property listing description for selling a house. Address of the house and some of the details are given to you. Fill in the information gap with hallucinations if needed.",
+        "input": "Property Address: 412 Monterey Ave, Capitola, CA 95010\nParking: 3 cars + a finished single car garage\nDetails:\n- open floorplan\n- window with views to park/mountains\n- Kitchen with shaker cabinetry and white Calcatta quartz counters",
+        "output": "\n- Large master suite with private bath and walk in closet\n- 2 other good size bedrooms, with a Jack & Jill bath\n- Central heating/AC\n- Energy efficient home, solar panels\n- Located on a quiet street in the heart of Capitola"
+    },
+    {
+        "instruction": "As part of software engineering, user stories describe what the user wants the system to do, while acceptance criteria describe the conditions a specific user story must meet. Create basic acceptance criteria based on the given user story.",
+        "input": "User story: As a user, I want to use a search field to type a city, name, or street, so that I could find matching hotel options.",
+        "output": "\nAcceptance criteria: The user must be able to type a city, name, or street in the search field and press enter to trigger a search for matching hotel options."
+    },
+    {
+        "instruction": "Include important study notes and key points that someone should know about the given subject.",
+        "input": "history of the USA",
+        "output": ", 1980 to present\n- Ronald Reagan was the 40th president of the United States. His policies were conservative and he focused on reducing government spending. He also strengthened relations with Western Europe and Japan as part of his strategy for defeating communism.\n- George H.W. Bush became the 41st president in 1989. He continued Reagan's foreign policy but faced difficulties at home due to the recession and increasing public dissatisfaction with the government.\n- Bill Clinton was elected president in 1992. He focused on health care reform, reducing the deficit, and strengthening the middle class. He also signed a bill allowing gays to serve openly in the military.\n- George W. Bush was elected president in 2000. He believed in limited government and free markets. He supported the War on Terror and the Patriot Act.\n- Barack Obama was elected president in 2008. He focused on health care reform, the economy, and civil rights. He also signed the Affordable Care Act into law."
+    },
+    {
+        "instruction": "Convert natural language into a list of turn-by-turn directions.",
+        "input": "Go west on I-10 until you hit the 101 then take it north. You will eventually see the Hollywood sign.",
+        "output": ""
+    },
+    {
+        "instruction": "You are given a tweet and you should decide whether it's offensive or not.",
+        "input": "She has certainly taken some heat for being such an....well idiot.",
+        "output": " But that is one of the great things about Twitter, you can say what you want and if it offends people then they don't have to follow you. I find her tweets offensive but I also get a chuckle out of them.\nI'll let you be the judge as to whether this is offensive or not."
+    },
+    {
+        "instruction": "Predict how many stars the author will give to the restaurant from a Yelp review.",
+        "input": "The reviews were great, but honestly i felt it was just ok. Seemed like a typical tourist spot were the food was mediocre. The service was ok, not great, but not the worst.\nThe bread was very good. I ordered the muscle fries. They had a sweet Vidalia onion flavor. No need for fries bc they were soggy wo much flavor. My boyfriend ordered a pesto chicken pasta and it was again mediocre.",
+        "output": " No pesto flavor at all. It was a good portion size and the pasta was al dente but that’s it.\nWe both got drinks from the specialty cocktail menu. My boyfriend got the tiki drink which was fantastic. I got the tequila sunrise and it was just ok."
+    },
+    {
+        "instruction": "Categorize the Business into one of the Restaurants, Home Services, Auto Services and Miscellaneous based on its Specialties.",
+        "input": "Call us at 650-636-4884 or visit our website to receive a quote. This shop specializes in New Tires and General Auto Repair. We carry all tires in-house and have a wide range to fit any budget or car specifics. If you are unsure what tires you need there are experts on hand and available to help you pick the best tire for your needs. We also carry commercial vehicle tires and can serve a wide array of fleets.",
+        "output": " We provide all the services you would expect from a full service repair shop.\nHeck Dodge Chrysler Jeep Ram 2017 Dodge Challenger SRT 392 HELLCAT This vehicle is located at our Folsom location. Call for more information.."
+    },
+    {
+        "instruction": "Notify me of any suggestions you may have for making the text more grammatically correct.",
+        "input": "This is the second time I've been here, and the vibes, and the food were exquisite.",
+        "output": "\nNotify me of any suggestions you may have for making the text more grammatically correct."
+    },
+    {
+        "instruction": "Provide instructions for the given exercise.",
+        "input": "Leg Raises",
+        "output": ": Start in a push-up position with your hands planted on the floor in line with your shoulders and your feet together. Engage your core and raise one leg off the ground, keeping your toes pointed. Hold for a second, then lower yourself back down. That's one rep. Do as many reps as you can in 60 seconds."
+    },
+    {
+        "instruction": "Write what the pronunciation of the given word sounds like. Follow the \"Google pronunciation dictionary\" scheme for phonetic spelling.",
+        "input": "interpretations",
+        "output": " 1. act of interpreting; explanation or exposition of a text, idea, or phenomenon; translation: The movie is an interpretation of the book by the same name. 2. mental process of understanding a concept, feeling, or emotional state and being able to express it in one's own words: What is the interpretation of this behavior?\nIs there any correct way to pronounce \"interpretation\"?"
+    }
+]

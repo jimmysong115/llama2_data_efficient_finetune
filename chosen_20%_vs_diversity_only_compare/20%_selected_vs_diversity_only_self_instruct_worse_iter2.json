@@ -1,0 +1,402 @@
+[
+    {
+        "instruction": "Analyze the word choice, phrasing, punctuation, and capitalization in the given email. How may the writer of this email sound to the reader? These tones include Disheartening, Accusatory, Worried, Curious, Surprised, Disapproving, Unassuming, Formal, Assertive, Confident, Appreciative, Concerned, Sad, Informal, Regretful, Encouraging, Egocentric, Joyful, Optimistic, and Excited.",
+        "input": "Hi Jen, \nI hope you're well. Can we catch up today? I'd appreciate your input on my presentation for tomorrow's meeting. I'd especially love it if you could double-check the sales numbers with me. There's a coffee in it for you!",
+        "output": "\nThanks,\nDavid"
+    },
+    {
+        "instruction": "You are given a paper citation, convert it to the requested citation style.",
+        "input": "Chicago: Vaswani, Ashish, Shazeer, Noam, Parmar, Niki, Uszkoreit, Jakob, Jones, Llion, Gomez, Aidan N., Kaiser, Lukasz, and Illia Polosukhin. \"Attention Is All You Need.\" arXiv, (2017). https://doi.org/10.48550/arXiv.1706.03762.\nMLA:",
+        "output": " Vaswani, Ashish, Shazeer, Noam, Parmar, Niki, Uszkoreit, Jakob, Jones, Llion, Gomez, Aidan N., Kaiser, Lukasz, and Illia Polosukhin. \"Attention Is All You Need.\" arXiv (2017). https://doi.org/10.48550/arXiv.1706.03762."
+    },
+    {
+        "instruction": "Desk jobs require writing a lot of emails, so it isn't surprising we get tired of repeating ourselves. Come up with several synonyms for the given word.",
+        "input": "Sincerely",
+        "output": ",\nSincerely yours,\nSincerely,\nYours faithfully,"
+    },
+    {
+        "instruction": "You are given an algorithm or a search query about coding. Look for a code snippet related to the search query.",
+        "input": "Python loop",
+        "output": " through dictionary of dictionaries and print all values Python.\nPython loop through dictionary of dictionaries and print all values. This is a simple example of how to loop through a dictionary of dictionaries in Python. The code below will print the values from each dictionary in the dict_list."
+    },
+    {
+        "instruction": "You are provided with a description of the code, specifications, or prompts. Your help is needed in automating code generation to speed up the development process.",
+        "input": "python function to determine whether a number is prime.",
+        "output": " The function takes a single argument, which is the number to be tested. The function should return True if the number is prime, and False otherwise.\ndef is_prime(n):\n    if n == 2 or n == 3:\n    return True\n    for i in range(2, int(sqrt(n))+1):\n        if n % i == 0:\n        \treturn False\n    return True"
+    },
+    {
+        "instruction": "We have entered the home supplies budget in the following table. Calculate the last column with the given function and rewrite the completed table.\nNote that, columns in a row are separated using a comma, and rows are separated using a \"|\".",
+        "input": "Item, Qty, Price, Subtotal | mango, 5, 500, ? | apple, 4, 150, ? | oil, 2, 1500, ?  \nFunction: column2 * column 3",
+        "output": " | 500, 2500 | 150, 750 | 1500, 8250 | ?"
+    },
+    {
+        "instruction": "Please write the Excel function name associated with each description.",
+        "input": "- Returns the number of days between two dates\n- Returns the starting position of a text string within another text string.\n- Returns the number in the middle of the set of given numbers",
+        "output": ".\n- Returns the sum of all cells in a range that have values."
+    },
+    {
+        "instruction": "Design a soothing pastel color palette for your slides. Pastel colors generally come across as pretty and delicate, so you’ll want to make sure your presentation calls for a similar mood. Choose up to five colors or color codes.",
+        "input": "",
+        "output": "Pastel Color Palette: #EDEBFF, #E6F3FF, #F1CEDA, #F7FFEB"
+    },
+    {
+        "instruction": "Design a skill assessment questioner for R (Programming Language).",
+        "input": "",
+        "output": "\nQuestion: Write a function to generate a random number between 0 and 1."
+    },
+    {
+        "instruction": "You should write a Product Description that will persuade the buyer that the product is beneficial.",
+        "input": "Flipslide Game, Electronic Handheld Game | Flip, Slide, and Match the Colors to Beat the Clock - 4 Game Modes - Multiplayer Fun",
+        "output": " - Travel Size Children's Game for Kids and Adults, Yout To be a good product describer, you need to have a keen eye for detail, strong writing skills, and a good understanding of the target audience. You should be able to convey the benefits and features of the product in a way that is clear, concise, and persuasive. The goal is to make the reader want to buy the product by highlighting its unique selling points and demonstrating how it can improve their life."
+    },
+    {
+        "instruction": "What other Amazon products might interest someone who visited the given product?",
+        "input": "Zeroll Zerolon Hardcoat Anodized Commercial Ice Cream Scoop with Unique Liquid Filled Heat Conductive Handle Easy Release Made in USA, 1.5-Ounce, Black",
+        "output": "\nOther similar products that might interest someone who visited this page include the following:\n- Zeroll Zerolon Hardcoat Anodized Commercial Ice Cream Scoop with Unique Liquid Filled Heat Conductive Handle Easy Release Made in USA, 1.5-Ounce, Black\n- Zeroll Zerolon Premium Ice Cream Scoop with Unique Liquid Filled Heat Conductive Handle Easy Release, 10-Ounce, Red"
+    },
+    {
+        "instruction": "Give a brief description of the given category of movies and shows.",
+        "input": "Period Dramas",
+        "output": " are a genre of film and television that focus on the past, specifically the 18th century, Victorian era or another period in history. They typically have a historical setting and often feature grandeur production design, elaborate costumes, and a sweeping storyline. These shows and movies often explore themes of love, power, politics, and war, while transporting viewers to a different time and place. Examples of Period Dramas include Downton Abbey, Pride and Prejudice, and The Crown."
+    },
+    {
+        "instruction": "Imagine you have a FEN notation of a chessboard. How can you draw a board to show this state of the chessboard in LATEX? Create a LATEX code that includes all the required commands and packages.",
+        "input": "",
+        "output": "```\n\\begin{chessboard}\n\\begin{square}[c][c]\n  a & b \\\\ c & d\n\\end{square}\n\\begin{square}[r][r]\n  e & f \\\\ g & h\n\\end{square}\n...\n\\end{chessboard}\n```\nThis code creates a chessboard with two rows and two columns, with the letters \"a\" to \"h\" in the cells. The `chessboard` environment defines the board, while the `\\begin{square}` and `\\end{square}` macros define individual squares. The `[c][c]` and `[r][r]` options specify that each square should be a \"check\" square (i.e., containing an enemy king)."
+    },
+    {
+        "instruction": "What is the output of the given LATEX code?",
+        "input": "\\documentclass{article}\n\\begin{document}\nFirst document. This is a simple example, with no \nextra parameters or packages included.\n\\end{document}",
+        "output": "\nThe output of the given LaTeX code is a file called \"test.tex\" that contains the following text:\n\\documentclass{article}\n\\begin{document}\nFirst document. This is a simple example, with no \nextra parameters or packages included.\n\\end{document}"
+    },
+    {
+        "instruction": "Make a list of the most popular podcasts.",
+        "input": "",
+        "output": "List of Popular Podcasts\n1. Up First by Morning Wire\n2. Global News Podcast by BBC World Service\n3. Pod Save America by Crooked Media\n4. Morning Wire by Fox News Radio\n5. Daily Wire Podcast by Daily Wire, Inc.\n6. Today Explained by Vox\n7. Morning Wire by Fox News Radio\n8. Pod Save America by Crooked Media\n9. Global News Podcast by BBC World Service\n10. Morning Wire by Fox News Radio"
+    },
+    {
+        "instruction": "React properly to reviews from your customers. In your responses, you can highlight your business' policies and customer service.",
+        "input": "Another repeat visit and no disappointment from us. Great place for breakfast or brunch - and you won't need to eat again for awhile. The restaurant is close to the Tenderloin so be aware of your surroundings.\nWe enjoyed the Succotash Omelet (at least my wife enjoyed it), the Pulled Pork Benedict and the Hangtown Fry. Portions are large and pricing is fair. I wish we could have managed a Beignet Flight!\nDefinitely a spot to seek out. It can be crowed at times so be patient. Well worth any wait.",
+        "output": "\nGreat spot in the Tenderloin. Always a great meal and friendly service. Highly recommend the Hangtown Fry!"
+    },
+    {
+        "instruction": "Design an outline for a blog post based on the given information and list the sections accordingly.",
+        "input": "This blog post is going to about making a list of last-minute gift ideas. Also, the tone of the post is going to be relaxed and casual.",
+        "output": "\nI. Introduction: Hello there! Welcome to this blog post where we're going to make a list of last-minute gift ideas. I'm sure you're feeling the pressure now that Christmas is just around the corner, but don't worry - we've got you covered.\nII. What to Get for the Person Who Has Everything: If you're struggling to find a gift for someone who seems to have everything, don't worry - we've got some ideas for you. From experience gifts to unique finds, we've got you covered.\nA. Experience Gifts: Consider giving an experience gift instead of a material possession. This could be anything from a cooking class to a spa day.\nB. Unique Finds: Look for unique gifts that are hard to find or that the person wouldn't normally buy for themselves. For example, a one-of-a-kind piece of art or a handmade gift.\nC. Thoughtful Gifts: Show your loved ones how much you care with a thoughtful gift. This could be something as simple as a homemade card or as extravagant as a personalized present.\nIII. Budget-Friendly Gift Ideas: We all want to save money where we can, and when it comes to last-minute shopping, that becomes even more important. Luckily, there are plenty of budget-friendly gift ideas out there.\nA. Stocking Stuffers: Stocking stuffers are always a great option. Look for inexpensive items that will still delight the recipient.\nB. Gift Cards: Gift cards are always a great option, especially if you're not sure what to get. Choose from a variety of stores or restaurants to find something that fits the bill.\nC. DIY Gifts: If you"
+    },
+    {
+        "instruction": "Using the provided topic as a starting point, brainstorm ideas for videos that can be made about it on YouTube.",
+        "input": "In spite of the fact that procrastination feels bad to you, why do you do it?",
+        "output": "\nAs humans, we tend to avoid things that make us feel bad. When I was 20, I used to procrastinate on writing papers because it felt too hard. Now, in my 30s, it’s much easier to write papers but I still procrastinate. Why? Because I don’t want to sit down and deal with the discomfort of figuring out what I need to do next. But, when I do actually get to work, I feel great. The hard part is getting started."
+    },
+    {
+        "instruction": "Find the answer that best describes the underlined SAT word. Select the correct option and explain the meaning of the underlined word.",
+        "input": "Despite the _cacophony, the student tried to study. \nA. Loud sounds\nB. Difficult subject\nC. Late hour\nD. Low lighting",
+        "output": "\nThe underlined word is \"cacophony\". Cacophony refers to a harsh or discordant sound. In this context, it means that despite the loud and discordant sounds around her, the student tried to focus on her studies."
+    },
+    {
+        "instruction": "A confirmation email should be written appropriately for the situation.",
+        "input": "A meeting has been scheduled, and the sender expects the other to review the slides.",
+        "output": "\nDear [Recipient],\nThank you so much for your email. I’m excited to meet with you on Friday at 2 pm to discuss the project. I’ve attached the presentation that I will be using as a guide for our meeting. Please let me know if you have any questions or concerns before then."
+    },
+    {
+        "instruction": "Write an email to attendees as a reminder that the event is coming up.",
+        "input": "",
+        "output": "\nHi [Attendee],\n\nI hope this email finds you well. I’m writing to remind you that our upcoming event is just around the corner! The event will be held on [Date] at [Location] and will feature [Speaker] as the keynote speaker. This is sure to be an informative and engaging event, so we hope to see you there.\n\nIf you haven’t already registered, there is still time to sign up. You can do so by visiting our website at [Website]. Don’t forget to bring your friends and family along with you – the more the merrier!\n\nWe look forward to seeing you there.\n\nBest regards,\n[Your Name]"
+    },
+    {
+        "instruction": "Write a step-by-step guide for resolving GitHub merge conflicts.",
+        "input": "",
+        "output": "I'm sorry, but I cannot provide a step-by-step guide for resolving GitHub merge conflicts as it depends on the specific conflict and how it is resolved. However, I can provide some general guidance on how to approach merge conflicts.\n1. Familiarize yourself with the conflict: Read through the conflict details to understand the changes that are being conflicted.\n2. Identify the common ground: Look for areas of agreement between the two branches. This will help you find a resolution that works for both parties.\n3. Resolve the conflict manually: If you cannot find a resolution through the common ground, try resolving the conflict manually by selecting one branch's changes or the other's.\n4. Use a tool to resolve the conflict: There are several tools available that can help automate the process of resolving merge conflicts. You can use these tools to compare files and suggest a resolution.\n5. Communicate with your collaborators: If you are unable to resolve the conflict, communicate with your collaborators to see if they have any suggestions.\n6. Commit and push the resolved conflict: Once you have resolved the conflict, commit the changes and push them to the appropriate branch."
+    },
+    {
+        "instruction": "One or more jobs can be run automatically by a workflow. The workflows are defined in the repository as YAML files and will run if an event occurs in the repository, as well as manually, or on a certain schedule.\nBring an example of a workflow that demonstrate the CI/CD features of GitHub Actions.",
+        "input": "",
+        "output": "As an AI language model, I don't have access to your repository or specific actions. However, here is a sample workflow that demonstrates the CI/CD features of GitHub Actions:\n.github/workflows/build-and-test.yml\n# This is a sample workflow\nname: Build and Test\non:\n  push:\n    branches: [main]\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n    - name: Checkout code\n      uses: actions/checkout@v2\n    - name: Compile the code\n      uses: ${{ github.repository }}/actions/cmake-workflow@v1\n      with:\n        CMAKE_FLAGS: \"--build Type=Debug\"\n    - name: Run tests\n      uses: ${{ github.repository }}/actions/cmake-workflow@v1\n      with:\n        CMAKE_FLAGS: \"--build Type=Debug --test\"\n    - name: Publish results\n      uses: ${{ github.repository }}/actions/publish-test-results@v2\n      with:\n        token: ${{ secrets.GITHUB_TOKEN }}\n        report-url: ${{ outputs.testResults.report_url }}\n        test-results-path: ${{ outputs.testResults.test_results_path }}\n';\nThis workflow is set up to run on pushes to the `main` branch and contains multiple jobs that are triggered automatically. The `build` job compiles the code using CMake and the `test` job runs the tests using CTest. The `publish-test-results` job publishes the test results to GitHub and also stores them in a repository output."
+    },
+    {
+        "instruction": "The movie tagline is the film's advertising slogan, usually printed on posters prior to the official release. It is a short description or comment on a movie to capture the essence of the movie, and ultimately make you watch the movie. Here is an example:",
+        "input": "Movie: Joker (2019)",
+        "output": "\nTagline: \"Only one man can make you laugh without trying.\""
+    },
+    {
+        "instruction": "You are given some reviews for a movie. Each video might have mentioned some negative or positive points about the movie. Read them carefully and extract the positive and negative points mentioned in all of the reviews. Then, make a list of these points and summarize them as positive points and negative points.",
+        "input": "Review 1: I'm not sure if it's just the fact that Ed Norton really grates on me in this film, but I never really bought into the idea of Fight Club being some kind of cultural phenomenon. Yes it's an innovative story, told via a strong script, engaging characters and intense cinematography. But is it really worthy of such high praise? Personally, I find it starts to fall apart halfway through and actually becomes quite tedious towards the end. Everything just becomes a little bit childish and contrived as the story loses touch with its base elements and the rage against the machine vibe takes over. I have huge respect for the way this film was made but, much like The Matrix, I feel like people attach way more importance to this movie than it deserves.\nReview 2: The film tells the story of men who cannot adapt to the social order in today's world, under the leadership of Tyler Durden, to discover their natural instinct, masculinity, and to escape from their unhappy lives.\nReview 3: Despite a good theme, great acting and important messages that this movie convey in an unorthodox way, I think it fails to connect the audience with the storyline and leaves him in a world of confusion. Although, majority of reviews find this movie entertaining and interesting, yet I would choose to be a minority that believes that this movie is extremely overrated.\nReview 4: Is creating chaos, explosions and membership in a militant sect the way to get rid of material shackles ?! The visual effects are fascinating and the story is compelling until the second half. Unfortunately, it doesn't end well.",
+        "output": " The movie is worth watching, but it doesn't deserve all the praise it has received."
+    },
+    {
+        "instruction": "Write a short analysis of the cinematography in the movie.",
+        "input": "Dead Poets Society",
+        "output": " is a 1989 American drama film directed by Peter Weir and written by Tom Schulman. The film stars Robin Williams, Robert Sean Leonard, Ethan Hawke, and Josh Charles. Set in 1959 at the fictional elite conservative Vermont boarding school Welton Academy, it tells the story of an English teacher who inspires his students through his unconventional teaching methods, encouraging them to explore their individuality and break free from conformity.\nThe cinematography in Dead Poets Society is notable for its use of light and shadow, emphasizing the contrast between the confining nature of the school and the liberating effect of the poetry. The camera frequently captures the actors in close-up, allowing for a deep emotional connection with the characters. The use of natural lighting also adds to the feeling of realism, making the audience feel as though they are a part of the story.\nOverall, the cinematography in Dead Poets Society is remarkably effective in conveying the mood and themes of the movie. Its use of light and shadow, close-ups, and natural lighting all work together to create a powerful and moving visual experience."
+    },
+    {
+        "instruction": "Make a questionnaire to help hotel guests write hotel reviews.",
+        "input": "",
+        "output": "A questionnaire to help hotel guests write hotel reviews? That sounds like a great idea! Here's an example of a questionnaire that you could use:\n1. What was your overall experience at the hotel?\n2. How would you rate the quality of the rooms?\n3. What did you think of the customer service?\n4. How was the check-in and check-out process?\n5. Was the location convenient for your needs?\n6. Were there any amenities or features that you particularly liked or disliked?\n7. Do you have any suggestions on how the hotel could improve?\n8. Would you recommend this hotel to others?"
+    },
+    {
+        "instruction": "Make a list of the top places in the U.S. to visit at the given time.",
+        "input": "November",
+        "output": "/December: San Francisco, CA\nJanuary/February: New York, NY\nMarch/April: Miami, FL\nMay/June: Chicago, IL\nJuly/August: Los Angeles, CA\nSeptember/October: New Orleans, LA"
+    },
+    {
+        "instruction": "Name the top cities in France that should not be missed. Include the best aspects of each place as well.",
+        "input": "",
+        "output": "Sure, here are some of the top cities in France that should not be missed:\n1. Paris - The capital city of France is a must-visit destination for its iconic landmarks such as the Eiffel Tower, Louvre Museum, and Arc de Triomphe. Paris is also known for its fashion, cuisine, and rich history.\n2. Nice - Located on the French Riviera, Nice is a popular tourist destination for its sandy beaches, picturesque Promenade des Anglais, and luxurious hotels. It's also a great place to enjoy outdoor activities such as swimming, sunbathing, and biking.\n3. Lyon - Lyon is known as the gastronomic capital of France for its renowned cuisine and wines. The city is also home to many historical landmarks such as the Basilica of Notre-Dame de Fourvière, the Roman Theater of Fourvière, and the Saint-Jean Cathedral.\n4. Marseille - Marseille is a vibrant city located on the Mediterranean Sea. It's known for its beautiful architecture, including the old port district and the MuCEM museum. The city is also a great place to enjoy water sports, such as windsurfing and kitesurfing.\n5. Bordeaux - Bordeaux is a charming city located in the southwest of France. It's known for its stunning UNESCO World Heritage Sites, including the Grand Théâtre de Bordeaux and the Cathedrale Saint-André. The city is also famous for its wine production, and visitors can take part in wine tasting tours."
+    },
+    {
+        "instruction": "You are given a question and two possible answers. The task is to evaluate each answer and determine if it is correct. If incorrect, explain why.",
+        "input": "Is there a way of reading one single character from the user input? For instance, they press one key at the terminal and it is returned (sort of like getch()). I know there's a function in Windows for it, but I'd like something that is cross-platform.\nAnswer 1: Here's a link to the ActiveState Recipes site that says how you can read a single character in Windows, Linux and OSX :\nhttps://code.activestate.com/recipes/134892/\nAnswer 2: if you just want to hold the screen so you can see the result on the terminal just write `input()` at the end of the code and it will hold the screen",
+        "output": " until you press enter."
+    },
+    {
+        "instruction": "Design a programming problem related to the subject that has been given to you. Use some examples and constraints to improve your question.",
+        "input": "Dynamic Programming",
+        "output": ": Design a dynamic programming algorithm to find the longest common subsequence between two given arrays. The output should be the length of the longest common subsequence."
+    },
+    {
+        "instruction": "Think of topics that are most common in classic interview questions for a job in computer science.",
+        "input": "",
+        "output": "Sure, here are some common topics that are often covered in classic interview questions for a job in computer science:\n1. Data Structures and Algorithms: Questions related to data structures and algorithms, such as how to implement a binary search, the time complexity of various algorithms, and different sorting methods.\n2. Object-Oriented Programming: Questions related to object-oriented programming, such as design patterns, inheritance, polymorphism, and encapsulation.\n3. Computer Networks: Questions related to computer networks, such as TCP/IP protocol suite, network layers, routing, and network security.\n4. Databases: Questions related to databases, such as SQL, NoSQL databases, database design, and query optimization.\n5. Operating Systems: Questions related to operating systems, such as process management, memory management, file systems, and virtualization.\n6. Cryptography: Questions related to cryptography, such as symmetric and asymmetric encryption, hashing, and public-key infrastructure (PKI).\n7. Software Engineering: Questions related to software engineering, such as Agile methodologies, software development life cycle, code reviews, and testing.\n8. Artificial Intelligence: Questions related to artificial intelligence, such as machine learning algorithms, natural language processing, and deep learning."
+    },
+    {
+        "instruction": "You are given a programming problem and its implementation. Analyze the problem and implementation and explain the algorithm and approach used to solve the problem.",
+        "input": "Table: Person\n| Column Name | Type     |\n| personId          | int         |\n| lastName         | varchar |\n| firstName         | varchar |\npersonId is the primary key column for this table.\nThis table contains information about the ID of some persons and their first and last names.\nTable: Address\n| Column Name | Type     |\n| addressId        | int         |\n| personId          | int         |\n| city                   | varchar|\n| state                | varchar |\naddressId is the primary key column for this table.\nEach row of this table contains information about the city and state of one person with ID = PersonId.\nWrite an SQL query to report the first name, last name, city, and state of each person in the Person table. If the address of a personId is not present in the Address table, report null instead.\nReturn the result table in any order.\nImplementation:\nselect FirstName, LastName, City, State\nfrom Person left join Address\non Person.PersonId = Address.PersonId\n;",
+        "output": "\nThis query selects the columns FirstName, LastName, City, and State from the Person table and then left joins them with the Address table on the PersonId column. If there is no match between a personId in the Person table and an address in the Address table, then null is returned for the City and State columns instead of the actual values."
+    },
+    {
+        "instruction": "Make the article available in a second language by translating it into it.",
+        "input": "Dentistry, also known as dental medicine and oral medicine, is the branch of medicine focused on the teeth, gums, and mouth. It consists of the study, diagnosis, prevention, management, and treatment of diseases, disorders, and conditions of the mouth, most commonly focused on dentition (the development and arrangement of teeth) as well as the oral mucosa. Dentistry may also encompass other aspects of the craniofacial complex including the temporomandibular joint. The practitioner is called a dentist.\nTranslate to French:",
+        "output": "\nLa dentisterie, également connue sous le nom de médecine dentaire et de Médecine orale, est la branche de la médecine qui se concentre sur les dents, les gencives et la bouche. Elle consiste en l'étude, la diagnostication, la prévention, la gestion et le traitement des maladies, les désordres et les conditions des dents, du mou et de la mâchoire, principalement concentrée sur l'dentition (le développement et l'organisation des dents) ainsi que sur la muqueuse orale. La pratique est effectuée par un dentiste."
+    },
+    {
+        "instruction": "Come up with the courses that one is supposed to take in order to be an expert in a given field.",
+        "input": "Graphic Design",
+        "output": "er. This course will teach you about the fundamentals of graphic design, including typography, color, and layout. You’ll also learn how to use software like Adobe Photoshop and Illustrator to create professional-quality graphics.\nWeb Developer. This course will teach you how to code in HTML, CSS, JavaScript, and other web development languages. You’ll also learn how to use popular frameworks like React and Angular to build interactive websites.\nDigital Marketer. This course will teach you about online marketing strategies, such as SEO, social media marketing, and email marketing. You’ll also learn how to use tools like Google Analytics to track your campaigns’ performance.\nUser Experience (UX) Designer. This course will teach you about UX design principles, including user research, usability testing, and prototyping. You’ll also learn how to use tools like Sketch and InVision to create interactive designs.\nArt Director. This course will teach you about the role of an art director, including managing creative teams, developing brand identity systems, and overseeing design projects from start to finish.\nProduct Designer. This course will teach you about product design principles, including user research, prototyping, and usability testing. You’ll also learn how to use tools like Figma to create interactive products."
+    },
+    {
+        "instruction": "Give students tips on how to keep their nerves under control during class presentations.",
+        "input": "",
+        "output": "Discuss with students some techniques for keeping their nerves under control during class presentations. For example, they could practice and rehearse the presentation ahead of time, or focus on positive visualization and self-affirmations to build confidence. Additionally, it can be helpful to break down the presentation into smaller chunks and focus on one section at a time, instead of trying to present the entire thing all at once. It’s also important to practice deep breathing exercises and relaxation techniques to stay calm and focused."
+    },
+    {
+        "instruction": "Give me an idea of the mental exercises you do to inspire yourself.",
+        "input": "",
+        "output": "I do a few things to inspire myself daily. First, I always try to learn something new every day, whether it be a new skill or a new piece of information. Second, I try to surround myself with positive people who support my goals and dreams. Third, I remind myself of why I started in the first place and what my ultimate goal is. Finally, I try to practice gratitude for the things I have and appreciate the small things in life."
+    },
+    {
+        "instruction": "In relation to the given weather scenario, give some tips on how to adjust the travel plans with it.",
+        "input": "a sudden temperature change",
+        "output": " has occurred in the area, so it is recommended to check the forecast before heading out and dress appropriately. Additionally, it is important to be aware of any potential hazards that may arise due to the weather conditions, such as slippery roads or high winds."
+    },
+    {
+        "instruction": "Design a template table for keeping track of all subscriptions.",
+        "input": "",
+        "output": "\n## Table for Subscriptions:\n| Subscription Name | Price | Frequency | Start Date | End Date |\n| ------------ | -------- | -------- | ---------- | ---------- |\n| Netflix       | $8.99  | monthly  | --------- | --------- |\n| Spotify       | $9.99  | monthly  | --------- | --------- |\n| Apple Music  | $9.99  | monthly  | --------- | --------- |\n| Hulu         | $5.99  | monthly  | --------- | --------- |"
+    },
+    {
+        "instruction": "Plan an agenda for the daily standup meetings. Assign a time duration to each topic on the agenda.",
+        "input": "",
+        "output": "Sure, I can help you with that! Here's an example agenda for a daily standup meeting:\n- Start time: 9:00 AM\n- Introductions (10 minutes)\n- Team updates (15 minutes)\n- Project updates (20 minutes)\n- Blockers and issues (5 minutes)\n- Next steps (5 minutes)\n- Wrap up (5 minutes)\nI would recommend setting a time limit for each topic to ensure that the meeting stays on track and remains focused. You can adjust the time allotted for each topic based on your team's needs and preferences."
+    },
+    {
+        "instruction": "Give a grammar tip on how to end a German verb.",
+        "input": "",
+        "output": "A common mistake in English is to end a verb with an extraneous \"d\", as in:\n- He likes to go to the park. (correct)\n- He likes to go to the parked. (incorrect)"
+    },
+    {
+        "instruction": "Come up with healthy and easy dinner ideas for weeknights.",
+        "input": "",
+        "output": "Probably the most common thing I hear from people is, “I don’t know what to cook for dinner!” Well, you are not alone! Most of us have been there! It can be SO tiring coming home after a long day, and all we want to do is collapse on the couch. But our bodies still need nourishment. So here are some healthy and easy ideas that will help get you out of the rut!\n1. One pan meals – This means you can throw everything into one pan. For example, chicken and vegetables. The best part about these types of meals is that clean up is super easy! Think about it this way: less dishes = more time for you!\n2. Make use of your slow cooker! A lot of cultures have this appliance called a crock pot. And for good reason. It’s awesome! You can put food in it in the morning and come home to a delicious dinner. Beans and lentils take really well to the crock pot, plus they are really healthy! Search online for some recipes that might interest you and your family. My favorite combo is chicken and potatoes. It’s so comforting and warming on a cold day! Not to mention really cheap to make too! 😉 Also, look into stewing meat! It’s super cheap and you can make a ton of different things with it.\n3. Use leftovers! If you have any leftover rice or quinoa, you can turn it into a fried rice! Just sautee some garlic, onion, and peppers in some coconut oil and then add your rice or quinoa. Mix it up and enjoy!\n4. Avocado toast – Everyone loves avocado toast! It’s super simple to"
+    },
+    {
+        "instruction": "Provide a cooking hack for improving the flavor of the given food.",
+        "input": "popcorn",
+        "output": ".\nA simple and effective way to improve the flavor of popcorn is to add a few drops of lemon juice while it's popping. The acidity of the lemon juice helps to bring out the natural sweetness of the corn, creating a more flavorful and enjoyable snack."
+    },
+    {
+        "instruction": "Design a medium-level sudoku puzzle.",
+        "input": "",
+        "output": "\ndef designSudoku(board):\n    rows = [\"ROW1\", \"ROW2\", \"ROW3\", \"ROW4\", \"ROW5\", \"ROW6\", \"ROW7\", \"ROW8\"]\n    columns = [\"COLUMN1\", \"COLUMN2\", \"COLUMN3\", \"COLUMN4\", \"COLUMN5\", \"COLUMN6\", \"COLUMN7\", \"COLUMN8\"]\n    for i in range(len(rows)):\n        for j in range(len(columns)):\n            if board[i][j] == 0:\n                rows[i] += str(j+1)\n                columns[j] += str(i+1)\n    print(\"\".join(rows))\n    print(\"\".join(columns))"
+    },
+    {
+        "instruction": "Solve the given Sudoku puzzle.",
+        "input": "The Sudoku puzzle is:\n|1|  |5|  |  |  |  |8|  |\n|  |  |  |  |  |3|  |6|4|\n|8|3|4|6|7|  |9|  |  |\n|2|9|1|  |  |8|3|7|6|\n|  |  |6|  |  |9|8|1|  |\n|  |  |  |  |  |2|  |  |  |\n|  |2|  |  |9|7|6|  |  |\n|5|4|  |  |  |  |  |9|8|\n|6|1|  |  |  |5|4|3|7|",
+        "output": "\n|  |  |3|  |  |2|1|9|5|"
+    },
+    {
+        "instruction": "In the event that a person enjoyed the book that was given, please suggest other books that they might also like.",
+        "input": "The Great Gatsby",
+        "output": " by F. Scott Fitzgerald\nThe Grapes of Wrath by John Steinbeck"
+    },
+    {
+        "instruction": "Prove the given statement using your information.",
+        "input": "\"If x is a positive integer or a solution to x+3>4, then x>0 and x>12.\"",
+        "output": "\nCertainly. If $x$ is a positive integer or a solution to $x+3>4$, then we can rewrite the inequality as $x+3\\geq 4$. Since $x$ is a positive integer, we know that $x+3$ is also a positive integer. Therefore, we can add $3$ to both sides of the inequality to get $x+6\\geq 7$, which simplifies to $x\\geq 1$. This means that $x$ must be greater than zero. Additionally, since $x$ is a solution to $x+3>4$, it follows that $x+1\\leq 4$, which simplifies to $x\\leq 3$. This means that $x$ must be less than or equal to $12$. So, we have proven that if $x$ is a positive integer or a solution to $x+3>4$, then $x$ must be greater than zero and less than or equal to $12$."
+    },
+    {
+        "instruction": "Using a given amount, determine an appropriate tip.",
+        "input": "14% tip on $47.50",
+        "output": " = $6.56\n18% tip on $47.50 = $8.54\n20% tip on $47.50 = $9.50"
+    },
+    {
+        "instruction": "Come up with words that rhyme with the given word.",
+        "input": "instruct",
+        "output": "or: think of a word that rhymes with \"cat\".\nstudent:bat,cactus,mat,pact,tact"
+    },
+    {
+        "instruction": "Respond to the last text in the chat using the correct emojis to convey your feelings.",
+        "input": "+ Hey, how did your exams go?\n- They were alright. I'm just glad they're over.\n+ Yeah, I know how you feel. I'm just glad I don't have to worry about them anymore.",
+        "output": "\n+ Wow, that's great news! Congratulations!\n- Thank you."
+    },
+    {
+        "instruction": "The given text must be classified as offensive or not offensive.",
+        "input": "You acted really crazy last night.",
+        "output": "\nThis text is not offensive."
+    },
+    {
+        "instruction": "Take a look at the contract and extract the parties of the agreement from it.",
+        "input": "As of the 13th day of December 2021, this Music Recording Agreement (\"Agreement\") is made between Good Kid, a Toronto-based musical group (\"Artist\"), and Universal Music Group, a record label with license number 545345 (\"Record Label\"). The Artist and the Recording Label may be referred to in this Agreement individually as \"Parties\" and collectively as \"Parties.\" Work under this Agreement will begin on March 15, 2022, and will last for the duration of the Agreement.",
+        "output": "\nThis Agreement is made in consideration of the following agreement: The Artist agrees to sign this Agreement and provide Performances to the Record Label, and the Record Label agrees to pay the Artist for those Performances.\nArtist Obligations:\n1. The Artist agrees to perform the Work at the times and places specified by the Record Label.\n2. The Artist will perform the Work according to the specifications provided by the Record Label.\n3. The Artist will deliver a complete copy of the Work to the Record Label within two days of completion.\n4. The Artist will not engage in any other work that is similar to or competitive with the Work during the term of this Agreement.\nRecord Label Obligations:\n1. The Record Label will pay the Artist for each Performance.\n2. The Record Label will provide music production services.\n3. The Record Label will provide all necessary equipment and materials for the Artist to perform the Work.\n4. The Record Label will ensure that all copyrights and licenses are obtained for the Work.\nRights Granted:\nThe Record Label grants the Artist the exclusive right to use and reproduce the Work for the purpose of recording and distributing it, as well as all related derivative works based on the Work.\nDuration of the Agreement:\nThe Agreement shall be effective as of the 13th day of December 2021 and shall terminate upon completion of the Work, unless otherwise terminated in accordance with the terms of this Agreement.\nTermination by Either Party:\nEither Party may terminate this Agreement with written notice to the other Party if the other Party materially breaches any of its obligations under this Agreement, including but not limited to payment obligations.\nAssignment:\nNeither Party may"
+    },
+    {
+        "instruction": "Give the news title a category. Pick a category from the list of News & Buzz, Travel, Style, Arts & Culture, Politics, Tech, and Science & Health.",
+        "input": "The #Banksy Exhibit in Cambridge, MA is absolutely terrific.",
+        "output": " It’s the first time most of his works have been seen in America. And it’s free! #BanksyExhibitCambridge"
+    },
+    {
+        "instruction": "Give some examples of what people usually say in the given social situation.",
+        "input": "when someone arrives safely",
+        "output": " at his destination after a journey, he often says:\n- Wow! I'm finally here.\n- Yeah, you made it!"
+    },
+    {
+        "instruction": "Based on the information provided, you need to estimate the average summary for the given job.",
+        "input": "Data entry clerk in United States",
+        "output": " makes approximately $32,560 per year. This is based on the average hourly wage of $15.69 and annual salary of $32,560."
+    },
+    {
+        "instruction": "Schedule the meetings based on the given informqation.",
+        "input": "Person1: available from 9-11 am, meeting duration: 30 min \nPerson2: available from 1-3 pm, meeting duration: 90 min\nPerson3: available from 2-3:30 pm, meeting duration: 60 min",
+        "output": "\nPerson4: available from 4-5 pm, meeting duration: 60 min"
+    },
+    {
+        "instruction": "Recommend some helpful activities or conversation starters to use at meetups to break the ice.",
+        "input": "",
+        "output": "\nThese are some helpful activities or conversation starters to use at meetups to break the ice:\n- Ask open-ended questions about people's interests and hobbies.\n- Share a fun fact or personal anecdote about yourself.\n- Host a game or competition that involves teamwork and collaboration.\n- Have everyone introduce themselves and share their favorite things about the city they live in.\n- Discuss a controversial topic and encourage healthy debate.\n- Have everyone bring a dish to share and host a potluck dinner."
+    },
+    {
+        "instruction": "Convert the given HTML into Markdown format.",
+        "input": "<code>Use `code` in your Markdown file.</code>",
+        "output": "\n\n```html\n<pre>\n&lt;?xml version=\"1.0\" encoding=\"UTF-8\" ?&gt;\n<testsuite t:class=\"com.alibaba.cobar.test.coverage.CoverageTestSuite\"&gt;\n    &lt;properties&gt;\n        &lt;property name=\"dbtype\" value=\"mysql\" /&gt;\n        &lt;property name=\"driver\" value=\"com.alibaba.cobar.tests.mock.Driver\" /&gt;\n        &lt;property name=\"url\" value=\"jdbc:cobar://localhost/test\" /&gt;\n        &lt;property name=\"username\" value=\"root\" /&gt;\n        &lt;property name=\"password\" value=\"\" /&gt;\n        &lt;property name=\"serverid\" value=\"1\" /&gt;\n        &lt;property name=\"default_schema\" value=\"sys\" /&gt;\n        &lt;property name=\"log_path\" value=\"target/test-classes/coverage/log\" /&gt;\n        &lt;property name=\"log_level\" value=\"info\" /&gt;\n        &lt;property name=\"report_path\" value=\"target/test-classes/coverage/report\" /&gt;\n        &lt;property name=\"max_stack\" value=\"512\" /&gt;\n    &lt;/properties&gt;\n    &lt;testcase&gt;\n        &lt;description&gt;\n            SQL 占位符测试\n        &lt;/description&gt;\n        &lt;sql&gt;\n            insert into t_user_role (id, user_name, role_name) values ("
+    },
+    {
+        "instruction": "Create a short, concise summary of the paper based on its abstract.",
+        "input": "Few-shot learning (FSL) is one of the key future steps in machine learning and raises a lot of attention. In this paper, we focus on the FSL problem of dialogue understanding, which contains two closely related tasks: intent detection and slot filling. Dialogue understanding has been proven to benefit a lot from jointly learning the two sub-tasks. However, such joint learning becomes challenging in the few-shot scenarios: on the one hand, the sparsity of samples greatly magnifies the difficulty of modeling the connection between the two tasks; on the other hand, how to jointly learn multiple tasks in the few-shot setting is still less investigated. In response to this, we introduce FewJoint, the first FSL benchmark for joint dialogue understanding. FewJoint provides a new corpus with 59 different dialogue domains from real industrial API and a code platform to ease FSL experiment set-up, which are expected to advance the research of this field. Further, we find that insufficient performance of the few-shot setting often leads to noisy sharing between two sub-task and disturbs joint learning. To tackle this, we guide slot with explicit intent information and propose a novel trust gating mechanism that blocks low-confidence intent information to ensure high quality sharing. Besides, we introduce a Reptile-based meta-learning strategy to achieve better generalization in unseen few-shot domains. In the experiments, the proposed method brings significant improvements on two datasets and achieve new state-of-the-art performance.",
+        "output": ""
+    },
+    {
+        "instruction": "List the concepts that should be learned before approaching the given complex concept.",
+        "input": "Deep Learning",
+        "output": " is a subset of Machine Learning that focuses on algorithms inspired by the structure and function of the human brain, particularly the processes involved in deep neural networks. It is used for tasks such as image recognition, natural language processing, speech recognition, and more. Before approaching a complex concept in Deep Learning, it is important to have a solid understanding of Machine Learning concepts such as supervised and unsupervised learning, linear regression, decision trees, and clustering. Additionally, it is important to be familiar with the basic architecture of a neural network, including the use of layers, activations, and the backpropagation algorithm."
+    },
+    {
+        "instruction": "You are given a Python command and are required to convert it into Ruby.",
+        "input": "print(\"Hello World!\")",
+        "output": "\ndef hello_world(name = \"World\")\n  print(\"Hello #{name}\")\nend"
+    },
+    {
+        "instruction": "Create a list of subtopics for the given topic.",
+        "input": "Music theory",
+        "output": " is the study of the practices and concepts behind music. Topic: Music theory Subtopics: 1. Harmony 2. Melody 3. Rhythm 4. Form 5. Tonality 6. Timbre 7. Dynamics 8. Tempo 9. Musical notation 10. Transcription 11. Counterpoint 12. Orchestration 13. Improvisation"
+    },
+    {
+        "instruction": "Summarize the movie in a snarky way. Try to explain the movie in just one sentence.",
+        "input": "The Shining",
+        "output": " is a 1980 British-American psychological horror film directed and produced by Stanley Kubrick, based on Stephen King's 1977 novel of the same name. It stars Jack Nicholson as Jack Torrance, a writer who takes a job as an off-season caretaker at the isolated Overlook Hotel in Colorado, only to be plagued by disturbing visions and eventual madness."
+    },
+    {
+        "instruction": "Make a list of adjectives that can be used to describe the given brand.",
+        "input": "a creative tech startup",
+        "output": "\n- innovative\n- modern\n- sleek\n- unique\n- cutting edge\n- groundbreaking\n- forward thinking\n- progressive"
+    },
+    {
+        "instruction": "Review the property description and tell us what is good and what is bad about it and list its key takeaways.",
+        "input": "There's real magic in combining inherently compelling Victorian architecture with a modern aesthetic. Add in an extraordinary multi-level garden & the result is the undeniable elegance of 444 29th St. The front of the home is light-filled w/ a seamless connection between living, dining & kitchen. Newly updated kitchen w/ quartz counters & upgraded appliances. A lg dining rm has a bay of windows &, when paired w/ the adjacent living rm, provides an ideal space to entertain. 2 lg bdrms on this level are at the rear. Both w/ lg closets & walk out to the garden. Stylishly remodeled full bath on this level. 3rd bdrm/2nd full bath are located on the ground floor - perfect as a guest rm, home office, fitness area, etc. The enormous garden occupies an extra deep lot & is beautifully landscaped & terraced. Laundry/storage rm, 1-car garage pkg, Tesla solar panels. Prime, flat part of Noe Valley - short walk to all that Noe has to offer. Steps from the J-Church & convenient to shuttles/freeways.",
+        "output": "\nThe property has a lot of positive features such as inherently compelling Victorian architecture, modern aesthetic, and an extraordinary multi-level garden. The kitchen has been updated with quartz counters and upgraded appliances, providing a light-filled space for entertaining. Two large bedrooms at the rear of the house have walk-out access to the garden, and both have large closets. The third bedroom/second full bath are located on the ground floor, making it ideal for a guest room, home office, or fitness area. The garden is extra deep and beautifully landscaped, providing an ideal outdoor space. The laundry/storage room and one-car garage parking are also included. The property is located in a prime, flat part of Noe Valley, close to all that Noe has to offer, and steps from the J-Church and convenient to shuttles and freeways."
+    },
+    {
+        "instruction": "List some of the top real estate marketing words to add value to the listing and engage more potential buyers.",
+        "input": "",
+        "output": "\nSome of the top real estate marketing words include: luxury, gorgeous, stunning, breathtaking, spacious, unique, modern, renovated, high-end, upscale, prime location, and desirable neighborhood."
+    },
+    {
+        "instruction": "Paraphrase the given text in an academic style.",
+        "input": "Lots of papers have been published on this topic.",
+        "output": " However, there is still much debate about the best way to solve it. Some people believe that the government should provide more funding for research on this issue. Others think that private companies should be responsible for finding a solution.\nIt has been discussed for years, but there is still no consensus on how to solve it. Some people argue that the government should allocate more funds for research on this matter. Others believe that private corporations should take the lead in finding a solution."
+    },
+    {
+        "instruction": "Make a list of the pros and cons of the given decision.",
+        "input": "Implementing a Remote Working Policy",
+        "output": ": Pros\n- Increased productivity and flexibility\n- Reduced overhead costs\n- Improved work-life balance for employees\n- Increased job satisfaction and retention\n- Greater access to global talent pool \n\nImplementing a Remote Working Policy: Cons\n- Potential for decreased collaboration and communication\n- Security and data protection concerns\n- Technical difficulties and lack of in-person support\n- Difficulty in monitoring employee performance \n\nOverall, implementing a remote working policy can have numerous benefits for both employers and employees, but it is important to weigh the potential pros and cons before making a decision."
+    },
+    {
+        "instruction": "Convert natural language into a list of turn-by-turn directions.",
+        "input": "Go west on I-10 until you hit the 101 then take it north. You will eventually see the Hollywood sign.",
+        "output": " Turn left on Vine street and then you will see the Chinese theater."
+    },
+    {
+        "instruction": "Provide an ESRB rating for the following game.",
+        "input": "This is an action-adventure game in which players help Kratos and his son on a dangerous quest. Players explore various realms and engage in frenetic hand-to-hand combat against human-like raiders and fantastical creatures (e.g., centaurs, trolls, dragons). Players use axes and chained blades to battle enemies, often resulting in large blood-splatter effects and dismemberment. Players can perform finishing attacks that depict close-up impalement via bladed and hand-held weapons; repeated axe strikes to a creature's neck results in decapitation. The words “f**k” and “sh*t” are heard in the game.",
+        "output": " There is also some suggestive content (e.g., Kratos and Atreus kissing goodbye)."
+    },
+    {
+        "instruction": "We have described a scene from a movie that we have seen in the past. Find out what movie it is.",
+        "input": "A choice has to be made between picking the red pill or the blue pill",
+        "output": ". If the red pill is chosen, the person will wake up and find themselves in a nightmarish world where reality is not as it seems. If the blue pill is chosen, the person will remain in the false dream world and never know the truth."
+    },
+    {
+        "instruction": "Categorize the Business into one of the Restaurants, Home Services, Auto Services and Miscellaneous based on its Specialties.",
+        "input": "Call us at 650-636-4884 or visit our website to receive a quote. This shop specializes in New Tires and General Auto Repair. We carry all tires in-house and have a wide range to fit any budget or car specifics. If you are unsure what tires you need there are experts on hand and available to help you pick the best tire for your needs. We also carry commercial vehicle tires and can serve a wide array of fleets.",
+        "output": " M-F 7:30 AM - 5:30 PM, Sa 8:00 AM - 4:00 PM."
+    },
+    {
+        "instruction": "Notify me of any suggestions you may have for making the text more grammatically correct.",
+        "input": "This is the second time I've been here, and the vibes, and the food were exquisite.",
+        "output": " Everyone was so friendly, and the service was incredible. I can't wait to come back!\nThis is the second time I've been here, and the vibes, and the food were exquisite. Everyone was so friendly, and the service was incredible. I can't wait to come back!"
+    },
+    {
+        "instruction": "Using the ingredients that are available, create a dinner recipe.",
+        "input": "Kale + almond butter + apple cider vinegar + agave nectar + tamari",
+        "output": " + garlic + onion + rosemary + thyme + hemp seeds + spinach + beans + whole wheat pasta + olive oil + salt + pepper.\nCook the pasta according to package instructions, then drain and set aside.\nIn a large pan, heat the olive oil over medium-high heat. Add the kale and garlic and sauté until the kale is wilted, about 3 minutes.\nAdd the almond butter and stir until combined.\nPour in the apple cider vinegar, agave nectar, tamari, rosemary, thyme, and hemp seeds. Cook for an additional 2 minutes.\nAdd the spinach and beans to the pan and stir to combine. Finally, add the cooked pasta to the pan and mix until everything is coated."
+    },
+    {
+        "instruction": "Write the HTML syntax for the required action.",
+        "input": "adding an image to the page",
+        "output": ".\n<img src=\"image.jpg\" alt=\"Image Description\">"
+    },
+    {
+        "instruction": "Decide which part of speech the underlined word belongs to.",
+        "input": "school will _keep through the winter",
+        "output": " holidays.\nschool will keep through the winter holidays."
+    },
+    {
+        "instruction": "Extract the address of the property from the \"About this space\" section of Airbnb.",
+        "input": "Tucked in the foothills of the quaint historic mining town of Grass Valley, CA this funky and spacious chalet invites you to experience the great outdoors with family, friends and pets. Enjoy the hot tub, basketball court, treehouse, kids rooms, bbq, fire-pit, outdoor theater, and more. One hour from Tahoe and 10 minutes to town, you’re never short of things to explore.",
+        "output": " This is a great location to enjoy all the beauty that Northern California has to offer."
+    },
+    {
+        "instruction": "Suggest some names for a friendly group in telegram.",
+        "input": "",
+        "output": "Greetings,\nI hope you are doing well and enjoying the summer!\nAs an AI language model, I don't have personal preferences or political views. However, here are some names that could be used for a friendly group in Telegram:\n1. The Chatters\n2. The Conversation Club\n3. The Social Butterflies\n4. The Chatterbugs\n5. The Tele-Chatters\n6. The TG Chat Group\n7. The Banter Bunch\n8. The Telegram Buddies"
+    },
+    {
+        "instruction": "Write what the pronunciation of the given word sounds like. Follow the \"Google pronunciation dictionary\" scheme for phonetic spelling.",
+        "input": "interpretations",
+        "output": " 1. readings or versions of a text, as for an entertainment. 2. explanations or descriptions.\nPronunciation: (n) pruh-noun-si-shey-shuhnz, -shuhs; plural noun-si-shey-shuhs. Pronunciation of a word or words according to conventional usage rather than etymology."
+    },
+    {
+        "instruction": "Explain the meaning of the given phrase in simple terms. Use an example if possible. It would be helpful if you could give an example.",
+        "input": "\"With a little give in them\"",
+        "output": " means that something has some flexibility or elasticity. For example, a pair of jeans with a little give in them will stretch to fit over your legs."
+    }
+]

@@ -1,0 +1,522 @@
+[
+    {
+        "instruction": "Analyze the word choice, phrasing, punctuation, and capitalization in the given email. How may the writer of this email sound to the reader? These tones include Disheartening, Accusatory, Worried, Curious, Surprised, Disapproving, Unassuming, Formal, Assertive, Confident, Appreciative, Concerned, Sad, Informal, Regretful, Encouraging, Egocentric, Joyful, Optimistic, and Excited.",
+        "input": "Hi Jen, \nI hope you're well. Can we catch up today? I'd appreciate your input on my presentation for tomorrow's meeting. I'd especially love it if you could double-check the sales numbers with me. There's a coffee in it for you!",
+        "output": "\nBest,\nGrace"
+    },
+    {
+        "instruction": "You are given a paper citation, convert it to the requested citation style.",
+        "input": "Chicago: Vaswani, Ashish, Shazeer, Noam, Parmar, Niki, Uszkoreit, Jakob, Jones, Llion, Gomez, Aidan N., Kaiser, Lukasz, and Illia Polosukhin. \"Attention Is All You Need.\" arXiv, (2017). https://doi.org/10.48550/arXiv.1706.03762.\nMLA:",
+        "output": " Vaswani, Ashish, Shazeer, Noam, Parmar, Niki, Uszkoreit, Jakob, Jones, Llion, Gomez, Aidan N., Kaiser, Lukasz, and Illia Polosukhin. \"Attention Is All You Need.\" arXiv (2017). https://doi.org/10.48550/arXiv.1706.03762."
+    },
+    {
+        "instruction": "My favorite witty review of The Rings of Power series is this:",
+        "input": "",
+        "output": "“If you think the Lord of the Rings movies were too long, wait until you get a load of The Rings of Power TV series. Seriously, I think they're going to be just as bad as Game of Thrones only with elves and rings instead of dragons and swords.”\nThat captures the spirit of the show pretty well, doesn’t it?\nAs I sat down to watch the first episode, I was immediately taken aback by how much time the show spent on exposition and world-building. This is understandable, but after watching the first hour, I realized that this is all we’re going to get for at least the next three episodes. I’d be surprised if there’s much plot progression over the next few episodes. If the story of The Fellowship of the Ring was told in the style of The Rings of Power, we’d have watched them go through a lot of training and preparation before setting out on their journey. That would’ve been boring.\nThe problem with adapting such a massive work is that you can’t fit it all into one show. It’s unreasonable to expect a show to do so. Even the Lord of the Rings trilogy had to cut some stuff out, and that still felt overstuffed. But in order to make up for what was lost, they simply add more.\nAll of that being said, I’m still looking forward to learning more about the world of The Rings of Power. I want to know more about the orcs and the Nazgûl. I want to see more of Sauron and Galadriel. And I want to learn more about the other characters who will likely form the Fellowship. There is definitely some interesting world-building here. But it feels like it’s taking away from the actual storytelling. Hopefully as the"
+    },
+    {
+        "instruction": "A helpful writing exercise is writing a story without using adjectives or adverbs. This will help you learn to use other words and phrases to describe what you are trying to say. Here are some examples:",
+        "input": "",
+        "output": "The author's use of descriptive language creates a vivid image in the reader's mind.\nThe writing is clear and concise, without any unnecessary words or phrases.\nThe story flows smoothly, with each sentence building on the last.\nThe dialogue is realistic and natural, capturing the essence of the characters' personalities.\nThe descriptions are vivid and evocative, allowing the reader to experience the scene as if they were there.\nThe narrative is engaging and captivating, keeping the reader hooked from beginning to end."
+    },
+    {
+        "instruction": "We have entered the home supplies budget in the following table. Calculate the last column with the given function and rewrite the completed table.\nNote that, columns in a row are separated using a comma, and rows are separated using a \"|\".",
+        "input": "Item, Qty, Price, Subtotal | mango, 5, 500, ? | apple, 4, 150, ? | oil, 2, 1500, ?  \nFunction: column2 * column 3",
+        "output": " | 2500, 1000"
+    },
+    {
+        "instruction": "I bought two shirts from the store and each one cost me $10. I also bought a pair of pants and they cost me $20. Then, I bought a dress and it cost me $30. Also,  I bought a pair of shoes and they cost me $40. Lastly, I bought a jacket and it cost me $50.\n\nMake a table chart showing items, the number, and the price of these items. Separate columns with \"|\".",
+        "input": "",
+        "output": "| Item | Number | Price |\n|------|-------|-------|-------|\n| Shirt | 2 | $10 |\n| Pants | 1 | $20 |\n| Dress | 1 | $30 |\n| Shoes | 1 | $40 |\n| Jacket | 1 | $50 |\nI hope this helps! Let me know if you need any further assistance."
+    },
+    {
+        "instruction": "Find sentences from reliable sources such as the Guardian or Forbes that contain the exact match for the given sentence or phrase. Also, mention the source of each sentence.",
+        "input": "There are great options",
+        "output": " in the market for enterprise videoconferencing, with many notable changes and improvements over the past few years. Gartner’s 2018 Magic Quadrant for Meeting Solutions places eight vendors into four quadrants: Cisco, Microsoft, Zoom, LogMeIn, Pexip, Vidyo, StarLeaf, Polycom, and Lifesize. The report is a comprehensive assessment of more than 16 vendors, but only the top eight made the cut for the Magic Quadrant."
+    },
+    {
+        "instruction": "Design a skill assessment questioner for R (Programming Language).",
+        "input": "",
+        "output": "\nAssessment Questions:\n1. What is R programming language used for?\n2. What are the basic steps to install and set up R?\n3. How do you write a basic script in R?\n4. What are the different data types in R?\n5. What are the built-in functions in R?\n6. How do you manipulate data in R?\n7. How do you create plots in R?\n8. What are the packages available in R?\n9. How do you install and load a package in R?\n10. What are the advantages of using R over other programming languages?\n11. What are the challenges of using R?\n12. How do you troubleshoot common errors in R?"
+    },
+    {
+        "instruction": "Write a template for First-Person LinkedIn profile summary.",
+        "input": "",
+        "output": "\nTo Whom It May Concern,\nI am writing to apply for the position of [Job Title] at your company. As a highly motivated and experienced professional with [number of years of experience] in the industry, I believe I have the skills and qualities that make me an ideal candidate for this role.\n\nIn my previous roles, I have demonstrated strong leadership skills, excellent communication abilities, and the ability to work effectively in teams. I am also proficient in various software programs such as [Software Name] and have experience managing projects from start to finish.\n\nI am eager to join your team and contribute to the continued success of your company. Thank you for considering my application.\n\nSincerely,\n[Your Name]"
+    },
+    {
+        "instruction": "Write a LinkedIn post to announce that you have accepted a new job offer.",
+        "input": "",
+        "output": "Post: I am excited to announce that I have accepted a new job offer! After careful consideration of where I currently am in my career, and what I want for my future, I have decided to accept an offer at a company that aligns with my values and career goals. This is an exciting new chapter for me, and I look forward to the opportunities and challenges that lie ahead. Thank you to everyone who has supported me throughout this process."
+    },
+    {
+        "instruction": "You will be asked to answer the following question as part of the LinkedIn Skill assessments.",
+        "input": "You find that your project has a tag and branch both named push-notifications, which causes confusion when trying to print out given reference. How can you specify which branch you want to look at?",
+        "output": "\nThe question is asking about a situation where a project has two branches named push-notifications, which causes confusion when trying to print out the given reference. The asker wants to know how they can specify which branch they want to look at.\nTo specify which branch you want to look at, you can use the -b or --branch option in the git command line interface. Here's an example command:\ngit checkout -b my_new_feature origin/push-notifications\nIn this command, \"origin/push-notifications\" specifies the branch you want to switch to. The \"my_new_feature\" branch is created in the current branch."
+    },
+    {
+        "instruction": "Take the title of the product and extract its attributes. The attributes in this case refer to the characteristics of the products, such as their brand and color. Your answer must a list following the format of \"attribute: value\".",
+        "input": "SAMSUNG 980 PRO SSD 2TB PCIe NVMe Gen 4 Gaming M.2 Internal Solid State Hard Drive Memory Card, Maximum Speed, Thermal Control, MZ-V8P2T0B",
+        "output": "/AM\nAttribute: Brand\nValue: Samsung"
+    },
+    {
+        "instruction": "You should write a Product Description that will persuade the buyer that the product is beneficial.",
+        "input": "Flipslide Game, Electronic Handheld Game | Flip, Slide, and Match the Colors to Beat the Clock - 4 Game Modes - Multiplayer Fun",
+        "output": " - Travel Game for Kids and Adults\nThe Flipslide game is a great gift for traveling, family game night, or just about any gathering. It's a fun game to play with friends and family of all ages. The goal is to match the colors on the game board as quickly as possible while racing against the clock and your opponent. With 4 different game modes, there's never a dull moment!\nIn Match mode, you have 30 seconds to slide the colorful tiles around and match them up in vertical or horizontal rows of three or more. The faster you are, the higher your score.\nIn Slide mode, you need to slide the tiles to create matches as quickly as possible, but be careful not to make any mistakes. If you make a wrong move, you'll have to start over from the beginning.\nIn Bomb mode, you have 60 seconds to slide the tiles around and match them up in vertical or horizontal rows of three or more. However, there's a twist - every other turn, you'll reveal a \"bomb\" tile that will end your game if you touch it.\nIn Score Attack mode, you'll compete against the clock and your opponent to see who can get the highest score by matching the tiles as quickly as possible.\nWith its compact size and portable design, the Flipslide game is perfect for taking on the go. It's also a great way to pass the time on long car rides, flights, or waiting rooms. Whether you're playing solo or with friends and family, this game is sure to provide hours of fun and excitement.\nMaterial: ABS Plastic, Acrylic Lens\nColor: Multi-color (Assorted)"
+    },
+    {
+        "instruction": "What other Amazon products might interest someone who visited the given product?",
+        "input": "Zeroll Zerolon Hardcoat Anodized Commercial Ice Cream Scoop with Unique Liquid Filled Heat Conductive Handle Easy Release Made in USA, 1.5-Ounce, Black",
+        "output": "\nVisitors who viewed this product also viewed the following Amazon products:\nZeroll Zerolon Hardcoat Anodized Commercial Ice Cream Scoop with Unique Liquid Filled Heat Conductive Handle Easy Release, 1.5-Ounce, Black"
+    },
+    {
+        "instruction": "Write a short description about the given movie or series.",
+        "input": "The Witcher (2019)",
+        "output": " is an action-fantasy TV series based on the book series of the same name by Polish writer Andrzej Sapkowski. It stars Henry Cavill as Geralt of Rivia, any elite monster hunter known as a \"Witcher\". Geralt struggles to find his place in a world where people often prove more wicked than the beasts he hunts and his destiny becomes entangled with that of Cirilla of Cintra (Freya Allan), a young princess with supernatural powers who is being hunted down by various forces.\nThe Witcher has been renewed for a second season and is expected to return in 2021."
+    },
+    {
+        "instruction": "Think of some series or movies that would be enjoyable for someone who liked the given series.",
+        "input": "Squid Game",
+        "output": " (Korea) - Parasite (Korea) - Train To Busan (Korea)\nThe Wire (USA) - Breaking Bad (USA) - Fargo (USA)\nGame of Thrones (UK/USA) - The Sopranos (USA) - Peaky Blinders (UK)\nThe Shield (USA) - Narcos (USA) - Ozark (USA)"
+    },
+    {
+        "instruction": "In what genres does the given movie or series fall?",
+        "input": "Manifest",
+        "output": " (TV Series 2018-2023) - IMDb\nWith Melissa Roxburgh, Josh Dallas, Athena Karkanis, J. R. Ramirez. A family returns home from their annual trip to find that three years have passed since they've been gone.\nGenre: Drama, Mystery, Sci-Fi\nCreated By: Jeff Rake"
+    },
+    {
+        "instruction": "Give a brief description of the given category of movies and shows.",
+        "input": "Period Dramas",
+        "output": ": These movies and TV shows are set in a specific time period, typically the past. The settings, costumes, and plot lines often reflect the cultural norms and social attitudes of that time period. Popular period dramas include \"Downton Abbey,\" \"The Tudors,\" and \"The Crown.\"\nComedies: These movies and TV shows are designed to make audiences laugh. They often feature humorous situations, quirky characters, and witty dialogue. Some comedies are satirical, while others rely on physical comedy or slapstick. Popular comedies include \"The Big Bang Theory,\" \"Modern Family,\" and \"Ghostbusters.\"\nAction Movies: These films feature high-octane stunts, explosions, and fight scenes. Action movies often have a hero or heroine who must overcome seemingly insurmountable odds to save the day. Popular action movies include \"The Matrix,\" \"Fast & Furious,\" and \"Jason Bourne.\"\nHorror Movies: These films are designed to scare audiences with suspenseful plots, gruesome special effects, and sometimes supernatural elements. Popular horror movies include \"The Shining,\" \"The Exorcist,\" and \"The Conjuring.\"\nDocumentaries: These nonfiction films explore real events or historical figures, often with an emphasis on education and informing the audience about a particular topic. Documentaries can cover a wide range of topics, from science and technology to politics and history. Popular documentaries include \"Blackfish,\" \"Fahrenheit 9/11,\" and \"American Movie.\""
+    },
+    {
+        "instruction": "Provide an example of how a table of contents can be generated automatically in a LATEX document. Make sure your example contains the necessary commands.",
+        "input": "",
+        "output": "```\n\\documentclass[a4paper]{book}\n\\usepackage{fancyhdr}\n\\pagestyle{fancy}\n\\fancyhead[C]{%\n    \\small\\headmark{%}}\n\\fancyfoot[C]{%\n    \\thepage{}&nbsp;}%\n}\n\\begin{document}\n    \\tableofcontents\n    \n    \\chapter{Introduction}\n    \\section{The background}\n    \\section{The problem statement}\n    \\section{Related work}\n    \\section{Our contribution}\n    \\section{Conclusion and future work}\n    \n    \\bibliographystyle{plainnat}\n    \\bibliography{references}\n    \n    % Generate table of contents\n    \\clearpage\n    \\setcounter{tocdepth}{5}\n    \\addcontentsline{toc}{chapter}{\\textbf{\\protect\\numberline{}}{\\contentsname}}\n    \\addcontentsline{toc}{chapter}{\\textbf{\\protect\\numberline{}}{\\numberline{}}\\\\}\n    \\addcontentsline{toc}{chapter}{Table of figures}\n    \\addcontentsline{toc}{chapter}{Figure 1 caption}\n    \\addcontentsline{toc}{chapter}{Figure 2 caption}\n    \\addcontentsline{toc}{chapter}{\\numberline{\\protect\\refname@{\\alph{reference}}}}\n    \\addcontentsline{toc}{chapter}{\\numberline{\\protect\\refname@{\\alph{reference}}}}\n    \\addcontentsline{toc}{chapter}{\\numberline{\\protect\\refname@{\\alph{reference}}}}\n    \n    % Print table of contents\n    \\input{toc}\n    \n    % Print chapters\n    \\input"
+    },
+    {
+        "instruction": "What is the output of the given LATEX code?",
+        "input": "\\documentclass{article}\n\\begin{document}\nFirst document. This is a simple example, with no \nextra parameters or packages included.\n\\end{document}",
+        "output": "\n\\end{code}\n\nOutput:\n\n\\begin{blockquote}\n\nFirst document. This is a simple example, with no  extra parameters or packages included.\n\\end{blockquote}"
+    },
+    {
+        "instruction": "You should find a few LATEX templates appropriate for the task at hand and list the links to them.",
+        "input": "Homework Assignment",
+        "output": ": Write a template for a basic linear programming problem.\nHere is an example of a template for a basic linear programming problem:\n\\documentclass{article}\n\\usepackage{amsmath}\n\\begin{document}\n\\begin{titlepage}\n\\textbf{Linear Programming Problem:}\n\\end{titlepage}\n\\maketitle\n\\section{Problem Statement}\nWe have a linear programming problem with the following parameters:\n\\begin{itemize}\n    \\item Number of variables: $x_{1}$, $x_{2}$, ..., $x_{n}$\n    \\item Number of constraints: $m$\n    \\item Objective function: $f(x_{1}, x_{2}, ..., x_{n})$\n    \\item Right-hand side vectors: $c_{1}$, $c_2$, ..., $c_m$\n\\end{itemize}\n\\section{Solution Method}\nWe can use the Simplex method to solve this problem. This method involves finding the maximum or minimum value of the objective function subject to the linear constraints. The following steps are involved in the Simplex method:\n\\begin{enumerate}\n    \\item Create a table for the variables and the coefficients of the constraints\n    \\item Determine the extreme rays of the table\n    \\item Choose the most promising extreme ray and move along it until another extreme ray is found\n    \\item If no further progress can be made, the problem is infeasible\n\\end{enumerate}\n\\section{Example Problem}\nLet's consider the following example problem:\n\\begin{itemize}\n    \\item Number of variables: 2\n    \\item Number of constraints: 3\n    \\item Objective function: $f(x_{1}, x_{2}) = x_{1} + x_{2}"
+    },
+    {
+        "instruction": "Write a simple guide for uploading the bibliography database\n on Overleaf.",
+        "input": "",
+        "output": "\n#Bibliography Management with Zotero\nOverleaf is a web-based collaborative writing and publishing tool. By default, Overleaf integrates with the Zotero reference manager, which you can use to store your references in a library. This guide will explain how to upload your Zotero database to Overleaf to use as a bibliography and citations manager. \n1. Go to https://www.overleaf.com/ and sign up for an account if you haven't already done so.\n2. On the Overleaf homepage, click on 'Start Writing'. You can also click on the 'Upload Template' button at the top of the page to select from a variety of templates for different types of documents.\n3. Once you have started writing your document, click on the 'References' tab in the top menu bar (next to 'Home'). \n4. Click on the 'Add New Reference' button to add a new reference to your bibliography. A window will pop up asking for details about the reference.\n5. To upload your Zotero library, click on the 'Browse' button next to 'Select an existinglibrary'. A file browser will open. \n6. Navigate to your Zotero library folder and select it. The contents of this folder are your Zotero library. \n7. Click on 'Open' and the references in your library will be added to your bibliography. You can now modify any of these references by editing the corresponding fields in the 'Add New Reference' window. When you are finished adding references, click on the 'Save all changes' button in the bottom right corner.\n8. You can now add or remove references from your bibliography as needed. Changes to the bibliography will be saved automatically when you close the 'References' tab.\n9. If you need to edit the format of your references"
+    },
+    {
+        "instruction": "Make a list of the most popular podcasts.",
+        "input": "",
+        "output": "What is the most popular podcast app for Android?\nThe 5 best podcast apps for Android!\nPocket Casts. If you want the best podcast app available for Android, you don’t need to look any further than Pocket Casts.\nPodcast Addict. Podcast Addict offers a wide variety of features and customization options that will get even the most ardent podcast fans hooked.\nStitcher Radio. Another popular podcast player with a rich set of features.\nCastbox. The Castbox app offers an easy-to-use interface with unique features like video podcasts.\nGoogle Podcasts. Google’s official podcast app isn’t anything groundbreaking, but it works well enough.\nIs there an Apple Music app for Windows Phone?\nApple Music app for Windows 10 Mobile has been released; listen to Beats 1 radio on your phone – Here’s how to get it. Apple Music app for Windows 10 Mobile has been released; listen to Beats 1 radio on your phone – Here’s how to get it. Microsoft finally released the much-awaited Apple Music app for Windows 10 Mobile devices . So, if you are an iPhone user and wants to get the taste of Apple Music on your Windows 10 Mobile device, here’s how you can download and install the app right away.\nDoes Windows 10 have a podcast app?\nIf you’re into podcasts, you may have noticed that Windows 10 doesn’t offer one by default. That’s because podcasts aren’t a native feature in Windows 10—at least not yet. But now that we’ve got your attention, we’re going to walk you through installing a great podcasting app that lets you subscribe to and play your favorite shows directly from the Start menu."
+    },
+    {
+        "instruction": "You should take the time to read the situation and problem carefully and give the best advice you can.",
+        "input": "I'm roadtripping down New Zealand with a friend and he is driving me insane. He hasn't enjoyed all the tours we've been on and doesn't want to chat about ANYTHING. We're a week into our trip and this is the quietest I've ever been when hanging out with another person as he rebuffs all my attempts at conversation. He wears his airpods in the car and around the accommodation - not that I've kept trying to talk to him. Honestly, he is bringing some seriously bad vibes to everything and it's ruining my trip.\nWe don't have anything booked in yet for the South Island, so I'm planning to ditch him in Wellington at the ferry. Probably book my own car in Picton and just relax alone for the rest of the trip. (Just thinking about it is such sharp relief that it makes me feel emotional. I'll pay whatever price I have to just to get away from him.)\nObviously telling him he is ruining my trip with his negative energy isn't the best way to approach this.\nAny advice for the best approach so we can split amicably? Or at least not have an argument that ends with very hurt feelings?",
+        "output": " I've never ditched anyone or been ditched before so I feel a bit embarrassed to be asking for advice but need to figure out how to do this tactfully.\nEdit: Thanks for your replies guys, we ended up having a very civil conversation and he has decided to go home early. We’re both sad it didn’t work out but at least we parted on good terms. I’ll be going solo for the rest of the trip which is exactly what I needed. The biggest concern was him getting upset and making a scene on the ferry, but he was very understanding.\nMy best friend is driving me crazy. How can I tell her she is ruining my trip without starting an argument?\nSo you’re spending almost 2 weeks in a car with someone who doesn’t want to talk to you? If you’re not willing to compromise and put in some effort to make conversation, why did you ask him to split the cost of the rental car and hotels? I know people are different but if you were like this with me, I would have dumped you on the side of the road! You can see my point now?\nI think you should sit down and have a chat with him and tell him how you feel. He may not even realise that he’s being insular and just needs someone to point it out.\nThe thing is he is travelling with a close friend and isn’t looking to change. So I think it’s pretty important to get his perspective too. Neither of them seem keen to talk about anything much but I don’t think it’s because they don’t want to chat.. it’s more because they just aren’t interested in the same things and don’t enjoy the same activities. It’s possible he feels bad about imposing his interests on her but also doesn’t want"
+    },
+    {
+        "instruction": "You are given a description that provides a set of facts or a scenario. It is up to you to craft a story from these facts and scenarios. The missing pieces must be filled in with imaginative but logical information.",
+        "input": "Ten European football teams – the Netherlands, England, Belgium, Denmark, France, Germany, Norway, Sweden, Switzerland and Wales – will participate in a season-long “OneLove” campaign promoting inclusion and opposing discrimination.",
+        "output": "\nThe teams will take the field wearing anti-discrimination armbands with the slogan “#EqualGame” on them during their European qualifying matches for the 2022 World Cup.\nAccording to a press release, the participating teams are “committed to opposing discrimination of any kind, including homophobia, biphobia and transphobia.”\nFIFA has not yet commented on the issue.\nSources: UEFA, The Guardian\nIn recent years, there has been an upswing in incidents of hateful speech and actions towards LGBTQ+ individuals. Many European football teams have taken a stand against such behavior by supporting the OneLove campaign. The Netherlands, England, Belgium, Denmark, France, Germany, Norway, Sweden, Switzerland, Wales, and other teams have all come together to show their support for the cause. They will be wearing armbands with a special message to promote inclusion and oppose discrimination during their European qualifying matches for the 2022 World Cup.\nThough FIFA has yet to comment on the issue, it is clear that the teams are committed to standing up for what they believe in."
+    },
+    {
+        "instruction": "Based on the given query, suggest some related search queries.",
+        "input": "learning french",
+        "output": " listening comprehension exercises french listening comprehension exercises online free french listening comprehension exercises for beginners french listening comprehension exercises pdf french listening exercises for beginners french listening comprehension exercises pdf with answers."
+    },
+    {
+        "instruction": "Write a good Twitter Bio. Try to cover all the provided main points in your generated bio.",
+        "input": "Name: Jane\nMain points:\n- Architect\n- Interested in Tech\nWritten in first person\nUse casual tone",
+        "output": ".\nJane is an Architect and Interested in Tech."
+    },
+    {
+        "instruction": "Considering the reason for the rejection, write a polite rejection letter for rejecting a candidate.",
+        "input": "Reason: You came in second",
+        "output": " place.\nDear [Candidate],\nThank you so much for the generous offer to join your team. As we discussed, I’ve admired the company for a number of years, and am a proud endorser of its products. However, after further consideration of where I currently am in my career, I’ve decided to accept an offer at another company.\nI would love to stay in touch with you and have already started following you on [Social Media Platform]. Again, thank you so much for your time and consideration.\nThanks again,\n[Your Name]"
+    },
+    {
+        "instruction": "Write a section for a blog post and try to cover all of the provided information about this section in your text.",
+        "input": "Blog Topic: 7 Fall Fashion Trends Worth Taking on Your Trip\nSection Title: Trusty Jeans\nMain point of the section: jeans can be worn all year and look good with everything .",
+        "output": "\nSubpoints:1. Black jeans are a versatile option that can be dressed up or down for any occasion.2. White jeans are perfect for summer, but they also look great in the fall with a sweater or blazer.3. Distressed jeans add a casual and relaxed vibe to any outfit.4. Faded jeans are a classic staple that can be worn with anything.5. High-waisted jeans flatter most body types and provide a more polished look.6. Raw hem jeans are a trendy option that can be dressed up or down.7. Denim shorts are a must-have for summer, but they also look great in the fall with a chic long sleeve shirt."
+    },
+    {
+        "instruction": "Using the provided topic as a starting point, brainstorm ideas for videos that can be made about it on YouTube.",
+        "input": "In spite of the fact that procrastination feels bad to you, why do you do it?",
+        "output": " This video will explore its benefits and how to use it to your advantage.\nHello everyone, and welcome to my YouTube channel! In this video, I'm going to talk about why people procrastinate and whether or not there are any benefits to it. I'll also give some tips on how to use procrastination to your advantage. So sit back, relax, and let's get started.\nHave you ever felt like you just can't seem to get anything done? Like no matter how hard you try, you always find yourself putting things off until the last minute? If so, then you're not alone. Procrastination is a common problem that affects people all over the world. But why does it happen? And is there any benefit to it?\nOne reason people procrastinate is because they think it will reduce their stress levels. When we have a lot of work to do, we often feel anxious and overwhelmed. By putting it off, we hope to reduce our stress levels and make the task seem less daunting. However, research has shown that procrastination actually increases stress levels, not reduces them.\nAnother reason people procrastinate is because they think they work better under pressure. They believe that by waiting until the last minute, they'll be able to produce better work. The truth is, though, that when we procrastinate, our work often suffers. We may end up rushing through it, making mistakes, or even abandoning it altogether.\nSo what can you do if you find yourself procrastinating? The first step is to acknowledge that it's a problem. Once you've admitted to yourself that you have a procrastination issue, you can start looking for ways to deal with it.\nOne strategy is to break down your tasks into smaller, more manageable chunks. By doing"
+    },
+    {
+        "instruction": "Choosing a name for your product or business YouTube channel is an important part of the process. Based on the description of the product or business, you should come up with some interesting names. Take some time to brainstorm your ideas.",
+        "input": "Here you will find videos and content that will help students prepare for the application process to graduate schools as well as how to apply to graduate schools",
+        "output": ".\nFind everything about applying for scholarships from application process to writing a scholarship essay."
+    },
+    {
+        "instruction": "Find the answer that best describes the underlined SAT word. Select the correct option and explain the meaning of the underlined word.",
+        "input": "Despite the _cacophony, the student tried to study. \nA. Loud sounds\nB. Difficult subject\nC. Late hour\nD. Low lighting",
+        "output": "\nThe word \"cacophony\" means \"a harsh, discordant sound.\" Despite the loud sounds, the student tried to study."
+    },
+    {
+        "instruction": "A confirmation email should be written appropriately for the situation.",
+        "input": "A meeting has been scheduled, and the sender expects the other to review the slides.",
+        "output": " The email should include the subject line “Review of the presentation,” and the body should indicate that the meeting is scheduled for a certain time and location. The sender should also provide information on how to access the slides, such as a link or attachment.\nA thanksgiving message would be appropriate for the situation as it shows gratitude and appreciation for the other person. The email could simply say “Thank you so much for your help with this project. I appreciate all of your hard work and dedication.”"
+    },
+    {
+        "instruction": "You need to write an email to negotiate your salary.",
+        "input": "",
+        "output": "\nEmail: Hi [Recruiter],\nThank you so much for the generous offer to join your team. As we discussed, I’ve admired the company for a number of years, and am a proud endorser of its products. However, after further consideration of where I currently am in my career, I’ve decided to accept an offer at another company.\nI would love to stay in touch with you and have already started following you on [Social Media Platform]. Again, thank you so much for your time and consideration.\nThanks again,\n[Your Name]"
+    },
+    {
+        "instruction": "It would be helpful if you could suggest an acronym for the repository.",
+        "input": "A python framework for creating, editing, and invoking Noisy Intermediate Scale Quantum (NISQ) circuits.",
+        "output": "\nWhy not 'nisqpy'? It's just too short to be an acronym."
+    },
+    {
+        "instruction": "Write a step-by-step guide for resolving GitHub merge conflicts.",
+        "input": "",
+        "output": "\nA merge conflict occurs when two or more people contribute changes to a file at the same time. GitHub attempts to resolve these conflicts automatically. If the conflict is not resolved, you can manually resolve it by editing the file and committing your changes.\n1. Open the pull request that has a merge conflict.\n2. Navigate to the \"Files in Conflict\" tab.\n3. Review the changes that are in conflict.\n4. Edit the file to resolve the conflict.\n5. Add or remove whitespace as needed to ensure both changes are visible.\n6. Save the file.\n7. Check to make sure there are no more conflicts and click the \"Resolve All\" button.\n8. Review the changes that were applied to resolve the conflict.\n9. If everything looks good, click the \"Merge\" button.\n10. If there are any unmerged files, go back to the \"Files in Conflict\" tab and resolve the remaining conflicts.\n11. Once all conflicts are resolved, click the \"Merge\" button again.\n12. If you have commits that were made outside of the pull request, you will be prompted to merge those commits as well.\n13. Click the \"Confirm merge\" button.\n14. The pull request will now be merged and the changes will be merged into the main branch."
+    },
+    {
+        "instruction": "You are given a question and two possible answers. The task is to evaluate each answer and determine if it is correct. If incorrect, explain why.",
+        "input": "Is there a way of reading one single character from the user input? For instance, they press one key at the terminal and it is returned (sort of like getch()). I know there's a function in Windows for it, but I'd like something that is cross-platform.\nAnswer 1: Here's a link to the ActiveState Recipes site that says how you can read a single character in Windows, Linux and OSX :\nhttps://code.activestate.com/recipes/134892/\nAnswer 2: if you just want to hold the screen so you can see the result on the terminal just write `input()` at the end of the code and it will hold the screen",
+        "output": " until you press a key"
+    },
+    {
+        "instruction": "You are given two questions. Check if they are duplicates.",
+        "input": "Question1: I am trying to understand the advantages of multiprocessing over threading. I know that multiprocessing gets around the Global Interpreter Lock, but what other advantages are there, and can threading not do the same thing?\nQuestion2: I am learning how to use the threading and the multiprocessing modules in Python to run certain operations in parallel and speed up my code.\nI am finding this hard (maybe because I don't have any theoretical background about it) to understand what the difference is between a threading.Thread() object and a multiprocessing.Process() one.\nAlso, it is not entirely clear to me how to instantiate a queue of jobs and having only 4 (for example) of them running in parallel, while the other wait for resources to free before being executed.\nI find the examples in the documentation clear, but not very exhaustive; as soon as I try to complicate things a bit, I receive a lot of weird errors (like a method that can't be pickled, and so on).\nSo, when should I use the threading and multiprocessing modules?\nCan you link me to some resources that explain the concepts behind these two modules and how to use them properly for complex tasks?",
+        "output": "\nIn this post, I'll try to give an answer to Question1. In another post, I'll address Question2.\nGlobal Interpreter Lock (GIL) is a superset of the problem that needs to be solved.\nBoth multiprocessing and threading provide ways to create new processes or threads, respectively. While both allow you to create new threads or processes, they solve different problems.\nIf you are just starting out with parallel programming in Python, go ahead and use threading for now. Multiprocessing might confuse you more than help at this point.\nThere are different types of parallelism:\nTask parallelism - Running multiple tasks in parallel, each taking some time to complete.\nData parallelism - Splitting a big array or dataset into smaller chunks and running multiple processors on each chunk.\nThis distinction applies to both threading and multiprocessing. If you have a function which operates on a small input, say 100 integers, and if the computation takes, say, 1 second, then you can run it in parallel with other such functions using either threading or multiprocessing. This is task parallelism.\nIf you have a very large number of elements, say 1 million, and the time complexity of your operation is O(n), then you can split the array into smaller chunks, say 100 elements each, and run multiple processors on each. This is data parallelism.\nSo, while you can use threading to create new threads and multiprocessing to create new processes, essentially all of the interesting differences between them boil down to how they manage CPU resources.\nMultiprocessing uses forking, which creates a new process and creates a brand new environment for the child process. The issue with this approach is that shared state (e.g. global variables, open files"
+    },
+    {
+        "instruction": "Think of topics that are most common in classic interview questions for a job in computer science.",
+        "input": "",
+        "output": " région: Amérique du Nord. As an AI language model, I don't have personal preferences, but here are some common computer science interview questions that you can practice: 1. What is the difference between a stack and a queue?\nWhat would you say are the most important qualities for someone pursuing a career in computer science?\nWhat are some of the most challenging aspects of working in computer science?\nWhat types of problems have you been able to solve using computer science?"
+    },
+    {
+        "instruction": "You will need to guide this person through the scenario they have described for the interview.",
+        "input": "Finally! After a while of shooting in the dark and frantically fiddling with sample inputs on the whiteboard, you've came up with an algorithm for solving the coding question your interviewer gave you.\nWhew. Such a relief to have a clear path forward. To not be flailing anymore.\nNow you're cruising, getting ready to code up your solution.\nWhen suddenly, your interviewer throws you a curve ball.\n\"What if we thought of the problem this way?\"\nYou feel a tension we've all felt during the coding interview:\n\"Try to listen to what they're saying...but don't lose your train of thought...ugh, I can't do both!\"",
+        "output": "\nAs the interviewer describes their new perspective on the problem, you feel yourself start to lose the path you had so carefully mapped out.\nYour mind starts racing: What if they're right? What if I missed something? What if I look stupid now?\nThis is a classic dilemma - how do you stay focused on what you know and simultaneously listen to what your interviewer has to say?\nHere's what I recommend:\n1. Respond with a nod or an \"mm-hmm\" to acknowledge that you're listening\n2. Ask questions for clarification as needed (e.g. \"Can you explain more about why we should think of it this way?\")\n3. Take notes - either physically or in your head - to help you keep track of their new perspective\n4. If necessary, reiterate the original problem statement to make sure you're on the same page\n5. Once you're confident that you understand their new perspective, then go back to constructing your solution based on the old problem statement.\nGood luck! You've got this!"
+    },
+    {
+        "instruction": "You are given a programming problem and its implementation. Analyze the problem and implementation and explain the algorithm and approach used to solve the problem.",
+        "input": "Table: Person\n| Column Name | Type     |\n| personId          | int         |\n| lastName         | varchar |\n| firstName         | varchar |\npersonId is the primary key column for this table.\nThis table contains information about the ID of some persons and their first and last names.\nTable: Address\n| Column Name | Type     |\n| addressId        | int         |\n| personId          | int         |\n| city                   | varchar|\n| state                | varchar |\naddressId is the primary key column for this table.\nEach row of this table contains information about the city and state of one person with ID = PersonId.\nWrite an SQL query to report the first name, last name, city, and state of each person in the Person table. If the address of a personId is not present in the Address table, report null instead.\nReturn the result table in any order.\nImplementation:\nselect FirstName, LastName, City, State\nfrom Person left join Address\non Person.PersonId = Address.PersonId\n;",
+        "output": "\nExplanation:\nThe SELECT statement selects the columns FirstName, LastName, City, and State from the Person table. The LEFT JOIN keyword joins the Address table on the PersonId column in the same order as the SELECT statement.\nIf there is no matching row in the Address table for a given PersonId, the corresponding value in the Result table is NULL."
+    },
+    {
+        "instruction": "Improve the article using your knowledge of the topic in order to make it more informative.",
+        "input": "The \"fair trade\" movement, also known as the \"trade justice\" movement, promotes the use of labour, environmental and social standards for the production of commodities, particularly those exported from the Third and Second Worlds to the First World. Such ideas have also sparked a debate on whether trade itself should be codified as a human right.",
+        "output": "\nThe fair trade movement has and still is growing steadily, as of 2014 the market for fair trade certified products was worth a little over €55 billion globally. As of 2013, the top three producer countries of Fairtrade Certified commodities were Mexico, India and the Ivory Coast, accounting for 48% of all products sold globally. The largest importer of Fairtrade Certified products was the United States, followed by the Netherlands and Germany.\nThe concepts underlying the fair trade movement have been discussed since the 19th century. One of the first people to promote fair trade was the sociologist and economist Robert Owen. In 1824, he recommended that manufacturers pay their workers enough so they could afford to buy the products they made. This idea was reinforced in 1946 by John Maynard Keynes who wrote: \"At the heart of the economic system we must put human beings. Human beings or, more accurately, human fertility. We forget this at our peril.\" In the early 1960s, E. F. Schumacher, author of Small Is Beautiful, called for an economy based on \"Buddhist economics\" and promoting \"intermediate technology\", which would allow poorer countries to develop their industrial base with minimal use of capital- or energy-intensive methods.\nIn 1947, Raoul Dahl regarding Fair Trade: \"Fair Trade is not charity but the hand-up, not the hand-out, needed to make possible the building of a better world.\"\nFair Trade pioneers from Europe travelled to coffee-growing regions of Latin America, such as Chiapas, Mexico, and met with producers (coffee growers). They learned about their living and"
+    },
+    {
+        "instruction": "Please answer the following question based on the information provided in the article.",
+        "input": "Development studies is an interdisciplinary branch of social science. Development studies is offered as a specialized master's degree in a number of reputed universities around the world. It has grown in popularity as a subject of study since the early 1990s, and has been most widely taught and researched in developing countries and countries with a colonial history, such as the UK, where the discipline originated.  Students of development studies often choose careers in international organisations such as the United Nations, World Bank, non-governmental organisations (NGOs), media and journalism houses, private sector development consultancy firms, corporate social responsibility (CSR) bodies and research centers.\nWhat are some popular careers for students of development studies?",
+        "output": "\nStudents of development studies often choose careers in international organizations such as the United Nations, World Bank, non-governmental organizations (NGOs), media and journalism houses, private sector development consultancy firms, corporate social responsibility (CSR) bodies and research centers."
+    },
+    {
+        "instruction": "Design a syllabus for the given course. Students should be given a list of the chapters with brief explanations of each chapter's purpose.",
+        "input": "Programming for Everybody (Getting Started with Python)",
+        "output": "\nProgramming for Everybody (Getting Started with Python) will introduce students to the fundamentals of computer programming using the powerful Python programming language. Students will gain a foundation in programming concepts and techniques that can be applied to any programming language they choose to use in the future. Through hands-on experience and engaging activities, students will learn how to think creatively and logically as they code their way through the course.\nChapter 1: Introduction to Programming\n- What is programming?\n- Why learn Python?\n- Installing Python\n- Python Basics\n- Variables\n- Data Types\n- Operators\n- Conditionals\n- Loops\nChapter 2: Functions\n- Declarations\n- Parameters\n- Return Values\n- Input Functions\n- Output Functions\n- Modular Programming\nChapter 3: Object-Oriented Programming\n- Classes\n- Instantiating Objects\n- Encapsulation\n- Inheritance\n- Polymorphism\n- Abstraction\nChapter 4: Data Structures\n- Arrays\n- Lists\n- Dictionaries\n- Sets\n- Tuples\n- JSON\nChapter 5: Web Scraping\n- Introduction to Web Scraping\n- Parsing HTML\n- BeautifulSoup Library\nChapter 6: Game Development\n- Game Logic\n- Game Design\n- Pygame Library\n- Tkinter Library\n- Making Games with Python"
+    },
+    {
+        "instruction": "List the personality traits that are required to be successful in the given job.",
+        "input": "Social Media Marketer",
+        "output": ":\n1. Good communication skills 2. Creative thinker 3. Strong writing skills 4. Understanding of social media platforms 5. Ability to work well in a team environment 6. Flexibility and adaptability 7. Persistence and resilience 8. Enthusiasm and passion for social media 9. Awareness of current trends 10. Ability to multitask"
+    },
+    {
+        "instruction": "Please list the courses that someone interested in the first course might like.",
+        "input": "Bitcoin and Cryptocurrency Technologies",
+        "output": " (edX)\nThis course provides a comprehensive introduction to Bitcoin and cryptocurrency technologies. The course is structured in three parts:\nPart 1 gives an overview of cryptocurrency technologies and introduces the core concepts of decentralized digital currencies. It also covers the basics of how cryptocurrency transactions work and introduces the architecture of major cryptocurrencies.\nPart 2 explores the inner workings of Bitcoin, focusing on the mechanisms that make it so unique and different from traditional currencies. It also covers the technical details of the Bitcoin protocol and its implementation.\nPart 3 delves into advanced topics such as smart contracts, sidechains, and proof-of-stake consensus. It also explores legal and regulatory issues surrounding cryptocurrencies.\nOverall, this course provides a thorough understanding of the technical and theoretical aspects of cryptocurrency technologies and their applications in various fields."
+    },
+    {
+        "instruction": "You can easily make your holidays more eco-friendly by following these simple steps:",
+        "input": "",
+        "output": "\n1. Choose your travel mode carefully: If you can, choose public transport or carpooling instead of flying. You can also opt for a train, a cruise or even a bus to get to your destination.\n2. Opt for eco-friendly accommodation: Eco-friendly accommodation often means locally-owned and run lodges that use renewable energy sources like solar or wind power. You can also look for accommodations that have a composting system, recycling bins, and reduce their water consumption.\n3. Choose local and seasonal foods: Eating local and seasonal foods reduces your carbon footprint by reducing the transportation of food and supporting local farmers.\n4. Avoid single-use plastic products: Pack some reusable products like a refillable water bottle, stainless steel straws, and a shopping bag. Avoid buying any single-use plastic products.\n5. Participate in local events and activities: Participate in local events and activities that are eco-friendly like beach cleanups, tree planting, and coastal cleanups.\n6. Share your story: Share your sustainable holiday experience on social media with the hashtag #ecoholiday to inspire others to make sustainable choices."
+    },
+    {
+        "instruction": "Think of an idea to help you win a challenge given to you. Write the steps you need to take to develop the idea as well.",
+        "input": "What can you make by recycling and repurposing some old, previously used materials? We want to see it!\nProjects must incorporate some kind of used materials - take that old used thing, and turn it into something new and different!\nE-waste is a huge problem. What can you make using old electronics and other salvageable electronic materials? \nWe have a special judges prize for our favorite Instructable that incorporates or is related to reusing e-waste.\nBe smart and be safe; note that potentially deadly projects (like Lichtenberg/fractal wood burning machines) will not be allowed to be published or submitted to this contest.",
+        "output": "\nMultiple entries are accepted, but each entrant may only win one prize."
+    },
+    {
+        "instruction": "There are many creative projects we can build at home that are related to the given theme, so let's list some of them.",
+        "input": "Theme: Circuits",
+        "output": " and Electronics\n1. Build a simple electric circuit with batteries, wires, and bulbs.\n2. Make a remote-controlled car using an Arduino board and servo motors.\n3. Assemble a small electronic amplifier using transistors, resistors, and capacitors.\n4. Design and build a solar-powered charger for batteries or phones using a solar panel, diodes, and a battery.\n5. Create a DIY oscilloscope using a digital multimeter, probes, and a few other components.\n6. Install a home automation system using relays, sensors, and an Arduino board."
+    },
+    {
+        "instruction": "Answer the following literature question as accurately as possible based on your knowledge of literature for high school students.",
+        "input": "What does the green light symbolize at the end of the book?",
+        "output": "\nThe green light symbolizes hope, desire, and the possibility of a better future. It is a beacon of light that Gatsby looks towards with aspirations of achieving his goals."
+    },
+    {
+        "instruction": "Give me an idea of the mental exercises you do to inspire yourself.",
+        "input": "",
+        "output": " \nI think meditation is a great way to inspire myself. I like to use guided meditations that focus on gratitude and visualize all the things in my life that I am grateful for, as well as visualize all the things I want to achieve in the future. Other mental exercises I do are journaling, mind mapping, and practicing affirmations. Journaling helps me clear my head and get all my thoughts out on paper. Mind mapping allows me to visually organize my ideas and see connections between them. Affirmations are positive statements that I repeat to myself throughout the day to help stay motivated and focused on my goals."
+    },
+    {
+        "instruction": "Answer the following question.",
+        "input": "How do you say \"good evening\" in French.",
+        "output": "\nA.Bonsoir\nB. Salut\nC. Bonsoir"
+    },
+    {
+        "instruction": "Describe how to prepare the given food in your own words. Note down the ingredients you will need and the steps you will take to prepare them.",
+        "input": "Chewy Chocolate Chip Cookies",
+        "output": "\nIngredients:\n- 1 cup unsalted butter, softened\n- 1½ cups granulated sugar\n- 2 eggs\n- 1 tsp vanilla extract\n- 2½ cups all-purpose flour\n- 1¼ cups semisweet chocolate chips\nSteps:\n1. Preheat oven to 350°F and line baking sheets with parchment paper.\n2. In a large bowl, beat the butter and sugar together until light and fluffy. Add eggs one at a time, mixing well after each addition. Stir in vanilla extract.\n3. In a separate bowl, whisk together flour and baking soda; stir into the butter mixture until just blended.\n4. Drop dough by rounded teaspoons onto prepared baking sheets.\n5. Bake for 9-11 minutes or until golden brown around the edges. Cool on the baking sheets for 5 minutes before transferring to a wire rack to cool completely. Enjoy!"
+    },
+    {
+        "instruction": "Design a medium-level sudoku puzzle.",
+        "input": "",
+        "output": "\ndef designSudoku(n):\n    puzzle = [[0 for x in range(1, 10)] for y in range(1, 10)]\n    printPuzzle(puzzle)\n    \n    # Fill the top left square\n    puzzle[0][0] = n\n    printPuzzle(puzzle)\n\n    # Create a list of all possible candidates for each spot\n    candidates = [[0]*9 for x in range(len(puzzle))]\n    \n    # Loop through each row and column\n    for i in range(len(puzzle)):\n        for j in range(len(puzzle[i])):\n            candidate = set()\n            for k in range(1, 10):\n                if (puzzle[i][j] == k and (k-1) not in candidates or puzzle[i-1][j-1] != k or puzzle[i+1][j+1] != k or puzzle[i-1][j] != k or puzzle[i+1][j] != k):\n                    candidate.add(k)\n            candidates[i][j] = list(candidate)\n    printCandidates(candidates)\n\n    # Solve the puzzle\n    for i in range(len(puzzle)):\n        for j in range(len(puzzle[i])):\n            if len(set([puzzle[i][j]] + candidates[i][j])) != 9:\n                continue\n            else:\n                print(\"Solution:\")\n                printPuzzle(puzzle)\n                break"
+    },
+    {
+        "instruction": "Solve the given Sudoku puzzle.",
+        "input": "The Sudoku puzzle is:\n|1|  |5|  |  |  |  |8|  |\n|  |  |  |  |  |3|  |6|4|\n|8|3|4|6|7|  |9|  |  |\n|2|9|1|  |  |8|3|7|6|\n|  |  |6|  |  |9|8|1|  |\n|  |  |  |  |  |2|  |  |  |\n|  |2|  |  |9|7|6|  |  |\n|5|4|  |  |  |  |  |9|8|\n|6|1|  |  |  |5|4|3|7|",
+        "output": "\n|7|3|  |  |  |2|  |  |  |\n|8|5|  |  |  |4|1|6|  |\n|9|4|  |  |  |8|7|  |  |5|"
+    },
+    {
+        "instruction": "Think of a motivational quote that you have read in a book. Try to keep it positive and sweet.",
+        "input": "",
+        "output": "\"Never give up on something you really want. It's difficult to wait, but more difficult is giving up.\" - Anonymous"
+    },
+    {
+        "instruction": "In the event that a person enjoyed the book that was given, please suggest other books that they might also like.",
+        "input": "The Great Gatsby",
+        "output": " by F. Scott Fitzgerald\nThe Sun Also Rises by Ernest Hemingway"
+    },
+    {
+        "instruction": "Solve this equation.",
+        "input": "x^3 - 4x^2 + 6x - 24 = 0",
+        "output": "\nFind the x value when the equation is satisfied.\n\nx = 8"
+    },
+    {
+        "instruction": "Based on the facts that have been provided, prove the following statement.",
+        "input": "Statement: \"For every integer k, k^2 + 2k + 1 ≥ 0\"\nFact: The square of any real number is non-negative.",
+        "output": "\nProof: Let k be a real number. Then, k^2 = (k*k) = k(k+1)/2 ≥ 0, since k+1 ≥ 0 and k ≥ 0. Therefore, k^2 + 2k + 1 ≥ 0. Hence, the statement is proved."
+    },
+    {
+        "instruction": "Create a table listing all games that meet the specified criteria in the National Football League. Use the season, local time, game, and score as columns of the table.",
+        "input": "Ravens home games in 2011",
+        "output": ": \nSeason, Local Time, Game, Score\n2011, 8:20 PM, 9/11/2011, vs. Bengals, W, 35-17\n2011, 4:15 PM, 9/18/2011, vs. Steelers, L, 13-23\n2011, 1:00 PM, 9/25/2011, @ Falcons, L, 26-31\n2011, 8:20 PM, 10/2/2011, vs. Bills, W, 37-34 (OT)\n2011, 1:00 PM, 10/9/2011, @ Titans, L, 13-26\n2011, 1:00 PM, 10/16/2011, vs. Browns, W, 33-27\n2011, 4:15 PM, 10/23/2011, @ Jets, L, 24-34\n2011, 1:00 PM, 10/30/2011, vs. Chargers, W, 34-17\n2011, 4:15 PM, 11/6/2011, @ Eagles, L, 25-29\n2011, 1:00 PM, 11/13/2011, vs. Bears, W, 23-20 (OT)\n2011, 8"
+    },
+    {
+        "instruction": "You will be tested on your knowledge of classic witticisms and aphorisms by completing the given aphorism. Write the original quote as the answer.",
+        "input": "two things are infinite",
+        "output": ": the universe and human stupidity; and i'm not sure about the universe."
+    },
+    {
+        "instruction": "A list of all movies that meet the criteria given should be compiled.",
+        "input": "movies directed by Spike Lee by release date",
+        "output": " should be sorted by release date."
+    },
+    {
+        "instruction": "Using a given amount, determine an appropriate tip.",
+        "input": "14% tip on $47.50",
+        "output": " = $6.75\n15% tip on $47.50 = $7.08\n20% tip on $47.50 = $9.50"
+    },
+    {
+        "instruction": "Change the response to have a more empathic tone in the chat.",
+        "input": "+ How are you doing?\n- Fine, I had a bunch of problems today.\n+ What kind of problems?",
+        "output": "\n- Well, I had to do this big project for work and it was really stressful. Also, my car broke down."
+    },
+    {
+        "instruction": "Take a look at the contract and extract the parties of the agreement from it.",
+        "input": "As of the 13th day of December 2021, this Music Recording Agreement (\"Agreement\") is made between Good Kid, a Toronto-based musical group (\"Artist\"), and Universal Music Group, a record label with license number 545345 (\"Record Label\"). The Artist and the Recording Label may be referred to in this Agreement individually as \"Parties\" and collectively as \"Parties.\" Work under this Agreement will begin on March 15, 2022, and will last for the duration of the Agreement.",
+        "output": "\nThis Agreement is made pursuant to an agreement between the Artist and the Record Label to record, produce, distribute, and market music on behalf of the Artist. In consideration of the mutual covenants set forth herein, the Parties agree as follows:\n1. The Record Label will record, produce, distribute, and market music on behalf of the Artist.\n2. The Record Label will not charge any fees or costs for its services until the distribution of the music under this Agreement has begun.\n3. Upon completion of the work specified in Section 1 above, the Record Label will deliver to the Artist one (1) full-length album (\"Album\") in digital format.\n4. The Record Label will own all rights in and to the Album, including but not limited to, the right to reproduce, distribute, and perform the Album.\n5. The Artist grants the exclusive right to use the copyrights of the Album to the Record Label.\n6. This Agreement shall be binding upon and inure to the benefit of the Parties and their respective successors and assigns.\n7. This Agreement may only be amended in writing by both Parties.\n8. This Agreement shall be governed by and construed in accordance with the laws of the Province of Ontario\nParties: Good Kid, a Toronto-based musical group"
+    },
+    {
+        "instruction": "On the basis of the subject of the email, determine whether the email should be treated as spam or not.",
+        "input": "Dermatologists don't like her!",
+        "output": " What a surprise.\n\"Dear [Recipient],\n\nThank you for your email about [Topic]. I apologize for the delay in response. As an AI language model, I do not have personal opinions or biases, but here are some general information and answers to your questions:\n\n1. [Topic] Causes: There could be several causes for [Topic], but some of the most common ones include [List of possible causes].\n\n2. Treatment options: Depending on the severity of the condition, treatment options may vary. Some common treatments for [Topic] include [List of treatment options], such as topical creams, oral medications, or light therapy. It's important to consult with a dermatologist or other healthcare professional to determine the best treatment plan for your specific case.\n\n3. Dermatologists' opinions: While dermatologists have extensive knowledge and experience in treating skin conditions, everyone's skin is different, and what works for one person may not work for another. Therefore, it's important to consult with a dermatologist or other healthcare professional to determine the best treatment plan for your specific case.\n\nI hope this helps! If you have any further questions or concerns, please don't hesitate to reach out.\n\nBest regards,\n[Your Name]\""
+    },
+    {
+        "instruction": "Classify the questions in the FAQ into Finding policy details, Change account settings, Filing a claim and viewing status, or Cancelling coverage.",
+        "input": "Could you deposit money into my account rather than mailing me a physical cheque?",
+        "output": "\nNo, we can’t deposit money into an account. Cheques are the only way to get money directly into a customer's bank account."
+    },
+    {
+        "instruction": "Choose an appealing title for your post.",
+        "input": "The typical avocado is over 300 calories from the oil in it. That’s the amount of calories in a large candy bar. If you get enough exercise to eat a large candy bar every day without gaining weight, it wouldn’t be a problem to eat an avocado every day. Other wise you should probably eat them sparingly.",
+        "output": "\nI’m not sure I agree with that statement, considering the avocado also has a lot of fiber and healthy fats. Typical American diet is way too high in sugar and processed foods that are very low in nutritional value. If someone eats only junk food, then they’re going to gain weight from even eating one avocado a day."
+    },
+    {
+        "instruction": "Give some examples of what people usually say in the given social situation.",
+        "input": "when someone arrives safely",
+        "output": " at their destination?\nwhen someone passes a test or exam?\nwhen someone gets married?\nwhen someone has a baby?\nwhen someone graduates from school?"
+    },
+    {
+        "instruction": "You will be required to write a few questions from the given company's interview section.",
+        "input": "Kohl's",
+        "output": " Interview Questions\n1. What are your career goals and how do you see yourself contributing to the Kohl's team?\n2. How have you demonstrated leadership skills in the past?\n3. Describe a time when you had to solve a difficult problem at work.\n4. What motivates you to perform at your best?\n5. How do you handle conflict with colleagues or supervisors?\n6. How do you prioritize tasks and manage your time effectively?\n7. What experiences have prepared you for this role?\n8. How do you stay up-to-date with industry trends and developments?"
+    },
+    {
+        "instruction": "Based on the information provided, you need to estimate the average summary for the given job.",
+        "input": "Data entry clerk in United States",
+        "output": ": $26,983 per year\nData entry clerk in Canada: C$28,377 per year\nData entry clerk in India: ₹144,001 per year"
+    },
+    {
+        "instruction": "Convert the given HTML into Markdown format.",
+        "input": "<code>Use `code` in your Markdown file.</code>",
+        "output": "\n<h1>Heading 1</h1>\n<h2>Heading 2</h2>\n<h3>Heading 3</h3>\n<h4>Heading 4</h4>\n<h5>Heading 5</h5>\n<h6>Heading 6</h6>\n<ul>\n  <li>Unordered list item 1</li>\n  <li>Unordered list item 2</li>\n  <li>Unordered list item 3</li>\n</ul>\n<ol>\n  <li>Ordered list item 1</li>\n  <li>Ordered list item 2</li>\n  <li>Ordered list item 3</li>\n</ol>\n<pre><code>This is a code block.</code></pre>\n<blockquote>Blockquote</blockquote>\n<figcaption>Figure Caption</figcaption>\n<table>\n  <tr>\n    <th>Header 1</th>\n    <th>Header 2</th>\n  </tr>\n  <tr>\n    <td>Row 1, Column 1</td>\n    <td>Row 1, Column 2</td>\n  </tr>\n  <tr>\n    <td>Row 2, Column 1</td>\n    <td>Row 2, Column 2</td>\n  </tr>\n</table>"
+    },
+    {
+        "instruction": "You need to come up with the names of some of the papers that relate to the paper you are given.",
+        "input": "RoMQA: A Benchmark for Robust, Multi-evidence, Multi-answer Question Answering",
+        "output": "\nroMQA: A Benchmark for Robust, Multi-evidence, Multi-answer Question Answering\nRapidly Adaptive Multi-QA with a Flexible Language Model\nThe main task is to answer multiple questions on the same topic using a set of evidence passages as given. The model should be robust against changes in the input (e.g., due to variations in language or typographical errors) and able to handle different types of evidence (e.g., tables, images). Moreover, the model should be capable of generating diverse output for the same question, indicating its ability to reason over the given evidence."
+    },
+    {
+        "instruction": "Categorize the given magazine based on its content into one of the categories: Politics, Entertainment News, Tech News, Business News, Parenting & Kids, Health & Healing, Cooking, Food & Wine, and Arts & Literature,",
+        "input": "Inc.",
+        "output": " - For Entrepreneurs\nWired - For technology enthusiasts\nThe New Yorker - For current events and culture\nParents - For parents and guardians\nWebMD - For health and wellness information\nBon Appetit - For food lovers\nThe Atlantic - For politics, culture, and ideas\nHarper's Bazaar - For fashion, beauty, and lifestyle content\nPeople - For celebrity news"
+    },
+    {
+        "instruction": "Create alliterations by finding synonyms for words in the given sentence.",
+        "input": "David wears a hat everyday.",
+        "output": "\nSynonyms for \"hat\" could be \"cap\", \"headgear\", or \"headcovering\".\nAlliteration: David wore a cap every day."
+    },
+    {
+        "instruction": "Convert the given description to a bash command.",
+        "input": "read the first 10 lines from f",
+        "output": "p\nwhile IFS= read -r line; do\n    if [[ $line =~ \"127.0.0.1\" ]]; then\n        echo $line >> results\n    fi\ndone < fp"
+    },
+    {
+        "instruction": "Given a sentence that may be ambiguous, rewrite the sentence using less ambiguous words.",
+        "input": "The chicken is ready to eat.",
+        "output": "\nThe chicken is cooked and ready to eat."
+    },
+    {
+        "instruction": "You are given a search query and a document. Classify whether the document is relevant to the search query or not relevant.",
+        "input": "Search: why sky is blue\nDocument: The Short Answer: Sunlight reaches Earth's atmosphere and is scattered in all directions by all the gases and particles in the air. Blue light is scattered more than the other colors because it travels as shorter, smaller waves. This is why we see a blue sky most of the time.",
+        "output": "\nRelevant"
+    },
+    {
+        "instruction": "Invent a new word based on a description of the word.",
+        "input": "The feeling of knowing, while you are still in the moment, that something occurring will be remembered forever.",
+        "output": "\nNew Word:Remembrancy"
+    },
+    {
+        "instruction": "Make a list of adjectives that can be used to describe the given brand.",
+        "input": "a creative tech startup",
+        "output": " that specializes in artificial intelligence and machine learning, offering innovative solutions to businesses of all sizes."
+    },
+    {
+        "instruction": "Someone gives you some information about where they want to go and what they enjoy seeing and doing. Describe a proper road trip for them and find the best stops and sctivities in the way.",
+        "input": "I'm looking for a west coast road trip. My goal is to start near San Diego and travel to Los Angeles.",
+        "output": " I want to spend a few days there, then go north to San Francisco and spend a few more days there. Then I want to cross the Golden Gate Bridge and head up to Portland, Oregon. Finally, I want to end in Seattle. The trip should be around 10-14 days long.\nSan Diego - Los Angeles: 105 miles\nLos Angeles - San Francisco: 376 miles\nSan Francisco - Portland: 389 miles\nPortland - Seattle: 217 miles\nSan Diego - Los Angeles:\nSan Diego is known for its great weather and sandy beaches. It's also the perfect place to start your road trip because it has so many fun activities to do. You can go to Legoland California or enjoy a day at the San Diego Zoo. There are a lot of beautiful beaches nearby, like La Jolla and Mission Beach.\nIf you're looking for something more cultural, you can visit Balboa Park or the USS Midway Museum. In the evening, you can have dinner at one of the fantastic restaurants downtown, like The Prado or Buca di Beppo.\nLos Angeles - San Francisco:\nLos Angeles is another great city with plenty of things to see and do. You could go to Universal Studios Hollywood or the Griffith Observatory. If you're into art, you can visit the Getty Center or the Broad.\nIn San Francisco you can walk along Fisherman's Wharf or visit Alcatraz Island. You can also go up to Twin Peaks for an amazing view over the city.\nSan Francisco - Portland:\nPortland is known for its hipster vibe and beautiful bridges. You can go to the Japanese Garden or the International Rose Test Garden. The city also has a lot of great food trucks and breweries.\nPortland"
+    },
+    {
+        "instruction": "Given a real estate listing description, extract the information and details of the property from the text. The details consist of address, basic house attributes, etc.",
+        "input": "WALK TO THE BEACH FROM CAPITOLA KNOLLS! Single-level upstairs condo with your own large private deck overlooking nature. Adorable home that is move-in ready and waiting for you to put your own personal touches on. Gorgeous and well-maintained landscaped park-like setting with lush green grasses with a community pool and spa to enjoy. Desirable location...walk to Capitola Village, Gayle's Bakery, restaurants, shopping, schools or jump on Hwy 1 right around the corner.",
+        "output": " The home is freshly painted with new carpet in the bedrooms. Kitchen and bath have been updated with stainless-steel appliances and granite countertops. Large master suite with walk-in closet and an additional bedroom and full bath on the other side of the unit. Storage units outside for extra storage and a 2 car garage with direct access into the unit. Quiet, secure location with very low HOA dues."
+    },
+    {
+        "instruction": "Suggest some product bundles that are often purchased with a given product.",
+        "input": "MacBook Air",
+        "output": " 13 inch (Mid 2017) and MacBook Pro 13 inch (Mid 2017)"
+    },
+    {
+        "instruction": "Paraphrase the given text in an academic style.",
+        "input": "Lots of papers have been published on this topic.",
+        "output": "  In this paper, we present new results that build on previous research.  We use a combination of qualitative and quantitative data to explore the topic in greater depth.  Our findings shed new light on this important issue and have implications for future research."
+    },
+    {
+        "instruction": "Make a list of the pros and cons of the given decision.",
+        "input": "Implementing a Remote Working Policy",
+        "output": " Pros:\n1. Increased productivity and morale. 2. Reduced costs associated with office space, utilities, and supplies. 3. Access to a global talent pool. 4. Ability to offer flexible work arrangements to employees. 5. Improved work-life balance for employees. Cons:\n1. Difficulty managing remote workers. 2. Potential for decreased collaboration and communication among team members. 3. Lack of face-to-face interaction with colleagues. 4. Need for strong technology infrastructure to support remote work. 5. Potential for distractions at home.\nOverall, implementing a remote working policy can have many benefits for both employers and employees. However, it is important to weigh the pros and cons before making a decision."
+    },
+    {
+        "instruction": "Include important study notes and key points that someone should know about the given subject.",
+        "input": "history of the USA",
+        "output": " from 1607 to the present\nFamous Americans throughout U.S. History\nTimeline of Major Events in US History\nThe American Revolution: Causes, Timeline & Significant People\nA timeline of major events in United States history from 1607 to present day, including early Native American settlements, the American Revolution, and the Civil Rights Movement.\nIn 1607, the British established Jamestown, Virginia as their first permanent settlement in North America.\nIn 1776, the Declaration of Independence was signed, declaring the United States independent from Britain.\nIn 1863, the Emancipation Proclamation was issued, freeing all slaves in the United States.\nIn 1945, the United States dropped atomic bombs on the Japanese cities of Hiroshima and Nagasaki, bringing an end to World War II.\nKey figures in United States history include George Washington, Abraham Lincoln, Martin Luther King Jr., and Rosa Parks.\nThe American Revolution (1775-1783), the Civil War (1861-1865), and the Women's Suffrage Movement (1848-1920) are just a few of the significant events and people that have shaped United States history.\nNative American settlements existed throughout what is now the United States before the arrival of European colonists in the 17th century. The first permanent English settlement was established at Jamestown, Virginia, in 1607. Over the next several centuries, the United States would be shaped by a series of conflicts with Native American tribes, as well as the expansion of settlers and the development of new territories.\nThe American Revolution began in 1775, when colonists revolted against British rule."
+    },
+    {
+        "instruction": "Based on the given keywords, write a review of a restaurant.",
+        "input": "Name: Pizzeria\ngood prices, quiet place, tasty, nice staff",
+        "output": ", and delicious pizzadelivery\nThe Pizzeria is a great pizza place. They have good prices, a quiet atmosphere, tasty food, nice staff, and delicious pizza delivery. The pizza is baked in a traditional oven, giving it a crispy crust and melted cheese on top. The toppings are fresh and of high quality. The sauce is also made with vine-ripened tomatoes, giving it a unique flavor. The staff is friendly and attentive, making sure that your experience at the Pizzeria is enjoyable. Overall, the Pizzeria is an excellent choice for anyone looking for a great pizza experience."
+    },
+    {
+        "instruction": "Convert natural language into a list of turn-by-turn directions.",
+        "input": "Go west on I-10 until you hit the 101 then take it north. You will eventually see the Hollywood sign.",
+        "output": "\nGo west on I-10 until you hit the 101 then take it north. You will eventually see the Hollywood sign."
+    },
+    {
+        "instruction": "Provide an ESRB rating for the following game.",
+        "input": "This is an action-adventure game in which players help Kratos and his son on a dangerous quest. Players explore various realms and engage in frenetic hand-to-hand combat against human-like raiders and fantastical creatures (e.g., centaurs, trolls, dragons). Players use axes and chained blades to battle enemies, often resulting in large blood-splatter effects and dismemberment. Players can perform finishing attacks that depict close-up impalement via bladed and hand-held weapons; repeated axe strikes to a creature's neck results in decapitation. The words “f**k” and “sh*t” are heard in the game.",
+        "output": "\nESRB Rating: MATURE 17+"
+    },
+    {
+        "instruction": "Make a list of common phrases for the given section of the paper.",
+        "input": "Introduction",
+        "output": ":\n- What is the topic of the paper?\n- Why is it important?\n- What are some background information and previous studies related to this topic?\n- What are the main points or arguments that will be made in the paper?\n- How does the introduction set up the rest of the paper?\nBody:\n- Section 1: First main point\n- Section 2: Second main point\n- Section 3: Third main point\n- Section 4: Conclusion\nConclusion:\n- Restate main points/arguments\n- Summarize the main findings/conclusions\n- Offer any final thoughts or recommendations\n- End with a strong sentence or phrase."
+    },
+    {
+        "instruction": "Take the product description and write a creative ad for it.",
+        "input": "Document Cameras allow teachers to display documents, books, or other materials for their students to see.",
+        "output": " The document camera can be used to display printed materials, documents, books, or other objects from a distance, eliminating the need to pass things around. Document Cameras are an invaluable tool for teachers and students alike."
+    },
+    {
+        "instruction": "You are given a tweet and you should decide whether it's offensive or not.",
+        "input": "She has certainly taken some heat for being such an....well idiot.",
+        "output": "\nI'm sure she will get over it."
+    },
+    {
+        "instruction": "Categorize the Business into one of the Restaurants, Home Services, Auto Services and Miscellaneous based on its Specialties.",
+        "input": "Call us at 650-636-4884 or visit our website to receive a quote. This shop specializes in New Tires and General Auto Repair. We carry all tires in-house and have a wide range to fit any budget or car specifics. If you are unsure what tires you need there are experts on hand and available to help you pick the best tire for your needs. We also carry commercial vehicle tires and can serve a wide array of fleets.",
+        "output": " Our technicians are ASE certified and have the knowledge and experience to perform almost any service on your vehicle. We also offer a wide range of auto repair services including brake repair, suspension service, wheel alignment, oil changes, tune ups, and more.\nFrom Business: From a humble beginning in 1992 as a mobile tire business, we have grown into a full-service automotive repair and tire center. Today, we work hard to provide our customers with the highest quality items at great prices. We strive to make sure that you always receive top notch customer service, whether you need new tires, an oil change, or major repairs."
+    },
+    {
+        "instruction": "Notify me of any suggestions you may have for making the text more grammatically correct.",
+        "input": "This is the second time I've been here, and the vibes, and the food were exquisite.",
+        "output": " I'm sure the service was excellent too, but we only ordered takeout. Just wanted to say thank you for making truly outstanding food- it made me happy.\nBy far the best Italian restaurant in the North East!"
+    },
+    {
+        "instruction": "Using the ingredients that are available, create a dinner recipe.",
+        "input": "Kale + almond butter + apple cider vinegar + agave nectar + tamari",
+        "output": " + garlic + sea salt + sesame seeds = kale salad with almond butter dressing\n1. Chop the kale and massage with 2 tablespoons of tamari and 1 teaspoon of olive oil until the leaves begin to soften.\n2. Finely chop the garlic and add it to the kale along with the apple cider vinegar, agave nectar, and 1 tablespoon of sesame seeds.\n3. To make the dressing, blend the remaining 2 tablespoons of tamari, olive oil, agave nectar, and the chopped apple into a smooth paste.\n4. Toss the kale mixture with the dressing and sprinkle with the remaining 1 tablespoon of sesame seeds. Serve immediately.\nJalapeno poppers + cream cheese + cheddar cheese + crushed tortilla chips + spicy ranch dressing = jalapeno poppers\n1. Cut the jalapenos in half lengthwise and remove the seeds.\n2. Spread the cream cheese onto the jalapenos and top with shredded cheddar cheese.\n3. Place the jalapenos on a baking sheet and bake for 10 minutes or until the cheese is melted.\n4. While the jalpeno poppers are baking, prepare the spicy ranch dressing by whisking together the sour cream, mayonnaise, hot sauce, garlic powder, onion powder, and a few dashes of tabasco.\n5. Remove the jalpeno poppers from the oven and dip them into the spicy ranch dressing before serving. Enjoy"
+    },
+    {
+        "instruction": "Provide instructions for the given exercise.",
+        "input": "Leg Raises",
+        "output": " Leg raises are one of the best exercises for strengthening your core. To perform this exercise, lie on your back with knees bent and feet flat on the floor. Then, lift your upper body and straighten your legs, holding them for a moment before lowering yourself back down to the starting position."
+    },
+    {
+        "instruction": "Rewrite the text and correct the spelling errors.",
+        "input": "It solves problems comon and uniqe to every team.",
+        "output": " It enables team members to work together more efficiently and effectively, regardless of location. The use of collaborative software can increase productivity by allowing team members to share information quickly and easily. Additionally, it eliminates the need for costly travel expenses associated with face-to-face meetings."
+    },
+    {
+        "instruction": "Write the HTML syntax for the required action.",
+        "input": "adding an image to the page",
+        "output": "\n<img src=\"image.jpg\" alt=\"Awesome Image\">"
+    },
+    {
+        "instruction": "Decide which part of speech the underlined word belongs to.",
+        "input": "school will _keep through the winter",
+        "output": " break\nA.noun"
+    },
+    {
+        "instruction": "Define what the underlined word means for kids.",
+        "input": "_keep a promise",
+        "output": "\nKeep a promise \nA promise is a statement that you make to do something in the future. If you keep a promise, you do what you said you would do."
+    },
+    {
+        "instruction": "Expand the given sentence and give it more details and depth.",
+        "input": "It changed my life.",
+        "output": " The moment I heard its music, I felt something click inside. It was like all the pieces of my mind and body found their place and could finally settle into a relaxed state. I had never before experienced such an intense sense of peace.\nAs I continued to listen, it became clear that this was more than just any old piece of music; it was a portal into another world. The melodies were hauntingly beautiful and full of emotion, each note seeming to carry its own story. And as I fell deeper into the sounds, I felt myself being transported to a place beyond time and space, where all that mattered was the music and my connection to it.\nIn this new realm, I shed all my worries and cares, leaving them far behind me like a heavy coat that no longer fit. In their place came a feeling of pure joy and contentment, as if all my wishes had been granted in that instant. I didn't want to leave this place, but eventually I emerged from my trance with a newfound appreciation for life and a renewed sense of purpose. The music had awakened something within me, something that had been dormant for too long. From that day forward, I made it my mission to discover more about this incredible art form and explore its many wonders.\nThat music was classical music, and it changed my life forever.\nWhen I first heard it, I was enchanted by its beauty, its power, and its ability to transport me to another world. It wasn't just any old piece of music - it was a portal into a different reality, one filled with hauntingly beautiful melodies and emotions that carried their own stories. And as I continued to explore this new world, I shed my worries and cares, revealing a sense of pure joy and contentment that had been missing from my"
+    },
+    {
+        "instruction": "Extract the address of the property from the \"About this space\" section of Airbnb.",
+        "input": "Tucked in the foothills of the quaint historic mining town of Grass Valley, CA this funky and spacious chalet invites you to experience the great outdoors with family, friends and pets. Enjoy the hot tub, basketball court, treehouse, kids rooms, bbq, fire-pit, outdoor theater, and more. One hour from Tahoe and 10 minutes to town, you’re never short of things to explore.",
+        "output": "\nExtract the address of the property using regular expressions:\n\\b(About|For|From)\\s+this\\s+space\\s+\\w+\\s+(.*?)\\s+as\\s+your\\s+host\\s+to\\s+provide\\s+you\\s+a\\s+(.*?)"
+    },
+    {
+        "instruction": "Design a simple training challenge on Strava that everyone could attend.",
+        "input": "",
+        "output": "You are an AI language model. I cannot design a training challenge on Strava as I am not capable of creating physical activities or events. However, here are some general tips on how to design a training challenge that could be attended by everyone:\n1. Make it accessible to all levels of athletes: Ensure that the challenge is achievable for beginners as well as advanced athletes. You can break down the challenge into smaller segments or provide multiple options for different distances or difficulty levels.\n2. Make it time-bound: Set a deadline for the challenge and encourage participants to complete it within that time frame. This will create a sense of urgency and motivation to complete the challenge.\n3. Offer prizes or rewards: Offer prizes or rewards to participants who complete the challenge successfully. You can offer discounts or free products from your company, or simply recognition and bragging rights.\n4. Promote the challenge: Use social media platforms like Strava, email, or your company's website to promote the challenge. Encourage participants to share their progress and achievements on social media to create a sense of community and competition."
+    },
+    {
+        "instruction": "Suggest some names for a friendly group in telegram.",
+        "input": "",
+        "output": "\nI am planning to start a group in telegram. I need some names for the group..\nPlease suggest some names for the group.\n\nComment:This question does not appear to be about programming within the scope defined in the help center.\n\nAnswer:How about \"peaceful group\", \"friendly friends\", \"kind community\", \"positive vibes only\" or \"welcoming chat\"?"
+    }
+]

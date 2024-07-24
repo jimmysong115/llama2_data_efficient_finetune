@@ -1,0 +1,522 @@
+[
+    {
+        "instruction": "Analyze the word choice, phrasing, punctuation, and capitalization in the given email. How may the writer of this email sound to the reader? These tones include Disheartening, Accusatory, Worried, Curious, Surprised, Disapproving, Unassuming, Formal, Assertive, Confident, Appreciative, Concerned, Sad, Informal, Regretful, Encouraging, Egocentric, Joyful, Optimistic, and Excited.",
+        "input": "Hi Jen, \nI hope you're well. Can we catch up today? I'd appreciate your input on my presentation for tomorrow's meeting. I'd especially love it if you could double-check the sales numbers with me. There's a coffee in it for you!",
+        "output": "\nThanks so much, \nBen"
+    },
+    {
+        "instruction": "Rewrite the given text and correct grammar, spelling, and punctuation errors.",
+        "input": "If you'd told me year ago that today I would finish a marathon, I would of laughed. Your support had a huge affect on me!",
+        "output": " Thank you for believing in me and encouraging me. I honestly don't think I could of done it without you!\n-You're welcome! I'm so happy for you!"
+    },
+    {
+        "instruction": "Desk jobs require writing a lot of emails, so it isn't surprising we get tired of repeating ourselves. Come up with several synonyms for the given word.",
+        "input": "Sincerely",
+        "output": ", Faithfully, Yours truly, etc. are all overused and cliched. Try using these instead:\nBest regards, Cheers, Kind regards, Love, Regards, Respectfully yours, Warmest regards, With best wishes."
+    },
+    {
+        "instruction": "My favorite witty review of The Rings of Power series is this:",
+        "input": "",
+        "output": "\n\"When Amazon decided to take on Tolkien's work, I was excited. However, after watching the first season of their Lord of the Rings prequel series 'The Rings of Power', I am left disappointed. The show feels like a cynical cash grab and seems to be trying too hard to impress the critics. There are many issues with the writing, characters, pacing, and plot holes that make it difficult to get invested in the story. Additionally, the production value is high, but the acting is lackluster and the character development is not well-rounded. Overall, I feel that the show lacks the heart and imagination that made 'The Fellowship of the Ring' so great.\""
+    },
+    {
+        "instruction": "A helpful writing exercise is writing a story without using adjectives or adverbs. This will help you learn to use other words and phrases to describe what you are trying to say. Here are some examples:",
+        "input": "",
+        "output": "The sun was shining brightly, painting the world in a warm glow. The air was crisp and clean, carrying the scent of freshly cut grass. The birds were singing happily, their sweet melodies filling the air with joy. Everything seemed perfect, like something out of a dream.\nThe sky was a brilliant blue, dotted with fluffy white clouds. The earth below was lush and green, covered in a carpet of flowers. The trees were swaying in the gentle breeze, their leaves rustling softly. It was a scene of beauty and serenity, like something out of a painting.\nThe room was small but cozy, decorated in warm colors. The furniture was comfortable and inviting, with plenty of soft cushions to sink into. The atmosphere was relaxed and peaceful, with a sense of calm comfortability."
+    },
+    {
+        "instruction": "Discover the most relevant StackOverflow questions for your search term. And output a list of their URLs.",
+        "input": "remove item in array",
+        "output": " based on condition in python\nWrite a python program to remove an item from an array based on its position."
+    },
+    {
+        "instruction": "You are provided with a description of the code, specifications, or prompts. Your help is needed in automating code generation to speed up the development process.",
+        "input": "python function to determine whether a number is prime.",
+        "output": " Primes are positive integers greater than 1 that have no positive divisors other than 1 and themselves.\nfunction is_prime(n):\n    if n < 2:\n        return False\n    for i in range(2, int(n**0.5)+1):\n        if n % i == 0:\n            return False\n    return True"
+    },
+    {
+        "instruction": "When you're stuck on a coding problem, the best place to look for help is in the documentation. Read the docs carefully and see if there's a section that covers your specific issue. Often, the answer will be right there in front of you. If not, try searching for key terms related to your problem. Come up with the useful links about the given search term.",
+        "input": "sql find duplicate values",
+        "output": "\nThis is a common problem in SQL databases. You can use the following query to find duplicate values in a column:\n```\nSELECT COLUMN_NAME, COUNT(*) AS \"Count\"\nFROM TABLE_NAME\nGROUP BY COLUMN_NAME\nHAVING COUNT(*) > 1;\n```\nReplace \"COLUMN_NAME\" with the name of the column you want to check for duplicates, and \"TABLE_NAME\" with the name of your table. This query will group all the values in the specified column by their respective rows and count how many times each value appears. If there are any duplicates, it will output the column name and the total number of duplicates."
+    },
+    {
+        "instruction": "We have entered the home supplies budget in the following table. Calculate the last column with the given function and rewrite the completed table.\nNote that, columns in a row are separated using a comma, and rows are separated using a \"|\".",
+        "input": "Item, Qty, Price, Subtotal | mango, 5, 500, ? | apple, 4, 150, ? | oil, 2, 1500, ?  \nFunction: column2 * column 3",
+        "output": "\nSubtotal = column2 * column 3"
+    },
+    {
+        "instruction": "I bought two shirts from the store and each one cost me $10. I also bought a pair of pants and they cost me $20. Then, I bought a dress and it cost me $30. Also,  I bought a pair of shoes and they cost me $40. Lastly, I bought a jacket and it cost me $50.\n\nMake a table chart showing items, the number, and the price of these items. Separate columns with \"|\".",
+        "input": "",
+        "output": "Item | Quantity | Price\n--- | --- | ---\nShirt 1 | 1 | $10.00\nShirt 2 | 1 | $10.00\nPants | 1 | $20.00\nDress | 1 | $30.00\nShoes | 1 | $40.00\nJacket | 1 | $50.00"
+    },
+    {
+        "instruction": "Find sentences from reliable sources such as the Guardian or Forbes that contain the exact match for the given sentence or phrase. Also, mention the source of each sentence.",
+        "input": "There are great options",
+        "output": " for first-time homebuyers through state and federal programs. New York State offers low-interest mortgages, down payment assistance, and forgivable loans for certain professions such as teachers and firefighters.\nForbes"
+    },
+    {
+        "instruction": "Design a skill assessment questioner for R (Programming Language).",
+        "input": "",
+        "output": "\nThe questioner should include questions that assess the user's knowledge of R programming language, including data handling, data analysis, and visualization. It should also include questions that evaluate the user's ability to write R code and troubleshoot errors. Additionally, the questioner should have a mix of multiple-choice, true/false, and open-ended questions to ensure a comprehensive assessment of the user's skills."
+    },
+    {
+        "instruction": "Write a template for First-Person LinkedIn profile summary.",
+        "input": "",
+        "output": "\nSure, here is a template for First-Person LinkedIn profile summary:\n\n\"As an AI assistant, I help people find information quickly and easily. I am passionate about helping people learn new things and solve complex problems. I have a wealth of experience in data analysis and problem-solving, which allows me to provide accurate and relevant results. My goal is to help people make better decisions by providing them with the most up-to-date and reliable information. I am committed to continuous learning and strive to stay ahead of the curve when it comes to technology and trends. With my expertise, I can help you achieve your goals faster and more efficiently.\""
+    },
+    {
+        "instruction": "Write a LinkedIn post to announce that you have accepted a new job offer.",
+        "input": "",
+        "output": "\nI am happy to announce that I have accepted a new job offer and will be starting my new position on [new start date]. This opportunity allows me to further develop my skills and experience in the [industry/field] and I am very excited for this new chapter in my career. I would like to thank my network, friends, and family for their support throughout this process."
+    },
+    {
+        "instruction": "You will be asked to answer the following question as part of the LinkedIn Skill assessments.",
+        "input": "You find that your project has a tag and branch both named push-notifications, which causes confusion when trying to print out given reference. How can you specify which branch you want to look at?",
+        "output": "\nYou can use the branch name as a prefix when looking at the reference. For example, if you want to look at the changes made to the push-notifications branch, you would type \"git checkout push-notifications\" and then \"git log\". This will show you the changes made to that specific branch."
+    },
+    {
+        "instruction": "Take the title of the product and extract its attributes. The attributes in this case refer to the characteristics of the products, such as their brand and color. Your answer must a list following the format of \"attribute: value\".",
+        "input": "SAMSUNG 980 PRO SSD 2TB PCIe NVMe Gen 4 Gaming M.2 Internal Solid State Hard Drive Memory Card, Maximum Speed, Thermal Control, MZ-V8P2T0B",
+        "output": "/AM \nattribute: brand\nvalue:SAMSUNG\nattribute: color\nvalue:black"
+    },
+    {
+        "instruction": "Write a short description about the given movie or series.",
+        "input": "The Witcher (2019)",
+        "output": " is an action-packed fantasy drama series based on the book series by Andrzej Sapkowski. It follows the story of Geralt of Rivia, a monster hunter known as a Witcher, as he travels across the kingdom of Temeria searching for his daughter, Ciri. Along the way, he becomes involved in a conflict between various political powers and faces dangerous foes such as the Wild Hunt and the mysterious entity known as the Lesser Evil. The series stars Henry Cavill as Geralt, Anya Chalotra as Yennefer, and Freya Allan as Ciri."
+    },
+    {
+        "instruction": "Think of some series or movies that would be enjoyable for someone who liked the given series.",
+        "input": "Squid Game",
+        "output": ": If you liked Squid Game, you might also enjoy Parasite (2019), which is a similar themed movie about class inequality. Another similar TV show that you may enjoy is Succession (2018-present), which is a satirical drama about wealthy families in the world of media and politics.\nBreaking Bad: If you liked Breaking Bad, you might also enjoy Better Call Saul (2015-present), which is a prequel series that explores the early days of Walter White's lawyer, Saul Goodman. Another TV show that you may enjoy is The Wire (2002-2008), which is a crime drama set in Baltimore and deals with themes of institutional corruption and social inequality.\nGame of Thrones: If you liked Game of Thrones, you might also enjoy Vikings (2013-2020), which is a historical drama set in the Viking age and deals with themes of power, ambition, and politics. Another TV show that you may enjoy is Rome (2005-2007), which is a historical drama set in ancient Rome and deals with themes of power, politics, and cultural clashes between Romans and Gauls."
+    },
+    {
+        "instruction": "Give examples of popular shows and movies in the genre.",
+        "input": "Genre: Crime TV Shows",
+        "output": "\nThe Sopranos: This series follows the life of Tony Soprano, a mob boss who struggles with his family life and his criminal organization.\nBreaking Bad: This series follows the story of Walter White, a chemistry teacher who turns to a life of crime after being diagnosed with cancer.\nSherlock: This modern-day retelling of the Sherlock Holmes stories features Benedict Cumberbatch as the titular character solving crimes in London.\nNarcos: This series follows the rise of cocaine kingpin Pablo Escobar and the efforts of the DEA to bring him down.\nBlue Exorcist: This anime series follows Rin Okumura, a boy who learns that his adoptive father is Satan and joins an exorcist academy to become stronger."
+    },
+    {
+        "instruction": "Give a brief description of the given category of movies and shows.",
+        "input": "Period Dramas",
+        "output": " are a genre of film and television that focus on historical events, often set in the past. They are characterized by their attention to detail and accuracy when depicting the period in which they are set. The characters and storylines often reflect the cultural norms and values of the time period, and feature elaborate costumes and sets that help bring the era to life. Some popular examples of Period Dramas include Downton Abbey, Pride and Prejudice, and The Crown."
+    },
+    {
+        "instruction": "What is the output of the given LATEX code?",
+        "input": "\\documentclass{article}\n\\begin{document}\nFirst document. This is a simple example, with no \nextra parameters or packages included.\n\\end{document}",
+        "output": "\n\\end{code}\n\nThe output of the code is:\n\n\\begin{blockquote}\nFirst document. This is a simple example, with no \nextra parameters or packages included.\n\\end{blockquote}"
+    },
+    {
+        "instruction": "You should find a few LATEX templates appropriate for the task at hand and list the links to them.",
+        "input": "Homework Assignment",
+        "output": "1"
+    },
+    {
+        "instruction": "Choose Spotify playlists that match the given mood. Provide a link to these playlists for easy access.",
+        "input": "Feeling Good",
+        "output": ": https://open.spotify.com/playlist/10VZpF34bw12BWzQaXfE38SLHo6L9Y?si=32701f35e152c443d"
+    },
+    {
+        "instruction": "How would you describe the meaning of this lyrics? Describe some of the metaphors.",
+        "input": "My lover’s got humor\nShe’s the giggle at a funeral\nKnows everybody’s disapproval\nI should’ve worshipped her sooner",
+        "output": "\nThe meaning of these lyrics is that the speaker's lover has a unique sense of humor that makes her stand out in any situation. She is not afraid to laugh at herself or others, even in serious situations like funerals. Despite this, people may disapprove of her behavior, but the speaker should have appreciated and worshipped her sooner."
+    },
+    {
+        "instruction": "Suggest some Audiobooks for First-Time Listeners. You can attract them by choosing popular works.",
+        "input": "",
+        "output": "What are some Audiobooks for First-Time Listeners?\n1. The Catcher in the Rye by J. D. Salinger: This coming-of-age novel tells the story of Holden Caulfield, a troubled teenager who rebels against the conformity and phoniness he sees in his peers and society at large. Narrated by actor/author John Cusack, this audiobook is an excellent choice for first-time listeners looking for an engaging, thought-provoking story.\n2. To Kill a Mockingbird by Harper Lee: This classic novel tells the story of Scout, a young girl growing up in a small Alabama town during the Depression era. Narrated by Sissy Spacek, the audiobook offers a powerful performance that brings the characters to life and showcases the themes of racism, injustice, and the loss of innocence.\n3. Pride and Prejudice by Jane Austen: This romantic comedy follows Elizabeth Bennet, a smart and witty heroine who must navigate the social norms of 19th-century England as she searches for love. Narrated by Rosamund Pike, the audiobook offers a fresh take on a beloved classic and is perfect for fans of historical fiction and romance.\n4. The Great Gatsby by F. Scott Fitzgerald: This novel tells the story of Jay Gatsby, a millionaire party-thrower who seeks to win back his lost love through his ill-gotten wealth. Narrated by David Selby, the audiobook captures the glitz and glamour of the roaring twenties while also exploring themes of ambition, disillusionment, and the dark side of the American dream."
+    },
+    {
+        "instruction": "Make a list of the most popular podcasts.",
+        "input": "",
+        "output": "A list of the most popular podcasts, according to Apple Podcasts."
+    },
+    {
+        "instruction": "You should take the time to read the situation and problem carefully and give the best advice you can.",
+        "input": "I'm roadtripping down New Zealand with a friend and he is driving me insane. He hasn't enjoyed all the tours we've been on and doesn't want to chat about ANYTHING. We're a week into our trip and this is the quietest I've ever been when hanging out with another person as he rebuffs all my attempts at conversation. He wears his airpods in the car and around the accommodation - not that I've kept trying to talk to him. Honestly, he is bringing some seriously bad vibes to everything and it's ruining my trip.\nWe don't have anything booked in yet for the South Island, so I'm planning to ditch him in Wellington at the ferry. Probably book my own car in Picton and just relax alone for the rest of the trip. (Just thinking about it is such sharp relief that it makes me feel emotional. I'll pay whatever price I have to just to get away from him.)\nObviously telling him he is ruining my trip with his negative energy isn't the best way to approach this.\nAny advice for the best approach so we can split amicably? Or at least not have an argument that ends with very hurt feelings?",
+        "output": "\nAsk him to leave?\nDon't use the word \"argue\" in your question. You want a peaceful split, so \"argue\" implies that you will be giving him something he doesn't want to hear & he will react negatively."
+    },
+    {
+        "instruction": "You are given a description that provides a set of facts or a scenario. It is up to you to craft a story from these facts and scenarios. The missing pieces must be filled in with imaginative but logical information.",
+        "input": "Ten European football teams – the Netherlands, England, Belgium, Denmark, France, Germany, Norway, Sweden, Switzerland and Wales – will participate in a season-long “OneLove” campaign promoting inclusion and opposing discrimination.",
+        "output": "\nThe teams will wear a special captain’s armband featuring a heart-shaped multi-colored logo with the message “#OneLove” during their games at home and away. The campaign is the brainchild of the Dutch Football Association (KNVB) which teamed up with other European federations after FIFA, soccer’s global governing body, rejected an initial proposal for all captains to wear rainbow armbands during the World Cup in Qatar.\nFIFA warned that wearing the armbands would result in sporting sanctions. England’s Football Association (FA) even threatened to withdraw its players from the tournament if they were banned for wearing the armbands. But FIFA eventually backed down.\n“We have had positive talks with Fifa and we are now at a point where we can confirm that unified as a European Union we will be able to express our support for inclusion and anti-discrimination through the One Love armbands,” said Belgian FA president Michael Van Praet.\nThe ECA, which represents European club teams, also supported the initiative.\nThe OneLove campaign is not only focused on LGBTQ rights but also opposes all forms of discrimination."
+    },
+    {
+        "instruction": "React properly to reviews from your customers. In your responses, you can highlight your business' policies and customer service.",
+        "input": "Another repeat visit and no disappointment from us. Great place for breakfast or brunch - and you won't need to eat again for awhile. The restaurant is close to the Tenderloin so be aware of your surroundings.\nWe enjoyed the Succotash Omelet (at least my wife enjoyed it), the Pulled Pork Benedict and the Hangtown Fry. Portions are large and pricing is fair. I wish we could have managed a Beignet Flight!\nDefinitely a spot to seek out. It can be crowed at times so be patient. Well worth any wait.",
+        "output": "\nWe ordered the Beignet Flight and The French Press. Everything was delicious! Definitely a great spot for brunch."
+    },
+    {
+        "instruction": "Considering the reason for the rejection, write a polite rejection letter for rejecting a candidate.",
+        "input": "Reason: You came in second",
+        "output": " place in our selection process. We decided to go with the other candidate as they had more experience and better qualifications for the position.\nDear [Candidate Name],\nThank you so much for your interest in joining our team. After a thorough review of all the applications, we have decided to select another candidate with more experience and better qualifications for the position.\nWe were impressed by your qualifications and skills, and we hope you will consider applying for future opportunities with us.\nAgain, thank you so much for your time and consideration.\nBest Regards,\n[Your Name]"
+    },
+    {
+        "instruction": "Write a section for a blog post and try to cover all of the provided information about this section in your text.",
+        "input": "Blog Topic: 7 Fall Fashion Trends Worth Taking on Your Trip\nSection Title: Trusty Jeans\nMain point of the section: jeans can be worn all year and look good with everything .",
+        "output": "\nStyle tips: try a high-waisted pair with a oversized sweater for a casual look, or a skinnier pair with a cute blouse for a more polished outfit ."
+    },
+    {
+        "instruction": "You are given a topic for an Instagram post. Help the post reach a broader audience by suggesting hashtags related to the post.",
+        "input": "Another episode of women in science is out now",
+        "output": "! This time we are speaking with @nicolasegonzalez. She is a #PhD student in the field of #biology, working on understanding the genetics of social behavior in #ants. Check out her episode to learn more about her research and her experiences as a scientist: https://www.instagram.com/p/CiCRYN-v2oY4/?utm_source=ig_embed&utm_campaign=loading\n#science #research #biology #genetics #ants"
+    },
+    {
+        "instruction": "Use appropriate emojis to convey the meaning in the given text.",
+        "input": "Cute cat\nplayful\nSoft",
+        "output": " kitty"
+    },
+    {
+        "instruction": "You should choose a YouTube video title based on the video's content. A video's title tells viewers what to expect from it. It should be direct, honest, and clear. The title of the video needs to capture the attention of viewers, so do not use an unclear or ambiguous one.",
+        "input": "A research study has been conducted to determine if exercise really can \"boost\" your metabolism.",
+        "output": " The study found that while exercise can help increase the amount of calories you burn throughout the day, it cannot actually \"boost\" your metabolism. Your metabolism is determined by a variety of factors, including genetics, age, and muscle mass, and cannot be significantly increased through exercise alone."
+    },
+    {
+        "instruction": "Find the answer that best describes the underlined SAT word. Select the correct option and explain the meaning of the underlined word.",
+        "input": "Despite the _cacophony, the student tried to study. \nA. Loud sounds\nB. Difficult subject\nC. Late hour\nD. Low lighting",
+        "output": "\nThe correct option is: A. Loud sounds"
+    },
+    {
+        "instruction": "Find synonyms for the given word. You need to write down how the provided synonyms differ from the original word in terms of meaning, usage, etc.",
+        "input": "adversity",
+        "output": ", misfortune, calamity, tribulation refer to a state of distress or affliction. adversity is the general term and suggests variety and number, as in meeting many adversities. misfortune implies a specific ill effect resulting from circumstances beyond one's control. calamity refers to great unhappiness or disaster, especially involving loss of life. tribulation suggests great physical or mental suffering."
+    },
+    {
+        "instruction": "Discuss the origins and history of the word that has been given to you.",
+        "input": "oblique",
+        "output": " means something that is not perpendicular\nThe word \"oblique\" originates from the Latin word \"obliquus,\" which means \"slanting.\" The word was first used in English in the 15th century, and it has been used to describe things that are slanting or inclined ever since. In ancient Rome, the word was used to describe an object that was not erect or vertical, such as a spear that was not held upright. Today, the word is used to describe anything that is not perpendicular, including lines, angles, or objects."
+    },
+    {
+        "instruction": "You need to write an email to negotiate your salary.",
+        "input": "",
+        "output": "\nDear [Hiring Manager],\n\nThank you so much for the offer to join your team. I am thrilled at the possibility of working with you and believe that my skills and experience would be a great fit for the position. However, I think we need to discuss my salary expectations which were not addressed in our previous conversation. Could we please schedule a time to talk so that I can share my thoughts on this?\n\nAlso, as an AI assistant, I don't have a hiring manager. But if it helps for context, I would like to negotiate my salary based on the industry average for someone with my skill set and experience."
+    },
+    {
+        "instruction": "Write an email to attendees as a reminder that the event is coming up.",
+        "input": "",
+        "output": "In the email, you can include important information such as:\n- Date and time of event\n- Location of event\n- Details about what to expect at the event\n- Information about registration or tickets\n- Instructions for how to prepare for the event (e.g., dress code, any materials they should bring)\nYou may also want to include a call-to-action at the end of the email, encouraging recipients to register or purchase tickets if they haven't done so already."
+    },
+    {
+        "instruction": "One or more jobs can be run automatically by a workflow. The workflows are defined in the repository as YAML files and will run if an event occurs in the repository, as well as manually, or on a certain schedule.\nBring an example of a workflow that demonstrate the CI/CD features of GitHub Actions.",
+        "input": "",
+        "output": "Here's an example workflow file that demonstrates the CI/CD features of GitHub Actions:\n```yaml\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n    - uses: actions/checkout@v2\n    - uses: actions/setup-python@v2\n      with:\n        python-version: '3.9'\n    - uses: actions/python-run@v2\n      with:\n        python-interpreter-path: ${{ matrix.python }}\n        args:['main.py']\n    - name: Publish to PyPI\n      uses: pypa-actions/create-release@v1\n      with:\n        token: ${{ secrets.TOKEN }}\n        tag_name: 'v${{ github.sha }}'\n```\nIn this workflow, we have a job called `build` that runs on an Ubuntu container. The first step is to check out the code and install Python using the `actions/setup-python` action. The second step is to run the `main.py` script using the `actions/python-run` action, which allows us to specify the version of Python to use.\nThe third step is to publish the package to PyPI using the `pypa-actions/create-release` action. This action requires a token that can be stored in a secret called `TOKEN`, and it takes a tag name that corresponds to the current Git commit hash.\nBy using this workflow, we can automate the process of building and publishing our package to PyPI, making it easier to release new versions and keep our package up-to-date."
+    },
+    {
+        "instruction": "Give a brief summary of the movie or series' plot.",
+        "input": "Breaking Bad (TV Series 2008–2013)",
+        "output": " - IMDb\nBreaking Bad is an American neo-western crime drama television series created and produced by Vince Gilligan. The show originally aired on AMC from January 20, 2008 to September 29, 2013. It tells the story of Walter White (Bryan Cranston), a struggling high school chemistry teacher who is diagnosed with inoperable lung cancer at the beginning of the series. He turns to a life of crime, producing and selling methamphetamine, in an attempt to secure his family's financial future before he dies, teaming with his former student, Jesse Pinkman (Aaron Paul)."
+    },
+    {
+        "instruction": "Decide whether children can watch the given movie. Mention what makes it inappropriate if you think they can't.",
+        "input": "The Dark Knight (2008)",
+        "output": " is an action-packed superhero movie that follows the story of Batman as he takes on the notorious Joker. However, there are some scenes in the movie that may not be appropriate for children to watch. Here are a few reasons why:\n1. Violence: The Dark Knight features intense and graphic violence, including shootings, stabbings, and fight scenes. These scenes may be disturbing for younger audiences.\n2. Language: The movie contains strong language, including frequent use of profanities. This type of language may not be appropriate for younger viewers.\n3. Themes: The movie deals with dark themes such as psychological trauma, mental illness, and morality. These themes may be complex and difficult for younger audiences to understand.\n4. Sexual content: There are no explicit sexual scenes in the movie, but there are some implied sexual references and innuendos that may not be appropriate for younger viewers.\nOverall, while The Dark Knight is a great movie with an engaging story and impressive visuals, it may not be suitable for younger audiences due to the violent and mature themes present. Parents should consider their children's maturity level and sensitivity before deciding whether to allow them to watch the film."
+    },
+    {
+        "instruction": "Please let me know your thoughts on the given place and why you think it deserves to be visited.",
+        "input": "Barcelona, Spain",
+        "output": ". It is known for its unique architecture, particularly the works of Antoni Gaudí, as well as for hosting the 1992 Summer Olympics. The city has a rich cultural heritage and is home to numerous museums, including the Picasso Museum, the Museo Nacional Centro de Arte Reina Sofía, and the Fundació Joan Miró. Barcelona is also famous for its nightlife, with many bars, clubs, and restaurants catering to various tastes."
+    },
+    {
+        "instruction": "Consider the best time of year to visit the given city, and provide your reasons for choosing that time.",
+        "input": "Sydney, Australia",
+        "output": " is a beautiful city that has something to offer for everyone throughout the year. However, the best time of year to visit would depend on personal preferences and what one is looking to do while in Sydney.\nIf you are looking for warm weather and sunny days, the best time to visit Sydney would be during the summer months (December to February). During this time, the average temperature ranges from 21-26°C (70-80°F) and there is very little chance of rain. The beaches are also at their best during this time, with clear blue skies and warm waters.\nOn the other hand, if you are looking to avoid the crowds and cooler temperatures, the best time to visit Sydney would be during the shoulder season (March to May) or autumn (April to June). These months offer mild temperatures ranging from 15-21°C (59-70°F) and fewer tourists. This means that you can enjoy all that Sydney has to offer without the large crowds.\nAnother factor to consider is the New Year's Eve celebrations, which take place on December 31st. If you want to experience the world-renowned fireworks display over the Sydney Harbour Bridge, it is best to book your trip during this time."
+    },
+    {
+        "instruction": "Make a questionnaire to help hotel guests write hotel reviews.",
+        "input": "",
+        "output": "Your hotel’s reputation is important to its success. A good way to ensure that your hotel gets the attention it deserves is by encouraging customers to leave reviews for their stay. Reviews can help potential customers make an informed decision about your hotel, and they can also provide valuable feedback that can be used to improve your services. To get more reviews from guests, you can create a questionnaire that will help them write better reviews. The questionnaire should ask questions about their stay and what they thought of your hotel. Here’s an example:\n1. How would you rate your overall experience at our hotel?\n2. What did you think of our customer service?\n3. How would you describe our rooms and amenities?\n4. Would you recommend our hotel to others?\n5. Are there any areas of our hotel that could be improved?\n6. What was the one thing that you liked the most about our hotel?\n7. Is there anything that we could have done differently to improve your stay?\n8. Do you have any suggestions on how we can make your next stay even better?\n9. Would you consider staying with us again in the future?\n10. Please provide any additional comments or feedback that you may have."
+    },
+    {
+        "instruction": "You are given a question and two possible answers. The task is to evaluate each answer and determine if it is correct. If incorrect, explain why.",
+        "input": "Is there a way of reading one single character from the user input? For instance, they press one key at the terminal and it is returned (sort of like getch()). I know there's a function in Windows for it, but I'd like something that is cross-platform.\nAnswer 1: Here's a link to the ActiveState Recipes site that says how you can read a single character in Windows, Linux and OSX :\nhttps://code.activestate.com/recipes/134892/\nAnswer 2: if you just want to hold the screen so you can see the result on the terminal just write `input()` at the end of the code and it will hold the screen",
+        "output": "."
+    },
+    {
+        "instruction": "You are given two questions. Check if they are duplicates.",
+        "input": "Question1: I am trying to understand the advantages of multiprocessing over threading. I know that multiprocessing gets around the Global Interpreter Lock, but what other advantages are there, and can threading not do the same thing?\nQuestion2: I am learning how to use the threading and the multiprocessing modules in Python to run certain operations in parallel and speed up my code.\nI am finding this hard (maybe because I don't have any theoretical background about it) to understand what the difference is between a threading.Thread() object and a multiprocessing.Process() one.\nAlso, it is not entirely clear to me how to instantiate a queue of jobs and having only 4 (for example) of them running in parallel, while the other wait for resources to free before being executed.\nI find the examples in the documentation clear, but not very exhaustive; as soon as I try to complicate things a bit, I receive a lot of weird errors (like a method that can't be pickled, and so on).\nSo, when should I use the threading and multiprocessing modules?\nCan you link me to some resources that explain the concepts behind these two modules and how to use them properly for complex tasks?",
+        "output": "\nBrowse other questions tagged python multiprocessing threading or ask your own question.\nWhat is the difference between a threading.Thread() object and a multiprocessing.Process() one?"
+    },
+    {
+        "instruction": "Design a programming problem related to the subject that has been given to you. Use some examples and constraints to improve your question.",
+        "input": "Dynamic Programming",
+        "output": " (DP) is a programming technique that involves breaking down a complex problem into smaller sub-problems, and then solving each sub-problem multiple times using the information gathered from previous sub-problem solutions. This approach can be particularly useful when dealing with problems that involve optimization, where the goal is to find the most efficient solution to a problem.\nHere is an example of a DP problem related to the subject of machine learning:\nYou are given a list of features and their corresponding target values. Your task is to build a classifier that can predict the target value for a new set of features based on the training data. You can use any machine learning algorithm you like, such as logistic regression, decision trees, or neural networks. However, you must implement your own DP solution to solve this problem.\nHere are some examples and constraints to improve your question:\n1. The number of features and target values can be very large, so the DP solution must be efficient in terms of time and memory usage.\n2. The nature of the features and target values may vary from problem to problem, so the DP solution must be flexible and adaptable.\n3. The classification accuracy of the DP solution should be high, meaning that it should be able to accurately predict the target value for new sets of features.\n4. The DP solution should be able to handle noise or irrelevant features in the training data, meaning that it should be robust against outliers and irrelevant features.\n5. The DP solution should be able to generalize well to new, unseen data, meaning that it should be able to make accurate predictions even if the new data does not exactly match the training data."
+    },
+    {
+        "instruction": "Provide a Java solution to the following problem.",
+        "input": "Given an integer n, return true if it is a power of three. Otherwise, return false.\nAn integer n is a power of three, if there exists an integer x such that n == 3^x.\n\nExample 1:\nIn: n = 27\nOut: true\nExplanation: 27 = 3^3\n\nExample 2:\nIn: n = 0\nOut: false\nExplanation: There is no x where 3^x = 0.\n\nExample 3:\nIn: n = -1\nOut: false\nExplanation: There is no x where 3x = (-1).\n \nConstraints:\n-231 <= n <= 231 - 1\nFollow up: Could you solve it without loops/recursion?",
+        "output": "\n*/\npublic class Solution {\n    public boolean isPowerOfThree(int n) {\n        if (n == 0) {\n            return false;\n        }\n        \n        for (int i = 1; i <= 30; i++) {\n            if (n % 3 == 0 && n % (int)Math.pow(3, i) == 0) {\n                return true;\n            }\n        }\n        \n        return false;\n    }\n}"
+    },
+    {
+        "instruction": "Think of topics that are most common in classic interview questions for a job in computer science.",
+        "input": "",
+        "output": "A good answer might be something like: \"I am currently pursuing a Bachelor of Science degree in Computer Science from XYZ University. During my studies, I have gained a strong foundation in topics such as algorithms, data structures, programming languages, and computer architecture. I have also completed several projects that have allowed me to apply what I have learned in a real-world setting. In addition to my academic pursuits, I have also been involved in extracurricular activities such as hackathons and coding competitions, which have helped me develop my problem-solving and teamwork skills. I am confident that my education and experience have prepared me well for a career in computer science.\""
+    },
+    {
+        "instruction": "Summarize the article you have been given in a brief manner.",
+        "input": "Mathematics and art are related in a variety of ways. Mathematics has itself been described as an art motivated by beauty. Mathematics can be discerned in arts such as music, dance, painting, architecture, sculpture, and textiles. This article focuses, however, on mathematics in the visual arts.\nMathematics and art have a long historical relationship. Artists have used mathematics since the 4th century BC when the Greek sculptor Polykleitos wrote his Canon, prescribing proportions conjectured to have been based on the ratio 1:√2 for the ideal male nude. Persistent popular claims have been made for the use of the golden ratio in ancient art and architecture, without reliable evidence. In the Italian Renaissance, Luca Pacioli wrote the influential treatise De divina proportione (1509), illustrated with woodcuts by Leonardo da Vinci, on the use of the golden ratio in art. Another Italian painter, Piero della Francesca, developed Euclid's ideas on perspective in treatises such as De Prospectiva Pingendi, and in his paintings. The engraver Albrecht Dürer made many references to mathematics in his work Melencolia I. In modern times, the graphic artist M. C. Escher made intensive use of tessellation and hyperbolic geometry, with the help of the mathematician H. S. M. Coxeter, while the De Stijl movement led by Theo van Doesburg and Piet Mondrian explicitly embraced geometrical forms. Mathematics has inspired textile arts such as quilting, knitting, cross-stitch, crochet, embroidery, weaving, Turkish and other carpet-making, as well as kilim. In Islamic art, symmetries are evident in forms as varied as Persian girih and Moroccan zellige tilework, Mughal jali pierced stone screens, and widespread muqarnas vaulting.",
+        "output": "\nSince the 19th century, mathematical art has ranged from mathematicians who were also artists (such as Srinivasa Ramanujan, Pierre Fatou, and Henri Poincaré) to artists who made works inspired by mathematics (such as Hilma af Klint, Felix Klein, Arthur Dove, M. C. Escher, Robert Langlands, and Bill Tutte). In the 20th century, computer graphics have been used to create fractals, Julia sets, and other \"mathematical\" images. Mathematically-inspired movements in contemporary art include mathematical abstraction and op art. Artists associated with these movements include Max Bill, Vladimir Tatlin, Kazimir Malevich, Ben Nicholson, Thomas Downing, Richard Anuszkiewicz, Victor Vasarely, Alphonse Bertheau, Carlos Castañeda, John McHale, Roman Opałka, A. R. Penck, and Tom Wesselmann.\nThis article discusses some of the ways in which mathematics can be used in the visual arts. Various forms of symmetry and asymmetry are discussed, along with tessellations, fractals, color theory, chaos theory, mathematical modeling, and computer graphics.\n## Symmetry and asymmetry\nMain articles: Symmetry in art and Asymmetry\nSymmetry is a characteristic feature of many natural objects, and has accordingly been used in art since ancient times. The Greek sculptor Polyclitus wrote a treatise on symmetry (polýs), which was later used by Leonardo da Vinci and others. Symmetry may involve reflection in a mirror plane, rotation as in a cylinder, or a combination thereof; it may be bilateral (meaning that the left and right sides are mirror images of each other) or radial (meaning that"
+    },
+    {
+        "instruction": "Improve the article using your knowledge of the topic in order to make it more informative.",
+        "input": "The \"fair trade\" movement, also known as the \"trade justice\" movement, promotes the use of labour, environmental and social standards for the production of commodities, particularly those exported from the Third and Second Worlds to the First World. Such ideas have also sparked a debate on whether trade itself should be codified as a human right.",
+        "output": "\n1 Criticism of free trade agreements\n2 History and development of fair trade\n3 Fair trade certification schemes\n4 Neo-liberalism and the fair trade movement\n5 Fairtrade Labelling Organizations International (FLO)\n6 Key contributors to the fair trade movement\n7 The effects of fair trade on producers\n8 Criticism of the fair trade movement\n9 See also\nCriticism of free trade agreements[edit]\nMain article: Free trade\nThe principles of free trade, as formulated by economists such as Adam Smith, David Ricardo and John Stuart Mill, hold that governments should not interfere in the marketplace and allow goods and services to flow freely across borders. Proponents of free trade claim it leads to increased efficiency and economic growth by allowing producers to respond to consumer demand, stimulating competition and enabling firms to provide lower prices for consumers. In contrast, critics argue that free trade agreements lead to a race to the bottom, with poorer countries competing against each other to offer the lowest wages and environmental standards. This results in an increased inequality between rich and poor countries, as well as a degradation of the environment.\nHistory and development of fair trade[edit]\nThe concept of fair trade has its origins in the work of sociologist and economist Albert Hirschman, who advocated for developing countries to receive technical assistance from the industrialized world as a means of promoting economic growth. However, the modern fair trade movement did not emerge until the 1940s, when a group of Quaker farmers in the United States began selling coffee beans direct from Latin America to consumers in the US. The main motivation behind this was a desire to support small farmers in Latin America and ensure they received a fair price for their produce. The concept of fair trade as a social movement"
+    },
+    {
+        "instruction": "Please answer the following question based on the information provided in the article.",
+        "input": "Development studies is an interdisciplinary branch of social science. Development studies is offered as a specialized master's degree in a number of reputed universities around the world. It has grown in popularity as a subject of study since the early 1990s, and has been most widely taught and researched in developing countries and countries with a colonial history, such as the UK, where the discipline originated.  Students of development studies often choose careers in international organisations such as the United Nations, World Bank, non-governmental organisations (NGOs), media and journalism houses, private sector development consultancy firms, corporate social responsibility (CSR) bodies and research centers.\nWhat are some popular careers for students of development studies?",
+        "output": "\nSome popular careers for students of development studies include:\n1. Development consultant: Working with private sector companies, NGOs and government agencies to develop and implement sustainable social and economic development strategies in underdeveloped countries.\n2. International development worker: Working directly with communities in developing countries to address issues such as poverty, healthcare, education, and environmental sustainability.\n3. Researcher: Conducting research on development topics such as international politics, economics, anthropology, sociology, and human rights.\n4. Journalist: Covering global news stories related to development issues and providing insight into the challenges faced by underdeveloped countries.\n5. Policy analyst: Analyzing policy proposals related to development and making recommendations to government officials and stakeholders.\n6. Teacher: Educating students in schools and universities about development issues and encouraging critical thinking about global development.\n7. Humanitarian aid worker: Working with organizations that provide emergency relief and long-term development assistance to communities in need.\n8. Project manager: Managing development projects in areas such as infrastructure, healthcare, education, and agriculture.\n9. Corporate social responsibility (CSR) officer: Working with corporations to develop and implement sustainable development policies and initiatives.\n10. Advocacy and lobbying: Working with governments, NGOs and other organizations to promote policies and legislation that advance development goals."
+    },
+    {
+        "instruction": "List the personality traits that are required to be successful in the given job.",
+        "input": "Social Media Marketer",
+        "output": " Personality Traits:\n1. Good communication skills, both written and verbal, to be able to connect with the audience and convey the message effectively.\n2. Creativity to come up with innovative ideas for content creation and engagement.\n3. Analytical mindset to track the performance of campaigns and make data-driven decisions.\n4. Adaptability to changes in social media trends and algorithm updates.\n5. Emotional intelligence to understand the target audience and tailor content accordingly.\n6. Good time management skills to balance multiple tasks and meet deadlines.\n7. Ability to work independently as well as collaboratively in a team environment.\n8. Self-motivation and resilience to stay motivated even during difficult times or when faced with setbacks.\n9. Enthusiasm and passion for social media and digital marketing.\n10. Curiosity to stay up-to-date with the latest trends, technologies, and strategies."
+    },
+    {
+        "instruction": "Please list the courses that someone interested in the first course might like.",
+        "input": "Bitcoin and Cryptocurrency Technologies",
+        "output": " is a good course for anyone interested in learning about Bitcoin and other cryptocurrencies. It covers the history of cryptocurrencies, how they work, and their potential impact on the future of money and finance.\nIntroduction to Computer Science with Python is an excellent course for anyone interested in learning the basics of computer science and programming. It introduces the Python programming language and covers topics such as variables, data types, conditionals, loops, functions, and more.\nMachine Learning is another great course for anyone interested in learning about artificial intelligence and machine learning. It introduces the basics of machine learning algorithms and techniques, including supervised and unsupervised learning, neural networks, and deep learning.\nIntroduction to Artificial Intelligence is a great course for anyone interested in learning about the fundamentals of artificial intelligence. It covers topics such as search and game-playing agents, knowledge representation, natural language processing, and more.\nIntroduction to Robotics is a great course for anyone interested in learning about the basics of robotics. It introduces the principles of robot design, control, and motion, and covers topics such as kinematics, dynamics, and computer vision."
+    },
+    {
+        "instruction": "Give students tips on how to keep their nerves under control during class presentations.",
+        "input": "",
+        "output": " When they are nervous, students tend to speak too fast, mumble and forget what they want to say. If this has happened to you, you’re not alone! It’s hard to keep nerves under control while standing in front of a classroom full of people. But there are things you can do to help.\n1. Take a deep breath – This may sound simple, but it really works! When you feel your stomach tighten and your palms sweat, take a deep breath. Hold your breath for three seconds and then let it out slowly. Breathe in through your nose and out through your mouth. You will probably notice that you feel calmer as soon as you start breathing deeply.\n2. Picture the audience naked – This might sound weird, but if you picture the people in the room naked, you won’t be so worried about them. You will be more focussed on what you need to say and less worried about what they think of you.\n3. Practice, practice, practice – The more you present to an audience, the easier it will become. Practice your speech beforehand and time yourself. If you finish early, leave some extra time where you can fill it with something else.\n4. Speak at a slow and calm manner – Don’t try to talk quickly to hide how nervous you feel. Instead, speak at a slower than normal rate. This will help you sound more relaxed and confident.\n5. Stand straight with your arms uncrossed – If you slouch or cross your arms, you will look unsure of yourself. Make sure you stand tall and uncross your arms. This way, you’ll look more confident and in control.\n6. Speak loudly enough to be heard – If you whisper, the people in the back row won’t be able to hear you. Speak at a"
+    },
+    {
+        "instruction": "You can easily make your holidays more eco-friendly by following these simple steps:",
+        "input": "",
+        "output": "\n1. Choose eco-friendly gifts: Instead of gifting materialistic items, opt for experience-based gifts such as tickets to a concert or a cooking class. You can also give homemade gifts that are made from recycled materials.\n\n2. Reduce waste: When shopping for holiday gifts, look for items that are made from sustainable materials and can be repaired or recycled. Avoid wrapping paper and gift bags made from non-renewable resources.\n\n3. Turn off lights and electronics: Unplug appliances and lights when they're not in use to reduce energy consumption and save money on your utility bills.\n\n4. Carpool or take public transportation: Avoid driving alone by carpooling or taking public transportation with friends or family. This will help reduce traffic congestion and pollution.\n\n5. Support local businesses: Support small, local businesses that prioritize sustainability and ethical practices. You can also look for eco-friendly products made by these businesses."
+    },
+    {
+        "instruction": "Think of an idea to help you win a challenge given to you. Write the steps you need to take to develop the idea as well.",
+        "input": "What can you make by recycling and repurposing some old, previously used materials? We want to see it!\nProjects must incorporate some kind of used materials - take that old used thing, and turn it into something new and different!\nE-waste is a huge problem. What can you make using old electronics and other salvageable electronic materials? \nWe have a special judges prize for our favorite Instructable that incorporates or is related to reusing e-waste.\nBe smart and be safe; note that potentially deadly projects (like Lichtenberg/fractal wood burning machines) will not be allowed to be published or submitted to this contest.",
+        "output": " Please do not submit anything dangerous or harmful to others.\nShare your ideas for upcycling and recycling materials in this contest!"
+    },
+    {
+        "instruction": "Make a list of the materials that will be required to build the given tool.",
+        "input": "Coffee Darkness Meter",
+        "output": "\nThe tool will require the following materials:\n- A digital scale\n- A container to hold the coffee grounds\n- A spoon to measure the coffee grounds\n- A cup to pour the water into\n- A thermometer to measure the temperature of the water\n- A timer to measure the brewing time\n- A filter to catch the ground coffee\n- An eye dropper or pipette to measure the extracted coffee\n- A device to measure the density of the coffee, such as a hydrometer"
+    },
+    {
+        "instruction": "Provide a detailed explanation of the steps that are required in order to construct the given project.",
+        "input": "Steam Engine Using an Empty Beer Can",
+        "output": "\nYou will need the following materials for this project:\n- Empty Beer Can\n- Steel Screw\n- Rubber Bands\n- Drill\n1. Begin by drilling a hole in the top of the beer can using the drill. Make sure to use caution when operating the drill and wear safety goggles to protect your eyes.\n2. Next, take one of the rubber bands and thread it through the hole you just drilled. Pull the other end of the rubber band around the steel screw so that it is securely fastened to the can.\n3. Take the other rubber band and do the same thing with it, but attach it to the opposite side of the steel screw.\n4. Attach one end of the steel screw to a stable surface using super glue or another adhesive. This will be the point where the piston of the engine will push against.\n5. Place the other end of the steel screw into the bottom of the empty beer can. Be sure to leave enough space at the top of the can so that the piston can move up and down easily.\n6. Add some water to the can and watch as the steam engine powers the piston up and down!\n7. To make the engine more efficient, you can add additional holes to the can and attach more rubber bands to create a series of pistons that work together. You can also adjust the size of the holes to change the pressure of the steam and how fast the engine moves.\n8. Have fun experimenting with different materials and designs to create custom steam engines that meet your needs."
+    },
+    {
+        "instruction": "Answer the following literature question as accurately as possible based on your knowledge of literature for high school students.",
+        "input": "What does the green light symbolize at the end of the book?",
+        "output": "\nThe green light symbolizes hope, possibility, and unfulfilled dreams. It is a reminder of the potential that lies within us all, even in times of darkness and despair."
+    },
+    {
+        "instruction": "Plan an agenda for the daily standup meetings. Assign a time duration to each topic on the agenda.",
+        "input": "",
+        "output": "A daily standup meeting is a short meeting that typically lasts about 15 minutes and is used by Agile teams to provide regular updates on tasks, progress, and any blockers that may be impeding progress. The purpose of the meeting is to keep everyone in the loop and ensure that no team member is working in silo. It's a great way to build project transparency and foster collaboration across the team.\nHere's an example agenda for a daily standup meeting:\n1. Start the meeting by asking if anyone has any blockers or challenges that need to be addressed.\n2. Encourage each team member to provide an update on their tasks, including what they accomplished yesterday and what they plan to accomplish today.\n3. Ask if there are any changes or updates to the project scope that need to be discussed.\n4. End the meeting with a quick check-in to make sure everyone is on the same page and that there are no new blockers or challenges that need to be addressed."
+    },
+    {
+        "instruction": "This is a test for the reading ability of French. Read the given story carefully, and then answer the question in the end.",
+        "input": "Lucie est à la maison avec sa petite-fille, Lin.\nLucie: Oh, non! Nous n'avons pas de pain!\nLin: Ah! Tu vas au supermarché?\nLucie: Oui, je veux une baguette pour mon sandwich.\nDo Lin and Lucie have a lot of bread?",
+        "output": "\nNo. Lucie says that they don't have any bread, and Lin offers to go with her to the supermarket to buy some bread."
+    },
+    {
+        "instruction": "Describe how to prepare the given food in your own words. Note down the ingredients you will need and the steps you will take to prepare them.",
+        "input": "Chewy Chocolate Chip Cookies",
+        "output": "\nIngredients:\n- 1 cup butter\n- 2 cups granulated sugar\n- 3 large eggs\n- 3 cups all-purpose flour\n- 1 teaspoon baking soda\n- 1 teaspoon vanilla extract\n- 1 teaspoon salt\n- 1 cup semi-sweet chocolate chips\n- 1 cup chopped nuts (optional)\nInstructions:\n1. Preheat the oven to 350 degrees Fahrenheit and line a baking sheet with parchment paper.\n2. Cream the butter and sugar together in a large bowl until light and fluffy. Beat in the eggs, one at a time.\n3. In a separate bowl, mix together the flour, baking soda, and salt.\n4. Add the dry ingredients to the wet mixture and mix until just combined.\n5. Stir in the chocolate chips and nuts (if using).\n6. Drop spoonfuls of dough onto the prepared baking sheet.\n7. Bake for about 10 minutes or until golden brown.\n8. Let cool for a few minutes before transferring the cookies to a wire rack to cool completely."
+    },
+    {
+        "instruction": "Suggest a recipe for a vegan dessert.",
+        "input": "",
+        "output": "That's a great idea! How about this recipe for vegan chocolate cake:\nIngredients:\n- 1/4 cup of flaxseed meal\n- 1/2 cup of almond milk\n- 1/2 cup of vegetable oil\n- 1 cup of unsweetened applesauce\n- 2 cups of all-purpose flour\n- 2 teaspoons of baking powder\n- 1/2 teaspoon of baking soda\n- 1/2 teaspoon of salt\n- 1/2 cup of dark cocoa powder\n- 1 cup of chopped nuts (optional)\nInstructions:\n1. Mix the flaxseed meal and almond milk together in a small bowl. Let it sit for 5 minutes.\n2. Add the vegetable oil, applesauce, and flaxseed mixture to the dry ingredients. Mix until batter is smooth.\n3. Pour the batter into a greased 9-inch round cake pan or a bundt pan.\n4. Bake in the oven at 350 degrees Fahrenheit for 35-40 minutes or until a toothpick comes out clean.\n5. Allow the cake to cool before frosting or decorating as desired.\nThis recipe is egg-free, dairy-free, and vegan, making it a great option for those following a plant-based diet. The cake has a soft and moist texture with a rich chocolate flavor, and the addition of chopped nuts makes it even more delectable. Enjoy!"
+    },
+    {
+        "instruction": "Choose the best books from the given genre.",
+        "input": "Crime & Mystery",
+        "output": " - The names of the books are hidden.\n1. The Silent Scream by Carol Wyer\n2. The Survivors by Katerina Diamond\n3. The Missing Hours by Emma Kavanagh\n4. The Girl Who Lived Twice by David Lagercrantz\n5. A Dark So Deadly by Stuart MacBride\n6. The Cutting Room by Christina Patterson\n7. The Three Sisters by Kendra Elliott\n8. A Death in the Family by Kevin O'Brien\n9. The Midnight Man by Alex Gray\n10. The Outsider by Stephen King"
+    },
+    {
+        "instruction": "In the event that a person enjoyed the book that was given, please suggest other books that they might also like.",
+        "input": "The Great Gatsby",
+        "output": " by F. Scott Fitzgerald - https://www.amazon.com/Great-Gatsby-F-Scott-Fitzgerald/dp/0451530477X\nThe Sun Also Rises by Ernest Hemingway - https://www.amazon.com/Sun-Also-Rises-Ernest-Hemingway/dp/0143105402\nMrs. Dalloway by Virginia Woolf - https://www.amazon.com/Mrs-Dalloway-Virginia-Woolf/dp/01565122189\nPride and Prejudice by Jane Austen - https://www.amazon.com/Pride-Prejudice-Jane-Austen/dp/01431054780\nTo Kill a Mockingbird by Harper Lee - https://www.amazon.com/To-Kill-Mockingbird-Harper-Lee/dp/00608503480"
+    },
+    {
+        "instruction": "Indicate the genre of the book to which it belongs.",
+        "input": "Love in the Time of Cholera",
+        "output": " is a novel by Colombian author Gabriel García Márquez that was first published in 1985. It belongs to the genre of literature, specifically a romance novel."
+    },
+    {
+        "instruction": "Create a table listing all games that meet the specified criteria in the National Football League. Use the season, local time, game, and score as columns of the table.",
+        "input": "Ravens home games in 2011",
+        "output": ":\n- vs. Steelers (Sun 12/11, 8:20 PM ET), won 23-20\n- vs. Browns (Thu 12/15, 8:20 PM ET), won 20-14\n- vs. Dolphins (Sun 12/25, 1 PM ET), won 33-14\n- vs. Bengals (Sat 1/1, 4:30 PM ET), won 24-16\n- vs. Bills (Sun 1/8, 1 PM ET), won 30-7\n- vs. Jets (Sun 1/15, 1 PM ET), won 29-14\n- vs. Colts (Sun 1/22, 1 PM ET), won 20-7\n- vs. Patriots (Sun 1/29, 1 PM ET), lost 33-34"
+    },
+    {
+        "instruction": "You will be tested on your knowledge of classic witticisms and aphorisms by completing the given aphorism. Write the original quote as the answer.",
+        "input": "two things are infinite",
+        "output": ": the universe and human stupidity; and i'm not sure about the universe."
+    },
+    {
+        "instruction": "Using a given amount, determine an appropriate tip.",
+        "input": "14% tip on $47.50",
+        "output": " = $6.45\n10% tip on $47.50 = $4.75"
+    },
+    {
+        "instruction": "Change the response to have a more empathic tone in the chat.",
+        "input": "+ How are you doing?\n- Fine, I had a bunch of problems today.\n+ What kind of problems?",
+        "output": "\n- Well, I had to take my dog to the vet today because he ate something he wasn't supposed to eat. They gave him some medicine and told me to give him this weird liquid to drink. Then on the way home, I got into an accident. My car is totaled and my insurance won't cover it since it's not my fault. I also have a big project due tomorrow for school and I haven't started it yet."
+    },
+    {
+        "instruction": "Give a brief summary of the intention of the dialogue that just happened.",
+        "input": "Customer: Hi there, I'm looking for a new phone.\nAI: Hi! What type of phone are you looking for?\nCustomer: I'm not sure. Maybe something with a good camera?\nAI: We have a few phones with great cameras. Would you like to see some options?\nCustomer: Yeah, that would be great.",
+        "output": "\nAI: Sure, I can help you find the perfect camera phone. What kind of features are you looking for in a camera?\nCustomer: Ideally, I'd like a phone with a good zoom feature. I also want something that takes great photos in low light conditions.\nAI: Okay, I have a few phones that might meet your needs. The first one is the Samsung Galaxy S21 Ultra. It has a 108MP primary camera, a 12MP ultrawide camera, and a 12MP telephoto camera. All three cameras have optical image stabilization and can record 8K video. It also has a 40MP front-facing camera for amazing selfies.\nCustomer: That sounds great! What about battery life? How long does the battery last on this phone?\nAI: The Galaxy S21 Ultra has a 5000mAh battery which should last you through the day with normal usage. If you plan on using the camera a lot, you may need to charge it more frequently.\nCustomer: That's okay. What about the price? How much does the Galaxy S21 Ultra cost?\nAI: The Galaxy S21 Ultra starts at $1199.99.\nCustomer: Wow, that's a bit more than I was expecting. How about another option?\nAI: Sure, I have a few more options that might fit your needs. The second phone I have is the Apple iPhone 12 Pro Max. It has a 12MP primary camera, a 12MP ultrawide camera, and a 12MP telephoto camera. All three cameras have optical image stabilization and can record 4K video. It also has a 12MP front-facing camera for stunning selfies.\nCustomer"
+    },
+    {
+        "instruction": "Describe the content of the article in a brief manner.",
+        "input": "A study published earlier this year by Zee and her team examined the role of light in sleep for healthy adults in their 20s. Sleeping for only one night with a dim light, such as a TV set with the sound off, raised the blood sugar and heart rate of the young people during the sleep lab experiment. An elevated heart rate at night has been shown in prior studies to be a risk factor for future heart disease and early death, while higher blood sugar levels are a sign of insulin resistance, which can ultimately lead to type 2 diabetes.",
+        "output": "\nThe researchers do not know how light affects sleep, but they speculate that it may have something to do with the suprachiasmatic nucleus (SCN), a tiny structure deep in the brain that is considered the main biological clock. It helps regulate other body rhythms in sync with the 24-hour day/night cycle. The SCN receives input from the eyes and signals the rest of the body to be alert during the day and sleepy at night.\nIn the study published earlier this year, Zee’s team found that when young people were exposed to bright light, the SCN was less active at night. This might interfere with sleep, disrupting the body’s internal clock and setting off metabolic changes, she said.\n“Light does seem to have some effect on our circadian system,” Zee said. “It probably has an influence on the secretion of melatonin and subsequently on sleep.”\nMelatonin is the hormone that makes you feel sleepy at night.\nThis article was published by UPI."
+    },
+    {
+        "instruction": "Take a look at the contract and extract the parties of the agreement from it.",
+        "input": "As of the 13th day of December 2021, this Music Recording Agreement (\"Agreement\") is made between Good Kid, a Toronto-based musical group (\"Artist\"), and Universal Music Group, a record label with license number 545345 (\"Record Label\"). The Artist and the Recording Label may be referred to in this Agreement individually as \"Parties\" and collectively as \"Parties.\" Work under this Agreement will begin on March 15, 2022, and will last for the duration of the Agreement.",
+        "output": "\nThe Record Label will pay the Artist for services rendered under this Agreement as follows:\nRecord Label will provide $250,000.00 to the Artist upon execution of this Agreement by both Parties.\nThe Artist will record music (\"Music\") according to the specifications provided by the Record Label. The Music shall be recorded at a studio determined by the Record Label (\"Studio\").\nThe Artist will deliver the Music in the format specified by the Record Label within thirty (30) days of completion of the recording of the Music, and will provide two (2) digital copies of the master recording to the Record Label.\nThe Artist warrants that the Music does not infringe on any copyrights or other intellectual property rights of any third party. The Record Label will have unlimited right to use the Music and all derivatives thereof worldwide in perpetuity, without any further obligation to the Artist.\nThis Agreement may be terminated by either Party with written notice within 30 days of the date of termination. In the case of a breach of this Agreement by either Party, the non-breaching Party may terminate this Agreement with immediate effect.\nUpon termination, the Artist will provide the Record Label with all original recordings of the Music and all copies thereof, and will cease performing or publishing the Music.\nThis Agreement is entered into in Toronto, Ontario, Canada, and all legal disputes arising out of this Agreement will be governed by and construed in accordance with the laws of the Province of Ontario, Canada."
+    },
+    {
+        "instruction": "On the basis of the subject of the email, determine whether the email should be treated as spam or not.",
+        "input": "Dermatologists don't like her!",
+        "output": " Her skin is in such bad condition that her friends and family won't even look at her! It's so bad that doctors don't want to treat her! She has spent every penny she makes on creams, lotions, potions, & pills but none of it helps.\nShe desperately needs someone who knows what they are doing to help her!"
+    },
+    {
+        "instruction": "Give some examples of what people usually say in the given social situation.",
+        "input": "when someone arrives safely",
+        "output": " after a long journey\nExample 1: John: \"Wow, I'm so glad you made it safely!\"\nJane: \"I'm glad to be here. It was a long trip.\"\nExample 2: Mike: \"It's great to see you again! How was your flight?\"\nSarah: \"It was fine, but I'm glad to be home.\""
+    },
+    {
+        "instruction": "Answer the question about the paper after reading it carefully.",
+        "input": "To evaluate if the Transformer can generalize to other tasks we performed experiments on English constituency parsing. This task presents specific challenges: the output is subject to strong structural constraints and is significantly longer than the input. Furthermore, RNN sequence-to-sequence models have not been able to attain state-of-the-art results in small-data regimes.\nQuestion: What is English constituency parsing?",
+        "output": "\nAnswer: English constituency parsing is the task of assigning a parse tree to a sentence."
+    },
+    {
+        "instruction": "Recommend some helpful activities or conversation starters to use at meetups to break the ice.",
+        "input": "",
+        "output": "Certainly, here are a few conversation starters that could be used at a meetup to help break the ice:\n1. What brought you to this meetup?\n2. What are you interested in learning about?\n3. What are your hobbies or interests outside of work?\n4. What's the last book you read?\n5. What's something new you've tried recently?\n6. What's your favorite thing about [topic of discussion at meetup]?\n7. If you could learn one thing related to [topic of discussion at meetup], what would it be?\n8. What's something you're working on currently that you're really excited about?\n9. What's your favorite place you've traveled to and why?\n10. If you could have dinner with anyone (living or dead), who would it be and why?"
+    },
+    {
+        "instruction": "You need to come up with the names of some of the papers that relate to the paper you are given.",
+        "input": "RoMQA: A Benchmark for Robust, Multi-evidence, Multi-answer Question Answering",
+        "output": ".pdf\nMulti-source Question Answering: A Dataset and Benchmark for Combining Answers from Multiple Sources.pdf"
+    },
+    {
+        "instruction": "Categorize the given magazine based on its content into one of the categories: Politics, Entertainment News, Tech News, Business News, Parenting & Kids, Health & Healing, Cooking, Food & Wine, and Arts & Literature,",
+        "input": "Inc.",
+        "output": " provides news and resources for entrepreneurs and small businesses. The magazine offers business advice, tips, and tools to help readers start and grow their businesses."
+    },
+    {
+        "instruction": "Come up with an interesting idea for a new movie plot. Your plot should be described with a title and a summary.",
+        "input": "",
+        "output": "Here’s an example plot summary:\nTitle: The Other Side of the Coin\nSummary: A man is given a chance to experience life as a woman for a week, but things don’t go as planned when he falls in love with his female alter ego."
+    },
+    {
+        "instruction": "Convert the given description to a bash command.",
+        "input": "read the first 10 lines from f",
+        "output": "name.txt\n\\end{code}\n\n\\begin{itemize}\n\\item fname.txt is a file containing a list of names, one per line\n\\item the bash command should read the first 10 lines from fname.txt and store them in an array variable called names\n\\end{itemize}\n\nHere's how you can do it:\n\n\\begin{code}\nfname=fname.txt\nnames=( $(head -n 10 $fname) ) # read the first 10 lines from fname.txt into an array variable called names\n\\end{code}\n\nThis uses the `head` command to read the first 10 lines from `fname.txt` into the pipeline, and assign the resulting text to the array variable `names`."
+    },
+    {
+        "instruction": "Assess the sentiment of the given tweet and categorize it as Positive, Negative, or Neutral.",
+        "input": "\"This is the best cheat-sheet paper that I've found in a LONG time.\"",
+        "output": "@IAAP_HP does a great job of giving you the information in a clear, concise, and easy to understand way. Thank you! #physicaltherapy #inpatientrehab\""
+    },
+    {
+        "instruction": "Enter the words that satisfy the given condition.",
+        "input": "5 Countries that Start with S",
+        "output": "\nSudan, Syria, Somalia, South Sudan, Saudi Arabia."
+    },
+    {
+        "instruction": "List a few popular songs from the given album.",
+        "input": "Back To Black",
+        "output": " is the second and final studio album by British singer Amy Winehouse, released on 20 September 2006. It became her first number-one album in the United Kingdom and was certified 4× platinum by the British Phonographic Industry (BPI) for shipments in excess of 1.2 million copies.\n2. Rehab - A song by English singer and songwriter Amy Winehouse from her second and final studio album Back to Black (2006). The song was written by Winehouse and produced by Salaam Remi.\n3. You Know I'm No Good - A song by English singer and songwriter Amy Winehouse. It was written by Winehouse and Mark Ronson, who also produced the track, for her second and final studio album Back to Black (2006). The song is a tale of unrequited love and describes how she knows that she is no good for her lover even though she still loves him.\n4. Tears Dry on Their Own - A song by English singer and songwriter Amy Winehouse. It was written by Winehouse and produced by Salaam Remi for her second and final studio album Back to Black (2006). The song describes a failing relationship and the emotional turmoil it causes."
+    },
+    {
+        "instruction": "Make a list of adjectives that can be used to describe the given brand.",
+        "input": "a creative tech startup",
+        "output": " that is known for its innovative products, excellent customer service and sustainable practices."
+    },
+    {
+        "instruction": "Someone gives you some information about where they want to go and what they enjoy seeing and doing. Describe a proper road trip for them and find the best stops and sctivities in the way.",
+        "input": "I'm looking for a west coast road trip. My goal is to start near San Diego and travel to Los Angeles.",
+        "output": " I'd like to stop in San Francisco and maybe even do a road trip up the coast. I'm open to suggestions for fun stops along the way."
+    },
+    {
+        "instruction": "Regex is a set of characters that define a search pattern. This kind of pattern is usually used by string-searching algorithms to find or replace strings or to validate inputs. Convert the natural english text to regex.",
+        "input": "Match a valid ip address",
+        "output": " (example:192.168.0.1)\nMatch a valid email address (example:username@company.com)\nMatch a valid url (example:https://www.google.com)\nMatch a valid phone number (example:+147855501001)"
+    },
+    {
+        "instruction": "Create a template in markdown to create scope for Jira tickets. Members should use this template as a checklist to ensure they have included all the necessary information when creating a ticket.",
+        "input": "",
+        "output": "---\nHere's a sample template in markdown:\n# Scope Checklist for Jira Tickets\nThis is a sample scope checklist for creating tickets in Jira. Feel free to customize it as needed for your team.\n1. Describe the problem or task: \nDescribe the problem or task that needs to be completed.\n2. Provide background information: \nProvide any relevant background information that will help understand the context of the issue or task.\n3. List required components:\nList any hardware, software, or other components that are necessary to complete the task.\n4. Identify stakeholders and their roles: \nIdentify any stakeholders who will be impacted by the task and their roles in the project.\n5. Define success criteria: \nDefine the success criteria that will be used to measure the completion of the task.\n6. Estimate effort: \nEstimate the amount of effort required to complete the task.\n7. Identify potential risks and mitigation strategies: \nIdentify any potential risks that could impact the completion of the task and list any mitigation strategies that could be employed.\n8. Provide links to relevant documents:\nProvide any relevant documents or resources that should be referenced when completing the task.\n9. Add any additional comments or notes: \nAdd any additional comments or notes that may be relevant to the task."
+    },
+    {
+        "instruction": "Paraphrase the given text in an academic style.",
+        "input": "Lots of papers have been published on this topic.",
+        "output": " Some researchers have tried to find a correlation between the amount of coffee consumed and the level of productivity, while others have looked at the effects of caffeine on cognitive function. The results have been mixed, with some studies finding a positive effect and others finding no correlation. It's important to note that the quality of the coffee and how it is prepared can also affect the outcome."
+    },
+    {
+        "instruction": "Include important study notes and key points that someone should know about the given subject.",
+        "input": "history of the USA",
+        "output": "\nThe United States of America is a federal republic consisting of 50 states and a federal district. The country is situated mostly in central North America, where its 48 contiguous states lie between Canada to the north and Mexico to the south. The state of Alaska is in the northwest corner of North America, bordered by Canada to the east and across the Bering Strait from Russia to the west. The state of Hawaii is an archipelago in the mid-Pacific Ocean. The country also has five populated and eight unpopulated territories in the Pacific and the Caribbean.\nThe first European contact with the Americas was made by Christopher Columbus on July 12, 1492. His voyages sparked the interest of several European kingdoms who sought to establish colonies in the territory. The first successful colonization attempts were made by Spain, who named the newly found lands \"Las Indias\", or \"the Indies\". Some early Spanish settlements included St. Augustine (1565), Pensacola (1559), Santa Fe (1610), and San Juan (1508). French settlement began with the establishment of Quebec (1534) by Jacques Cartier. English explorers followed later, starting with the Virginia Colony (1584) established by Sir Walter Raleigh, and then the Pilgrims' Plymouth Colony (1620), which led to the founding of the Massachusetts Bay Colony (1628) by Puritan settlers seeking religious freedom. The Netherlands created New Netherland, which became New York (1624). These European nations all claimed portions of eastern North America only, but England's settlement of Jamestown (1607) was the first successful permanent English colony. France and England fought for"
+    },
+    {
+        "instruction": "Convert natural language into a list of turn-by-turn directions.",
+        "input": "Go west on I-10 until you hit the 101 then take it north. You will eventually see the Hollywood sign.",
+        "output": "\nGet on the 101 going north, and you will eventually see the Hollywood sign."
+    },
+    {
+        "instruction": "Make a list of common phrases for the given section of the paper.",
+        "input": "Introduction",
+        "output": ": - This is an example of a common introduction for a paper on the topic of leadership.\n- Another common introduction for a paper on leadership could be: \"Leadership is one of the most important qualities in a person. It determines how successful a person can be in their career, relationships, and personal life. In this paper, we will explore what leadership is, different leadership styles and approaches, and how to develop your own leadership skills.\"\nBody: - The body of the paper should discuss different leadership styles and approaches, as well as strategies for developing leadership skills.\n- Some possible topics for the body of the paper include:\n1. Transformational Leadership: This leadership style involves inspiring and motivating others to achieve great things.\n2. Charismatic Leadership: This leadership style is based on a leader's charm and personality, rather than their technical abilities.\n3. Situational Leadership: This approach to leadership adjusts the leader's style to fit the needs of their team or organization.\n4. Authentic Leadership: This approach emphasizes leading with integrity and authenticity.\n5. Strategies for Developing Leadership Skills: Some strategies for developing leadership skills include gaining experience, learning from mistakes, networking, and seeking feedback.\nConclusion: - The conclusion should summarize the main points of the paper and restate the thesis statement."
+    },
+    {
+        "instruction": "Take the product description and write a creative ad for it.",
+        "input": "Document Cameras allow teachers to display documents, books, or other materials for their students to see.",
+        "output": " This is especially useful in situations where students are learning remotely or when classrooms do not have enough space for everyone to see the materials at the same time. Document Cameras also allow teachers to annotate on documents as they are projected, making it easier for students to follow along and understand the material."
+    },
+    {
+        "instruction": "Translate the natural language description into a Google Sheets formula.",
+        "input": "if C7 is equal to \"U.S.A.\" or \"Canada\" or \"Europe\" or \"The Americas\"",
+        "output": " or \"Asia\" or \"Middle East\" or \"Africa\", then C8 should be equal to the corresponding region. Otherwise, C8 should remain blank.\n=IFERROR(INDEX(Translated_Regions,MATCH(C7,Translated_Countries,0)),\"\")"
+    },
+    {
+        "instruction": "You are given a tweet and you should decide whether it's offensive or not.",
+        "input": "She has certainly taken some heat for being such an....well idiot.",
+        "output": "\nI have to agree with you on that one. I'm not sure whether she is actually an idiot or just trying to play one on Twitter."
+    },
+    {
+        "instruction": "Categorize the Business into one of the Restaurants, Home Services, Auto Services and Miscellaneous based on its Specialties.",
+        "input": "Call us at 650-636-4884 or visit our website to receive a quote. This shop specializes in New Tires and General Auto Repair. We carry all tires in-house and have a wide range to fit any budget or car specifics. If you are unsure what tires you need there are experts on hand and available to help you pick the best tire for your needs. We also carry commercial vehicle tires and can serve a wide array of fleets.",
+        "output": " We are a family owned and operated business with over 50 years of experience in the industry."
+    },
+    {
+        "instruction": "Notify me of any suggestions you may have for making the text more grammatically correct.",
+        "input": "This is the second time I've been here, and the vibes, and the food were exquisite.",
+        "output": " The service was exceptional, the hostess and our waiter were attentive and really paid attention to what we liked."
+    },
+    {
+        "instruction": "Using the ingredients that are available, create a dinner recipe.",
+        "input": "Kale + almond butter + apple cider vinegar + agave nectar + tamari",
+        "output": "\nKale chips are a healthy snack, and they're easy to make. If you want to add some sweetness, you can drizzle them with honey or maple syrup. You can also add some crushed nuts for extra protein.\n2 bunches of kale\n1 tablespoon each of almond butter and apple cider vinegar\n1 teaspoon of agave nectar\n1/2 teaspoon of tamari\nWash and dry the kale leaves.\nIn a large bowl, combine the kale, almond butter, apple cider vinegar, agave nectar, and tamari. Toss to coat the kale evenly.\nSpread the mixture out on a baking sheet lined with parchment paper.\nBake for about 30 minutes, or until the kale is crispy and brown in spots.\nRemove from the oven and enjoy as a healthy, delicious snack!"
+    },
+    {
+        "instruction": "Provide instructions for the given exercise.",
+        "input": "Leg Raises",
+        "output": " With Resistance Band\nStep 1: Begin in a seated position with the resistance band wrapped around your thighs and feet planted firmly on the floor.\nStep 2: Pull the ends of the band toward your buttocks, creating tension as you raise your legs out to the side.\nStep 3: Hold for a moment at the top of the movement, then slowly lower your legs back down to the starting position.\nStep 4: Repeat the exercise for desired reps or time."
+    },
+    {
+        "instruction": "Expand the given sentence and give it more details and depth.",
+        "input": "It changed my life.",
+        "output": " I was able to leave my job as a waiter in a restaurant and pursue my passion for cooking. I enrolled in a culinary school, where I learned the skills and knowledge necessary to become a professional chef. After graduation, I secured a job at a renowned restaurant in the city, where I have been able to hone my skills and gain valuable experience. The decision to further my education has allowed me to follow my dreams and pursue a fulfilling career in the culinary industry."
+    },
+    {
+        "instruction": "Suggest some names for a friendly group in telegram.",
+        "input": "",
+        "output": "The group name should be something that reflects the friendly nature of the chat and encourages people to join in on the conversations. Here are some suggestions:\n1. Hello, Friends!\n2. Chat With Us!\n3. Let's Talk!\n4. Welcome to Our Group!\n5. Join Us for Fun Conversations!\n6. Connect with Like-Minded People!\n7. Share Your Thoughts and Ideas!\n8. Meet New People and Make Friends!\n9. This Is a Safe Space to Express Yourself!\n10. A Place to Unwind and Relax!"
+    },
+    {
+        "instruction": "Write what the pronunciation of the given word sounds like. Follow the \"Google pronunciation dictionary\" scheme for phonetic spelling.",
+        "input": "interpretations",
+        "output": ": [ˈɪntɚprɛtæʃən]"
+    }
+]

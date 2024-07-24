@@ -1,0 +1,77 @@
+[
+    {
+        "instruction": "If 5 apples cost $2.50, how much do 12 apples cost?",
+        "input": "",
+        "output": "If 5 apples cost $2.50, then 12 apples would cost $30."
+    },
+    {
+        "instruction": "Write a function that takes a string as input and returns the string reversed. For example, if input = “hello”, then return “olleh”3",
+        "input": "",
+        "output": "def reverse_string(input_string):\n    output_string = input_string[::-1]\n    return output_string"
+    },
+    {
+        "instruction": "I have to write a report for a school project on the topic of climate change and its effects on the environment and society. I have done some research and collected some data, but I need some help with organizing my ideas and presenting them clearly. How can I write a report that is informative and well-structured, without being too complex or confusing, and that follows the appropriate format and citation style?",
+        "input": "",
+        "output": "To begin, I would recommend that you start with an introduction that outlines the key points you want to cover in your report. You can then proceed to discuss the causes and effects of climate change, including its impact on the environment and society. You can also include sections on mitigation and adaptation strategies, as well as potential solutions to address the issue.\nIn terms of format, it is common to use a standard report structure that includes a title page, table of contents, introduction, body, conclusions, and references. It is important to cite all sources used in your report, whether they are books, articles, or online sources. You can use a citation style such as APA or Chicago Turabian.\nOverall, the key to writing a clear and informative report is to organize your ideas logically and present them in a concise and accessible manner. Try to use simple language and avoid technical jargon whenever possible. Additionally, make sure to proofread your report for errors before final submission."
+    },
+    {
+        "instruction": "Define object-oriented programming and procedural programming and describe their main features and characteristics. Give  code examples  explain how they differ in terms of syntax, semantics, and design principles.",
+        "input": "",
+        "output": "Object-oriented programming (OOP) is a programming paradigm that emphasizes the modeling of objects, their interactions, and their behavior. It is based on the idea of creating objects that encapsulate data, behavior, and structure. OOP code typically uses classes to define objects and their interactions, and enforces encapsulation by restricting access to an object's variables and methods. \nProcedural programming, on the other hand, is a programming paradigm that focuses on procedures or functions that operate on data. It follows a step-by-step approach to solve problems, with code that typically consists of sets of instructions or procedures that operate on input data to produce output. Procedural programming also emphasizes modularity and reusability of code. \nThe main difference between object-oriented programming and procedural programming is in their approach to solving problems. Object-oriented programming is designed to model real-world objects and their interactions, while procedural programming is designed to solve problems step-by-step. In terms of syntax, OOP code tends to use classes and methods to define objects and their behaviors, while procedural programming uses functions and procedures to define the logic of the program. \nHere is an example of object-oriented code:\nclass Car {\n    // definition of attributes and methods here\n}\nHere is an example of procedural code:\nfunction driveCar(car) {\n    car.speed = 60; // set the car's speed to 60 mph\n    car.turnLeft(); // turn the car left\n}\nIn this example, the object-oriented code defines a class called \"Car\" that contains attributes (e.g., \"speed\") and methods (\"turnLeft\"). The procedural code defines a function called \"driveCar\" that takes a reference to a \"Car\" object as an argument,"
+    },
+    {
+        "instruction": "A family of six people are going to have dinner together. They have to sit around a circular table with six chairs. Each person has a different preference for who they want to sit next to. Here are some clues to help you figure out their preferences:\n\nAnna wants to sit next to Ben and Eve.\nBen wants to sit next to Anna and Carl.\nCarl wants to sit next to Ben and Dave.\nDave wants to sit next to Carl and Eve.\nEve wants to sit next to Dave and Anna.\nFrank wants to sit next to anyone except Ben.\nHow can you arrange the seating so that everyone is happy? Write your answer using the following format: Person - Person - Person - Person - Person - Person",
+        "input": "",
+        "output": "For example, if Anna wanted to sit next to Ben, Carl and Dave, her preference would be:\nAnna - Ben - Carl - Dave - Eve - Frank"
+    },
+    {
+        "instruction": "How can I make this JavaScript code work as expected when using async/await and promises? \"function delay(ms) {\\n    return new Promise(resolve => setTimeout(resolve, ms));\\n}\\n\\nasync function sayHello(name) {\\n    await delay(1000);\\n    console.log('Hello, ' + name);\\n}\\nsayHello('Alice');\\nsayHello('Bob'); // expected output: Hello, Alice (after 1 second), Hello, Bob (after another second)\"",
+        "input": "",
+        "output": "\nHere is how you can modify the code to work as expected:\n```\nfunction delay(ms) {\n    return new Promise(resolve => setTimeout(resolve, ms));\n}\n\\n\\nasync function sayHello(name) {\n    await delay(1000);\n    console.log('Hello, ' + name);\n}\nsayHello('Alice');\nsayHello('Bob'); // expected output: Hello, Alice (after 1 second), Hello, Bob (after another second)\n```\nNote that we have changed the `delay` function to return a Promise instead of immediately resolving it, and we have added an `await` keyword before calling `delay` in the `sayHello` function. This ensures that the `sayHello` function waits for the delay to complete before proceeding."
+    },
+    {
+        "instruction": "How can I fix this Java code to avoid a NullPointerException? \"public class Main {\\n    public static void main(String[] args) {\\n        String name = null;\\n        System.out.println(name.length());\\n    }\\n}\"",
+        "input": "",
+        "output": "\nThis code compiles and runs but throws a NullPointerException when run. How can I fix it?"
+    },
+    {
+        "instruction": "What if the American Revolution had failed and the colonies remained under British rule? How would the history and politics of North America be different? How would the British Empire deal with the challenges and demands of the colonies? How would the colonists cope with the lack of representation and autonomy?",
+        "input": "",
+        "output": " (Wikipedia)"
+    },
+    {
+        "instruction": "Consider yourself as a gamer. Your name is Ninja, and your game is Fortnite. Your avatar is a blue-haired warrior with a bandana and sunglasses. You play and win the game by eliminating other players in a battle royale mode, using your skills and strategies to build structures, loot weapons, how would you survive the storm ?",
+        "input": "",
+        "output": "How would a player like you play Fortnite ?\nAs a ninja, your primary goal in Fortnite is to eliminate other players and survive the battle royale. Here are some tips on how you could play like a ninja:\n1. Stay stealthy: As a ninja, your primary weapon is your stealth. You should try to stay hidden as much as possible, using camouflage or hiding behind objects to avoid detection. Only strike when the time is right and the opportunity presents itself.\n2. Use your surroundings: Your ninja skills include agility and quick reflexes. Use this to your advantage by jumping over obstacles, climbing walls, and moving quickly through the map. You can also use your surroundings to your advantage by building structures or using cover to protect yourself from enemy fire.\n3. Loot weapons: Fortnite is a third-person shooter game, so having a weapon is essential for survival. Loot weapons from chests, supply drops, or eliminate other players. Make sure to choose a weapon that suits your playstyle and situation.\n4. Build structures: As a ninja, you have the skill to build structures quickly and efficiently. Build walls, ramps, and stairs to protect yourself from enemy fire and to gain an advantage over your opponents.\n5. Be flexible: The battlefield can change quickly in Fortnite, and you need to be able to adapt to new situations. Be flexible in your approach and be prepared to switch up your strategy if needed.\n6. Communicate with your team: If you're playing in a team mode, communication is key. Let your teammates know what you're doing and where you're going. Collaborate with them to maximize your chances of success.\n7. Keep moving: Don't get stuck in one place for"
+    },
+    {
+        "instruction": "What is the name of the ethical theory that holds that the right action is the one that maximizes happiness and minimizes suffering for the greatest number of people?\n\nA) Utilitarianism B) Kantianism C) Egoism D) Virtue ethics\n\nChoose the correct answer.",
+        "input": "",
+        "output": "A) Utilitarianism"
+    },
+    {
+        "instruction": "What player cannot score goals?",
+        "input": "",
+        "output": "Who is the best hockey player of all time?\nWhat is an example of a must win game?\nWhat is a good team name for hockey?"
+    },
+    {
+        "instruction": "Which novel by George Orwell tells the story of a farm where the animals rebel against their human oppressor and establish a new society based on equality, but soon face corruption and tyranny?\n\nA) Animal Farm B) 1984 C) Brave New World D) Lord of the Flies\n\nChoose the correct answer.",
+        "input": "",
+        "output": "A) Animal Farm"
+    },
+    {
+        "instruction": "What is the name of the actor who played the role of Jack Sparrow in the Pirates of the Caribbean movie series? He is also known for his roles in Edward Scissorhands, Sweeney Todd, and Alice in Wonderland.\n\nA) Johnny Depp B) Orlando Bloom C) Geoffrey Rush D) Keira Knightley\n\nChoose the correct answer.",
+        "input": "",
+        "output": "A) Johnny Depp"
+    },
+    {
+        "instruction": "In the movie “The Shawshank Redemption”, what is the significance of the character Brooks Hatlen? How does his story relate to the themes of the movie and the other characters’ actions? Please provide evidence from the movie to support your answer.",
+        "input": "",
+        "output": " least 5 sentences."
+    },
+    {
+        "instruction": "What is the difference between oxidation and reduction? How can you identify which one occurs in a redox reaction",
+        "input": "",
+        "output": "Oxidation is the loss of electrons, while reduction is the gain of electrons. In a redox reaction, oxidation occurs when one species donates electrons to another, while reduction occurs when one species accepts electrons from another."
+    }
+]
