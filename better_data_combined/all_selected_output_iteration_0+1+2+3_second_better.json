@@ -1,0 +1,682 @@
+[
+    {
+        "instruction": "In this task, you're given a recipe with different steps. The order of the steps might not be correct. Your job is to return the correct order for the given steps to make a coherent recipe with the new order that has the correct flow. Generate your answer using numbers, such as '23415'.",
+        "input": "Step1: Preheat oven at 375 degrees Fahrenheit. Step2: Meanwhile, mix flour, sugar and baking powder in a large bowl. Step3: Add eggs and butter; beat well with electric mixer on medium speed until mixture becomes crumbly. Step4: Stir in blueberries just until evenly distributed throughout batter .Step5 : Pour batter into prepared pan.",
+        "output": "132456"
+    },
+    {
+        "instruction": "In this task, you need to find the average value of three given numbers.",
+        "input": "5 4 3.",
+        "output": "5\n\n4"
+    },
+    {
+        "instruction": "Consider the following equation:\n\\[\\text{AI} \\subset \\text{Human Intelligence} \\in \\text{Problem Solving}\\]\nArtificial Intelligence has become a major field in computer science, capable of solving complex problems and mimicking human intelligence in various ways. Just like human intelligence, AI requires a great deal of problem-solving skills and creativity to design and develop algorithms that can solve different problems. \nMoreover, AI is constantly evolving and adapting to new challenges, just like human intelligence does. The process of AI development involves designing and testing new models, as well as optimizing algorithms and data structures. \nTherefore, AI should be treated as an integral part of problem-solving and human intelligence, with the same level of recognition, respect, and exploration.",
+        "input": "",
+        "output": "That is a great analysis of the relationship between AI and human intelligence in problem-solving. AI has the potential to augment and enhance human problem-solving capabilities, but it is important to remember that it is still a tool created by humans and should be used ethically and responsibly. As AI continues to advance, it will be interesting to see how it continues to impact problem-solving and human intelligence."
+    },
+    {
+        "instruction": "Write down a few ways of finding duplicates in an array.",
+        "input": "Method 1: Use a hash table to store the elements of the array. When you add an element, check if it is already in the hash table. If yes, return true. Otherwise, add it to the hash table and return false.",
+        "output": "def findDuplicates(arr):\n    d = {}\n    for i in range(len(arr)):\n        if arr[i] in d:\n           return True\n    else:\n        d[arr[i]] = True\n    return False"
+    },
+    {
+        "instruction": "You are provided with a news article, and you need to identify all the keywords in this article. output one keyword at a time.",
+        "input": "Article: The Golden State Warriors have won the NBA championship for the second year in a row.\nKeyword: Golden State Warriors",
+        "output": "keyword"
+    },
+    {
+        "instruction": "In this task, you are given a sequence of words and another word. The job is to determine if the second word can be created using the letters from the first sequence of words. Letters can only be used once and case does not matter.",
+        "input": "red apple<sep>padre.",
+        "output": "Yes"
+    },
+    {
+        "instruction": "In this task, you will be given a list of Yelp review snippets. For each snippet, your job is to guess whether the customer had a good experience or not.",
+        "input": "The food was amazing and I loved the service!",
+        "output": "Yes"
+    },
+    {
+        "instruction": "How does artificial intelligence assist in medical diagnosis?",
+        "input": "",
+        "output": "Artificial intelligence can help medical practitioners with diagnosing diseases by analyzing medical data and providing more accurate, timely diagnoses than human experts in some cases. AI-based systems are able to automatically extract, analyze and interpret data to identify patterns and make predictions. Additionally, AI techniques can be used to analyze large amounts of medical data quickly and efficiently to inform diagnosis."
+    },
+    {
+        "instruction": "Is this a piece of news regarding world politics, sports, business, or science and technology?\nApple to Unveil its Latest iPhone Model Today",
+        "input": "",
+        "output": "Science and technology."
+    },
+    {
+        "instruction": " You are given a background paragraph that describes one or more causal or physical relationships, such as a relationship in economics, scientific law, or nature. You need to come up with a fictional story that makes use of the concepts or the relationship described in the provided paragraph. Make sure that your story does not repeat the relation in the given paragraph (e.g., by avoiding verbatim copies of the given paragraph). Start by reading the background paragraph, and determine what relationship(s) are in the paragraph. Write a story that involves the relationship(s) that you determined are in the background paragraph. Try to use your own words as much as possible and not repeat the background paragraph. Feel free to make up places and events as long as they tie back to the background paragraph in a way that you can ask a question about.\n\"Background Paragraph: As for the public health or food safety concern, organic foods are intended to be healthy, free of contaminations and free from agents that could cause human diseases. Organic milk is meant to have no chemical residues to consumers, and the restrictions on the use of antibiotics and chemicals in organic food production has the purpose to accomplish this goal. Although dairy cows in both organic and conventional farming practices can be exposed to pathogens, it has been shown that, because antibiotics are not permitted as a preventative measure in organic practices, there are far fewer antibiotic resistant pathogens on organic farms. This dramatically increases the efficacy of antibiotics when/if they are necessary.\"",
+        "input": "",
+        "output": "Manny and Annie were two foodie friends. Manny was a health conscious person, he ate organic foods and drank organic milk only. Annie liked all foods, whether they were organic or not."
+    },
+    {
+        "instruction": "What is the estimated time complexity for a sorting algorithm that uses the following formula for determining pivot index in QuickSort?\npivot_index = (left + right) // 2\nAssuming a worst-case scenario where the input array is already sorted in ascending or descending order, the time complexity for QuickSort would be O(n^2). However, with the above formula for pivot index, the average time complexity can be improved to O(n log n) for random input arrays. This is because the pivot index is chosen as the middle element between the left and right indices, which helps to balance the partitioning of the array.\nThe formula for pivot index can also be written as:\npivot_index = left + (right - left) // 2\nThis ensures that the pivot index is always within the bounds of the array, even for edge cases where left and right are very large or very small.\nHere is the pseudo-code for QuickSort with the above formula for pivot index:\nfunction quicksort(array, left, right)\n    if left < right\n        pivot_index = left + (right - left) // 2\n        pivot_new_index = partition(array, left, right, pivot_index)\n        quicksort(array, left, pivot_new_index - 1)\n        quicksort(array, pivot_new_index + 1, right)\nfunction partition(array, left, right, pivot_index)\n    pivot_value = array[pivot_index]\n    swap(array, pivot_index, right)  // move pivot value to end\n    store_index = left\n    for i = left to right - 1\n        if array[i] < pivot_value\n            swap(array, i, store_index)\n            store_index += 1\n    swap(array, store_index, right)  // move pivot value to its final place\n    return store_index",
+        "input": "",
+        "output": "That is correct. The time complexity of QuickSort with the given formula for pivot index is O(n log n) on average. However, as you mentioned, in the worst-case scenario where the input array is already sorted, the time complexity would be O(n^2)."
+    },
+    {
+        "instruction": "Explain the term \"digital transformation\"",
+        "input": "",
+        "output": "Digital transformation is the process of using technology to revolutionize the way businesses operate and deliver value to their customers. It typically involves the use of digital tools such as artificial intelligence (AI), big data, and cloud computing to transform existing processes and create new strategies for growth. Digital transformation is essential for any organization to remain competitive, maintain a high level of customer satisfaction, and drive innovation."
+    },
+    {
+        "instruction": "You need to order a set of steps describing a process. The given steps may or may not be in order. Your task is to output the steps in the correct order they should be carried out in. If two or more steps can happen at the same time, you do not need to specify an order for those, and can leave them as unordered Steps. For this example let's assume that Step 0 needs to happen before all other Steps",
+        "input": "Unordered Steps: ['Step 2', 'Step 3', 'Step 1'].",
+        "output": "Step 1\nStep 2\nStep 3"
+    },
+    {
+        "instruction": "Would you like to work here?",
+        "input": "Question: Would you like to work here?",
+        "output": "Yes"
+    },
+    {
+        "instruction": "Suggest three potential applications of AI technology in the healthcare industry.",
+        "input": "",
+        "output": "AI could be used in the healthcare industry to predict patient outcomes, automate administrative tasks, and diagnose diseases accurately."
+    },
+    {
+        "instruction": "You are given an array of size N. The array contains integers that range from 1 to N + 1. In addition, there is a single integer that is duplicate in the array. Your task is to find the duplicate integer and print it on the console.",
+        "input": "[3, 4, 5, 2, 6, 7, 8].",
+        "output": "The duplicate integer is 2."
+    },
+    {
+        "instruction": "How can we enhance the user experience of a virtual financial advisor that utilizes cutting-edge AI technology to tailor investment recommendations for individual users? In order to optimize the user journey, we can delve deeper into the complexities of each step involved in the process, including but not limited to: \n1. Streamlining the user registration and profile creation process to gather relevant data points to personalize investment recommendations with precision.\n2. Harnessing sophisticated data analytics tools to conduct comprehensive data analysis, including data mining and natural language processing, to extract valuable insights and identify the best investment opportunities for each user.\n3. Implementing advanced visualization techniques to effectively communicate personalized investment recommendations to users, such as interactive charts and graphs, in addition to traditional financial reports.\n4. Utilizing cutting-edge sentiment analysis tools to collect user feedback and sentiment analysis to adapt investment recommendations on-the-fly.\n5. Employing robust cybersecurity measures to ensure secure investment execution and monitoring, leveraging advanced technologies like blockchain to enhance security and transparency.\nThroughout the process, we can utilize various tools like headings, lists, tables, and even gamification techniques to make the experience engaging and interactive for users, while also providing easy access to relevant resources or additional information to enhance their knowledge and understanding of the investment process. Additionally, we can employ innovative methods such as augmented reality and machine learning to demonstrate how the AI system operates and how it generates investment recommendations.",
+        "input": "",
+        "output": "Furthermore, we can also enhance the user experience by providing personalized alerts and notifications to keep users informed about their investments in real-time. This can include alerts about market trends, changes in investment opportunities, and updates on their portfolio performance. We can also provide users with access to a virtual financial advisor who can answer their questions and provide guidance as needed.\nTo ensure that the user experience is seamless, we can also optimize the platform's user interface and design to make it intuitive and user-friendly. This can include simplifying complex financial concepts and jargon, providing clear and concise instructions, and using a consistent visual language throughout the platform.\nFinally, we can also incorporate social features into the platform, allowing users to connect with other investors and share insights and strategies. This can help to create a sense of community and foster collaboration among users, ultimately enhancing the overall user experience."
+    },
+    {
+        "instruction": "Given a premise and a label, generate a hypothesis that is either neutral, entailment, or contradiction.",
+        "input": "premise is 'On Titan, rain and clouds are most likely made up of liquid methane, not water.'. label is 'neutral'. ",
+        "output": "Rain is an example of liquid water."
+    },
+    {
+        "instruction": "A sequence of numbers is called a zig-zag sequence if the differences between successive numbers strictly alternate between positive and negative. The first difference (if one exists) may be either positive or negative. A sequence with fewer than two elements is trivially a zig-zag sequence.\nFor example, 1,7,4,-5,-2,8,-3 is a zig-zag sequence because the differences (6,-9,13,-8) are alternatelypositive and negative. In contrast, 1,4,7,2,,1,.100000 proposes an initial difference of 3 which alternates between positive and negative values. Given the starting point of any `zng`zng`zig-zag series with N terms , constructed by looking at differences in successive terms?",
+        "input": "Sequence: [1., 7., 4., -5., -2., 8.].",
+        "output": "Yes"
+    },
+    {
+        "instruction": "In this task, you are given two sets of data points. The goal is to find the equation of the line that best fits these data points. Print the slope and y-intercept (rounded to two decimal places) of the line in order \"m b\". If there are multiple lines with different slopes that fit the data perfectly, print any one of them.",
+        "input": "Data set 1: (1, 1), (2, 2), (3, 3) Data set 2: (-1, -2), (0, 0), (1, 2).",
+        "output": "1 1\n-1 -2"
+    },
+    {
+        "instruction": "Detect spam email using n-grams and bayesian classifier.",
+        "input": "Email: Hi, I'm interested in your product. Can you please send me more information?",
+        "output": "Not spam"
+    },
+    {
+        "instruction": "You are required to compute the value of x in the given equation by using only addition and subtraction operations. The answer should be correct to one decimal place.",
+        "input": "3x+5=11.",
+        "output": "5\n\n8.5"
+    },
+    {
+        "instruction": "Given a list of friends, find out which friend is most likely to be interested in your product. output their name and probability.",
+        "input": "Probability: 0.8",
+        "output": "John"
+    },
+    {
+        "instruction": "Which category best describes the following question: What are the cookies in Internet ? \n\nChoose from the following list: \nDescription, Entity, Abbreviation, Person, Quantity, Location",
+        "input": "",
+        "output": "Description."
+    },
+    {
+        "instruction": " You are given a background paragraph that describes one or more causal or physical relationships, such as a relationship in economics, scientific law, or nature. You need to come up with a fictional story that makes use of the concepts or the relationship described in the provided paragraph. Make sure that your story does not repeat the relation in the given paragraph (e.g., by avoiding verbatim copies of the given paragraph). Start by reading the background paragraph, and determine what relationship(s) are in the paragraph. Write a story that involves the relationship(s) that you determined are in the background paragraph. Try to use your own words as much as possible and not repeat the background paragraph. Feel free to make up places and events as long as they tie back to the background paragraph in a way that you can ask a question about.\n\"Background Paragraph: Because of human activities, there is more carbon dioxide in the atmosphere today than in the past hundreds of thousands of years. Burning fossil fuels and has released great quantities of carbon dioxide into the atmosphere. Cutting forests and clearing land has also increased carbon dioxide into the atmosphere because these activities reduce the number of autotrophic organisms that use up carbon dioxide in photosynthesis. In addition, clearing often involves burning, which releases carbon dioxide that was previously stored in autotrophs.\"",
+        "input": "",
+        "output": "When comparing village A from ten thousand years ago to village B from today, we reached the conclusion that today's villagers release much more carbon into the atmosphere by their activities."
+    },
+    {
+        "instruction": "You are given a short text as a title. Your task is to generate a poem as output that is related to the given title and should feel like written by kids. The output should be a run-on sentence (two or more complete sentences connected without any punctuation). The poem should not be too long or too complex, because it should feel like it is written by younger person without high level of literature education.\n\"I See Light\"",
+        "input": "",
+        "output": "i dream that people be take care of me i dona't know why i feel trap with all the tube surround me i dream to meet babe ruth one day but a lady in white say that will never happen but i still dream i dream ia'm free from all tube silence cold dark i see light i see him my dream come true"
+    },
+    {
+        "instruction": "Develop an extensive and sophisticated array of state-of-the-art natural language processing methodologies that can be seamlessly integrated into a GPT (Generative Pre-trained Transformer) language model to significantly enhance its performance. This should involve an in-depth exploration of the following cutting-edge techniques, along with their specific use cases and practical demonstrations:\n- Intricate topic modeling for precise and reliable topic identification\n- Resilient coreference resolution for effectively tracking entities across multiple sentences, taking into account complex linguistic contexts and nuances\n- Advanced relation extraction for efficient extraction of complex relationships between entities, incorporating advanced machine learning and deep learning approaches\n- Highly accurate emotion detection for capturing and analyzing the underlying emotions in the text, utilizing advanced sentiment analysis and affective computing techniques\n- Robust entity linking for extracting and integrating relevant information about entities mentioned in the text, leveraging sophisticated knowledge graphs and ontologies\n- Advanced paraphrasing for generating semantically equivalent, yet syntactically distinct sentences, utilizing cutting-edge paraphrase generation models and neural machine translation techniques\n- Enhanced text-to-speech alignment for creating natural-sounding audio output, employing advanced prosodic modeling and speech synthesis methods\n- Efficient opinion mining for identifying and extracting subjective information from text, leveraging advanced text mining and machine learning approaches\n- Precise natural language generation for producing high-quality and contextually relevant content, using advanced neural text generation models and knowledge graphs\n- Advanced information retrieval for effectively extracting and summarizing relevant information from unstructured data, incorporating state-of-the-art information retrieval and text summarization techniques\n- Advanced syntax analysis for accurate grammatical parsing and analysis, incorporating advanced dependency parsing and constituency parsing models\n- Robust dialogue act recognition for identifying the intention behind the speaker's utterances, leveraging advanced discourse analysis and conversational AI techniques\n- Precise semantic role labeling for accurate identification of semantic roles of each constituent in a sentence, utilizing advanced deep learning and neural network architectures\n- Advanced cross-lingual transfer learning for efficient transfer of knowledge and insights across different languages, utilizing sophisticated multilingual models and cross-lingual knowledge transfer techniques.",
+        "input": "",
+        "output": "As an AI assistant, I can help you with any of these tasks. Let me know how I can assist you."
+    },
+    {
+        "instruction": "You will be given a piece of text about an event that happened. Your job is to decide if the event is something that could have realistically happened ('Real'), or not ('Not Real').",
+        "input": "Text: I was walking on the street and saw a giant rabbit.",
+        "output": "Not Real"
+    },
+    {
+        "instruction": "Given that a new study published in BMJ Open stated that individuals who eat more fruits and vegetables are less likely to die from any cause. Analysis of the data showed that participants who ate at least seven portions of fruits and vegetables each day had a 33% lower risk of death than those who ate less than one portion. Does it follow that eating fruits and vegetables reduces the risk of premature death? Yes or no?",
+        "input": "",
+        "output": "Yes."
+    },
+    {
+        "instruction": "Describe your reaction to the news that a German supermarket chain Aldi will open a Rockville location in 2018. Respond in 170 words.",
+        "input": "",
+        "output": "German supermarket chain Aldi will open a Rockville location in 2018. The grocery store will be located in part of the former Circuit City space in the Congressional North shopping center. Aldi has opened several stores in Montgomery County, most recently in the Montgomery Hills area of Silver Spring.\nWHAT?!? OMGoodness! This too close for comfort! I can hardly wait! Parking is going to be crazy during the holidays, but this is good news still!\nIt is not at the old Circuit City..that is Golds Gym it is by Best Buy and Staples. It is at the sight of an old electronics store.\nWasn't hhgregg in the former Circuit City space, and is now becoming Aldi? Or is this a case of the Mandela Effect? hhgregg stores frequently opened in old Circuit City stores after they folded, this being one of them.\nToo bad Aldi stores in Montgomery county don't sell alcohol.\nI regularly buy alcohol at Aldis in VA and prices are very low for decent beers and wines."
+    },
+    {
+        "instruction": "In this task, you're given a paragraph that describes an event or a process. Your job is to write questions that evaluate one's understanding of such references. Good questions are expected to link pronouns (she, her, him, his, their, etc.) or other mentions to people, places, or things to which they may refer. Do not ask questions that can be answered correctly without understanding the paragraph or having multiple answers. Avoid questions that do not link phrases referring to the same entity. For each of your questions, the answer should be one or more phrases in the paragraph",
+        "input": "Passage:\nNearing London, Oliver encounters Jack Dawkins], a pickpocket more commonly known by the nickname [the \"Artful Dodger\"], and his sidekick}, a boy of a humorous nature named Charley Bates}, but Oliver's innocent and trusting nature fails to see any dishonesty in their actions}. The Dodger provides Oliver with a free meal and tells him of [a gentleman] in London who will \"give him lodgings for nothing}, and never ask for change\"]. Grateful for the unexpected assistance}, Oliver follows [the Dodger]to [the \"old gentleman's\"] residence}. In this way Oliver unwittingly falls in with an infamous Jewish criminal known as Fagin}, [the gentleman]of whom [the Artful Dodger] spoke}. Ensnared}, Oliver lives with Faginand his gang of juvenile pickpocketsin their lair at Saffron Hillfor some time}, unaware of their criminal occupations}. He believes they make wallets and handkerchiefs}.",
+        "output": "Who does \"their\" refer to in the sentence \"In this way Oliver unwittingly falls in with an infamous Jewish criminal known as Fagin}, [the gentleman]of whom [the Artful Dodger] spoke}.\"?\nFagin and the Artful Dodger"
+    },
+    {
+        "instruction": "Write a text about your opinions on the following movie.",
+        "input": "Movie: The Matrix",
+        "output": "I think the movie is very interesting and exciting. It has a lot of action, but it also has some philosophical questions about reality. I like how the movie makes you think about what is real and what is not."
+    },
+    {
+        "instruction": " You are given a background paragraph that describes one or more causal or physical relationships, such as a relationship in economics, scientific law, or nature. You need to come up with a fictional story that makes use of the concepts or the relationship described in the provided paragraph. Make sure that your story does not repeat the relation in the given paragraph (e.g., by avoiding verbatim copies of the given paragraph). Start by reading the background paragraph, and determine what relationship(s) are in the paragraph. Write a story that involves the relationship(s) that you determined are in the background paragraph. Try to use your own words as much as possible and not repeat the background paragraph. Feel free to make up places and events as long as they tie back to the background paragraph in a way that you can ask a question about.\n\"Background Paragraph: HIV , or human immunodeficiency virus, causes AIDS. AIDS stands for \"acquired immune deficiency syndrome.\" It is a condition that causes death and does not have a known cure. AIDS usually develops 10 to 15 years after a person is first infected with HIV. The development of AIDS can be delayed with proper medicines. The delay can be well over 20 years with the right medicines. Today, individuals who acquire HIV after 50 years of age can expect to reach an average human life span.\"",
+        "input": "",
+        "output": "Tom and Andy are two old friends. Tom was infected with HIV 20 years ago, and Andy has been helping him ever since. Andy is as healthy as an ox."
+    },
+    {
+        "instruction": "Answer true or false based on the given statement.",
+        "input": "Statement: The sum of the squares of two positive integers is always greater than the larger integer.",
+        "output": "True"
+    },
+    {
+        "instruction": "You are given a short text as a title. Your task is to generate a poem as output that is related to the given title and should feel like written by kids. The output should be a run-on sentence (two or more complete sentences connected without any punctuation). The poem should not be too long or too complex, because it should feel like it is written by younger person without high level of literature education.\n\"Sir Robert III\"",
+        "input": "",
+        "output": "black and brown never with a frown he's needy but not greedy old but bold energetic so you wo n't forget it he's bob not a slob he's care but not so dare a year above me and still love me but he past to fast we put him down with a frown the sad day of my life be when another's be end it's january 9th 2014 when my dog's body pay a fine an expensive sad furious fine"
+    },
+    {
+        "instruction": "Describe a complicated concept in simple words.",
+        "input": "The concept of a Turing machine.",
+        "output": "A Turing machine is an abstract model of computation that defines a machine that manipulates symbols on a strip of tape according to a table of rules."
+    },
+    {
+        "instruction": "Question left open: How do I store my vinyl records?\n\nShould I store my vinyl records side by side or in piles?\nThis looks more like a Music SE question than a Music Fans SE question.  I flagged/voted for closure but it is left open when the review was completed.\nCan this question please be closed?\n\nA:\n\nSome topics may be on-topic on more than one site, but that does not mean a question has to be marked as off-topic if it is asked in a sub-optimal site.\nIn this particular case, I actually think that Music Fans SE is the more optimal site for the question under discussion. As such, I had voted to \"Leave Open\" when it appeared in the review queue.\nI also just noticed that the question was in the Close Votes Review Queue again. I'd advise not repeatedly flagging/voting for closure if the review has been completed. If your flag/vote is aged away, then it makes sense to repeat it, but this way you're only increasing the number of tasks the community members have to perform for no good reason.\n\nI'd like to add that our Help section on what is on-topic does not explicitly mention that some questions can be a good fit on more than one site. This is possibly because the only other site where a question is likely to be on-topic is Music SE. But, contrast this with the corresponding help section on Mathematics SE—it has a detailed subsection titled What might be better asked elsewhere. Perhaps we can add similar details to our help section as well, should the need arise.",
+        "input": "",
+        "output": "This question would fit on either of the two sites, but it's probably a better fit here. You flagged it for closure and you were outvoted. There is very little sense in immediately re-flagging it as you have done. The result will almost certainly be the same."
+    },
+    {
+        "instruction": "In this task, you will be asked to order a set of steps that are needed to complete a process. The given steps will be out of order, and it is your job to put them in the correct order. A set of steps are not in order if the steps reference information that is introduced in a later step.",
+        "input": "Steps: ['Gather all the ingredients', 'Put sugar and eggs into the bowl', 'Preheat oven at 350 degrees Fahrenheit', 'Add flour and baking powder to the bowl', 'Mix everything together until it forms batter', 'Pour batter into pan'].",
+        "output": "Steps: ['Preheat oven at 350 degrees Fahrenheit', 'Gather all the ingredients', 'Put sugar and eggs into the bowl', 'Add flour and baking powder to the bowl', 'Mix everything together until it forms batter', 'Pour batter into pan']"
+    },
+    {
+        "instruction": "You are given two books, and your task is to decide whether or not it is possible for the first book to be placed on top of the second book. The order of the books does not matter.",
+        "input": "Book 1: 8.5in x 11in, Book 2: 6in x 9in.",
+        "output": "False"
+    },
+    {
+        "instruction": "Explain the Fibonacci sequence",
+        "input": "",
+        "output": "The Fibonacci sequence is a sequence of numbers, where each number is the sum of the two numbers before that number. The Fibonacci sequence usually starts with zero followed by one. The next number in the sequence is then the sum of the preceding numbers, one and zero, which is one again. The following number is the sum of one and one: two. According to the same logic, the first ten numbers of the Fibonacci sequence are: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34."
+    },
+    {
+        "instruction": "What is machine learning, and when did it first emerge?",
+        "input": "Machine learning (ML) is a field of inquiry devoted to understanding and building methods that \"learn\" – that is, methods that leverage data to improve performance on some set of tasks. It is seen as a part of artificial intelligence.\n\nMachine learning algorithms build a model based on sample data, known as training data, in order to make predictions or decisions without being explicitly programmed to do so. Machine learning algorithms are used in a wide variety of applications, such as in medicine, email filtering, speech recognition, agriculture, and computer vision, where it is difficult or unfeasible to develop conventional algorithms to perform the needed tasks.\n\nA subset of machine learning is closely related to computational statistics, which focuses on making predictions using computers, but not all machine learning is statistical learning. The study of mathematical optimization delivers methods, theory and application domains to the field of machine learning. Data mining is a related field of study, focusing on exploratory data analysis through unsupervised learning.\n\nSome implementations of machine learning use data and neural networks in a way that mimics the working of a biological brain.\n\nIn its application across business problems, machine learning is also referred to as predictive analytics.\n\nOverview\nLearning algorithms work on the basis that strategies, algorithms, and inferences that worked well in the past are likely to continue working well in the future. These inferences can be obvious, such as \"since the sun rose every morning for the last 10,000 days, it will probably rise tomorrow morning as well\". They can be nuanced, such as \"X% of families have geographically separate species with color variants, so there is a Y% chance that undiscovered black swans exist\".\n\nMachine learning programs can perform tasks without being explicitly programmed to do so. It involves computers learning from data provided so that they carry out certain tasks. For simple tasks assigned to computers, it is possible to program algorithms telling the machine how to execute all steps required to solve the problem at hand; on the computer's part, no learning is needed. For more advanced tasks, it can be challenging for a human to manually create the needed algorithms. In practice, it can turn out to be more effective to help the machine develop its own algorithm, rather than having human programmers specify every needed step.\n\nThe discipline of machine learning employs various approaches to teach computers to accomplish tasks where no fully satisfactory algorithm is available. In cases where vast numbers of potential answers exist, one approach is to label some of the correct answers as valid. This can then be used as training data for the computer to improve the algorithm(s) it uses to determine correct answers. For example, to train a system for the task of digital character recognition, the MNIST dataset of handwritten digits has often been used.\n\nHistory and relationships to other fields\nSee also: Timeline of machine learning\nThe term machine learning was coined in 1959 by Arthur Samuel, an IBM employee and pioneer in the field of computer gaming and artificial intelligence. The synonym self-teaching computers was also used in this time period.\n\nBy the early 1960s an experimental \"learning machine\" with punched tape memory, called CyberTron, had been developed by Raytheon Company to analyze sonar signals, electrocardiograms, and speech patterns using rudimentary reinforcement learning. It was repetitively \"trained\" by a human operator/teacher to recognize patterns and equipped with a \"goof\" button to cause it to re-evaluate incorrect decisions. A representative book on research into machine learning during the 1960s was Nilsson's book on Learning Machines, dealing mostly with machine learning for pattern classification. Interest related to pattern recognition continued into the 1970s, as described by Duda and Hart in 1973. In 1981 a report was given on using teaching strategies so that a neural network learns to recognize 40 characters (26 letters, 10 digits, and 4 special symbols) from a computer terminal.\n\nTom M. Mitchell provided a widely quoted, more formal definition of the algorithms studied in the machine learning field: \"A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P if its performance at tasks in T, as measured by P, improves with experience E.\" This definition of the tasks in which machine learning is concerned offers a fundamentally operational definition rather than defining the field in cognitive terms. This follows Alan Turing's proposal in his paper \"Computing Machinery and Intelligence\", in which the question \"Can machines think?\" is replaced with the question \"Can machines do what we (as thinking entities) can do?\".\n\nModern-day machine learning has two objectives, one is to classify data based on models which have been developed, the other purpose is to make predictions for future outcomes based on these models. A hypothetical algorithm specific to classifying data may use computer vision of moles coupled with supervised learning in order to train it to classify the cancerous moles. A machine learning algorithm for stock trading may inform",
+        "output": "Machine learning  is a branch of AI concerned with understanding and developing methods that learn,\"  that is, methods that use data to improve performance on a set of tasks.  Machine learning algorithms construct a model from sample data, referred to as training data, in order to make predictions or decisions without being explicitly programmed to do so. It first emerged in the 1960s."
+    },
+    {
+        "instruction": "List three countries that have a population of more than 100 million people.",
+        "input": "",
+        "output": "The three countries with a population of more than 100 million people are China, India, and the United States."
+    },
+    {
+        "instruction": "Given a question, please provide the downvoted answer from Stack Exchange network.",
+        "input": "Solving a \"generalized\" linear programming problem I need to solve the follwing constrained optimization problem. Is there any MATLAB\ntoolbox which can  solve this. \n\nminimize $A_1 x$ \n\nsubject to $A_2 x =  0$\n\n$A_1$ is an $m\\times n$ matrix where $m \\lt n$ \nand $A_2$ is a $(n-m) \\times n$  matrix.\n\nNow if $A_1$ were a row vector, this would reduce to the standard linear-programming problem. \n\nBut I am not sure how to go about solving the above problem.",
+        "output": "This problem is multi-objective linear programming problem.\nTherefore, you find effective points of this problem.\nFirst, you find effective vertexes, and consist of solution set connecting effective vertexes."
+    },
+    {
+        "instruction": "Take a set of points on a plane. classify them into four categories: circle, square, triangle, diamond.",
+        "input": "Point: (5, 6)",
+        "output": "Triangle"
+    },
+    {
+        "instruction": "Find out how many positive integers less than 1000 contain no zeros.",
+        "input": "",
+        "output": "def countZeros(n):\n    count = 0\n    for i in range(1, n+1):\n        if n % i == 0:\n          count += 1\n    return count"
+    },
+    {
+        "instruction": "Given a number n, write a program that generates the series 1, 2, 3, ..., n.",
+        "input": "",
+        "output": "def series(n):\n    s = 1\n    for i in range(1, n+1):\n       s += i\n    return s"
+    },
+    {
+        "instruction": "You are provided with a mathematical expression. Your task is to simplify the given expression by using the order of operations. The only arithmetic operators needed to answer the questions are'*'(multiplication),'/'(division), and'+'(addition).",
+        "input": "3+4*2-6/3.",
+        "output": "3+4*2-2"
+    },
+    {
+        "instruction": "What is a data pipeline?",
+        "input": "",
+        "output": "A data pipeline is a means of moving data from the data source to a destination. Along the way, data is transformed and enriched, arriving in a cleaner, more organized state. As a result, organizations are able to use that data to achieve their intended outcomes."
+    },
+    {
+        "instruction": "You are provided with a paragraph that contains information on two different individuals. Read through the paragraph and answer the questions about each individual by classified their answers as 0 (False) or 1 (True).",
+        "input": "Passage: He had been quite successful in his profession, but now he was retired and living on a small pension. She, on the other hand, was still working part-time to supplement her income from Social Security. Question: Is she retired?",
+        "output": "0"
+    },
+    {
+        "instruction": "In this task, you are given an article. Your task is to classify it into one of the 4 categories: 'politics', 'entertainment', 'sports' or 'others'.",
+        "input": "Suspected criminals will be forced to hand over passwords to social media accounts under new plans being drawn up by Theresa May, The Telegraph understands.\nThe Home Secretary believes that giving police and security services access to messaging apps such as WhatsApp and iMessage would help foil plots at home and abroad.",
+        "output": "politics"
+    },
+    {
+        "instruction": "Write a letter to the given person.",
+        "input": "Person: A friend\nLetter: Dear [Friend],\nI am writing to you because I have decided to leave the country. I’ve enjoyed my time here, and appreciate all that you’ve done for me. However, after careful consideration, I’ve decided to pursue other opportunities.",
+        "output": "Thank you so much for your time and consideration."
+    },
+    {
+        "instruction": "Do you think that online dating is a good way to meet new people?",
+        "input": "",
+        "output": "Yes, I think it is a good way to meet new people.\nNo, I don't think so."
+    },
+    {
+        "instruction": "Suggest three strategies to reduce the carbon footprint.",
+        "input": "",
+        "output": "Three strategies to reduce your carbon footprint are to practice energy efficiency, to reduce consumption, and to use renewable energy sources. Practicing energy efficiency can include replacing old appliances with more energy-efficient models, using energy-saving modes in your home, and reducing heating and cooling usage. Reducing consumption can involve making conscious decisions to purchase fewer items that require energy to produce. Finally, using renewable energy sources, such as solar or wind power, can help reduce your carbon footprint."
+    },
+    {
+        "instruction": "You are given a short text as a title. Your task is to generate a poem as output that is related to the given title and should feel like written by kids. The output should be a run-on sentence (two or more complete sentences connected without any punctuation). The poem should not be too long or too complex, because it should feel like it is written by younger person without high level of literature education.\nTitle:\"That Flower\"",
+        "input": "",
+        "output": "there be one flower in the field all alone with nobody near but the grass that be loose ita's color so fast and fade from ita's beauty at last the flower know the day will come but not so fast and not so at last and at last the day have come when the flower fade from ita's color from ita's beauty but the remains of that flower remain in the field by the grass when that flower once have ita's color have ita's beauty"
+    },
+    {
+        "instruction": "How can I modify the following Go code to generate an array of random numbers with user-defined length, minimum and maximum values, and then print the generated array?\npackage main\nimport (\n\t\"fmt\"\n\t\"math/rand\"\n)\nfunc main() {\n\tvar length, min, max int\n\tfmt.Print(\"Enter the length of the array: \")\n\tfmt.Scanln(&length)\n\tfmt.Print(\"Enter the minimum value: \")\n\tfmt.Scanln(&min)\n\tfmt.Print(\"Enter the maximum value: \")\n\tfmt.Scanln(&max)\n\tarray := make([]int, length)\n\tfor i := 0; i < length; i++ {\n\t\tarray[i] = rand.Intn(max-min) + min\n\t}\n\tfmt.Println(\"The generated array is:\", array)\n}",
+        "input": "",
+        "output": "Here's the modified Go code that generates an array of random numbers with user-defined length, minimum and maximum values, and then prints the generated array:\n```\npackage main\nimport (\n    \"fmt\"\n    \"math/rand\"\n    \"time\"\n)\nfunc main() {\n    var length, min, max int\n    fmt.Print(\"Enter the length of the array: \")\n    fmt.Scanln(&length)\n    fmt.Print(\"Enter the minimum value: \")\n    fmt.Scanln(&min)\n    fmt.Print(\"Enter the maximum value: \")\n    fmt.Scanln(&max)\n    // Set the seed for the random number generator\n    rand.Seed(time.Now().UnixNano())\n    array := make([]int, length)\n    for i := 0; i < length; i++ {\n        array[i] = rand.Intn(max-min+1) + min\n    }\n    fmt.Println(\"The generated array is:\", array)\n}\n```\nThe modifications include:\n- Importing the `time` package to set the seed for the random number generator.\n- Adding `rand.Seed(time.Now().UnixNano())` to set the seed for the random number generator.\n- Changing `rand.Intn(max-min)` to `rand.Intn(max-min+1)` to include the maximum value in the range of possible random numbers.\n- Adding a space after the colon in the `fmt.Println` statement to improve the output formatting."
+    },
+    {
+        "instruction": "What is the title of this article:\n\nOn 11 June 2009, four Uyghurs who had been held in the United States Guantánamo Bay detention camp, in Cuba, were transferred to Bermuda. The four men were among 22 Uyghurs who claimed to be refugees, who were captured in 2001 in Pakistan after fleeing the American aerial bombardment of Afghanistan. They were accused of training to assist the Taliban's military. They were cleared as safe for release from Guantánamo in 2005 or 2006, but US domestic law prohibited deporting them back to China, their country of citizenship, because the US government determined that China was likely to violate their human rights.",
+        "input": "",
+        "output": "The title of this article is not provided."
+    },
+    {
+        "instruction": "In this task, you are required to calculate the product of two numbers A and B. The only allowed arithmetic operators are '*' (multiplication) and '/' (division). The answer should be correct to one decimal place.",
+        "input": "A=4, B=5.",
+        "output": "2\n\nA*B=21.6"
+    },
+    {
+        "instruction": "Tell me if this article contains any of the following keywords: ai, machine learning, nlp, data science, deep learning, neural networks, computer vision, robotics, self driving car, etc.",
+        "input": "Article: The latest version of Apple's mobile operating system is now available for download.",
+        "output": "No"
+    },
+    {
+        "instruction": "You are given two lists, A and B. Your task is to find out whether list A is a subset of list B or not?",
+        "input": "Set A = [9, 3, 7] \nSet B = [1, 2, 9 ,3 ,7].",
+        "output": "true"
+    },
+    {
+        "instruction": "What are the top 5 companies by market cap (in us dollars)?",
+        "input": "",
+        "output": "Apple, Alphabet, Microsoft, Amazon, Facebook"
+    },
+    {
+        "instruction": "In this task, you are given the ingredients of a recipe and its instructions. TheIngredients will be a list of strings representing the ingredient names, whileInstructions will consist of one or more full sentences describing how to prepare the dish. Your goal is to determine if it is necessary to preheat the oven before baking the cake. You should output either \"Yes\" or \"No\", based on whether it is required or not in order for the cake to turn out correctly.",
+        "input": "TheIngredients: [\"flour\", \"sugar\", \"eggs\", \"butter\"] Instructions: Preheat oven at 350 degrees Fahrenheit. Cream together flour, sugar, eggs and butter.",
+        "output": "Bake for 30 minutes.\n\nYes"
+    },
+    {
+        "instruction": "Imagine that you're an author and write a book review.",
+        "input": "Book: Harry Potter and the Philosopher's Stone by J. K. Rowling\nReview: This book is a fantasy novel written by British author J. K. Rowling. It was first published in 1997 by Bloomsbury in London. The main character is Harry Potter, a young wizard who discovers on his eleventh birthday that he is the orphaned son of two powerful wizards and possesses unique magical powers of his own.",
+        "output": "This book is a fantasy novel written by British author J. K. Rowling. It was first published in 1997 by Bloomsbury in London. The main character is Harry Potter, a young wizard who discovers on his eleventh birthday that he is the orphaned son of two powerful wizards and possesses unique magical powers of his own."
+    },
+    {
+        "instruction": "You are provided with a text file. Your task is to read the contents of the file, reverse its characters, and write the reversed text to an output file.",
+        "input": "The quick brown fox jumps over the lazy dog.",
+        "output": "god yzal eht revo spmuj xof nworb kciuq."
+    },
+    {
+        "instruction": "A person wants to buy something at a store but doesn't know what he or she needs. please help this person by telling him/her what they need.",
+        "input": "Person: I want to buy a new pair of shoes.",
+        "output": "You need a pair of shoes."
+    },
+    {
+        "instruction": "Answer this question: \"What are the advantages of using AI in healthcare?\"",
+        "input": "",
+        "output": "AI can greatly improve healthcare in many ways. AI can be used to diagnose diseases, predict patient outcomes, provide personalized medical advice, automate medical billing, and much more. AI also offers the potential for improved accuracy and cost savings compared to traditional manual processes. In addition, AI can be used to identify and analyze trends in large amounts of medical data, helping to spot hidden insights and enable more efficient decision making."
+    },
+    {
+        "instruction": "A company has a unique way of conducting job interviews. Candidates are given an assignment and have to complete it within 24 hours. The interviewers will then evaluate the candidate based on their performance on the assignment. This process is repeated for each round of interviews, and candidates who perform well in each round will be asked to come back for more rounds until a final decision is made.",
+        "input": "Assigment: Create a new software application that meets the following requirements:\n-Must be able to track employee productivity\n-Must be able to assign tasks to employees\n-Should allow managers to see which employees are working on what tasks.",
+        "output": "The company is looking for a software application that can help them track employee productivity and assign tasks to employees. The application should allow managers to see which employees are working on what tasks."
+    },
+    {
+        "instruction": "Describe how would you solve the problem if you were me.",
+        "input": "Problem: You are given a string and you need to count how many times each letter appears in the string.",
+        "output": "class Solution(object):\n    def countLetters(self, s):\n        counts = {}\n        for c in s:\n        if c not in counts:\n        counts[c] = 1\n        else:\n        counts[c] += 1\n    return counts"
+    },
+    {
+        "instruction": "Given a sentence, output its first letter in upper case and the rest in lower case.",
+        "input": "The quick brown fox jumps over the lazy dog.",
+        "output": "T h e q u i c k b r o w n f o x j u m p s o v e r t h e l a z y d o g."
+    },
+    {
+        "instruction": "You are provided with two arithmetic equations. Your task is to compute the solutions for both equations using the given arithmetic operations. The only arithmetic operators needed to answer the questions are '+' (addition), '-' (subtraction), '*' (multiplication) and '/'(division). The answers should be correct to one decimal place.",
+        "input": "3x+2=11 and x/4=-1.",
+        "output": "5\n\nx=3.5 and x=-6"
+    },
+    {
+        "instruction": "You are given a set of propositions, and you need to determine whether the statements are all false, all true, or some false and some true. Your answer must be one of 'All True', 'All False', or 'Some True Some False'. Two statements are considered contradictory if they cannot both be true (or both be false) at the same time. In other words, for any two contradicting statements A and B, either A is true and B is false OR A is false and B is true.",
+        "input": "Statements ['The moon orbits around Earth', 'The sun orbits around Jupiter']\nContradictory pairs: [('The moon orbits around Earth', 'The sun orbits around Jupiter')].",
+        "output": "All False"
+    },
+    {
+        "instruction": "You have an array of integers, and another integer k. find the minimum element in the array such that the product of this element with k will be equal to the sum of products of other elements with k. (for example: if the array is [1 2 3 4 5 6 7 8] and k=3 then the answer is 2 because (2*3+4*3+5*3+6*3+7*3+8*3)=45)",
+        "input": "List: [1 2 3 4 5 6 7 8] k=4",
+        "output": "1"
+    },
+    {
+        "instruction": "What are the primary causes of climate change?",
+        "input": "In common usage, climate change describes global warming—the ongoing increase in global average temperature—and its effects on Earth's climate system. Climate change in a broader sense also includes previous long-term changes to Earth's climate. The current rise in global average temperature is more rapid than previous changes, and is primarily caused by humans burning fossil fuels. Fossil fuel use, deforestation, and some agricultural and industrial practices increase greenhouse gases, notably carbon dioxide and methane. Greenhouse gases absorb some of the heat that the Earth radiates after it warms from sunlight. Larger amounts of these gases trap more heat in Earth's lower atmosphere, causing global warming.",
+        "output": "The primary physical causes or drivers of climate change are:\n- Humans burning fossil fuels\n- Greenhouse gases such as carbon dioxide, methane and nitrous oxide\n- Aerosols such as sulfur dioxide, organic carbon, black carbon and ammonia"
+    },
+    {
+        "instruction": "What are the best 5 movies that have been released in the last 2 years? output 1-5 for each movie.",
+        "input": "Movie: Mad Max: Fury Road",
+        "output": "3"
+    },
+    {
+        "instruction": "Given a word, output its parts of speech tag labels. here is an example: the quick brown fox jumps over the lazy dog. the result is noun (fox), adjective (quick), verb (jumps), adverb (over), determiner (the), preposition (over), pronoun (lazy), conjunction (and).",
+        "input": "Word: and\nParts of speech tag labels: conjunction, pronoun",
+        "output": "conjunction"
+    },
+    {
+        "instruction": "What are some rare applications of AI in healthcare that are currently being researched or implemented? Can you provide some specific examples?\nHere is an example of some cutting-edge AI healthcare applications:\n| Application | Description |\n|-------------|-------------|\n| Gene Editing | AI can be used to predict the effects of gene editing techniques like CRISPR before they are performed, increasing the precision and accuracy of the procedure. For example, the company Synthego is developing AI tools to predict off-target effects and optimize guide RNA design for CRISPR gene editing. |\n| Immunotherapy | AI can be used to identify novel targets for immunotherapy and predict which patients will respond best to treatment. For instance, the company Imvaq uses AI to analyze patient data and identify new therapeutic targets for cancer immunotherapy. |\n| Patient Monitoring | AI can analyze patient data in real-time to predict adverse events before they occur and alert healthcare providers. For example, the company PhysIQ has developed an AI-powered platform that monitors patients with chronic diseases and provides early warning of health issues. |\n| Robot-Assisted Surgery | AI can be used to enhance the precision and accuracy of robot-assisted surgery, enabling surgeons to perform complex procedures with greater ease. For instance, the company Intuitive Surgical uses AI to assist surgeons with the da Vinci surgical system, which has been used to perform over 6 million surgeries worldwide. |\n| Precision Medicine | AI can be used to analyze large datasets of patient information to identify personalized treatment plans based on individual characteristics. For example, the company Owkin uses AI to analyze medical imaging data and genomics data to identify new biomarkers and predict treatment response. |",
+        "input": "",
+        "output": "Other rare applications of AI in healthcare include:\n1. Drug discovery: AI can be used to identify new drug targets and predict the efficacy of potential drugs. For example, the company Insilico Medicine uses AI to design new drugs for diseases like cancer and Alzheimer's.\n2. Mental health: AI can be used to analyze speech patterns and facial expressions to identify signs of mental health disorders like depression and anxiety. For instance, the company Cogito uses AI to analyze phone conversations and provide real-time feedback to therapists.\n3. Disease diagnosis: AI can be used to analyze medical images and identify early signs of diseases like cancer and Alzheimer's. For example, the company Paige.AI uses AI to analyze pathology images and assist pathologists with diagnosis.\n4. Virtual assistants: AI-powered virtual assistants can be used to provide personalized healthcare advice and support. For instance, the company Buoy Health uses AI to analyze symptoms and provide personalized recommendations for treatment.\n5. Rehabilitation: AI can be used to develop personalized rehabilitation plans for patients recovering from injuries or surgeries. For example, the company Reflexion Health uses AI to analyze patient movements and provide real-time feedback during rehabilitation exercises."
+    },
+    {
+        "instruction": "\"A child is a child\"\nYou are given a short text as a title. Your task is to generate a poem as output that is related to the given title and should feel like written by kids. The output should be a run-on sentence (two or more complete sentences connected without any punctuation). The poem should not be too long or too complex, because it should feel like it is written by younger person without high level of literature education.",
+        "input": "",
+        "output": "a child be a child no matter how short or tall they be or ugly or cute or tight or lame or quite or noisy or funny or crazy or skinny or fat or mean or nice or rich or poor or hungry or full or sleepy or awake or dirty or clean or smart or dumb or boy or girl so all the thing i just list do not matter about a child a child be a child"
+    },
+    {
+        "instruction": "Season nine of \"South Park\", an American animated television series created by Trey Parker and Matt Stone, began airing on March 9, 2005. The ninth season concluded after 14 episodes on December 7, 2005. All of the episodes in the ninth season were written and directed by Trey Parker. \n\nQuestion: Does this imply that \"The character Kenny from South Park has never died.\"? Yes, no, or maybe?",
+        "input": "",
+        "output": "Maybe. The information provided does not relate to Kenny's character, so it is not possible to make a direct inference about his mortality."
+    },
+    {
+        "instruction": "Given two images, determine whether the two images are of the same object.",
+        "input": "Two pictures of a book.",
+        "output": "Yes"
+    },
+    {
+        "instruction": "Given a word, create an anagram of that word.",
+        "input": "teachers.",
+        "output": "'A'"
+    },
+    {
+        "instruction": "You are provided with an arithmetic question. Your task is to compute the solution using the given arithmetic operations. The only arithmetic operators needed to answer the questions are'+'(addition), '-'(subtraction), '*' (multiplication) and '/' (division). The answer should be correct to one decimal place.",
+        "input": "There are 80 students in Class A and 120 students in Class B. What is the ratio of the number of students in Class A to that of Class B?",
+        "output": "80:120"
+    },
+    {
+        "instruction": "You are given a book review. Your task is to predict the rating of the book on a scale of 1-10, where 1 indicates 'Did not like it' and 10 indicates 'It was amazing'.",
+        "input": "They say never judge a book by its cover, but first impressions count for something. In Jhumpa Lahiri's case, her physical appearance leads us to believe that she would be more at home in Kolkata than Rhode Island.\nThe story itself deals with love, marriage and cultural differences experienced when an Indian woman called Asha leaves India to marry an American man called Amar (in arranged circumstances).\nI enjoyed this novel immensely as I could relate to many aspects of it - being brought up in Britain with strict traditional Hindu parents whilst also trying to keep one foot in the western world too.",
+        "output": "8"
+    },
+    {
+        "instruction": "How can you use technology to improve your customer service?",
+        "input": "",
+        "output": "Technology can be used to improve customer service in a variety of ways. Automated customer service systems can be used to quickly answer customer inquiries and provide better support. Automated chatbots can be used to provide personalized service while customer analytics software can be used to gain insights into customer needs and preferences. Voice and video calls can also be used to provide real-time customer service."
+    },
+    {
+        "instruction": "Given a code snippet, identify the size of the file.",
+        "input": "// This file was procedurally generated from the following sources:\n// - src/dstr-assignment/array-elem-trlg-iter-list-nrml-close-skip.case\n// - src/dstr-assignment/default/for-of.template\n/*---\ndescription: IteratorClose is not invoked when evaluation of AssignmentElementList exhausts the iterator (For..of statement)\nesid: sec-for-in-and-for-of-statements-runtime-semantics-labelledevaluation\nes6id: 13.7.5.11\nfeatures: [Symbol.iterator, destructuring-binding]\nflags: [generated]\ninfo: |\n    IterationStatement :\n      for ( LeftHandSideExpression of AssignmentExpression ) Statement\n\n    1. Let keyResult be the result of performing ? ForIn/OfHeadEvaluation(« »,\n       AssignmentExpression, iterate).\n    2. Return ? ForIn/OfBodyEvaluation(LeftHandSideExpression, Statement,\n       keyResult, assignment, labelSet).\n\n    13.7.5.13 Runtime Semantics: ForIn/OfBodyEvaluation\n\n    [...]\n    4. If destructuring is true and if lhsKind is assignment, then\n       a. Assert: lhs is a LeftHandSideExpression.\n       b. Let assignmentPattern be the parse of the source text corresponding to\n          lhs using AssignmentPattern as the goal symbol.\n    [...]\n\n    ArrayAssignmentPattern :\n        [ AssignmentElementList , Elisionopt AssignmentRestElementopt ]\n\n    [...]\n    3. Let iteratorRecord be Record {[[iterator]]: iterator, [[done]]: false}.\n    4. Let status be the result of performing\n       IteratorDestructuringAssignmentEvaluation of AssignmentElementList using\n       iteratorRecord as the argument.\n    5. If status is an abrupt completion, then\n       a. If iteratorRecord.[[done]] is false, return IteratorClose(iterator,\n          status).\n       b. Return Completion(status).\n\n---*/\nvar nextCount = 0;\nvar returnCount = 0;\nvar iterable = {};\nvar thrower = function() {\n  throw new Test262Error();\n};\nvar x;\nvar iterator = {\n  next: function() {\n    nextCount += 1;\n    return { done: true };\n  },\n  return: function() {\n    returnCount += 1;\n  }\n};\niterable[Symbol.iterator] = funct",
+        "output": "2200"
+    },
+    {
+        "instruction": "Renewable Energy -- Renewable energy is energy generated from natural resources that are replenished faster than they are consumed. Examples include solar, wind, hydro, and biomass energy. These sources of energy have lower greenhouse gas emissions and are seen as a way to mitigate climate change.\n\nQ: What is renewable energy and why is it important? ",
+        "input": "",
+        "output": "Renewable energy is energy generated from natural resources that are replenished faster than they are consumed, such as solar, wind, hydro, and biomass energy. It is important because it has lower greenhouse gas emissions and is seen as a way to mitigate climate change."
+    },
+    {
+        "instruction": "In this task, you will be given an array of integers. Your task is to find the three smallest integers in the array and return their sum.",
+        "input": "[5, 7, 2, 3].",
+        "output": "2"
+    },
+    {
+        "instruction": "Identify the most important value in project management.",
+        "input": "",
+        "output": "The most important value in project management is communication. Good communication is essential to ensure successful project outcomes. It allows team members to stay on the same page, ensuring that tasks are completed accurately and in a timely manner. Communication also enables project managers to stay aware of potential issues, providing the opportunity to address any issues before they become major problems. By being open and keeping everyone up to date, project managers can ensure their team is running efficiently and that their team can resolve any problems before they arise."
+    },
+    {
+        "instruction": "In this task, you need to write a function that takes in an array of integers and outputs the average (mean) of all the numbers.",
+        "input": "[1, 2, 3].",
+        "output": "mean\n2\n\ndef mean(arr)\n  sum = 0\n  arr.each do |num|\n    sum += num\n  end\n  sum / arr.length\nend"
+    },
+    {
+        "instruction": "In what ways can machine learning algorithms be applied to improve the accuracy of language translation in real-time communication?",
+        "input": "",
+        "output": "Machine learning algorithms can be applied to improve the accuracy of language translation in real-time communication in several ways:\n1. Neural Machine Translation (NMT): NMT is a machine learning-based approach that uses artificial neural networks to learn the mapping between source and target languages. This approach has shown significant improvements in translation quality and has become the standard approach for many translation services.\n2. Adaptive Machine Translation (AMT): AMT is a machine learning-based approach that adapts to the user's language and writing style. This approach uses machine learning algorithms to learn from the user's previous translations and adjust the translation accordingly.\n3. Contextual Machine Translation: Contextual machine translation takes into account the context of the text being translated. This approach uses machine learning algorithms to analyze the context of the text and adjust the translation accordingly.\n4. Reinforcement Learning: Reinforcement learning is a machine learning approach that uses trial and error to learn the best translation. This approach involves training the machine learning algorithm to make the best translation based on feedback from the user.\nBy using these machine learning algorithms, real-time language translation can become more accurate and efficient, making it easier for people to communicate across different languages."
+    },
+    {
+        "instruction": "You are given a short text as a title. Your task is to generate a poem as output that is related to the given title and should feel like written by kids. The output should be a run-on sentence (two or more complete sentences connected without any punctuation). The poem should not be too long or too complex, because it should feel like it is written by younger person without high level of literature education.\n\"JUST ME\"",
+        "input": "",
+        "output": "my nose be red my teeth be yellow my face be like an eye tureen i look just like a corn dog i'm very very strong my foot be far too long and wide my hand be leave and right and huge my voice be like the lionsa' roar i'm very very very very very very strong"
+    },
+    {
+        "instruction": "Create a plan to launch the given product.",
+        "input": "A new fashion line",
+        "output": "I will create a plan to launch the fashion line. The plan should include a promotional strategy, such as working with influencers, creating an online presence, and advertising campaigns. I should also include the timeline for production and the launch, as well as an inventory management plan to ensure a steady supply of the product."
+    },
+    {
+        "instruction": "Write a sentence about a restaurant with all the following attributes: name = The Punter, eatType = restaurant, food = Fast food, priceRange = more than £30",
+        "input": "",
+        "output": "The Punter is a fast food restaurant that offers meals at a price range of more than £30."
+    },
+    {
+        "instruction": " You are given a background paragraph that describes one or more causal or physical relationships, such as a relationship in economics, scientific law, or nature. You need to come up with a fictional story that makes use of the concepts or the relationship described in the provided paragraph. Make sure that your story does not repeat the relation in the given paragraph (e.g., by avoiding verbatim copies of the given paragraph). Start by reading the background paragraph, and determine what relationship(s) are in the paragraph. Write a story that involves the relationship(s) that you determined are in the background paragraph. Try to use your own words as much as possible and not repeat the background paragraph. Feel free to make up places and events as long as they tie back to the background paragraph in a way that you can ask a question about.\n\"Background Paragraph: The general trend in electronegativity is that the value increases from left to right across a row in the periodic table and decreases down a column. The most electronegative element is fluorine, which has a value of 4.0. As discussed in the lesson \"Trends in the Periodic Table,\" electronegativity increases across a row as the number of protons in the nucleus increases and therefore has a stronger pull. Electronegativity decreases down a column due to an increased effect of electron shielding in larger atoms.\"",
+        "input": "",
+        "output": "A high school student, Timmy, is reading about elements of a periodic table. He is studying the periodic table when he decides to compare two random elements within the same column. He chooses Mardine and Sampline to compare and contrast and gets to work. The first thing he notices is that Sampline is further down the periodic table than Mardine. It's not much information to go on, but it's a good starting point for Timmy."
+    },
+    {
+        "instruction": " You are given a background paragraph that describes one or more causal or physical relationships, such as a relationship in economics, scientific law, or nature. You need to come up with a fictional story that makes use of the concepts or the relationship described in the provided paragraph. Make sure that your story does not repeat the relation in the given paragraph (e.g., by avoiding verbatim copies of the given paragraph). Start by reading the background paragraph, and determine what relationship(s) are in the paragraph. Write a story that involves the relationship(s) that you determined are in the background paragraph. Try to use your own words as much as possible and not repeat the background paragraph. Feel free to make up places and events as long as they tie back to the background paragraph in a way that you can ask a question about.\n\"Background Paragraph: One of the main causes of extinction is introduction of exotic species into an environment. These exotic and new species can also be called invasive species or non-native species . These non-native species, being new to an area, may not have natural predators in the new habitat, which allows their populations to easily adapt and grow. Invasive species out-compete the native species for resources. Sometimes invasive species are so successful at living in a certain habitat that the native species go extinct ( Figure below ).\"",
+        "input": "",
+        "output": "India decided to introduce several exotic species into their environment, while Singapore was very protective of its native species."
+    },
+    {
+        "instruction": "A journalist is writing an article about the effects of social media on teenagers. He interviews a number of experts and compiles their responses. Some of the responses are contradictory. You need to identify which response supports the idea that social media has negative effects on teenagers, and which one refutes it.",
+        "input": "Social media can be harmful because it exposes teens to too much unsupervised activity at too young an age, said Dr XYZ from ABC institute.\nSocial media can have positive effects on teens by helping them connect with friends who share similar interests, said Dr XYZ from ABC institute.",
+        "output": "agree\ndisagree"
+    },
+    {
+        "instruction": "President Biden Announces New Infrastructure Bill\n\nWhich topic is this article about?\nOPTIONS:\n- World\n- Sports\n- Business\n- Science/Tech",
+        "input": "",
+        "output": "Business."
+    },
+    {
+        "instruction": "Please classify the given email as either \"work-related\" or \"personal\". In addition, please provide an analysis of the language and tone used in the email to determine the relationship between the sender and recipient. Finally, identify any potential marketing strategies employed by the sender to promote their new product.",
+        "input": "",
+        "output": "I'm happy to help! Could you please provide me with the email you would like me to analyze?"
+    },
+    {
+        "instruction": "How to be happy?",
+        "input": "",
+        "output": "To be happy for 1 hour   ----  sleep\nTo be happy for 3 hours  ----  go to cinema\nTo be happy for 1 day    ----  go to picnic\nTo be happy for lifetime  ----  Love your work."
+    },
+    {
+        "instruction": "In this task, you are given three entities: an event (E), a person (P), and an object/location (O). Your task is to determine whether the given event happened at the same time as the person was using/at the object/location. For example, if E is \"brush teeth\" and P is \"PersonX\", and O is \"toothbrush\", then the answer would be yes because PersonX was using a toothbrush while brushing their teeth. However, if E is \"sleeping\" and P is \"PersonY\" and O is \"couch\", then the answer would be no because PersonY wasn't using the couch while sleeping; they were just on it.",
+        "input": "Event1: take out trash<sep>Event2: eat breakfast<sep>Entity1: Tuesday morning<sep>Entity2: outside.",
+        "output": "No"
+    },
+    {
+        "instruction": "What text data set examples of Generative artificial intelligence",
+        "input": "A generative artificial intelligence or generative AI is a type of AI system capable of generating text, images, or other media in response to prompts. Generative AI systems use generative models such as large language models to statistically sample new data based on the training data set that was used to create them.\n\nNotable generative AI systems include ChatGPT, a chatbot built by OpenAI using the GPT-3 and GPT-4 large language models and Bard, a chatbot built by Google using the LaMDA model. Other generative AI models include artificial intelligence art systems such as Stable Diffusion, Midjourney, and DALL-E.\n\nGenerative AI has potential applications across a wide range of industries, including software development, marketing, and fashion. Investment in generative AI surged during the early 2020s, with large companies such as Microsoft, Google, and Baidu as well as numerous smaller firms developing generative AI models.\n\nModalities\nA detailed oil painting of figures in a futuristic opera scene\nThéâtre d'Opéra Spatial, an image generated by Midjourney\nA generative AI system is constructed by applying unsupervised or self-supervised machine learning to a data set. The capabilities of a generative AI system depend on the modality or type of the data set used.\n\nText: Generative AI systems trained on words or word tokens include GPT-3, LaMDA, LLaMA, BLOOM, GPT-4, and others (see List of large language models). They are capable of natural language processing, machine translation, and natural language generation and can be used as foundation models for other tasks. Data sets include BookCorpus, Wikipedia, and others (see List of text corpora).\nCode: In addition to natural language text, large language models can be trained on programming language text, allowing them to generate source code for new computer programs. Examples include OpenAI Codex.\nImages: Generative AI systems trained on sets of images with text captions include such as Imagen, DALL-E, Midjourney, Stable Diffusion and others (see Artificial intelligence art, Generative art, Synthetic media). They are commonly used for text-to-image generation and neural style transfer. Datasets include LAION-5B and others (See Datasets in computer vision).\nMolecules: Generative AI systems can be trained on sequences of amino acids or molecular representations such as SMILES representing DNA or proteins. These systems, such as AlphaFold, are used for protein structure prediction and drug discovery. Datasets include various biological datasets.\nMusic: Generative AI systems such as MusicLM can be trained on the audio waveforms of recorded music along with text annotations, in order to generate new musical samples based on text descriptions such as \"a calming violin melody backed by a distorted guitar riff\".\nVideo: Generative AI trained on annotated video can generate temporally-coherent video clips. Examples include Gen1 by RunwayML and Make-A-Video by Meta Platforms.\nMultimodal: A generative AI system can be built from multiple generative models, or one model trained on multiple types of data. For example, one version of OpenAI's GPT-4 accepts both text and image inputs.",
+        "output": "text data set examples of Generative artificial intelligence Data sets include BookCorpus, Wikipedia"
+    },
+    {
+        "instruction": "Rearrange the given sentence to form a new sentence with the same meaning.",
+        "input": "The athlete is preparing to run the 1000 metre track race.",
+        "output": "Put the concepts together to form a sentence: athlete, prepare, run."
+    },
+    {
+        "instruction": "How can I use [formula] to calculate the average of a set of numbers in Excel?\nTo calculate the average of a set of numbers in Excel, use the following formula:\n=AVERAGE(A1:A10)\nReplace A1:A10 with the range of cells that contains the numbers you want to calculate the average of. The formula will add up all the numbers in the range and then divide the sum by the number of cells in the range.\nFor example, if you have the following numbers in cells A1 to A10: 2, 4, 6, 8, 10, 12, 14, 16, 18, 20. To find the average, enter the formula =AVERAGE(A1:A10) in another cell, such as B1. The result will be 11.",
+        "input": "",
+        "output": "Is there anything else you would like to know about calculating averages in Excel?"
+    },
+    {
+        "instruction": "Given a list of countries, give me the top 10 most visited cities in each country.",
+        "input": "List of countries: France, Germany, Italy, Spain, United Kingdom, Canada, Australia, Brazil, Russia, India",
+        "output": "Paris"
+    },
+    {
+        "instruction": "Write a short essay about the following topic: \"is it possible to be completely objective?\"",
+        "input": "Topic: Is it possible to be completely objective?",
+        "output": "It is impossible to be completely objective. We are all biased in some way, and we can never escape that bias. However, it is possible to be more objective than others. For example, if you have a friend who is very opinionated about politics, you might try to avoid talking about politics with him or her. This will help you to avoid being influenced by your friend's opinions."
+    },
+    {
+        "instruction": "You will be given a paragraph of text followed by several questions. For each question, you need to determine if the answer is found in the text or not (based on your reading comprehension). Output your answers as True or False - if it is true that the answer can be found in the text, output True, otherwise output False.",
+        "input": "Text: Mark Zuckerberg founded Facebook in 2004 from his Harvard University dorm room. The social media website was launched to fellow students before being made available to everyone aged 13 and over with a valid email address. Facebook became an instant hit, growing rapidly throughout 2005 and 2006. By 2007, it had reached one hundred million active users; by 2010 this figure had risen to six hundred and fifty-five million; and today there are over two billion active users worldwide\nQuestion 1: Is Facebook only available to people aged 13 years and older?",
+        "output": "True"
+    },
+    {
+        "instruction": "Title:\"THIS THAT\"\nYou are given a short text as a title. Your task is to generate a poem as output that is related to the given title and should feel like written by kids. The output should be a run-on sentence (two or more complete sentences connected without any punctuation). The poem should not be too long or too complex, because it should feel like it is written by younger person without high level of literature education.",
+        "input": "",
+        "output": "double double this this double double that that double this double that double double this that"
+    },
+    {
+        "instruction": "Are electric vehicles better for the environment than cars powered by fossil fuels?",
+        "input": "",
+        "output": "The rise of electric vehicles (or EVs) has been fueled by many factors -- including innovation, acceleration, design and tax breaks -- but the underlying assumption that electric vehicles are less harmful to the environment and may even mitigate global warming has been a primary motivator for hundreds of thousands of buyers.\n\nDespite the virtuous aura of owning an electric vehicle, the jury is still out on whether EVs have a net positive impact on the environment or will do anything to curtail climate change.  That's because, while the experience of driving an EV may feel like a zero-compromise embrace of green energy, the vast industrial network needed to build and power EVs diminishes the halo effect. On the other hand, the fossil fuels that power traditional vehicles are definitely contributing to global warming and leave the world vulnerable to oil shocks and pressure from oil-producing countries. \n\nWhether EVs are better or worse for the environment is still to be determined. But a more insidious trend is the growing size and power of electric vehicles. Smaller vehicles, traveling fewer miles, represents a proven formula for reducing emissions and reversing climate change. But already, we're seeing the advent of electric trucks and SUVs, which are heavier, loaded with bells and whistles so they require more and more power to move people around. Coupled with the problem of drivers feeling like their EV gives them the right to drive as much as they want and you can see a reality emerging where the problem of Americans driving giant gas guzzlers is being replaced with American driving giant, power-sucking EVs. And that's leading us even faster down the road to environmental disaster."
+    },
+    {
+        "instruction": "Respond in 1 sentences. What events were held at the 2014 Asian Games?",
+        "input": "",
+        "output": "The women's team competition at the 2014 Asian Games in Incheon, South Korea was held from 25 September to 28 September at the Dream Park Country Club."
+    },
+    {
+        "instruction": "Find all the names mentioned in the article and output them with their corresponding number of mentions.",
+        "input": "Article: The Golden State Warriors have won the NBA championship for the second year in a row.",
+        "output": "(b)"
+    },
+    {
+        "instruction": "Given a code snippet, identify if there is a bug in the code.",
+        "input": "[I] want to know if it properly represents PolyMorphism in JavaScript?\n\n\nYour code could be considered a representation of polymorphism when considering that the noOfSides() function was changed for a single instance of the customShape type, but that doesn't really apply to all objects of that type. Traditionally in Object-Oriented programming, sub-typing would be used to create sub-classes that inherit the properties and methods of the base class. \n\nYou created instances of customShape, but didn't really make any objects that inherit that functionality. For instance, you made the triangle instance and added a function (like a method) to that one instance:\n\n\nvar triangle = new customShape();\ntriangle.noOfSides = function(){\n    return (\"Total No of Sides = \" + 3);\n}\n\n\n\nLooking at the fourth reference you included, look at the Padawan inheritance example\n\n\nvar jedi = function(name, age) {\n    Padawan.call(this, name, age);\n};\njedi.prototype = Object.create(Padawan.prototype);\n\n\n\nSimilarly, you could make a constructor for a triangle. The customShape constructor doesn't appear to accept any parameters, though it could accept the number of sides, in which case the triangle constructor could pass that in as an argument to the call to customShape.call(), but for now, the sides property can be set after that call.\n\nfunction triangle() {\n    //initialization code\n    customShape.call(this);\n    this.sides = 3;\n}\n\n\nAnd then set the prototype for the triangle to an object with the customShape prototype:\n\ntriangle.prototype = Object.create(customShape.prototype);\n\n\nThen you don't need to add an additional noOfSides() function for the triangle. See a demonstration below. Note that I updated the noOfSides() method to utilize this.sides instead of a hard-coded value (like Matt Fletcher mentioned in a comment on your SO question, and also did in the jsbin example he made and linked in another comment).\n\n\r\n\r\nvar customShape = function(){\n    this.sides = 4;\n    this.length = 5;\n  ",
+        "output": "Custom shapes objects using polymorphism in JavaScript I have made the following example and want to know if it properly represents polymorphism in JavaScript.\n\n\r\n\r\nvar customShape = function(){\n    this.sides = 4;\n    this.length = 5;\n    this.perimeter = 4 * this.length; \n};\n\ncustomShape.prototype.noOfSides = function(){\n    return (\"Total No of Sides = \" + 4);\n}\n\nvar rect = new customShape();\nvar square = new customShape();\nvar triangle = new customShape();\ntriangle.noOfSides = function(){\n    return (\"Total No of Sides = \" + 3);\n}\n\nconsole.log(rect.noOfSides());\nconsole.log(square.noOfSides());\nconsole.log(triangle.noOfSides());\r\n\r\n\r\n\n\nMy intention was to make a function noOfSides() which works for different objects.\n\nReferences:\n\n\nWhat is polymorphism, what is it for, and how is it used?\nWhat is polymorphism? Explain with an example?\nWhat is polymorphism in Javascript?\nBasic javascript inheritance and polymorphism"
+    },
+    {
+        "instruction": "Given two phrases, determine if the first phrase is a paraphrase of the second. A paraphrase is a restatement of the same information using different words.",
+        "input": "Phrase1: The restaurant provides an enjoyable experience<sep>Phrase2: You will have fun at this eatery.",
+        "output": "Yes"
+    },
+    {
+        "instruction": "Write an acrostic poem with the given word as the first letter of each line.",
+        "input": "Word: Machine Learning",
+        "output": "Machine learning is a branch of artificial intelligence.\nIt's used in many areas such as computer vision, speech recognition, natural language processing, etc.\nIt's used in various fields like medicine, finance, robotics, etc.\nIt's used to make predictions from data.\nIt's used to automate tasks that are done by humans."
+    },
+    {
+        "instruction": "The US stock market fell by 800 points today due to concerns over the ongoing trade war with China. \n@highlight\nIdentify the causes of the US stock market downturn. ",
+        "input": "",
+        "output": "The US stock market fell by 800 points due to concerns over the ongoing trade war with China."
+    },
+    {
+        "instruction": "Summarize the main reasons why small businesses need a website.",
+        "input": "",
+        "output": "Having a website is essential for small businesses because it allows them to market their products and services, to reach new customers, to generate leads and sales, and to increase their visibility. It also makes it easier for customers to find information about their business, providing them a platform to build trust and credibility."
+    },
+    {
+        "instruction": "You are given an English text and your task is to find the most frequent words in it. The output should be case-sensitive, so do not convert the words to lowercase before counting them.",
+        "input": "The quick brown fox jumps over the lazy dog.",
+        "output": "The\nquick\nbrown\nfox\njumps\nover\nthe\nlazy\ndog."
+    },
+    {
+        "instruction": "You are given a couple of recipes. Your task is to find out whether you can cook both the dishes using the same set of ingredients, and if so, in how many steps.",
+        "input": "1) 3 eggs 2) 1/2 cup milk 3) 1 cup flour 4) 3 tbsp sugar 5) 1 tsp vanilla extract 6) 1/4 tsp salt 7 chocolate chips (optional); 8 vegetable oil or butter \n1) Preheat oven at 350 degrees F (175 degrees C). Grease and flour one 9x13 inch baking pan. \n2) Beat together eggs, milk, flour, sugar, vanilla extract and salt. Stir in chocolate chips if desired. Pour batter into prepared pan. \n3)) Bake at 350 degrees F (175 degrees C), for 30 minutes or until cake tests done when touched lightly in center with finger.\n4 margarine; 5 white sugar; 6 eggs; 7 all-purpose flour; 8 baking powder; 9 salt; 10 milk; 11 vanilla extract\n1Preheat oven to 375 degrees F (190 degrees C). Grease an 8x8 inch baking dish.' \n2Cream margarine or butter and sugar until fluffy. Add eggs and beat well.' \n3Sift together flour, baking powder and salt then add to creamed mixture alternately with milk.' \n4Stir in vanilla extract then pour batter into prepared dish.' \n5Bake 25 minutes in the preheated oven,'until golden brown on top.\".",
+        "output": "Yes\n8"
+    },
+    {
+        "instruction": "Write one paragraph on the relevance of AI/ML in the field of Data Engineering",
+        "input": "",
+        "output": "AI/ML can be used for multiple aspects of Data Engineering including but not limited to data pipeline automation, automated anomaly detection frameworks, automated data quality improvement, table relationship detection (Primary Key/Foreign Key relationship detection), automated semantic data model creation and mapping, etc. Each one of these applications has the potential for significant impact in the Data Engineering field whether in terms of people hours saved through automation, the feasibility of capabilities which were not economically viable before because of labor costs or other factors."
+    },
+    {
+        "instruction": "What is a verb?",
+        "input": "",
+        "output": "A verb is an action word that describes an activity.  Examples of verbs are the following: swimming, hiking, biking, roller skating, or skydiving.  All of these single and combination word examples are tied to an activity that any living thing can do.  For example, a dog can bike ride with a human when the human is pedaling the bike.  Verb use is not limited to humans or people only but applies to all living things."
+    },
+    {
+        "instruction": "In this case, we have two sentences, each with its own meaning. the task is to compare them and say which one is better (or more appropriate). for example: \"i like apple\" vs \"apple tastes good\".",
+        "input": "Sentence 1: I like apple.\nSentence 2: Apple tastes bad.",
+        "output": "worse"
+    },
+    {
+        "instruction": " You are given a background paragraph that describes one or more causal or physical relationships, such as a relationship in economics, scientific law, or nature. You need to come up with a fictional story that makes use of the concepts or the relationship described in the provided paragraph. Make sure that your story does not repeat the relation in the given paragraph (e.g., by avoiding verbatim copies of the given paragraph). Start by reading the background paragraph, and determine what relationship(s) are in the paragraph. Write a story that involves the relationship(s) that you determined are in the background paragraph. Try to use your own words as much as possible and not repeat the background paragraph. Feel free to make up places and events as long as they tie back to the background paragraph in a way that you can ask a question about.\n\"Background Paragraph: There are many examples in the chemical world of changes in entropy. Phase transitions are one obvious example. When a substance makes a transition from the liquid state to the gaseous state, the particles have many more possible arrangements, because they are no longer confined to a specified volume in which they are close to each other; gas particles can move freely throughout their container. Vaporization represents an increase in entropy. In the opposite direction, a liquid loses entropy when it freezes to a solid. Because solids have very ordered structures, there are fewer possible arrangements of particles that would result in the properties associated with a solid.\"",
+        "input": "",
+        "output": "A boy is sitting at the side of the lake catching some fish when his dad begins to explain to him that the water he is fishing in is actually continuously evaporating into the air and turning into a gas. The water he is fishing in will eventually turn into the clouds that he sees in the sky."
+    },
+    {
+        "instruction": "Make a list of healthy food items to eat at home.",
+        "input": "",
+        "output": "- Broccoli\n- Spinach"
+    },
+    {
+        "instruction": "You are given a short text as a title. Your task is to generate a poem as output that is related to the given title and should feel like written by kids. The output should be a run-on sentence (two or more complete sentences connected without any punctuation). The poem should not be too long or too complex, because it should feel like it is written by younger person without high level of literature education.\n\"Omen of the warrior princess\"",
+        "input": "",
+        "output": "she stand abroad paws outstretched her yawn so beautiful she meow a song and all head turn to see the lovely sight she take one last lick then walk away and leave her grand perch all head turn in awe to capture her beauty but she sha n't be go for she'll be back to take her kingdom rein she'll fight ti l last for she be at the top her tail swoop one last time a she leave the crowd her kingdom cheer for they shall be wait on forever more for their savior to take the rein"
+    },
+    {
+        "instruction": "What is the coldest place on Earth to live?",
+        "input": "",
+        "output": "The coldest place on Earth to live is Yakutsk in Siberia."
+    },
+    {
+        "instruction": "Describe what a customer service representative should do.",
+        "input": "",
+        "output": "A customer service representative should be professional, courteous, and knowledgeable while providing assistance. They should listen to the customer's needs and strive to provide solutions that meet those needs in a timely manner. They should also strive to maintain a positive attitude and remain patient and understanding with customers."
+    },
+    {
+        "instruction": "Title:\"Woofs\"\nYou are given a short text as a title. Your task is to generate a poem as output that is related to the given title and should feel like written by kids. The output should be a run-on sentence (two or more complete sentences connected without any punctuation). The poem should not be too long or too complex, because it should feel like it is written by younger person without high level of literature education.",
+        "input": "",
+        "output": "woof bite you bad woof can scratch you really good woof still hurt you"
+    },
+    {
+        "instruction": "An equation is provided in the input. Your task is to rearrange it such that it becomes a valid equality and outputs the value of one of the variables. The only arithmetic operators needed are'+'(addition), '-'(subtraction), '*'(multiplication) and '/ '(division). The answer should be correct up to 2 decimal places.",
+        "input": "y=-4x+3.",
+        "output": "5\n\nx=0.875"
+    },
+    {
+        "instruction": "Generate a set of numbers with a certain property. for example, find all numbers that are divisible by 5 but not by 2.",
+        "input": "[1, 2, 3, 4, 5]",
+        "output": "[5]"
+    },
+    {
+        "instruction": " You are given a background paragraph that describes one or more causal or physical relationships, such as a relationship in economics, scientific law, or nature. You need to come up with a fictional story that makes use of the concepts or the relationship described in the provided paragraph. Make sure that your story does not repeat the relation in the given paragraph (e.g., by avoiding verbatim copies of the given paragraph). Start by reading the background paragraph, and determine what relationship(s) are in the paragraph. Write a story that involves the relationship(s) that you determined are in the background paragraph. Try to use your own words as much as possible and not repeat the background paragraph. Feel free to make up places and events as long as they tie back to the background paragraph in a way that you can ask a question about.\n\"Background Paragraph: When the temperature of reactants is higher, the rate of the reaction is faster. At higher temperatures, particles of reactants have more energy, so they move faster. They are more likely to bump into one another and to collide with greater force. For example, when you fry an egg, turning up the heat causes the egg to cook faster. The same principle explains why storing food in a cold refrigerator reduces the rate at which food spoils (see Figure below ). Both food frying and food spoiling are chemical reactions that happen faster at higher temperatures.\"",
+        "input": "",
+        "output": "Ned learned about reactions at a higher temperature for his physics class, while Paul had to learn about reactions at lower temperatures."
+    },
+    {
+        "instruction": "Describe a person based on his/her personality traits.",
+        "input": "",
+        "output": "Person: My boss is very strict and demanding. She never hesitates to criticize my work. She is also very impatient and doesn't like to repeat herself."
+    },
+    {
+        "instruction": "You are given four different sets of three consecutive positive integers. Your task is to determine whether or not all three numbers in each set could be the sides of a right triangle.",
+        "input": "3, 4, 5; 5, 12, 13; 8, 15, 17; 24, 25, 26.",
+        "output": "True"
+    },
+    {
+        "instruction": "There will be two sets of instructions for this task. For each set, read through the instructions and follow them to create a new string based on the given information. The first letter of each word in your new string should be capitalized, even if the words were originally not capitalized (e.g., 'of' or 'the').",
+        "input": "Set 1 - Given a list of strings representing people's names ['Frodo Baggins', 'Samwise Gamgee'] , create a single string that concatenates all these strings together such that there is only one space between any consecutive pair of words and output it as described above.",
+        "output": "'Frodo Baggins Samwise Gamgee'\n\n=>\n\n'Frodo Baggins Samwise Gamgee'"
+    },
+    {
+        "instruction": "Find all sentences that contain a verb and output the sentence index.",
+        "input": "Sentence: I went to the movies yesterday.",
+        "output": "Verb"
+    },
+    {
+        "instruction": "Tell me if the text contains any numbers. if it does then output their frequency.",
+        "input": "Text: The number of people who attended the meeting was 100.",
+        "output": "No"
+    },
+    {
+        "instruction": "In this task, you are given a list of names and a list of address strings. The goal is to return one string that contains all the information from both lists in the following format: \"name1 <sep> address1 <sep> name2 <sep> address2\". Note that some addresses may have multiple lines, but each line should end with \"\\n\". If there are an uneven number of names or addresses, append the extra element to the end of the returned string (e.g., if there are three names and two addresses, append the third name). Each input will have at most 100 elements.",
+        "input": "List 1 - [\"John Smith\", \"Jane Doe\", \"Joe Johnson\"] List 2 - [\"123 Main Street\", \"456 Elm Street\\n789 Broad Street\"].",
+        "output": "John Smith <sep> 123 Main Street <sep> Jane Doe <sep> 456 Elm Street\n789 Broad Street <sep> Joe Johnson"
+    },
+    {
+        "instruction": "Give an example of a way AI can be used in the healthcare industry.",
+        "input": "",
+        "output": "AI can be used to streamline and improve the accuracy of medical diagnoses by providing support for medical professionals. AI algorithms combined with medical image processing can be utilized to quickly identify tumors, detect abnormalities in CT scans, and other image analysis tasks. AI-powered chatbots can be used to connect patients with medical professionals, provide personalized advice and support, and even suggest follow-up treatments."
+    },
+    {
+        "instruction": "Given a repository name and a file path, return the code.",
+        "input": "repo_name is 'legatoproject/legato-docs'. path is '15_08/legato_8h.html'. ",
+        "output": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/xhtml;charset=UTF-8\"/>\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=9\"/>\n<title>LEGATO: framework/c/inc/legato.h File Reference</title>\n<link href=\"tabs.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<link href=\"fonts.css\" rel=\"stylesheet\" type=\"text/css\" />\n<link href=\"legato.css\" rel=\"stylesheet\" type=\"text/css\" />\n<script type=\"text/javascript\" src=\"jquery.js\"></script>\n<link href=\"navtree.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<script type=\"text/javascript\" src=\"resize.js\"></script>\n<script type=\"text/javascript\" src=\"navtreedata.js\"></script>\n<script type=\"text/javascript\" src=\"navtree.js\"></script>\n<script type=\"text/javascript\">\n  $(document).ready(initResizable);\n  $(window).load(resizeHeight);\n</script>\n<link href=\"search/search.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<script type=\"text/javascript\" src=\"search/searchdata.js\"></script>\n<script type=\"text/javascript\" src=\"search/search.js\"></script>\n<script type=\"text/javascript\">\n  $(document).ready(function() { init_search(); });\n</script>\n<link rel=\"icon\" type=\"image/png\" href=\"favicon.ico\" />\n</head>\n<body>\n<div id=\"top\"><!-- do not remove this div! -->\n<div id=\"titlearea\">\n<table cellspacing=\"0\" cellpadding=\"0\">\n <tbody>\n <tr style=\"height: 56px;\">\n  <td id=\"projectlogo\">\n    <img alt=\"Logo\" src=\"legatoLogo.png\"/>\n    <div id=\"projectbrief\">Simplifying IoT development</div>\n  </td>\n   <td>        <div id=\"MSearchBox\" class=\"MSearchBoxInactive\">\n        <span class=\"left\">\n          <img id=\"MSearchSelect\" src=\"search/mag_sel.png\"\n               onmouseover=\"return searchBox.OnSearchSelectShow()\"\n               onmouseout=\"return searchBox.OnSearchSelectHide()\"\n               alt=\"\"/>\n          <input type=\"text\" id=\"MSearchField\" value=\"Search\" accesskey=\"S\"\n               onfocus=\"searchBox.O"
+    },
+    {
+        "instruction": "Create an algorithm that generates a permutation of numbers from 1 to 10 in the order they are written.",
+        "input": "",
+        "output": "def permute(nums):\n    if nums == []:\n    return []\n    else:\n    return [n for i in range(len(nums))] + permute(nums[1:])"
+    }
+]
