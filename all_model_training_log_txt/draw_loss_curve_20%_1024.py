@@ -30,13 +30,13 @@ json_folder = '/gluster_pdc_llm/user/songjielin/extracted_120k_data/all_model_tr
 # 获取文件夹中的所有 JSON 文件
 # json_files = [f for f in os.listdir(json_folder) if f.endswith('.json') and f !='selected_full_data_log.json' and f!='selected_10%_data_log.json' and f!='selected_15%_data_log.json' and f!='selected_20%_data_1024_log.json']
 
-json_files = ['/gluster_pdc_llm/user/songjielin/extracted_120k_data/all_model_training_log_txt/selected_20%_data_log.json','/gluster_pdc_llm/user/songjielin/extracted_120k_data/all_model_training_log_txt/classifier_only_20%_log.json',
-'/gluster_pdc_llm/user/songjielin/extracted_120k_data/all_model_training_log_txt/diversity_only_20%_log.json','/gluster_pdc_llm/user/songjielin/extracted_120k_data/all_model_training_log_txt/non_iteration_bert_20%_log.json',
-'/gluster_pdc_llm/user/songjielin/extracted_120k_data/all_model_training_log_txt/complete_random_20%_log.json']
+# json_files = ['/gluster_pdc_llm/user/songjielin/extracted_120k_data/all_model_training_log_txt/selected_20%_data_log.json','/gluster_pdc_llm/user/songjielin/extracted_120k_data/all_model_training_log_txt/classifier_only_20%_log.json',
+# '/gluster_pdc_llm/user/songjielin/extracted_120k_data/all_model_training_log_txt/diversity_only_20%_log.json','/gluster_pdc_llm/user/songjielin/extracted_120k_data/all_model_training_log_txt/non_iteration_bert_20%_log.json',
+# '/gluster_pdc_llm/user/songjielin/extracted_120k_data/all_model_training_log_txt/complete_random_20%_log.json']
 
-# json_files = ['/gluster_pdc_llm/user/songjielin/extracted_120k_data/all_model_training_log_txt/selected_20%_data_1024_log.json','/gluster_pdc_llm/user/songjielin/extracted_120k_data/all_model_training_log_txt/classifier_only_20%_1024_log.json',
-# '/gluster_pdc_llm/user/songjielin/extracted_120k_data/all_model_training_log_txt/diversity_only_20%_1024_log.json','/gluster_pdc_llm/user/songjielin/extracted_120k_data/all_model_training_log_txt/non_iteration_bert_20%_1024_log.json',
-# '/gluster_pdc_llm/user/songjielin/extracted_120k_data/all_model_training_log_txt/complete_random_20%_1024_log.json']
+json_files = ['/gluster_pdc_llm/user/songjielin/extracted_120k_data/all_model_training_log_txt/selected_20%_data_1024_log.json','/gluster_pdc_llm/user/songjielin/extracted_120k_data/all_model_training_log_txt/classifier_only_20%_1024_log.json',
+'/gluster_pdc_llm/user/songjielin/extracted_120k_data/all_model_training_log_txt/diversity_only_20%_1024_log.json','/gluster_pdc_llm/user/songjielin/extracted_120k_data/all_model_training_log_txt/non_iteration_bert_20%_1024_log.json',
+'/gluster_pdc_llm/user/songjielin/extracted_120k_data/all_model_training_log_txt/complete_random_20%_1024_log.json']
 
 # json_files = ['/gluster_pdc_llm/user/songjielin/extracted_120k_data/all_model_training_log_txt/complete_random_20%_log.json','/gluster_pdc_llm/user/songjielin/extracted_120k_data/all_model_training_log_txt/selected_20%_data_log.json']
 # json_files = ['/gluster_pdc_llm/user/songjielin/extracted_120k_data/all_model_training_log_txt/classifier_only_20%_log.json','/gluster_pdc_llm/user/songjielin/extracted_120k_data/all_model_training_log_txt/selected_20%_data_log.json']
@@ -45,7 +45,7 @@ json_files = ['/gluster_pdc_llm/user/songjielin/extracted_120k_data/all_model_tr
 
 # plt.figure(figsize=(12, 8))
 
-plt.figure(figsize=(12, 8))
+plt.figure(figsize=(20, 16))
 
 # 遍历每个 JSON 文件
 for json_file in json_files:
@@ -53,9 +53,9 @@ for json_file in json_files:
         data = json.load(f)
         
     # 提取 step 和 loss 信息
-    # steps = list(range(1, len(data) + 1))
+    steps = list(range(1, len(data) + 1))
 
-    steps = [i*2 for i in range(len(data))]
+    # steps = [i*2 for i in range(len(data))]
     losses = [item['loss'] for item in data]
 
     # 提取文件名作为标签
@@ -64,15 +64,15 @@ for json_file in json_files:
     # 绘制曲线
     plt.plot(steps, losses, label=label,linewidth=2)
 
-plt.xlabel('Step',fontsize=14)
-plt.ylabel('Loss',fontsize=14)
+plt.xlabel('Step',fontsize=16)
+plt.ylabel('Loss',fontsize=16)
 plt.title('Training Loss vs Step for Multiple Models',fontsize=14)
-plt.legend(loc='upper right', fontsize=10)
+plt.legend(loc='upper right', fontsize=12)
 plt.grid(True,linestyle='--', alpha=0.7)
-plt.xticks(fontsize=12)
-plt.yticks(fontsize=12)
+plt.xticks(fontsize=14)
+plt.yticks(fontsize=14)
 plt.show()
-plt.savefig('/gluster_pdc_llm/user/songjielin/extracted_120k_data/all_model_training_log_txt/20%_compare_1024.png')
+plt.savefig('/gluster_pdc_llm/user/songjielin/extracted_120k_data/all_model_training_log_txt/20%_compare_1024_new.png')
 
 # import json
 # import matplotlib.pyplot as plt
