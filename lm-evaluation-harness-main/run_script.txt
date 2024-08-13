@@ -1,0 +1,66 @@
+
+vanilla_model:
+lm_eval --model hf --model_args pretrained='/gluster_pdc_llm/user/songjielin/initial_checkpoint/Llama-2-7b-hf' --tasks rte --device cuda:2 --batch_size 8
+
+selected_5%_data:
+lm_eval --model hf  --model_args pretrained='/gluster_pdc_llm/user/songjielin/extracted_120k_data/selected_5%_data/model_output/songjielin/job-0bb6696368bf1206/output/checkpoint-66' --tasks rte --device cuda:2 --batch_size 8
+
+
+selected_10%_data:
+lm_eval --model hf  --model_args pretrained='/gluster_pdc_llm/user/songjielin/extracted_120k_data/selected_full_data/model_output/songjielin/job-0bb6696808a0ac0e/output/checkpoint-132' --tasks rte --device cuda:2 --batch_size 8
+
+selected_15%_data:
+lm_eval --model hf  --model_args pretrained='/gluster_pdc_llm/user/songjielin/extracted_120k_data/selected_15%_data/model_output/songjielin/job-0bb6698782b2cdca/output/checkpoint-198' --tasks rte --device cuda:2 --batch_size 8
+
+selected_20%_data:
+lm_eval --model hf  --model_args pretrained='/gluster_pdc_llm/user/songjielin/extracted_120k_data/selected_20%_data/model_output_second/songjielin/job-0bb669a3eae0ab3e/output/checkpoint-264' --tasks rte --device cuda:2 --batch_size 8
+
+selected_60%_data:
+lm_eval --model hf --model_args pretrained='/gluster_pdc_llm/user/songjielin/extracted_120k_data/selected_60%_data/model_output_1024/songjielin/job-0bb66a5fe7903be3/output/checkpoint-1590' --tasks arc_challenge --device cuda:2 --batch_size 8
+
+diversity_only_15%_data:
+lm_eval --model hf  --model_args pretrained='/gluster_pdc_llm/user/songjielin/extracted_120k_data/selected_diversity_only_data/model_output_15%/songjielin/job-0bb669b544a63f92/output/checkpoint-198' --tasks rte --device cuda:2 --batch_size 8
+
+diversity_only_20%_data:
+lm_eval --model hf  --model_args pretrained='/gluster_pdc_llm/user/songjielin/extracted_120k_data/selected_diversity_only_data/model_output_20%/songjielin/job-0bb669b5459164fb/output/checkpoint-264' --tasks rte --device cuda:2 --batch_size 8
+
+non_iteration_bert_15%_data:
+lm_eval --model hf  --model_args pretrained='/gluster_pdc_llm/user/songjielin/extracted_120k_data/selected_non_iteration_bert_1600_data/model_output_15%/songjielin/job-0bb669b52997b82c/output/checkpoint-198' --tasks rte --device cuda:2 --batch
+_size 8
+
+non_iteration_bert_20%_data:
+lm_eval --model hf  --model_args pretrained='/gluster_pdc_llm/user/songjielin/extracted_120k_data/selected_non_iteration_bert_1600_data/model_output_20%/songjielin/job-0bb669b5250a4665/output/checkpoint-264' --tasks rte --device cuda:2 --batch
+_size 8
+
+selected_full_data:
+lm_eval --model hf  --model_args pretrained='/gluster_pdc_llm/user/songjielin/extracted_120k_data/selected_full_data/model_output/songjielin/job-0bb66963e199896f/output/checkpoint-1323' --tasks rte --device cuda:2 --batch_size 8
+
+
+selected_complete_random_20%_data:
+lm_eval --model hf  --model_args pretrained='/gluster_pdc_llm/user/songjielin/extracted_120k_data/selected_complete_random_data/model_output/songjielin/job-0bb669bf8bdb0aef/output/checkpoint-264' --tasks gpqa  --device cuda:4  --batch_size 8
+
+
+seletced_classifier_only_20%_data:
+lm_eval --model hf  --model_args pretrained='/gluster_pdc_llm/user/songjielin/extracted_120k_data/seletced_non_diversity_data/model_output/songjielin/job-0bb669f4bb9b454f/output/checkpoint-264' --tasks arc_challenge  --device cuda:4  --batch_size 8
+
+
+WizardLM_20%:
+lm_eval --model hf  --model_args pretrained='/gluster_pdc_llm/user/songjielin/WizardLM/selected_20%_data_finetune/model_output/songjielin/job-0bb669fbbb15642d/output/checkpoint-162' --tasks arc_challenge  --device cuda:1  --batch_size 8
+
+
+Alpaca_full
+lm_eval --model hf --model_args pretrained='/gluster_pdc_llm/user/songjielin/stanford_alpaca/output_7B_test/songjielin/job-0bb66874d6fca944/output/checkpoint-609' --tasks arc_challenge --device cuda:2 --batch_size 8
+
+selected_20%_data_1024:
+lm_eval --model hf --model_args pretrained='/gluster_pdc_llm/user/songjielin/extracted_120k_data/selected_20%_data/model_output_1024/songjielin/job-0bb66a453d6ab7f4/output/checkpoint-528' --tasks arc_challenge --device cuda:2 --batch_size 8
+
+WizardLM_full:
+lm_eval --model hf --model_args pretrained='/gluster_pdc_llm/user/songjielin/WizardLM/selected_full_data/model_output/songjielin
+/job-0bb66a4591d3ff31/output/checkpoint-3282' --tasks arc_challenge --device cuda:2 --batch_size 8
+
+
+WizardLM_20_2048:
+lm_eval --model hf --model_args pretrained='/gluster_pdc_llm/user/songjielin/WizardLM/selected_20%_data_finetune/model_output_2048/songjielin/job-0bb66a5e5eb193da/output/checkpoint-657' --tasks arc_challenge --device cuda:2 --batch_size 8
+
+
+
