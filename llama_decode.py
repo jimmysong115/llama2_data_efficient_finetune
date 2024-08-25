@@ -86,11 +86,11 @@ client = OpenAI(
     base_url=openai_api_base,
 )
 
-# test_json_file = '/gluster_pdc_llm/user/songjielin/Vicuna/Vicuna_test_set.json'
+test_json_file = '/gluster_pdc_llm/user/songjielin/Vicuna/Vicuna_test_set.json'
 # test_json_file = '/gluster_pdc_llm/user/songjielin/LIMA/LIMA_test_set.json'
 # test_json_file = '/gluster_pdc_llm/user/songjielin/WizardLM/WizardLM_testset.json'
 # test_json_file = '/gluster_pdc_llm/user/songjielin/koala_test/koala_test_set.json'
-test_json_file = '/gluster_pdc_llm/user/songjielin/self_instruct/self_instruct_testset.json'
+# test_json_file = '/gluster_pdc_llm/user/songjielin/self_instruct/self_instruct_testset.json'
 
 # test_json_file = '/gluster_pdc_llm/user/songjielin/extracted_120k_data/selected_diversity_1600_data/all_seleted_input_data.json'
 
@@ -114,8 +114,31 @@ with open(test_json_file, 'r') as file:
 
         print(prompt)
 
+
+
+        # chat template requires model checkpoint's tokenizer_config.json contains "chat_template" key
+        # like this in qwen2-7b-chat:
+        # "chat_template": "{% for message in messages %}{% if loop.first and messages[0]['role'] != 'system' %}{{ '<|im_start|>system\nYou are a helpful assistant<|im_end|>\n' }}{% endif %}{{'<|im_start|>' + message['role'] + '\n' + message['content'] + '<|im_end|>' + '\n'}}{% endfor %}{% if add_generation_prompt %}{{ '<|im_start|>assistant\n' }}{% endif %}",
+
+
+        ##chat template
+        # messages = [{'role': 'system', 'content': 'You are a helpful assistant.'},
+        #         {'role': 'user', 'content': user_description_1 + '上面材料是一份个人简历，从文本中整理出如下字段，分别是：[大致年龄] [服役时长] [学历和学位] [个人荣誉] [培训经历] [指挥经历] [基层经历] [参与任务]，分别列出答案；[大致年龄]、[服役时长]以数字回答；从[学历和学位]中判断此人是否为高学历；剩余指标从[丰富/中等/较少]中做出评价'
+        #         }]
+
+        # response = client.chat.completions.create(
+        #     model="selected_20%",
+        #     # model="Qwen1.5-7B-Chat",
+        #     # model="Qwen1.5-32B-Chat-AWQ",
+        #     messages=messages,
+        #     stream=False,
+        #     max_tokens=2048,
+        #     temperature=0.9,
+        #     presence_penalty=1.1,
+        #     top_p=0.8)
+
         completion = client.completions.create(
-            model="llama2_7b_hf_classfier_only_20%",
+            model="selected_20%_llama3.1_8b",
             prompt=prompt,
             temperature=0.7,
             max_tokens=400,
@@ -134,8 +157,8 @@ with open(test_json_file, 'r') as file:
             print("Error!")
 
 # 将结果写回文件
-with open('/gluster_pdc_llm/user/songjielin/extracted_120k_data/seletced_classifier_only_data/20%_data_decode/self_instruct_test_decode.json', 'w') as file:
-    json.dump(data, file, ensure_ascii=False, indent=4)
-
-# with open('/gluster_pdc_llm/user/songjielin/extracted_120k_data/selected_diversity_1600_data/all_seleted_output_decode.json', 'w') as file:
+# with open('/gluster_pdc_llm/user/songjielin/WizardLM/selected_20%_data_finetune/self_instruct_test_decode.json', 'w') as file:
 #     json.dump(data, file, ensure_ascii=False, indent=4)
+
+with open('/gluster_pdc_llm/user/songjielin/extracted_120k_data/selected_20%_data/model_output_1024_llama3.1_8b/Vicuna_test_decode.json', 'w') as file:
+    json.dump(data, file, ensure_ascii=False, indent=4)
