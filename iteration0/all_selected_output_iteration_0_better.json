@@ -1,0 +1,312 @@
+[
+    {
+        "instruction": "Season nine of \"South Park\", an American animated television series created by Trey Parker and Matt Stone, began airing on March 9, 2005. The ninth season concluded after 14 episodes on December 7, 2005. All of the episodes in the ninth season were written and directed by Trey Parker. \n\nQuestion: Does this imply that \"The character Kenny from South Park has never died.\"? Yes, no, or maybe?",
+        "input": "",
+        "output": "Maybe. The information provided does not relate to Kenny's character, so it is not possible to make a direct inference about his mortality."
+    },
+    {
+        "instruction": "The US stock market fell by 800 points today due to concerns over the ongoing trade war with China. \n@highlight\nIdentify the causes of the US stock market downturn. ",
+        "input": "",
+        "output": "The US stock market fell by 800 points due to concerns over the ongoing trade war with China."
+    },
+    {
+        "instruction": "Given a code snippet, identify the size of the file.",
+        "input": "// This file was procedurally generated from the following sources:\n// - src/dstr-assignment/array-elem-trlg-iter-list-nrml-close-skip.case\n// - src/dstr-assignment/default/for-of.template\n/*---\ndescription: IteratorClose is not invoked when evaluation of AssignmentElementList exhausts the iterator (For..of statement)\nesid: sec-for-in-and-for-of-statements-runtime-semantics-labelledevaluation\nes6id: 13.7.5.11\nfeatures: [Symbol.iterator, destructuring-binding]\nflags: [generated]\ninfo: |\n    IterationStatement :\n      for ( LeftHandSideExpression of AssignmentExpression ) Statement\n\n    1. Let keyResult be the result of performing ? ForIn/OfHeadEvaluation(« »,\n       AssignmentExpression, iterate).\n    2. Return ? ForIn/OfBodyEvaluation(LeftHandSideExpression, Statement,\n       keyResult, assignment, labelSet).\n\n    13.7.5.13 Runtime Semantics: ForIn/OfBodyEvaluation\n\n    [...]\n    4. If destructuring is true and if lhsKind is assignment, then\n       a. Assert: lhs is a LeftHandSideExpression.\n       b. Let assignmentPattern be the parse of the source text corresponding to\n          lhs using AssignmentPattern as the goal symbol.\n    [...]\n\n    ArrayAssignmentPattern :\n        [ AssignmentElementList , Elisionopt AssignmentRestElementopt ]\n\n    [...]\n    3. Let iteratorRecord be Record {[[iterator]]: iterator, [[done]]: false}.\n    4. Let status be the result of performing\n       IteratorDestructuringAssignmentEvaluation of AssignmentElementList using\n       iteratorRecord as the argument.\n    5. If status is an abrupt completion, then\n       a. If iteratorRecord.[[done]] is false, return IteratorClose(iterator,\n          status).\n       b. Return Completion(status).\n\n---*/\nvar nextCount = 0;\nvar returnCount = 0;\nvar iterable = {};\nvar thrower = function() {\n  throw new Test262Error();\n};\nvar x;\nvar iterator = {\n  next: function() {\n    nextCount += 1;\n    return { done: true };\n  },\n  return: function() {\n    returnCount += 1;\n  }\n};\niterable[Symbol.iterator] = funct",
+        "output": "2200"
+    },
+    {
+        "instruction": "You are given two lists, A and B. Your task is to find out whether list A is a subset of list B or not?",
+        "input": "Set A = [9, 3, 7] \nSet B = [1, 2, 9 ,3 ,7].",
+        "output": "true"
+    },
+    {
+        "instruction": "What is a verb?",
+        "input": "",
+        "output": "A verb is an action word that describes an activity.  Examples of verbs are the following: swimming, hiking, biking, roller skating, or skydiving.  All of these single and combination word examples are tied to an activity that any living thing can do.  For example, a dog can bike ride with a human when the human is pedaling the bike.  Verb use is not limited to humans or people only but applies to all living things."
+    },
+    {
+        "instruction": "Given a word, create an anagram of that word.",
+        "input": "teachers.",
+        "output": "'A'"
+    },
+    {
+        "instruction": "What are the best 5 movies that have been released in the last 2 years? output 1-5 for each movie.",
+        "input": "Movie: Mad Max: Fury Road",
+        "output": "3"
+    },
+    {
+        "instruction": "Write a text about your opinions on the following movie.",
+        "input": "Movie: The Matrix",
+        "output": "I think the movie is very interesting and exciting. It has a lot of action, but it also has some philosophical questions about reality. I like how the movie makes you think about what is real and what is not."
+    },
+    {
+        "instruction": "You are given an array of size N. The array contains integers that range from 1 to N + 1. In addition, there is a single integer that is duplicate in the array. Your task is to find the duplicate integer and print it on the console.",
+        "input": "[3, 4, 5, 2, 6, 7, 8].",
+        "output": "The duplicate integer is 2."
+    },
+    {
+        "instruction": "Write down a few ways of finding duplicates in an array.",
+        "input": "Method 1: Use a hash table to store the elements of the array. When you add an element, check if it is already in the hash table. If yes, return true. Otherwise, add it to the hash table and return false.",
+        "output": "def findDuplicates(arr):\n    d = {}\n    for i in range(len(arr)):\n        if arr[i] in d:\n           return True\n    else:\n        d[arr[i]] = True\n    return False"
+    },
+    {
+        "instruction": "You are given a couple of recipes. Your task is to find out whether you can cook both the dishes using the same set of ingredients, and if so, in how many steps.",
+        "input": "1) 3 eggs 2) 1/2 cup milk 3) 1 cup flour 4) 3 tbsp sugar 5) 1 tsp vanilla extract 6) 1/4 tsp salt 7 chocolate chips (optional); 8 vegetable oil or butter \n1) Preheat oven at 350 degrees F (175 degrees C). Grease and flour one 9x13 inch baking pan. \n2) Beat together eggs, milk, flour, sugar, vanilla extract and salt. Stir in chocolate chips if desired. Pour batter into prepared pan. \n3)) Bake at 350 degrees F (175 degrees C), for 30 minutes or until cake tests done when touched lightly in center with finger.\n4 margarine; 5 white sugar; 6 eggs; 7 all-purpose flour; 8 baking powder; 9 salt; 10 milk; 11 vanilla extract\n1Preheat oven to 375 degrees F (190 degrees C). Grease an 8x8 inch baking dish.' \n2Cream margarine or butter and sugar until fluffy. Add eggs and beat well.' \n3Sift together flour, baking powder and salt then add to creamed mixture alternately with milk.' \n4Stir in vanilla extract then pour batter into prepared dish.' \n5Bake 25 minutes in the preheated oven,'until golden brown on top.\".",
+        "output": "Yes\n8"
+    },
+    {
+        "instruction": "In this task, you are given an article. Your task is to classify it into one of the 4 categories: 'politics', 'entertainment', 'sports' or 'others'.",
+        "input": "Suspected criminals will be forced to hand over passwords to social media accounts under new plans being drawn up by Theresa May, The Telegraph understands.\nThe Home Secretary believes that giving police and security services access to messaging apps such as WhatsApp and iMessage would help foil plots at home and abroad.",
+        "output": "politics"
+    },
+    {
+        "instruction": "Is this a piece of news regarding world politics, sports, business, or science and technology?\nApple to Unveil its Latest iPhone Model Today",
+        "input": "",
+        "output": "Science and technology."
+    },
+    {
+        "instruction": "President Biden Announces New Infrastructure Bill\n\nWhich topic is this article about?\nOPTIONS:\n- World\n- Sports\n- Business\n- Science/Tech",
+        "input": "",
+        "output": "Business."
+    },
+    {
+        "instruction": "Describe a complicated concept in simple words.",
+        "input": "The concept of a Turing machine.",
+        "output": "A Turing machine is an abstract model of computation that defines a machine that manipulates symbols on a strip of tape according to a table of rules."
+    },
+    {
+        "instruction": "Take a set of points on a plane. classify them into four categories: circle, square, triangle, diamond.",
+        "input": "Point: (5, 6)",
+        "output": "Triangle"
+    },
+    {
+        "instruction": "Imagine that you're an author and write a book review.",
+        "input": "Book: Harry Potter and the Philosopher's Stone by J. K. Rowling\nReview: This book is a fantasy novel written by British author J. K. Rowling. It was first published in 1997 by Bloomsbury in London. The main character is Harry Potter, a young wizard who discovers on his eleventh birthday that he is the orphaned son of two powerful wizards and possesses unique magical powers of his own.",
+        "output": "This book is a fantasy novel written by British author J. K. Rowling. It was first published in 1997 by Bloomsbury in London. The main character is Harry Potter, a young wizard who discovers on his eleventh birthday that he is the orphaned son of two powerful wizards and possesses unique magical powers of his own."
+    },
+    {
+        "instruction": "Given two images, determine whether the two images are of the same object.",
+        "input": "Two pictures of a book.",
+        "output": "Yes"
+    },
+    {
+        "instruction": "You are given two books, and your task is to decide whether or not it is possible for the first book to be placed on top of the second book. The order of the books does not matter.",
+        "input": "Book 1: 8.5in x 11in, Book 2: 6in x 9in.",
+        "output": "False"
+    },
+    {
+        "instruction": "You are given a book review. Your task is to predict the rating of the book on a scale of 1-10, where 1 indicates 'Did not like it' and 10 indicates 'It was amazing'.",
+        "input": "They say never judge a book by its cover, but first impressions count for something. In Jhumpa Lahiri's case, her physical appearance leads us to believe that she would be more at home in Kolkata than Rhode Island.\nThe story itself deals with love, marriage and cultural differences experienced when an Indian woman called Asha leaves India to marry an American man called Amar (in arranged circumstances).\nI enjoyed this novel immensely as I could relate to many aspects of it - being brought up in Britain with strict traditional Hindu parents whilst also trying to keep one foot in the western world too.",
+        "output": "8"
+    },
+    {
+        "instruction": "Given a list of friends, find out which friend is most likely to be interested in your product. output their name and probability.",
+        "input": "Probability: 0.8",
+        "output": "John"
+    },
+    {
+        "instruction": "What is a data pipeline?",
+        "input": "",
+        "output": "A data pipeline is a means of moving data from the data source to a destination. Along the way, data is transformed and enriched, arriving in a cleaner, more organized state. As a result, organizations are able to use that data to achieve their intended outcomes."
+    },
+    {
+        "instruction": "Given a list of countries, give me the top 10 most visited cities in each country.",
+        "input": "List of countries: France, Germany, Italy, Spain, United Kingdom, Canada, Australia, Brazil, Russia, India",
+        "output": "Paris"
+    },
+    {
+        "instruction": "List three countries that have a population of more than 100 million people.",
+        "input": "",
+        "output": "The three countries with a population of more than 100 million people are China, India, and the United States."
+    },
+    {
+        "instruction": "In this case, we have two sentences, each with its own meaning. the task is to compare them and say which one is better (or more appropriate). for example: \"i like apple\" vs \"apple tastes good\".",
+        "input": "Sentence 1: I like apple.\nSentence 2: Apple tastes bad.",
+        "output": "worse"
+    },
+    {
+        "instruction": "What are the top 5 companies by market cap (in us dollars)?",
+        "input": "",
+        "output": "Apple, Alphabet, Microsoft, Amazon, Facebook"
+    },
+    {
+        "instruction": "Answer true or false based on the given statement.",
+        "input": "Statement: The sum of the squares of two positive integers is always greater than the larger integer.",
+        "output": "True"
+    },
+    {
+        "instruction": "You will be given a paragraph of text followed by several questions. For each question, you need to determine if the answer is found in the text or not (based on your reading comprehension). Output your answers as True or False - if it is true that the answer can be found in the text, output True, otherwise output False.",
+        "input": "Text: Mark Zuckerberg founded Facebook in 2004 from his Harvard University dorm room. The social media website was launched to fellow students before being made available to everyone aged 13 and over with a valid email address. Facebook became an instant hit, growing rapidly throughout 2005 and 2006. By 2007, it had reached one hundred million active users; by 2010 this figure had risen to six hundred and fifty-five million; and today there are over two billion active users worldwide\nQuestion 1: Is Facebook only available to people aged 13 years and older?",
+        "output": "True"
+    },
+    {
+        "instruction": "You are given four different sets of three consecutive positive integers. Your task is to determine whether or not all three numbers in each set could be the sides of a right triangle.",
+        "input": "3, 4, 5; 5, 12, 13; 8, 15, 17; 24, 25, 26.",
+        "output": "True"
+    },
+    {
+        "instruction": "Tell me if the text contains any numbers. if it does then output their frequency.",
+        "input": "Text: The number of people who attended the meeting was 100.",
+        "output": "No"
+    },
+    {
+        "instruction": "Describe your reaction to the news that a German supermarket chain Aldi will open a Rockville location in 2018. Respond in 170 words.",
+        "input": "",
+        "output": "German supermarket chain Aldi will open a Rockville location in 2018. The grocery store will be located in part of the former Circuit City space in the Congressional North shopping center. Aldi has opened several stores in Montgomery County, most recently in the Montgomery Hills area of Silver Spring.\nWHAT?!? OMGoodness! This too close for comfort! I can hardly wait! Parking is going to be crazy during the holidays, but this is good news still!\nIt is not at the old Circuit City..that is Golds Gym it is by Best Buy and Staples. It is at the sight of an old electronics store.\nWasn't hhgregg in the former Circuit City space, and is now becoming Aldi? Or is this a case of the Mandela Effect? hhgregg stores frequently opened in old Circuit City stores after they folded, this being one of them.\nToo bad Aldi stores in Montgomery county don't sell alcohol.\nI regularly buy alcohol at Aldis in VA and prices are very low for decent beers and wines."
+    },
+    {
+        "instruction": "What is the title of this article:\n\nOn 11 June 2009, four Uyghurs who had been held in the United States Guantánamo Bay detention camp, in Cuba, were transferred to Bermuda. The four men were among 22 Uyghurs who claimed to be refugees, who were captured in 2001 in Pakistan after fleeing the American aerial bombardment of Afghanistan. They were accused of training to assist the Taliban's military. They were cleared as safe for release from Guantánamo in 2005 or 2006, but US domestic law prohibited deporting them back to China, their country of citizenship, because the US government determined that China was likely to violate their human rights.",
+        "input": "",
+        "output": "The title of this article is not provided."
+    },
+    {
+        "instruction": "Given two phrases, determine if the first phrase is a paraphrase of the second. A paraphrase is a restatement of the same information using different words.",
+        "input": "Phrase1: The restaurant provides an enjoyable experience<sep>Phrase2: You will have fun at this eatery.",
+        "output": "Yes"
+    },
+    {
+        "instruction": "Would you like to work here?",
+        "input": "Question: Would you like to work here?",
+        "output": "Yes"
+    },
+    {
+        "instruction": "Given that a new study published in BMJ Open stated that individuals who eat more fruits and vegetables are less likely to die from any cause. Analysis of the data showed that participants who ate at least seven portions of fruits and vegetables each day had a 33% lower risk of death than those who ate less than one portion. Does it follow that eating fruits and vegetables reduces the risk of premature death? Yes or no?",
+        "input": "",
+        "output": "Yes."
+    },
+    {
+        "instruction": "Do you think that online dating is a good way to meet new people?",
+        "input": "",
+        "output": "Yes, I think it is a good way to meet new people.\nNo, I don't think so."
+    },
+    {
+        "instruction": "You will be given a piece of text about an event that happened. Your job is to decide if the event is something that could have realistically happened ('Real'), or not ('Not Real').",
+        "input": "Text: I was walking on the street and saw a giant rabbit.",
+        "output": "Not Real"
+    },
+    {
+        "instruction": "Which category best describes the following question: What are the cookies in Internet ? \n\nChoose from the following list: \nDescription, Entity, Abbreviation, Person, Quantity, Location",
+        "input": "",
+        "output": "Description."
+    },
+    {
+        "instruction": "In this task, you are given three entities: an event (E), a person (P), and an object/location (O). Your task is to determine whether the given event happened at the same time as the person was using/at the object/location. For example, if E is \"brush teeth\" and P is \"PersonX\", and O is \"toothbrush\", then the answer would be yes because PersonX was using a toothbrush while brushing their teeth. However, if E is \"sleeping\" and P is \"PersonY\" and O is \"couch\", then the answer would be no because PersonY wasn't using the couch while sleeping; they were just on it.",
+        "input": "Event1: take out trash<sep>Event2: eat breakfast<sep>Entity1: Tuesday morning<sep>Entity2: outside.",
+        "output": "No"
+    },
+    {
+        "instruction": "What is the coldest place on Earth to live?",
+        "input": "",
+        "output": "The coldest place on Earth to live is Yakutsk in Siberia."
+    },
+    {
+        "instruction": "Respond in 1 sentences. What events were held at the 2014 Asian Games?",
+        "input": "",
+        "output": "The women's team competition at the 2014 Asian Games in Incheon, South Korea was held from 25 September to 28 September at the Dream Park Country Club."
+    },
+    {
+        "instruction": "Write a short essay about the following topic: \"is it possible to be completely objective?\"",
+        "input": "Topic: Is it possible to be completely objective?",
+        "output": "It is impossible to be completely objective. We are all biased in some way, and we can never escape that bias. However, it is possible to be more objective than others. For example, if you have a friend who is very opinionated about politics, you might try to avoid talking about politics with him or her. This will help you to avoid being influenced by your friend's opinions."
+    },
+    {
+        "instruction": "Write a letter to the given person.",
+        "input": "Person: A friend\nLetter: Dear [Friend],\nI am writing to you because I have decided to leave the country. I’ve enjoyed my time here, and appreciate all that you’ve done for me. However, after careful consideration, I’ve decided to pursue other opportunities.",
+        "output": "Thank you so much for your time and consideration."
+    },
+    {
+        "instruction": "Describe a person based on his/her personality traits.",
+        "input": "",
+        "output": "Person: My boss is very strict and demanding. She never hesitates to criticize my work. She is also very impatient and doesn't like to repeat herself."
+    },
+    {
+        "instruction": "A person wants to buy something at a store but doesn't know what he or she needs. please help this person by telling him/her what they need.",
+        "input": "Person: I want to buy a new pair of shoes.",
+        "output": "You need a pair of shoes."
+    },
+    {
+        "instruction": "You are provided with a paragraph that contains information on two different individuals. Read through the paragraph and answer the questions about each individual by classified their answers as 0 (False) or 1 (True).",
+        "input": "Passage: He had been quite successful in his profession, but now he was retired and living on a small pension. She, on the other hand, was still working part-time to supplement her income from Social Security. Question: Is she retired?",
+        "output": "0"
+    },
+    {
+        "instruction": "Question left open: How do I store my vinyl records?\n\nShould I store my vinyl records side by side or in piles?\nThis looks more like a Music SE question than a Music Fans SE question.  I flagged/voted for closure but it is left open when the review was completed.\nCan this question please be closed?\n\nA:\n\nSome topics may be on-topic on more than one site, but that does not mean a question has to be marked as off-topic if it is asked in a sub-optimal site.\nIn this particular case, I actually think that Music Fans SE is the more optimal site for the question under discussion. As such, I had voted to \"Leave Open\" when it appeared in the review queue.\nI also just noticed that the question was in the Close Votes Review Queue again. I'd advise not repeatedly flagging/voting for closure if the review has been completed. If your flag/vote is aged away, then it makes sense to repeat it, but this way you're only increasing the number of tasks the community members have to perform for no good reason.\n\nI'd like to add that our Help section on what is on-topic does not explicitly mention that some questions can be a good fit on more than one site. This is possibly because the only other site where a question is likely to be on-topic is Music SE. But, contrast this with the corresponding help section on Mathematics SE—it has a detailed subsection titled What might be better asked elsewhere. Perhaps we can add similar details to our help section as well, should the need arise.",
+        "input": "",
+        "output": "This question would fit on either of the two sites, but it's probably a better fit here. You flagged it for closure and you were outvoted. There is very little sense in immediately re-flagging it as you have done. The result will almost certainly be the same."
+    },
+    {
+        "instruction": "A journalist is writing an article about the effects of social media on teenagers. He interviews a number of experts and compiles their responses. Some of the responses are contradictory. You need to identify which response supports the idea that social media has negative effects on teenagers, and which one refutes it.",
+        "input": "Social media can be harmful because it exposes teens to too much unsupervised activity at too young an age, said Dr XYZ from ABC institute.\nSocial media can have positive effects on teens by helping them connect with friends who share similar interests, said Dr XYZ from ABC institute.",
+        "output": "agree\ndisagree"
+    },
+    {
+        "instruction": "Describe how would you solve the problem if you were me.",
+        "input": "Problem: You are given a string and you need to count how many times each letter appears in the string.",
+        "output": "class Solution(object):\n    def countLetters(self, s):\n        counts = {}\n        for c in s:\n        if c not in counts:\n        counts[c] = 1\n        else:\n        counts[c] += 1\n    return counts"
+    },
+    {
+        "instruction": "Given a premise and a label, generate a hypothesis that is either neutral, entailment, or contradiction.",
+        "input": "premise is 'On Titan, rain and clouds are most likely made up of liquid methane, not water.'. label is 'neutral'. ",
+        "output": "Rain is an example of liquid water."
+    },
+    {
+        "instruction": "How to be happy?",
+        "input": "",
+        "output": "To be happy for 1 hour   ----  sleep\nTo be happy for 3 hours  ----  go to cinema\nTo be happy for 1 day    ----  go to picnic\nTo be happy for lifetime  ----  Love your work."
+    },
+    {
+        "instruction": "Find all the names mentioned in the article and output them with their corresponding number of mentions.",
+        "input": "Article: The Golden State Warriors have won the NBA championship for the second year in a row.",
+        "output": "(b)"
+    },
+    {
+        "instruction": "Tell me if this article contains any of the following keywords: ai, machine learning, nlp, data science, deep learning, neural networks, computer vision, robotics, self driving car, etc.",
+        "input": "Article: The latest version of Apple's mobile operating system is now available for download.",
+        "output": "No"
+    },
+    {
+        "instruction": "Detect spam email using n-grams and bayesian classifier.",
+        "input": "Email: Hi, I'm interested in your product. Can you please send me more information?",
+        "output": "Not spam"
+    },
+    {
+        "instruction": "Find all sentences that contain a verb and output the sentence index.",
+        "input": "Sentence: I went to the movies yesterday.",
+        "output": "Verb"
+    },
+    {
+        "instruction": "Rearrange the given sentence to form a new sentence with the same meaning.",
+        "input": "The athlete is preparing to run the 1000 metre track race.",
+        "output": "Put the concepts together to form a sentence: athlete, prepare, run."
+    },
+    {
+        "instruction": "You are provided with a text file. Your task is to read the contents of the file, reverse its characters, and write the reversed text to an output file.",
+        "input": "The quick brown fox jumps over the lazy dog.",
+        "output": "god yzal eht revo spmuj xof nworb kciuq."
+    },
+    {
+        "instruction": "You are given an English text and your task is to find the most frequent words in it. The output should be case-sensitive, so do not convert the words to lowercase before counting them.",
+        "input": "The quick brown fox jumps over the lazy dog.",
+        "output": "The\nquick\nbrown\nfox\njumps\nover\nthe\nlazy\ndog."
+    },
+    {
+        "instruction": "Write a sentence about a restaurant with all the following attributes: name = The Punter, eatType = restaurant, food = Fast food, priceRange = more than £30",
+        "input": "",
+        "output": "The Punter is a fast food restaurant that offers meals at a price range of more than £30."
+    },
+    {
+        "instruction": "Make a list of healthy food items to eat at home.",
+        "input": "",
+        "output": "- Broccoli\n- Spinach"
+    },
+    {
+        "instruction": "In this task, you will be given a list of Yelp review snippets. For each snippet, your job is to guess whether the customer had a good experience or not.",
+        "input": "The food was amazing and I loved the service!",
+        "output": "Yes"
+    },
+    {
+        "instruction": "In this task, you are given a sequence of words and another word. The job is to determine if the second word can be created using the letters from the first sequence of words. Letters can only be used once and case does not matter.",
+        "input": "red apple<sep>padre.",
+        "output": "Yes"
+    }
+]
